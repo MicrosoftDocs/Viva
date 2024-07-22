@@ -316,6 +316,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/org-team-insights/copilot-dashboard-advanced-features.md",
+      "redirect_url": "/viva/insights/org-team-insights/copilot-dashboard",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/use/viva-insights-my-org.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false

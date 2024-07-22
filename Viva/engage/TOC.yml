@@ -4,7 +4,7 @@
    items:
    - name: Get started with Viva Engage
      items:    
-     - name: Setup
+     - name: Set up Viva Engage
        href: setup.md
      - name: Deep linking into Viva Engage
        href: deeplinks.md
