@@ -1,12 +1,12 @@
 ---
-title: "Microsoft 365 Copilot adoption community in Viva Engage (Private Preview)"
+title: "Microsoft 365 Copilot adoption community in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 04/12/2024
+ms.date: 07/19/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -18,21 +18,18 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Viva Engage rolls out a Copilot adoption community to share best practices and answer user questions"
+description: "Viva Engage rolls out a Copilot adoption community to answer questions and share best practices"
 ---
 
-# Microsoft 365 Copilot adoption community in Viva Engage (Private Preview)
+# Microsoft 365 Copilot adoption community in Viva Engage
 
->[!IMPORTANT]
->This feature is currently available only for private preview customers. The features described here are subject to change.
-
-Network admins and corporate communicators can now enable a new type of Viva Engage community specifically built to support adoption of Microsoft 365 Copilot.
+Network admins and corporate communicators can enable a Viva Engage community specifically built to support adoption of Microsoft 365 Copilot.
 The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
 
-A discoverable banner in the home feed provides access for network admins and corporate communicators who have setup privileges for this feature.
+Network admins and corporate communicators can access configuration settings through a discoverable banner in their home feed.
 
 >[!NOTE]
->The **Microsoft 365 Copilot adoption community** is only available in Viva Engage premium on tenants that have Microsoft 365 Copilot licenses through one of the following [service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot): Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams.
+>The **Microsoft 365 Copilot adoption community** is only available in Viva Engage tenants that have Microsoft 365 Copilot licenses through one of the following [service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot): Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams.
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
@@ -40,8 +37,16 @@ This new community type includes onboarding prompts and a community template.
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-landing-plus-modal.png" alt-text="Screenshot shows the landing page where you can create the Microsoft 365 Copilot adoption community.":::
 
-## Accept community presets for easy setup 
+## Create your adoption community  
 
+You have two options for creating a Copilot adoption community in Viva Engage.
+
+- Accept the configuration presets to **create a new community**, or
+
+- Apply the adoption features to an **existing community**.
+  This second option has no impact on existing content and customizations (such as, name, banner image) in the selected community. However, it does add new features: a setup checklist, suggested members and content, top Q&A, and conversation starters.
+
+Update the image for this section and next step (something like this) 
 Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and ongoing community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
 
 >[!NOTE]
@@ -76,8 +81,6 @@ To help the community grow, upskill, and share knowledge, the Copilot adoption c
 
 ### Features available by Viva Engage role
 
-To access these community features, admins and users must have either a Viva Suite license or a Communications & Communities license.
-
 | Role | Features |
 |--------|------------|
 |Network admins|<ul><li>Home feed banner for setup</li><li>Network admin settings page banner</li><li>Community creation flow</li></ul>|
@@ -89,11 +92,7 @@ To access these community features, admins and users must have either a Viva Sui
 
 **Will I see this feature in my network?**
 
-The banner in the home feed shows for all network admins and corporate communicators in Viva Engage tenants with Microsoft 365 Copilot licenses.
-
-**Can I connect to an existing community that we've already set up for Microsoft 365 Copilot adoption?**
-
-There's no way to connect communities at this time.
+The banner in the home feed shows up for all network admins and corporate communicators in Viva Engage tenants with Microsoft 365 Copilot licenses.
 
 **Will these features be available for other communities?**
 
