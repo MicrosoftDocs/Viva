@@ -45,6 +45,12 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 - **Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to.
 - **Resources:** The Resources experience enables way finding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
+> [!NOTE]
+>
+> Starting **September 1, 2024**, the Feed for Viva Connection web part and the Video news link will be removed and unavailable for SharePoint site owners to add to their sites. On **November 5, 2024**, any existing Feed for Viva Connections web parts and Video news links will be removed from site pages, will become empty, and no longer display content.
+>
+> Site owners are encouraged to use the [News](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_sitenews), [Viva Engage](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da#highlights), [File and Media](/stream/streamnew/portals-single-video), and [Highlighted content](/stream/streamnew/portals-set-of-videos) web parts as alternatives to using the Feed for Viva Connections web part and the Video news link. For more information, refer to the [Viva Connections Feed web part retirement support guidance documentation](feed-web-part-video-news-link-retirement.md).
+
 >
 | Desktop              | Mobile              |
 | :------------------- |:------------------- |

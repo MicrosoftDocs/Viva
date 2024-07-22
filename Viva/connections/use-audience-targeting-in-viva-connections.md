@@ -74,6 +74,12 @@ Create a personalized experience by targeting dashboard cards to specific audien
 
 ## Apply audience targeting to news posts that will display in the feed  
 
+> [!NOTE]
+>
+> Starting **September 1, 2024**, the Feed for Viva Connection web part and the Video news link will be removed and unavailable for SharePoint site owners to add to their sites. On **November 5, 2024**, any existing Feed for Viva Connections web parts and Video news links will be removed from site pages, will become empty, and no longer display content.
+>
+> Site owners are encouraged to use the [News](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_sitenews), [Viva Engage](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da#highlights), [File and Media](/stream/streamnew/portals-single-video), and [Highlighted content](/stream/streamnew/portals-set-of-videos) web parts as alternatives to using the Feed for Viva Connections web part and the Video news link. For more information, refer to the [Viva Connections Feed web part retirement support guidance documentation](feed-web-part-video-news-link-retirement.md).
+
 Apply audience targeting to [SharePoint news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) helps surface individual news posts within the Feed. Content that displays in the Viva Connections Feed is aggregated from a few sources – posts from official organizational news sites, [news that has been boosted,](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83#:~:text=%20%20%201%20On%20your%20organization%20news,the%20order%20in%20which%20they%20should...%20More%20) and video news posts. [Learn more about how content is sourced and ranked in the Viva Connections Feed.](faqs-viva-connections-feed.md)
 
 1. Start from the site where the news is published. Select **Settings**, then **Site contents**.
