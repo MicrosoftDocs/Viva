@@ -35,7 +35,7 @@ Network admins and corporate communicators can access configuration settings thr
 
 This new community type includes onboarding prompts and a community template.  
 
-:::image type="content" source="../media/engage/admin/engage-copilot-adoption-landing-plus-modal.png" alt-text="Screenshot shows the landing page where you can create the Microsoft 365 Copilot adoption community.":::
+:::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
 
 ## Create your adoption community  
 
