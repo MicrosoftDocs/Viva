@@ -42,7 +42,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience."lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience." lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
 
 **Announcements:** Announcements from the organization display at the top of the Viva Connections experience and convey time-sensitive information to employees.
 
@@ -77,22 +77,25 @@ If you're setting up Viva Connections for the first time, only owners of the Sha
 If your organization created [multiple Connections experiences](/viva/connections/viva-connections-overview#viva-connections-allows-for-multiple-home-sites-across-multiple-experiences), you can switch between enabled and draft experiences from within Connections in order to edit them.
 
 1. Navigate to the Viva Connections app in Teams.
+
 2. Select the **ellipsis** in the upper-right of your experience.
+
 3. Then select **Switch Experience**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted."lightbox="../media/connections/edit-viva-home/vc3-switch-experience.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted.":::
 
-> [!NOTE]
-> 
-> Only users with edit privileges will be able to see the Switch Experience option in the menu.
+   > [!NOTE]
+   >
+   > Only users with edit privileges will be able to see the Switch Experience option in the menu.
 
 4. A list of created experiences display along with their status (enabled or draft). Select an **Experience** to switch to.
+
 5. Select **Switch**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status.":::
 
 > [!NOTE]
-> 
+>
 > Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 #### Give permission to edit from Viva Connections in Teams
@@ -100,10 +103,15 @@ If your organization created [multiple Connections experiences](/viva/connection
 If you're setting up Viva Connections for the first time, navigate to the Viva Connections app in Teams to assign owners and members who can edit the Viva Connections desktop experience.
 
 1. Navigate to the Viva Connections app in Teams.
+
 2. Select the **ellipsis** in the upper-right of your experience.
+
 3. Then select **Manage access**.
+
 4. Select **Grant access**.
+
 5. Under **Site Access** add users and select their level of permission from visitor, member, or owner.
+
 6. Select **Add**.
 
 #### Choose default cards for the intended audience
@@ -132,7 +140,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 ### Summary of customizable elements
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be edited."lightbox="../media/connections/edit-viva-home/vc3-customizable-elements.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be edited." lightbox="../media/connections/edit-viva-home/vc3-customizable-elements.png":::
 
 1. **App icon and label in the Teams app bar:** Customize the app name and label in the [Teams admin center](add-viva-connections-app.md).
 
@@ -148,18 +156,15 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 7. **Resources:** Create a list of navigational links and icons to useful sites and information.
 
-### Summary of non-customizable elements
+### Summary of noncustomizable elements
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited." lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
 8. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
 
 9. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
 
 10. **Scoped Search**: Users can search within Viva Connections when using the search bar while in the Connections experience. As users type, the option to search for results within Connections (or Teams) displays.
-
-    > [!NOTE]
-    > Scoped search in the new Teams client is not available for GCC and GCC High customers, and will be made available with a future update.
 
 11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
 
@@ -175,7 +180,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 >
 > The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
 
-Your organization’s Viva Connections app can display a custom icon and label in the Teams app bar. This customization takes place in the Teams admin center, which requires Teams admin permissions or higher. It's recommended that you also apply app settings that [pre-pin and pre-install the app](/microsoftteams/teams-app-setup-policies). Doing so makes sure people in your organization can more easily discover the Viva Connections app and start using it. Learn more about [customizing the Viva Connections icon, label, and app settings](add-viva-connections-app.md).
+Your organization’s Viva Connections app can display a custom icon and label in the Teams app bar. This customization takes place in the Teams admin center, which requires Teams admin permissions or higher. It's recommended that you also apply app settings that [prepin and preinstall the app](/microsoftteams/teams-app-setup-policies). Doing so makes sure people in your organization can more easily discover the Viva Connections app and start using it. Learn more about [customizing the Viva Connections icon, label, and app settings](add-viva-connections-app.md).
 
 ## Customize announcements
 
@@ -215,7 +220,7 @@ You can add a link to any source of content (blog, post, site, etc.) to display 
 
 2. In the Spotlight settings, select **Pin item**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-spotlight-settings.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane.":::
 
 3. The **Pin an item** panel appears. In the **Link** field, enter the URL of the SharePoint news post or external source.
 
@@ -227,7 +232,7 @@ You can add a link to any source of content (blog, post, site, etc.) to display 
 
 5. Select **Add** to add your pinned item and return to the spotlight settings.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-pin-item.png" alt-text="Screenshot of the pin an item settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-pin-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-pin-item.png" alt-text="Screenshot of the pin an item settings property pane.":::
 
 6. Select **Save** to save your changes and close the spotlight settings pane.
 
@@ -239,17 +244,17 @@ You can make changes to existing pinned links or rearrange the order that the pi
 
 2. Under **Pinned items**, select the **edit icon** for the pinned item you want to edit.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-edit-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted.":::
 
 3. Make any necessary changes to the link, title, image, or alternative text as needed. When finished, select **Update** to apply your changes.
 
 4. To reorder a pinned item, hover your mouse over the **six vertical dots** to the left of the item. Select and drag the item to its new location within your list of news items.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-move-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted.":::
 
 5. You can also reorder items by selecting the **three vertical dots** to the right of the item. Use the number field to indicate the new location for the item, then select **Update**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed."lightbox="../media/connections/edit-viva-home/spotlight-reorder-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed.":::
 
 6. When finished making your changes, select **Save**.
 
@@ -261,13 +266,13 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 2. Under SharePoint News, select a news source:
 
-    - **This site**: Only displays news posts that have been posted to this SharePoint home site.
-    - **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
-    - **Search all sites**: Search for a site by name or URL.
+   - **This site**: Only displays news posts that have been posted to this SharePoint home site.
+   - **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
+   - **Search all sites**: Search for a site by name or URL.
 
-> [!NOTE]
->
-> If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
+   > [!NOTE]
+   >
+   > If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
 
 3. If selecting a source other than your current site, extra sources display from available SharePoint sources:
 
@@ -279,7 +284,7 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 5. Select **Save** to save your changes.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites."lightbox="../media/connections/edit-viva-home/spotlight-sharepoint-news.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites.":::
 
 6. News from selected SharePoint sites will display after any pinned links and if there's space available.
 
@@ -300,25 +305,26 @@ To apply a SharePoint or custom theme:
 2. Select **Theme**.
 
 3. Make a selection from the list of available themes.
-    - Themes from your organization can't be customized.
-    - SharePoint themes from Microsoft can be customized.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
+   - Themes from your organization can't be customized.
+   - SharePoint themes from Microsoft can be customized.
 
-> [!NOTE]
-> 
-> - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
-> - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
+
+   > [!NOTE]
+   >
+   > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+   > - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
 
-    The home site color theme reflects automatically in the Viva Connections desktop experience.
+   The home site color theme reflects automatically in the Viva Connections desktop experience.
 
-> [!NOTE]
->
-> Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
->
-> :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
+   > [!NOTE]
+   >
+   > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+   >
+   > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 
 ## Customize the dashboard
 
@@ -339,38 +345,63 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Links in the Resources section can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources) and any edits made affect [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) as well.
+Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Operators and members can import navigational links from a SharePoint home site or global navigation bar, or create their own links, which can all be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md). Any edits made to the resource section will also show in [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
 >
-> Global navigation can be accessed by clicking on the **Connections** icon in the Teams app bar. [Refer to this document if you're setting up global navigation for the first time.](sharepoint-app-bar.md)
+> - Global navigation can be accessed by clicking on the **Connections** icon in the Teams app bar. [Refer to this document if you're setting up global navigation for the first time.](sharepoint-app-bar.md)
+> - You must manually save your changes when finished editing resource links.
 
 ### To edit Resources
 
 1. Start by selecting **Edit**.
 
-2. To add a new link, select **+ Add Link**.  
-
-   :::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing options to add a link, reorder links, or finish editing (done)."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+2. To add a new link, select **+ Add Link**.
 
 3. In the Add a Link window that opens, paste the link to the site in the **URL** field.
+
     - Only modern SharePoint sites and certain Microsoft 365 experiences display in Teams. All other types of content open in a separate browser window.
 
 4. Enter a **Display name**.
 
 5. Under Thumbnail, select a choice to represent your resource link.
-    - **Auto-selected**: the icon is generated based on the URL, if applicable (a link icon displays by default if one can't be auto-generated).
+
+    - **Auto-selected**: the icon is generated based on the URL, if applicable (a link icon displays by default if one can't be autogenerated).
+
     - **Icon**: choose an icon from a pre-existing list by selecting **edit icon**.
 
 6. To apply audience targeting to this resource, enter one or more Microsoft 365 groups in the **Audiences to target** field (up to 10 audiences can be targeted). Learn more about [audience targeting for resources](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources).
 
 7. Select **Save**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties."lightbox="../media/connections/edit-viva-home/atr-audiences-to-target.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties.":::
 
-8. The new resource will appear. If audience targeting is active, you’ll see an icon in the upper left of the resource link.
+8. The new resource appears. If audience targeting is active, you’ll see an icon in the upper left of the resource link.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link.":::
+
+9. Continue editing your resource links. When finished, select **Save** to confirm your changes.
+
+### Import SharePoint links  
+You can import navigational links from a SharePoint home site and the SharePoint global navigation bar into your resources.
+
+1. Start by selecting **Edit** in the Resources section of your Connections experience.
+
+2. Select **Import SharePoint links**.
+
+3. Select which navigation you want to **import from** (unavailable navigation is greyed out).
+
+4. Select which links to import.
+
+5. Select **Keep audience targeting** if you want to enable existing audience targeting settings for your selected imported links.
+
+6. Select **Import**.
+
+   :::image type="content" source="../media/connections/edit-viva-home/atr-import-sharepoint-links.png" alt-text="Screenshot of the Import properties panel.":::
+
+7. The selected links are added to your resources.
+
+8. Continue editing your resource links. When finished, select **Save** to confirm your changes.
 
 ### Edit an existing resource link
 
@@ -380,9 +411,13 @@ Resources provide links to the most popular portals and destinations at your org
 
 3. Select **Edit** to open the resource link and change its settings.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted.":::
 
-### Delete and existing resource link
+4. When finished editing the resource link, select **Save** in the edit link window.
+
+5. Continue editing your resource links. When finished, select **Save** to confirm your changes.
+
+### Delete an existing resource link
 
 1. Start by selecting **Edit** in the Resources section of your Connections experience.
 
@@ -390,19 +425,19 @@ Resources provide links to the most popular portals and destinations at your org
 
 3. Select **Delete**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-delete-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted.":::
 
 4. When asked to confirm, select **Delete**.
+
+5. Continue editing your resource links. When finished, select **Save** to confirm your changes.
 
 ### Reorder existing resource links
 
 1. Start by selecting **Edit** in the Resources section of your Connections experience.
 
-2. Select **Reorder**.
+2. Select a resource link and drag it to its new location.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing the option to reorder links."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
-
-3. Select a resource link and drag it to its new location.
+3. Continue editing your resource links. When finished, select **Save** to confirm your changes.
 
 ## Learn more about how to influence content in the feed
 
@@ -421,7 +456,7 @@ The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.
 The Viva Connections experience can be set in more than one language. Learn more about how [different elements of the experience can be edited to display in more than one language](viva-connections-language.md) and [how to create a multilingual dashboard](create-multilingual-dashboard.md).
 
 > [!NOTE]
-> 
+>
 > Viva Connections desktop applies the users’ SharePoint preferred language but not the Microsoft Teams language setting. However, for the mobile app, Viva Connections applies the device settings.
 
 ## Manage permissions
@@ -453,7 +488,7 @@ If you have owner permissions or higher, you can give access to new people and c
 If your organization already has a SharePoint home site and you want to keep it as the landing experience for the Connections desktop experience, use the PowerShell command listed in the following section to use the SharePoint home site. Learn more about [setting up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
 
 > [!NOTE]
-> 
+>
 > For customers who already have Viva Connections setup, your end users will be automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
 
 ## Choose the default landing experience for Viva Connections desktop
@@ -462,10 +497,10 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-> [!NOTE]
-> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
-> - Run the command as a SharePoint Administrator.
-> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
+   > [!NOTE]
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+   > - Run the command as a SharePoint Administrator.
+   > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. Refer to [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for more information.
 

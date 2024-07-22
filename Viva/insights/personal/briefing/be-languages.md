@@ -1,11 +1,11 @@
 ---
-ms.date: 11/17/2021
+ms.date: 06/28/2024
 title: Briefing languages
 description: List of supported languages for Briefings
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.localizationpriority: normal 
+ms.localizationpriority: Medium 
 search.appverid:
 - MET150
 ms.service: viva-insights

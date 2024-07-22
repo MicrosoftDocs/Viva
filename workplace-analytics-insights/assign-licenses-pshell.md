@@ -1,12 +1,12 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 09/06/2018
+ms.date: 06/28/2024
 title: Assign licenses with PowerShell for Viva Insights
 description: Learn how to assign licenses with PowerShell to people who want to use Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: null 
+ms.localizationpriority: Low 
 search.appverid:
 - MET150
 ms.service: viva-insights

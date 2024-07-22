@@ -1,12 +1,12 @@
 ---
 
-ms.date: 10/19/2021
+ms.date: 06/28/2024
 title: Headspace meditation with the Briefing email
 description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: normal 
+ms.localizationpriority: Medium 
 ms.service: viva-insights
 ms.collection: 
 - M365-analytics
@@ -17,6 +17,9 @@ audience: user
 ---
 
 # Start a guided meditation with Headspace
+
+>[!Important]
+>Headspace functionality in Viva Insights will no longer be available beginning July 25, 2024.
 
 >[!Important]
 >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).

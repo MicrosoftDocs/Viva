@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/20/2024
+ms.date: 07/16/2024
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -23,7 +23,7 @@ ms.date: 02/20/2024
 
 Attributes are data about the people in your organization. Attributes are used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Attribute column headers (name labels) may be customized. For example, you might choose "Employee ID," while another company chooses "Work ID." For this reason, know that the labels in our guidance are for purposes of example only. Choose name labels that make sense to your organization as these labels appear on your reports.
+Attribute column headers (name labels) may be customized. For example, you might choose "Employee ID," while another company chooses "Work ID." For this reason, know that the labels in our guidance are for purposes of example only. Choose name labels that make sense to your organization.
 
 ## Standard attribute types
 
@@ -31,7 +31,7 @@ Attribute column headers (name labels) may be customized. For example, you might
 - **Recommended attributes**: Data that can be converted into derivative groups (or buckets). Derivative groups keep attributes from being used to specifically identify an employee.
 
 >[!NOTE]
-> Recommended attributes are not required, but if sent initially in your Employee Attribute Template, then they are required for all future uploads.
+> Recommended attributes aren't required, but if sent initially in your Employee Attribute Template, then they are required for all future uploads.
 
 ### Attributes by item and survey type
 
@@ -56,7 +56,7 @@ Attribute column headers (name labels) may be customized. For example, you might
 
 By selecting more than required attributes only, you can see what groups of employees are more engaged than others and use this information to develop action plans to improve engagement. 
 
-Your template may include up to 100 custom, flat attributes. *A flat attribute is a descriptor that can't be further broken down, such as gender, work location, or department.*
+Your template may include up to 100 custom, flat attributes. *A flat attribute is a descriptor that can't be further broken down. Examples include: gender, work location, or department.*
 
 Add custom attributes to the header row on your template, named the way that seems most sensible to you. Choose attributes that can boost the way you do business.
 
@@ -91,18 +91,18 @@ Global companies often include a time zone attribute column in their Employee At
 
 ### Languages
 
-Use the Language Codes tab of the Employee Attribute Template to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
+Use the Language Codes tab on the Employee Attribute Template to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 
 > [!TIP]
-> For global companies, consider adding time zones and languages meaning to reach employees in their appropriate timezones and their preferred language.
+> In addition to the Employee Attribute Template, [language codes](https://www.codetwo.com/admins-blog/list-of-office-365-language-id) can also be found on this Microsoft 365 page. Not all languages listed are available for Glint programs. Use this comprehensive list to find codes for languages permissioned on your Glint platform.
 
 >[!NOTE]
 > Dashboards do not support languages that are read from right to left.
 
 ## Next step
-Learn about Viva Glint organizational hierarchy fundamentals, including a Viva Glint calculated Manager Hierarchy and other hierarchy groups.
+Learn about Viva Glint organizational hierarchy fundamentals, including a Glint calculated Manager Hierarchy and other hierarchy groups.
 
 > [!div class="nextstepaction"]
 > [Viva Glint organizational hierarchy fundamentals](hierarchy-fundamentals.md)

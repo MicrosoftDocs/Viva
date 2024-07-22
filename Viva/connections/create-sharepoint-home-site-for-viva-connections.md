@@ -26,7 +26,7 @@ description: "Create a SharePoint home site for Viva Connections"
 
 Use this guided walkthrough if you're creating a SharePoint home site so your organization can use Viva Connections. Get guidance on how to create a cohesive experience between the desktop and mobile apps. Before you start, learn more about [planning SharePoint home site content](home-site-plan.md) and [how to launch a healthy portal](/sharepoint/portal-health).
 
-Don’t have time to create a SharePoint home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
+Don’t have time to create a SharePoint home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://adoption.microsoft.com/sharepoint-look-book/) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
 
 [Learn more about how Viva Connections and SharePoint home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together)
 
