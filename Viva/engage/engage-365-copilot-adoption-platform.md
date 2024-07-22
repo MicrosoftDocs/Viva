@@ -33,18 +33,18 @@ Network admins and corporate communicators can access configuration settings thr
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
-This new community type includes onboarding prompts and a community template.  
-
-:::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
-
-## Create your adoption community  
+## Configure your adoption community
 
 You have two options for creating a Copilot adoption community in Viva Engage.
 
-- Accept the configuration presets to **create a new community**, or
+- Accept the configuration presets to **create a new community**. 
+  The new community type includes onboarding prompts and a community template.
 
 - Apply the adoption features to an **existing community**.
-  This second option has no impact on existing content and customizations (such as, name, banner image) in the selected community. However, it does add new features: a setup checklist, suggested members and content, top Q&A, and conversation starters.
+  This option adds new features (setup checklist, suggested members and content, top Q&A, and conversation starters) to your community without impacting existing content and customizations.
+
+:::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
+
 
 Update the image for this section and next step (something like this) 
 Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and ongoing community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
