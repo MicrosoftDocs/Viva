@@ -56,9 +56,9 @@ To continue surfacing feed content on Viva Connections, the following web parts 
 
 - **Alternative solutions for featuring Stream videos in SharePoint**:
 
-  - **File and media web part** – Allows you to feature a single video on a SharePoint page. For more information, see [Featuring a video on a page](../stream/streamnew/portals-single-video).
+  - **File and media web part** – Allows you to feature a single video on a SharePoint page. For more information, see [Featuring a video on a page](/stream/streamnew/portals-single-video).
 
-  - **Highlighted content web part** – Allows you to feature a list of videos on a page. For more information, see [Featuring a set of videos on a page](../stream/streamnew/portals-set-of-videos).
+  - **Highlighted content web part** – Allows you to feature a list of videos on a page. For more information, see [Featuring a set of videos on a page](/stream/streamnew/portals-set-of-videos).
 
 ## Action Items for Site owners and SharePoint admins
 
@@ -76,6 +76,6 @@ To continue surfacing feed content on Viva Connections, the following web parts 
 
 [Use a Viva Engage web part in SharePoint](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da#highlights)
 
-[Featuring a video on a page](../stream/streamnew/portals-single-video)
+[Featuring a video on a page](/stream/streamnew/portals-single-video)
 
-[Featuring a set of videos on a page](../stream/streamnew/portals-set-of-videos)
+[Featuring a set of videos on a page](/stream/streamnew/portals-set-of-videos)
