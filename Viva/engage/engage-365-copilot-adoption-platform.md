@@ -65,7 +65,7 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 - **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
-- **Top questions** raise visibility of the most commonly-asked questions for the community, helping users quickly see the answers they need. Top questions appear in the right sidebar for quick reference.
+- **Top questions** shows users the most commonly-asked questions in the community. Top questions appear in the right sidebar for quick reference.
 
 - **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
