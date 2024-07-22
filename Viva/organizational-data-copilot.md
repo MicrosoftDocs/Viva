@@ -1,10 +1,10 @@
 ---
-title: "Organizational Data in Microsoft 365 and Copilot"
+title: "Use organizational data in the Microsoft Copilot dashboard"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 7/19/2024
+ms.date: 7/22/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -61,7 +61,7 @@ It can take up to seven days to process, validate, and load your data into the C
 
 If importing your data fails, you see a warning message in the portal. Try the upload again.
 
-## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
+## Existing Organizational Data in Microsoft 365 customers who've added a Microsoft Copilot license
 If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads aren't immediately used to power the Copilot Dashboard. The first time you see the Copilot Dashboard, it defaults to using Microsoft Entra ID data (and can take up to seven days to show any data). If you want to use your organizational data instead of the Microsoft Entra ID data in the dashboard, reimport your org data. 
 
 :::image type="content" source="media/orgdata-copilot-6.jpg" lightbox="media/orgdata-copilot-6.jpg" alt-text="A screenshot of the Data imports page with a message to reimport data.":::
