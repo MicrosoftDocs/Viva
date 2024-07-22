@@ -11,6 +11,7 @@ ms.topic: article
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
+ms.collection: essentials-security
 search.appverid: 
 - MOE150
 - MET150

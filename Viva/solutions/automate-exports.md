@@ -73,7 +73,7 @@ The following steps you through how to automate the export of Workplace Analytic
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
 
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-14. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
+14. In Workplace Analytics, select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the **Auto-refresh** option in Workplace Analytics. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
@@ -104,7 +104,7 @@ The following steps you through how to automate the export of Workplace Analytic
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
+25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
      ![Screenshot that shows the finding the Persons field in query results in the browser.](./images/entity-set-name-2.png)
 
@@ -165,7 +165,7 @@ The following steps you through how to automate the export of Workplace Analytic
 13. In **Set Properties**, enter a name and create a new linked service.
 14. In **New linked service (Odata)**, enter a name and description for the query data you’re linking to.
 15. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-16. In Viva Insights in [Workplace Analytics](https://workplaceanalytics.office.com), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
+16. In Viva Insights in Workplace Analytics, select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the Auto-refresh option. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
@@ -193,7 +193,7 @@ The following steps you through how to automate the export of Workplace Analytic
 24. Select **Test connection** to test the OData linked service.
 25. After you see **Connection successful**, select **Create**.
 26. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps.
-27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
+27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from Workplace Analytics > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
      ![Screenshot that shows finding the query Persons field through query results in the browser.](./images/entity-set-name-2.png)
 

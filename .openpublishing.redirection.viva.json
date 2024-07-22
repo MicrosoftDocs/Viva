@@ -1050,6 +1050,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "viva/glint/setup/retro-trend-updates.md",
+            "redirect_url": "/viva/glint/setup/manager-changing-team-role",
+            "redirect_document_id": false
+        },   
+        {
             "source_path": "viva/engage/eac-as-access-eac.md",
             "redirect_url": "/viva/engage/eac-overview",
             "redirect_document_id": false

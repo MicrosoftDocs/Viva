@@ -95,7 +95,7 @@ Before you get started planning and building your SharePoint home site, review b
 
 - Align the branding on the SharePoint home site to the overall intranet brand where possible.
 - For organizations with many portals and resources, consider [making your SharePoint home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites.
-- Use a SharePoint home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process.
+- Use a SharePoint home site template from the SharePoint look book called [The Landing](https://adoption.microsoft.com/sharepoint-look-book/) to jump-start the design process.
 
 ## Summary of how to get a SharePoint home site for your organization
 
@@ -170,6 +170,6 @@ Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/micro
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
-Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book
+Use and customize the [The Landing template](https://adoption.microsoft.com/sharepoint-look-book/) from the SharePoint look book
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
