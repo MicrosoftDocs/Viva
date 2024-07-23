@@ -46,7 +46,7 @@ Viva Glint Conversation Start, reminders, and summary notifications contain mult
 
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
-> [!NTOE]
+> [!NOTE]
 > The Body Text section of Team Conversations emails support multiple paragraphs to break up and emphasize important messages.
 
 > [!CAUTION]
