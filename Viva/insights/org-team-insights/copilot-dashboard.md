@@ -155,7 +155,7 @@ At the top left of the adoption and impact page, next to **Scope**, select the d
 By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of three ways:
 
 * Through Microsoft Entra ID, which is the default setting
-* Through an [organizational data file in Microsoft 365 that your Global admin uploads](../advanced/admin/org-data-overview.md)
+* Through an [organizational data file in Microsoft 365 that your Global admin uploads](/viva/organizational-data)
 * Through an [organizational data file that your Insights admin uploads](../advanced/admin/org-data-overview.md)
 
 >[!Note]
