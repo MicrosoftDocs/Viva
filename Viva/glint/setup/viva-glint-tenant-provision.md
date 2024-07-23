@@ -53,9 +53,6 @@ Choose the US or EU URL for Azure login to begin, based on the region of your te
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
-> [!IMPORTANT]
-> To prevent delays and errors, a permanent Microsoft 365 global admin needs to initiate Viva Glint tenant provisioning, **not** an admin assigned with [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure).
-
 On the sign-in page that appears, enter your User Principal Name (UPN) and password:
 
 :::image type="content" source="../../media/glint/start/glint-provision-signin.png" alt-text="Screenshot of Viva Glint provisioning sign-in page.":::
