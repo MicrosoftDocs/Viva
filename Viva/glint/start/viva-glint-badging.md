@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2024
+ms.date: 06/03/2024
 ---
 
 # Viva Glint badging
@@ -51,6 +51,7 @@ Designed for managers in your organization, this badge is awarded to Viva Glint 
   - Understand and share your Viva Glint results- two modules
     - [Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)
     - [Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)
+  - [Psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)
 
 ### Steps to earn the Microsoft Viva Glint Manager badge
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 06/17/2024
 title: Configure manager settings
 description: Set manager settings in the advanced insights app
 author: zachminers
@@ -17,8 +17,6 @@ audience: Admin
 # Configure manager settings
 
 ![Graph of Viva Insights admin settings.](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
-
-:::image type="content" source="../images/setup-managers-1.png" alt-text="Image alt text." lightbox="../images/setup-managers-1.png":::
 
 >[!Important]
 > Manager settings affect [organization insights](../../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web.
@@ -78,6 +76,28 @@ To configure manager settings, follow these steps:
 >[!Note] 
 > Changes to these settings will apply after one hour.
 
+### Leader role assignment
+
+As an Insights Admin, you can manage access to the group manager experience for  business leaders in your organization. The group manager experience provides insights and recommendations to help leaders foster a healthy and productive work culture for their teams.  
+
+To enable the group manager experience, you need to assign the Group Manager role to the eligible leaders in your organization. You can do this by either selecting a .csv file or AAD groups. You can create and manage AAD groups that contain the leaders you want to enable for the group manager experience. You can use dynamic or static groups, and you can add or remove members as needed.  
+
+#### How to assign the Group Manager role using AAD groups 
+
+To assign the Group Manager role using AAD groups, follow these steps:
+
+1. Sign in to the Viva Insights Admin portal with your Insights Admin credentials.  
+
+2. On the left, select **Settings**, then **Manager Settings**.  
+
+3. Select **Use AAD groups**.  
+
+4. Select **Add group**.  
+
+6. Search for the AAD group you want to use and select it. You can add multiple groups if needed.  
+
+7. Select **Apply**. You will see the number of people leaders who are members of the selected groups and are eligible for the group manager experience.  
+
 ## What’s the difference between minimum team size and minimum group size?
  
 ### Minimum team size
@@ -96,4 +116,4 @@ Minimum group size helps protect individual privacy. Because it’s easier to gu
 > [Configure personal insights defaults
 ](configure-personal-insights.md)
 
-*Applies to: Microsoft 365 global admin, Exchange admin, Insights Administrator*
+*Applies to: Exchange admin, Insights Administrator*

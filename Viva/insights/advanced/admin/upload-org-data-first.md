@@ -1,5 +1,5 @@
 ---
-ms.date: 06/05/2023
+ms.date: 05/23/2024
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: zachminers
@@ -130,6 +130,14 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 #### Processing succeeds
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
+
+Here's the typical amount of time needed for organizational data to be reflected after it's uploaded in the following experiences:
+
+* Success status shown in **Data connections > Import history**: **A few hours**  
+
+* Data quality tab, flexible queries, and Power BI templates: **One to two days**  
+
+* Leader/manager report in the Teams app: **Next weekly refresh**
 
 After you receive the “Success” status, you can:
 

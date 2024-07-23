@@ -1,10 +1,10 @@
 ---
-ms.date: 05/08/2024
+ms.date: 07/22/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
 - viva-insights-personal
 - essentials-manage
@@ -63,19 +63,7 @@ Organization insights are more than just a dashboard—they also provide helpful
 
 In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and external focus. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
 
-[Learn more about these new reports for leaders](./leader-reports.md).
-
-Underneath the report cards, you’ll find a section for **Recommendations**. These point you to other workflows in Viva Insights that can help support you or your organization manage the measured behavior described in the above reports.
-
-Here's an example:
-
-Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](https://support.microsoft.com/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb) to help folks dedicate a full day to their independent work.
-
-:::image type="complex" source="images/org-insights-actions.png" alt-text="Screenshot that shows the organization insights recommended actions section." lightbox="images/org-insights-actions.png":::
-   Screenshot of the "Your organization insights" recommended actions.
-    :::image-end:::
-
-Finally, the Home tab also includes relevant news articles that can help you manage your team and improve your organization’s productivity.
+[Learn more about these reports for leaders](./leader-reports.md).
 
 #### The Library tab
 

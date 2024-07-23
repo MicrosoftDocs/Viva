@@ -26,16 +26,15 @@ description: "Create a SharePoint home site for Viva Connections"
 
 Use this guided walkthrough if you're creating a SharePoint home site so your organization can use Viva Connections. Get guidance on how to create a cohesive experience between the desktop and mobile apps. Before you start, learn more about [planning SharePoint home site content](home-site-plan.md) and [how to launch a healthy portal](/sharepoint/portal-health).
 
-Don’t have time to create a SharePoint home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
+Don’t have time to create a SharePoint home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://adoption.microsoft.com/sharepoint-look-book/) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
 
 [Learn more about how Viva Connections and SharePoint home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together)
 
 > [!NOTE]
 >
-> SharePoint home sites can now only be created and managed in your Microsoft 365 admin center. You'll need to be a global admin to create a home site.
-> A home site is not required for the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
-> [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6).
-> Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
+> SharePoint home sites are created and managed in your Microsoft 365 admin center. You'll need to be a SharePoint admin to create a home site.
+> A home site is not required to create a [Viva Connections experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
+> [Learn more about the Viva Connections experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6).
 
 ## How to use this guide
 

@@ -44,17 +44,18 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 ## Control access to Copilot and AI Summarization services
 
-To control access to Copilot and AI Summarization services, Microsoft Global administrators and Engage admins must use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups.  
+To control access to Copilot and AI Summarization services, Engage admins must use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups.  
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
+Changes to the Copilot in Viva Engage feature can take up to 48 hours to take effect. Changes to AI Summarization generally take effect within 24 hours.
+
 ### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization are controlled separately and can be turned on or off. For AI Summarization, admins can create access policies that support a third enablement state–-enabled with an option for users to opt out.
+Copilot and AI Summarization are controlled separately and can be turned on or off. For AI Summarization, admins can create access policies that support a third enablement state–-enabled with an option for users to opt out. 
 
 >[!NOTE]
 >Copilot and Network analytics both use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
-
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
@@ -64,7 +65,7 @@ Copilot and AI Summarization are controlled separately and can be turned on or o
 | |**Enabled with user opt out**| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
 | |**Disabled**|If you disable AI Summarization, it stops processing the users' Engage threads. If you disable AI Summarization for the tenant and provide no enablement policies for user or group access, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
 
-#### Example
+**Example**
 
 If an admin needs to  disable Copilot only for users in Germany, they can accomplish that task with the following steps:
 
@@ -74,7 +75,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 
     As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage.
 
-### Important considerations for feature access management
+**Important considerations for feature access management**
 
 - There can be a maximum of one tenant policy per Viva Engage feature. In other words, you can set a single tenant policy for Copilot and a single tenant policy for Summarization.
 

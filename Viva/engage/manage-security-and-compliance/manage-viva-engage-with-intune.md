@@ -11,6 +11,7 @@ ms.topic: conceptual
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
+ms.collection: essentials-security
 search.appverid:
 - MET150
 - MOE150
@@ -19,7 +20,7 @@ ms.assetid: 76f5c4c9-6a4e-43d1-87dc-2848a90686be
 description: "Subscribe to Microsoft Intune to add mobile application management to Viva Engage"
 ---
 
-# Manage Viva Engage with Microsoft Intune
+# Manage Viva Engage on mobile devices with Microsoft Intune
 
 When you subscribe to [Microsoft Intune](https://www.microsoft.com/en-us/security/business/endpoint-management/microsoft-intune?rtc=1), you can use mobile application management (MAM) with Viva Engage along with other apps. MAM allows you to manage and protect data in an app on a device even if it is not enrolled in mobile device management (MDM).
   

@@ -64,7 +64,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 
 ## Prepare to set up a multitenant organization
 
-*For Microsoft 365 Global administrators* 
+*For Microsoft 365 Global administrators*
 
 This task assumes that all requirements for Microsoft 365 and Viva Engage are met.
 When designing an effective multitenant organization, it’s crucial to establish a hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
@@ -73,7 +73,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
 |B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant. How you [configure multitenant organization in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
-|C. Designate an Engage, global, or network administrator to configure the multitenant organization. This role must reside in the hub tenant.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
+|C. Designate an Engage or network administrator to configure the multitenant organization. This role must reside in the hub tenant.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## Configure the multitenant organization in Microsoft 365
 
@@ -102,13 +102,13 @@ After you establish the multitenant organization in Microsoft 365, configure mul
 
 ## Configure the hub tenant for Storyline
 
-*For the Engage, global, or network admin on the hub tenant*
+*For the Engage or network admin on the hub tenant*
 
 From the hub tenant, configure Storyline settings to make announcements and leadership posts available across all tenants.
 
 |Task description|Instructions|
 |----------------|----------------|
-|A.	Enable storylines for Viva Engage. |<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-as-access-eac).</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
+|A.	Enable storylines for Viva Engage. |<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
 |B. Configure storylines for multitenant organization.|<ol><li>Follow the preceding steps 1-3 to go to the Storylines settings.</li><li>Select **Advanced settings**.</li><li>Under **Multi-tenant organizations (MTO)**, select the check box for **Let users on spoke tenants engage in storyline posts from this network**. For more details, see [Enable storyline](/viva/engage/eac-storyline#enable-storyline).</li>|
 
 ### Manage leadership for the multitenant organization
@@ -119,5 +119,5 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 
 |Task description|Instructions|
 |----------------|----------------|
-| A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-as-access-eac).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
+| A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
 |B. Enable audiences for the multitenant organization|<ol><li>On the Feature management tab, go to **Leadership identification and audiences**, and select the **Manage audiences** page.</li><li>Turn on **Entire organization:** *[TENANT_NAME]*. *Entire organization* refers only to the tenant that you're configuring. In other words, this option enables the leader to communicate with the hub tenant.</li><li>Turn on **Multiple organizations** to let leader posts and announcements reach across all spoke tenants in the multitenant organization.|

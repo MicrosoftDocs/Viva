@@ -1,13 +1,13 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/20/2018
+ms.date: 06/28/2024
 title: Insights glossary
 description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: none 
+ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble
 audience: Admin

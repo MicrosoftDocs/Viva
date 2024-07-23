@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/03/2024
+ms.date: 06/06/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -72,6 +72,8 @@ For the **source tenant**:
 
 - [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) role to modify outbound access settings.
 
+For information on licensing, see: [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing).
+
 ### Cross-tenant synchronization
 
 Cross-tenant synchronization allows for automated B2B collaboration user management. User information from a source tenant is pushed to the target tenant where Glint is installed. 
@@ -81,17 +83,13 @@ Cross-tenant synchronization allows for automated B2B collaboration user managem
 - Tenants must exist in the [same cloud](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#frequently-asked-questions).
 - Users in a source tenant are [internal members](/entra/external-id/user-properties) (syncing external uses isn’t supported).
 - For the **source tenant**: 
-  - A Microsoft Entra ID P1* or P2 license for each user that is synced. [See License requirements](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#license-requirements). 
   - [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) role to set up cross-tenant settings. 
   - [Hybrid Identity Administrator](/entra/identity/role-based-access-control/permissions-reference#hybrid-identity-administrator) role to set up cross-tenant synchronization. 
   - [Cloud Application Administrator](/entra/identity/role-based-access-control/permissions-reference#cloud-application-administrator) or [Application Administrator](/entra/identity/role-based-access-control/permissions-reference#application-administrator) role to assign users to a configuration and delete configurations. 
 - For the **target tenant**:  
-  - At least one user with a Microsoft Entra ID P1* or P2 license to enable auto-redemption of invitations (typically the tenant admin). [See License requirements](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview#license-requirements).
   - [Security Administrator](/entra/identity/role-based-access-control/permissions-reference#security-administrator) role to set up cross-tenant settings.
-- Cross-tenant sync is free for the first 50,000 users per month. [Incremental pricing](https://azure.microsoft.com/pricing/details/active-directory-external-identities/) is low for any users beyond this limit. 
-
-
-*Microsoft Entra ID P1 licenses are included for no extra charge with Microsoft 365 E3 for enterprise customers and Microsoft 365 Business Premium for small to medium businesses. P1 licenses are also included for versions of these suites that don't include Microsoft Teams. [Stand-alone P1 licenses](https://www.microsoft.com/security/business/microsoft-entra-pricing) can be purchased.
+ 
+Cross-tenant synchronization automates creating, updating, and deleting B2B collaboration users. [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing) and [cross-tenant synchronization licensing](https://go.microsoft.com/fwlink/?linkid=2272785) apply.
 
 ## Supported scenarios
 
@@ -115,8 +113,13 @@ An organization sets up an MTO policy between multiple tenants where Glint is in
 
 To set up multitenant organization for this scenario, complete these three tasks:
 
-1. Read these articles:
-   1. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
+1. Read these articles, which guide Microsoft 360 Global Admins in specifying non-Viva Glint apps synced users have access to in the target tenant. They also let Microsoft 360 Global Admins what they should see in the target tenant's Microsoft Entra ID directory:
+   1. [Cross-tenant access overview](/entra/external-id/cross-tenant-access-overview), especially the **Important considerations** section.
+   2. [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+      > [!IMPORTANT]
+      > This article only describes how synced users gain access to non-Viva Glint apps. Viva Glint access is controlled by ensuring that the Microsoft Entra IDs of synced users match employee data uploaded to the Glint app. Syncing users and uploading data to the Glint app are covered in tasks two and three.
+   4. [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
+   5. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
    1. [Configure cross-tenant access settings for B2B collaboration](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
    1. [Bulk invite guest users for B2B collaboration tutorial](/entra/external-id/tutorial-bulk-invite) 
 1. Set up an MTO policy between Tenants A and B, and sync users.
@@ -149,8 +152,13 @@ An organization sets up an MTO policy between multiple tenants where Glint is in
 
 To set up multitenant organization for this scenario, complete these three tasks:
 
-1. Read these articles:
-   1. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
+1. Read these articles, which guide Microsoft 360 Global Admins in specifying non-Viva Glint apps synced users have access to in the target tenant. They also let Microsoft 360 Global Admins what they should see in the target tenant's Microsoft Entra ID directory:
+   1. [Cross-tenant access overview](/entra/external-id/cross-tenant-access-overview), especially the **Important considerations** section.
+   2. [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+      > [!IMPORTANT]
+      > This article only describes how synced users gain access to non-Viva Glint apps. Viva Glint access is controlled by ensuring that the Microsoft Entra IDs of synced users match employee data uploaded to the Glint app. Syncing users and uploading data to the Glint app are covered in tasks two and three.
+   3. [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
+   4. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
    1. [Configure cross-tenant synchronization](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure).
 1. Set up an MTO policy between Tenants A and B, and sync users.
 1. Set up the Glint application.
@@ -194,8 +202,11 @@ Since the multitenant organization is already set up, no other steps are needed.
 
 ## Related resources
 
-**Multitenant organization**: 
+**Cross-tenant access and multitenant organization**: 
 
+- [Cross-tenant access overview](/entra/external-id/cross-tenant-access-overview), especially the **Important considerations** section.
+- [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
+- [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
 - [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview)
 - [Configure a multitenant organization using PowerShell or Microsoft Graph API](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-graph?tabs=ms-powershell)
 - [What is a multitenant organization in Microsoft Entra ID?](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
@@ -206,8 +217,11 @@ Since the multitenant organization is already set up, no other steps are needed.
 
 - [Configure cross-tenant access settings for B2B collaboration](/entra/external-id/cross-tenant-access-settings-b2b-collaboration)
 - [Bulk invite guest users for B2B collaboration](/entra/external-id/tutorial-bulk-invite)
+- [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing)
 
 **Cross-tenant synchronization**: 
 
 - [Configure cross-tenant synchronization](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure) 
 - [Configure cross-tenant synchronization using PowerShell or Microsoft Graph API](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure-graph?tabs=ms-powershell)
+- [B2B monthly active user (MAU) licensing](/entra/external-id/external-identities-pricing)
+- [Cross-tenant synchronization licensing](https://go.microsoft.com/fwlink/?linkid=2272785)

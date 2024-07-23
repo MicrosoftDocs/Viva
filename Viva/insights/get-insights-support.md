@@ -55,5 +55,5 @@ Visit and register on our [Viva Insights community](https://techcommunity.micros
 ## Additional resources
 
 * [Microsoft Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights)
-* [Microsoft Workplace Insights](https://insights.office.com/)
+
 

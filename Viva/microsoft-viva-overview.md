@@ -1,14 +1,14 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 07/17/2023
+ms.date: 05/30/2024
 ms.author: loreenl
 author: LoreenLa
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: overview
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom: intro-overview
@@ -33,17 +33,24 @@ As an integrated experience, administrators can use the centralized Microsoft 36
 
 Learn which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
+[See plans, pricing, and license requirements for Microsoft Viva](https://www.microsoft.com/en-us/microsoft-viva/pricing)
+
 ## Microsoft Viva experiences
 
 | Experience | App  | App |
 |:-------:|-------------|------|
-|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|
-|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br><br>:::image type="icon" source="media/logos/pulse-logo.svg":::<br>[Viva Pulse](#viva-pulse)<br> Empower leaders and managers to seek and act on feedback when it matters. |:::image type="icon" source="media/logos/glint-logo.png":::<br>[Viva Glint](#viva-glint)<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.|
-|**Growth**|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources||
-|**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
+|**Employee communications and communities**|:::image type="icon" source="media/logos/amplify-c-64.svg"::: <br> [Viva Amplify](#viva-amplify) <br> Centralize campaign management, publishing, and reporting to reach and engage employees. <br><br> :::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br>[Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.<br><br>:|
+|**Workplace Analytics and Feedback**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br><br>:::image type="icon" source="media/logos/pulse-logo.svg":::<br>[Viva Pulse](#viva-pulse)<br> Empower leaders and managers to seek and act on feedback when it matters. |:::image type="icon" source="media/logos/glint-logo.png":::<br>[Viva Glint](#viva-glint)<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.|
+|**Learning and knowledge management**|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources||
+|**Goal setting and management**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
+
+#### Viva Amplify
+Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
+
+[Get more information on Viva Amplify](/viva/amplify/overview-viva-amplify)
 
 #### Viva Connections
-Connect employees with tools, news, and resources in Microsoft Teams. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
+Connect employees with tools, news, and resources in Microsoft Teams. Content is displayed on a dashboard and can be tailored to each individual based on their role, region, and interests.
 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
@@ -82,17 +89,14 @@ Empower leaders and managers to seek and act on feedback when it matters. Using 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
 
-**Viva Learning**: SAP SuccessFactors, Cornerstone OnDemand, Saba, Coursera, Skillsoft, Pluralsight, edX, Udemy, Go1, Infosec, Josh Bersin Academy and more
+**Viva Learning**: SAP SuccessFactors, Cornerstone OnDemand, Saba, OpenSesame, Skillsoft, Udemy, Go1, and more
 
 **Viva Connections**: Qualtrics, ServiceNow, UKG, Talentsoft, StandOut by ADP, Adobe Sign, Moveworks, Lifeworks, Limeade, Tribute, Blue Yonder, Zebra-Reflexis
 
-**Viva Insights**: Qualtrics and Headspace
+**Viva Insights**: Qualtrics and Headspace (Headspace available until July 25, 2024)
 
 **Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview).
 
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
-## Viva solutions
-The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you'll find summaries of each Viva app, license requirements, how to plan and combine apps for greater impact, and more.
-
-[Access the Microsoft Viva solution center](/viva/solutions/solutions)
+[Find more apps for integration with Viva in AppSource](https://appsource.microsoft.com/en-GB/marketplace/apps?exp=ubp8&product=office%3Bviva&page=1)

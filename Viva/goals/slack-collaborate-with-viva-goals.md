@@ -30,7 +30,7 @@ Within the Viva Goals app, users now have the following capabilities within Slac
 - **Manage OKRs** - Users can create new OKRs or make edits to existing ones
 
 > [!IMPORTANT]
-> Slack is currently not supported for customers in the EU Data Boundary. We're working on this and will be available in the next 2-3 months.
+> Slack is currently not supported for customers in the EU Data Boundary.
 
 ## Configuring Viva Goals app for Slack 
 

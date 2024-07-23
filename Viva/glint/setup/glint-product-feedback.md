@@ -14,12 +14,21 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2023
+ms.date: 06/20/2024
 ---
 
 # Submit product feedback to Viva Glint
 
-Microsoft Viva Glint provides an easy and consistent way for customers to provide in-app feedback. Submissions go directly to Viva Glint product and engineering teams so they can review suggestions to inform roadmap and strategic prioritization.
+Microsoft Viva Glint provides an easy and consistent way for customers to provide in-app feedback. Submissions go to Viva Glint product and engineering teams so they can review suggestions to inform roadmap and strategic prioritization.
+
+>[!IMPORTANT]
+>To allow your leaders to give feedback, the feedback policy must be enabled for your organization by the Microsoft 365 global admin. This happens within Policy Management in the Microsoft 365 Apps Admin Center.  Without this feature enabled, leaders don't have access to provide feedback.
+>
+>We suggest enabling the following:
+>
+> - Allow users to submit feedback to Microsoft
+>   - Allow users to include screenshots and attachments when they submit feedback to Microsoft
+>   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft
 
 ## Three options to provide feedback
 

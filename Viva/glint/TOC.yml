@@ -13,7 +13,7 @@ items:
              href: start/viva-glint-badging.md
            - name: Customer cohorts
              href: start/customer-cohorts.md
-      - name: People Science and Viva Glint
+      - name: How Viva People Science supports Viva Glint
         href: start/people-science-viva-glint.md
       - name: Survey program types
         href: start/program-types-templates.md  
@@ -22,7 +22,7 @@ items:
         items:
           - name: Privacy policies 
             href: setup/add-privacy-policy.md
-          - name: Advanced privacy guide
+          - name: Security and compliance for data usage
             href: setup/gdpr-special-categories.md
           - name: Confidentiality versus anonymity
             href: setup/anonymous-confidential.md
@@ -65,6 +65,8 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
+              - name: Convert a key to OpenSSH format
+                href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
            - name: Prepare and upload
@@ -75,6 +77,8 @@ items:
              href: setup/hierarchy-fundamentals.md
            - name: Employee Attribute Template
              href: setup/create-employee-attribute-template.md
+           - name: Employee data file checklist
+             href: setup/data-checklist.md          
            - name: Set up attributes 
              href: setup/send-employee-attributes.md
            - name: Update attributes 
@@ -90,10 +94,10 @@ items:
                  href: setup/upload-employee-attributes.md
       - name: Survey access methods
         href: setup/understand-survey-access-methods.md  
-  - name: Establish foundational features
+  - name: Platform features
     href: setup/platform-features-settings.md
     items: 
-      - name: Manage General Settings 
+      - name: General Settings 
         href: setup/manage-general-settings.md
         items: 
             - name: Attribute-based survey access
@@ -102,7 +106,7 @@ items:
               href: setup/time-zones.md
             - name: Post-survey learning
               href: setup/post-survey-learnings.md
-      - name: People page features
+      - name: People page
         href: setup/people-page.md
         items:  
             - name: Manage external users 
@@ -111,36 +115,44 @@ items:
               href: setup/export-user-roles.md
             - name: Delete user data 
               href: setup/delete-user-data.md
-      - name: Set up Distribution Lists 
+      - name: Distribution Lists 
         href: setup/set-up-distribution-lists.md
         items:
             - name: Import users
               href: setup/import-members-distribution-lists.md
             - name: Export users
               href: setup/export-distribution-lists.md
-      - name: Set up User Roles
+      - name: User Roles
         href: setup/set-up-user-roles.md
-      - name: Set up Focus Area periods
-        href: setup/focus-area-period-feature.md
-      - name: Use the Question Library
+        items:
+            - name: Custom User Roles
+              href: setup/custom-user-role.md
+      - name: Question Library
         href: setup/question-library.md
         items:
             - name: Question mapping
               href: setup/question-mapping.md
-      - name: Encourage action with Nudges
+      - name: Nudges
         href: communicate/communicate-with-nudges.md
-      - name: Customize action plans 
-        href: setup/customize-action-plans.md
+      - name: Focus Areas
         items:
-            - name: Link items to action plan templates
-              href: setup/link-survey-item-action-template.md
-            - name: Embed videos
-              href: setup/embedding-content-resources.md
+          - name: Managers creating Focus Areas
+            href: setup/focus-areas-managers-creating.md
+          - name: Set up Focus Area periods
+            href: setup/focus-area-period-feature.md
+      - name: Suggestion Action templates
+        href: setup/customize-action-plans.md
+      - name: Content Resources
+        items:
+          - name: Link Content Resources to Suggested Action templates
+            href: setup/link-survey-item-action-template.md
+          - name: Embed videos
+            href: setup/embedding-content-resources.md
       - name: Manage translations 
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
-      - name: Use Advanced Configuration
+      - name: Advanced Configuration
         href: setup/understand-advanced-configuration.md
         items: 
             - name: Import historical data 
@@ -155,11 +167,36 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Create survey programs
-    href: setup/customize-program.md
+  - name: Copilot in Viva Glint
     items:
+      - name: Intro and admin setup
+        href: copilot/copilot-admin-intro.md
+      - name: Copilot data, privacy, and security
+        href: setup/copilot-privacy.md
+      - name: Managers using Copilot
+        href: setup/copilot-managers.md
+      - name: Copilot FAQs
+        href: setup/copilot-faqs.md
+  - name: Viva Glint and Viva Insights integration
+    items:
+       - name: Overview
+         href: ../solutions/glint-insights-integration-overview.md
+       - name: Export Viva Glint survey results to Viva Insights 
+         href: setup/insights-integration.md
+       - name: Import survey results from Viva Glint into Viva Insights (preview)
+         href: ../insights/advanced/admin/import-survey-glint.md
+       - name: Glint and organizational insights report (preview)
+         href: ../insights/advanced/analyst/templates/glint.md
+       - name: Partitions in Viva Insights
+         href: ../insights/advanced/admin/partitions.md
+  - name: Create survey programs
+    items: 
+      - name: Set up and customize programs
+        href: setup/customize-program.md
       - name: Plan for monthly releases
         href: setup/monthly-release-dates.md
+      - name: Survey Coach and Tooltips
+        href: setup/survey-coach.md   
       - name: Use validated templates
         items:
           - name: People Science template design
@@ -178,64 +215,75 @@ items:
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
             href: setup/patient-safety-survey.md
-      - name: Set up Employee Lifecycle surveys
-        items:
-          - name: Why Onboarding surveys matter 
-            href: setup/create-onboarding-exit-surveys.md
-          - name: Why Exit surveys matter
-            href: setup/exit.survey.md
-          - name: Set up Employee Lifecycle surveys
-            href: setup/program-summary-setup-lifecycle.md
-          - name: Preview and filter a Lifecycle survey
-            href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up non-templated surveys
         items:
           - name: Set up a Microsoft Viva Glint Magnet survey
             href: setup/magnet-rn-excellence.md
-      - name: Set up Engagement surveys
-        href: setup/program-summary-overview.md
+          - name: Set up a Distress Survey
+            href: setup/distress-survey.md
+          - name: Set up a Viva Glint productivity survey
+            href: setup/create-productivity-survey.md
+      - name: Set up recurring Engagement surveys
         items:
-          - name: Understand programs and cycles
-            href: setup/program-cycle-edits.md   
-          - name: Program setup 
-            href: setup/program-set-up.md
-          - name: Distribution setup 
-            href: setup/distribution-program-summary.md
-          - name: Schedule setup
-            href: setup/schedule-setup.md
-          - name: Questions setup 
-            href: setup/questions-setup.md
+          - name: Program Summary setup 
+            href: setup/program-summary-overview.md
             items:
-              - name: Add items and sections
-                href: setup/add-new-questions.md
-              - name: Change item IDs
-                href: setup/change-item-id.md
-              - name: Target survey items
-                href: setup/targeted-survey-items.md
-              - name: Add item Display Logic
-                href: setup/viva-glint-display-logic.md
-              - name: Survey Coach and Tooltips
-                href: setup/survey-coach.md   
-          - name: Reporting setup
-            href: setup/reporting-setup.md
+              - name: Understand programs and cycles
+                href: setup/program-cycle-edits.md   
+              - name: Program setup 
+                href: setup/program-set-up.md
+              - name: Distribution setup 
+                href: setup/distribution-program-summary.md
+              - name: Schedule setup
+                href: setup/schedule-setup.md
+              - name: Questions setup 
+                href: setup/questions-setup.md
+                items:
+                  - name: Add items and sections
+                    href: setup/add-new-questions.md
+                  - name: Change item IDs
+                    href: setup/change-item-id.md
+                  - name: Target survey items
+                    href: setup/targeted-survey-items.md
+                  - name: Add item Display Logic
+                    href: setup/viva-glint-display-logic.md
+              - name: Reporting setup
+                href: setup/reporting-setup.md
+                items:
+                  - name: Grant Live versus Phased access
+                    href: setup/live-versus-phased-access.md
+              - name: Communications setup 
+                href: setup/program-summary-communications.md
+                items:
+                  - name: Customize survey email content
+                    href: setup/email-content-customization.md            
+              - name: Coaching setup 
+                href: setup/program-summary-coaching.md
+                items:         
+                  - name: Team Conversations resource guidance
+                    href: reports/team-conversations-resource-guidance.md  
+      - name: Set up Employee Lifecycle surveys
+        items:
+          - name: Program Summary for Employee Lifecycle surveys
+            href: setup/program-summary-setup-lifecycle.md
+          - name: Create an onboarding survey 
+            href: setup/create-onboarding-exit-surveys.md
+          - name: Create an exit survey
+            href: setup/exit.survey.md
+          - name: Preview and filter a Lifecycle survey
+            href: setup/preview-filter-lifecycle-programs.md 
+      - name: Set up Team Conversations
+        href: reports/team-conversations-administrator-setup.md
+        items:
+          - name: The ACT framework and Team Conversations
+            href: reports/take-action-team-conversations.md
             items:
-             - name: Grant Live versus Phased access
-               href: setup/live-versus-phased-access.md
-          - name: Communications setup 
-            href: setup/program-summary-communications.md
-            items:
-             - name: Customize survey email content
-               href: setup/email-content-customization.md            
-          - name: Coaching setup 
-            href: setup/program-summary-coaching.md
-            items:
-             - name: Team Conversations resource guidance
-               href: reports/team-conversations-resource-guidance.md
-          - name: Set up Team Conversations
-            href: reports/team-conversations-administrator-setup.md
-            items:
-             - name: Customize Team Conversation email content
-               href: reports/team-conversations-content-cusomization.md          
+              - name: Use Team Conversations
+                href: reports/managers-sharing-team-conversations.md
+              - name: Team Conversations presentation kit
+                href: reports/coaching-team-conversations.md
+              - name: Customize Team Conversations email content
+                href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
         items:
           - name: Review surveys before launch
@@ -255,6 +303,8 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Manager reporting access when changing team or role
+            href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
           - name: Confidentiality and suppression
@@ -269,6 +319,8 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export
            href: reports/multi-attribute-export-report.md
+         - name: Team Conversations usage report
+           href: reports/convo-usage-report.md
       - name: Viva Glint reports for all users
         items:
          - name: Reporting features
@@ -316,13 +368,7 @@ items:
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
-          - name: The ACT framework and Team Conversations
-            href: reports/take-action-team-conversations.md
-            items:
-              - name: Use Team Conversations
-                href: reports/managers-sharing-team-conversations.md
-              - name: Team Conversations presentation kit
-                href: reports/coaching-team-conversations.md
+          
           - name: Submit product feedback
             href: setup/glint-product-feedback.md
   - name: Take action as an admin
@@ -344,6 +390,9 @@ items:
     items:
         - name: Propel action-taking
           href: people-science/propelling-action-taking.md
+          items: 
+            - name: Managers using ACT conversations
+              href: people-science/managers-using-act-conversations.md
         - name: Factors for historical imports
           href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning
@@ -386,10 +435,16 @@ items:
     items:
       - name: Data File Uploads
         items:
-           - name: Resolve manager hierarchy error
-             href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-           - name: Understand file upload errors and warnings
-             href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
+           - name: Resolve upload errors related to attributes
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload errors related to derived attributes
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to duplicate data
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to invalid or unexpected values
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to manager hierarchy
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json 
       - name: Historical Imports
         items:
            - name: Error "Duplicate entry"
