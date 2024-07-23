@@ -63,7 +63,7 @@ To enable multiple language sections in emails for survey participants:
 1. Select a survey and go to the **Communications** section.
 1. In **Email Settings**, switch on the **Show multiple languages for recipient in certain locale** toggle.
 2. In the dropdown menu that appears, select Dual Language Survey/Reminder or Triple Language Survey/Reminder.
-3. Select **Save Changes** in the top left of the **Communications** page.
+3. Select **Save Changes** in the top right of the **Communications** page.
 
    :::image type="content" source="../../media/glint/setup/email-settings-multi-lang.png" alt-text="Screenshot of the multiple language email setting in the Communications section of survey setup.":::
 
