@@ -52,7 +52,7 @@ Some Glint standard items (questions) have two versions
 Glint has done extensive research to identify the most reliable and valid items linked to survey goals. Our benchmarks are created using the *exact* text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
 
    > [!IMPORTANT]
-   > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid and the items is now referred to as "customized," not "standard."**
+   > In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid and the items is now referred to as "customized," not "standard."
    > - For these items, create a copy of the standard item so that it isn't tied to an invalid benchmark for comparison.
    > - Customized items don't map to external benchmarks. For this reason, if you make a change to a standard survey item, duplicate the question and create a customized version. [Question mapping](/../../viva/glint/setup/question-mapping).
 
@@ -60,7 +60,7 @@ Glint has done extensive research to identify the most reliable and valid items 
 
 Any item can be edited by hovering over and selecting the row that the item appears on in the Question Library. An **Edit Question** panel displays. From this panel, edit the item and view programs that have used this item.
 
-## Edit an item: 
+## Edit an item 
 
 1. Choose the language. Languages for which this item has been translated are visible in the dropdown menu. 
 1. Edit the reporting label, if desired. 
