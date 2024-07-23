@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 07/23/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -48,7 +48,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 ## Begin your Viva Glint provisioning experience
 
-Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint&preserve-view=true).
+Choose the US or EU URL for Azure login to begin, based on the region of your tenant. The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location. If the central tenant location is outside the US or EU, the data for Viva Glint is stored in the US data center. **[Multi-Geo capabilities](/sharepoint/dev/scenario-guidance/multi-geo-capabilities) aren't currently supported for Viva Glint.**
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
