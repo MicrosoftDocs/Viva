@@ -32,7 +32,7 @@ Some Glint standard items (questions) have two versions
 
 - Standard items for Employee Lifecycle (Onboarding and Exit) programs: items validated by Viva People Science that are mapped to benchmarks using text specific to Employee Lifecycle programs.
 
-> - Using the search bar, begin to key in Onboarding or Exit to bring up the items specifically indicated for Employee Lifecycle program.
+> - Using the search bar, begin to key in "Onboarding" or "Exit" to bring up the items specifically indicated for Employee Lifecycle program.
 >   
 > :::image type="content" source="../../media/glint/setup/question-library-elc-specific.png" alt-text="Screenshot of how to find Employee Lifecycle specific items in the Question Library.":::
 
