@@ -1,5 +1,5 @@
 ---
-title: Use the Viva Glint Question Library
+title: Use the Viva Glint Question Library to locate standard items
 description: "Choose from hundreds of questions and statements to surface feedback that will provide data to support your company goals."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,72 +14,76 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2024
+ms.date: 07/23/2024
 ---
 
-# Use the Viva Glint Question Library
+# Use the Viva Glint Question Library to locate standard items
 
-From the admin dashboard, in the *Survey* section, you'll find the **Question Library**. Microsoft Viva Glint’s Question Library contains hundreds of questions and statements that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated into the template. You can create and edit items from the Question Library, but Viva Glint suggests that you use our standard questions as most are mapped to benchmarks.
-
->[!IMPORTANT]
->[Use this Learn guidance to understand question mapping](question-mapping.md).
+Access the **Question Library** from the admin dashboard, in the **Survey** section. The Microsoft Viva Glint Question Library contains hundreds of questions and statements (we call them *items*) that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated in the template. You can create and edit items from the Question Library, but Glint suggests using our standard questions as most are mapped to benchmarks.
 
 >[!NOTE]
->Not all items in the Question Library are posed in question format. Many library items are statements for the survery taker to rate on a given scale. For this reason, note that the term "items" is often used to refer to the contents of the Question Library.
+> Not all items in the Question Library are posed in question format. Many library items are statements for the survery taker to rate on a given scale. For this reason, note that the term "items" is often used to refer to the contents of the Question Library.
 
-From the Question Library you can: 
+## There are two versions of some Glint standard Question Library items
 
+Some Glint standard items (questions) have two versions
+
+- Standard items: items validated by Viva People Science that are mapped to benchmarks using *exact* text for recurring, Engagement-type programs.
+
+- Standard items for Employee Lifecycle (Onboarding and Exit) programs: items validated by Viva People Science that are mapped to benchmarks using text specific to Employee Lifecycle programs.
+
+> - Using the search bar, begin to key in Onboarding or Exit to bring up the items specifically indicated for Employee Lifecycle program.
+>   
+> :::image type="content" source="../../media/glint/setup/question-library-elc-specific.png" alt-text="Screenshot of how to find Employee Lifecycle specific items in the Question Library.":::
+
+## Uses for the Question Library 
 - Search items by question type, key driver, benchmark, and whether translations are available 
 - Import and export questions for language translations 
 - Edit or create questions 
-- Sort by Viva Glint standard questions or a custom question you created or edited 
-- View the number of your programs which have used this question or statement 
+- Sort by Glint standard questions or a custom question you created or edited 
+- View the number of your programs which have used this item
 
-   > [!NOTE]
-   > Changes made to the Question Library: 
-   >  - When a reporting label is changed, it instantly propagates to all programs, past and present.
-   >  - When question text is changed, it propagates to future programs only.
+> [!NOTE]
+>  - When a reporting (item) label is changed, it instantly propagates to all programs, past and present.
+>  - When question text is changed, it propagates to future programs only.
 
 ## The implication of customizing Question Library items 
 
-Viva Glint has done extensive research to identify the most reliable and valid items linked to survey goals, and our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
+Glint has done extensive research to identify the most reliable and valid items linked to survey goals. Our benchmarks are created using the *exact* text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
 
-   > [!TIP]
-   > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid bencharmk for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
-
-Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](/../../viva/glint/setup/question-mapping).
+   > [!IMPORTANT]
+   > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid and the items is now referred to as "customized," not "standard."**
+   > - For these items, create a copy of the standard item so that it isn't tied to an invalid benchmark for comparison.
+   > - Customized items don't map to external benchmarks. For this reason, if you make a change to a standard survey item, duplicate the question and create a customized version. [Question mapping](/../../viva/glint/setup/question-mapping).
 
 ## Edit items from the Question Library 
 
-There may be cases where slight edits to wording can be accommodated without altering the meaning. In these cases, make small edits to Viva Glint standard items to retain benchmark data.  
+Any item can be edited by hovering over and selecting the row that the item appears on in the Question Library. An **Edit Question** panel displays. From this panel, edit the item and view programs that have used this item.
 
-Any item can be edited by hovering over and selecting the row that the item appears on in the Question Library. An *Edit Question* slider panel displays. From this panel you can: 
+## Edit an item: 
 
-1. Edit the question, and  
-1. View associated programs 
-
-### Editing a question: 
-
-1. Choose the language. Languages for which this item has been translated will be visible in the dropdown menu. 
+1. Choose the language. Languages for which this item has been translated are visible in the dropdown menu. 
 1. Edit the reporting label, if desired. 
 1. Edit the item text, if desired. 
 1. Add instruction text that helps the user understand the meaning of the item. 
 1. Add comment placeholder text, if desired. 
 1. Change the rating scale, if applicable. 
-1. Indicate whether the label explanation for ratings should be shown. 
+1. Indicate whether the rating label explanation should be shown. 
 1. Enable or disable commenting. 
 1. Choose whether the item is optional or mandatory.
 1. Map the item to a Suggested Action Template, if desired. 
 1. Select **Save Changes**. 
 
-#### Examples of edits that retain a valid benchmark comparison
+### Examples of edits that retain a valid benchmark comparison
+
+There may be cases where slight edits to wording can be accommodated without altering the meaning. In these cases, benchmark data is retained.  
 
 |Example|Standard|Modified|Recommendation|
 |-------|--------|-------|-------|
 |**1 - Matching the language of the business**| I would recommend my *manager* to others.|I would recommend my *supervisor* to others.| Modifying a term in the item to make it more specific to your organizational language is acceptable and doesn't affect the benchmark. Edit the standard item without creating a copy to retain the benchmark.| 
 |**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.|
 
-#### Examples of edits that don't retain a valid benchmark comparison
+### Examples of edits that don't retain a valid benchmark comparison
 
 | Example | Standard | Modified | Recommendation |
 |-------|--------|-------|-------|
@@ -88,44 +92,34 @@ Any item can be edited by hovering over and selecting the row that the item appe
 
 ## View associated programs 
 
-Use this tab to see if this item is associated with any existing program. To add it to a program, use the [Questions page in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231415). 
+Use this tab to see if an item is being used with any existing program. To add it to a program, use the [Questions page in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231415). 
 
 ## Add new items to the Question Library 
 
-Select the **+ Create Question** button on *Question Library* page. In the *Create Question* slider panel that opens, edit the question (as above, in *Edit the question*). Upon completion, you see new item in the *Name* column, sorted alphabetically by key driver. 
+Select the **+ Create Question** button on the **Question Library** page. In the **Create Question** panel, edit the question. Upon completion, you see new item in the **Name** column, sorted alphabetically by key driver. 
 
-## Export, translate, and import items 
+## Language translations
 
-English is the default language for all Viva Glint programs. You may choose to survey and send email communications to your employees in their preferred language, rather than the default language. Viva Glint provides its customers with more than 70 language translations for standard content. Language translations are set during the initial survey configuration or added later, as needed. 
+English is the default language for all Glint programs. Of course, you should survey and communicate to your employees in their preferred language. Glint provides its customers with more than many language translations for standard content. Language translations are set during the initial survey configuration in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744) or added later, as needed. 
 
-To support translations, Viva Glint allows admins to export all program content - including all items from the Question Library - into .csv and .xlsx format. Exporting a file that includes English and all relevant translations in one place, provides an efficient way for users to review, add or edit translations and import them back into the platform. 
+To support translations, admins can export all program content - including all items from the Question Library - into .csv and .xlsx format. Exporting a file that includes English and all relevant translations in one place, provides an efficient way for users to review, add, or edit translations and then import them back into the platform. 
 
-Use these steps for translating Question Library items: 
-
-1. Export the items. 
-1. Employ a translator to make translations. 
-1. Use a translation reviewer to verify translations. 
-1. Import the items back into the platform. 
-
-### Export your items for language translation 
+### Export items from the Question Library 
 
 The first step for translating language translations is to export the list of items.  
 
-1. Select **Export Questions** from the **Actions** dropdown menu. 
-1. Choose the language(s) to include from the search box in the *Choose Which Language to Export* dialog box. 
-1. Select your export format from *.csv* or *.xlsx*. 
+1. Select **Export Questions** from the **Actions** menu. 
+1. Choose the language(s) to include from the search box in the **Choose Which Language to Export** dialog box. 
+1. Select your export format from **.csv** or **.xlsx**. 
 1. Select **Export**. A dialog box lets you know that your file is being downloaded. 
 1. After the report is downloaded, select **Close Window**. 
 
-### Translate the exported items 
+### Translate Question Library items
+Export the items. From the file that has been generated: 
 
-From the file that has been generated: 
-
-1. Use a translator to make exact changes to the items in column C for the approved English text in column B. 
-1. Further to the right, consider other items that might require translation: reporting labels, multiple choice questions, and ratings labels.  
-1. Use your translation reviewer to ensure that translated items match exactly to the approved item from the Question Library. 
-
-### For translators:
+1. **Use a translator** to make exact changes to the items in column C for the approved English text from column B. 
+1. To the right, consider other items which might require translation: reporting labels, multiple choice questions, and ratings labels.  
+1. **Use a translation reviewer** to ensure that translated items match exactly to the approved item from the Question Library. ### Translater tips
 
 |Do|Don't|
 |-------|--------|
@@ -134,7 +128,7 @@ From the file that has been generated:
 |Ensure there is consistent punctuation at the end of sentences (that is, all using a period or none using a period)|Don't add personal comments.|
 |Check for grammatical errors|Don't add new or additional columns or remove columns.| 
 
-### For translation reviewers
+### Translation reviewer tips
 
 |Do|Don't|
 |-------|--------|
@@ -142,12 +136,19 @@ From the file that has been generated:
 |Confirm that the original meaning of the question remains intact|Don't move translated content to different cells or columns|
 Keep translated content in the same cell and columns|Don't add personal comments|
    
-### Import your translated items 
+### Import translated items back into the Glint platform
 
 Back on the **Question Library** page, select **Import Questions** from the dropdown **Actions** menu. 
 
-1. Drag and drop or browse to find the translated file and place it in the box. 
+1. Drag and drop or browse to find the translated file and place it in the box indicated. 
 1. Select **Next**. 
 1. If everything looks as expected, select **Make Changes**.
 
-### [Change survey item IDS for expired survey cycles](/../../viva/glint/setup/change-item-id)
+## More resources
+
+[Use this Learn guidance to understand question mapping](question-mapping.md)<br/>
+[Change survey item IDs for expired survey cycles](/../../viva/glint/setup/change-item-id)
+
+
+
+
