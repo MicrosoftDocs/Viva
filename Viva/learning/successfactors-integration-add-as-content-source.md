@@ -22,7 +22,7 @@ description: The updated process for configuring SAP SuccessFactors as a learnin
 This article shows you how to configure SAP SuccessFactors as a third-party Learning Management System for Microsoft Viva Learning. This involves onboarding in the Admin tab under Viva Learning and then in SuccessFactors Portal.
 
 > [!NOTE]
-> This article outlines the updated experience for customers who are integrating Viva Learning with SuccessFactors for the first time. If you are a customer who has already added SuccessFactors as a content source, refer to our [**earlier documentation**](viva/learning/sfsf-add-as-content-source)
+> This article outlines the updated experience for customers who are integrating Viva Learning with SuccessFactors for the first time. If you are a customer who has already added SuccessFactors as a content source, refer to our [**earlier documentation**](/viva/learning/sfsf-add-as-content-source)
 
 
 Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.

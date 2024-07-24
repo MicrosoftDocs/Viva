@@ -24,7 +24,7 @@ This article shows you how to configure SAP SuccessFactors as a third-party Lear
 
 
 > [!NOTE]
-> This article outlines an earlier experience for customers who have already added SuccessFactors as a content source. If you are a customer who is integrating Viva Learning with SuccessFactors for the first time, refer to our [**updated documentation**](viva/learning/successfactors-integration-add-as-content-source).
+> This article outlines an earlier experience for customers who have already added SuccessFactors as a content source. If you are a customer who is integrating Viva Learning with SuccessFactors for the first time, refer to our [**updated documentation**](/viva/learning/successfactors-integration-add-as-content-source).
 
 
 Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
