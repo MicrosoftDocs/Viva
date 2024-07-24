@@ -50,6 +50,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 Choose the US or EU URL for Azure login to begin, based on the region of your tenant. The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location. If the central tenant location is outside the US or EU, the data for Viva Glint is stored in the US data center. **[Multi-Geo capabilities](/sharepoint/dev/scenario-guidance/multi-geo-capabilities) aren't currently supported for Viva Glint.**
 
+> [!IMPORTANT]
+> Organizations who use [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) to manage access to resources must ensure that the PIM enabled account used to provision Glint has Global Admin privileges with [Direct assignment](https://go.microsoft.com/fwlink/?linkid=2281307) access rights.
+
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
