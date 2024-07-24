@@ -1,5 +1,5 @@
 ---
-ms.date: 05/16/2024
+ms.date: 07/24/2024
 title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
@@ -120,6 +120,8 @@ Let’s now discuss the insights provided by each category, and how you can navi
 
 ### Summary page
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+
 **Significant change in collaboration** highlights significant changes in collaboration patterns following the event. You can use this insight category to analyze how collaboration increased or decreased between specific groups, as well as between smaller groups of people or subgroups within the larger groups. For example, with this card, you could analyze the changes in collaboration between the Product and Marketing groups following a reorganization.
 
 [Learn more about how these insights are generated](#metrics-used-for-insight-category-1).
@@ -132,7 +134,7 @@ Each card provides a list of **top highlights** for that particular insight 
 
 These highlights call out the most significant changes in group collaboration patterns following the event.
 
-On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process.  
+On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process. At the top right, select **Analysis focused on** to adjust this setting.
 
 :::image type="content" source="../images/ona-ga-analysis-focused-on.png" alt-text="Screenshot showing how to select focused values for top highlights.":::
 
@@ -224,11 +226,13 @@ Here are a few ways you can interact with the network view to learn more about t
 
 2. **Customize time periods**. In the top left of either view, select the dropdown next to the time period to change the timeframe. 
 
-3. **Revisit summary insights**. Want a refresher on key insights? Inside the card at the top of the page, select **View highlights**. You’ll be brought back to the summary page. Just remember, these insights apply to the original “before/after” timeframe you set.
+3. **Revisit summary insights**. Want a refresher on key insights? Inside the card at the top of the page, select **View highlights of**. You’ll be brought back to the summary page. Just remember, these insights apply to the original “before/after” timeframe you set.
 
 ### Full screen view
 
 The “before/after” view described above provides a quick snapshot that shows which groups had big changes and how they collaborated after the change event. To dig deeper into a single “before” or “after” view, you can select the outlined box in the top right of either view to further investigate how groups and subgroups worked together during that time period alone.
+
+:::image type="content" source="../images/ona-hotspot-3-fullscreen.png" alt-text="Screenshot showing the fullscreen button.":::
 
 Here are a few ways you can explore this view.
 
@@ -238,7 +242,9 @@ Here are a few ways you can explore this view.
 
 3. **Share results**. In the top right of the view, select the camera icon to share a snapshot of the changes with a colleague.
 
-4. **Go back to before/after view**. At the top right, select the arrows. Any time period changes you made in the full screen view will carry over to the “before/after” view.
+4. **Go back to before/after view**. At the top right, select the outward facing box. Any time period changes you made in the full screen view will carry over to the “before/after” view.
+
+:::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
 
 ### Matrix view
 
@@ -434,6 +440,8 @@ Therefore, for a given group, we average all the group size values that we have 
 
 ### Summary page
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nyKk]
+
 The **Showing signs of insularity** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
 
 An increase in insularity for a group, for instance, could mean that the group is at risk of becoming siloed from the rest of the organization, which could be a worrisome trend.
@@ -442,7 +450,7 @@ An increase in insularity for a group, for instance, could mean that the group i
 
 Just like the first insight category, the card provides a list of **top highlights** for this second insight category. Hover over each highlight to see which area of the graph it relates to.
 
-On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process. 
+On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process. At the top right, select **Analysis focused on** to adjust this setting.
 
 :::image type="content" source="../images/ona-ga-analysis-focused-on.png" alt-text="Screenshot showing how to select focused values for the top highlights.":::
 
@@ -505,11 +513,13 @@ Here are a few ways you can interact with this graph to learn more about the ins
 
 2. **Customize time periods**. In the top left of either view, select the dropdown next to the time period to change the timeframe.
 
-3. **Revisit summary insights**. Want another look at the key insights? Inside the card at the top of the page, select **View highlights**. You’ll be brought back to the summary view. These insights apply to the original “before/after” timeframe you set.
+3. **Revisit summary insights**. Want another look at the key insights? Inside the card at the top of the page, select **View highlights of**. You’ll be brought back to the summary view. These insights apply to the original “before/after” timeframe you set.
 
 ### Full screen view
 
 The “before/after” view described above provides a quick snapshot that shows which groups had changes in insularity and how they collaborated after the change event. To dig deeper into a single “before” or “after” view, you can select the outlined box in the top right of either view to investigate how groups and subgroups worked together during that time period alone.
+
+:::image type="content" source="../images/ona-hotspot-3-fullscreen.png" alt-text="Screenshot showing the fullscreen button.":::
 
 Here are a few ways you can explore this view.
 
@@ -517,7 +527,9 @@ Here are a few ways you can explore this view.
 
 2. **Share results**. In the top right of the view, select the camera icon to share a snapshot of the changes with a colleague.
 
-3. **Go back to before/after view**. At the top left, select the arrows. Any time period changes you made in the full screen view will carry over to the “before/after” view.
+3. **Go back to before/after view**. At the top right, select the outward facing box. Any time period changes you made in the full screen view will carry over to the “before/after” view.
+
+:::image type="content" source="../images/ona-hotspot-3-fullscreen-02.png" alt-text="Screenshot showing the button to go back to side by side view.":::
 
 ### Chart view
 
