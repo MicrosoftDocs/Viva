@@ -115,6 +115,8 @@ items:
               href: setup/export-user-roles.md
             - name: Delete user data 
               href: setup/delete-user-data.md
+            - name: Update employee IDs 
+              href: setup/id-update.md             
       - name: Distribution Lists 
         href: setup/set-up-distribution-lists.md
         items:
