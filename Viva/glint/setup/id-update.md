@@ -39,7 +39,7 @@ To update a user's ID as a Viva Glint admin:
 1. Search for and select a user to go to their Glint profile.
 1. At the top of the page, select the pencil symbol next to **Employee ID**.
 
-    :::image type="content" source="../../media/glint/setup/ip-update-user-profile.png" alt-text="Screenshot of a user's Glint profile with the employee ID update option.":::
+    :::image type="content" source="../../media/glint/setup/id-update-user-profile.png" alt-text="Screenshot of a user's Glint profile with the employee ID update option.":::
 
 1. In the **Edit Employee Details** dialog that appears, enter a new value in the **Employee ID** field.
 1. Select **Save Changes** to update the ID.
