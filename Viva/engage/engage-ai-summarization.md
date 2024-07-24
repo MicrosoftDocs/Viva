@@ -1,4 +1,3 @@
-
 ---
 title: "AI Summarization in Viva Engage"
 f1.keywords:
@@ -7,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 07/23/2024
+ms.date: 07/25/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
