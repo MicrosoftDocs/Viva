@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/09/2024
+ms.date: 07/25/2024
 ---
 
 # Manage Viva Glint confidentiality thresholds
