@@ -1,5 +1,5 @@
 ---
-ms.date: 06/12/2024
+ms.date: 07/25/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -152,7 +152,7 @@ The following attributes are reserved column headers for attributes that are cur
 * **HourlyRate**
 * **Layer**
 * **SupervisorIndicator**
-* **OnsiteDays**
+* **WeeklyBadgeOnsiteDays**
 * **Location**
 
 >[!Note]
@@ -209,6 +209,9 @@ This section contains information about the attributes that you use in the organ
 >[!Note]
 >If you share data from Viva Insights with the Organizational Data in Microsoft 365 feature, some of the attributes listed below are shared. Any attribute, however, that contains **Microsoft_** will not be available in Viva Insights. [Learn more about Organizational Data in Microsoft 365](/viva/organizational-data#data-uploaded-from-viva-insights).
 
+>[!Note]
+>The “OnsiteDays” field is now “WeeklyBadgeOnsiteDays.” See the table below to learn more.
+
 | Viva Insights mapped field | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
@@ -221,7 +224,7 @@ This section contains information about the attributes that you use in the organ
 |**HourlyRate**| An employee’s salary represented as an hourly rate in US dollars. | Double | `25.25` | Reserved|
 |**Layer**| An employee’s position within the organizational hierarchy, expressed as their distance from the top leader of the organization. For example, the CEO is at Layer 0. For more actionable insights, avoid using too few or too many unique Layers. | Integer | `2` |Reserved
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
-|**OnsiteDays**| The average number of days per week an employee works from the company’s main worksite. OnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| String | `4` |Reserved|
+|**WeeklyBadgeOnsiteDays**| The average number of days per week an employee works from the company’s main worksite. Must be a number between 0 and 7. WeeklyBadgeOnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| Double | `4` |Reserved|
 |**Location** | An employee’s office location.| String | `Burbank` | Reserved|
 | **CountryOrRegion** |  The country or region in which the employee works. | String | `Japan` | Reserved |
 | **My_Custom_attribute**<br> (example: **Campus**)| An attribute you create | String | `West` | N/A (custom)<sup>4</sup>
