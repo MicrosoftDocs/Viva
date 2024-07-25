@@ -49,7 +49,7 @@ There are two major integration stages for which admins require specific permiss
 
 3. Select **Add Provider**.  
 
-    ![Screenshot of the **Manage providers** dashboard with the list of configured providers and the option to add a provider](../media/learning/sfsf-onboarding-0.png)
+    ![Screenshot of the **Manage providers** dashboard with the list of configured providers and the option to add a provider.](../media/learning/sfsf-onboarding-0.png)
 
 4. Select **SAP SuccessFactors** from the Provider list and select **Next**.
 
