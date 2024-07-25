@@ -25,7 +25,9 @@ description: Control who can access Copilot in Microsoft Viva
 # Control access to Copilot in Viva
 
 > [!NOTE]
-> This feature is currently rolling out. Access management through the UI is not yet available for all Viva apps.
+> This feature is currently rolling out to customers.
+> 
+> Access management through the UI is not yet available for all Viva apps.
 
 You can control which users in your organization have access to Copilot in each applicable Viva app. You can turn access on or off for everybody, or choose specific people or groups to give access to. If you want to learn how to control access to other Viva features, see [feature access management](../feature-access-management.md).
 
