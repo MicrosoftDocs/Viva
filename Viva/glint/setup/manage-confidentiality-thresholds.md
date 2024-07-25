@@ -141,7 +141,7 @@ To edit threshold values:
 > [!NOTE]
 > The ability to make Always-On surveys identifiable is targeted to be available after July 27, 2024.
 
-Viva Glint Lifecycle and Always-On surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
+Admins can make Viva Glint Lifecycle and Always-On surveys identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
 
 ### Lower thresholds for identifiable surveys
 
@@ -151,6 +151,6 @@ Viva Glint Lifecycle and Always-On surveys can be made identifiable during [prog
 1. In **Program Summary**, go to **Program Setup**.
 2. Toggle **Confidential Responses** to **No.**
 3. This setting automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
-4. If needed, make more adjustmesnts to thresholds for a survey [with this guidance](#survey-thresholds).
+4. If needed, make more adjustments to thresholds for a survey [with this guidance](#survey-thresholds).
 
 :::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO."lightbox="../../media/glint/setup/always-on-threshold.png":::
