@@ -110,7 +110,6 @@ After users get assigned licenses with an applicable service plan, they get acce
 | [Focus plan](https://support.microsoft.com/topic/focus-plan-for-viva-insights-a079a744-010e-4fee-8552-a2799d0c62ea) | Insights by MyAnalytics |
 | [Send praise](https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27) | Insights by MyAnalytics  |
 | [Virtual commute](https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876) | Insights by MyAnalytics  |
-| [Headspace](https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72) | Insights by MyAnalytics  |
 | [Breather break](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics  |
 | [Reflect](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743) | Insights by MyAnalytics  |
 
