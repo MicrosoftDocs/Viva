@@ -428,7 +428,7 @@ With this aggregation, the output table becomes:
 
 **Group size values across time periods**
 
-Group sizes may vary across the time periods used for the query. One month, the Group size of a group might by 30, and the next month it might be 36. When visualizing the network across both these months, we would need to show a group size that is relatable.  
+Group sizes may vary across the time periods used for the query. One month, the Group size of a group might be 30, and the next month it might be 36. When visualizing the network across both these months, we would need to show a group size that is relatable.  
 
 Therefore, for a given group, we average all the group size values that we have computed per month over the different time periods to come up with the right value to show for the aggregated view. The table then becomes:
 
@@ -642,7 +642,7 @@ The EI index is determined based on the degree of connectivity, not the amount o
 2. Any combination of person A performing an action “x” with person B and person B responding to person A with action “y,” whereby x and y can be:
 
     * Chats with eight or fewer participants
-    * Emails with 18 or fewer participants, such as person A sent person B a chat and person B sent an email to person A. Or, peson A sent person B a chat and person B sent a chat to person A.  
+    * Emails with 18 or fewer participants, such as person A sent person B a chat and person B sent an email to person A. Or, person A sent person B a chat and person B sent a chat to person A.  
 
 3. Both person A and B attended a meeting which lies within the meeting threshold, i.e., the meeting category for both person A and B is “Attended meeting” or “Likely attended.”
 
