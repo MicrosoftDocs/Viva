@@ -36,7 +36,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1nze8]
 
-1. In the advanced insights app’s **Analysis** page, in the **Network analysis** section, under “Change management,” select **Start analysis**.
+1. In the advanced insights app’s **Analysis** page, in the **Network analysis** section, under “Change management,” select **Set up analysis**.
 
 2. Name the analysis. Make sure the name is unique and consider including the date. 
 
