@@ -35,7 +35,13 @@ All Pulses require a minimum number of responses before authors can view unattri
 
 ### Customized privacy policy link
 
-You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in the common navigation header (top right ellipses). When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
+You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in three places: 
+
+1. In the common navigation header (top right ellipses)
+2. The 'Learn More' page, which appears when the author creates a new pulse during a new session
+3. Before starting pulse, when the respondent opens the pulse request to respond
+
+When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
 2. Under the **Customize privacy policy statement** section, in the text box labeled **Link to privacy policy statement**, type or paste a link to your company’s privacy statement to be shown in the app in place of the Microsoft privacy statement.
