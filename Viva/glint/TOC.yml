@@ -142,7 +142,7 @@ items:
             href: setup/focus-areas-managers-creating.md
           - name: Set up Focus Area periods
             href: setup/focus-area-period-feature.md
-      - name: Suggestion Action templates
+      - name: Suggested Action templates
         href: setup/customize-action-plans.md
       - name: Content Resources
         items:
@@ -189,7 +189,7 @@ items:
          href: ../insights/advanced/admin/import-survey-glint.md
        - name: Glint and organizational insights report (preview)
          href: ../insights/advanced/analyst/templates/glint.md
-       - name: Partitions in Viva Insights
+       - name: Partitions (in Viva Insights)
          href: ../insights/advanced/admin/partitions.md
   - name: Create survey programs
     items: 
