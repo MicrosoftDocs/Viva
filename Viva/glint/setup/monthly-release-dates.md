@@ -35,7 +35,7 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 |Release 75|August 24, 2024|
 |Release 76|September 21, 2024|
 |Release 77|October 19, 2024|
-|Release 78|November 8, 2024|
+|Release 78|November 16, 2024|
 |Release 79|December 7, 2024|
 
 >[!IMPORTANT]
