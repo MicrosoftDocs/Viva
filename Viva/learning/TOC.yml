@@ -32,7 +32,7 @@
           - name: Overview of SAP SuccessFactors
             href: sfsf-introduction.md
           - name: Add SAP SuccessFactors as a content source 
-            href: sfsf-add-as-content-source.md
+            href: successfactors-integration-add-as-content-source.md
           - name: Enable learner record sync
             href: sfsf-enable-learning-record-sync.md
           - name: Manage SAP SuccessFactors permissions
