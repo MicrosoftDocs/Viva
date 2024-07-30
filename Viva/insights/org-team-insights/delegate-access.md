@@ -17,9 +17,6 @@ audience: Admin
 
 You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
 
->[!Note]
->The Copilot Dashboard Delegation feature is gradually rolling out to our customers so it might not be available to everyone right away.
-
 By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to organizational insights. They can view them and operationalize business decisions based on the data and insights.
 
 There are no changes to the metrics, aggregation, or filtering tools available to the delegate. However, the delegate doesn't have access to your personal insights or personal recommended actions, like sharing insights or sending praise to a recent collaborator.
