@@ -55,7 +55,7 @@ You can use feature access management to manage access to the following features
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
 ||Team conversations in Pulse reports*|No|Viva Pulse admin|VivaPulse|
-|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills| 
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 
 
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
@@ -165,7 +165,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 
 - If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 
-- If you see the error message "Requester was not authorized to complete the request" while you're running a PowerShell cmdlet, check if you have any conditional access policy set that blocks specific IP addresses. If so, either remove your IP address from that policy or create a new policy to allowlist your IP address. Learn more about [Microsoft Entra Conditional Access](/entra/identity/conditional-access/) and [Troubleshooting Conditional Access using the What If tool](https://learn.microsoft.com/en-us/entra/identity/conditional-access/troubleshoot-conditional-access-what-if).
+- If you see the error message "Requester was not authorized to complete the request" while you're running a PowerShell cmdlet, check if you have any conditional access policy set that blocks specific IP addresses. If so, either remove your IP address from that policy or create a new policy to allowlist your IP address. Learn more about [Microsoft Entra Conditional Access](/entra/identity/conditional-access/) and [Troubleshooting Conditional Access using the What If tool](/entra/identity/conditional-access/troubleshoot-conditional-access-what-if).
 
 ## How access policies work in Viva
 
