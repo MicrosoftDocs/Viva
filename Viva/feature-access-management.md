@@ -49,7 +49,7 @@ You can use feature access management to manage access to the following features
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|No|Global admin|VivaInsights|
-||[Copilot Assisted Value](/https://go.microsoft.com/fwlink/?linkid=2281051)|No|Global admin|VivaInsights|
+||[Copilot Assisted Value](https://go.microsoft.com/fwlink/?linkid=2281051)|No|Global admin|VivaInsights|
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
