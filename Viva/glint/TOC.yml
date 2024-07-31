@@ -312,6 +312,12 @@ items:
             href: setup/change-live-survey.md
           - name: Delete survey data 
             href: setup/delete-survey-data.md
+  - name: Support survey participants 
+    items:
+      - name: Provide support during a survey
+        href: communicate/support-survey-participants.md
+      - name: Create an FAQ document
+        href: communicate/survey-taker-faq.md 
   - name: View survey results
     items:
       - name: Survey reports guide
@@ -406,12 +412,6 @@ items:
         href: setup/focus-areas-managers-creating.md
       - name: Address access issues
         href: setup/manager-access-issues.md              
-  - name: Support survey participants 
-    items:
-      - name: Provide support during a survey
-        href: communicate/support-survey-participants.md
-      - name: Create an FAQ document
-        href: communicate/survey-taker-faq.md
   - name: Viva integrations
     items:
       - name: Viva Glint and Viva Insights
