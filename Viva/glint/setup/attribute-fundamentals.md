@@ -31,7 +31,7 @@ Attribute column headers (labels) are unique to your organization. For example, 
 - **Recommended attributes**: Custom data for your organization that can include fields that are converted into derived values (or buckets), like Tenure.
 
 >[!NOTE]
-> Attributes that are used to derive other fields are required for all future uploads. For example, Viva Glint uses Hire Date to create Tenure groups, Hire Date is required in all uploads.
+> Attributes that are used to derive other fields are required for all future uploads. For example, if Viva Glint uses Hire Date to create Tenure groups, Hire Date is required in all uploads.
 
 ### Attributes by item and survey type
 
