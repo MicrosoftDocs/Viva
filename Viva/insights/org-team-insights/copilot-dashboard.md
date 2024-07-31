@@ -1,5 +1,5 @@
 ---
-ms.date: 4/23/2024
+ms.date: 7/31/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -429,10 +429,10 @@ Or, if the survey output is in a string format:
 
 | User AAD ID/Email address | Question 1 | Question 2 | Question 3 | Question 4 | 
 |----|----|----|----|----|
-| abc@test.com | 75 (Normalized score) | 25 (Normalized score) | 0 (Normalized score) | 100 (Normalized score) | 
-| xyz@test.com | 25 | 75 | N/A | 100 | 
+| abc@test.com | 75 | 25 | 0 | 100 | 
+| xyz@test.com | 25 | 75 |  | 100 | 
 
-The cells for the responses may contain “N/A” values for employees who did not respond to the question.
+For questions that did not receive an employee response, such as Question 3 for user xyz@test.com in the example above, the cell should be left blank in the .csv file.
 
 For additional guidance on how to format your .csv file, refer to this example formatted .csv: [Impact Dashboard survey sample file](https://go.microsoft.com/fwlink/?linkid=2260529).
 
