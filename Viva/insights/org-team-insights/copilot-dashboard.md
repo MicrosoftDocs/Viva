@@ -19,9 +19,6 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->This feature is rolling out gradually to all customers with more than 100 Copilot assigned licenses.
-
->[!Note]
 >The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. Neither a paid Viva Insights license nor a Copilot license is required to view the dashboard. However, for tenants with more than 100 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
@@ -155,7 +152,7 @@ At the top left of the adoption and impact page, next to **Scope**, select the d
 By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of three ways:
 
 * Through Microsoft Entra ID, which is the default setting
-* Through an [organizational data file in Microsoft 365 that your Global admin uploads](../advanced/admin/org-data-overview.md)
+* Through an [organizational data file in Microsoft 365 that your Global admin uploads](/viva/organizational-data)
 * Through an [organizational data file that your Insights admin uploads](../advanced/admin/org-data-overview.md)
 
 >[!Note]
@@ -275,13 +272,23 @@ Microsoft 365 global admins can upload aggregated survey results through Adoptio
 
 This page helps you assess Copilot impact by layering the results of Microsoft's quantitative and qualitative research on top of your organization's Copilot and Microsoft 365 usage patterns. 
 
-At the top of the page, you’ll see tallies for **Active Copilot users**, **Copilot actions taken**, and **Copilot assisted hours**. Let’s define these terms.
+At the top of the page, you’ll see tallies for **Active Copilot users**, **Copilot actions taken**, **Copilot assisted hours**, and **Copilot assisted value**. Let’s define these terms.
 
 * **Active Copilot users**: The total number of employees who performed at least one Copilot activity in the previous 28 days.
 
 * **Copilot actions taken**: The total number of actions taken using Copilot across Microsoft 365 apps.
 
-* **Copilot assisted hours**: This is an estimate of the total time employees were assisted by using Copilot over the past 28 days. Employees can re-invest time savings from Copilot in learning, training, skilling, and having a greater business impact. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The metric should be viewed as a general estimate based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available. Select **How do we estimate this** to see a breakdown of how the total figure is calculated. See more information on the calculation below.
+#### Copilot assisted hours
+
+This is an estimate of the total time employees were assisted by using Copilot over the past 28 days. Employees can re-invest time savings from Copilot in learning, training, skilling, and having a greater business impact. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [Microsoft’s research on Copilot users](https://www.microsoft.com/en-us/worklab/how-we-measure-the-value-of-ai-at-work). The metric should be viewed as a general estimate based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available. Select **Hours and value calculator** to see a breakdown of how the total figure is calculated. See more information on the calculation below. To toggle between **Copilot assisted hours** and **Copilot assisted value**, select the clock or currency symbol at the top right of the card.
+
+#### Copilot assisted value
+
+This is an estimate of the value of Copilot’s impact over the given time period, calculated by multiplying Copilot assisted hours by an average hourly rate. By default, this hourly rate is set to $72, based on [data compiled by the U.S. Bureau of Labor Statistics](https://www.bls.gov/news.release/ecec.t04.htm). You can change the hourly rate and the currency in your settings. To see a breakdown of Copilot assisted value by app activity, select **Hours and value calculator**.
+
+* To update the average hourly rate, select **Hours and Value calculator** and then select **Value calculator**. You’ll see a breakdown of how the total value is calculated with your updated setting.
+
+* This feature is on by default. Your Global admin can use Viva feature access management to disable this feature for the entire tenant. [Learn more](/viva/feature-access-management).
 
 ##### Details on the "Copilot assisted hours" metric
  

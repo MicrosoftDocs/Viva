@@ -1,6 +1,6 @@
 ---
 title: Use the Viva Glint Response Rate report
-description: "The Response Rate report provides a deep dive into survey response rates across hierarchies and key demographics."
+description: The Response Rate report provides a deep dive into survey response rates across hierarchies and key demographics.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: elizapo
@@ -14,15 +14,15 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 07/30/2024
 ---
 
 # Use the Viva Glint Response Rate report
 
-The Response Rate report provides a deep dive into survey response rate trends and comparisons across hierarchies and key demographics. The report is available to anyone with Program Access and is viewable by admins after the survey launches. When the file is ready, the admin receives an email notification and can share results with their managers. The Response Rate report is accessible through the Reports tab on the Microsoft Viva Glint dashboard. 
+The Microsoft Viva Glint Response Rate report provides a deep dive into survey response rate trends and comparisons across hierarchies and key demographics. The report is available to anyone with Program Access and is viewable by admins after the survey launches. The Response Rate report is accessible through the Reports tab on the Viva Glint dashboard. 
 
-  > [!TIP]
-  >Viva Glint’s global industry average response rate is 75% and was last updated June 2022. 
+  > [!NOTE]
+  > Viva Glint’s global industry average response rate is 75% and was last updated June 2022. 
 
 ## Customize your report settings 
 
@@ -84,7 +84,7 @@ The report can be exported as a PowerPoint, PDF, report to Images, or a spreadsh
 
 ### Email managers without results  
 
-Customize the email template for small teams to explain to managers of small teams or teams who haven’t met confidentiality requirements to let them know what survey results they can see and share with their team.  
+Customize the [email template](https://go.microsoft.com/fwlink/?linkid=2281446) for small teams to explain to managers of small teams or teams who haven’t met confidentiality requirements to let them know what survey results they can see and share with their team.  
 
   > [!TIP]
-  >Send this email to any manager who needs this information, one day post-survey close.    
+  > Send this email to any manager who needs this information, one day post-survey close.    

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2024
+ms.date: 07/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -38,18 +38,34 @@ To ensure that your global employee population receives communications that they
 
 Standard Viva Glint survey emails include a single language that can be triggered based on a language code on the employee data you upload to Glint. Multiple language emails (dual and triple) allow your organization to include sections in multiple languages in one survey email.  
 
+### Dual language emails
+
 For dual language emails, each language that you select for a survey is tied to an email that includes two language sections. For example, users coded for Spanish (Latin America) could see an email with English and Spanish sections: 
 
 :::image type="content" source="../../media/glint/setup/dual-lang-preview.png" alt-text="Screenshot of an email preview for a dual language email with sections in Spanish and English.":::
 
-Or you may want to use triple language emails to send users survey emails that contain three languages so that participants can choose the correct survey language from their invites and reminders:
+### Triple language emails
+
+You may want to use triple language emails to send users survey emails that contain three languages so that participants can choose the correct survey language from their invites and reminders:
 
 :::image type="content" source="../../media/glint/setup/three-lang-preview.png" alt-text="Screenshot of an email preview for a triple language email with sections in English, Spanish, and French.":::
+
+### Survey start buttons
 
 In dual and triple language emails, when a survey participant selects a Provide Feedback button in any language section:
 
 - They land on the survey welcome page in the survey language code tied to their user profile. Participants can select a different language from the dropdown menu.
 - They land on the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile. Participants can select a different language from the dropdown menu.
+
+### Language selection links
+
+To let users jump to a language section in multiple language emails, use the Select Language field during email setup. Add the name of the language that should be selected. For example, in this dual language email, to have Spanish (Latin America) users see a Select Language option that takes them to the English section of the email, add "English" to the Select Language field:
+
+:::image type="content" source="../../media/glint/setup/multi-lang-select-lang-setup.png" alt-text="Screenshot of an email setup pane with English populated in the Select Language field.":::
+
+With this setup, Spanish (Latin America) users see this language selection option at the top of multiple language emails which lets them quickly skip to the English section of the email:
+
+:::image type="content" source="../../media/glint/setup/multi-lang-select-lang.png" alt-text="Screenshot of an email with Spanish and English sections and a Select Language hyperlink at the top of the email.":::
 
 ### Confirm that your organization uses a language attribute
 
@@ -63,7 +79,7 @@ To enable multiple language sections in emails for survey participants:
 1. Select a survey and go to the **Communications** section.
 1. In **Email Settings**, switch on the **Show multiple languages for recipient in certain locale** toggle.
 2. In the dropdown menu that appears, select Dual Language Survey/Reminder or Triple Language Survey/Reminder.
-3. Select **Save Changes** in the top left of the **Communications** page.
+3. Select **Save Changes** in the top right of the **Communications** page.
 
    :::image type="content" source="../../media/glint/setup/email-settings-multi-lang.png" alt-text="Screenshot of the multiple language email setting in the Communications section of survey setup.":::
 
