@@ -23,11 +23,11 @@ ms.date: 07/31/2024
 
 Attributes are data about the people in your organization. Attributes are used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Attribute column headers (labels) are unique to your organization. For example, your HR information system (HRIS) may include "Employee ID," while another company has "Work ID." The labels in Viva Glint guidance are for example purposes only. Choose name labels that match your organization's HRIS.
+Attribute column headers (labels) are unique to your organization. For example, your HR information system (HRIS) may include "Employee ID," while another company has "Work ID." The labels in Viva Glint guidance are examples only. Choose name labels that match your organization's HRIS.
 
 ## Standard attribute types
 
-- **Required attributes**: These are required fields for each user in your Employee Data File.
+- **Required attributes**: These fields are required for each user in your Employee Data File.
 - **Recommended attributes**: Custom data for your organization that can include fields that are converted into derived values (or buckets), like Tenure.
 
 >[!NOTE]
@@ -42,7 +42,7 @@ Attribute column headers (labels) are unique to your organization. For example, 
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |
 | **Email address** | Each employee should have a unique email address. Don't include extra spaces.<br>If an employee doesn't have an email address, copy the employee’s unique ID into the email field. | Yes | Yes |
-| **Personal email address** | Opt to include personal email address to contact exiting employees. | No | Recommended |
+| **Personal email address** | To contact exiting employees, include personal email address. | No | Recommended |
 | **Time zone** | See [Time zones](#time-zones) | No | No |
 | **Language** | See [Language](#languages) | No | No |
 | **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a manager hierarchy. | Highly recommended | Highly recommended |
@@ -50,7 +50,7 @@ Attribute column headers (labels) are unique to your organization. For example, 
 | **Birth year** | Used to derive age group buckets.<br>Viva Glint standard values: <25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, and 70+ | No | No |
 | **End date** | Employee’s termination date. | No | Yes, for triggering Employee Lifecycle Exit surveys |
 
-*Tenure values for new Viva Glint customers after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+*Tenure values for new Viva Glint customers after January 13, 2024. Before this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 ## Custom attributes
 
