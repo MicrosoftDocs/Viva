@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 07/24/2024
+ms.date: 07/31/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -186,7 +186,7 @@ If you need to delete the draft configuration, you can delete the SuccessFactors
 
 ### Customers who have already completed SuccessFactors integration 
 
-If you have configured SuccessFactors integration prior to this update (mention date), we highly recommend that you move to the new integration. This enables seamless integration with SuccessFactors by automatically updating the SuccessFactors partner extract configuration with Client ID, PGP keys, key owner, and other required properties. This helps in automatic generation of full data extract package and seamless integration driven by SuccessFactors APIs.  
+If you have configured SuccessFactors integration prior to this update, we highly recommend that you move to the new integration. This enables seamless integration with SuccessFactors by automatically updating the SuccessFactors partner extract configuration with Client ID, PGP keys, key owner, and other required properties. This helps in automatic generation of full data extract package and seamless integration driven by SuccessFactors APIs.  
 
 1. Go to the **Admin** tab in Viva Learning and select **Manage Providers**. Under the configured SuccessFactors provider, you'll see 'Configuration pending, awaiting required details.' 
 
