@@ -80,7 +80,9 @@ Viva Connections notifications follow the Microsoft Teams notification settings,
 
 **Can I selectively enable or disable some of these notifications?**
 
-Notifications can't be selectively enabled or disabled, but users can toggle all push notifications (including Viva Connections) in the Teams mobile app under **Settings** > **Notifications** > **General Activity** > **Apps on Teams**. Notifications will still be visible under the Microsoft Teams activity feed. Additionally, specific notification types can be selectively enabled or disabled under **Settings** > **Notifications and activity** > **Viva Connections** on desktop.
+On **Teams desktop and web,** specific notification types can be selectively enabled or disabled under **Settings** > **Notifications and activity** > **Viva Connections**. These settings are respected on Teams mobile as well.
+
+On **Teams mobile**, notifications can't be selectively enabled or disabled, but users can toggle all push notifications (including Viva Connections) in the Teams mobile app under **Settings** > **Notifications** > **General Activity** > **Apps on Teams**. Notifications will still be visible under the Microsoft Teams activity feed. 
 
 **What defines ‘people I work with’?**
 
