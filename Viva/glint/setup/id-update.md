@@ -19,9 +19,6 @@ ms.date: 07/24/2024
 
 # Update employee IDs in Viva Glint
 
-> [!NOTE]
-> This feature is targeted to be available after July 27, 2024.
-
 Use the Microsoft Viva Glint employee ID update feature to keep employee information current. Viva Glint admins can update users' IDs when there are:
 
 - Duplicated IDs
