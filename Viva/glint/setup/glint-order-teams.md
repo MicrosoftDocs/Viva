@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2024
+ms.date: 07/31/2024
 ---
 
 # Viva Glint Licensing
@@ -27,9 +27,6 @@ If the number of active users in Viva Glint exceeds the subscription purchase, y
 
 - Purchase extra Microsoft Viva suite or Viva Glint licenses according to the product terms. 
 - Remove excess active users from the Viva Glint instance by marking their status as "INACTIVE" in a [user upload](upload-employee-attributes.md).
-
-> [!NOTE]
-> Viva Glint uses Microsoft’s capacity license model. Marking a user as "INACTIVE" frees up a capacity license to be used. Licenses are no longer in use when an admin inactivates users and admins don't need to assign licenses individually. 
 
 ## What happens if our grace period expires?
 
