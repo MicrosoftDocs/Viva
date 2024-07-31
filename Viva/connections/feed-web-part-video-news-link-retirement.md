@@ -19,7 +19,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Viva Connections Feed Web Part and Video News link Retirement - Support Guidance"
 ---
 
