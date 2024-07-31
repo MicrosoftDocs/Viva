@@ -32,7 +32,7 @@ Once you provide users with the ability to use optional connected experiences in
 
 The URL Preview service automatically generates a preview snippet and autofills the metadata like title, description, and thumbnail while user [adds link to content](learning-path-add-link.md) in Viva Learning. This service makes a request to the service URL as the user is typing the message. 
 
-If the service URL doesn't have any schema.org data, it sends a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](microsoft.com/servicesagreement) and covered by the [privacy statement](privacy.microsoft.com/privacystatement). Any URLs you provide to Microsoft Teams while using these services can be sent to Microsoft Bing, including Bing Content Validation Service for evaluation of harmful content. They aren't linked to you by the Bing organization. 
+If the service URL doesn't have any schema.org data, it sends a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to Microsoft Teams while using these services can be sent to Microsoft Bing, including Bing Content Validation Service for evaluation of harmful content. They aren't linked to you by the Bing organization. 
 
 ## Related articles 
 
