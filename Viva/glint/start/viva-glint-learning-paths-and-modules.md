@@ -1,6 +1,6 @@
 ---
 title: Viva Glint Learning Paths and modules
-description: Recommended trainings for admins, HRBPs, IT specialists, and managers using Viva Glint are hosted within Microsoft Learn.
+description: Recommended trainings for admins, HR business partners, IT specialists, and managers using Viva Glint are hosted within Microsoft Learn.
 ms.author: Judithweiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -20,7 +20,7 @@ ms.date: 08/01/2024
 # Viva Glint learning paths and modules
 Discover the power of Microsoft Viva Glint with step-by-step guidance. [Recommended trainings for admins and managers using Viva Glint are hosted within Microsoft Learn](/training/browse/?terms=Viva%20Glint).
 
-Viva Glint learning paths and the modules contained within them have been carefully created by our Subject Matter Experts to provide a thorough self-paced and self-teachable learning experience. Learning paths are comprised of building blocks, referred to as modules. All trainings are recommended prior to setting up and launching your first Viva Glint program.
+Viva Glint learning paths, composed of modules, are carefully created by our Subject Matter Experts to provide a thorough self-paced and self-teachable learning experience. All trainings are recommended before to setting up and launching your first Viva Glint program.
 
 As an HR and/or an IT professional, you may find both the admin and manager trainings useful in using Viva Glint.
 
@@ -38,7 +38,7 @@ These learning paths and modules deep dive into Viva Glint methodology and surve
 |[Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)|Learning path|Introduces the methodology of People Success, describe how to use it, and details the Viva Glint methodology|<ul><li>[Getting to know Viva Glint's approach to modern engagement](/training/modules/viva-glint-get-know-viva-glint-approach-modern-engagement/)</li><li> [Designing a People-Centric Measurement Strategy](/training/modules/viva-glint-design-people-centric-measurement-strategy/)</li><li> [Empowering Action for Better Results](/training/modules/viva-glint-empower-action-better-results-viva-glint/)</li></ul>|Recommended| 
 |[Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)|Learning path|Provides high level information about setting up your dashboard, recurring surveys, and sharing feedback results|<ul><li>[Learn how to set up Viva Glint](/training/modules/viva-glint-learn-how-setup-viva-glint/)</li><li> [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design/)</li><li> [Understand Viva Glint survey configuration and launch](/training/modules/viva-glint-understand-viva-glint-survey-config-launch/)</li><li> [Prepare for a successful Viva Glint results rollout](/training/modules/viva-glint-prepare-successful-results-rollout/)</li></ul>|Recommended|
 |[Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)|Learning path|Make the most of your Viva Glint results by understanding reports and having valuable and sustainable ACT conversations with your teams|<ul><li>[Navigate your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2244907)</li><li>[Share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2258751)</li></ul>|Recommended|
-|[Set a Vision and Strategy for your Viva Glint program](/training/modules/viva-glint-set-vision-strategy)|Module|Provides the framework for how meetings can be designed to align stakeholders on the core challenges within your organization and be solved with a Microsoft Viva Glint survey program|N/A|Optional| 
+|[Set a Vision and Strategy for your Viva Glint program](/training/modules/viva-glint-set-vision-strategy)|Module|Provides the meeting design framework to align stakeholders on the core business challenges your organization wants to solve with a Viva Glint survey program|N/A|Optional| 
 |[Deliver results with your Executive Consultation](/training/modules/viva-glint-deliver-results-executive-consultation)|Module|Provides the knowledge to help you move from data to insights and facilitate a successful Executive Consultation (EC) with leadership teams|N/A|Optional|
 |[Learn about a Viva Glint 360 Feedback program](/training/paths/viva-glint-360-feedback%20program/)|Learning path|Designed to help understand how to configure, launch, and share a 360 survey and results|<ul><li>[Understand Viva Glint’s approach to 360 Feedback](/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/)</li><li>[Configure and manage a Viva Glint 360 Feedback program](/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/)</li><li>[Set a Vision and Strategy for your Viva Glint program](/training/modules/viva-glint-set-vision-strategy/)</li></ul>|Optional| 
 
