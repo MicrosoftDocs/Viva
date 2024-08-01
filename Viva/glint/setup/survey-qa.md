@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/13/2024
+ms.date: 07/24/2024
 ---
 
 # Review Viva Glint settings and survey programs before launch
@@ -27,45 +27,26 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 > [!NOTE]
 > Not all General Settings fields are included here, but settings that have the biggest impact to survey takers are included.
 
-### Company Information
 
-- **Client Name:** The organization name here appears in surveys and email invites and reminders.
-- **Client Time Zone:** This is the default time zone that Glint uses to send communications.
-- **Company Privacy Policy:** Optionally, include a link to your company policy. [Learn more](add-privacy-policy.md)
-- **Company Message to Survey Participants:** To include the same message for all surveys, add a message here. To customize for each survey, add in Program Setup.
-
-### Communications
-
-- **Send Surveys in Users' Time Zones:** Switch to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md). 
-
-### Reporting
-
-- **Attributes for Alerts:** Select attributes to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.
-- **Primary Hierarchy:** Select the primary hierarchy for default reporting views and sections (usually Manager Hierarchy).
-- **Secondary Hierarchy:** Select the secondary hierarchy for default reporting views and sections.
-
-### Engage Survey Details
-
-- **Require Azure AD for links in survey emails:** Switch to Yes to require survey participants to authenticate with Entra ID to access surveys. [Learn more](understand-survey-access-methods.md).
-- **Attribute-based Survey Access:** Set up an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md)
-
-### Features
-
-- **Employee Post-Survey Action Taking:** Set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This applies to all surveys.
-
-### Technical Configuration
-
-- **SFTP Setup:** Confirm that Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).
- 
-### Localization
-
-- **Comments Analytics Languages:** Select languages that should be translated to English for comment analysis.
-    > [!NOTE]
-    > Languages must be selected before a survey launches to successfully analyze non-English comments.
-- **Default Survey Language:** Choose the default language for survey participants.
-- **Supported Survey Languages:** Choose additional languages for survey participants to select.
-- **Default Dashboard Language:** Choose the default language for dashboard users.
-- **Supported Dashboard Languages:** Choose additional languages for dashboard users to select.
+|Section  |Item  |Confirm that...|
+|:----------|:-----------|:------------|
+|Company Information     |Client Name       |The organization name here is correct; it appears in surveys and email invites and reminders.        |
+|      |Client Time Zone       |The correct default time zone that Glint uses to send communications is selected.        |
+|      |Company Privacy Policy (optional)        |If configured, the correct link to your company policy is included. [Learn more](add-privacy-policy.md)        |
+|      |Company Message to Survey Participants (optional)      |If configured, the message and translations here are accurate. To customize for each survey, add in Program Setup.        |
+|Communications     |Send Surveys in Users' Time Zones       |This is switched to Yes or No to enable or disable [sending communications in user's time zones](time-zones.md).         |
+|Reporting     |Attributes for Alerts       |Attributes are selected to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.        |
+|      |Primary Hierarchy      |The correct primary hierarchy is selected for default reporting views and sections (usually Manager Hierarchy).        |
+|      |Secondary Hierarchy       |The correct secondary hierarchy is selected for default reporting views and sections.        |
+|Engage Survey Details     |Require Azure AD for links in survey emails       |This setting is switched to:<br><br> Yes to require survey participants to authenticate with Entra ID to access surveys. <br> No to allow survey participants to access surveys with personalized links.<br>[Learn more](understand-survey-access-methods.md).        |
+|      |Attribute-based Survey Access       |If needed, attributes are selected for an alternate survey access method for deskless workers. [Learn more](attribute-based-survey-access.md)        |
+|Features     |Employee Post-Survey Action Taking       |This is set to Yes or No to determine if survey participants see recommended LinkedIn Learning videos on their survey Thank you page. This applies to all surveys.        |
+|Technical Configuration     |SFTP Setup       |Secure File Transfer Protocol (SFTP) setup is complete if your organization imports employee data with this method. [Learn more](set-up-sftp.md).        |
+|Localization     |Comments Analytics Languages       |Languages that should be translated to English for comment analysis are selected. **Languages must be selected before a survey launches to successfully analyze non-English comments.**       |
+|      |Default Survey Language       |The correct default language is selected for survey participants.        |
+|      |Supported Survey Languages       |Correct additional languages for survey participants are selected.        |
+|      |Default Dashboard Language       |The correct default language is selected for dashboard users.        |
+|      |Supported Dashboard Languages       |Correct additional languages for dashboard users are selected.         |
 
 ## Review survey programs
 

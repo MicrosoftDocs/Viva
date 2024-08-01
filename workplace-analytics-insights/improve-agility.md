@@ -71,7 +71,7 @@ For more best practices, see [Best practices for meetings](/viva/insights/tutori
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
-According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.” Ways to empower decision making:
+Here are some ways to support employee wellbeing:
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
 * Use [Teams channels](/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
@@ -85,7 +85,7 @@ When managers are needed in more meetings than they can attend, they become obst
 
 The level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
 
-[Collaboration overload is a symptom of a deeper organizational problem](https://insights.office.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/) explains that “meetings can become a substitute for effective leadership communication. Rather than taking the time to share the specifics discussed in a meeting with subordinates who did not attend, some leaders opt to invite an army to every meeting.” Ways to improve:
+Here are some ways to support employee wellbeing:
 
 * Empower employees with ownership of work streams so they can quickly make decisions and take action.
 * Use [Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.

@@ -48,17 +48,20 @@ You can use feature access management to manage access to the following features
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
+||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|No|Global admin|VivaInsights|
+||[Copilot Assisted Value](https://go.microsoft.com/fwlink/?linkid=2281051)|No|Global admin|VivaInsights|
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
 ||Team conversations in Pulse reports*|No|Viva Pulse admin|VivaPulse|
-|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills| 
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 
 
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
 
 > [!NOTE]
+>
 > - You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
 > - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other features generally take effect within 24 hours.
 
@@ -67,11 +70,10 @@ You can use feature access management to manage access to the following features
 Before you can create an access policy in Viva, you need:
 
 - A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)
-- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later
-- User accounts created in or synchronized to Microsoft Entra ID
-- Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups. Groups must be mail-enabled (have an associated email address). The membership type can be either dynamic or assigned.
-- The global administrator role in Microsoft Entra ID or [the role required for the specific app and feature](#features-available-for-feature-access-management).
-
+- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later. If you need to use non-mail-enabled groups you must have access to Exchange PowerShell version 3.5.1 or later.
+- User accounts created in or synchronized to Microsoft Entra ID.
+- Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups. The membership type can be either dynamic or assigned.
+- The [role required for the specific app and feature](#features-available-for-feature-access-management).
 
 > [!IMPORTANT]
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
@@ -161,13 +163,11 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
+- If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
+
+- If you see the error message "Requester was not authorized to complete the request" while you're running a PowerShell cmdlet, check if you have any conditional access policy set that blocks specific IP addresses. If so, either remove your IP address from that policy or create a new policy to allowlist your IP address. Learn more about [Microsoft Entra Conditional Access](/entra/identity/conditional-access/) and [Troubleshooting Conditional Access using the What If tool](/entra/identity/conditional-access/troubleshoot-conditional-access-what-if).
 
 ## How access policies work in Viva
-
-Here's how access policies work in Viva:
-
-:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
 - If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.

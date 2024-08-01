@@ -22,7 +22,7 @@ description: "Verified admins can monitor private conversations in Viva Engage."
 
 # Monitor private content in Viva Engage
 
-Private content in Viva Engage should be just that—private. However, sometimes there is a need for a verified admin to look into private messages or other content. For example, say you get a report that someone is harassing someone else on a private thread. You need to be able to make sure that members of the network are behaving according to your company's standards.
+Private content in Viva Engage should be just that—-private. However, sometimes there is a need for a verified admin to look into private messages or other content. For example, say you get a report that someone is harassing someone else on a private thread. You need to be able to make sure that members of the network are behaving according to your company's standards.
   
 As the verified admin of a Viva Engage network, you can temporarily grant yourself access to private content to investigate issues. When you're done, you can turn off access by going back to the default mode where you can't read private content. Granting access to private content applies to the following types of content in Viva Engage:
   

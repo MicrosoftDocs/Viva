@@ -4,7 +4,7 @@
    items:
    - name: Get started with Viva Engage
      items:    
-     - name: Setup
+     - name: Set up Viva Engage
        href: setup.md
      - name: Deep linking into Viva Engage
        href: deeplinks.md
@@ -14,7 +14,7 @@
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
-     - name: Support Microsoft Copilot 365 adoption with prebuilt community
+     - name: Support Microsoft Copilot 365 adoption in your organization
        href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
@@ -100,7 +100,7 @@
        href: /viva/engage/manage-security-and-compliance/security-and-compliance
      - name: Manage security settings 
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
-     - name: Manage Viva Engage with Intune
+     - name: Manage Viva Engage on mobile devices with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
      - name: Enforce Microsoft 365 identity for users
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
