@@ -41,5 +41,5 @@ If the service URL doesn't have any schema.org data, it sends a request to Bing 
 
 [Required service data for Office](/microsoft-365-apps/privacy/required-service-data)
 
-[Account Privacy Settings](https://support.microsoft.com/office/access-your-account-privacy-settings-3e7bc183-bf52-4fd0-8e6b-78978f7f121b)
+[Account privacy settings](https://support.microsoft.com/office/access-your-account-privacy-settings-3e7bc183-bf52-4fd0-8e6b-78978f7f121b)
 
