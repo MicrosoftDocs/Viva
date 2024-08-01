@@ -455,7 +455,7 @@ The OneDrive card (previously known as Files) will connect individuals to their 
     - **Shared**: Files that have been shared with the user will be displayed.
     - **Favorites**: Files that the user has marked as “favorite” will be displayed.
 
-7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 group into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png":::
 
