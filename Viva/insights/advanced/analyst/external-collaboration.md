@@ -27,7 +27,7 @@ The query includes:
 
 * The amount of time the primary collaborator invests with the secondary collaborator, and how they spend their time
 
-## How to run an External Collaboration Query
+## How to run an external collaboration query
 
 ### Set up your query
 
