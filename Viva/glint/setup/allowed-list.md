@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/08/2024
+ms.date: 08/01/2024
 ---
 
 # Review allowed list information for Viva Glint
