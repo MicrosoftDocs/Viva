@@ -15,6 +15,7 @@ ms.collection:
   - Tier1
 ms.localizationpriority: medium
 description: This article describes privacy information related to optional connection experiences in Viva Learning
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Optional connected experiences in Viva Learning
