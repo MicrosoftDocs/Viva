@@ -1,12 +1,12 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 09/07/2021
+ms.date: 06/28/2024
 title: Microsoft Viva Insights My team page
 description: The My team page in the Microsoft Viva Insights app in Microsoft Teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: null
+ms.localizationpriority: Low
 ms.service: viva-insights
 manager: scott.ruble
 audience: Admin

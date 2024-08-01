@@ -1,6 +1,6 @@
 ---
-ms.date: 06/26/2023
-title: "Write effective OKRs that inspire action and deliver results"
+ms.date: 06/17/2024
+title: Write effective OKRs that inspire action and deliver results
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -18,21 +18,21 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Learn how write Objectives, Key Results, and Initiatives for a healthy OKR program."
+description: "Learn how write objectives, key results, and initiatives for a healthy OKR program."
 ---
 
-# Write effective OKRs that inspire action and deliver results.
+# Write effective OKRs that inspire action and deliver results
 
-Both leaders and practitioners agree that having clear, relevant, and communicated goals allows employees to focus on the work that matters, and that outcome-driven goals help teams align to strategic priorities and deliver measurable results. 
+Both leaders and practitioners agree that having clear, relevant, and communicated goals allows employees to focus on the work that matters, and that outcome-driven goals help teams align to strategic priorities and deliver measurable results.
 
 Building on that, if you and your team are bought in with the general process of setting goals, it may make sense to get more specific by following a goal framework, which serves as a powerful tool to structure and guide the process of setting and achieving goals.  
 
-The framework we recommend is OKRs (Objectives and Key Results), the secret weapon of high-achieving companies, and the #1 most commonly used goal-setting framework at enterprise organizations. 
+The framework we recommend is OKRs (Objectives and Key Results), the secret weapon of high-achieving companies, and the #1 most commonly used goal-setting framework at enterprise organizations.
 
 > [!NOTE]
 > **Mindset:** Before we get started, a quick reminder that writing OKRs is an iterative process—the more you write, the better you will become. That’s why we strongly urge focusing on progress over perfection.
 > 
-> If you already have some basic strategic goals set for your company, it’s far more important to make initial progress, enter those into the system, and build on them, rather than get hung up trying to craft the perfect metric. So for now, keep it simple and have some fun. 
+> If you already have some basic strategic goals set for your company, it’s far more important to make initial progress, enter those into the system, and build on them, rather than get hung up trying to craft the perfect metric. So for now, keep it simple and have some fun.
 
 ## OKR definitions
 
@@ -58,36 +58,36 @@ Lastly, Initiatives are actions that help the team achieve outcomes. They are fo
 
 > [!IMPORTANT]
 > When thinking about Key Results vs. Initiatives:
-> 
+>
 > - Key Results are outcomes—the level of performance or achievement you're trying to reach—the outcome you want to happen.  
-> 
+>
 > - Initiatives are outputs—the list of activities you're performing to get there—the output to make those things happen.
 
 ## Benefits of OKRs
 
-Because OKRs are simply a framework for goal-setting in general, the same benefits apply: [Benefits of effective goal setting ](great-goal-writing.md#benefits-of-effective-goal-setting)
+Because OKRs are simply a framework for goal-setting in general, the same benefits apply: [Benefits of effective goal setting](great-goal-writing.md)
 
 ## Common pitfalls and best practices
 
-Because OKRs are simply a framework for goal-setting in general, the same pitfalls apply: [Goal setting pitfalls and best practices ](great-goal-writing.md#goal-setting-pitfalls-and-best-practices)
+Because OKRs are simply a framework for goal-setting in general, the same pitfalls apply: [Goal setting pitfalls and best practices](goal-setting-pitfalls.md)
 
-## Formula for writing great OKRs 
+## Formula for writing great OKRs
 
-While the goals of a SaaS startup might ultimately feel very different than the goals of a global media enterprise, the good news is there are a few simple formulas that anyone can use to write great OKRs, even if you’re just getting started. 
+While the goals of a SaaS startup might ultimately feel very different than the goals of a global media enterprise, the good news is there are a few simple formulas that anyone can use to write great OKRs, even if you’re just getting started.
 
 Remember, our definition of a great goal is:  
 
 **An ambitious, aspirational target to aim for, tied to measurable outcomes, with action connected to the work of your team.**
 
-Here’s an easy way to tie that to the components of OKRs: 
+Here’s an easy way to tie that to the components of OKRs:
 
 "I will **OBJECTIVE** as measured by **KEY RESULTS** via **INITIATIVES.**"
 
 :::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula.png" alt-text="Screenshot of the OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula.png":::
 
-From there, as you think about the goals you want to achieve, you can start by asking questions and using a formula. 
+From there, as you think about the goals you want to achieve, you can start by asking questions and using a formula.
 
-### Formula for writing Objectives 
+### Formula for writing Objectives
 
 Objectives are actionable, aspirational, and meaningful.
 
@@ -100,14 +100,14 @@ Step 1: Questions to ask before writing Objectives
 Step 2: Formula to follow when writing Objectives
 
 > [!IMPORTANT]
-> Verb + what you’re going to do + so that / in order to 
+> Verb + what you’re going to do + so that / in order to
 
 In this formula, the verb is your action, what you're going to do is your aspiration, and the phrase "so that" or "in order to" is your meaning.
 
 > [!NOTE]
-> Example: Deliver a “must-have” product in order to delight customers and grow our user base 
+> Example: Deliver a “must-have” product in order to delight customers and grow our user base
 
-### Formula for writing Key Results 
+### Formula for writing Key Results
 
 Key results are focused, measurable, and ambitious.
 
@@ -129,7 +129,7 @@ In this formula, the verb is your action, what you are going to track or count i
 > [!NOTE]
 > Example: Increase our NPS score from 40 to 50
 
-### Formula for writing Initiatives 
+### Formula for writing Initiatives
 
 Initiatives are outputs that help inform the success of your outcomes.
 
@@ -147,9 +147,9 @@ Step 2: Formula to follow when writing Initiatives
 In this formula, the verb is your action and what you are going to do is the output of your initiative.
 
 > [!NOTE]
-> Example: Conduct market research initiative to identify “customer delighters” 
+> Example: Conduct market research initiative to identify "customer delighters"
 
-If we look at how our examples flow into our formula, it would look like this: 
+If we look at how our examples flow into our formula, it would look like this:
 
 "We will **deliver a must have produce in order to delight customers and grow out user base** as measured by **Increased NPS score from 80 to 90** via **Conducting market research initiative to identify customer delighters.**"
 
@@ -197,26 +197,26 @@ Next, ask yourself, "Will accomplishing my Key Results be sufficient enough to a
 
 ## Enter OKRs into Viva Goals
 
-Now that you’ve seen the “why” around writing great OKRs, see the step-by-step process “how” to enter your OKRs into the Microsoft Viva Goals software platform: [Create Objectives, Key Results, and Initiatives with Viva Goals ](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
+Now that you’ve seen the “why” around writing great OKRs, see the step-by-step process “how” to enter your OKRs into the Microsoft Viva Goals software platform: [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
 
 ## Summary
 
-Objectives and Key Results, along with Initiatives, act like a compass to direct you toward your goals. Learning to write great OKRs is an iterative process, so we strongly urge focusing on progress over perfection. That said, there are simple formulas you can follow to make it easier. 
+Objectives and Key Results, along with Initiatives, act like a compass to direct you toward your goals. Learning to write great OKRs is an iterative process, so we strongly urge focusing on progress over perfection. That said, there are simple formulas you can follow to make it easier.
 
 - **Objectives** should be clear, concise, and inspirational, and limited to just 3-5.  
-- **Key Results** are how the team will measure results, and should also be limited to 3-5. They are the measurable outcomes which contribute to the achievement of an objective. 
-- **Initiatives** are actions that help the team achieve outcomes; the focused efforts that will help you define the path to impact for each OKR. 
+- **Key Results** are how the team will measure results, and should also be limited to 3-5. They are the measurable outcomes which contribute to the achievement of an objective.
+- **Initiatives** are actions that help the team achieve outcomes; the focused efforts that will help you define the path to impact for each OKR.
 
-There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to-do list. 
+There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to-do list.
 
-But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals, so the answer is almost always “less is more” and scaling back to do a few things great. 
+But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals, so the answer is almost always “less is more” and scaling back to do a few things great.
 
 **Additional Resources**
 
-[Viva Goals Community](https://techcommunity.microsoft.com/t5/viva-goals/ct-p/Viva-Goals) 
+[Viva Goals Community](https://techcommunity.microsoft.com/t5/viva-goals/ct-p/Viva-Goals)
 
 Looking to get advice on writing great OKRs, engage in a discussion with your peers, read the latest blog posts, or join a private user group? Check out the Viva Goals Community.  
 
-[Viva Goals Help Center](https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad) 
+[Viva Goals Help Center](https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)
 
-Learn how to enter your OKRs into the Microsoft Viva Goals software platform via short videos and step-by-step instructions: [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c) 
+Learn how to enter your OKRs into the Microsoft Viva Goals software platform via short videos and step-by-step instructions: [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)

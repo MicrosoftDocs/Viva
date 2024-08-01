@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2024
+ms.date: 07/09/2024
 ---
 
 # Customize Viva Glint survey email content
@@ -29,7 +29,8 @@ Customize Microsoft Viva Glint email content for survey invites, reminders, and 
 In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
+- [Customize company branding](/entra/fundamentals/how-to-customize-branding)
+  - To add your organization's logo to Viva Glint survey emails, set up the **Sign-in form** > **Banner logo** in the Microsoft Entra admin center.
 
 Both items are **optional steps** that your organization can take to further customize the survey
 communication experience for your survey participants.
@@ -46,10 +47,12 @@ Viva Glint survey invites and reminders contain multiple editable sections:
 
 :::image type="content" source="../../media/glint/setup/glint-email-invite-sections.png" alt-text="Screenshot of editable survey email sections in Viva Glint.":::
 
-Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
+The following invite and reminder email sections support multiple paragraphs to break up and emphasize important text:
 
-> [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
+- Message
+- Privacy Message
+
+Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
@@ -93,6 +96,14 @@ Sections to avoid customizing:
 
 - Links
 - Icons
+
+The following results notification email sections support multiple paragraphs to break up and emphasize important text:
+
+- Description
+- Main Title
+- Tip 1 Description
+- Tip 2 Description
+- Tip 3 Description
 
 :::image type="content" source="../../media/glint/setup/glint-survey-results-notification.png" alt-text="Screenshot of the Survey End Results Notification email.":::
 

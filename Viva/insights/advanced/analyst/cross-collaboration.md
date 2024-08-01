@@ -23,3 +23,5 @@ To run a query about collaboration between two individuals in your organization 
 Or, to analyze how individuals collaborate with groups, refer to [person-to-group queries](./cross-collaboration-p2g.md).
 
 You can also analyze how groups invest their time and collaborate with other groups, through [group-to-group queries](./cross-collaboration-g2g.md).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lkwJ]

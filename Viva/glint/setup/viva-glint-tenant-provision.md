@@ -12,10 +12,10 @@ ms.collection:
  - selfserve
  - essentials-get-started
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2024
+ms.date: 07/23/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -48,7 +48,10 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 ## Begin your Viva Glint provisioning experience
 
-Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint&preserve-view=true).
+Choose the US or EU URL for Azure login to begin, based on the region of your tenant. The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location. If the central tenant location is outside the US or EU, the data for Viva Glint is stored in the US data center. **[Multi-Geo capabilities](/sharepoint/dev/scenario-guidance/multi-geo-capabilities) aren't currently supported for Viva Glint.**
+
+> [!IMPORTANT]
+> Organizations who use [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) to manage access to resources must ensure that the PIM enabled account used to provision Glint has Global Admin privileges with [Direct assignment](https://go.microsoft.com/fwlink/?linkid=2281307) access rights.
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
@@ -71,7 +74,7 @@ Check the box for notification to be sent and enter an email address if you woul
 >[!NOTE]
 > Tenant provisioning can only be initiated by the Tenant Global Administrator. 
 
-Depending on whether you choose to receive a notification, one of the following screens appear: 
+Depending on whether you choose to receive a notification, one of the following screens appears: 
 
 - With notification requested, these messages display: 
     - We’ll notify you when it’s ready.  
@@ -85,13 +88,13 @@ Depending on whether you choose to receive a notification, one of the following 
 
 ### What if I run into an error?
 
-If your tenant can't be provisioned, this message appears. Select **Request support** and a tab will open for Microsoft 365 support.
+If your tenant can't be provisioned, this message appears. Select **Request support** and a tab opens for Microsoft 365 support.
 
 :::image type="content" source="../../media/glint/start/tenant-issue.png" alt-text="Screenshot that displays Microsoft Viva Glint tenant facing an issue.":::
 
 ## Your view as your tenant is being readied
 
-Dependent upon whether you’ve requested notification to be sent, you’ll receive one of the following messages: 
+Depending on whether you requested notifications to be sent, you receive one of the following messages: 
 
 :::image type="content" source="../../media/glint/start/tenant-ready.png" alt-text="Screenshot that displays Viva Glint's tenant getting ready.":::
 
@@ -106,10 +109,19 @@ You can also choose to **Open Viva Glint** from this page:
 
 :::image type="content" source="../../media/glint/start/viva-glint-tenant.png" alt-text="Screenshot that displays Viva Glint tenant ready to use.":::
 
-## Use Microsoft FastTrack for more support 
+## Manage Microsoft in-app feedback
 
-Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
+Control whether users in your organization can submit in-product feedback for Viva Glint:
 
-If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
+- [Manage Microsoft feedback for your organization](/microsoft-365/admin/manage/manage-feedback-ms-org)
+- [Overview of Cloud Policy service for Microsoft 365](/deployoffice/admincenter/overview-cloud-policy)
+  
+## Use Microsoft FastTrack for deployment support 
 
-To check your eligibility for FastTrack support, [use this link](/microsoft-365/fasttrack/eligibility).
+Microsoft FastTrack can provide help with deployment of Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
+
+- [Check your eligibility](/microsoft-365/fasttrack/eligibility) for Microsoft FastTrack support.
+- If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
+- If you're not registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) and select **Sign In** to complete the registration process and submit a request for assistance.
+
+

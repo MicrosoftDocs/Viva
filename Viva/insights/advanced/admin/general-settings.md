@@ -4,7 +4,7 @@ title: View and customize your general settings
 description: This article gives an overview of the general settings page in the advanced insights app for admins and analysts.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced

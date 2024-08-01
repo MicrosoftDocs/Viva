@@ -4,7 +4,7 @@ title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-manager

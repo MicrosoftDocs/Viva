@@ -192,7 +192,7 @@ If you are creating a [SharePoint home site](home-site-plan.md) for the main pur
 >
 > - Only one communication site can be set as the SharePoint home site.
 > - The first time you set up a SharePoint home site, it might take up to several minutes for the changes to take effect.
-> - Global admin credentials are required to use the SharePoint Online Management Shell tool that is required to transform a communication site into a SharePoint home site.
+> - SharePoint admin credentials are required to use the SharePoint Online Management Shell tool that is required to transform a communication site into a SharePoint home site.
 
 1. Start by creating a [SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 2. [Customize the communication site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to reflect the view you’d like to see in the global navigation pane. You can make edits to the navigation source and individual labels and links at any time.
@@ -231,7 +231,7 @@ Temporarily disable the SharePoint app bar:
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -249,7 +249,7 @@ Temporarily disable the SharePoint app bar:
 >
 > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up.
 > - Running the command without the `$false` or `$true` value will cause it to fail.
-> - You must be using the latest version of [PowerShell](https://www.microsoft.com/download/details.aspx?id=35588).
+> - You must be using the latest version of [PowerShell](/powershell/scripting/install/installing-powershell-on-windows).
 > - If you are using previous versions, uninstall the previous version and then install the most up to date version. Previous versions of PowerShell can't coexist with the most up-to-date version of PowerShell.
 
 ### Enable the SharePoint app bar
