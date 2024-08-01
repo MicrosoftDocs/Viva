@@ -14,24 +14,24 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/16/2024
+ms.date: 07/31/2024
 ---
 
 # Viva Glint employee attribute fundamentals
 
-## Understand and set up attribute types
+## Understand attribute types
 
 Attributes are data about the people in your organization. Attributes are used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Attribute column headers (name labels) may be customized. For example, you might choose "Employee ID," while another company chooses "Work ID." For this reason, know that the labels in our guidance are for purposes of example only. Choose name labels that make sense to your organization.
+Attribute column headers (labels) are unique to your organization. For example, your HR information system (HRIS) may include "Employee ID," while another company has "Work ID." The labels in Viva Glint guidance are examples only. Choose name labels that match your organization's HRIS.
 
 ## Standard attribute types
 
-- **Required attributes**: These are required fields for each user in your Employee Data File.
-- **Recommended attributes**: Data that can be converted into derivative groups (or buckets). Derivative groups keep attributes from being used to specifically identify an employee.
+- **Required attributes**: These fields are required for each user in your Employee Data File.
+- **Recommended attributes**: Custom data for your organization that can include fields that are converted into derived values (or buckets), like Tenure.
 
 >[!NOTE]
-> Recommended attributes aren't required, but if sent initially in your Employee Attribute Template, then they are required for all future uploads.
+> Attributes that are used to derive other fields are required for all future uploads. For example, if Viva Glint uses Hire Date to create Tenure groups, Hire Date is required in all uploads.
 
 ### Attributes by item and survey type
 
@@ -42,23 +42,19 @@ Attribute column headers (name labels) may be customized. For example, you might
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |
 | **Email address** | Each employee should have a unique email address. Don't include extra spaces.<br>If an employee doesn't have an email address, copy the employee’s unique ID into the email field. | Yes | Yes |
-| **Personal email address** | Opt to include personal email address to contact exiting employees. | No | Recommended |
+| **Personal email address** | To contact exiting employees, include personal email address. | No | Recommended |
 | **Time zone** | See [Time zones](#time-zones) | No | No |
 | **Language** | See [Language](#languages) | No | No |
-| **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a managerial hierarchy. | Highly recommended | Highly recommended |
-| **Hire date** | Used to derive tenure buckets.<br>Viva Glint standard values: <1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years.* | No | Yes, for Employee Lifecycle *Onboarding* surveys |
+| **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a manager hierarchy. | Highly recommended | Highly recommended |
+| **Hire date** | Used to derive tenure buckets.<br>Viva Glint standard values: <1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years.* | No | Yes, to trigger Employee Lifecycle Onboarding surveys |
 | **Birth year** | Used to derive age group buckets.<br>Viva Glint standard values: <25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, and 70+ | No | No |
-| **End date** | Employee’s termination date, off-boarding date, last day, and so on. | No | Yes, for Employee Lifecycle Exit surveys |
+| **End date** | Employee’s termination date. | No | Yes, for triggering Employee Lifecycle Exit surveys |
 
-*Tenure values for new Viva Glint customers after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+*Tenure values for new Viva Glint customers after January 13, 2024. Before this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 ## Custom attributes
 
-By selecting more than required attributes only, you can see what groups of employees are more engaged than others and use this information to develop action plans to improve engagement. 
-
-Your template may include up to 100 custom, flat attributes. *A flat attribute is a descriptor that can't be further broken down. Examples include: gender, work location, or department.*
-
-Add custom attributes to the header row on your template, named the way that seems most sensible to you. Choose attributes that can boost the way you do business.
+Use custom attributes to see which groups of employees are more engaged than others and use this information to develop action plans to improve engagement. Your organization can include up to 100 custom attributes; required and hierarchy attributes don't contribute to the 100 custom attribute limit. Include attributes in your employee data file header row with labels that match your HRIS.
 
 **Best practices**:
 
@@ -81,22 +77,17 @@ Optional system attributes are values that indicate how and when communications 
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
 >[!NOTE]
-> Time zone and language values are case sensitive and must be sent exactly as they appear. Employee records with blank or invalid time zone or language values will receive communications in the organization’s default time zone and language.  
+> Time zone and language values are case sensitive and must be sent exactly as they appear. Employee records with blank or invalid time zone or language values receive communications in your organization’s default time zone and language.  
 
 ### Time zones
 
-Global companies often include a time zone attribute column in their Employee Attribute Template to trigger survey emails in employees’ time zones. Use the Time Zone tab of the Employee Attribute Template to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
-> [!TIP]
-> For global companies, consider adding time zones and languages meaning to reach employees in their appropriate timezones and their preferred language.
+Global companies often include a time zone attribute column in their Employee Attribute Template to trigger emails in employees’ time zones. Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 ### Languages
 
-Use the Language Codes tab on the Employee Attribute Template to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
+Use the Language Codes tab on the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
-
-> [!TIP]
-> In addition to the Employee Attribute Template, [language codes](https://www.codetwo.com/admins-blog/list-of-office-365-language-id) can also be found on this Microsoft 365 page. Not all languages listed are available for Glint programs. Use this comprehensive list to find codes for languages permissioned on your Glint platform.
 
 >[!NOTE]
 > Dashboards do not support languages that are read from right to left.

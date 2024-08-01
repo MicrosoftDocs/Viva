@@ -26,7 +26,7 @@ description: "Learn about Copilot in Microsoft Viva."
 
 # Introduction to Copilot in Viva
 
-Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Each Viva app Copilot has unique AI-powered features and capabilities.
+Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Each Viva app Copilot has unique AI-powered features and capabilities. [Learn how to manage access to Copilot in Viva from your Microsoft 365 admin center](copilot-access-management.md).
 
 ## Copilot in Viva Engage
 

@@ -38,7 +38,7 @@ You can find complete instructions on how to run eDiscovery queries on your Micr
     
       :::image type="content" source="../media/engage/admin/query-type-ediscovery2.png#lightbox" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content."lightbox="../media/engage/admin/query-zoom2.png":::
 
-### Viva Engage data points 
+### Viva Engage data points
 
 After you run your query, your search results will include (but aren't limited to) these key data points:  
 
@@ -49,6 +49,7 @@ After you run your query, your search results will include (but aren't limited t
 - Attachments
 - Mentions
 - Timestamp
+- Reactions
 
 We continue to update the data points that are included in search results for Viva Engage.
 
