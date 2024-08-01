@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high 
-ms.date: 06/03/2024
+ms.date: 08/01/2024
 ---
 
 # Viva Glint learning paths and modules
@@ -46,12 +46,13 @@ These learning paths and modules deep dive into Viva Glint methodology and surve
 
 These modules define how specific features assist managers to interpret reports and results on their Viva Glint dashboard.
 
-| Title |Type of training |Summary | Modules within path |
-|:------|:---------------:|:-------|:--------------------|
-|[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
-|[Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Module|Guides the learner through the various dashboards and reports available on the Viva Glint app:<ul><li>Explain Viva Glint confidentiality </li><li>Be familiar with the layout of the Viva Glint platform </li><li>Navigate the Team Summary Dashboard </li><li>Navigate the Executive Summary Report</li><li> Navigate the Heat Map Report </li><li>Navigate the Driver Impact Report</li><li> Navigate the Comments Report </li><li> Navigate Focus Areas </li><li>Use the Team Conversations feature</ul>|N/A| 
-|[Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to discussing survey results with all levels of their organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results:<ul><li>The essentials of sharing results </li><li>Best practices for managers sharing results </li><li>Best practices for admins sharing results</ul> |NA|
-|[Psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)|Module|Defines psychological safety, describes why it's important, and provides guidance on how to recognize it on teams|<ul><li>[What is psychological safety?](https://go.microsoft.com/fwlink/?linkid=2274410) </li><li> [Why do we need psychological safety?](https://go.microsoft.com/fwlink/?linkid=2274410) </li><li> [How do we know if psychological safety is present?](https://go.microsoft.com/fwlink/?linkid=2273933).</ul>
+| Title |Type of training |Summary |
+|:------|:---------------:|:-------|
+|[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|
+|[Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Module|Guides the learner through the various dashboards and reports available on the Viva Glint app:<ul><li>Explain Viva Glint confidentiality </li><li>Be familiar with the layout of the Viva Glint platform </li><li>Navigate the Team Summary Dashboard </li><li>Navigate the Executive Summary Report</li><li> Navigate the Heat Map Report </li><li>Navigate the Driver Impact Report</li><li> Navigate the Comments Report </li><li> Navigate Focus Areas </li><li>Use the Team Conversations feature</ul>|
+|[Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to discussing survey results with all levels of their organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results:<ul><li>The essentials of sharing results </li><li>Best practices for managers sharing results </li><li>Best practices for admins sharing results</ul> |
+|[The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)|Module|Defines psychological safety, describes why it's important, and provides guidance on how to recognize it on teams|
+|[Learn the basics of psychological safety](https://go.microsoft.com/fwlink/?linkid=2281479)|Module|Provides three practical lessons managers can take to cultivate psychological safety on their teams. It also teaches managers how to use Copilot to help them practice these lessons|
 
 
 
