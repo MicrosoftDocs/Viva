@@ -1,5 +1,5 @@
 ---
-title: "Migrate Classic Embed feeds with to the modern Embed feed for Engage"
+title: "Migrate classic Embed feeds to the modern Embed feed for Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
