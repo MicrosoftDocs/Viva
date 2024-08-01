@@ -47,7 +47,7 @@ Follow these instructions to update your Embed feed experience. This process doe
 
 1. When you’re done, select **Get code**.
 
-The code for your iFrame widget appears on the main page.
+    The code for your iFrame widget appears on the main page.
 
 1. Select **Copy**.
 
