@@ -22,7 +22,8 @@ description: "Migrate your Highlights web parts (for Classic Yammer) to Viva Eng
 
 # Migrate Classic Highlights to Viva Engage Conversations web part in SharePoint
 
-Starting January 31, 2025, Microsoft will retire and no longer support the Classic Highlights web part. To avoid a broken feed experience, we recommend that you replace all Classic Highlights web parts with the Viva Engage Conversations web part.
+>[!NOTE]
+>Starting January 31, 2025, Microsoft will retire and no longer support the Classic Highlights web part. To avoid a broken feed experience, we recommend that you replace all Classic Highlights web parts with the Viva Engage Conversations web part.
 
 The Viva Engage Conversations web part let you add a Viva Engage conversation feed to a modern SharePoint site. (*Modern* refers to the online SharePoint experience available in Microsoft 365.) With Conversations web parts, you can:
 
@@ -36,11 +37,14 @@ The Viva Engage Conversations web part let you add a Viva Engage conversation fe
 
 Use this procedure to migrate all instances of the Classic Highlights web part, regardless of the type of feed you display (group, person, topic, or home). The migration process doesn’t affect Viva Engage data in any way.
 
-1. On the SharePoint modern page, select Edit at the top of the page.
+1. On the SharePoint modern page, select **Edit** at the top of the page.
 
 1. Hover over an existing web part or under the title region, select the plus icon, and select the Viva Engage Conversations web part.
+    :::image type="content" source="../../media/engage/admin/conversations-web-part-sharepoint.png" alt-text="Screenshot shows the Viva Engage Conversations web part interface.":::
 
 1. Select the conversation source that you used with the Classic Highlight web part.
+
+    :::image type="content" source="../../media/engage/admin/conversations-web-part-pane.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds on your SharePoint page.":::
 
     - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the Classic Highlights web part displayed the Viva Engage home feed. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
 
