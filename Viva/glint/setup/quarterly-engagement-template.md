@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/25/2024
+ms.date: 08/01/2024
 ---
 
 # Viva Glint's Quarterly Engagement Survey template
@@ -76,7 +76,7 @@ There are other items to consider as important drivers of engagement and they ca
 | <COMPANY_NAME> delivers a great customer experience.| Customer Focus |
 | I understand how <COMPANY_NAME> plans to achieve its goals. | Strategy |
 | I have good career opportunities at <COMPANY_NAME>. | Career |
-| Diverse perspectives are valued at <COMPANY_NAME>. | Diversity |
+| Diverse perspectives are valued at <COMPANY_NAME>. | Inclusion |
 | Top leaders demonstrate a visible commitment to diversity.| Diversity Commitment |
 | I would recommend my manager to others. | Manager |
 | Overall, I am satisfied with how decisions are made at <COMPANY_NAME>.| Decision Making |
