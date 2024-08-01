@@ -40,7 +40,7 @@ Use this procedure to migrate all instances of the Classic Highlights web part, 
 1. On the SharePoint modern page, select **Edit** at the top of the page.
 
 1. Hover over an existing web part or under the title region, select the plus icon, and select the Viva Engage Conversations web part.
-    :::image type="content" source="../../media/engage/admin/conversations-web-part-sharepoint.png" alt-text="Screenshot shows the Viva Engage Conversations web part interface.":::
+    :::image type="content" source="../../media/engage/admin/conversation-web-part-sharepoint.png" alt-text="Screenshot shows the Viva Engage Conversations web part interface.":::
 
 1. Select the conversation source that you used with the Classic Highlight web part.
 
