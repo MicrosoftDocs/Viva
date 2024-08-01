@@ -35,15 +35,15 @@ Follow these instructions to update your Embed feed experience. This process doe
 
 1. In a browser, go to the [iFrame widget configuration site](https://engage.cloud.microsoft/embed/widget?domainRedirect=false) in Viva Engage.
 
-:::image type="content" source="../../media/engage/admin/engage-embed-feed-ui.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
+    :::image type="content" source="../../media/engage/admin/engage-embed-feed-ui.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
 
 1. From the left pane, select the type of feed you want to replace. Note the following:
 
-- **Home feed** replaces My feed.
-- **Community feed** replaces Group feed. For source, type the community name.
-- **Topic feed** requires a topic name for your feed.
-- **User feed** requires a user name associated with the feed.
-- **Web link feed** replaces Open Graph feed. Enter the source URL currently in use.
+    - **Home feed** replaces My feed.
+    - **Community feed** replaces Group feed. For source, type the community name.
+    - **Topic feed** requires a topic name for your feed.
+    - **User feed** requires a user name associated with the feed.
+    - **Web link feed** replaces Open Graph feed. Enter the source URL currently in use.
 
 1. When you’re done, select **Get code**.
 
