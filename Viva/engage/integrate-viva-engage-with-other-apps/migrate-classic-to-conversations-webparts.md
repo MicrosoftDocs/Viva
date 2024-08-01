@@ -25,10 +25,10 @@ description: "Migrate your Highlights web parts (for Classic Yammer) to Viva Eng
 >[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support the Classic Highlights web part. To avoid a broken feed experience, we recommend that you replace all Classic Highlights web parts with the Viva Engage Conversations web part.
 
-The Viva Engage Conversations web part let you add a Viva Engage conversation feed to a modern SharePoint site. (*Modern* refers to the online SharePoint experience available in Microsoft 365.) With Conversations web parts, you can:
+Use the Viva Engage Conversations web part to add a conversation feed to a modern SharePoint site. (*Modern* refers to the online SharePoint experience available in Microsoft 365.) With Conversations web parts, you can:
 
-- Add the feed from a community, user, or the home page
-- Start a conversation with a topic or any type of Engage post
+- Add a feed from a Viva Engage community, user, or home page
+- Start a conversation with a topic or any type of post
 - Interact with conversations (react, reply, mention, and so on)
 
   To learn more about this functionality, see [Use a Viva Engage web part in SharePoint](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
