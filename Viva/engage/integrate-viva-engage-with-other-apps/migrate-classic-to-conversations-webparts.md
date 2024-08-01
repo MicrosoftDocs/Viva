@@ -28,13 +28,13 @@ The Viva Engage Conversations web part let you add a Viva Engage conversation fe
 
 - Add the feed from a community, user, or the home page
 - Start a conversation with a topic or any type of Engage post
-- Interact with conversations (react, reply, mention and so on)
+- Interact with conversations (react, reply, mention, and so on)
 
   To learn more about this functionality, see [Use a Viva Engage web part in SharePoint](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
 
 ## Migrate Classic Highlights web parts to the Conversations web part
 
-Use this procedure to migrate all instances of the Classic Highlights web part, regardless of the type of feed you diplay (group, person, topic or home). The migration process doesn’t impact Viva Engage data in any way.
+Use this procedure to migrate all instances of the Classic Highlights web part, regardless of the type of feed you display (group, person, topic, or home). The migration process doesn’t affect Viva Engage data in any way.
 
 1. On the SharePoint modern page, select Edit at the top of the page.
 
