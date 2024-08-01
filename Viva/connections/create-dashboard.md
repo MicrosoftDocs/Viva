@@ -613,7 +613,9 @@ Invite managers and team leads to send requests for feedback or view feedback re
 
 > [!NOTE]
 >
-> It’s recommended admins set up the Viva Pulse app for their organization and pin it as an app in Microsoft Teams so users can fully experience the Viva Pulse card. Refer to the article on [manage, install, and pin Viva Pulse in the Teams admin center](/viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center) for more information.
+> - It’s recommended admins set up the Viva Pulse app for their organization and pin it as an app in Microsoft Teams so users can fully experience the Viva Pulse card. Refer to the article on [manage, install, and pin Viva Pulse in the Teams admin center](/viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center) for more information.
+> - Users will only see the Viva Pulse card if their organization is licensed for Viva Pulse.
+
 
 Content in the card is dynamic and changes according to the [users role](/viva/pulse/introduction-to-viva-pulse#roles) in Viva Pulse and if a feedback pulse is active. The following are examples of Viva Pulse card states that display different information depending on the viewer’s role and if any active or recently closed feedback pulses are available.
 
