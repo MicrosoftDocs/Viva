@@ -1,12 +1,12 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 07/10/2020
+ms.date: 06/28/2024
 title: Assign licenses for Microsoft Viva Insights in Teams
 description: Learn how to assign licenses through the Microsoft 365 admin center or Microsoft Entra ID to people who want to use Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: null 
+ms.localizationpriority: Low 
 search.appverid:
 - MET150
 ms.service: viva-insights

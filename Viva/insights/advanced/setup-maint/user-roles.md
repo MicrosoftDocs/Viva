@@ -39,6 +39,7 @@ The following matrix shows which roles can access which features.
 |   |  **Query results** | View query results |   | X |   |   |
 |   |  **Organizational data** | Verify whether organizational data quality is high enough for analysis and upload custom organizational data files | X | X<sup>3</sup>|   |   |
 |   |  **Privacy settings** | Manage privacy settings  | X |   |   |   |
+|   |  **Partitions** | Create and manage partitions  | X |   |   |   |
 |   |  **Manager settings** | Turn on/off organization insights that appear in the Viva Insights app in Teams and on the web; select eligible managers for group insights | X |   |   |   |
 
 1. Manager isn't technically a role that can be assigned. The Insights Administrator can enable managers access to their organization insights through [Manager settings](./manager-settings.md) within the advanced insights app. 
@@ -53,7 +54,7 @@ The following table shows which roles can perform which tasks in Viva Insights.
 
 | Function | Insights Administrator | Insights Analyst | Insights Business Leader | Manager | 
 |---|---|---|---|---|
-| Configure privacy settings and manager settings | X | | | |
+| Configure privacy settings, partitions, and manager settings | X | | | |
 | Upload organizational data into the system | X | | | |
 | Access organization insights within the Viva Insights app  | | | X | X|
 | Use the full set of analyst tools | | X | | |

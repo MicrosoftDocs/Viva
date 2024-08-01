@@ -1,0 +1,76 @@
+Items:
+- name: Viva Connections
+  items:
+  - name: Viva Connections Overview
+    href: viva-connections-overview.md
+  - name: Set up Viva Connections in the admin center
+    href: set-up-admin-center.md
+    items:
+    - name: Plan, Build, Launch
+      items:
+      - name: How to get started
+        href: viva-connections-setup-overview.md
+      - name: Start planning
+        href: plan-viva-connections.md
+      - name: Build and test your design
+        href: build-viva-connections.md
+      - name: Launch and maintain
+        href: launch-viva-connections.md
+  - name: Microsoft Viva privacy, security, and compliance
+    items:
+    - name: Overview
+      href: ../microsoft-viva-security.md
+    - name: Privacy in Microsoft Viva
+      href: ../viva-privacy.md
+    - name: Security in Microsoft Viva
+      href: ../viva-security.md
+    - name: Compliance in Microsoft Viva
+      href: ../viva-compliance.md
+  - name: Administration
+    items:
+    - name: Edit the desktop experience
+      href: edit-viva-home.md
+    - name: Use audience targeting
+      href: use-audience-targeting-in-viva-connections.md
+    - name: Specific languages
+      href: viva-connections-language.md
+    - name: Using Announcements
+      href: announcements-viva-connections.md
+    - name: Analytics
+      href: viva-connections-analytics.md
+    - name: Overview of Viva Connections for Education
+      href: overview-viva-connections-education.md
+    - name: Dashboard
+      items:
+      - name: Add cards to the dashboard
+        href: create-dashboard.md
+      - name: Use the Web link card to integrate content
+        href: use-the-link-card.md
+      - name: Create a dashboard in more than one language
+        href: create-multilingual-dashboard.md
+    - name: Feed
+      items:
+      - name: Embed videos in the Viva Connections feed
+        href: video-news-links.md
+      - name: Viva Connections News notifications
+        href: mobile-notifications-viva-connections.md
+      - name: Frequently asked questions about the feed
+        href: faqs-viva-connections-feed.md
+  - name: Viva Connections and home sites
+    items:
+    - name: Plan, build, and launch a home site
+      href: home-site-plan.md
+    - name: Home site design for Viva Connections
+      href: create-sharepoint-home-site-for-viva-connections.md
+    - name: Customize global navigation
+      href: sharepoint-app-bar.md
+    - name: Use the Dashboard web part
+      href: use-dashboard-web-part-on-home-site.md
+    - name: Use the Feed web part
+      href: use-feed-web-part-for-viva-connections.md
+    - name: Viva Connections Feed Web Part and Video News link Retirement Support Guidance
+      href: feed-web-part-video-news-link-retirement.md
+  - name: Troubleshoot
+    items:
+    - name: Can't find the app in the Teams admin center
+      href: /viva/troubleshoot/connections/cant-find-app-in-teams-admin-center?toc=/viva/connections/toc.json&bc=/viva/breadcrumb/toc.json

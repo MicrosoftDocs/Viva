@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 09/29/2023
+ms.date: 06/06/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -21,7 +21,7 @@ ms.assetid: 9d9f9ee8-7c56-4f50-81f3-aa0a8d761e14
 
 # Manage Viva Engage domains in Microsoft 365
 
-As the Microsoft 365  administrator, you manage Viva Engage domains in Microsoft 365 from the **Domains** link in the Microsoft 365 admin center. When you add or remove a domain in Microsoft 365, it's automatically added to or removed from the corresponding Viva Engage network, usually within minutes.
+You can manage Viva Engage domains from the **Domains** link in the Microsoft 365 admin center. When you add or remove a domain in Microsoft 365, it's automatically added to or removed from the corresponding Viva Engage network, usually within minutes.
   
 - If you just have one domain or don't have a legacy Viva Engage network prior to using Microsoft 365, once your domain is set up in Microsoft 365, your Viva Engage network is automatically created.
 
@@ -30,13 +30,14 @@ As the Microsoft 365  administrator, you manage Viva Engage domains in Microsoft
 - It gets a little more complicated when you have a legacy Viva Engage network associated with one or more of your domains.
 
 ## Initial setup for your primary Viva Engage domain
-Once your domain is set up in Microsoft 365, your Viva Engage network is automatically created. Your Viva Engage primary domain is based on the first custom domain name added to Microsoft 365. So if your custom domain is contoso.com, you can access your Viva Engage network. If you don't have a custom domain name in Microsoft 365, your Viva Engage network is created using your .onmicrosoft.com domain.
+
+Once your domain is set up in Microsoft 365, your Viva Engage network is automatically created. Your Viva Engage primary domain is based on the first custom domain name added to Microsoft 365. So, if your custom domain is **contoso.com**, you can access your Viva Engage network. If you don't have a custom domain name in Microsoft 365, your Viva Engage network is created using your **.onmicrosoft.com** domain.
 
 ### Add an additional domain to Viva Engage
 
-1. To add a domain to Viva Engage, add the domain in Microsoft 365 by following the directions in [Add a domain to Microsoft 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611). You must be a Microsoft 365 Global administrator on Microsoft 365 to perform these steps.
+1. To add a domain to Viva Engage, first add the domain in Microsoft 365 by following the directions in [Add a domain to Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
-    For example, say you have a Microsoft 365 subscription that uses the domain contoso.com, and a corresponding Viva Engage network. If you add the domain **contosopharmaceuticals.com** to your Microsoft 365 tenant, that domain is automatically added to Viva Engage. Afterward, a new user of that domain, such as ryani@contosopharmaceuticals.com, can sign in to Viva Engage seamlessly with Microsoft 365 credentials.
+    For example, say you have a Microsoft 365 subscription that uses the domain **contoso.com** and a corresponding Viva Engage network. If you add the domain **contosopharmaceuticals.com** to your Microsoft 365 tenant, that domain is automatically added to Viva Engage. Afterward, a new user of that domain, such as ryani@contosopharmaceuticals.com, can sign in to Viva Engage seamlessly with Microsoft 365 credentials.
 
 2. Verify that the domain you added in Microsoft 365 has been added to Viva Engage.  
   
@@ -56,12 +57,13 @@ Once your domain is set up in Microsoft 365, your Viva Engage network is automat
 
 When you remove a domain from Microsoft 365, the domain is immediately removed from Viva Engage. Everyone with email addresses on the domain you removed can no longer access your Viva Engage network.
 
-For instructions, follow the steps in [Remove a domain from Microsoft 365](https://support.office.com/article/Remove-a-domain-from-Office-365-f09696b2-8c29-4588-a08b-b333da19810c).
+For instructions, follow the steps in [Remove a domain from Microsoft 365](/microsoft-365/admin/get-help-with-domains/remove-a-domain).
 
 If you want to consolidate multiple domains into one Viva Engage network, see [Consolidate multiple Viva Engage networks](consolidate-multiple-networks.md).
 
 ## Change the network name displayed in the left navigation pane in Viva Engage
-To change the displayed network name shown below, change the **name** in the Microsoft 365 Organization profile. This setting overrides the **Network Name** set in the Viva Engage Network admin. For steps, see [Change your organization's address, technical contact, and more](https://support.office.com/article/Change-your-organization-s-address-technical-contact-and-more-a36e5a52-4df2-479e-bb97-9e67b8483e10).
+
+To change the displayed network name shown below, change the **name** in the Microsoft 365 Organization profile. This setting overrides the **Network Name** set in the Viva Engage Network admin. For steps, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more).
 
    :::image type="content" source="../../media/0a1125b1-74d2-4ea5-b8e4-6d52456a527e.jpg" alt-text="List of Viva Engage groups on the Viva Engage page.":::
   
@@ -70,7 +72,7 @@ To change the displayed network name shown below, change the **name** in the Mic
 If you have just one domain in Microsoft 365, when the default domain changes in Microsoft 365 to a verified domain, the primary domain of the corresponding Viva Engage network is updated.
 
    >[!NOTE]
-   >If you change the primary domain in Microsoft 365 to the .onmicrosoft.com domain, Viva Engage will not update the primary domain to the .onmicrosoft.com domain. Automatic domain updates in Viva Engage are only for non .onmicrosoft.com domains.
+   >If you change the primary domain in Microsoft 365 to the **.onmicrosoft.com** domain, Viva Engage will not update the primary domain to the **.onmicrosoft.com** domain. Automatic domain updates in Viva Engage are only for non .onmicrosoft.com domains.
 
 ## Change the Viva Engage primary domain when you use a federated domain as your Microsoft 365 default domain
 
@@ -84,16 +86,16 @@ If your Viva Engage network has domains that aren't verified on the correspondin
 
 - Domains on the corresponding Viva Engage network: contoso.com, tailspin.com
 
-Note that tailspin.com on the Viva Engage network is not verified on the Microsoft 365 tenant. If your network is in this situation, you can remedy the situation so that you can manage the domains from Microsoft 365 one of two ways. You can either:
+Note that tailspin.com on the Viva Engage network is not verified on the Microsoft 365 tenant. If your network is in this situation, you can remedy the situation to manage the domains from Microsoft 365 one of two ways:
   
-1. Add and verify the missing domains to the Microsoft 365 tenant. In the example above, you would add tailspin.com to the Microsoft 365 tenant.
+1. Add and verify the missing domains to the Microsoft 365 tenant. In the example above, you would add **tailspin.com** to the Microsoft 365 tenant.
 
-2. Remove the additional domain in Viva Engage. To remove Viva Engage domains from your network, contact the Viva Engage support team. In the example above, you would remove tailspin.com
+2. Remove the additional domain in Viva Engage. To remove Viva Engage domains from your network, contact the Viva Engage support team. In the example above, you would remove **tailspin.com**
 
-After you take one of the actions above, the rest of the domains (contoso.onmicrosoft.com, northwind.com) will be added to Viva Engage, and from this point on, you can manage your domains across their lifecycle in Microsoft 365.
+After you take one of the actions above, the remaining domains (**contoso.onmicrosoft.com**, **northwind.com**) are added to Viva Engage. From this point on, you can manage your domains across their lifecycle in Microsoft 365.
   
 > [!TIP]
-> To ensure that you don't miss this step, all Viva Engage verified administrators will receive an email notification if the list of domains on Viva Engage is out of sync with the list on Microsoft 365.
+> To ensure that you don't miss this step, all Viva Engage verified administrators receive an email notification if the list of domains on Viva Engage is out of sync with the list on Microsoft 365.
   
 ### If your Microsoft 365 tenant is associated with more than one Viva Engage network
 

@@ -1,6 +1,6 @@
 ---
 
-ms.date: 08/4/2023
+ms.date: 06/04/2024
 title: Personal insights FAQ
 description: Frequently asked questions about Personal insights with Microsoft Viva Insights
 author: zachminers
@@ -271,15 +271,19 @@ You can manage the experience in two ways:
 * Configure access to Viva Insights elements for your entire organization. For details, see [Configure access at the tenant level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-tenant-level).
 * Turn Viva Insights access on or off for individual users. For details, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
-#### Q2. How can I pilot Viva Insights to a subset of users?
+#### Q2. How do I control access to individual features in Viva Insights?
+
+To control access to certain features, Microsoft Global administrators can use the Viva feature access management platform. [Learn more](../../org-team-insights/org-insights.md#control-access-to-insights-features).
+
+#### Q3. How can I pilot Viva Insights to a subset of users?
 
 Turn on the "Insights by MyAnalytics" or "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
-#### Q3. How can I manage Viva Insights experiences in Microsoft 365 GCC?
+#### Q4. How can I manage Viva Insights experiences in Microsoft 365 GCC?
 
 You can enable or disable Viva Insights experiences by following the applicable steps in [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users). 
 
-#### Q4. How can I manage the Windows 10 activity history for the organization?
+#### Q5. How can I manage the Windows 10 activity history for the organization?
 
 You can set the following two Group Policy settings at the tenant level for the organization:
 

@@ -1,13 +1,13 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 12/23/2020
+ms.date: 06/28/2024
 title: Insight metrics
 description: Describes the data metrics used in Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: null 
+ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble
 audience: Admin

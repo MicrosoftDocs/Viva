@@ -9,13 +9,14 @@ manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: overview
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
 - essentials-navigation
+- essentials-overview
 search.appverid:
 - MET150
 ---

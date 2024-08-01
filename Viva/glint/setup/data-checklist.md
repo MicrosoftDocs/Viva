@@ -26,9 +26,12 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Item   |Check that...   |
 |:----------|:-----------|
 |File name    |There aren't special characters (like @ or %) in the name.       |
-|File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).       |
+|File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |
 
+> [!CAUTION] 
+> Ensure that .csv files are UTF-8 encoded and _**NOT** UTF-8 with BOM encoded_. UTF-8 with BOM encoding results in upload errors.
+ 
 ## Review attribute level items
 
 |Item   |Check that...   |
@@ -57,6 +60,7 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Date format  | All date attributes follow the same format and don't contain a dash (-). Viva Glint preferred format: yyyy/mm/dd.      |
 |Inactive employees  | Inactive users are only included if they're 1) termed, 2) on leave, or 3) are needed to complete a manager hierarchy.      |
 |Manager ID  | All users **except the CEO** have a Manager ID value populated.      |
+|Manager ID  | Users don't report to their own employee ID or create reporting loops with other users.     |
 |Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for correct time zone values.     |
 |Language codes | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for correct language values.      |
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |

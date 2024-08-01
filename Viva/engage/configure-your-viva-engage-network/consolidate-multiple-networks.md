@@ -22,9 +22,9 @@ description: Migrate one or more secondary networks into a primary Viva Engage E
 
 If you have multiple email domains in your Microsoft 365 tenant and those email domains are spread across two or more Viva Engage networks, we require that you consolidate into one Viva Engage network.
   
-This article is only necessary if you have multiple Viva Engage networks, for example if your company has multiple business units or subsidiaries, each with its own Viva Engage network, that is on the same Microsoft 365 tenant.
+**This article is only necessary if you have multiple Viva Engage networks.** For example, if your company has multiple business units or subsidiaries, each with its own Viva Engage network that's on the same Microsoft 365 tenant, you'll need to consolidate.
   
-Consolidation to one primary network helps get all your employees closely collaborating with each other, and simplifies management of your Viva Engage network.
+Consolidation to one primary network helps employees collaborate more closely with each other and simplifies management of your Viva Engage network.
   
 Here are the basic steps:
   

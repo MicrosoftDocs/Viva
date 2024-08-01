@@ -4,9 +4,9 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 07/24/2023
+ms.date: 06/06/2024
 audience: admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
@@ -26,9 +26,6 @@ Use the Viva Learning admin tab to access analytics and reporting experience for
 This feature enables organizations to get insights into how Viva Learning is used by their employees.
 
  We're actively working on adding more metrics in the report section to provide richer insights in future releases.
-
-> [!NOTE]
-> The reports feature is not available to tenants hosted in the UK and France due to local compliance. We are working to make reports available to tenants in these two regions and will send communication when this feature becomes available. 
 
 ## Data Protection
 
@@ -78,7 +75,7 @@ Go to the Viva Learning admin tab and select **Reports**.
 | Metric | Description 
 |:-----|:----- |
 | Monthly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 30 days. |
-|Weekly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 7 days. |
+|Weekly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last seven days. |
 | Daily Active Users | Total number of unique users who have launched the Viva Learning personal app on that day. |
 | Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
 |Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month. | 
@@ -112,28 +109,28 @@ Daily Active Users (DAU) report data is updated daily.
 Data for all other reports is updated monthly on the third of every month in the GMT time zone.
 
 
+## FAQ
 
-## FAQ 
+These are answers to some frequently asked questions on reporting in Viva Learning.
 
+**Why does Viva Learning collect telemetry data?**
 
-- **Why does Viva Learning collect telemetry data?**
+To provide usage insights of Viva Learning to organizations. 
 
-    To provide usage insights of Viva Learning to organizations. 
+**Does Viva Learning capture any personally identifiable information (PII)?** 
 
-- **Does Viva Learning capture any personally identifiable information (PII)?** 
+ We don't collect any PII data. The data collected for these reports can't be directly linked to a user or device.
 
-    We don't collect any PII data. The data collected for these reports can't be directly linked to a user or device.
+**How does Viva Learning keep customers’ data safe?**  
 
-- **How does Viva Learning keep customers’ data safe?**  
+Data is transmitted using SSL and access is highly restricted. Only Microsoft personnel who can demonstrate a valid business need (for example, to a product team to fix an issue) can access this.
 
-    Data is transmitted using SSL and access is highly restricted. It's only granted to Microsoft personnel who can demonstrate a valid business need (for example, to a product team to fix an issue).  
+**Does Viva Learning follow GDPR guidelines for telemetry?** 
 
-- **Does Viva Learning follow GDPR guidelines for telemetry?** 
+Yes, we follow GDPR guidelines for storing telemetry data   
 
-    Yes, we follow GDPR guidelines for storing telemetry data   
+**How often is data refreshed?** 
 
-- **How often is data refreshed?** 
-
-    Daily Active Users (DAU) report data is updated daily. 
+Daily Active Users (DAU) report data is updated daily. 
     Data for all other reports is updated monthly in the GMT time zone.
 
