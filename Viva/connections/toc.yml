@@ -68,6 +68,8 @@ Items:
       href: use-dashboard-web-part-on-home-site.md
     - name: Use the Feed web part
       href: use-feed-web-part-for-viva-connections.md
+    - name: Viva Connections Feed Web Part and Video News link Retirement Support Guidance
+      href: feed-web-part-video-news-link-retirement.md
   - name: Troubleshoot
     items:
     - name: Can't find the app in the Teams admin center
