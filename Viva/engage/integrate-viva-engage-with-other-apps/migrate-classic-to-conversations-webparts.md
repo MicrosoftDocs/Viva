@@ -79,6 +79,6 @@ Use this procedure to migrate all instances of the classic Highlights web part i
     - **Topic** displays the most recent conversations tagged with this topic. Select this option if the Classic Highlights web part displays the feed for a topic, and enter the topic name.
 
 3. **Delete the old feed and publish the new one**
-    1. When you're done setting up the new feed, delete the old feed using the trash can on the top left edge.
+    1. Use the trash can icon at the top left edge of the feed to delete your previous classic feed.
 
     1. Publish the page.
