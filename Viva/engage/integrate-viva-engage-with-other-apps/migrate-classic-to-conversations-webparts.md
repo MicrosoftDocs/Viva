@@ -39,7 +39,7 @@ Learn more about [Viva Engage web parts](https://support.microsoft.com/en-us/off
 
 Use this procedure to migrate all instances of the classic Highlights web part in SharePoint pages that you own or have permissions to. The migration process doesn’t affect Viva Engage data in any way.
 
-**Open the existing classic feed on SharePoint**
+**Step 1: Open the existing classic feed on SharePoint**
 
 1. Select **Edit** at the top of the page
 1. Hover above or below the feed or under the title region and select the plus (+) icon.
@@ -50,12 +50,13 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
     :::image type="content" source="../../media/engage/admin/web-part-menu-highlights.png" alt-text="Screenshot shows the Viva Engage web part menu.":::
 
-1. Select **Use the classic version of Conversations source**.
+1. On the right, select **Use the classic version of Conversations source**.
 
     :::image type="content" source="../../media/engage/admin/web-part-menu-highlights-classic.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds available.":::
     You should now see the code for your classic Highlights feed.
 
-**Create a new feed using the Conversations web part**
+
+**Step 2: Create a new feed using the Conversations web part**
 
 1. On the right, select **Use latest version**.
 
@@ -65,7 +66,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
     :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
 
-1. Set up the Conversations web part to include settings you want to retain from your Highlights web part. Add new layout and background options from the panel on the right.
+1. Set up the Conversations web part to include settings you want to retain from your previous Highlights web part. Add new layout and background options from the panel on the right.
 
     :::image type="content" source="../../media/engage/admin/web-parts-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
 
@@ -79,6 +80,6 @@ Use this procedure to migrate all instances of the classic Highlights web part i
  
 1. In **Number of conversations to show**, select the number based on how much space the feed should use on the page.
 
-1. When you're done setting up the new feed, use the trash can on the top edge of the classic feed to delete it.
+1. When you're done setting up the new feed, delete the old feed using the trash can on the top edge of the feed.
 
 1. Publish the page.
