@@ -1,11 +1,11 @@
 ---
-title: "Migrate classic Embed feeds to the modern Embed feed for Engage"
+title: "Migrate classic feeds in HTML apps with Embed feed for Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/01/2024
+ms.date: 08/02/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -17,10 +17,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 4817d2fa-50f6-4f25-88a0-a312745768d4
-description: "Migrate JavaScript-based Embed feeds (Classic Yammer) to interface-based Embed feeds in your HTML-based applications."
+description: "Replace JavaScript-based Embed feeds (Classic Yammer) to interface-based Embed feeds in your HTML-based applications."
 ---
 
-# Replace classic Embed feeds with Embed feeds for Engage 
+# Replace classic feeds in HTML apps with Embed feeds for Engage 
 
 **Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications with iFrame widgets you can copy and paste. This modern experience replaces classic Embed feeds, which required that you write JavaScript code.
 
@@ -51,4 +51,4 @@ Follow these instructions to update your Embed feed experience. This process doe
 
 1. Select **Copy**.
 
-1. On the HTML page you opened in step 1, paste the iFrame code in the appropriate location to replace the JavaScript code for your classic Embed feed.
+1. On the HTML page you opened in step 1, paste the iFrame code in the appropriate location to replace the JavaScript code for your previous classic Embed feed.

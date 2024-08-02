@@ -1,11 +1,11 @@
 ---
-title: "Migrate Classic Highlights to Viva Engage Conversations web part in SharePoint"
+title: "Migrate classic feeds in SharePoint to the Viva Engage Conversations web part"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/01/2024
+ms.date: 08/02/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -17,10 +17,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 4817d2fa-50f6-4f25-88a0-a312745768d4
-description: "Migrate your Highlights web parts (for Classic Yammer) to Viva Engage Conversations web parts on all of your modern SharePoint pages."
+description: "Migrate feeds that use the classic Highlights web part to Viva Engage Conversations web parts on your modern SharePoint pages."
 ---
 
-# Migrate Viva Engage feeds in SharePoint to the Conversations web part
+# Migrate classic feeds on SharePoint to the Viva Engage Conversations web part
 
 >[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.
@@ -40,21 +40,21 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 1. On the SharePoint modern page, select **Edit** at the top of the page.
 
 1. Hover over your existing classic Highlights web part or under the title region, select the plus icon, and select the **Highlights** web part.
-    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights.png" alt-text="Screenshot shows how to access the Viva Engage Conversations web part menu.":::
+    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights.png" alt-text="Screenshot shows how to access the Viva Engage Conversations web part menu on a modern SharePoint page.":::
 
 1. Select **Use the classic version of Conversations source**.
 
-    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights-classic.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds on your SharePoint page.":::
+    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights-classic.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds available.":::
     You should see the code for your classic Highlights web part.
 
 1. On the right, select **Use latest version**.
-    :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds on your SharePoint page.":::
+    :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the classic Highlights interface with an button to go to the newer Conversations interface.":::
 
 1. Hover below the classic web part to open the **Conversations** menu one more time to select **Conversations**.
     :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
 
 1. Set up the Conversations web part to include settings you want to retain from your Highlights web part, as well as new layout and background option from the **Section** panel on the right.
-    :::image type="content" source="../../media/engage/admin/web-parta-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
+    :::image type="content" source="../../media/engage/admin/web-parts-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
 
     - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the Classic Highlights web part displayed the Viva Engage home feed. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
 
