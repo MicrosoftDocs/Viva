@@ -27,7 +27,7 @@ description: "Replace JavaScript-based Embed feeds (Classic Yammer) to interface
 >[!NOTE] 
 >Starting January 31, 2025, Microsoft will retire and no longer support classic Embed feeds. To avoid a broken feed experience, we recommend that you replace your classic Embed feeds as soon as possible using the following instructions.
 
-## Replace your Embed Classic feed
+## Replace your classic Embed feed
 
 Follow these instructions to update your Embed feed experience. This process doesn’t affect Viva Engage data in any way.
 
