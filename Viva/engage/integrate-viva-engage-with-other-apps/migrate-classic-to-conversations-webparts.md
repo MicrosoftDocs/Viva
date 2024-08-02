@@ -51,7 +51,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
     :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds on your SharePoint page.":::
 
 1. Hover below the classic web part to open the **Conversations** menu one more time to select **Conversations**.
-    :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu which includes a panel with layout, background, and other options.":::
+    :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
 
 1. Set up the Conversations web part to include settings you want to retain from your Highlights web part, as well as new layout and background option from the **Section** panel on the right.
     :::image type="content" source="../../media/engage/admin/web-parta-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
