@@ -81,4 +81,4 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 3. **Delete the old feed and publish the new one**
     1. Use the trash can icon at the top left edge of the feed to delete your previous classic feed.
 
-    1. Publish the page.
+    1. Select **Republish** on the top right corner to publish your changes.
