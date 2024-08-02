@@ -80,6 +80,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
  
     1. In **Number of conversations to show**, select the number based on how much space the feed should use on the page.
 
-    1. When you're done setting up the new feed, delete the old feed using the trash can on the top edge of the feed.
+3. **Delete the old feed and publish the new one**
+    1. When you're done setting up the new feed, delete the old feed using the trash can on the top left edge.
 
     1. Publish the page.
