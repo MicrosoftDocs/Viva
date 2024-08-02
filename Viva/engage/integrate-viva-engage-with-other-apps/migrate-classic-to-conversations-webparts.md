@@ -54,7 +54,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
     :::image type="content" source="../../media/engage/admin/web-part-menu-highlights-classic.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds available.":::
     
-You should now see the code for your classic Viva Engage feed.
+You should now see the code for your classic Highlights feed.
 
 1. Next you'll create a new feed using the Conversations web part:
     1. On the right, select **Use latest version**.
