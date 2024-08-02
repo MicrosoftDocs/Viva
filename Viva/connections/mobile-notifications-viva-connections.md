@@ -38,7 +38,7 @@ News notifications are delivered via Microsoft Teams in the desktop, mobile, and
 
 > [!NOTE]
 > - Notifications are pulled from the top 100 collaborators that an author works with. If an author works with more than 100 collaborators, the most relevant notifications will be pulled.
-- Authors can set an audience on their news posts and notifications will honor the audience that is set. Only users part of the selected Microsoft 365 audience(s) specified receive notifications. Learn more about [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293#bmstep2) in SharePoint.
+> - Authors can set an audience on their news posts and notifications will honor the audience that is set. Only users part of the selected Microsoft 365 audience(s) specified receive notifications. Learn more about [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293#bmstep2) in SharePoint.
 > - Notifications triggered when a News link is published will be available only on Microsoft Teams mobile.
 Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva) and [Viva licensing](https://www.microsoft.com/microsoft-viva/pricing).
 
