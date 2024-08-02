@@ -41,8 +41,8 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
 1. On the SharePoint modern page, select **Edit** at the top of the page.
 
-1. To open your existing Highlights web part:
-    1. Hover above or below the web part or under the title region and select the plus (+) icon.
+1. To open your existing classic feed that uses the Highlights web part:
+    1. Hover above or below the feed or under the title region and select the plus (+) icon.
 
     :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows the title region and plus sign where you can access the web part menu on a modern SharePoint page.":::
 
