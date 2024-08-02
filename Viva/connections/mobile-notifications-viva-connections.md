@@ -32,12 +32,9 @@ News notifications are delivered via Microsoft Teams in the desktop, mobile, and
 
 - News is published to a SharePoint team or communication site a user follows or by someone a user works closely with.
 - News which is targeted to a user is boosted.
-
-- Someone comments on a new News post a user posted.
-
-- Someone "Likes" a News post a user posted.
-
-- Someone is @mentioned in a comment on a news post a user posted.
+- Someone comments on a new News post that a user posted.
+- Someone "Likes" a News post that a user posted.
+- Someone is @mentioned in a comment on a news post that a user posted.
 
 > [!NOTE]
 > - Notifications are pulled from the top 100 collaborators that an author works with. If an author works with more than 100 collaborators, the most relevant notifications will be pulled.
