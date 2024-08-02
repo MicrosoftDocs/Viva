@@ -66,7 +66,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
     :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
 
-    1. Set up the Conversations web part to include settings you want to retain from your previous Highlights web part. Add new layout and background options from the panel on the right.
+    1. Set up the Conversations web part to include settings you want to retain from your previous Highlights web part. Add new layout and background options from the panel on the right. For **Number of conversations to show**, select the number based on the allotted space you have for the feed.
 
     :::image type="content" source="../../media/engage/admin/web-parts-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
 
@@ -77,8 +77,6 @@ Use this procedure to migrate all instances of the classic Highlights web part i
     - **User** displays the most recent conversations in which the user participated. If the Classic Highlights web part displayed a specific person’s user feed, select this option and enter the user name.
  
     - **Topic** displays the most recent conversations tagged with this topic. Select this option if the Classic Highlights web part displays the feed for a topic, and enter the topic name.
- 
-    1. In **Number of conversations to show**, select the number based on how much space the feed should use on the page.
 
 3. **Delete the old feed and publish the new one**
     1. When you're done setting up the new feed, delete the old feed using the trash can on the top left edge.
