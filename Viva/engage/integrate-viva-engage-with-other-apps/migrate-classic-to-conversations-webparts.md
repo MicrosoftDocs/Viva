@@ -41,9 +41,12 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
 1. On the SharePoint modern page, select **Edit** at the top of the page.
 
-1. Hover over your existing classic Highlights web part or under the title region, select the plus (+) icon, and select the **Highlights** web part.
+1. Hover above or below the Highlights web part or under the title region and then select the plus (+) icon that appears.
 
     :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows the title region and plus sign where you can access the web part menu on a modern SharePoint page.":::
+
+1. In the menu, select the **Highlights** web part.
+
     :::image type="content" source="../../media/engage/admin/web-part-menu-highlights.png" alt-text="Screenshot shows the Viva Engage web part menu.":::
 
 1. Select **Use the classic version of Conversations source**.
