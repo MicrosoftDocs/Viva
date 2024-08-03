@@ -36,7 +36,7 @@ Network analytics draws upon stored summaries to derive network theme extraction
 
 By default, Viva Engage networks enable AI Summarization to process threads for all users. However, only premium users with a Microsoft Viva Suite license can access the enhancements that AI Summarization provides.
 
-Engage admins can turn off AI Summarization in the Viva feature access management platform. From this platform, admins control access to Viva Engage features for users, groups, and networks through access policies. You can have multiple user and group policies for AI Summarization, but only one network policy is permitted per tenant.  
+Engage admins can turn off AI Summarization in the Viva [feature access management platform](/viva/feature-access-management). From this platform, admins use access policies to control which users, groups, and networks have access to Viva Engage features. You can have multiple user and group policies for AI Summarization, but only one network policy is permitted per tenant.  
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to control access to Viva through policies.
 
