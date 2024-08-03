@@ -455,7 +455,7 @@ The OneDrive card (previously known as Files) will connect individuals to their 
     - **Shared**: Files that have been shared with the user will be displayed.
     - **Favorites**: Files that the user has marked as “favorite” will be displayed.
 
-7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 group into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png":::
 
@@ -613,7 +613,9 @@ Invite managers and team leads to send requests for feedback or view feedback re
 
 > [!NOTE]
 >
-> It’s recommended admins set up the Viva Pulse app for their organization and pin it as an app in Microsoft Teams so users can fully experience the Viva Pulse card. Refer to the article on [manage, install, and pin Viva Pulse in the Teams admin center](/viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center) for more information.
+> - It’s recommended admins set up the Viva Pulse app for their organization and pin it as an app in Microsoft Teams so users can fully experience the Viva Pulse card. Refer to the article on [manage, install, and pin Viva Pulse in the Teams admin center](/viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center) for more information.
+> - Users will only see the Viva Pulse card if their organization is licensed for Viva Pulse.
+
 
 Content in the card is dynamic and changes according to the [users role](/viva/pulse/introduction-to-viva-pulse#roles) in Viva Pulse and if a feedback pulse is active. The following are examples of Viva Pulse card states that display different information depending on the viewer’s role and if any active or recently closed feedback pulses are available.
 
