@@ -40,7 +40,7 @@ Engage admins can turn off AI Summarization for the entire network, or for selec
 
 Policy settings apply anytime a user signs in, and determine which enabled features that user has access to. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to [control access to other Viva features through policies](/viva/control-access-admin-center).
 
-## AI Summarization enablement states
+## Enablement states for AI Summarization
 
 >[!NOTE]
 >Changes to the AI Summarization control generally take effect within 24 hours.
