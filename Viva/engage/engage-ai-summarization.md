@@ -22,7 +22,7 @@ description: "Copilot in Viva Engage and other features use AI Summarization"
 
 # AI Summarization in Viva Engage
 
-AI Summarization is a service included with Viva Engage that processes and stores conversation threads in the background. Certain features, such as Copilot in Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users.
+AI Summarization is a Viva Engage service that processes and stores conversation threads in the background. Certain features, such as Copilot in Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users.
 
 AI Summarization is governed by the same [data, privacy, and security guidelines](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) as Copilot in Viva Engage. Processed conversation threads are stored in alignment with GDPR deletion requirements and are accessed like other Viva Engage data.
 
