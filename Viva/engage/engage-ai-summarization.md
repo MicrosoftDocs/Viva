@@ -22,9 +22,9 @@ description: "Copilot in Viva Engage and other features use AI Summarization"
 
 # AI Summarization in Viva Engage
 
-AI Summarization is a Viva Engage service that processes and stores conversation threads in the Microsoft Viva Engage network to enable Copilot and analytics capabilities that require summarization.
+AI Summarization is a service included with Viva Engage that processes and stores conversation threads. Certain features that use summaries, such as Copilot in Viva Engage, require AI Summarization services.
 
-Processed data from AI Summarization are stored in alignment with GDPR deletion requirements and are accessed the same as other Viva Engage data. AI Summarization is governed by the same [data, privacy, and security guidelines](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) as Copilot in Viva Engage.
+AI Summarization is governed by the same [data, privacy, and security guidelines](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) as Copilot in Viva Engage. Processed conversation threads are stored in alignment with GDPR deletion requirements and are accessed the same as other Viva Engage data.
 
 ## Which features use AI Summarization?
 
@@ -34,7 +34,7 @@ Network analytics draws upon stored summaries to derive network theme extraction
 
 ## Control access to AI Summarization services
 
-By default, Viva Engage networks enable AI Summarization to process threads for all users. However, only premium users with a Microsoft Viva Suite license can access the enhancements that AI Summarization provides.
+By default, Viva Engage enables AI Summarization to process threads for all users in the network. However, only premium users with a Microsoft Viva Suite license can access the summaries and other enhancements that AI Summarization provides.
 
 Engage admins can turn off AI Summarization in the Viva [feature access management platform](/viva/manage-access-policies). From this platform, admins use access policies to control which users, groups, and networks have access to Viva Engage features. You can have multiple user and group policies for AI Summarization, but only one network policy is permitted per tenant.  
 
