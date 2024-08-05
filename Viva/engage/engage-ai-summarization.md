@@ -32,13 +32,13 @@ AI Summarization is used in Network analytics, Conversation analytics, and Copil
 
 Network analytics draws upon stored summaries to derive network theme extraction, network sentiment analysis, and conversation summarization.
 
-## Control access to AI Summarization services
+## How do control access to AI Summarization?
 
-By default, Viva Engage enables AI Summarization to process threads for all users in the network. However, only premium users with a Microsoft Viva Suite license can access the summaries and other enhancements that AI Summarization provides.
+By default, Viva Engage enables AI Summarization to process threads for all users in the network. Only premium users with a Microsoft Viva Suite license have access to summaries and other enhancements that AI Summarization provides.
 
-Engage admins can turn off AI Summarization in the Viva [feature access management platform](/viva/manage-access-policies). From this platform, admins use access policies to control which users, groups, and networks have access to Viva Engage features. You can have multiple user and group policies for AI Summarization, but only one network policy is permitted per tenant.  
+Engage admins can turn off AI Summarization for the entire network, or for select groups and individuals by creating policies on the Viva [feature access management platform](/viva/manage-access-policies). You can have multiple user and group-level policies to control AI Summarization use. Network-level policies are limited to one per tenant.  
 
-Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to [control access to other Viva features through policies](/viva/control-access-admin-center).
+Policy settings apply anytime a user signs in, and determine which enabled features that user has access to. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to [control access to other Viva features through policies](/viva/control-access-admin-center).
 
 ## AI Summarization enablement states
 
