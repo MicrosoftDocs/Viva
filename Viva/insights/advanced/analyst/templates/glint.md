@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2024
+ms.date: 08/5/2024
 title: Glint and organizational insights report 
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: zachminers
@@ -18,6 +18,11 @@ audience: Admin
 
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+
+> [!NOTE]
+> There is currently a limitation that might result in fewer sentiment records sent from Viva Glint to Viva Insights. A resolution is in progress. This limitation does not impact the ability to generate the **Glint and organizational insights** report.
+>
+> We understand the importance of these records for your insights and reporting, and we appreciate your patience as we address this matter.
 
 The **Glint and organizational insights** report lets you explore the relationship between behaviors measured in Viva Insights and Viva Glint survey responses, to better understand employee sentiment at your company.  
 

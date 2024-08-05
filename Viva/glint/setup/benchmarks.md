@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2024
+ms.date: 08/05/2024
 ---
 
 # Viva Glint benchmark collateral  
@@ -34,10 +34,8 @@ We strongly urge our customers to use our standards—the overall global and hig
 
 Benchmarks represent a comprehensive and current set of norms, which provide accurate and relevant comparisons for customers. Benchmarks are updated to reflect customer needs and emerging industry interests.  
 
-*Global* benchmarks are updated twice a year. 
-
 > [!NOTE]
-> It is unnecessary to update benchmarks more frequently as scores rarely change more than a point or two between updates.
+> New benchmark creation will pause until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Once a robust sample of customers has migrated, benchmark refreshes will resume (projected for mid-2025). Until then, all existing benchmark suites will remain available to Viva Glint customers.
 
 ## Global benchmarks
 
@@ -48,19 +46,15 @@ Viva Glint offers these benchmarks:
   - Top 10%
 - Employee Lifecycle
   - Onboarding - new hires
-  - Exit## 2023 Global benchmark suite
-
-### 2023 Global benchmarks
-
-At a glance:
- - More than 1,100 companies; over one third have at least 5,000 employees
- - 10.6 million respondents from over 150 countries
- - 354 million data points
- - 206 benchmarked items
+  - Exit
 
 ### 2024 Global benchmarks
 
-Viva Glint will update benchmarks on June 28, 2024.
+At a glance:
+- More than 1,000 companies
+- 10.2 million respo ndent
+- 325 million data points
+- 198 benchmarked items
  
 ### Benchmark options
 
