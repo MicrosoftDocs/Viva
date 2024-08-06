@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/24/2024
+ms.date: 08/06/2024
 ---
 
 # Import historical response data in Viva Glint
@@ -59,12 +59,17 @@ Data from an external source must meet the prerequisites listed here to be eligi
 
 Complete a mapping of historical and Viva Glint items to determine exactly where you'll see trend in reporting. [Learn more](question-mapping.md).
 
-> [!IMPORTANT]
-> As you map items from the Question Library to historical items, include the Glint question ID, which is available in Question Library exports. You will need these IDs to prepare your Raw Score File.
-
 ## 4. Set up a survey program
 
-Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
+Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).  
+
+After you complete setup: 
+
+1. Go to the survey's **Program Summary** and choose **Actions**.
+2. Select **Export Program Content** from the dropdown menu.
+3. In the dialog that appears, select **Survey Content**, choose at least one language, and select an **Export Format**.
+4. Select **Export** to download a compressed folder (.zip) to your device.
+5. The Question file included in the downloaded folder contains a **Question ID (DO NOT EDIT)** column. This field includes unique question ID values that become columns in the raw score file imported to Viva Glint.
 
 > [!TIP]
 > Before importing users for the external import, select a placeholder Distribution List to complete program setup, such as Company Admin.
@@ -113,7 +118,7 @@ Your Raw Score File should be in a horizontal layout and contain an email addres
 - **First column:**
   - Email which **must** be: User e-mail
 - **Additional columns:**
-  - **Question IDs:** Use IDs from the Question Mapping exercise that you conducted to assign Glint Question IDs to your historical response data.
+  - **Question IDs:** Use unique question IDs exported in **Step 4. Set up a survey program** to assign Glint Question IDs to your historical response data.
     - **Key Outcome Items:** Ensure that these items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
     - **Rating Question Comments:** For open-ended feedback associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID.
     - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment.
