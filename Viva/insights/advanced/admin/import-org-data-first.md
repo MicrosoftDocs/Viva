@@ -197,7 +197,7 @@ The following example represents one field you’ll find in the metadata.json fi
 * `“name” : “PersonId”,`  corresponds to the Viva Insights field name.
 * `"type": "EmailType"`  corresponds to the field’s data type.
 
-Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, you’ll want to edit the first line below, so it looks like this:
+Let’s say that instead of `PersonId`, your source system uses `Employee` for this field header. To make sure your fields are mapped correctly, edit the first line below, so it looks like this:
 
 ```json
       "Employee": {
@@ -472,7 +472,7 @@ For information about what happens next, go to the appropriate section:
 
 ### Validation succeeds
 
-After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Processing” status on the **Import history** table.
+After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a “Processing” status appears on the **Import history** table.
 
 After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
 
@@ -490,14 +490,14 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
+If processing fails, a “Processing failed” status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
 
 >[!Note]
 >Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
 
 ### Validation fails
 
-If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
+If data validation fails, a "Validation failed" status appears in the **Import history** table. For validation to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the data source admin so they know what to correct before sending the data again. 
 
 The data source admin might find the following section helpful to fix data errors in their export file.
 
