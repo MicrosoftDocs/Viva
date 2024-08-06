@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/05/2024
+ms.date: 08/06/2024
 ---
 
 # Viva Glint benchmark collateral  
@@ -37,33 +37,46 @@ Benchmarks represent a comprehensive and current set of norms, which provide acc
 > [!NOTE]
 > New benchmark creation will pause until all remaining customers of LinkedIn Glint are transitioned to Viva Glint. Once a robust sample of customers has migrated, benchmark refreshes will resume (projected for mid-2025). Until then, all existing benchmark suites will remain available to Viva Glint customers.
 
-## Global benchmarks
+## Benchmarks at a glance
 
-Viva Glint offers these benchmarks:
-- Global (mean)
-- Top percentiles - threshold score to achieve for the respective high performing benchmarks
-  - Top 25%
-  - Top 10%
-- Employee Lifecycle
-  - Onboarding - new hires
-  - Exit
-
-### 2024 Global benchmarks
-
-At a glance:
+The latest Viva Glint benchmarks are based on:
 - More than 1,000 companies
 - 10.2 million respo ndent
 - 325 million data points
 - 198 benchmarked items
  
-### Benchmark options
+## Benchmark options
 
-|Benchmark|Availability|
+|Benchmark|Suites Available|
 |--------|--------|
+|**Global**|Global Overall, Top 25%, Top 10%, Employee Lifecycle (Onboarding and Exit)|
 |**Industry***|Finance, Healthcare, Manufacturing, Professional Service, Retail, Technology, Utilities|
 |**Country***|Australia, Brazil, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Mexico, Netherlands, Russian Federation, Singapore, Spain, Sweden, Switzerland, UAE, UK, US|
 |**Nursing Excellence (Magnet)**|Registered Nurses, Combined Ambulatory, Combined Labor and Delivery, Combined Pediatrics, Combined Surgical, Critical Care, Emergency, Home Care, Long-term Care, Med-Surg, Medical, Oncology, Operating Room, Psychiatric, Specialty Practice, Step Down|
-|* This list is based on client usage and other industry/country benchmarks are available. Inquire about other industries/countries if your benchmark of interest is not listed here.|
+|* This list is based on client usage and other industry/country benchmarks available. |
+
+> [!IMPORTANT]
+> The top 10%/25% benchmark suites are based on the threshold (floor score) required for the respective top-performing category. They don't reflect the average of the top performing group.
+
+### Benchmark date coverage
+
+|Benchmark|Release Date|Data Date Range|
+|--------|--------|--------|
+|2021 Global (May)|5/31/2021|March 1, 2020 - February 28, 2021|
+|2021 Industries|9/30/2021|July 1, 2020 - June 30, 2021|
+|2021 Countries & Global (Dec)|12/31/2021|October 1, 2020 - September 30, 2021|
+|2021 Industries (Calendar Year)|3/31/2022|January 1, 2021 - December 31, 2021|
+|2022 Global (May)|6/30/2022|April 1, 2021 - March 31, 2022|
+|2022 Magnet|9/30/2022|July 1, 2021 - June 30, 2022|
+|2022 Countries & Global (Dec)|12/31/2022|October 1, 2021 - September 30, 2022|
+|2022 Industries|3/31/2023|January 1, 2022 - December 31, 2022|
+|2022 GPS|4/30/2023|January 1, 2021 - March 15, 2023|
+|2022 Research / Teaching Hospitals|4/30/2022|January 1, 2021 - December 31, 2022|
+|2023 Global (June)|6/30/2023|April 1, 2022 - March 31, 2023|
+|2023 Countries & Global (Dec)|12/31/2023|October 1, 2022 - September 30, 2023|
+|2023 Industries|3/31/2024|January 1, 2023 - December 31, 2023|
+|2023 Research/Teaching Hospitals|4/1/2023|January 1, 2022 - December 31, 2023|
+|2024 Global (June)|6/30/2024|April 1, 2023 - March 31, 2024|
 
 ## Considerations for choosing a benchmark 
 
