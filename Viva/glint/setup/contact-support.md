@@ -49,15 +49,15 @@ Follow these steps to submit your online request for support with Viva Glint.
 2. In the bottom right, select **Help & support**.
 3. In the **How can we help?** pane that appears, enter "Viva Glint" and select from the list of options that appears.
    
-   :::image type="content" source="../../media/glint/setup/MAC-how-can-we-help.png" alt-text="Screenshot of the initial MAC support request step with a search field populated with Viva Glint.":::
+   :::image type="content" source="../../media/glint/setup/how-can-we-help-mac.png" alt-text="Screenshot of the initial MAC support request step with a search field populated with Viva Glint.":::
 
 4. If the options in the dropdown menu don't apply, select **Contact support** at the bottom of the pane.
 
-   :::image type="content" source="../../media/glint/setup/MAC-contact-support.png" alt-text="Screenshot of suggested Viva Glint help content and the Contact Support option.":::
+   :::image type="content" source="../../media/glint/setup/contact-support-mac.png" alt-text="Screenshot of suggested Viva Glint help content and the Contact Support option.":::
 
 5. If prompted, select a contact method and preferred contact settings.
 
-   :::image type="content" source="../../media/glint/setup/MAC-contact-method.png" alt-text="Screenshot of the contact method and preferences selection step for a MAC request.":::
+   :::image type="content" source="../../media/glint/setup/contact-method-mac.png" alt-text="Screenshot of the contact method and preferences selection step for a MAC request.":::
 
 6. In the **Get support from an agent** section, complete your request details.
    1. **Title**: Start with "Viva Glint" and include a brief summary. If urgent, include the word "Urgent."
@@ -68,7 +68,7 @@ Follow these steps to submit your online request for support with Viva Glint.
    1. **Attachments**: Add any relevant attachments, including network trace files if you collected and saved them using steps in this article.
    1. **Accessibility settings**: Select or deselect the "I have accessibility related needs" option.
 
-      :::image type="content" source="../../media/glint/setup/MAC-get-support.png" alt-text="Screenshot of MAC support request fields to complete before selecting Contact me.":::
+      :::image type="content" source="../../media/glint/setup/get-support-mac.png" alt-text="Screenshot of MAC support request fields to complete before selecting Contact me.":::
 
 7. Review all information entered and select **Contact me** to submit your request.
 
