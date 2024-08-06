@@ -1,5 +1,5 @@
 ---
-ms.date: 02/02/2024
+ms.date: 08/06/2024
 title: File rules and validation errors
 description: View errors and solutions for validation errors in the advanced insights app
 author: zachminers
@@ -51,6 +51,9 @@ All source and target field header or column names need to:
     * ObjectId
     * IsActive
     * Starting with "Microsoft_"
+    * MetricDate
+    * PrimaryCollaborator_PersonId
+    * SecondaryCollaborator_PersonId
     
 
 
@@ -116,7 +119,7 @@ Column headers|All field header or column names need to be unique.|Two or more c
 ||After you upload your file, you can only map one column header to each Viva Insights data field.|Your file has more than one source column mapped to a data field. Make sure each source column is mapped to a unique field.|All
 |Field values|Field values need to be provided in the correct data type. Refer to [Attribute reference](./prepare-org-data.md#attribute-reference).|Invalid {header name} value. {Header name} should be an email address following the form `employee@contoso.com`.|All
 |||Invalid {header name} value. {Header name} should be a string.|All
-|||Invalid {header name} value. {Header name} should be a date following the form MM/DD/YYYY.|All
+|||<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form MM/DD/YYYY, MM/DD/YYYY, MM/DD/YYYY followed by more text (such as time), MM-DD-YYYY, MM-DD-YY, YYYY-MM-DD, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12. <li>OR<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form DD/MM/YYYY, DD/MM/YYYY followed by more text (such as time), D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY , YYYY-DD-MM, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12.  |All
 |||Invalid {header name} value. {Header name} should be a double following the form 23.75.|All
 |||Invalid {header name} value. {Header name} should be an integer.|All
 ||Required fields need to have a value for every row.|Missing {header name} column or {header name} value. {Header name} is a required field and needs a value for every row. Add {header name} value and upload the file again.|All
