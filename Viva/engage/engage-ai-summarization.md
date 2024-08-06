@@ -38,9 +38,9 @@ Network analytics draws upon stored summaries to derive network theme extraction
 
 By default, Viva Engage enables AI Summarization to process threads from all users in the network. Only premium users with a Microsoft Viva Suite license have access to summaries and other enhancements that AI Summarization provides.
 
-Engage admins can turn off AI Summarization for the entire network, or for select groups and individuals by creating policies on the Viva [feature access management platform](/viva/manage-access-policies?branch=loreenl_NEW_VFAM). You can have multiple user and group-level policies to control AI Summarization use. Network-level policies are limited to one per tenant.  
+Engage admins can turn off AI Summarization for the entire network, or for select groups and individuals by creating policies on the Viva [feature access management platform](https://review.microsoft.learn/en-us/viva/manage-access-policies?branch=loreenl_NEW_VFAM). You can have multiple user and group-level policies to control AI Summarization use. Network-level policies are limited to one per tenant.  
 
-Policy settings apply anytime a user signs in, and determine which enabled features that user has access to. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to [control access to other Viva features through policies](/viva/control-access-admin-center?branch=loreenl_NEW_VFAM).
+Policy settings apply anytime a user signs in, and determine which enabled features that user has access to. Because you can set multiple access policies, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. Learn how to [control access to other Viva features through policies](https://review.microsoft.learn/en-us/viva/control-access-admin-center?branch=loreenl_NEW_VFAM).
 
 ## Enablement states for AI Summarization
 
