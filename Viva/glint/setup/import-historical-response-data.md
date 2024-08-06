@@ -203,13 +203,13 @@ To import historical users and their responses:
 
 If you encounter issues during your import, use this guidance to troubleshoot.
 
-- ### [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
+- [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 
-- ### [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
+- [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
 
-- ### [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
+- [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
 
-- ### [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
+- [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## 9. Confirm expected results in your dashboard
 
