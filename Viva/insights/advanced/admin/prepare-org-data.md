@@ -1,5 +1,5 @@
 ---
-ms.date: 07/25/2024
+ms.date: 08/06/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -165,7 +165,6 @@ Custom attributes are any additional attributes you want to define to use in fil
 > [!Note] 
 >
 > * The maximum number of total attributes allowed in the system is 105, which includes the five required attributes. 
-> * All dates should be in the MM/DD/YYYY format.
 > * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
 >[!Tip]
@@ -217,10 +216,10 @@ This section contains information about the attributes that you use in the organ
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
 |**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias. For CEOs, this can be left blank. | Email| `sally@contoso.com`| Required |
 |**Organization**| The internal organization that an employee belongs to. For more actionable insights, avoid using too few or too many unique Organizations.| String| `Financial Planning and Analysis` |Required|
-|**EffectiveDate**| Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.| DateTime| `12/31/2021`|Required<sup>2</sup>|
+|**EffectiveDate**| <li>Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.<li>Admin can select DataType as either DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY<li>If selected Datatype is DateTime_MM/DD/YYYY, it supports MM/DD/YYYY, MM/DD/YYYY followed by more text such as "time," MM-DD-YYYY, MM-DD-YY, or YYYY-MM-DD<li>If selected Datatype is DateTime_DD/MM/YYYY, it supports DD/MM/YYYY, DD/MM/YYYY followed by more text such as "time," D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY, or YYYY-DD-MM<li>If selected Datatype is DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12. | DateTime| `12/31/2021`|Required<sup>2</sup>|
 |**LevelDesignation** | Level that represents an employee’s experience, management level, or seniority within the organization. For more actionable insights, avoid using too few or too many unique LevelDesignation values.| String | `Director` |Reserved<sup>3</sup>
 |**FunctionType**| The job function that an employee performs. For more actionable insights, avoid using too few or too many unique FunctionTypes| String | `Finance Management` | Reserved|
-|**HireDate**| The date an employee began employment. If an employee has multiple hire dates, it’s best to use the most recent hire date.| DateTime| `12/31/2021`| Reserved|
+|**HireDate**| <li>The date an employee began employment. If an employee has multiple hire dates, it’s best to use the most recent hire date.<li>Admin can select DataType as either DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY<li>If selected Datatype is DateTime_MM/DD/YYYY, it supports MM/DD/YYYY, MM/DD/YYYY followed by more text such as "time," MM-DD-YYYY, MM-DD-YY, or YYYY-MM-DD<li>If selected Datatype is DateTime_DD/MM/YYYY, it supports DD/MM/YYYY, DD/MM/YYYY followed by more text such as "time," D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY, or YYYY-DD-MM<li>If selected Datatype is DateTime_MM/DD/YYYY or DateTime_DD/MM/YYYY, it supports Wednesday, March 14, 2012; March 14, 2012; 14-Mar-2012; or 14-Mar-12.| DateTime| `12/31/2021`| Reserved|
 |**HourlyRate**| An employee’s salary represented as an hourly rate in US dollars. | Double | `25.25` | Reserved|
 |**Layer**| An employee’s position within the organizational hierarchy, expressed as their distance from the top leader of the organization. For example, the CEO is at Layer 0. For more actionable insights, avoid using too few or too many unique Layers. | Integer | `2` |Reserved
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
