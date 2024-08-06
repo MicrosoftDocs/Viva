@@ -28,7 +28,9 @@ AI Summarization is governed by the same [data, privacy, and security guidelines
 
 ## Which features use AI Summarization?
 
-AI Summarization is used in Network analytics, Conversation analytics, and Copilot in Viva Engage. When a feature requests summarized data, AI Summarization works in the background to return summaries from the relevant threads to which the user has access. Learn more about how Copilot and AI Summarization work together [in this diagram](/viva/engage/configure-copilot-for-engage#data-processing-and-storage).
+AI Summarization is used in Network analytics, Conversation analytics, and Copilot in Viva Engage. Additional Viva Engage features will incorporate AI Summarization services in the coming year.
+
+When a feature requests summarized data, AI Summarization returns summaries from conversation threads to which the user has access. Learn more about how Copilot and AI Summarization interact [from this diagram](/viva/engage/configure-copilot-for-engage#data-processing-and-storage).
 
 Network analytics draws upon stored summaries to derive network theme extraction, network sentiment analysis, and conversation summarization.
 
