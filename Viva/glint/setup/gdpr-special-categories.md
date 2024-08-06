@@ -25,7 +25,7 @@ Microsoft Viva Glint helps organizations measure employee engagement and experie
 
 With Viva Glint, organizations capture invaluable employee feedback and transform those insights into actions. Feedback and action-taking are brought directly into the flow of work. Managers and their teams are empowered to take joint ownership and drive meaningful actions and habits that support happiness, success, and wellbeing at work.
 
-This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the [European Union General Data Protection Regulation (GDPR)](https://learn.microsoft.com/compliance/regulatory/gdpr). This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
+This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the [European Union General Data Protection Regulation (GDPR)](/compliance/regulatory/gdpr). This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
 
 ## Understand the fundamentals of Viva Glint privacy
 
