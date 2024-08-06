@@ -66,9 +66,13 @@ Set up your Viva Glint program, including items that trend with your external su
 After you complete setup: 
 
 1. Go to the survey's **Program Summary** and choose **Actions**.
+
 2. Select **Export Program Content** from the dropdown menu.
+
 3. In the dialog that appears, select **Survey Content**, choose at least one language, and select an **Export Format**.
+
 4. Select **Export** to download a compressed folder (.zip) to your device.
+
 5. The Question file included in the downloaded folder contains a **Question ID (DO NOT EDIT)** column. This field includes unique question ID values that become columns in the raw score file imported to Viva Glint.
 
 > [!TIP]
@@ -161,28 +165,35 @@ To complete your external, historical import, access Viva Glint’s Advanced Con
 To import historical users and their responses:
 
 1. From your admin dashboard, select the **Configuration** symbol, then in **Service Configuration** choose **Advanced Configuration**.
+
 1. In the menu on the left, select **External Import**.
+
 2. On the **External Import** page, make selections to import your data:
    1. **Manual Mode:** Leave this toggle switched to **Off**.
    1. **Survey Name:** Select your survey from the dropdown list.
    2. **Exception Date:** This field determines the start date displayed in reporting for this survey and must be **at least one week before the current date** and **not overlap** with any scheduled surveys in this program.
+
       > [!CAUTION]
       > Selecting a date three or fewer days before the current date can result in unwanted email invites sent to employees.
+
    4. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
    5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and does not appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
    6. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
    7. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
    8. **Extra Options menu:** Leave collapsed, not applicable.
+
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.
 
    :::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
 
 1. Confirm that:
+
    1. **Users in User File** matches the number of users in your **Respondent User File**.
    2. **Users in Score File** matches the number of users in your **Raw Score File**.
    3. **Score Users Missing in User File** is 0.
    4. **User File Users Not in Score File** matches the number of people who were invited but didn't respond to the survey.
    5. **Counts per Question**, when expanded, match the expected counts for each comment and response value.
+
 1. After confirming the **Preview**, select **Save**.
 1. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
 
@@ -190,15 +201,12 @@ To import historical users and their responses:
 
 ## 8. Troubleshoot warnings and errors
 
-If you encounter issues during your import, use this guidance to troubleshoot.
+If you encounter issues during your import, use this guidance at the following links to troubleshoot.
 
-- ### [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
-
-- ### [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
-
-- ### [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
-
-- ### [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
+- [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
+- [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
+- [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
+- [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## 9. Confirm expected results in your dashboard
 
