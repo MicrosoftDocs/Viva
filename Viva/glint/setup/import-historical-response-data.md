@@ -201,7 +201,7 @@ To import historical users and their responses:
 
 ## 8. Troubleshoot warnings and errors
 
-If you encounter issues during your import, use this guidance to troubleshoot.
+If you encounter issues during your import, use this guidance at the following links to troubleshoot.
 
 - [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 
