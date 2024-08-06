@@ -112,7 +112,7 @@ If a survey question and metric have **no relationship**, the correlation is bet
 
 The Overview page has two main sections: **Summary** and **Questions with strong relationship**.
 
-:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page.":::
+:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page." lightbox="../../images/glint-pbi-overview-page.png":::
 
 #### Summary
 
@@ -132,7 +132,7 @@ View the four survey questions with the strongest relationships to Viva Insights
 * Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
 * Name of the related Viva Insights metric
 
-![card](../../images/analyst-pbi-glint-sample-card-diagram-2.png)
+:::image type="content" alt-text="card" source="../../images/analyst-pbi-glint-sample-card-diagram-2.png" lightbox="../../images/analyst-pbi-glint-sample-card-diagram-2.png":::
 
 ### Explore survey and metric relationships
 
@@ -140,7 +140,7 @@ Select a survey question, pair it with a Viva Insights metric, and explore the r
 dive deeper, add the **View report by**, **Filter by**, and/or **Filter value** to see how this relationship changes for 
 different populations. Refer to [Report settings](#report-settings) to learn more about these controls.
 
-:::image type="content" source="../../images/glint-pbi-survey-metric-relationships.png" alt-text="Screenshot that shows the survey and metric relationships page.":::
+:::image type="content" source="../../images/glint-pbi-survey-metric-relationships.png" alt-text="Screenshot that shows the survey and metric relationships page." lightbox="../../images/glint-pbi-survey-metric-relationships.png":::
 
 #### Question and metric relationship
 

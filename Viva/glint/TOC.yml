@@ -26,6 +26,8 @@ items:
         href: start/customer-cohorts.md
       - name: Newsletter registration
         href: setup/newsletter-register.md
+      - name: Contact support
+        href: setup/contact-support.md        
       - name: Viva People Science research
         items:
         - name: Viva People Science and Glint
