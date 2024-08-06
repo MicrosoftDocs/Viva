@@ -355,6 +355,8 @@ items:
          - name: Comments Report
            href: reports/comments-report.md
            items:
+             - name: Comment Suppression
+               href: comment-suppression.md
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
          - name: Response Rate Report
