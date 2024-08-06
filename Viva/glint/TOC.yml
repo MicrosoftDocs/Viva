@@ -26,6 +26,8 @@ items:
         href: start/customer-cohorts.md
       - name: Newsletter registration
         href: setup/newsletter-register.md
+      - name: Contact support
+        href: setup/contact-support.md        
       - name: Viva People Science research
         items:
         - name: Viva People Science and Glint
@@ -355,6 +357,8 @@ items:
          - name: Comments Report
            href: reports/comments-report.md
            items:
+             - name: Comment Suppression
+               href: reports/comments-suppression.md
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
          - name: Response Rate Report
