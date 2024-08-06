@@ -41,7 +41,7 @@ Benchmarks represent a comprehensive and current set of norms, which provide acc
 
 The latest Viva Glint benchmarks are based on:
 - More than 1,000 companies
-- 10.2 million respo ndent
+- 10.2 million respondents
 - 325 million data points
 - 198 benchmarked items
  
