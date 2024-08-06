@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/31/2024
+ms.date: 08/06/2024
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -63,7 +63,7 @@ Use custom attributes to see which groups of employees are more engaged than oth
 
 ### General Data protection Regulation (GDPR) compliance for attributes
 
-Confidentiality around employee data is of the highest priority for Microsoft Viva Glint. Using [EU General Data Protection Regulation (GDPR) guidelines](https://www.microsoft.com/professionalservices/gdpr), we apply these privacy protection standards globally to ensure that every person’s data is handled with the utmost confidentiality and integrity.
+Confidentiality around employee data is of the highest priority for Microsoft Viva Glint. Using [EU General Data Protection Regulation (GDPR) guidelines](/compliance/regulatory/gdpr), we apply these privacy protection standards globally to ensure that every person’s data is handled with the utmost confidentiality and integrity.
 
 ## Optional system attributes
 
