@@ -16,16 +16,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/10/2024
+ms.date: 08/06/2024
 ---
 
 # Security and compliance for data usage
 
-Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our approach to employee [engagement](https://aka.ms/VivaGlintAModernApproach), Viva Glint offers a flexible surveying approach that enables organizations to gain a greater understanding of key experiences that shape an employee's journey, how those experiences impact engagement, and the resulting impact on individual and business outcomes.
+Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our approach to employee [engagement](https://aka.ms/VivaGlintAModernApproach), Glint offers a flexible surveying approach so organizations can gain a greater understanding of key experiences that shape an employee's journey and the resulting impact on individual and business outcomes.
 
-With Viva Glint, organizations capture invaluable employee feedback and transform those insights into actions. Feedback and action-taking are brought directly into the flow of work, empowering managers and their teams to take joint ownership and drive meaningful actions and habits that support happiness, success, and wellbeing at work.
+With Viva Glint, organizations capture invaluable employee feedback and transform those insights into actions. Feedback and action-taking are brought directly into the flow of work. Managers and their teams are empowered to take joint ownership and drive meaningful actions and habits that support happiness, success, and wellbeing at work.
 
-This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the [European Union General Data Protection Regulation (GDPR)](/viva/glint/setup/gdpr-special-categories). This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
+This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the [European Union General Data Protection Regulation (GDPR)](https://learn.microsoft.com/compliance/regulatory/gdpr). This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
 
 ## Understand the fundamentals of Viva Glint privacy
 
@@ -35,9 +35,9 @@ This section discusses concepts that provide a framework for understanding how V
 
 Contemporary privacy regulations, such as the GDPR, outline roles and responsibilities in thinking about data protection and privacy. These concepts help illustrate the respective responsibilities of the customer, Microsoft, and employees when it comes to processing and managing sensitive data.
 
-The concepts of data controller, data processor, and data subject originate in European privacy law. Regardless of where your organization is located or whether any personal data of European Union citizens is involved, these concepts provide a useful framework for thinking about data protection when using Viva Glint.
+The concepts of data controller, data processor, and data subject originate in European privacy law. These concepts provide a useful framework for thinking about data protection when using Viva Glint, regardless of where your organization is located.
 
-The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):
+This image shows the central position of the data controller, between the data subject and the data processor (Microsoft):
 
 :::image type="content" source="../../media/glint/start/data-entity.png" alt-text="Screenshot that displays the data entity of Viva Glint.":::
 
@@ -54,7 +54,7 @@ As the data controller, your organization:
   - Determining whether you should obtain consent from users in your organization.
   - Determining what information is provided to users about how your organization processes their personal data in Viva Glint.
   - Accounting for local considerations (for example, obtaining approval from local works councils, if applicable).
-- Uses Viva Glint privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
+- Uses Viva Glint privacy controls to direct which data is analyzed, how data appears in results, and who has access to both raw data and the results of analysis.
 - Reviews and is familiar with this document and other Viva Glint privacy documentation provided by Microsoft.
 
 ### Data processor
@@ -77,35 +77,36 @@ In addition, Microsoft doesn't use customer data or personal data for advertisin
 A data subject is a person who can be identified through personal data. In the context of Viva Glint, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
 > [!NOTE]
-> In most cases in the Viva Glint product and documentation, we refer to a Data Subject simply as a "user," a "person," an "individual," or an "employee."
+> In most cases in the Glint product and documentation, we refer to a Data Subject simply as a "user," a "person," an "individual," or an "employee."
 
 ## Understand which data gets processed
 
-Viva Glint provides the customer with tools to manage the data Viva Glint processes and who has access to that data. Viva Glint also gives customers the ability to receive and respond to [Data Subject Rights](https://www.microsoft.com/en-ww/trust-center/privacy/gdpr-dsr?market=af) requests from employees. Customers control what employee personal data they import to Viva Glint. Viva Glint can then combine this customer-imported data with survey responses to provide extra insights. GDPR "sensitive data" has specific considerations that customers should assess in coordination with their HR, privacy, and legal teams.
+Viva Glint provides the customer with tools to manage the data Viva Glint processes and who has access to that data. Glint also gives customers the ability to receive and respond to [Data Subject Rights](https://www.microsoft.com/en-ww/trust-center/privacy/gdpr-dsr?market=af) requests from employees. Customers control what employee personal data they import to Viva Glint. Glint can then combine this customer-imported data with survey responses to provide extra insights. GDPR "sensitive data" has specific considerations that customers should assess in coordination with their HR, privacy, and legal teams.
 
 > [!TIP]
-> Customers should upload the minimum and least sensitive data necessary to achieve their goals. It is the customer's responsibility to assess their privacy and compliance obligations and to determine whether Viva Glint is suitable.
+> Customers should upload the minimum and least sensitive data necessary to achieve their goals. It is the customer's responsibility to assess their privacy and compliance obligations and to determine whether Glint is suitable.
 
 ## Manage who has access to survey feedback
 
 The customer admin can assign user roles with varying levels of access to view survey feedback results. The admin also controls who can see the data and at what level of detail.
 
-Viva Glint reporting, like other products that work with sensitive data (for example, HR systems), isn't meant for the general workforce. Rather, its users are expected to have training in how to handle sensitive information. Topics might include your organization's HR policies, your organization's employee privacy policy and how to handle and store sensitive data.
+Viva Glint reporting, like other products that work with sensitive data (for example, HR systems), isn't meant for the general workforce. Its users are expected to have training in how to handle sensitive information. Topics might include your organization's HR policies, your organization's employee privacy policy and how to handle and store sensitive data.
 
-Viva Glint Customer Admins may create the following types of user roles within their organization:
+Viva Glint admins may create the following types of User Roles:
 
 - Managers: These users might need to see the rollup for their teams and perhaps, one attribute. They often don't have the team size to see results by demographic analysis and lack the authority to act on them.
 
 - Senior managers: Due to their organizations' size, they might need to see data for various cohorts. They might need to see organizational demographics such as location, tenure, and job family as those are areas within their authority to act. Special category data, such as ethnicity, is often not provided to these users.
+  
 - Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users might need access to all attributes.
 
-[Read about why Viva Glint collects employee attributes and how they're used in reporting.](https://go.microsoft.com/fwlink/?linkid=2230738)
+[Read why Viva Glint collects employee attributes and how they're used in reporting.](https://go.microsoft.com/fwlink/?linkid=2230738)
 
 ## Privacy and legal subject matter experts might be required
 
 Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology services in the workplace.
 
-## Additional resources
+## More resources
 
 - [Privacy policy requirement of every Microsoft Viva Glint program](https://go.microsoft.com/fwlink/?linkid=2238336)
 - [How Viva Glint helps protect confidentiality and privacy](https://go.microsoft.com/fwlink/?linkid=2238614) 
