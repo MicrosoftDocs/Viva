@@ -88,7 +88,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       > [!IMPORTANT]
       > If uploads aren't confirmed within 60 minutes, they expire and don't process.
       
-1. After the import completes succesfully, use the **Export** option on the **People** page to confirm that Manager Hierarchy levels and teams are updated as expected.
+1. After the import completes successfully, use the **Export** option on the **People** page to confirm that Manager Hierarchy levels and teams are updated as expected.
 2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/import-members-distribution-lists) that are part of the retroactive update.
 3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
