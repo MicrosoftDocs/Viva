@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/09/2024
+ms.date: 08/06/2024
 ---
 
 # Customize Viva Glint survey email content
@@ -38,6 +38,7 @@ communication experience for your survey participants.
 > [!NOTE]
 > - Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
 > - Viva Glint teams have access to limited email delivery metrics. Using a custom sender domain gives your organization direct access to your email delivery data.
+> - The preview in the email setup pane in the platform always displays the Viva Glint logo. [Send an email preview](#preview-emails) to see your organization's cusomized logo.
 
 ## Email sections
 
