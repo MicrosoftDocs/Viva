@@ -42,7 +42,7 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 
 - The employee's **Glint user email** must be added to their [Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425).
 - All **Glint user email domains** must be added to your [**tenant's MAC domain list**](https://learn.microsoft.com/microsoft-365/admin/m365-feature-descriptions).
-- Optional, but recommended: Enable **Require Azure AD for links in survey emails** in General Settings from the Glint admin  dashboard.
+- Optional, but recommended: Enable **Require Entra ID for links in survey emails** in General Settings from the Glint admin  dashboard.
 
 ## Set up the integration
 
