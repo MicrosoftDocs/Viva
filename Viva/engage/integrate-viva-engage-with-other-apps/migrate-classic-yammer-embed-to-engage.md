@@ -17,7 +17,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 4817d2fa-50f6-4f25-88a0-a312745768d4
-description: "Replace JavaScript-based Embed feeds (Classic Yammer) to interface-based Embed feeds in your HTML-based applications."
+description: "Replace Embed Feed for Yammer Classic to Embed Feed in Engage in your HTML-based applications."
 ---
 
 # Replace classic Embed feeds with Embed Feed for Engage
