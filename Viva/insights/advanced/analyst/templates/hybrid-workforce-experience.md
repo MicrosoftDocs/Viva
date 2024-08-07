@@ -82,9 +82,9 @@ You can add new attributes to your organizational data at any time. For more det
  1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
 > [!NOTE]
-> If you’re setting up a new Hybrid workforce experience (manual) PBI, this PBI will use WeeklyBadgeOnsiteDays. Therefore, you must upload badge data into the WeeklyBadgeOnsiteDays column during the HR upload.
+> If you’re setting up a new Hybrid workforce experience (manual) PBI, this PBI now uses WeeklyBadgeOnsiteDays. Therefore, you must upload badge data into the WeeklyBadgeOnsiteDays column during the HR upload.
 >
-> For recurring Hybrid workforce experience (manual) PBI queries previously set up, they will continue to use the OnsiteDays attribute and they won't fail. However, you should still set up a new recurring query and upload badge data into the WeeklyBadgeOnsiteDays column.
+> For recurring Hybrid workforce experience (manual) PBI queries previously set up, they'll continue to use the OnsiteDays attribute and they won't fail. However, you should still set up a new recurring query and upload badge data into the WeeklyBadgeOnsiteDays column.
 >
 > For Recurring Custom Person queries that use the OnsiteDays attribute, they won't fail either. Still, you should recreate these queries to use the new WeeklyBadgeOnsiteDays attribute.
 
