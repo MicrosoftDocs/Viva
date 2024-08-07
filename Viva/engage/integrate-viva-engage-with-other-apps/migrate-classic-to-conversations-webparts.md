@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/02/2024
+ms.date: 08/07/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -42,18 +42,12 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 1. **Open the existing classic feed on SharePoint**
 
     1. Select **Edit** at the top of the page
-    1. Hover above or below the feed or under the title region and select the plus (+) icon.
+    1. Select the classic Highlights web part that you're replacing and record the type of feed it's delivering to users (for example, user feed, community feed). 
 
     :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows the title region and plus sign where you can access the web part menu on a modern SharePoint page.":::
 
     1. In the pop-up menu, select the **Highlights** web part.
 
-    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights.png" alt-text="Screenshot shows the Viva Engage web part menu.":::
-
-    1. On the right, select **Use the classic version of Conversations source**.
-
-    :::image type="content" source="../../media/engage/admin/web-part-menu-highlights-classic.png" alt-text="Screenshot shows the radio buttons that let you specify different types of conversation feeds available.":::
-    You should now see the code for your classic Highlights feed.
 
 
 2. **Create a new feed using the Conversations web part**

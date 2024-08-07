@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/02/2024
+ms.date: 08/07/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -33,31 +33,9 @@ To determine if your site uses classic Embed Feed, examine your feed's code stru
 
 - If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following example for Classic Embed Feed), it's using the classic Embed. Proceed to the section to migrate to Embed Feed for Engage.
 
-- If your embed code starts with "iframe", it's using Embed Feed for Engage. No action required!
+- If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action required.
 
-
-**Classic Embed Feed**
-...
-<div id="embedded-feed" style="height:800px;width:400px;"></div> 
-<script type="text/javascript" src="https://s0.assets-yammer.com/assets/platform_embed.js"></script> 
-<script type="text/javascript"> 
- yam.connect.embedFeed({
-   container: "#embedded-feed",
-   network: "my-network",
-   config: {
-     header: false,
-     footer: false,
-     theme: "light",
-    }
-  });
-</script>
-...
-
-**Embed Feed for Engage**
-...
-<iframe name="embed-feed" title="Viva Engage" src="https://engage.cloud.microsoft/embed/feed?header=true&footer=true&hideNetworkName=false&theme=light" style="border: 0px; overflow: hidden; width: 100%; height: 100%; min-height: 400px;"></iframe>
-...
-
+:::image type="content" source="../../media/engage/admin/embed-feed-classic-examples.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
 
 ## Replace your classic Embed feed
 
