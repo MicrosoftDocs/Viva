@@ -49,11 +49,11 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
     1. Hover above the classic Highlight web part where you want to create a new feed, and select the plus (+) icon.
 
-        :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the classic Highlights interface with an button to go to the newer Conversations interface.":::
+        :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows how to access the web part menu.":::
 
     1. In the web part menu, select **Conversations**.
 
-        :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
+        :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the option for creating a Conversations web part.":::
 
     1. Set up the Conversations web part to include settings you want to retain from your previous Highlights web part. Add new layout and background options from the panel on the right. For **Number of conversations to show**, select the number based on the allotted space you have for the feed.
 
