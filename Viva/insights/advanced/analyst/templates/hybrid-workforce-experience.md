@@ -1,5 +1,5 @@
 ---
-ms.date: 03/18/2024
+ms.date: 08/07/2024
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -34,11 +34,14 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 * Have the following attributes uploaded as part of your organizational data:
 
-  * **OnsiteDays**, an attribute identifying the number of days someone works onsite. This could be based on behavioral data such as badge data or Wi-Fi data, or other sources such as a tag in the HR system identifying the number of days an employee intends to work onsite. You might get this data in one of two ways—through a weekly update of onsite days or by using a monthly update of onsite days to calculate the weekly number:
-    * If an employee’s number of onsite days is available on a weekly basis (that is, values are between 0 and 5), make sure to include a row with an **EffectiveDate** and **OnsiteDays** value per person per week in your organizational data. You can choose the frequency with which you like to update this data—weekly or monthly.
+  * **WeeklyBadgeOnsiteDays**, an attribute identifying the number of days someone works onsite. This could be based on behavioral data such as badge data or Wi-Fi data, or other sources such as a tag in the HR system identifying the number of days an employee intends to work onsite. You might get this data in one of two ways—through a weekly update of onsite days or by using a monthly update of onsite days to calculate the weekly number:
+    * If an employee’s number of onsite days is available on a weekly basis (that is, values are between 0 and 5), make sure to include a row with an **EffectiveDate** and **WeeklyBadgeOnsiteDays** value per person per week in your organizational data. You can choose the frequency with which you like to update this data—weekly or monthly.
     * If you’re using an employee’s number of onsite days per month, you can upload the monthly number of onsite days in Viva Insights on a monthly basis.
   * **SupervisorIndicator**, an attribute indicating whether someone is a manager.
   * **HireDate**, an attribute indicating the person’s hire date is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the report will still load.
+
+> [!NOTE]
+> The “OnsiteDays” field is now “WeeklyBadgeOnsiteDays." The values of the "OnsiteDays" field have been copied to a new reserved optional field called "WeeklyBadgeOnsiteDays," and the old "OnsiteDays" is a custom column. The valid values you previously uploaded are present both in "WeeklyBadgeOnsiteDays" and "OnsiteDays."
 
 For more details on organizational data preparation and upload, download our [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2205161).
 
@@ -77,6 +80,14 @@ You can add new attributes to your organizational data at any time. For more det
  1. Under **Select an attribute that indicates the employee’s engagement score**, you can optionally select an attribute that represents how engaged employees are. 
 1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
  1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
+
+> [!NOTE]
+> If you’re setting up a new Hybrid workforce experience (manual) PBI, this PBI now uses WeeklyBadgeOnsiteDays. Therefore, you must upload badge data into the WeeklyBadgeOnsiteDays column during the HR upload.
+>
+> For recurring Hybrid workforce experience (manual) PBI queries previously set up, they'll continue to use the OnsiteDays attribute and they won't fail. However, you should still set up a new recurring query and upload badge data into the WeeklyBadgeOnsiteDays column.
+>
+> For Recurring Custom Person queries that use the OnsiteDays attribute, they won't fail either. Still, you should recreate these queries to use the new WeeklyBadgeOnsiteDays attribute.
+
 
 ### Link report to query
 
@@ -129,10 +140,10 @@ This section:
 
 **Does the distribution of employees by work mode meet expectations and is there a potential disconnect between management and individual contributors?**
 
-View the percent of employees by work mode (that is, Mostly onsite, Hybrid, Mostly remote, or Unclassified*) according to the latest week of data, split out by group. You can also discover whether there's a potential disconnect between the share of managers and individual contributors working Mostly onsite, Hybrid, or Mostly remote. In case the **OnsiteDays** data is updated periodically, the **Explore the trends** button allows you to review the trend of percent of employees tagged as “Mostly onsite,” “Hybrid,” “Mostly remote,” and “Unclassified.”
+View the percent of employees by work mode (that is, Mostly onsite, Hybrid, Mostly remote, or Unclassified*) according to the latest week of data, split out by group. You can also discover whether there's a potential disconnect between the share of managers and individual contributors working Mostly onsite, Hybrid, or Mostly remote. In case the **WeeklyBadgeOnsiteDays** data is updated periodically, the **Explore the trends** button allows you to review the trend of percent of employees tagged as “Mostly onsite,” “Hybrid,” “Mostly remote,” and “Unclassified.”
 
 >[!Note]
->*If an employee is categorized as “Unclassified,” it means that there was no numerical **OnsiteDays** value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
+>*If an employee is categorized as “Unclassified,” it means that there was no numerical **WeeklyBadgeOnsiteDays** value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
 
 #### Collaboration habits
 
