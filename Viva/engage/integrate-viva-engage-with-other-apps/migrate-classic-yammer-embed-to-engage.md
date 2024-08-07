@@ -63,13 +63,14 @@ To determine if your site uses classic Embed Feed, examine your feed's code stru
 
 Follow these instructions to update your Embed feed experience. This process doesn’t affect Viva Engage data in any way.
 
-1. Open the HTML page where you've added the Embed feed.
+1. Open the file that contains your Viva Engage embed feed.
+1. Note any special configuration properties (such as, "footer:true").
 
-1. In a new browser tab, go to the [iFrame widget configuration site](https://engage.cloud.microsoft/embed/widget?domainRedirect=false) in Viva Engage.
+1. In a new browser tab, go to the [Embed widget configuration site](https://engage.cloud.microsoft/embed/widget?domainRedirect=false) in Viva Engage.
 
     :::image type="content" source="../../media/engage/admin/engage-embed-feed-ui.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
 
-1. From the left pane, select the type of feed you want to replace. Note the following changes from the classic version:
+1. From the left pane, select the type of feed you want to render in your new embed view. Note the following changes from the classic feed types:
 
     - **Home feed** replaces My feed.
     - **Community feed** replaces Group feed. For source, type the community name.
@@ -77,10 +78,11 @@ Follow these instructions to update your Embed feed experience. This process doe
     - **User feed** requires a user name associated with the feed.
     - **Web link feed** replaces Open Graph feed. Enter the source URL currently in use.
 
+1. If needed, customize the configuration with properties you noted in step 2.
 1. When you’re done, select **Get code**.
 
     The code for your iFrame widget appears on the main page.
 
 1. Select **Copy**.
 
-1. On the HTML page you opened in step 1, paste the iFrame code in the appropriate location to replace the JavaScript code for your previous classic Embed feed.
+1. In the HTML code file you opened in step 1, select your previous class Embed feed and paste the new iFrame code in its place.
