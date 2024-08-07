@@ -33,7 +33,7 @@ To determine if your site uses classic Embed Feed, examine your feed's code stru
 
 - If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following code example), it's using the classic Embed. Proceed to the next section to migrate your feed.
 
-- If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action required.
+- If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action is required.
 
     :::image type="content" source="../../media/engage/admin/embed-feed-classic-examples.png" alt-text="Screenshot shows code examples of a classic Embed feed compared to that of an Embed feed for Engage feed.":::
 
