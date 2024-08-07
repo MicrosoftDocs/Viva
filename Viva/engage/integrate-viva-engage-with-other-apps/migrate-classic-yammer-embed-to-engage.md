@@ -35,7 +35,7 @@ To determine if your site uses classic Embed Feed, examine your feed's code stru
 
 - If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action required.
 
-:::image type="content" source="../../media/engage/admin/embed-feed-classic-examples.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
+:::image type="content" source="../../media/engage/admin/embed-feed-classic-examples.png" alt-text="Screenshot shows code examples of a classic Embed feed compared to that of an Embed feed for Engage feed.":::
 
 ## Replace your classic Embed feed
 
