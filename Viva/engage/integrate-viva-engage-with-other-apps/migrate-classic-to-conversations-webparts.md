@@ -25,15 +25,17 @@ description: "Migrate feeds that use the classic Highlights web part to Viva Eng
 >[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.
 
-The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page. This functionality is available only for the online SharePoint experience available in Microsoft 365.
+The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page. 
 
-With the Conversations web part, you can:
+The Conversations web part is available only for the online SharePoint experience available in Microsoft 365. Learn more about [Viva Engage web parts](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
 
-- Add a feed from a community, user, or home page
-- Start a conversation with a topic
-- Interact with conversations (reply, react, mention, and so on)
+## Check if your using the classic web part
+ 
+1. Go to the SharePoint page that contains your Viva Engage feed and select **Edit** at the top of the page. 
+1. Select the Viva Engage web part and then select **Edit** to open the web part menu.
 
-Learn more about [Viva Engage web parts](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
+    - If the menu includes a note stating that you’re using the classic version of Viva Engage, proceed to the next section to migrate your feed.
+    - If the menu doesn't include a note, no action is required."
 
 ## Migrate classic Highlights web parts to the Conversations web part
 
@@ -41,7 +43,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
 1. **Open the existing classic feed on SharePoint**
 
-    1. Select **Edit** at the top of the page.
+    1. In SharePoint, select **Edit** at the top of the page.
     1. Select the classic Highlights web part that you want to replace and record the type of feed it's delivering to users (for example, user feed, community feed).
 
 
