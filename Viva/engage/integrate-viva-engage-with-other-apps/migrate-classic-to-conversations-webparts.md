@@ -42,17 +42,23 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 1. **Open the existing classic feed on SharePoint**
 
     1. Select **Edit** at the top of the page
-    1. Select the classic Highlights web part that you're replacing and record the type of feed it's delivering to users (for example, user feed, community feed).
+    1. Select the classic Highlights web part that you're replacing and record the type of feed it's delivering to users (for example, user feed, community feed). 
+
+        :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows the title region and plus sign where you can access the web part menu on a modern SharePoint page.":::
+
+    1. In the pop-up menu, select the **Highlights** web part.
+
+
 
 2. **Create a new feed using the Conversations web part**
 
-    1. On the right, select **Use latest version**.
+    1. Hover above the classic Highlight web part where you want to create a new feed, and select the plus (+) icon.
 
-    :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the classic Highlights interface with an button to go to the newer Conversations interface.":::
+        :::image type="content" source="../../media/engage/admin/web-part-use-latest-version.png" alt-text="Screenshot shows the classic Highlights interface with an button to go to the newer Conversations interface.":::
 
-    1. Hover below the classic web part to open the web part menu to select **Conversations**.
+    1. In the web part menu, select **Conversations**.
 
-    :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
+        :::image type="content" source="../../media/engage/admin/hover-menu-conversations-web-part.png" alt-text="Screenshot shows the Conversations menu.":::
 
     1. Set up the Conversations web part to include settings you want to retain from your previous Highlights web part. Add new layout and background options from the panel on the right. For **Number of conversations to show**, select the number based on the allotted space you have for the feed.
 
