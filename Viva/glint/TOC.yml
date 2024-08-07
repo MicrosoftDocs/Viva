@@ -22,10 +22,10 @@ items:
         href: start/viva-glint-learning-paths-and-modules.md
       - name: Badge certifications
         href: start/viva-glint-badging.md
-      - name: Customer cohorts
-        href: start/customer-cohorts.md
       - name: Newsletter registration
         href: setup/newsletter-register.md
+      - name: Submit product feedback
+        href: setup/glint-product-feedback.md        
       - name: Contact support
         href: setup/contact-support.md        
       - name: Viva People Science research
@@ -59,21 +59,18 @@ items:
             href: setup/viva-glint-tenant-provision.md
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
-            items:
-              - name: Role definitions
-                href: start/role-definitions.md
+          - name: Role definitions
+            href: start/role-definitions.md
           - name: Licensing
             href: setup/glint-order-teams.md
           - name: Third party notice
             href: /legal/viva/glint/third-party-notice
       - name: Glint platform setup and planning
         items:
+          - name: Access Viva Glint
+            href: setup/access-glint.md
           - name: Set up your Glint platform
-            items:
-              - name: Access Viva Glint
-                href: setup/access-glint.md
-              - name: Set up your Glint platform
-                href: setup/setup-platform-admin.md
+            href: setup/setup-platform-admin.md       
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
           - name: Communication plans and templates
@@ -330,7 +327,7 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
-          - name: Manager reporting access when changing team or role
+          - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
@@ -404,8 +401,6 @@ items:
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
-          - name: Submit product feedback
-            href: setup/glint-product-feedback.md
   - name: Take action as a manager
     items:
       - name: The ACT framework and Team Conversations
@@ -428,7 +423,7 @@ items:
             href: ../insights/advanced/admin/import-survey-glint.md
           - name: Glint and organizational insights report (preview)
             href: ../insights/advanced/analyst/templates/glint.md
-          - name: Partitions (in Viva Insights)
+          - name: Partitions in Viva Insights
             href: ../insights/advanced/admin/partitions.md
   - name: Troubleshoot
     items:
