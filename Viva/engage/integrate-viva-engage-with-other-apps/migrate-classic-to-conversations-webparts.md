@@ -49,7 +49,7 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
 2. **Create a new feed using the Conversations web part**
 
-    1. Hover above the classic Highlight web part where you want to create a new feed, and select the plus (+) icon.
+    1. Hover above the classic Highlights web part where you want to create a new feed, and select the plus (+) icon.
 
         :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows how to access the web part menu.":::
 
@@ -61,13 +61,13 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
         :::image type="content" source="../../media/engage/admin/web-parts-old-and-new.png" alt-text="Screenshot shows the Conversations menu where you specify the feed type, source, and other options.":::
 
-    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the Classic Highlights web part displayed the Viva Engage home feed. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
+    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the classic Highlights web part displayed the Viva Engage home feed. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
 
-    - **Community** displays the most recent conversations posted in the selected community. Select this option if the Classic Highlights web part displayed a **group feed**, and enter the community name. Choose the appropriate filter for the conversations you want to display in the web part. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
+    - **Community** displays the most recent conversations posted in the selected community. Select this option if the classic Highlights web part displayed a **group feed**, and enter the community name. Choose the appropriate filter for the conversations you want to display in the web part. Turn off the publisher option if you don't want users in your organization to publish Engage posts from the web part.
 
-    - **User** displays the most recent conversations in which the user participated. If the Classic Highlights web part displayed a specific person’s user feed, select this option and enter the user name.
+    - **User** displays the most recent conversations in which the user participated. If the classic Highlights web part displayed a specific person’s user feed, select this option and enter the user name.
  
-    - **Topic** displays the most recent conversations tagged with this topic. Select this option if the Classic Highlights web part displays the feed for a topic, and enter the topic name.
+    - **Topic** displays the most recent conversations tagged with this topic. Select this option if the classic Highlights web part displays the feed for a topic, and enter the topic name.
 
 3. **Delete the old feed and publish the new one**
     1. Use the trash can icon at the top left edge of the feed to delete your previous classic feed.
