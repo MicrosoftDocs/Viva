@@ -23,12 +23,12 @@ The Questions page allows you to add or modify the items included in a survey. R
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
->[!IMPORTANT]
->The term "survey item" refers to any question or statement posed to a survey taker.
+> [!IMPORTANT]
+> The term "survey item" refers to any question or statement posed to a survey taker.
 
 ## Use Viva Glint's prepopulated survey templates
 
-Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that admins can customize. Prepopulated survey items are researched and substantiated by the Viva Glint People Science Team.
+Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that admins can customize. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers.":::
 
@@ -45,25 +45,25 @@ In the window that opens:
 
 When finished, select **Save Changes**.
 
-### Add a logo to the survey introdution
+### Add a logo to the survey introduction
 
 To add your organization's logo to the survey introduction:
 
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
 
-1. Go to **Configuration** and in the **Action Taking **section, select **Content Resrouces**.
+1. Go to **Configuration** and in the **Action Taking **section, select **Content Resources**.
 1. Select **+ New** to add a new resource and select **OK** in the languages message that appears.
 1. Add a new title in the **Untitled Resource** and **Title** fields.
-   1. Survey intro logos can be unique to each survey program, include the survey name in the title if needed.
+   1. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
 1. In the **Type** field, select **Image**.
 2. Optionally, add a **Description**.
 3. In the File field, select **Choose File** and browse to choose the image file on your device.
-4. When selected, a preview of the image appears on the right. If the image appears as expected, select **Save**.
+4. When selected, a preview of the image appears. If the image appears as expected, select **Save**.
 5. Select **Publish** in the top right of the screen and then select **Publish** again in the **Publish Resource** dialog that appears.
 6. On the **Resources** page, filter to Image in the left menu and copy the text of the recently added image name from the **Name** column.
-7. Replace "logoname" in this text with the exact name of your uploaded logo: `![logoname](logoname "logoname")`
-8. Copy and paste the `![logoname](logoname "logoname")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
+7. Replace "logo-name" in this text with the exact name of your uploaded logo: `![logo-name](logo-name "logo-name")`
+8. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
 9. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
 ## Edit survey items using the horizontal ellipses
@@ -83,7 +83,7 @@ The Edit Question slider window provides two tabs for setup:
 
 #### Question Configuration
 
-There is lots to do here! You may edit the following fields:
+You may edit the following fields:
 - Select a **Language** from languages prepopulated in the dropdown menu
 - See the **Question Type** - rating, multiple choice, open-ended
 - Assign a **Reporting Label** for easy identification of your item
@@ -95,10 +95,10 @@ There is lots to do here! You may edit the following fields:
 - Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
 - Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
 - View the **Rating Scale** for the item - 5 or 7 points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. If you would like to define values 2,3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
+- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
 - Decide whether to **Allow Comments** - Toggle to Yes or No
 - Decide whether this item can be an **Optional Question** - Toggle to Yes or No
-- Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help you manager act on feedback
+- Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help your managers act on feedback
 
 Select **Save Changes** when editing is complete.
 
@@ -128,7 +128,7 @@ Customize the 'Thank You!' message for the survey by hovering over the box and s
 - Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
 - Edit **Text** - You see dummy text in the **Text** box.
   - All dummy text can be edited.
-  - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, delete it.** 
+  - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
 
 When finished, select **Save Changes**.
 
