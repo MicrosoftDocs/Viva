@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 08/07/2024
 ---
 
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
@@ -41,7 +41,7 @@ To send data from Viva Glint surveys to Viva Insights, the survey data must meet
 To ensure that employee records between Viva Glint and Viva Insights are matched for this integration:
 
 - The employee's **Glint user email** must be added to their [Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425).
-- All **Glint user email domains** must be added to your [**tenant's MAC domain list**](/admin/m365-feature-descriptions).
+- All **Glint user email domains** must be added to your **tenant's MAC domain list**.
 - Optional, but recommended: Enable **Require Entra ID for links in survey emails** in General Settings from the Glint admin  dashboard.
 
 ## Set up the integration
