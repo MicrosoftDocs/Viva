@@ -29,7 +29,7 @@ The Viva Engage Conversations web part allows people to engage with each other o
 
 The Conversations web part is available only for the online SharePoint experience available in Microsoft 365. Learn more about [Viva Engage web parts](https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us).
 
-## Check if your using the classic web part
+## Which version are you using?
  
 1. Go to the SharePoint page that contains your Viva Engage feed and select **Edit** at the top of the page. 
 1. Select the Viva Engage web part and then select **Edit** to open the web part menu.

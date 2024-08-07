@@ -24,10 +24,10 @@ description: "Replace JavaScript-based Embed feeds (Classic Yammer) to interface
 
 **Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications with iFrame widgets. This modern experience replaces classic Embed feeds, which used a JavaScript API to render the embed view.
 
->[!NOTE] 
+>[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support classic Embed feeds. To avoid a broken feed experience, we recommend that you replace your classic Embed feeds as soon as possible using the following instructions.
 
-## Which version of feed are you using?
+## Which version are you using?
 
 To determine if your site uses classic Embed Feed, examine your feed's code structure:
 
