@@ -25,7 +25,7 @@ description: "Migrate feeds that use the classic Highlights web part to Viva Eng
 >[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.
 
-The Viva Engage Conversation web part allows people to engage with each other on modern SharePoint without leaving the page. This functionality is available only for the online SharePoint experience available in Microsoft 365.
+The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page. This functionality is available only for the online SharePoint experience available in Microsoft 365.
 
 With Conversations web parts, you can:
 
