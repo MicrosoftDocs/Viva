@@ -31,7 +31,7 @@ description: "Replace JavaScript-based Embed feeds (Classic Yammer) to interface
 
 To determine if your site uses classic Embed Feed, examine your feed's code structure:
 
-- If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following example for Classic Embed Feed), it's using the classic Embed. Proceed to the section to migrate to Embed Feed for Engage.
+- If your embed code uses a "yam" object (for example, "yam.connect.embedFeed" as in the following code example), it's using the classic Embed. Proceed to the next section to migrate your feed.
 
 - If your embed code starts with "iframe", it's already using Embed Feed for Engage. No action required.
 
