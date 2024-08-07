@@ -86,7 +86,7 @@ A minimum response threshold is the lowest number of responses a survey item mus
 
 Your organization can adjust the thresholds, either higher or lower, for each survey program, and these thresholds are noted to survey takers.
 
-Because at the beginning of a survey, the privacy statement informs whether the survey is confidential or identifiable and specifies its minimum response thresholds, once a program is launched, its minimum response thresholds can't be changed. *Changing or altering a minimum response threshold requires a new survey program.* The previous program with the original confidentiality threshold could, however, be drawn into reports for comparison against new results with the new threshold.
+At the beginning of a survey, the privacy statement informs the participants whether the survey is confidential or identifiable and specifies its minimum response thresholds. Once a program is launched, its minimum response thresholds can't be changed. *Changing or altering a minimum response threshold requires a new survey program.* The previous program with the original confidentiality threshold could, however, be drawn into reports for comparison against new results with the new threshold.
 
 > [!NOTE]
 > To be classified as a confidential survey, the minimum number of responses must be three (3) or higher. If the threshold is below three (3), the survey is identifiable.
