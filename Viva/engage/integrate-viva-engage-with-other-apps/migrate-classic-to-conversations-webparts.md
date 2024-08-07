@@ -27,7 +27,7 @@ description: "Migrate feeds that use the classic Highlights web part to Viva Eng
 
 The Viva Engage Conversations web part allows people to engage with each other on modern SharePoint without leaving the page. This functionality is available only for the online SharePoint experience available in Microsoft 365.
 
-With Conversations web parts, you can:
+With the Conversations web part, you can:
 
 - Add a feed from a community, user, or home page
 - Start a conversation with a topic
