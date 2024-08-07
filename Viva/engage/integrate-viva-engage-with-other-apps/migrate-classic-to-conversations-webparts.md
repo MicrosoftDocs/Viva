@@ -41,13 +41,8 @@ Use this procedure to migrate all instances of the classic Highlights web part i
 
 1. **Open the existing classic feed on SharePoint**
 
-    1. Select **Edit** at the top of the page
-    1. Select the classic Highlights web part that you're replacing and record the type of feed it's delivering to users (for example, user feed, community feed). 
-
-        :::image type="content" source="../../media/engage/admin/hover-for-web-part-menu.png" alt-text="Screenshot shows the title region and plus sign where you can access the web part menu on a modern SharePoint page.":::
-
-    1. In the pop-up menu, select the **Highlights** web part.
-
+    1. Select **Edit** at the top of the page.
+    1. Select the classic Highlights web part that you want to replace and record the type of feed it's delivering to users (for example, user feed, community feed).
 
 
 2. **Create a new feed using the Conversations web part**
