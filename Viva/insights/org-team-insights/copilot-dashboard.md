@@ -1,5 +1,5 @@
 ---
-ms.date: 8/06/2024
+ms.date: 8/08/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -497,8 +497,6 @@ Both the Microsoft Copilot dashboard and the admin center usage reports leverage
 
 Differences in the data are often caused by at least one of the following:
 
-* Users must be assigned a Viva Insights license to be measured in the Copilot dashboard. This prerequisite is not required for the admin center report, so the number of measured employees might be different.
-* The Copilot dashboard measures Copilot activities only for employees who have a Viva Insights license at the time the report is run. The admin center report, however, processes data for employees who had a Copilot license *at any point* during the reporting period.
 * The time frame for which the analysis is being applied may be different. Refer to the time frame provided on each report’s dashboard. The Copilot dashboard represents data over the previous 28 days. The admin center, however, uses a rolling window for its reports, for the last 7, 30, 90, or 180 days. There might also be differences in data delays. The admin center report is produced within 72 hours, while the Copilot dashboard might have an additional delay of one to two days.
 * Data in the Copilot dashboard is aggregated to meet a minimum privacy threshold.
 
