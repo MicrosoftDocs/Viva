@@ -36,7 +36,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
 
 ## Viva Engage Embed
 
- [Viva Engage Embed](/rest/api/yammer/embed-feed) delivers Viva Engage feeds to existing business applications, such as your intranet, CRM tools, or content management systems. 
+ [Viva Engage Embed](/rest/api/yammer/embed-feed) delivers Viva Engage feeds to existing business applications, such as your intranet, CRM tools, or content management systems.
 
 ## Viva Engage Connect
 
