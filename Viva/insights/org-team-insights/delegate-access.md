@@ -1,5 +1,5 @@
 ---
-ms.date: 07/29/2024
+ms.date: 08/08/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 # Delegate access to organizational insights and Copilot Dashboard
 
 >[!Note]
->The Copilot Dashboard Delegation feature is gradually rolling out to customers so it might not be available to everyone right away.
+>The Copilot Dashboard Delegation feature is gradually rolling out and will be available to all customers by the end of August.
 
 You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
 
