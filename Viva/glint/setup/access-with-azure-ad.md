@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2024
+ms.date: 08/08/2024
 ---
 
 # Access Viva Glint with Microsoft Entra ID
