@@ -35,7 +35,7 @@ The Conversations web part is available only for the online SharePoint experienc
 1. Select the Viva Engage web part and then select **Edit** to open the web part menu.
 
     - If the menu includes a note stating that you’re using the classic version of Viva Engage, proceed to the next section to migrate your feed.
-    - If the menu doesn't include a note, no action is required."
+    - If the menu doesn't include a note, no action is required.
 
 ## Migrate classic Highlights web parts to the Conversations web part
 
