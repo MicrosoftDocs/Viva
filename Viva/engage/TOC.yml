@@ -150,7 +150,7 @@
           href: eac-answers-faq.md
         - name: Import questions-and-answer pairs to communities 
           href: eac-answers-importer.md
-   - name: Integration with Microsoft apps
+   - name: Integrate with Microsoft apps
      items:   
       - name: Integrate Viva Engage with other applications
         href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
