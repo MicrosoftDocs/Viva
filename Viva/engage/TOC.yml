@@ -156,12 +156,12 @@
         href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
       - name: Viva Engage and Microsoft Defender
         href: /viva/engage/viva-engage-and-defender
-      - name: Social experience options in SharePoint enterprise
+      - name: Social experience options in SharePoint 
         href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-      - name: Add Viva Engage feed to a SharePoint page
+      - name: Add a feed to a SharePoint page
         href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
-      - name: Migrate classic feeds in SharePoint to the Conversations web part
+      - name: Migrate your classic feeds in SharePoint 
         href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-to-conversations-webparts
-      - name: Replace classic Embed feeds in HTML apps
+      - name: Migrate your classic Embed feeds in HTML apps
         href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-yammer-embed-to-engage
 
