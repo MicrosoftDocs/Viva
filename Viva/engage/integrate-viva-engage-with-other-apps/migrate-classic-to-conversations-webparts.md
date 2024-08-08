@@ -37,7 +37,7 @@ The Conversations web part is available only for the online SharePoint experienc
     - If the menu includes a note stating that you’re using the classic version of Viva Engage, proceed to the next section to migrate your feed.
     - If the menu doesn't include a note, no action is required.
 
-## Migrate classic Highlights web parts to the Conversations web part
+## Migrate a classic Highlights web part to the Conversations web part
 
 Use this procedure to migrate all instances of the classic Highlights web part in SharePoint pages that you own or have permissions to. The migration process doesn’t affect Viva Engage data in any way.
 
