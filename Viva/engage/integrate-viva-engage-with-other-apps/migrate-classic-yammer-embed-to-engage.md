@@ -22,10 +22,10 @@ description: "Replace Embed Feed for Yammer Classic to Embed Feed in Engage in y
 
 # Replace classic feeds with Embed Feed for Engage
 
-**Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications by using iFrame widgets. This modern experience replaces classic Embed feeds, which used a JavaScript API to render the embed view.
+**Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications by using iFrame widgets. This modern experience replaces classic Embed Feed, which used a JavaScript API to render the embed view.
 
 >[!NOTE]
->Starting January 31, 2025, Microsoft will retire and no longer support classic Embed feeds. To avoid a broken feed experience, we recommend that you replace your classic Embed feeds as soon as possible using the following instructions.
+>Starting January 31, 2025, Microsoft will retire and no longer support classic Embed Feed. To avoid a broken feed experience, we recommend that you replace your classic embed feeds as soon as possible using the following instructions.
 
 ## Which version are you using?
 
@@ -41,12 +41,12 @@ To determine if your site uses classic Embed Feed, examine your feed's code stru
 
 Follow these instructions to update your Embed feed experience. This process doesn’t affect Viva Engage data in any way.
 
-1. Open the file that contains your Viva Engage embed feed.
+1. Open the file that contains your embed feed.
 1. Note any special configuration properties (such as, "footer:true").
 
 1. In a new browser tab, go to the [Embed widget configuration site](https://engage.cloud.microsoft/embed/widget?domainRedirect=false) in Viva Engage.
 
-    :::image type="content" source="../../media/engage/admin/engage-embed-feed-ui.png" alt-text="Screenshot shows the Embed feed interface where you can use radio buttons to select the different types of feeds.":::
+    :::image type="content" source="../../media/engage/admin/engage-embed-feed-ui.png" alt-text="Screenshot shows the Embed Feed for Engage interface where you can use radio buttons to select the different types of feeds.":::
 
 1. From the left pane, select the type of feed you want to render in your new embed view. Note the following changes from the classic feed types:
 
