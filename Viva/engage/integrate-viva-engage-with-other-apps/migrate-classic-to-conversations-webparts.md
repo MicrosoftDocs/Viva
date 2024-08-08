@@ -20,7 +20,7 @@ ms.assetid: 4817d2fa-50f6-4f25-88a0-a312745768d4
 description: "Migrate feeds that use the classic Highlights web part to Viva Engage Conversations web parts on your modern SharePoint pages."
 ---
 
-# Migrate classic feeds on SharePoint to the Viva Engage Conversations web part
+# Migrate your classic feed on SharePoint to the Viva Engage Conversations web part
 
 >[!NOTE]
 >Starting January 31, 2025, Microsoft will retire and no longer support the classic Highlights web part for Viva Engage feeds in SharePoint. To avoid a broken feed experience, we recommend that you migrate to the Viva Engage Conversations web part as soon as possible using the instructions in this article.

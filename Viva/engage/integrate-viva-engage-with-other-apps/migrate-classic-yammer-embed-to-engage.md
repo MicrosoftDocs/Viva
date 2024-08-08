@@ -20,7 +20,7 @@ ms.assetid: 4817d2fa-50f6-4f25-88a0-a312745768d4
 description: "Replace Embed Feed for Yammer Classic to Embed Feed in Engage in your HTML-based applications."
 ---
 
-# Replace classic feeds with Embed Feed for Engage
+# Migrate your classic feeds with Embed Feed for Engage
 
 **Embed Feed for Engage** lets you add Viva Engage feeds to your HTML-based applications by using iFrame widgets. This modern experience replaces classic Embed Feed, which used a JavaScript API to render the embed view.
 
