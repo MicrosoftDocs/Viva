@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 07/23/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -48,7 +48,10 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 ## Begin your Viva Glint provisioning experience
 
-Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint&preserve-view=true).
+Choose the US or EU URL for Azure login to begin, based on the region of your tenant. The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location. If the central tenant location is outside the US or EU, the data for Viva Glint is stored in the US data center. **[Multi-Geo capabilities](/sharepoint/dev/scenario-guidance/multi-geo-capabilities) aren't currently supported for Viva Glint.**
+
+> [!IMPORTANT]
+> Organizations who use [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) to manage access to resources must ensure that the PIM enabled account used to provision Glint has Global Admin privileges with [Direct assignment](https://go.microsoft.com/fwlink/?linkid=2281307) access rights.
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
@@ -113,9 +116,9 @@ Control whether users in your organization can submit in-product feedback for Vi
 - [Manage Microsoft feedback for your organization](/microsoft-365/admin/manage/manage-feedback-ms-org)
 - [Overview of Cloud Policy service for Microsoft 365](/deployoffice/admincenter/overview-cloud-policy)
   
-## Use Microsoft FastTrack for more support 
+## Use Microsoft FastTrack for deployment support 
 
-Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
+Microsoft FastTrack can provide help with deployment of Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
 
 - [Check your eligibility](/microsoft-365/fasttrack/eligibility) for Microsoft FastTrack support.
 - If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).

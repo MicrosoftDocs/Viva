@@ -1,7 +1,6 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/19/2023
-title: Viva Insights with Glint report
+ms.date: 08/5/2024
+title: Glint and organizational insights report 
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: zachminers
 ms.author: v-zachminers
@@ -15,37 +14,47 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Glint with Viva Insights report
+# Glint and organizational insights report (preview)
 
-*Applies to: private preview customers only*
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-The **Viva Insights with Glint** shows how Glint survey questions and Viva Insights metrics are related. 
+> [!NOTE]
+> There is currently a limitation that might result in fewer sentiment records sent from Viva Glint to Viva Insights. A resolution is in progress. This limitation does not impact the ability to generate the **Glint and organizational insights** report.
+>
+> We understand the importance of these records for your insights and reporting, and we appreciate your patience as we address this matter.
+
+The **Glint and organizational insights** report lets you explore the relationship between behaviors measured in Viva Insights and Viva Glint survey responses, to better understand employee sentiment at your company.  
 
 With this report, you can:
 
-* Investigate how employee sentiment and behavioral collaboration patterns might be correlated.
-* Visualize trends for behavioral data.
-* Average behavioral metrics, which are broken down by sentiment favorability.
+* Investigate how employee sentiment and organizational collaboration patterns might be correlated.
+* Visualize trends for organizational data.
+* Average organizational metrics, which are broken down by sentiment favorability. 
 
-Before we get started, here are a few things you should know:
+Before we get started, you should know:
 
-* Your survey data will import from Glint to Viva Insights through an API. Your admin needs to set up this connection. 
-* For this private preview, the report is only available in English.
-
-To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Viva Insights with Glint** query in Viva Insights.
+* Your survey data imports from Glint to Viva Insights through an API. [Your admin needs to set up this connection](..//../admin/import-survey-glint.md).
+* To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Glint and organizational** query in Viva Insights. 
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
 > [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGM3NmEyYTAtMjlmNC00ZDg0LTkyYTItYmVmNjM3OGVlYzE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
-[!INCLUDE [Prerequisites](includes/prerequisites.md)]
+### Prerequisites 
+
+Before you can run the queries and populate the report in Power BI, you’ll need to:
+
+* Be assigned the role of **Insights Analyst** in Viva Insights.
+* Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version.
+* [Turn on the Glint data in the partition to which you’re assigned](..//../admin/partitions.md#how-to-create-a-partition-and-assign-analysts-access).
 
 ## Report setup
 
 ### Run query
 
 1.	In the Viva Insights analyst experience, select **Analysis**.
-2.	Under Power BI templates, navigate to **Viva Insights with Glint** and select **Start analysis**. 
+2.	Under Power BI templates, navigate to **Glint and organizational insights** and select **Start analysis**. 
 [!INCLUDE [Setup steps](includes/setup-steps-glint.md)]
 
 ## Report settings
@@ -56,13 +65,11 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 |Filter by| Select a category you want to filter your report by: <ul><li> Organization<li>One of the survey's questions 
 |Filter value|Filter by a value in the category you selected above. For example, if you selected "Organization" above, you could set "Engineering" here. You'll only see data from the Engineering organization, so setting filters lowers the **People included in this report** count.
 |Include| Choose whether you want this report to include: <ul><li>Weeks that people are probably out of office, like holiday weeks. These weeks have lower levels of collaboration than others. <li>Employees who collaborate fewer than hours per week. These employees are unlikely to be knowledge workers, or they don’t use Outlook or Teams.
-|Preferred report language|In later releases, you'll be able to pick your report’s language. For this private preview, the report is only available in English.
+|Preferred report language| We support the following languages: Chinese (Simplified); Chinese (Traditional); English; French; German; Italian; Japanese; Korean; Portuguese (Brazil); Russian; and Spanish.
 
 ### People included in this report 
 
-This figure shows how many people your report is analyzing. When you adjust your filters, you'll notice different numbers here.
-
-To protect privacy, this report doesn't show groups with fewer than ten people. Learn more about minimum group size in our [setup documentation](../../setup-maint/setup.md#minimum-group-size).
+To protect privacy, this report doesn't show groups with fewer than the larger of these two numbers: the minimum group size for Viva Insights; or the minimum group size for Viva Glint.
 
 ## About the report
 
@@ -77,7 +84,7 @@ Throughout this report, correlations indicate whether change in a survey respons
 
 In other words, if data for certain metrics change, would Glint scores reflect that change? For example, if employees received fewer manager coaching 1:1 hours, would they rate their relationship with their managers differently when they took a Glint survey? The answer might be "yes" if a metric and a survey question have a high correlation. 
 
-Understanding these relationships can help you better contextualize your Viva Insights metric data, and also understand how these numbers are affecting your organization's employees. 
+Understanding these relationships can help you better contextualize your Viva Insights metric data, and also understand how these numbers are affecting your organization's employees.
 
 #### How we calculate correlations and determine relationships
 
@@ -105,12 +112,14 @@ If a survey question and metric have **no relationship**, the correlation is bet
 
 The Overview page has two main sections: **Summary** and **Questions with strong relationship**.
 
+:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page." lightbox="../../images/glint-pbi-overview-page.png":::
+
 #### Summary
 
-Get an overview about the survey you're analyzing:
+See an overview about the survey you're analyzing:
 
-* Name
-* When it was opened and closed
+* Survey name
+* When the survey opened and closed
 * How many questions it has
 * When correlation with Viva Insights data took place (that is, 90 days before and after the survey close date). 
 
@@ -118,12 +127,12 @@ Get an overview about the survey you're analyzing:
 
 View the four survey questions with the strongest relationships to Viva Insights metrics. These questions and metrics are presented on cards that contain this information:
 
-* Glint survey score for the question, averaged from all respondents 
+* Glint survey score for the question averaged from all respondents 
 * Question text
 * Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
 * Name of the related Viva Insights metric
 
-![card](../../images/analyst-pbi-glint-sample-card-diagram-2.png)
+:::image type="content" alt-text="card" source="../../images/analyst-pbi-glint-sample-card-diagram-2.png" lightbox="../../images/analyst-pbi-glint-sample-card-diagram-2.png":::
 
 ### Explore survey and metric relationships
 
@@ -131,18 +140,19 @@ Select a survey question, pair it with a Viva Insights metric, and explore the r
 dive deeper, add the **View report by**, **Filter by**, and/or **Filter value** to see how this relationship changes for 
 different populations. Refer to [Report settings](#report-settings) to learn more about these controls.
 
+:::image type="content" source="../../images/glint-pbi-survey-metric-relationships.png" alt-text="Screenshot that shows the survey and metric relationships page." lightbox="../../images/glint-pbi-survey-metric-relationships.png":::
+
 #### Question and metric relationship
 
-View the average score for the **Survey question** you selected. The graph below the score card shows how strongly the survey question is connected to the **Behavior metric** you selected. In addition to showing the correlation coefficient and the kind of relationship, the graph represents the distribution of survey scores for your selected question.
+View the average score for the **Survey question** you selected. The graph below the score card shows how strongly the survey question is connected to the organizational metric you selected. In addition to showing the correlation coefficient and the kind of relationship, the graph represents the distribution of survey scores for your selected question.
 
-#### Behavior metric averages
+#### Organizational metric averages
 
-View Viva Insights data for the **Behavior metric** you selected, before and after the survey period. For example, if you selected "Meeting and call hours with manager 1:1" as your metric, the area chart would show you how many hours employees were spending on average with their managers before the survey took place, at the time of the survey, and after the survey closed.
+View Viva Insights data for the organizational metric you selected, before and after the survey period. For example, if you selected "Meeting and call hours with manager 1:1" as your metric, the area chart would show you how many hours employees were spending on average with their managers before the survey took place, at the time of the survey, and after the survey closed.
 
 #### Question response sentiments
 
-Compare data for your selected metric with how favorably respondents answered your selected survey question. For example, if you picked "Uninterrupted hours" as your metric and "I feel supported to work in the way that is best for me in terms of when and where I work" as your survey question,
-the graph would show you the average uninterrupted hours by those who responded favorably, unfavorably, and neutrally. Select **Open chart breakdown** to view the total number of responses, and three separate graphs: metric data for those who responded favorably, unfavorably, and neutrally. 
+Compare data for your selected metric with how favorably respondents answered your selected survey question. For example, if you picked "Uninterrupted hours" as your metric and "I feel supported to work in the way that is best for me in terms of when and where I work" as your survey question, the graph would show you the average uninterrupted hours by those who responded favorably, unfavorably, and neutrally. Select **Open chart breakdown** to view the total number of responses, and three separate graphs: metric data for those who responded favorably, unfavorably, and neutrally.
 
 ### Glossary
 
@@ -159,7 +169,7 @@ The Power BI report supports a subset of Viva Insights metrics per Glint survey 
 |Wellbeing|<ul><li>After-hours collaboration hours<li>Uninterrupted hours<li>Active connected hours<li>Meeting hours<li>Meetings<li>Collaboration span<li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate
 |Connection|<ul><li>Internal network size<li>Diverse ties<li>Strong ties<li>Collaboration hours<li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>Meeting hours
 |Engagement|<ul><li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>Internal network size<li>Strong ties<li>Diverse ties<li>Multitasking hours
-|Growth|No related Viva Insights metric available
+|Custom questions|<ul><li>After-hours collaboration hours<li>Uninterrupted hours<li>Active connected hours<li>Meeting hours<li>Meetings<li>Collaboration span<li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>Internal network size<li>Strong ties<li>Diverse ties<li>Collaboration hours<li>Multitasking hours
 |Purpose|No related Viva Insights metric available
 
 

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 08/03/2023
+ms.date: 07/24/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -14,15 +14,20 @@ ms.collection:
   - m365initiative-viva-learning
   - Tier1
 ms.localizationpriority: medium
-description: Configure SAP SuccessFactors as a learning content source for Microsoft Viva Learning.
+description: An earlier version of the document for Configuring SAP SuccessFactors as a learning content source for Microsoft Viva Learning for customers who have already onboarded.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Add SAP SuccessFactors as a content source
 
-This article shows you how to configure SAP SuccessFactors as a third-party Learning Management System for Microsoft Viva Learning. First, you need to perform steps of onboarding in Admin tab under Viva Learning and then in SuccessFactors Portal.
+This article shows you how to configure SAP SuccessFactors as a third-party Learning Management System for Microsoft Viva Learning. This involves onboarding in the Admin tab under Viva Learning and then in SuccessFactors Portal.
+
 
 > [!NOTE]
-> Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
+> This article outlines an earlier experience for customers who have already added SuccessFactors as a content source. If you are a customer who is integrating Viva Learning with SuccessFactors for the first time, refer to our [**updated documentation**](/viva/learning/successfactors-integration-add-as-content-source).
+
+
+Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
 
 ## Prerequisites
 
@@ -44,7 +49,7 @@ There are two major integration stages for which admins require specific permiss
 
 3. Select **Add Provider**.  
 
-    ![Screenshot of the **Manage providers** dashboard with the list of configured privders and the option to add a provider](../media/learning/sfsf-onboarding-0.png)
+    ![Screenshot of the **Manage providers** dashboard with the list of configured providers and the option to add a provider.](../media/learning/sfsf-onboarding-0.png)
 
 4. Select **SAP SuccessFactors** from the Provider list and select **Next**.
 
@@ -52,7 +57,7 @@ There are two major integration stages for which admins require specific permiss
 
 5. Enter the following details to generate PGP keys:
     - Name (Key owner name)
-    - Email id (Key Owner email id)
+    - Email ID (Key Owner email ID)
     - Key Passphrase (Password)  
 
     ![Screenshot of the Create PGP keys screen requesting information on name, email id, and key passphrase.](../media/learning/sfsf-onboarding-2.png)
@@ -209,3 +214,6 @@ The following table lists error codes and messages, when they're displayed, and 
 |USR_ERROR_SF_COMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the compressed package size exceeded 2 GB.|Contact [Microsoft customer support](/viva/learning/help-support#) for more details.|
 |USR_ERROR_SF_UNCOMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the uncompressed package size exceeded 25 GB. |Contact Microsoft customer support for more details.|
 |PGP Keypair validation failed |Possible reasons for this failure - Incorrect values entered for fields - SF Public Key, SF Private Key, SF Private Key Pass Phrase. |Navigate to the **SuccessFactors Provider** and select **Edit** under **…** and **Renew Keys**. Copy the Partner configuration and paste it in the SuccessFactors Portal. Save the configuration. Create ticket with the SuccessFactors support team to generate new package|
+
+
+

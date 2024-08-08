@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/30/2024
+ms.date: 08/01/2024
 ---
 
 # Review allowed list information for Viva Glint
@@ -33,7 +33,7 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ### United States (US) and European Union (EU):
 
-- glint.microsoft.com - Survey Notifications
+- glint.microsoft.com and glint.mail.microsoft.com - Survey Notifications
 - microsoft.com - Microsoft Email Communications
 - email1.microsoft.com - Newsletter and Product Updates
 
@@ -43,7 +43,7 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ## Take other steps to ensure email delivery
 
-Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. Ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added as a trusted sender and that automatic image downloads from external senders are allowed.
+Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, Ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowed list and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
 
 If there are any **Spam gateways** on your exchange server, ensure that they're configured to successfully receive survey emails in bulk from Viva Glint without causing throttling, delays, or bounce backs.
 

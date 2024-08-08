@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2024
+ms.date: 08/01/2024
 ---
 
 # Viva Glint's Quarterly Engagement Survey template
@@ -27,7 +27,7 @@ We analyzed over 350 million employee survey responses collected since 2020 to d
 
 The result of our re-examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience (not only their work experience) and that best shape an environment for high engagement.
 
-## Viva Glint Quarterly Engagement Survey items
+## Quarterly Engagement Survey items
 
 Item Number|Item Name|Item Text|
 |--------|---------|--------|
@@ -59,15 +59,15 @@ Item Number|Item Name|Item Text|
 
 ## View and export the core survey driver items in-platform
 
-You can also view the core drivers in the Viva Glint platform when you create a new Quarterly Engagement survey. From your **admin dashboard**:
+You can view the core drivers in the platform when you create a new Quarterly Engagement survey. From your **admin dashboard**:
 
 1. Select **Survey Program**, then **+ New Program**, and then the **Quarterly Engagement card** and **Create Program**.
-2. In **Program Summary**, select **Questions** (can't be selected until the pages prior are configured).
+2. In *Program Summary*, select **Questions** (can't be selected until the pages prior are set up).
 3. The template items populate.
 
 ## Add items to your Quarterly Engagement survey using the Question Library
 
-Viva Glint’s research found several other items for customers to consider as important drivers of engagement, which can be added to any engagement survey. These items can be found by searching the item name in the Question Library and added to any survey you're setting up:
+There are other items to consider as important drivers of engagement and they can be added to any engagement survey. Search the item name in the Question Library and add to your Engagement survey:
 
 | **Item Text** | **Core Driver** |
 |:---|:---|
@@ -76,7 +76,7 @@ Viva Glint’s research found several other items for customers to consider as i
 | <COMPANY_NAME> delivers a great customer experience.| Customer Focus |
 | I understand how <COMPANY_NAME> plans to achieve its goals. | Strategy |
 | I have good career opportunities at <COMPANY_NAME>. | Career |
-| Diverse perspectives are valued at <COMPANY_NAME>. | Diversity |
+| Diverse perspectives are valued at <COMPANY_NAME>. | Inclusion |
 | Top leaders demonstrate a visible commitment to diversity.| Diversity Commitment |
 | I would recommend my manager to others. | Manager |
 | Overall, I am satisfied with how decisions are made at <COMPANY_NAME>.| Decision Making |

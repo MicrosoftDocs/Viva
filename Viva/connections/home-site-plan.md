@@ -95,7 +95,7 @@ Before you get started planning and building your SharePoint home site, review b
 
 - Align the branding on the SharePoint home site to the overall intranet brand where possible.
 - For organizations with many portals and resources, consider [making your SharePoint home site a hub site](/sharepoint/planning-hub-sites) to expand navigational options and easily sync permissions and branding across many sites.
-- Use a SharePoint home site template from the SharePoint look book called [The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to jump-start the design process.
+- Use a SharePoint home site template from the SharePoint look book called [The Landing](https://adoption.microsoft.com/sharepoint-look-book/) to jump-start the design process.
 
 ## Summary of how to get a SharePoint home site for your organization
 
@@ -123,6 +123,12 @@ A great SharePoint home site starts with a plan. Because your SharePoint home si
 ### Build your SharePoint home site
 
 When you've prepared a plan, you're ready to start creating the home site in SharePoint. Start with a communication site, and after you have the general layout finalized, create a [Viva Connections experience from your existing SharePoint home site](/viva/connections/set-up-admin-center#build-from-an-existing-intranet-portal) in the Viva Connections admin center.
+
+> [!NOTE]
+>
+> Starting **September 1, 2024**, the feed for Viva Connection web part and the video news link will be removed and unavailable for SharePoint site editors to add to their sites. On **November 5, 2024**, support for the feed for Viva Connections web part and video news links will end and no longer display content.
+>
+> Site owners are encouraged to use the [News](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_sitenews), [Viva Engage](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da#highlights), [File and Media](/stream/streamnew/portals-single-video), and [Highlighted content](/stream/streamnew/portals-set-of-videos) web parts, and [Video pages](https://support.microsoft.com/office/7823449f-e2cc-48d2-bda7-2ee82518958a) as alternatives to using the feed for Viva Connections web part and the video news link. For more information, refer to the [Viva Connections Feed web part retirement support guidance documentation](feed-web-part-video-news-link-retirement.md).
 
 |  Icon                 | Action        | Get started           |
 | :------------------: | :------------------: |:----------------|
@@ -170,6 +176,6 @@ Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/micro
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
-Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book
+Use and customize the [The Landing template](https://adoption.microsoft.com/sharepoint-look-book/) from the SharePoint look book
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)

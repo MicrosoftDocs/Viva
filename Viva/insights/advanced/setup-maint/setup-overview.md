@@ -18,8 +18,6 @@ audience: Admin
 
 This setup checklist, along with related articles, helps coordinate tasks between the Microsoft 365 global admin, Exchange Online admin, Privileged Role Administrator, Insights Administrator, and the Teams Service Administrator to get Viva Insights rolled out in your organization. After completing all tasks below, you'll have Viva Insights set up for end users, managers and leaders, and admins and analysts.
 
-:::image type="content" source="../images/setup-flow.png" alt-text="Image alt text." lightbox="../images/setup-flow.png":::
-
 >[!Note]
 >This checklist helps admins set up *all* of Viva Insights, including premium and core features. If you just want to set up core features, refer to the [Deployment guide for personal insights](../../personal/setup/deployment-guide.md), [Configure personal insights defaults](configure-personal-insights.md), and [Configure Teams app settings](teams-admin-setup.md).
 
@@ -28,8 +26,8 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 >[!div class="checklist"]
 >
->* Assign Viva Suite/Insights licenses (Microsoft 365 global admin or Exchange admin)
->* Assign admin and analyst roles (Microsoft 365 global admin or Privileged Role Administrator)
+>* Assign Viva Suite/Insights licenses (Exchange admin)
+>* Assign admin and analyst roles (Privileged Role Administrator)
 >* Assign manager and leader permissions (Insights Administrator)
 >* Optional – Manage Viva Insights app defaults (Microsoft 365 admin)
 >* Optional – Set up and deploy the Teams app (Teams Service Administrator)

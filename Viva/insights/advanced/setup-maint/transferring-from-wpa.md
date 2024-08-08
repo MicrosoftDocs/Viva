@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 07/05/2024
 title: Transferring from Workplace Analytics to the advanced insights app
 description: Learn about difference in settings between Workplace Analytics and the advanced insights app
 author: zachminers
@@ -41,7 +41,7 @@ As you make your transition from Workplace Analytics, our legacy analyst platfor
 Here’s how roles have changed between Workplace Analytics and the advanced insights app. Notice that the Analyst (Limited Access), Program Manager, and Workplace Analytics admin roles have been retired.
 
 >[!Important]
-> The new advanced insights platform recognizes users who were assigned the analyst or administrator roles on Workplace Analytics. However, it’s highly recommended to assign these users current roles through the advanced insights platform. New roles offer better security and privacy management. Learn how to assign new roles in [Assign roles](assign-user-roles.md).
+> The new advanced insights platform recognizes users who were assigned the analyst or administrator roles on Workplace Analytics. However, it’s highly recommended to assign these users *current* roles through the advanced insights platform. New roles offer better security and privacy management. Learn how to assign new roles in [Assign roles](assign-user-roles.md). Once you assign the new roles, you can remove the old roles.
 >
 >If your organization uses Privileged Identity Management (PIM), you’ll need to assign roles through Microsoft Entra PIM.
 
