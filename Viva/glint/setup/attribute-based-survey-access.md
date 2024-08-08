@@ -42,7 +42,7 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
    > Complete attribute setup and employee data upload prior to selection for attributes to be available.
 7. Edit the **Placeholder text** that displays under each selected attribute.
 
-   :::image type="content" source="../../media/glint/setup/attribute-based-access-setup.png" alt-text="Screenshot of the attribute-based survey access setup pane in General Settings.”:::
+   :::image type="content" source="../../media/glint/setup/attribute-based-access-setup.png" alt-text="Screenshot of the attribute-based survey access setup pane in General Settings.":::
    
 9. Confirm your edits in the **Preview** at the bottom of the pane.
 10. At the top of the pane, select **Save**.
@@ -87,12 +87,12 @@ To add translations for your organization's survey languages, use the dropdown m
 10. In the dialog that appears, drag and drop your .zip file or browse to choose it on your device.
 11. In the **Confirm your languages** dialog, verify that the listed languages match the files you imported. If something isn't correct, use the language dropdown next to a file to change the language.
 
-    :::image type="content" source="../../media/glint/setup/product-text-confirm-langs.png" alt-text="Screenshot of the variables and product text import dialog that prompts users to confirm languages.”:::
+    :::image type="content" source="../../media/glint/setup/product-text-confirm-langs.png" alt-text="Screenshot of the variables and product text import dialog that prompts users to confirm languages.":::
     
 13. Select **Next**.
 14. In the **Import Product Text CSV or ZIP** dialog that appears, verify that the upload summary is correct and select **Make Changes**.
  
-    :::image type="content" source="../../media/glint/setup/product-text-summary.png" alt-text="Screenshot of the variables and product text import dialog that summarizes translation changes.”:::
+    :::image type="content" source="../../media/glint/setup/product-text-summary.png" alt-text="Screenshot of the variables and product text import dialog that summarizes translation changes.":::
     
 17. Return to the Attribute-based Survey Access setup section and select languages from the dropdown menu to confirm that updates applied.
 
@@ -103,7 +103,7 @@ To add translations for your organization's survey languages, use the dropdown m
 3. At the top of the page, select **Copy survey link,** and then **Copy** in the dialog.
 4. Optionally, use online tools to convert this link into a QR code or shortened link for easy participation on mobile devices.
 
-:::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.”:::
+:::image type="content" source="../../media/glint/setup/attribute-link.png" alt-text="Screenshot of the attribute-based access survey link dialog in a survey program.":::
 
 > [!NOTE]
 > If users become INACTIVE during a survey, they're still able to access surveys with attribute-based access.
