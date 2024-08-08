@@ -64,15 +64,15 @@ Use this procedure to migrate all instances of the classic Highlights web part i
     >[!NOTE]
     >For **Home** and **Community** feeds, turn off the publisher option if you don't want users in your organization to publish new Engage posts from the web part.
 
-    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the classic Highlights web part displayed the Viva Engage home feed. 
+    - **Home Feed** displays the most recent conversations that appear on the **Home** page in Viva Engage. Select this if the classic Highlights web part displays the Viva Engage home feed. 
 
     - **Community** displays the most recent conversations posted in the selected community. Select this option if the classic Highlights web part displayed a **group feed**, and enter the community name. Choose the appropriate filter for the conversations you want to display in the web part.
 
-    - **User** displays the most recent conversations in which the user participated. If the classic Highlights web part displayed a specific person’s user feed, select this option and enter the user name.
+    - **User** displays the most recent conversations in which the user participated. If the classic Highlights web part displays a specific person’s user feed, select this option and enter the user name.
  
     - **Topic** displays the most recent conversations tagged with this topic. Select this option if the classic Highlights web part displays the feed for a topic. Enter the topic name.
 
 3. **Delete the old feed and publish the new one**
-    1. Use the trash can icon at the top left edge of the feed to delete your previous classic feed.
+    1. To delete your previous classic feed, use the trash can icon at the top left edge of the feed.
 
     1. Select **Republish** on the top right corner to publish your changes.
