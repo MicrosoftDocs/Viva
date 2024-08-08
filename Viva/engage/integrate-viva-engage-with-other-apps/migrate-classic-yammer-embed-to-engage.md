@@ -63,4 +63,4 @@ Follow these instructions to update your Embed feed experience. This process doe
 
 1. Select **Copy**.
 
-1. In the HTML code file you opened in step 1, select your previous class Embed feed and paste the new iFrame code in its place.
+1. In the HTML code file you opened in step 1, select your previous classic embed feed and paste the new iFrame code in its place.
