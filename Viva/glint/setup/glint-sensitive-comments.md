@@ -26,7 +26,7 @@ Sensitive comment flagging in Microsoft Viva Glint surfaces comments in the admi
 
 ## Sensitive comment categories
 
-Flagged, sensitive comments fall into 3 categories:
+Flagged, sensitive comments fall into three categories:
 
 1. **Profanity:** Curse words and explicit language.
 1. **Personally identifiable information (PII):** Personally identifiable information, like names.
@@ -52,7 +52,7 @@ To enable sensitive comments:
 
 ## Manage sensitive comments as an admin
 
-With sensitive comment flagging enabled, admins see four additional categories in comments reporting: PII, Profanity, Sensitive, and Quarantined. **Redact All Terms** and **Un-Redact All** options are also available for redacting flagged words in bulk.
+With sensitive comment flagging enabled, admins see four categories in comments reporting: PII, Profanity, Sensitive, and Quarantined. **Redact All Terms** and **Un-Redact All** options are also available for redacting flagged words in bulk.
 
 ### Quarantine comments
 
@@ -65,7 +65,7 @@ Quarantined comments are hidden from non-admin users. To quarantine a flagged co
 
 ### Redact comments
 
-To replace PII and profanity in flagged comments with "#####", you can choose to redact in bulk or for specific comments.
+To replace PII and profanity in flagged comments with "#####," you can choose to redact in bulk or for specific comments.
 
 > [!NOTE]
 > Flagged keywords for comments in the **Sensitive** category can't be redacted.
