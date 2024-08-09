@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 07/31/2024
+ms.date: 08/6/2024
 title: Import organizational data with Azure blob import
 description: Learn how to import organizational data into Viva Insights through an Azure blob import.
 author: zachminers
@@ -292,7 +292,7 @@ Here are a few import-specific errors you might encounter if your files aren't f
 
 * The .json file in your .zip file is empty. Add a non-empty .json file and upload the .zip file again.
 
-* The content in the .json file isn't mapped to a supported data type. Map the content to a supported data type and upload the .zip file again.
+* The source column isn't mapped to a supported data type. Map to a supported data type and upload the file again.
 
 * The .json file is invalid. Please use a valid .json file and upload the .zip file again.
 
@@ -301,6 +301,8 @@ Here are a few import-specific errors you might encounter if your files aren't f
 * The number of headers in the .csv file doesn't match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
 
 * Your .csv file is mapped to a null or empty field in your .json file. Map it to a non-empty field and upload the .zip file again.
+
+* The .json file specifies a "DatasetType" that's not expected. Specify the correct value and upload the .zip file again.
 
 [Learn about other file rules and validation errors](./rules-validation-errors.md).
 

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2024
+ms.date: 08/08/2024
 ---
 
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
@@ -34,7 +34,15 @@ To send data from Viva Glint surveys to Viva Insights, the survey data must meet
 
 - **As a leader**, you may want to look across teams to see how different behaviors impact engagement levels and different engagement drivers. Use the Glint Heatmap report to see how different Viva Insights metrics- like collaboration hours or network size - impact engagement. You can see which teams are doing well for engagement and which teams might be struggling. Filter further in the employee comments by specific behaviors to understand what employees are saying about their experience. With this knowledge, you can work with specific teams in areas to improve productivity.  
 
-- **As an HR analyst**, you may want to better understand how your recent Viva Glint engagement survey relates to collaboration data from Viva Insights. Use the Glint with Viva Insights PowerBI template to see how engagement scores relate to behavior. Use the Overview tab in the PowerBI template to quickly highlight which behaviors have a strong relationship to different engagement drivers. Explore these relationships further by looking at specific Glint survey items and compare them to different behavioral metrics and teams. 
+- **As an HR analyst**, you may want to better understand how your recent Viva Glint engagement survey relates to collaboration data from Viva Insights. Use the Glint with Viva Insights PowerBI template to see how engagement scores relate to behavior. Use the Overview tab in the PowerBI template to quickly highlight which behaviors have a strong relationship to different engagement drivers. Explore these relationships further by looking at specific Glint survey items and compare them to different behavioral metrics and teams.
+
+## Prerequisites to the integration
+
+To ensure that employee records between Viva Glint and Viva Insights are matched for this integration:
+
+- The employee's **Glint user email** must be added to their [Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425).
+- All **Glint user email domains** must be added to your **tenant's MAC domain list**.
+- Optional, but highly recommended: Enable **Require Entra ID for links in survey emails** in General Settings from the Glint admin  dashboard.
 
 ## Set up the integration
 
@@ -48,7 +56,11 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 - Analyst: [Glint and organizational insights report](/../../viva/insights/advanced/analyst/templates/glint)
 
+## Download the playbook
 
+Audience: For HR leadership, HR business partners, people analytics specialists and others who analyze larger groups of employee data in your organization. 
+
+[The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how these can provide insight value for your organization. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. Drive meaningful action to support improved employee engagement!
  
 
  

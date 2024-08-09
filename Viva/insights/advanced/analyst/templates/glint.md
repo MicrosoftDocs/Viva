@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2024
+ms.date: 08/5/2024
 title: Glint and organizational insights report 
 description: Connect Glint and Viva Insights data to explore behaviors and take action
 author: zachminers
@@ -18,6 +18,11 @@ audience: Admin
 
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+
+> [!NOTE]
+> There is currently a limitation that might result in fewer sentiment records sent from Viva Glint to Viva Insights. A resolution is in progress. This limitation does not impact the ability to generate the **Glint and organizational insights** report.
+>
+> We understand the importance of these records for your insights and reporting, and we appreciate your patience as we address this matter.
 
 The **Glint and organizational insights** report lets you explore the relationship between behaviors measured in Viva Insights and Viva Glint survey responses, to better understand employee sentiment at your company.  
 
@@ -107,7 +112,7 @@ If a survey question and metric have **no relationship**, the correlation is bet
 
 The Overview page has two main sections: **Summary** and **Questions with strong relationship**.
 
-:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page.":::
+:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page." lightbox="../../images/glint-pbi-overview-page.png":::
 
 #### Summary
 
@@ -127,7 +132,7 @@ View the four survey questions with the strongest relationships to Viva Insights
 * Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
 * Name of the related Viva Insights metric
 
-![card](../../images/analyst-pbi-glint-sample-card-diagram-2.png)
+:::image type="content" alt-text="card" source="../../images/analyst-pbi-glint-sample-card-diagram-2.png" lightbox="../../images/analyst-pbi-glint-sample-card-diagram-2.png":::
 
 ### Explore survey and metric relationships
 
@@ -135,7 +140,7 @@ Select a survey question, pair it with a Viva Insights metric, and explore the r
 dive deeper, add the **View report by**, **Filter by**, and/or **Filter value** to see how this relationship changes for 
 different populations. Refer to [Report settings](#report-settings) to learn more about these controls.
 
-:::image type="content" source="../../images/glint-pbi-survey-metric-relationships.png" alt-text="Screenshot that shows the survey and metric relationships page.":::
+:::image type="content" source="../../images/glint-pbi-survey-metric-relationships.png" alt-text="Screenshot that shows the survey and metric relationships page." lightbox="../../images/glint-pbi-survey-metric-relationships.png":::
 
 #### Question and metric relationship
 
