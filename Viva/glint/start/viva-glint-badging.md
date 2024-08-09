@@ -39,7 +39,7 @@ Designed for Viva Glint admins, this badge is awarded to leaders who demonstrate
 1. **Complete the required training modules listed above.** Be sure you are logged into your profile while completing the modules.
 1. **Complete the *Statement of Completion* form.** At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Badge: Statement of Completion form. Complete this form to earn your Microsoft Viva Glint Foundations badge.
 1. **Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).**
-1. **Within <a href="#" style="color: blue; text-decoration: underline;">one week</a> of submitting your completion form, you receive a confirmation email from `admin@credly.com`.**
+1. Within **one week** of submitting your completion form, **you receive a confirmation email from `admin@credly.com`.**
 1. **Create a Credly account and accept your badge.** You need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://support.credly.com/hc/en-us/articles/360021222231-How-to-accept-and-manage-your-digital-badge).
 
 ## Microsoft Viva Glint Manager badge
@@ -59,7 +59,7 @@ Designed for managers in your organization, this badge is awarded to Viva Glint 
 1. **Complete the required training modules listed above.** Be sure you are logged into your profile while completing the modules.
 1. **Complete the *Statement of Completion* form.** At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Badge: Statement of Completion form. Complete this form to earn your Microsoft Viva Glint Foundations badge.
 1. **Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).**
-1. **Within <a href="#" style="color: blue; text-decoration: underline;">one week</a>  of submitting your completion form, you receive a confirmation email from `admin@credly.com'.**
+1. Within **one week**  of submitting your completion form, **you receive a confirmation email from `admin@credly.com'.**
 1. **Create a Credly account and accept your badge.** You need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://support.credly.com/hc/en-us/articles/360021222231-How-to-accept-and-manage-your-digital-badge).
 
 
