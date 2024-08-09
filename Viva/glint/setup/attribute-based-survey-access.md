@@ -78,7 +78,7 @@ To add translations for your organization's survey languages, use the dropdown m
    - PULSE_LOGIN_PAGE_FIELD_2
   
    > [!IMPORTANT]
-   > PULSE_LOGIN_PAGE_FIELD_1 corresponds to the first attribute listed in the Attribute-based Survey Access setup pane PULSE_LOGIN_PAGE_FIELD_1 corresponds to the second attribute listed. Ensure that translations are entered for the correct attribute.
+   > PULSE_LOGIN_PAGE_FIELD_1 corresponds to the first attribute listed in the Attribute-based Survey Access setup pane. PULSE_LOGIN_PAGE_FIELD_2 corresponds to the second attribute listed. Ensure that translations are entered for the correct attribute.
   
 6. After entering translations, save each file as .csv with the same naming convention as the exported files. For example: textSnippets_202408221_121422_es_US_Spanish (Americas).csv.
 7. After editing and saving all files, compress them into a .zip folder.
