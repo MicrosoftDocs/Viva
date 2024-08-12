@@ -1060,7 +1060,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "/Viva/insights/index.yml",
+            "source_path": "Viva/insights/index.yml",
             "redirect_url": "/viva/insights/introduction",
             "redirect_document_id": false
         }
