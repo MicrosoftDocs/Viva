@@ -27,6 +27,8 @@ As a Microsoft 365 global admin or Viva Insights admin, you can configure severa
 
 ### Manage access for individual users
 
+*Applies to: Microsoft 365 global admin*
+
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
