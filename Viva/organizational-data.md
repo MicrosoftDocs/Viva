@@ -1,4 +1,3 @@
-
 ---
 title: "Organizational Data in Microsoft 365"
 ms.reviewer: elizapo
