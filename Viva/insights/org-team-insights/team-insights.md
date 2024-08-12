@@ -94,7 +94,7 @@ To create healthy team norms, you and your team might consider using shared plan
 ### 1:1 time with direct reports
 
 >[!Note]
->This card provides insights regardless of your minimum group size setting, even if you only have one direct report. This card's insights are based on data from Microsoft Entra ID, and does *not* reflect data from any organizational data file uploads.
+>This card provides insights regardless of your minimum group size setting, even if you only have one direct report. This card's insights are based on data from Microsoft Entra ID, and do *not* reflect data from any organizational data file uploads.
 
 Learn when your last 1:1 was and when the next one is scheduled. You can also easily schedule 1:1 time if there isn’t an upcoming block.
 
