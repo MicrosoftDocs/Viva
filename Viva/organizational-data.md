@@ -1,10 +1,11 @@
+
 ---
 title: "Organizational Data in Microsoft 365"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 11/30/2023
+ms.date: 08/12/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -34,7 +35,7 @@ Microsoft 365 User Profile Data comes from two main sources: either Microsoft En
 
 ## Data attributes
 
-When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. To learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
+When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. Depending on which apps you're uploading data for, you might be asked to upload additional files. gTo learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
 
 You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true#relationships) schema.).
 
@@ -47,11 +48,13 @@ See [Attribute reference](#attribute-reference) for more details about the speci
 - Positions  
    - Detail 
       - **Microsoft_JobTitle** (jobTitle) 
+      - ***Microsoft_SecondaryJobTitle*** (secondaryJobTitle) - used for skills mapping
       - **Microsoft_JobDiscipline** (role) 
       - **Microsoft_LevelDesignation** (level) 
       - **Microsoft_Layer** (layer) 
          - Company 
             - **Microsoft_Company** (displayName) 
+            - **Microsoft_CompanyCode** (companyCode)
             - **Microsoft_Organization** (department) 
             - **Microsoft_CompanyOfficeLocation** (officeLocation) 
                - Address 
@@ -63,9 +66,12 @@ See [Attribute reference](#attribute-reference) for more details about the speci
                   - **Microsoft_CompanyOfficePostalCode** (postalCode) 
 - Manager 
    - **Microsoft_ManagerEmail** (userId) 
+- User Skills
+   - **Microsoft_UserSkillNames** 
 
 > [!IMPORTANT]
 > 1. In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used.
+> 2. If you use organizational data with Viva Insights, your data is merged. If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
 > 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
@@ -90,11 +96,10 @@ Before you upload organizational data, you need to do the following:
 ### Step 2 - Structure the organizational data
 Now that you have your .csv file starting point, add the organizational data that you want to use in Microsoft 365. Save the file to SharePoint.
 
-There are three types of attributes you can add in your organizational data file: required, reserved optional, and custom. Attributes can be in any order in the file. However, you can't use the names of required and reserved attributes as the names of any new custom attributes.
+There are two types of attributes you can add in your organizational data file: required and reserved optional. Attributes can be in any order in the file. However, you can't use the names of required and reserved attributes as the names of any new custom attributes.
 
 - **Required** - The only attribute required by default is email address.
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
-- **Custom** - Custom attributes are any other attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, see [Upload Organizational Data (first upload)](./insights/advanced/admin/upload-org-data-first.md).
 
 Use the MM/DD/YYYY format for all dates. All numerical fields need to be in the "number" format and can't contain commas or a dollar sign.
 
@@ -118,9 +123,17 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 For more information about attributes, see the [Attribute reference](#attribute-reference).
 
 ### Step 3 - Import your organizational data for the first time 
-After you create a .csv file with your data, the next steps are to save the data to SharePoint and then import it into Viva.
+After you create a .csv file with your data, the next step is to import the data, either from your local computer or from a SharePoint site.
 
-#### Upload the .csv file to SharePoint
+#### Upload the .csv file from your computer
+After you create the .csv file with your data, you can upload it directly from your local files.
+
+:::image type="content" source="media/orgdata-import-local.png" alt-text="A screenshot shows local import option. ":::
+
+#### Upload the .csv file from SharePoint
+First you need to upload the file from your local computer to a secure SharePoint location; then you import the data.
+
+##### Upload the file to SharePoint
 Use the following steps to upload your data to SharePoint. Make sure that your SharePoint site has the right permissions and that only those that should be able to access the data can access the site.
 
 1. Open the SharePoint site library.
@@ -141,10 +154,9 @@ Before you import the data into Viva, you need the path to the file on SharePoin
 > [!NOTE]
 > Be sure to follow these steps to get the path to the file. This is a different path than what's visible in the URL field of a browser when you view the .csv file in SharePoint.
 
-#### Import the data into Microsoft 365
+##### Import the data into Microsoft 365
 Now you're ready to import the data. 
 
-1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
 1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started**.
 3. On the **Import data from SharePoint** page, enter the SharePoint location where you saved your .csv file. (If you copied the location at the end of the upload step, paste it here.) 
 1. Confirm that you understand that the data you upload here may be processed by Viva and Microsoft 365, as well as non-Microsoft services that you've granted access to the data through Microsoft Graph. Select **Next**.
