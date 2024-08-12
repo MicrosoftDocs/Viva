@@ -233,7 +233,7 @@ When the tenant purchases Viva Insights licenses allocated to non-Copilot users,
 ### Create an exclusion list
 
 >[!Important]
->If you don’t create an exclusion list, *all* employees who have a Copilot license are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any users you exclude with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
+>If you don’t create an exclusion list, *all* employees who have a Copilot license are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
 
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.
