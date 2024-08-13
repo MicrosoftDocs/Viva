@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2024
+ms.date: 08/13/2024
 ---
 
 # Understand Viva Glint SFTP and data automation
