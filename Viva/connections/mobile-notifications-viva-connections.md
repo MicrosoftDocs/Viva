@@ -68,19 +68,27 @@ Authors can receive extra notifications when posts they publish are liked or com
 - A user 'likes' a SharePoint news page the author created.
 - A user comments on a SharePoint news page the author created.
 
-After an author receives a notification of either of these type, Viva Connections will batch additional notifications of the same type. After the first comment notification to a user, Comments are batched in 20-min intervals. After the first like to a user, likes are batched in 60-min intervals.  
+After an author receives a notification of either of these type, Viva Connections will batch additional notifications of the same type. After the first comment notification to a user, Comments are batched in 20-min intervals. After the first like to a user, likes are batched in 60-min intervals.
+
+## How can notifications be controlled?
+
+Viva Connections notifications follow the Microsoft Teams notification settings, including Quiet Hours settings.
+
+>[!NOTE]
+>
+> There is no organization-wide method for an administrator to control Viva Connections notifications.
+
+Users can control what notifications they want to see in the following ways:
+
+- On Teams desktop and web, specific notification types can be selectively enabled or disabled under **Settings** > **Notifications and activity** > **Viva Connections**. These settings are respected on Teams mobile as well.
+
+- On Teams mobile, notifications can't be selectively enabled or disabled, but users can toggle all push notifications (including Viva Connections) in the Teams mobile app under **Settings** > **Notifications** > **General Activity** > **Apps on Teams**. Notifications will still be visible under the Microsoft Teams activity feed.
 
 ## Frequently Asked Questions
 
 **What controls are there for notifications from Viva Connections?**
 
 Viva Connections notifications follow the Microsoft Teams notification settings, including Quiet Hours settings, and are only sent if users have the Viva Connections app installed.
-
-**Can I selectively enable or disable some of these notifications?**
-
-On **Teams desktop and web,** specific notification types can be selectively enabled or disabled under **Settings** > **Notifications and activity** > **Viva Connections**. These settings are respected on Teams mobile as well.
-
-On **Teams mobile**, notifications can't be selectively enabled or disabled, but users can toggle all push notifications (including Viva Connections) in the Teams mobile app under **Settings** > **Notifications** > **General Activity** > **Apps on Teams**. Notifications will still be visible under the Microsoft Teams activity feed. 
 
 **What defines ‘people I work with’?**
 
