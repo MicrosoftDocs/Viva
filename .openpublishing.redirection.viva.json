@@ -1058,6 +1058,11 @@
             "source_path": "viva/engage/eac-as-access-eac.md",
             "redirect_url": "/viva/engage/eac-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/index.yml",
+            "redirect_url": "/viva/insights/introduction",
+            "redirect_document_id": false
         }
     ]
 }
