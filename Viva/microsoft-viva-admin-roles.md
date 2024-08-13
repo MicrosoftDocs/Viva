@@ -22,7 +22,7 @@ search.appverid:
 description: "Learn about the admin roles for Microsoft Viva"
 ---
 # Admin roles and tasks in Microsoft Viva
-Microsoft Viva uses role-based authentication to manage access to the Viva apps. Each app has an admin role in Microsoft Entra ID, [assigned in the Microsoft 365 admin portal](/microsoft-365/admin/add-users/assign-admin-roles), which can assign addition additional roles for the management, tasks, and maintenance of each Viva app..
+Microsoft Viva uses role-based authentication to manage access to the Viva apps. Each app has an admin role in Microsoft Entra ID, [assigned in the Microsoft 365 admin portal](/microsoft-365/admin/add-users/assign-admin-roles), which can assign addition additional roles for the management, tasks, and maintenance of each Viva app.
 
 Admin options and permissions for each app rely heavily on the environments the apps are available in. For example, most Viva apps are accessed through Microsoft Teams and rely on the Microsoft Teams permissions structure.
 
