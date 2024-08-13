@@ -27,6 +27,8 @@ As a Microsoft 365 global admin or Viva Insights admin, you can configure severa
 
 ### Manage access for individual users
 
+*Applies to: Microsoft 365 global admins*
+
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
@@ -206,7 +208,7 @@ You can upload a list of users for cohort analysis in the [Microsoft 365 Admin C
 
     :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how to import new users from a csv file.":::
 
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and allows you to download a detailed report or fix the errors in the file. 
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
 
 6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload.
 
@@ -228,7 +230,7 @@ You can only upload non-Copilot users in the Microsoft 365 admin center. The lis
 
 **Scenario 4: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, but purchases licenses at any time in the future**
 
-When the tenant purchases Viva Insights licenses allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
+When the tenant purchases Viva Insights licenses that are allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
 
 ### Create an exclusion list
 
@@ -257,7 +259,7 @@ You can access this feature in the [Microsoft 365 Admin Center](https://admin.mi
 
     :::image type="content" source="../images/exclusion-list-02.png" alt-text="Screenshot that shows how to upload a csv file for the exclusion list.":::
 
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and allows you to download a detailed report or fix the errors in the file. 
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
 
 6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload. 
 
