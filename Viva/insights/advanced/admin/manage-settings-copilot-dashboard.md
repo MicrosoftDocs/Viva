@@ -1,5 +1,5 @@
 ---
-ms.date: 08/12/2024
+ms.date: 08/13/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -84,6 +84,8 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 ```
 ### Turn off dashboard auto-enablement with Powershell 
 
+*Applies to: Microsoft 365 global admins*
+
 This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. This control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies.  [Learn more about how to set these policies](/viva/feature-access-management).
 
 * **Default state**: Enabled, meaning that eligible users will be auto-enabled for access to the dashboard based on the identification criteria.
@@ -165,12 +167,14 @@ You can also upload aggregated survey responses to enable a summary view of Copi
 
 ### Set minimum group size 
 
+*Applies to: Microsoft 365 global admins and Viva Insights admins*
+
 >[!Note]
 >This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot dashboard.
 
 The dashboard’s adoption and impact pages provide user-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
-If your tenant does *not* have a Viva Insights license, use these steps to set the minimum group size:
+If your tenant does *not* have a Viva Insights license and you're a global admin, use these steps to set the minimum group size:
 
 1. In the [Microsoft 365 Admin Center](https://admin.microsoft.com), go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**. 
 
@@ -180,9 +184,11 @@ If your tenant does *not* have a Viva Insights license, use these steps to set t
 
     :::image type="content" source="../images/min-group-size-admin.png" alt-text="Screenshot that shows admins how to set the minimum group size.":::
 
-Or, if your tenant has a Viva Insights license, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
+Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
 
 ### Manage and upload non-Copilot users 
+
+*Applies to: Microsoft 365 global admins*
 
 >[!Note]
 >When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot dashboard.
@@ -233,6 +239,8 @@ You can only upload non-Copilot users in the Microsoft 365 admin center. The lis
 When the tenant purchases Viva Insights licenses that are allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
 
 ### Create an exclusion list
+
+*Applies to: Microsoft 365 global admins*
 
 >[!Important]
 >If you don’t create an exclusion list, *all* employees who have a Copilot license are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
