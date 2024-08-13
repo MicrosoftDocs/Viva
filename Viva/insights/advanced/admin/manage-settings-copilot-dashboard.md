@@ -252,9 +252,9 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.
 
-Your organization may want to exclude certain users from being included in the aggregated insights in the Microsoft Copilot Dashboard for various reasons, such as legal, compliance, or ethical concerns.
+Your organization might want to exclude certain users from being included in the aggregated insights in the Microsoft Copilot Dashboard for various reasons, such as legal, compliance, or ethical concerns.
 
-The user exclusion list feature lets Global admins honor these requests and allows Global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
+The user exclusion list feature lets global admins honor these requests and allows global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
 
 You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) using these steps: 
 
