@@ -95,3 +95,15 @@ The banner in the home feed shows up for all network admins and corporate commun
 **Will these features be available for other communities?**
 
 The ability to customize communities based on business objectives is being considered. Keep an eye on the public roadmap for more updates and dates.
+
+**Can I have more than one Copilot adoption community?**
+
+No, you can configure only one community using this new community type. For example, if you already created this new community type and instead want to apply the adoption features to an existing community, you must delete the first Copilot adoption community you created.
+
+**Can I use dynamic membership with the Copilot adoption community?**
+
+Yes, you can use dynamic membership with this community. However, the suggested members feature will no longer be available. Learn more about [dynamic membership here](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group).
+
+**Who can participate in the Copilot adoption community?**
+
+You can make this community public or private. If private, only members can access and engage with the community content. If public, all users can access, engage with, and discover the community content.
