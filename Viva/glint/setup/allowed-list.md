@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/01/2024
+ms.date: 08/13/2024
 ---
 
 # Review allowed list information for Viva Glint
@@ -25,7 +25,7 @@ An allowed list is a list of preapproved URL or email addresses that receive gua
 
 ## Manage your allowed list for Viva Glint
 
-Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
+Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.microsoft, add **glint.microsoft** to your allowed list.
 
 ## Add email sender domains
 
@@ -33,13 +33,13 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ### United States (US) and European Union (EU):
 
-- glint.microsoft.com and glint.mail.microsoft.com - Survey Notifications
+- glint.microsoft and glint.mail.microsoft - Survey Notifications
 - microsoft.com - Microsoft Email Communications
 - email1.microsoft.com - Newsletter and Product Updates
 
 ### Glint survey and system emails originate from:
 
-- US and EU: **no-reply@glint.microsoft.com** and **no-reply@glint.mail.microsoft**
+- US and EU: **no-reply@glint.microsoft** and **no-reply@glint.mail.microsoft**
 
 ## Take other steps to ensure email delivery
 
