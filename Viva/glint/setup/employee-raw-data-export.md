@@ -16,14 +16,14 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/14/2024
+ms.date: 08/12/2024
 ---
 
 # Access Viva Glint raw survey responses
 
 ## What are raw survey responses?
 
-In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey responses that are directly tied to a survey taker. By default, Microsoft 365 Global admins have access to raw survey responses and can export that data using admin controls. 
+In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey responses that are directly tied to a survey taker. By default, Viva Glint admins have access to raw survey responses and can export that data using admin controls. 
 
 > [!NOTE]
 > "Raw survey responses export" can also be referred to as "Raw data export."
@@ -55,16 +55,16 @@ Your organization may not want access to raw survey responses for every survey. 
 
 ## Admins can opt out of response exports
 
-By default, raw survey responses are available for each new program, but Microsoft 365 Global admins and Viva Glint admins can opt out of response exports. 
+By default, raw survey responses are available for each new program, but Viva Glint admins can opt out of response exports. 
 
 ### Procedure to opt of our response exports
-Opting out of response exports occurs within the *Confidentiality* section of *Program Setup*. Program Summary is accessible from the *Survey Programs* configuration page of the admin dashboard. 
+Opting out of response exports occurs within the **Confidentiality** section of *Program Setup*. Program Summary is accessible from the *Survey Programs* configuration page of the admin dashboard. 
 
-1. Select **Survey Programs** in the *Survey* section.
+1. Select **Survey Programs** in the **Survey** section.
 1. Select the survey and then **Program Setup** on the *Program Summary* page.
 
 >[!NOTE]
-> A program can't be in *Approved* status to enable this feature. As necessary, toggle *Approved* to **NO**. The default setting for *Enable Export of Raw Survey Responses* is **YES**. Toggle to NO to opt out of raw survey response export. [Read more about the confidentiality statement](https://go.microsoft.com/fwlink/?linkid=2238614).
+> A program can't be in **Approved** status to enable this feature. As necessary, toggle **Approved** to **NO**. The default setting for **Enable Export of Raw Survey Responses** is **YES**. Toggle to NO to opt out of raw survey response export. [Read more about the confidentiality statement](https://go.microsoft.com/fwlink/?linkid=2238614).
 
 To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint provides an alternative solution, allowing customers to fulfill DSR requests without accessing the requestors raw survey responses. Read on.
 
@@ -75,13 +75,13 @@ To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint
 
 ## Use the People feature to export responses
 
-As the admin, you can export raw survey responses from an individual's profile in the **People** feature within the *Employee* section of your admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker.
+As the admin, you can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section of your admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker.
 
 ### Procedure to export user data:
 
 1. Search for the user in the *Search People* label.
 1. On the user page, select **Send User Data** from the *Actions* dropdown menu.
-1. In the *Send User Data* slider, all attributes from your HRIS file are preselected.
+1. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
    1. Select **Clear All** and then select the attributes you want to export, or 
    1. Exclude attributes from the export by deselecting them.
 1.	Along with user attributes, in the slider window, there's the option to include raw survey responses. Enable this feature to include the user's responses to current surveys. Data can't be extracted during a live survey.
@@ -103,13 +103,13 @@ As the admin, you can export raw survey responses from an individual's profile i
 
 For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. 
 
-### Export raw response data for Recurring and Ad-Hoc surveys:
+### Export raw response data for Recurring and Ad Hoc surveys:
 
 1. Go to **configuration** and select **Survey Programs.**
 2. Select your survey program and go to the **Completed** cycles tab.
 3. On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
 4. In the export pane that appears:
-   1. Choose whether to include **Comments** and the **Survey Sent Date** in the *Export Options* section.
+   1. Choose whether to include **Comments** and the **Survey Sent Date** in the **Export Options** section.
    2. Select attributes that you want to include in the *Attributes* section.
    3. After making all selections, select **Export**.
 5. Your .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
@@ -120,9 +120,9 @@ For closed surveys where raw survey responses were enabled, admins can export ra
 2. Select your survey program and then the **Actions** menu.
 3. Choose **Export Raw Survey Responses.**
 4. In the export pane:
-   1. Select a Start Date and End Date in the *Date Range* section.
+   1. Select a Start Date and End Date in the **Date Range** section.
    2. Choose whether to include **Comments** and the **Survey Sent Date** in the *Export Options* section.
-   3. Select attributes that you want to include in the *Attributes* section.
+   3. Select attributes that you want to include in the **Attributes** section.
    4. After you make all selections, select **Export**.
 5. The .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
 
