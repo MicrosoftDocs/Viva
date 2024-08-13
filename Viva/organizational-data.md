@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/12/2024
+ms.date: 08/13/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -34,7 +34,7 @@ Microsoft 365 User Profile Data comes from two main sources: either Microsoft En
 
 ## Data attributes
 
-When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. Depending on which apps you're uploading data for, you might be asked to upload additional files. gTo learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
+When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. Based on specific requirements for applications that use this data (for example, the Copilot Dashboard), you might need to upload additional fields. To learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
 
 You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true#relationships) schema.).
 
@@ -69,8 +69,8 @@ See [Attribute reference](#attribute-reference) for more details about the speci
    - **Microsoft_UserSkillNames** 
 
 > [!IMPORTANT]
-> 1. In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used.
-> 2. If you use organizational data with Viva Insights, your data is merged. If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
+> 1. In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data preference for your tenant in [Data useage](#data-usage).
+> 2. If you upload organizational data through the Microsoft 365 admin center, that data is alos accessible to and used by Viva Insights (except for those excluded attributes listed in [Data uploaded from Viva Insights](#data-uploaded-from-viva-insights)). If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
 > 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
@@ -133,7 +133,7 @@ After you create the .csv file with your data, you can upload it directly from y
 First you need to upload the file from your local computer to a secure SharePoint location; then you import the data.
 
 ##### Upload the file to SharePoint
-Use the following steps to upload your data to SharePoint. Make sure that your SharePoint site has the right permissions and that only those that should be able to access the data can access the site.
+Use the following steps to upload your data to SharePoint. Make sure that your SharePoint site has the right permissions and that only those that should be able to access the data can access the site. You can upload a file up to 5 Gb in size. 
 
 1. Open the SharePoint site library.
 2. Select **Upload**, and then select **Files**.
@@ -142,7 +142,7 @@ Use the following steps to upload your data to SharePoint. Make sure that your S
 
 You can also use drag and drop to upload the file.
 
-Before you import the data into Viva, you need the path to the file on SharePoint, in this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv. Use the following steps to get the path to your file.
+Before you import the data into Viva, you need the path to the file on SharePoint, in this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv. Use the following steps to get the path to your file - the path isn't the same as the URL that you see in your browser when you view the file. 
 
 1. Select the ellipses (...) next to the file and then select **Details**.
    :::image type="content" source="media/sharepoint-path-ellipses.png" alt-text="A screenshot shows the ellipses option next to a file in a SharePoint library. "::: 
@@ -161,7 +161,7 @@ Now you're ready to import the data.
 1. Confirm that you understand that the data you upload here may be processed by Viva and Microsoft 365, as well as non-Microsoft services that you've granted access to the data through Microsoft Graph. Select **Next**.
 1. Review the details for your upload, and then select **Begin validation**.
 
-Your organizational data is validated against the requirements for use with Viva and Microsoft 365 services. This can take up to 24 hours. You can check the validation status on the **Organizational data** page in the admin center. When the validation is complete, you'll see a message that your data is in use and managed by Viva and Microsoft 365. 
+Your organizational data is validated against the requirements for use with Viva and Microsoft 365 services. Validation takes a few hours; however it can take up to three days for your complete data upload to be available in the profile store. You can check the validation status on the **Organizational data** page in the admin center. When the validation is complete, you see a message that your data is in use and managed by Viva and Microsoft 365. 
 
 Each end user's organizational data is stored in that end user's mailbox and respects the data residency rules for Exchange Online (as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true)).
 
@@ -178,13 +178,11 @@ To update or delete an end user's organizational data, create and upload a new .
 > [!NOTE]
 > If you use Excel to edit the .csv file, use three single quotes (''') instead of two ('')- Excel sees a single quote (') as the escape character.
 
-After the new organizational data is uploaded, the previous data for each affected end user is deleted with 30 days.
-
 ## Data usage, retention, and management information for Organizational Data in Microsoft 365
 Review the following information to understand how organizational data is used, stored, and deleted.
 
 ### Data uploaded from Viva Insights
-If your global admin consents to sharing data from Viva Insights with the Organizational Data in Microsoft 365 feature, the following data is shared:
+The data uploaded here is also used in Viva Insights and is mapped to these Viva Insights reserved fields:
 
 - PersonId
 - ManagerId
@@ -220,9 +218,9 @@ To ensure that the data in the Microsoft 365 User Profile remains up to date and
 Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](#attribute-reference). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
 
 ### Data deletion
-See [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. After the update is processed, the associated user data is deleted within 30 days.
+See [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
 
-When a Microsoft 365 license is removed from a tenant or when consent is removed from the Microsoft 365 admin center, all data artifacts are purged within 30 days.
+When a tenant is removed from Microsoft 365, all tenant data is purged within 30 days.
 
 ### Data retention
 Organizational data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
@@ -266,6 +264,10 @@ The following table provides more details about the Organizational Data in Micro
 |16|Microsoft_CompanyOfficeCountryOrRegion|The country or region. It's a free-format string value, for example, "United States". This is the publicly available company office country or region.|String|United States|
 |17|Microsoft_CompanyOfficePostalCode|The postal code. This is the publicly available company office postal code.|String|98004|
 |18|Microsoft_Company|Company name.|String|Contoso|
+|19|Microsoft_CompanyCode|[need details]|[need details]|[need details]|
+|20|Microsoft_SecondaryJobTitle|Secondary job title for the employee|String
+|Software engineer|
+|21|Microsoft_UserSkillNames|Skills the employee has, separated by commans. This value is used for Viva Skills inferencing, so it's important to make sure the field uploaded here is a field that you want to use to generate skills for your users.|String|Project management, organization|
 
 ## Attribute to property mapping
 The following table shows how Organizational Data in Microsoft 365 attributes map to properties in the Microsoft 365 User Profile schema.
