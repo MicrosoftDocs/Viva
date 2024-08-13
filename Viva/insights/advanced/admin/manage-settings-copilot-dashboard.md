@@ -68,6 +68,8 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
+*Applies to: Microsoft 365 global admins*
+
 You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
@@ -160,6 +162,8 @@ Below are the attributes used in the dashboard. The admin should use the exact s
 
 ### Upload aggregated survey results
 
+*Applies to: Microsoft 365 global admins*
+
 You can also upload aggregated survey responses to enable a summary view of Copilot sentiment for the entire company. [Learn how using these steps](/microsoft-365/admin/adoption/ai-assistance). If you use this upload method, filters and heat maps are *not* supported. Filters and heat maps are only available to customers with a Viva Insights license.
 
 >[!Note]
@@ -248,9 +252,9 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.
 
-Your organization may want to exclude certain employees’ collaboration data from being measured in the dashboard for various reasons, such as legal compliance or ethical concerns.  
+Your organization might want to exclude certain users from being included in the aggregated insights in the Microsoft Copilot Dashboard for various reasons, such as legal, compliance, or ethical concerns.
 
-The user exclusion list feature lets Global admins honor these requests and allows Global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
+The user exclusion list feature lets global admins honor these requests and allows global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
 
 You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) using these steps: 
 
