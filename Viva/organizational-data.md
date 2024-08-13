@@ -70,7 +70,7 @@ See [Attribute reference](#attribute-reference) for more details about the speci
 
 > [!IMPORTANT]
 > 1. In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data precedence for your tenant in [Data usage](#data-usage).
-> 2. If you upload organizational data through the Microsoft 365 admin center, that data is alos accessible to and used by Viva Insights (except for those excluded attributes listed in [Data uploaded from Viva Insights](#data-uploaded-from-viva-insights)). If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
+> 2. If you upload organizational data through the Microsoft 365 admin center, that data is also accessible to and used by Viva Insights (except for those excluded attributes listed in [Data uploaded from Viva Insights](#data-uploaded-from-viva-insights)). If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
 > 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
@@ -218,7 +218,7 @@ To ensure that the data in the Microsoft 365 User Profile remains up to date and
 Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](#attribute-reference). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
 
 ### Data deletion
-See [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
+See [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon as the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
 
 When a tenant is removed from Microsoft 365, all tenant data is purged within 30 days.
 
@@ -242,7 +242,7 @@ Use the following information to fulfill DSRs from end users:
 The following table provides more details about the Organizational Data in Microsoft 365 attributes.
 
 >[!NOTE]
-> Be aware that *Microsoft_LevelDesignation* and *Microsoft_Layer* attributes don't have corresponding properties in Microsoft Entra. Because of this, the only way to add these values to a Microsoft 365 User Profile is by using the Organizational Data in Microsoft 365 feature.
+> Be aware that **Microsoft_LevelDesignation** and **Microsoft_Layer** attributes don't have corresponding properties in Microsoft Entra. Because of this, the only way to add these values to a Microsoft 365 User Profile is by using the Organizational Data in Microsoft 365 feature.
 
 |#|Attribute|Description|Data type|Example|
 |-|-|-|-|-|
