@@ -43,9 +43,15 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ## Take other steps to ensure email delivery
 
-Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, Ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowed list and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
+### Logos and images
+
+Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowed list and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
+
+### Spam gateways
 
 If there are any **Spam gateways** on your exchange server, ensure that they're configured to successfully receive survey emails in bulk from Viva Glint without causing throttling, delays, or bounce backs.
+
+### Inbox filtering
 
 Some email providers have **special inboxes that automatically filter** mail of a certain type. Review your application or exchange server settings to ensure email from Viva Glint arrives in the primary inbox for employees.
 
@@ -79,8 +85,14 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 | api.eu1.glint.cloud.microsoft | 443 | Viva Glint unified login |
 | feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
-## Explore more allowed list information
+### Admin consent for the Viva Glint Community
+
+Your organization may need to take steps to allow users to post and reply to questions in user groups in the Viva Glint Community (techcommunity.microsoft.com). If users see a "Need admin approval" message when signing in, an IT administrator needs to grant the application access. [Learn more about admin consent](https://go.microsoft.com/fwlink/?linkid=2282450).
+
+### Third-party cookies
 
 Some Viva Glint applications require the use of **third-party cookies**, such as hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
+
+### IP exceptions
 
 If your organization requires the addition of an **IP exception** for Viva Glint's SFTP server, the US address is 172.174.87.0, and the EU address is 20.238.98.162.
