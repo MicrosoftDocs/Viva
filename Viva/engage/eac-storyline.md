@@ -70,7 +70,7 @@ In its default configuration, storyline notifies users in Teams, email, and Viva
 System default selections for notifications include:
 
 - Teams notifications, which appear in the Teams Activity feed.
-- Email notifications. Emails support actionable messages, which lets users view and reply from Outlook Web Access.
+- Email notifications. Email supports actionable messages, which lets users view and reply from Outlook Web Access.
 - Viva Engage notifications, which appear as Viva Engage notification bells.
 
 ### Restrict which users can post to their storyline
