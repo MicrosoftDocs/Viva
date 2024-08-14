@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: privacy, confidentiality, suppression, threshold, filter suppression
+keywords: privacy, confidentiality, suppression, threshold, filter suppression, comments suppression when using a question response filter
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/11/2024
+ms.date: 08/14/2024
 ---
 
 # Understand Viva Glint confidentiality and suppression in reports
@@ -114,7 +114,7 @@ Ana Bowman's Team is flagged as insufficient in the Response Rate report because
 
 Ana Bowman's team doesn't have enough responses to meet the Comments Confidentiality Threshold of 10, so filtering to the team in the Comments report gives an insufficient data message.
 
-:::image type="content" source="../../media/glint/reports/comments-insufficient.png" alt-text="Screenshot of a comments report with an insufficient data message for a manager team with too few responses.":::
+:::image type="content" source="../../media/glint/reports/comments-insufficient.png" alt-text="Screenshot of a comments report with an insufficient data message.":::
 
 ## Comments Search Threshold
 
@@ -128,3 +128,8 @@ This manager's team has 13 respondents (not comments or commenters), which allow
 
 :::image type="content" source="../../media/glint/reports/comments-topic-insufficient.png" alt-text="Screenshot of a comments report with an insufficient data message when filtering to a specific topic.":::
 
+## Comment Suppression Thresholds when using a question response as a filter 
+
+In addition to filtering cross program, users can filter by question responses (e.g. users who responded favorably to the eSat question). To ensure additional protection in instances where results are filtered by responses, a minimum threshold of **10 for scores** and **20 for comments** is enforced. 
+
+When reporting in a program with a lower threshold, this threshold (10 for scores, 20 for comments) only applies when using a question response filter. If your thresholds are already higher than these thresholds, the system picks the largest threshold across the programs being reported on.
