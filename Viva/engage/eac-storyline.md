@@ -67,11 +67,11 @@ Admins can use these settings to control how they configure storyline for their 
 
 In its default configuration, storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline page. Network and verified admins can override this configuration to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
 
-The system default selections for notifications include:
+System default selections for notifications include:
 
-- Teams notifications appear in the Teams Activity feed.
-- Email notifications support actionable messages, which lets users view and reply from Outlook Web Access.
-- Viva Engage notifications appear as Viva Engage notification bells.
+- Teams notifications, which appear in the Teams Activity feed.
+- Email notifications. Emails support actionable messages, which lets users view and reply from Outlook Web Access.
+- Viva Engage notifications, which appear as Viva Engage notification bells.
 
 ### Restrict which users can post to their storyline
 
