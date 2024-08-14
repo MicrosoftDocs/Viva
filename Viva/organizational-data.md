@@ -196,9 +196,11 @@ The data uploaded here is also used in Viva Insights and is mapped to these Viva
 - Location
 
 The following data is uploaded from the Organizational Data feature but isn't available for use in Insights:
+- Microsoft_DisplayName
 - Microsoft_FirstName
 - Microsoft_LastName
-- Microsoft_DisplayName
+- Microsoft_SecondaryJobTitle
+- Microsoft_UserSkillNames
 
 These attributes are available to use as custom attributes in Viva Insights.
 - Microsoft_JobTitle
