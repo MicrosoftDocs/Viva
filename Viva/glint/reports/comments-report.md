@@ -85,7 +85,7 @@ Viva Glint suggests using both prescriptive and representative comments when rev
 
 ### Prescriptive comments
 
-**Prescriptive comments** are those, identified by narrative intelligence, that offer specific actionable suggestions for improvement in a focus area. You can access deep, qualitative insights from alerts, goals, or any other report from Narrative Intelligence, which is easily accessible from many places in the platform. Continuous listening as part of ongoing conversations, and jointly developing goals with employees, leads to identifying the most appropriate actions to result in improvements in the workplace experience and the success of your business.
+**Prescriptive comments** are those, identified by narrative intelligence that offer specific actionable suggestions for improvement in a focus area. You can access deep, qualitative insights from alerts, goals, or any other report from Narrative Intelligence, which is easily accessible from many places in the platform. Continuous listening as part of ongoing conversations, and jointly developing goals with employees, leads to identifying the most appropriate actions to result in improvements in the workplace experience and the success of your business.
 
 ### Representative comments
 
