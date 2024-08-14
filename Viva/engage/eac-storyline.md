@@ -51,12 +51,11 @@ When you enable storyline, all internal users who have access to Viva Engage hav
 
 ## Disable storyline
 
-**When you disable storyline for a user**, the Storyline tab no longer appears on their user profile, regardless of whether they posted to it. 
-**When you disable storyline for all users in your network**, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
+When you disable storyline for a user, the Storyline tab no longer appears on their user profile, regardless of whether they posted to it. *If you disable storyline for all users in your network*, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
 
-Previously posted storyline content from users whose storyline privileges were removed is available to all users on the network. This content can be accessed from the All activity feed on the posting user's profile and through search. However, those storyline conversations allow no new replies as long as the original author has no storyline privileges.
+Posted storyline content from users for whom storyline is disabled is available through search and the All activity feed on the posting user's profile. However, those storyline conversations allow no new replies while the original author has no storyline privileges.
 
-After you disable storyline, storyline content is still available through network data export. For networks in Native Mode, this content is available [through eDiscovery](eDiscovery-engage.md).
+Storyline content is always available through network data export. Networks in Native Mode can access this content [through eDiscovery](eDiscovery-engage.md).
 
 To delete previous storyline conversations after you disable storyline, use the same processes that you use to delete other conversations in Viva Engage.
 
