@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/13/2024
+ms.date: 08/14/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -100,7 +100,6 @@ There are two types of attributes you can add in your organizational data file: 
 - **Required** - The only attribute required by default is email address.
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
 
-Use the MM/DD/YYYY format for all dates. All numerical fields need to be in the "number" format and can't contain commas or a dollar sign.
 
 > [!NOTE]
 > The maximum number of total attributes allowed in the system is 105, which includes required attributes.
@@ -185,7 +184,7 @@ To update or delete an end user's organizational data, create and upload a new .
 ## Data usage, retention, and management information for Organizational Data in Microsoft 365
 Review the following information to understand how organizational data is used, stored, and deleted.
 
-### Data uploaded from Viva Insights
+### How Organizational Data in Microsoft 365 works with Viva Insights
 The data uploaded here is also used in Viva Insights and is mapped to these Viva Insights reserved fields:
 
 - PersonId
@@ -201,6 +200,8 @@ The following data is uploaded from the Organizational Data feature but isn't av
 - Microsoft_FirstName
 - Microsoft_LastName
 - Microsoft_DisplayName
+
+These attributes are available to use as custom attributes in Viva Insights.
 - Microsoft_JobTitle
 - Microsoft_RoleEndDate
 - Microsoft_City
@@ -230,7 +231,7 @@ When a tenant is removed from Microsoft 365, all tenant data is purged within 30
 Organizational data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
 
 ### Data residency
-When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are coped to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide&preserve-view=true) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true). 
+When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are scoped to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide&preserve-view=true) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true). 
 
 ### Manage data subject requests
 A *Data Subject Request* or DSR is a formal request by a data subject (an end user) to a controller to take an action on their personal data. To understand what data subject rights end users have, see [Office 365 Data Subject Requests Under the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-office365). 
