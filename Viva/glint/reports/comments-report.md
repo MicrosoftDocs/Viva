@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2024
+ms.date: 08/14/2024
 ---
 
 # Use Viva Glint’s Comments report 
@@ -26,24 +26,15 @@ Reviewing comments allows managers to gain further insights into their results. 
 
 The Comments report, for those with comments permission, is accessed from the Viva Glint dashboard > **Reports** > **Comments**.
 
-## Choose which comment sections are shown on your dashboard
+## The Comments Overview dashboard
 
-The Comments report is divided into sections. *Overview* displays by default.
+The Comments report is divided into sections. **Overview** displays by default.
 
 :::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 
 - **Comments** - Total number of comments, defined by number of commenters and percentage of respondents
 - **Continent Sentiment** - A bar graph indicating overall positive, negative, and neutral sentiments
 - **Topics** - Topics mentioned most often, including the number of mentions
-
-## Add additional sections to your comments report
-There are two ways to add additional sections:
-- Select the **+ Add section** button, or
-- Use the **More** dropdown menu and choose **+ Add Section**
-
-Select sections by scrolling through the tabs in the slider window. Add or delete sections at any time. 
-- Select the **+ button** to add the section.
-- If a **right-facing arrow** displays, choose that to open the window which allows you to filter by attributes. Then select **Add**.
 
 ## Questions section
 This section can be viewed in grid or table view and includes:
@@ -78,32 +69,50 @@ Select the topic bubble to reveal a slider window with all related comments.
 ## Comments section
 In this section, you can view all comments or see them by category. The total number of comments shows in the box at the top and comments by category, underneath.
 
-### Prescriptive and representative comments
+## Add sections to your Comments report
+
+There are two ways to add additional sections:
+- Select the **+ Add section** button, or
+- Use the **More** dropdown menu and choose **+ Add Section**
+
+Select sections by scrolling through the tabs in the slider window. Add or delete sections at any time. 
+- Select the **+ button** to add the section.
+- If a **right-facing arrow** displays, choose that to open the window which allows you to filter by attributes. Then select **Add**.
+
+## Prescriptive and representative comments
 
 Viva Glint suggests using both prescriptive and representative comments when reviewing your Comments report.
 
-#### Prescriptive comments
+### Prescriptive comments
 
-Prescriptive comments are those, identified by narrative intelligence, that offer specific actionable suggestions for improvement in a focus area. You can access deep, qualitative insights from alerts, goals, or any other report from Narrative Intelligence, which is easily accessible from many places in the platform. Continuous listening as part of ongoing conversations, and jointly developing goals with employees, leads to identifying the most appropriate actions to result in improvements in the workplace experience and the success of your business.
+**Prescriptive comments** are those, identified by narrative intelligence, that offer specific actionable suggestions for improvement in a focus area. You can access deep, qualitative insights from alerts, goals, or any other report from Narrative Intelligence, which is easily accessible from many places in the platform. Continuous listening as part of ongoing conversations, and jointly developing goals with employees, leads to identifying the most appropriate actions to result in improvements in the workplace experience and the success of your business.
 
-#### Representative comments
+### Representative comments
 
-Comments that represent overall themes are isolated and shown together. You'll only need to read a few to get a sense of the whole.
+**Representative Comments** represent overall themes are isolated and shown together. You'll only need to read a few to get a sense of the whole.
 
-### Redacting and quarantining comments
+## Redacting and quarantining comments
 
 You may redact terms - flagged as Personally Identifiable Information (PII) or as profanity:
 - Select **Redact All Terms** to replace all PII and profanity with five-pound signs (#####).
 - Select **Un-Redact All** to replace ##### with the original comments.
 - Use the **vertical ellipses** next to an individual comment to select **Redact** or **Un-Redact**.
 
-### Learn the importance of quarantining comments when necessary. 
-Sensitive comments can be quarantined by using the **ellipses** next to the comment. 
-By selecting **Quarantine**, the comment is now visible only to admins with *Manage Sensitive Comments* capability. Comments may be un-quarantined. 
+**Process:**
+Sensitive Comments are quarantined by using the **ellipses** next to the comment. 
+By selecting **Quarantine**, the comment is visible only to admins with **Manage Sensitive Comments** capability. Comments may be un-quarantined. 
 
 > [!IMPORTANT]
 > See [Flag sensitive comments in Viva Glint](/viva/glint/setup/glint-sensitive-comments) for a deeper dive into this information.
  
+## Mixed Comments analysis
+
+Our platform classifies every comment as positive, negative, neutral, or mixed. *Mixed* indicates both positive and negative sentiment in the same comment. From this data, a histogram of "red", "grey", and "blue" is generated. 
+- A negative comment is red.
+- A positive comment is blue.
+- A neutral comment is grey.
+- *Mixed comments* count as half a blue and half a red comment. We then normalize this visual representation to add to platform data.
+
 ## Export, save, or share from the Comments report
 
 Selecting this dropdown menu allows you to perform any of these functions:
@@ -122,7 +131,7 @@ Selecting this dropdown menu allows you to perform any of these functions:
 
 ## Choose your benchmark in the Settings window
 
-Selecting this button opens the *Report Settings* slider. Choose your benchmark.
+Selecting this button opens the **Report Settings** slider. Choose your benchmark.
 Choosing the right benchmark data helps users interpret survey results within the context of how others are doing. Viva Glint provides several options for benchmark reporting. Note that your company may have substituted custom terms for the Viva Glint terminology explained below.
 
 Internal Benchmarks:
