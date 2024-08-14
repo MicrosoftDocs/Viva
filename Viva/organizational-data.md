@@ -194,7 +194,6 @@ The data uploaded here is also used in Viva Insights and is mapped to these Viva
 - FunctionType
 - Layer
 - Location
-- RoleStart Data
 
 The following data is uploaded from the Organizational Data feature but isn't available for use in Insights:
 - Microsoft_FirstName
@@ -203,7 +202,6 @@ The following data is uploaded from the Organizational Data feature but isn't av
 
 These attributes are available to use as custom attributes in Viva Insights.
 - Microsoft_JobTitle
-- Microsoft_RoleEndDate
 - Microsoft_City
 - Microsoft_CountryOrRegion
 - Microsoft_PostalCode
