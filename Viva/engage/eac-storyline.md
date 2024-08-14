@@ -61,7 +61,7 @@ To delete previous storyline conversations after you disable storyline, use the 
 
 ## Advanced settings
 
-Admins can use these settings to control how they configure storyline for their organization. Use these settings to establish the default behavior for storyline notifications, and to restrict who can post to storyline.  
+Admins can use these settings to control how they configure storyline for their organization. These settings establish the default behavior for storyline notifications and restrict who can post to storyline.  
 
 ### Set default notification channels for storyline posts
 
