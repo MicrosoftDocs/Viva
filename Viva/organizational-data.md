@@ -195,7 +195,7 @@ The data uploaded here is also used in Viva Insights and is mapped to these Viva
 - Layer
 - Location
 
-The following data is uploaded from the Organizational Data feature but isn't available for use in Insights:
+The following data is uploaded from the Organizational Data feature but isn't available for use in Viva Insights:
 - Microsoft_DisplayName
 - Microsoft_FirstName
 - Microsoft_LastName
