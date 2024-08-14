@@ -55,7 +55,7 @@ When you disable storyline for a user, the Storyline tab no longer appears on th
 
 Previously posted storyline content from users whose storyline privileges were removed is available to all users on the network. This content can be accessed from the All activity feed on the posting user's profile and through search. However, those storyline conversations allow no new replies as long as the original author has no storyline privileges.
 
-Storyline content is also available through network data export. For networks in Native Mode, that content is available [through eDiscovery](eDiscovery-engage.md).
+After you disable storyline, storyline content is still available through network data export. For networks in Native Mode, this content is available [through eDiscovery](eDiscovery-engage.md).
 
 To delete previous storyline conversations after you disable storyline, use the same processes that you use to delete other conversations in Viva Engage.
 
