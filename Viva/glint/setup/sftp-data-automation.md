@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2024
+ms.date: 08/13/2024
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -55,6 +55,9 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 > [!NOTE]
 > - Files are automatically deleted from SFTP after 48 hours.
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
+
+> [!TIP]
+> For SAP Success Factors and Workday, "/files" may be auto-appended to the file path for SFTP transmissions. Remove "/files" from the file path ("/user_full" or "/user_delta") to prevent upload errors if your HRIS auto-appended "/files".
 
 ## Transfer methods
 

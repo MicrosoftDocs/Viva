@@ -133,7 +133,9 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md               
+                href: advanced/analyst/cross-collaboration-g2g.md   
+              - name: Collaboration between internal and external individuals
+                href: advanced/analyst/external-collaboration.md               
             - name: Uncover network collaboration insights
               href: advanced/analyst/network-collaboration-insights.md 
             - name: Create change management queries

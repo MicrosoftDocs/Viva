@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2024
+ms.date: 08/08/2024
 ---
 
 # Access Viva Glint with Microsoft Entra ID
@@ -55,11 +55,12 @@ The Global administrator adds service administrators to Microsoft Entra ID and V
 
 To import users to Viva Glint, first follow critical data preparation steps:
 
-- [Finalize file layout](https://go.microsoft.com/fwlink/?linkid=2230914)
-- [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Prepare and finalize data with the Employee Attribute Template](/viva/glint/setup/create-employee-attribute-template)
+- [Review data with checklists](/viva/glint/setup/data-checklist)
+- [Set up attributes in Viva Glint](/viva/glint/setup/send-employee-attributes)
 
 ### Import users
 
 After employee data preparation and attribute setup:
 
-- [Upload employee data to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Upload employee data to Viva Glint](/viva/glint/setup/choose-upload-method)

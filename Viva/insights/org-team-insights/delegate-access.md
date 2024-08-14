@@ -1,9 +1,9 @@
 ---
-ms.date: 06/27/2024
+ms.date: 08/08/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
-author: Laura-Pen
-ms.author: v-penlaura
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -15,10 +15,10 @@ audience: Admin
 ---
 # Delegate access to organizational insights and Copilot Dashboard
 
-You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
-
 >[!Note]
->The Copilot Dashboard Delegation feature is gradually rolling out to our customers so it might not be available to everyone right away.
+>The Copilot Dashboard Delegation feature is gradually rolling out and will be available to all customers by the end of August.
+
+You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
 
 By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to organizational insights. They can view them and operationalize business decisions based on the data and insights.
 
@@ -109,6 +109,16 @@ You can set a policy to disable delegation for Copilot Dashboard for the tenant 
 
 >[!Note]
 >After disabling the delegate feature for Copilot Dashboard, it may take up to 12 hours to reflect the change.
+
+## Audit who has delegate access
+
+Admins can use audit logs to identify which users have access to Viva Insights through delegation. [Learn more about how to search the audit log](/purview/audit-search).
+
+| Friendly name | Operation | Actor | Target | Modified properties name | Modified properties value | 
+|---|---|---|---|---|---|
+| Added delegate access | AddDelegates | The user who provided access | The user whose access was changed | Leader Insights delegate | Enabled |
+| Removed delegate access | RemoveDelegates |  The user who provided access | The user whose access was changed  | Copilot Dashboard delegate | Disabled |
+
 
 ## Related topics
 [Organization insights](org-insights.md)
