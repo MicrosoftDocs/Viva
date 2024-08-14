@@ -272,7 +272,7 @@ The following table provides more details about the Organizational Data in Micro
 |19|Microsoft_CompanyCode|[need details]|[need details]|[need details]|
 |20|Microsoft_SecondaryJobTitle|Secondary job title for the employee|String
 |Software engineer|
-|21|Microsoft_UserSkillNames|Skills the employee has, separated by commans. This value is used for Viva Skills inferencing, so it's important to make sure the field uploaded here is a field that you want to use to generate skills for your users.|String|Project management, organization|
+|21|Microsoft_UserSkillNames|Skills the employee has, separated by commas. This value is used for Viva Skills inferencing, so it's important to make sure the field uploaded here is a field that you want to use to generate skills for your users.|String|Project management, organization|
 
 ## Attribute to property mapping
 The following table shows how Organizational Data in Microsoft 365 attributes map to properties in the Microsoft 365 User Profile schema.
