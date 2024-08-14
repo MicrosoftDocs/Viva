@@ -42,7 +42,7 @@ Engage administrators manage storyline for their organizations in the [Engage ad
 
 The Storyline page in the Engage admin center controls the availability of storyline in the organization.
 
-When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts. To restrict storyline, see [Restrict which users can post to their storyline].
+When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts. To restrict storyline, see [Restrict which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
 
 :::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
 
