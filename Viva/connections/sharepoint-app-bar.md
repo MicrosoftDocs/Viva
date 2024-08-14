@@ -41,7 +41,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 
 ![Screenshot of the SharePoint app bar tabs.](../media/connections/app-bar-expanded-3.png)
 
->[!NOTE]
+> [!NOTE]
 >
 > - Global navigation is the only app bar tab that can be customized.
 > - When global navigation is disabled or not configured, the home icon links to the SharePoint start page.
@@ -61,7 +61,7 @@ The SharePoint app bar is a significant change to the user experience and your o
 
 Global navigation can be enabled and customized in the SharePoint app bar. Customize the global navigation logo, title, and source depending on your users’ and organization’s needs. If you choose to keep global navigation disabled, the home icon will link to the SharePoint start page.
 
->[!NOTE]
+> [!NOTE]
 >
 > - When global navigation is disabled, the home icon will link to the SharePoint start page.
 > - Customizing global navigation requires a [SharePoint home site](home-site-plan.md).
@@ -188,7 +188,7 @@ A [SharePoint home site](home-site-plan.md) is a SharePoint communication site t
 
 If you are creating a [SharePoint home site](home-site-plan.md) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a SharePoint home site. Learn more about planning navigation in SharePoint and apply information architecture principles to your new SharePoint home site’s navigational design.
 
->[!NOTE]
+> [!NOTE]
 >
 > - Only one communication site can be set as the SharePoint home site.
 > - The first time you set up a SharePoint home site, it might take up to several minutes for the changes to take effect.
@@ -228,8 +228,9 @@ Temporarily disable the SharePoint app bar:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+   > [!NOTE]
+   >
+   > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
 
 2. Connect to SharePoint as a [SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -245,7 +246,7 @@ Temporarily disable the SharePoint app bar:
     Get-SPOTemporarilyDisableAppBar
     ```
 
->[!NOTE]
+> [!NOTE]
 >
 > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up.
 > - Running the command without the `$false` or `$true` value will cause it to fail.
@@ -260,8 +261,9 @@ Temporarily disable the SharePoint app bar:
     Set-SPOTemporarilyDisableAppBar $false
     ```
 
-    > [!NOTE]  
-    > It can take up to an hour for the app bar to show up on a tenant where the app bar was disabled previously.
+   > [!NOTE]  
+   >
+   > It can take up to an hour for the app bar to show up on a tenant where the app bar was disabled previously.
 
 2. If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:
 
