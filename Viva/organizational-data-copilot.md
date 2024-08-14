@@ -76,7 +76,7 @@ If you’ve previously uploaded organization data and now have access to the Cop
 Although you can view Entra data quality reports without manager and organization data, you need those two fields to view Copilot reports. To access Copilot data quality report, upload a fresh organizational data .csv file with at least these three attributes:
 - **Microsoft_PersonID** (100% coverage)
 - **Microsoft_ManagerEmail** (95% coverage)
-- **Microsoft_Organization* (95% coverage)
+- **Microsoft_Organization** (95% coverage)
 
 There are other optional attributes used in the Copilot dashboard, such as **Microsoft_JobDiscipline**, that might be helpful to include in your uploads. 
 
