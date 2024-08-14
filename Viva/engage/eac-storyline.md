@@ -79,7 +79,7 @@ The supported group types include security groups, mail-enabled security groups,
 
 Your changes should take effect within minutes. Backend membership changes in the selected group can take up to 24 hours to be applied to storyline privileges.
 
-#### User experience when storyline is disabled
+#### What users experience when storyline is disabled
 
 When you disable storyline for a user, the Storyline tab no longer appears on their user profile, regardless of whether they posted to it. Even though the user no longer has a storyline tab on their profile, they can still access storyline conversations through the All activity feed and through search. *If you disable storyline for all users in your network*, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
 
