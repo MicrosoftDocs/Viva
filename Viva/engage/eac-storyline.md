@@ -44,10 +44,10 @@ The Storyline page in the Engage admin center controls the availability of story
 
 When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
-    :::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
+:::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
 
-    >[!NOTE]
-    > Guests don't have their own storyline and can't see storyline content from internal users.
+>[!NOTE]
+> Guests don't have their own storyline and can't see storyline content from internal users.
 
 ## Disable storyline
 
