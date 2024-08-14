@@ -21,7 +21,7 @@ search.appverid:
 
 # Manage and set up storyline in Viva Engage
 
-Storyline empowers everyone in your organization to connect and contribute. It enables your leaders to reach and engage employees. Through storyline, employees can share updates, experiences, and perspectives to reach followers and colleagues across the organization. Engage with storylines from the Web and the mobile applications you use every day—Outlook, Microsoft Teams, and Microsoft Viva.
+Storyline empowers everyone in your organization to connect and contribute through the Web and mobile applications you use every day—-Outlook, Microsoft Teams, and Microsoft Viva. Through storyline, leaders can reach and engage their teams. Employees can share updates and experiences with followers and colleagues across the organization.
 
 When storyline is enabled in your organization, you see the following changes in the Viva Engage app:
 
