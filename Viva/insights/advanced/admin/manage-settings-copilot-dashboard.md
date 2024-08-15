@@ -276,6 +276,6 @@ You can access this feature in the [Microsoft 365 Admin Center](https://admin.mi
 6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload. 
 
 
-## Related topic
+### Related topic
 
 [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](../../org-team-insights/copilot-dashboard.md)
