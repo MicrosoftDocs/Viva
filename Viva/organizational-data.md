@@ -269,9 +269,8 @@ The following table provides more details about the Organizational Data in Micro
 |16|Microsoft_CompanyOfficeCountryOrRegion|The country or region. It's a free-format string value, for example, "United States". This is the publicly available company office country or region.|String|United States|
 |17|Microsoft_CompanyOfficePostalCode|The postal code. This is the publicly available company office postal code.|String|98004|
 |18|Microsoft_Company|Company name.|String|Contoso|
-|19|Microsoft_CompanyCode|[need details]|[need details]|[need details]|
-|20|Microsoft_SecondaryJobTitle|Secondary job title for the employee|String
-|Software engineer|
+|19|Microsoft_CompanyCode||||
+|20|Microsoft_SecondaryJobTitle|Secondary job title for the employee|String|Software engineer|
 |21|Microsoft_UserSkillNames|Skills the employee has, separated by commas. This value is used for Viva Skills inferencing, so it's important to make sure the field uploaded here is a field that you want to use to generate skills for your users.|String|Project management, organization|
 
 ## Attribute to property mapping
