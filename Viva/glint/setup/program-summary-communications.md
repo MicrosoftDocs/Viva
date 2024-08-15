@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 08/14/2024
 ---
 
 # Communications setup in Program Summary
 
-Notifying employees about upcoming surveys and the windows for taking their survey is essential for improving survey participation. 
+Notifying employees about upcoming surveys and the time frame for taking their survey is essential for improving survey participation. 
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary." lightbox="../../media/glint/setup/program-summary-comms-intro.png":::
 
@@ -38,12 +38,12 @@ Send survey invites and reminders between the times that you set. Your organizat
 
 ## Configure Notifications
 
-The following sections display as setup actions and each field can be edited by selecting the **pencil symbol** that displays when& selecting a row.
+The following sections display as setup actions and each field can be edited by selecting the **pencil symbol** that displays when selecting a row.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
 >[!TIP]
->When [personal email](https://go.microsoft.com/fwlink/?linkid=2247991) is set up as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
+>When [personal email](https://go.microsoft.com/fwlink/?linkid=2247991) is set up as an optional system attribute, use **Email Settings** to send to **Company** or **Company and personal** email.
 
 ### Editing the survey invitation
 
@@ -67,27 +67,27 @@ Set up to three reminders during the survey window and also a final reminder.
 >[!TIP]
 >Send two survey reminders per program. Survey takers only receive reminders if they haven't completeled their survey. 
 
-Use the **Penci** symbol to open the slider window and then:
+Use the **Pencil** symbol to open the window and then:
 
 - Change reminder send dates, which are preset.
 - Preview your reminder. At this time, the reminder message can't be edited. You can change the language and preview the message in other languages.
 
 ### Add survey reminders
 
-The dropdown menu on the **Add survey Reminder** button lets admins add reminders. Reminders display on the Communications page with an alarm symbol in a green circle.
+The dropdown menu from the **Add survey Reminder** button lets admins add reminders. Reminders display on the Communications page with an alarm symbol in a green circle.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
 ### Customize email content
 
-Use this email [customization guidance](email-content-customization.md) to add custom text to your Viva Glint survey emails.
+Use this email [customization guidance](email-content-customization.md) to add custom text to your Glint survey emails.
 
 ## Notifications when survey results are available
 
 The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). 
 
 > [!IMPORTANT]
-> For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the Reporting section of the survey program before your survey closes. 
+> For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the **Reporting** section of the survey program before the survey closes. 
 
 To set up the results notification email:
 

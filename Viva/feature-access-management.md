@@ -53,7 +53,7 @@ You can use feature access management to manage access to the following features
 ||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
-|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
+|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Viva Pulse admin|VivaPulse|
 ||Team conversations in Pulse reports*|No|Viva Pulse admin|VivaPulse|
 |Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills|
 
