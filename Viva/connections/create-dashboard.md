@@ -519,7 +519,7 @@ Use the Quick links card to provide a list of relevant links or files selected b
 
 9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-:::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting." "lightbox="../media/connections/create-dashboard/quick-links-properties-links-at.png":::
+:::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting." lightbox="../media/connections/create-dashboard/quick-links-properties-links-at.png":::
 
 ## Add a Shifts card
 
