@@ -21,7 +21,7 @@ search.appverid:
 
 # Manage and set up storyline in Viva Engage
 
-Storyline empowers everyone in your organization to connect and contribute. It enables your leaders to reach and engage employees. Through storyline, employees can share updates, experiences, and perspectives to reach followers and colleagues across the organization. Engage with storylines from the Web and the mobile applications you use every day—Outlook, Microsoft Teams, and Microsoft Viva.
+Storyline empowers everyone in your organization to connect and contribute through the Web and mobile applications you use every day—-Outlook, Microsoft Teams, and Microsoft Viva. Through storyline, leaders can reach and engage their teams. Employees can share updates and experiences with followers and colleagues across the organization.
 
 When storyline is enabled in your organization, you see the following changes in the Viva Engage app:
 
@@ -40,48 +40,57 @@ Engage administrators manage storyline for their organizations in the [Engage ad
 
 ## Enable storyline
 
-The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
+The Storyline page in the Engage admin center controls the availability of storyline in the organization.
 
-- **When you enable storyline**, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
+When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts. To restrict storyline, see [Restrict which users can post to their storyline](/viva/engage/eac-storyline?branch=pr-en-us-8285#restrict-which-users-can-post-to-their-storyline).
 
-    :::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
+:::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
 
-    >[!NOTE]
-    > Guests don't have their own storyline and can't see storyline content from internal users.
-
-- **When you disable storyline**, Storylines doesn't appear in the left navigation pane in Viva Engage for the web, or in the top navigation in the Viva Engage app for Teams and Outlook. In addition, no Storyline tab appears in the user profile.
-
-   If a user responded to posted storyline content in the past, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. 
-    To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
+>[!NOTE]
+> Guests don't have their own storyline and can't see storyline content from internal users.
 
 ## Advanced settings
 
-Admins can use these settings to control how they configure storyline for their organization. Use these settings to establish the default behavior for storyline notifications, and to restrict who can post to storyline.  
+Admins can use these settings to control how they configure storyline for their organization. These settings establish the default behavior for storyline notifications and restrict who can post to storyline.  
 
 ### Set default notification channels for storyline posts
 
 In its default configuration, storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline page. Network and verified admins can override this configuration to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
 
-The system default selections for notifications include:
+System default selections for notifications include:
 
-- Microsoft Teams notifications are delivered in the Teams Activity feed.
-- Email delivered to your inbox includes support for actionable messages, so that users can view and reply to the conversation from Outlook Web Access.
-- Viva Engage notifications are delivered to the Viva Engage notification bells.
+- Teams notifications, which appear in the Teams Activity feed.
+- Email notifications. Email supports actionable messages, which lets users view and reply from Outlook Web Access.
+- Viva Engage notifications, which appear as Viva Engage notification bells.
 
 ### Restrict which users can post to their storyline
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
 1. To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline**.
+
 1. Select **Advanced Settings**.
-1. Switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. 
+
+1. Switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**.
+
 1. Search for and select the group that includes users who should receive their own storyline page.
-Supported group types include security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
-Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
+The supported group types include security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Viva Engage checks the group membership on a daily basis to assign storyline privileges.
 
-> [!NOTE] 
-> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
+Your changes should take effect within minutes. Backend membership changes in the selected group can take up to 24 hours to be applied to storyline privileges.
+
+To delete previous storyline conversations after you disable storyline, use the same processes that you use to delete other conversations in Viva Engage
+
+#### What users experience when storyline is disabled
+
+When you disable storyline for a user, the user is unable to create new storyline posts and the Storyline tab no longer appears on their user profile--regardless of whether they previously posted to their storyline. *If you disable storyline for all users in your network*, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
+
+Even though a user no longer has a storyline tab on their profile, their storyline conversations are available through the All activity feed and through search. However, those storyline conversations allow no new replies as long as the original author has no storyline privileges.
+
+All Storyline content is available through network data export. Networks in Native Mode can also access this content [through eDiscovery](eDiscovery-engage.md).
+
+> [!NOTE]
+> If you need to address objectionable content or security concerns, an effective solution is to [delete the conversation](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [block the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
 
 ### Configure a multitenant organization to use storyline
 
