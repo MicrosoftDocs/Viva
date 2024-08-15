@@ -98,7 +98,7 @@ The ability to customize communities based on business objectives is being consi
 
 **Can I have more than one Copilot adoption community?**
 
-No, you can configure only one community using this new community type. For example, if you already created this new community type and instead want to apply the adoption features to an existing community, you must delete the first Copilot adoption community you created.
+No, you can configure only one community using this new community type.
 
 **Can I use dynamic membership with the Copilot adoption community?**
 
