@@ -6,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 07/19/2024
+ms.date: 08/15/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -65,7 +65,7 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 - **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
-- **Top questions** shows users the most commonly-asked questions in the community for the past 90 days. The **Top questions** tile appears in the right sidebar for quick reference.
+- **Top questions** shows users the most commonly-asked questions in the community for the past 90 days. The Top questions tile appears in the right sidebar for quick reference.
 
 - **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
