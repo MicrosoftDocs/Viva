@@ -128,7 +128,7 @@ After you create the .csv file with your data, you can upload it directly from y
 
 >[!NOTE]
 > - Local upload is only available for Viva Insights users.
-> - There's a 50 mB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
+> - There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
 
 :::image type="content" source="media/orgdata-import-local.png" alt-text="A screenshot shows local import option. ":::
 
