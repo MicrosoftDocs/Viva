@@ -1,5 +1,5 @@
 ---
-ms.date: 07/31/2024
+ms.date: 08/14/2024
 title: "Viva Connections Feed Web Part and Video News link Retirement - Support Guidance"
 ms.reviewer: 
 ms.author: evanatkin
@@ -19,36 +19,50 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Viva Connections Feed Web Part and Video News link Retirement - Support Guidance"
+description: "Feed for Viva Connections Web Part and Video News link Retirement - Support Guidance"
 ---
 
-# Viva Connections Feed Web Part and Video News link Retirement - Support Guidance
+# Feed for Viva Connections Web Part and Video News link Retirement - Support Guidance
 
 ## Overview
 
-Microsoft will be retiring the Feed for Viva Connections web part and the video news link feature starting September 1, 2024, and will be fully retired on November 5, 2024.
+Microsoft regularly reviews our offerings to determine their effectiveness in our commitment to providing the most efficient and enjoyable experiences for our users. This evaluation led us to identify an abundance of content web parts currently available. Microsoft has decided to phase out the feed for Viva Connections web part and the video news link to concentrate our resources and improve user experience on core content web parts.
 
-This article provides an overview of the deprecation timeline, its effect on customers, and alternative solutions.
+Microsoft will begin retiring the Feed for Viva Connections web part and the video news link feature starting September 1, 2024, and will be fully retired on November 5, 2024.
 
-## Timeline
+This article provides an overview of the feature and the deprecation timeline, its effect on customers, alternative solutions, and frequently asked questions.
 
-### Feed for Viva Connections web part depreciation
+## Feed for Viva Connections web part depreciation
+
+### Feature overview
+
+The Feed for Viva Connections web part is a feature that brought personalized content into a user's feed, in a single experience. This content included news published in SharePoint, posts in Viva Engage communities, and Stream videos in SharePoint.
+
+![Screenshot with the company feed highlighted.](../media/connections/use-feed-web-part/feedwebpart_highlighted.png)
+
+### Depreciation timeline
 
 |**Date** |**Action** |**Impact to customers** |
 |:--------|:----------|:----------|
-|**September 1, 2024** | Microsoft will remove the Feed for Viva Connections web part from the toolbox. <br><br> All existing instances of the feed for Viva Connections web part will continue to function. | Site owners won't see the feed for Viva Connections web part in the toolbox. New feed for Viva Connections web parts can't be added to a SharePoint site or SharePoint page.|
-|**November 5, 2024** | Support for the feed for Viva Connections web part ends. <br><br> Site editors  need to replace the Feed for Viva Connections web part with the provided [alternative solutions](#alternative-solutions). | Any feed for Viva Connections feed web parts that haven't been replaced won't display content and visitors to the page will see an error message in place of the web part.|
+|**September 1, 2024** | Microsoft removes the Feed for Viva Connections web part from the toolbox. <br><br> All existing instances of the feed for Viva Connections web part will continue to function. | Site owners won't see the feed for Viva Connections web part in the toolbox. New feed for Viva Connections web parts can't be added to a SharePoint site or SharePoint page.|
+|**November 5, 2024** | Support for the feed for Viva Connections web part ends. <br><br> Site editors  need to replace the Feed for Viva Connections web part with the provided [alternative solutions](#alternative-solutions). | Any feed for Viva Connections web parts that haven't been replaced won't display content and visitors to the page will see an error message in place of the web part.|
 
-### Video news link depreciation
+## Video news link depreciation
+
+### Feature overview
+
+The [video news link](/viva/connections/video-news-links) allowed for Stream videos to appear in the Viva Connections feed.
+
+![Image of how to add a new video news link to a news site.](../media/connections/add-video-link.png)
 
 |**Date** |**Action** |**Impact to customers** |
 |:--------|:----------|:----------|
-|**September 1, 2024** | Microsoft will remove the video news link from the **+ New menu** in SharePoint organizational sites. | Site editors won't be able to add new videos to be published in the Viva Connection feed. <br><br> Any videos scheduled to publish before November 5,2024 will still appear in the Viva Connections feed.|
-|**November 5, 2024** | Support for the video news link ends. Videos published using the video news link won't appear on the Viva Connections feed. <br><br> Site editors need to replace video news links with the provided [alternative solutions](#alternative-solutions).| Any videos scheduled to publish after this date won't display. Users will see an error message on the Viva Connections feed.|
+|**September 1, 2024** | Microsoft removes the video news link from the **+ New menu** in SharePoint organizational sites. | Site editors won't be able to add new videos to be published in the Viva Connection feed. <br><br> Any videos scheduled to publish before November 5,2024 will still appear in the Viva Connections feed.|
+|**November 5, 2024** | Support for the video news link ends. Videos published using the video news link won't appear on the Viva Connections feed. <br><br> Site editors need to replace video news links with the provided [alternative solutions](#alternative-solutions).| Any videos scheduled to publish after this date won't display. An error message on the Viva Connections feed will display to users.|
 
-## Effect on Customers
+## Effect on Users
 
-Microsoft will begin removing the Feed for Viva Connection web part from the toolbox starting **September 1, 2024**. After September, 1 2024, site editors won’t be able to add the web part to a site or page. Additionally, the video news link will be removed from the **+ New** menu in the SharePoint organizational site. Site editors and SharePoint admins won't be able to embed new video links to Viva Connections feed.
+Microsoft will begin removing the Feed for Viva Connection web part from the toolbox starting **September 1, 2024**. After September 1, 2024, site editors won’t be able to add the web part to a site or page. Additionally, the video news link will be removed from the **+ New** menu in the SharePoint organizational site. Site editors and SharePoint admins won't be able to embed new video links to Viva Connections feed.
 
 On **November 5, 2024**, support for the feed for Viva Connections web part and video news links will end.
 
@@ -56,7 +70,7 @@ Any feed for Viva Connections web parts that haven't been replaced with the reco
 
 ## Alternative Solutions
 
-To continue surfacing feed content on Viva Connections, the following web parts provide an alternative to the Viva Connections feed web part and the video news link.
+To continue surfacing feed content on Viva Connections, the following web parts provide an alternative to the feed for Viva Connections web part and the video news link.
 
 ### Alternative solution to featuring news posts in SharePoint
 
@@ -80,7 +94,25 @@ To continue surfacing feed content on Viva Connections, the following web parts 
 
 2. Site editors and SharePoint admins should plan for the retirement and update and/or replace the affected SharePoint sites with the recommended alternatives.
 
-3. Site editors and SharePoint admins should notify users about this change and update any relevant documentation.  
+3. Site editors and SharePoint admins should notify users about this change and update any relevant documentation.
+
+## Frequently Asked Questions
+
+**Will the Viva Connections Feed in Desktop or Mobile experience be impacted by this deprecation?**
+
+The Viva Connections Feed in Desktop and Mobile experiences won't be impacted with this deprecation. This depreciation will only affect the Feed for Viva Connections web part.
+
+**How do I find the sites that have the Feed for Viva Connections web part configured?**
+
+- **Option 1**:
+  1. Navigate to your organization’s SharePoint root site.
+
+  2. Search for the web part ID `d0a64d22-555c-44e4-b120-aed62c263632` in the search bar (*Search results are limited to the current user's permission scope*).
+
+- **Option 2**:
+
+    Consider using the [script in this article](/stream/streamnew/webpart-transition#how-do-i-find-the-location-for-videos-embedded-in-stream-classic-web-part) that was shared by users who have successfully used it to find the location of videos embedded in Stream Classic. It serves as a template that can be customized to align with your unique requirements and context.
+
 
 ## Learn more
 
