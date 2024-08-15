@@ -30,7 +30,7 @@ Through this process, your company can get a more complete picture around the em
 
 3. **Viva Insights** validates and processes the data so it’s ready for use.
 
-### 1. Set up a new import in the advanced insights app
+## 1. Set up a new import in the advanced insights app
 
 *Applies to: Viva Insights admin*
 
@@ -44,17 +44,17 @@ Through this process, your company can get a more complete picture around the em
 
 2. You’ll be prompted to contact the Viva Glint admin, who needs to select specific survey programs and share it with Insights.
 
-### 2. Send data from Viva Glint 
+## 2. Send data from Viva Glint 
 
 *Applies to: Viva Glint admin*
 
 Contact your Viva Glint admin, who will use [these steps](/viva/glint/setup/insights-integration) to share Viva Glint survey data with Viva Insights.
 
-### 3. Data validation and processing 
+## 3. Data validation and processing 
 
 *Applies to: Viva Insights admin, Viva Glint admin*
 
-#### Validation
+### Validation
 
 After the Viva Glint admin sends data, the advanced insights app starts validating the import.
 
@@ -66,13 +66,13 @@ For information about what happens next, go to the appropriate section:
 
 [Validation fails](#validation-fails)
 
-##### Validation succeeds
+#### Validation succeeds
 
 After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, you’ll see a “Validated, processing” status on the **Import history** table.
 
 After processing completes, depending on the outcome, you’ll see “Success” or “Validation failed” status in the **Import history**.
 
-##### Processing succeeds 
+#### Processing succeeds 
 
 When you see the “Success” status in the **Import history** table, the upload process is complete.
 
@@ -80,11 +80,11 @@ After you receive the “Success” status, you can select the view (eye) symbol
 
 :::image type="content" source="../images/glint-survey-data-processing.png" alt-text="Screenshot that shows processing succeeds for survey import.":::
 
-##### Processing fails 
+#### Processing fails 
 
 If processing fails, you’ll find a “Processing failed” status in the **Import history** table. If you want to try running the import again, have the Viva Glint admin resend their survey data. If you’re still getting a “Processing failed” status, [file a support ticket with us](/microsoft-365/admin/get-help-support).
 
-##### Validation fails
+#### Validation fails
 
 If data validation fails, you'll see a "Validation failed" status in the **Import history** table. Under **Actions**, select the download symbol to download an error log.
 
@@ -92,13 +92,13 @@ For validation to succeed, the Viva Glint admin needs to correct the errors and 
 
 The Viva Glint admin can use this section to fix data errors in their export file.
 
-#### About errors in data 
+### About errors in data 
 
 *Applies to: Viva Glint admin*
 
 When any data row or column has an invalid value for any attribute, the entire import  fails until the source data is fixed. After fixing the source data, push the survey again to Viva Insights.
 
-##### Survey error reference
+#### Survey error reference
 
 You might get an error if the file: 
 
@@ -113,7 +113,7 @@ You might get an error if the file:
 
 You might also get an error if there's an issue with the connection setup.
 
-### View survey information in the Data quality tab
+## View survey information in the Data quality tab
 
 *Applies to: Viva Insights admin*
 
@@ -127,7 +127,7 @@ The **Data quality** tab shows you the following information for each imported s
 
 :::image type="content" source="../images/glint-survey-data-quality.png" alt-text="Screenshot that shows the survey data quality tab.":::
 
-### Delete Glint survey data 
+## Delete Glint survey data 
 
 *Applies to: Viva Glint admin*
 
