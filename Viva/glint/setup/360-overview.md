@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/29/2024
+ms.date: 08/15/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -31,9 +31,10 @@ The Microsoft Viva Glint 360 Feedback process gives employees insight into their
 
 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
 
-Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware. The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development.
+Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware. The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
-:::image type="content" source="../../media/glint/setup/360-access-admin-dashboard.png" alt-text="Screenshot of how to access 360s from the Viva Glint admin dashboard.":::
+ 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nzWM]
 
 ## 360 feedback program 
 
