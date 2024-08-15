@@ -83,7 +83,7 @@ To delete previous storyline conversations after you disable storyline, use the 
 
 #### What users experience when storyline is disabled
 
-When you disable storyline for a user, the user can't create a new storyline post and the Storyline tab no longer appears on their user profile--regardless of whether they previously posted anything to their storyline. *If you disable storyline for all users in your network*, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
+When you disable storyline for a user, the user is unable to create new storyline posts and the Storyline tab no longer appears on their user profile--regardless of whether they previously posted to their storyline. *If you disable storyline for all users in your network*, Storylines doesn't appear in the left navigation pane of Viva Engage for the web, or in the top navigation of the Viva Engage app for Teams and Outlook.
 
 Even though a user no longer has a storyline tab on their profile, their storyline conversations are available through the All activity feed and through search. However, those storyline conversations allow no new replies as long as the original author has no storyline privileges.
 
