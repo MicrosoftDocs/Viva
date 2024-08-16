@@ -1,5 +1,5 @@
 ---
-ms.date: 07/10/2024
+ms.date: 08/16/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -141,6 +141,20 @@ Navigate to the **Recent pulse survey** card and select either **Open survey** f
 
 You'll find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
 
+## Employee engagement
+
+This report helps leaders understand the reach of their communications in their organization. Specifically, it lets leaders learn more about their employees’ engagement with leaders' emails, meetings, and shared files, to better understand the effectiveness of different modes of communication.
+
+The report is powered by the following metrics:
+
+| Metric | Definition |
+|-----|-----|
+| Leader reach | [Number of employees who received an email, file, or meeting invite] divided by [Team size] |
+| Communication engagement rate | [Number of employees who opened leaders’ email, opened leaders’ file, or accepted leaders’ meeting] divided by [Number of employees receiving an email, file, or meeting invite] |
+| Email open rate | [Number of employees who opened leaders’ email] divided by [Number of employees who received email from leader] |
+| Meeting attendance rate | [Number of employees who attended leaders’ meetings] divided by [Number of employees who received meeting invite from leader] |
+| File open rate | [Number of employees who opened leaders’ files] divided by [Number of employees who received file from leader] |
+
 ## External focus
 
 This report helps leaders understand how employees are managing external relationships, and how different parts of the company may have been impacted by business shifts.
@@ -213,19 +227,28 @@ This report is powered by the following metrics:
 
 ## Privacy and engagement rates
 
-Viva Insights respects user privacy. For this reason, Viva Insights does not show information about individuals, and when necessary to protect privacy, it reports approximated values in this way:
+Viva Insights respects user privacy and does not show information about individuals. Viva Insights also uses threshold values to protect privacy, and different reports use different thresholds. When necessary to protect privacy, for example, the **Employee engagement** report uses approximated values in this way:
 
-* **Below minimum:** For engagement rates lower than the minimum threshold, the threshold value is reported. For example, when 20 percent of 10 measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "< 25%."
+* **Below minimum**: For engagement rates lower than the minimum threshold, the threshold value is reported. For example, when 10 percent of measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "< 15%." 
 
-* **Between thresholds:** If the actual engagement rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual engagement rate is reported.
+* **Between thresholds**: If the actual engagement rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual engagement rate is reported. 
 
-* **Above maximum:** For engagement rates higher than the maximum threshold, the threshold value is reported. For example, when 80 percent of 10 measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "> 75%."
+* **Above maximum**: For engagement rates higher than the maximum threshold, the threshold value is reported. For example, when 90 percent of measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "> 85%."
 
-Engagement rate thresholds:
+##### Thresholds for the **Employee engagement** report
+
+| Number of employees | Engagement rate | 
+|---|---|
+| > 10 | Minimum: 15% <br> <br /> Maximum: 85% |
+
+
+##### Thresholds for the **Hybrid workplace** report
 
 | Number of employees | Engagement rate |
 |---|---|
 | 10-20 | Minimum: 25% <br> <br /> Maximum: 75% |
 | > 21 | Minimum: 10% <br> <br /> Maximum: 90% |
+
+### Related resources
 
 [Learn more about privacy in Viva Insights](../advanced/privacy/privacy.md).
