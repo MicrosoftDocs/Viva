@@ -40,7 +40,9 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add the News card](#add-the-news-card).
 - [Add the OneDrive card](#add-the-onedrive-card).
 - [Add the People card](#add-the-people-card).
+- [Add the Quick links card](#add-the-quick-links-card).
 - [Add a Shifts card](#add-a-shifts-card).
+- [Add a Stream playlist card](#add-a-stream-playlist-card).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a partner card or Microsoft app](#add-a-partner-card-or-microsoft-app).
 - [Add a Topics card](#add-a-topics-card).
