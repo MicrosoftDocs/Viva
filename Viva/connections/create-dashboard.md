@@ -344,9 +344,9 @@ The Assigned tasks card allows users to create and view tasks from the card or o
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-> [!NOTE]
->
-> The size of the card will affect how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
+   > [!NOTE]
+   >
+   > The size of the card will affect how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
 
    ![Screenshot showing how to choose a card size.](/viva/media/connections/create-dashboard/assigned-tasks-card-properties.png)
 
@@ -521,7 +521,7 @@ Use the Quick links card to provide a list of relevant links or files selected b
 
 9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-:::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting." lightbox="../media/connections/create-dashboard/quick-links-properties-links-at.png":::
+   :::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting." lightbox="../media/connections/create-dashboard/quick-links-properties-links-at.png":::
 
 ## Add a Shifts card
 
@@ -557,7 +557,7 @@ The Stream playlist card displays a list of videos to users that can be viewed i
 
 5. Under source, select a **SharePoint site** that has the playlist you wish to display. You can search for a SharePoint site by its title, URL, or select from a list of frequented sites.
 
-:::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-1.png" alt-text="Screenshot of the Stream playlist properties pane showing options for selecting a source from SharePoint" lightbox="../media/connections/create-dashboard/stream-playlist-properties-1.png":::
+   :::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-1.png" alt-text="Screenshot of the Stream playlist properties pane showing options for selecting a source from SharePoint" lightbox="../media/connections/create-dashboard/stream-playlist-properties-1.png":::
 
 6. Under playlist, select the **playlist** from the drop-down of available playlists found from your selected source.
 
@@ -574,7 +574,7 @@ The Stream playlist card displays a list of videos to users that can be viewed i
 
 10. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-:::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-2.png" alt-text="Screenshot of the Stream playlist properties pane showing playlist customization options." lightbox="../media/connections/create-dashboard/stream-playlist-properties-2.png":::
+    :::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-2.png" alt-text="Screenshot of the Stream playlist properties pane showing playlist customization options." lightbox="../media/connections/create-dashboard/stream-playlist-properties-2.png":::
 
 ## Add a Teams app card
 
