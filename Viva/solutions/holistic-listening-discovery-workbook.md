@@ -25,8 +25,6 @@ Build your holistic employee listening strategy and design a program that reflec
 
 Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
 
-:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
-
 ## The purpose of this workbook
 
 In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take some time to align with internal stakeholders and complete this workbook as a team.
