@@ -1,6 +1,6 @@
 ---
 title: Viva Glint 360 feedback General Settings 
-description: 
+description: 360 feedback setup begins in the General Settings section of the admin dashboard.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -22,7 +22,7 @@ ms.date: 08/19/2024
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
 
-From the Glint admin dashboard, select the Configuration symbol and then General Settings. Review selections that apply to all your Viva Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744), focusing on these three items:
+From the Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. Review selections that apply to all your Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744), focusing on these three items:
 
 </div>
 
