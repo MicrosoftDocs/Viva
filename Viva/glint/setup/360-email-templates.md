@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program email templates (preview)
+title: Viva Glint 360 feedback program email templates
 description: Use these email templates to inform your organization about 360 feedback programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# Viva Glint 360 feedback program email templates (preview)
+# Viva Glint 360 feedback program email templates
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
