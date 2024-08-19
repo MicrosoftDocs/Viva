@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords:vision strategy, vision planning
+keywords: vision strategy, vision planning
 ms.collection: 
  - m365initiative-viva
  - selfserve
