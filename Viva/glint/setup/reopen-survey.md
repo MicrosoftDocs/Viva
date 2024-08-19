@@ -19,8 +19,6 @@ ms.date: 08/24/2024
 
 # Reopen a recently closed Viva Glint survey
 
-## Reopen a survey window for a recently closed survey
-
 Sometimes survey takers may need extra time to complete a survey or your response rate may not be as high as you hoped. Admins can reopen a survey as long as a new cycle hasn't started. For best results, reopen a recently closed survey within a day or two of the survey cycle ending.  
 
 Procedure:
