@@ -14,14 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/19/2024
 ---
 
 # Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program (preview)
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available beginning on 8/24/2024.
 
 >[!TIP]
 > Although *Manage Subjects* shows on the 360 Program Summary page ahead of *Cycle Settings*, configure cycle settings before adding subjects. Access the *Manage Subjects* section after choosing your cycle.
