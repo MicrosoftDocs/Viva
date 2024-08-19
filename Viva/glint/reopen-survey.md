@@ -1,4 +1,4 @@
---
+---
 title: Reopen a closed Viva Glint survey
 description: Provide extra time to survey takers to increase your survey response rate.
 ms.author: JudithWeiner
