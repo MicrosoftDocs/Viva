@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# 360 program design and templates (preview)
+# 360 program design and templates 
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
