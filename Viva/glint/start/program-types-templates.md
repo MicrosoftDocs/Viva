@@ -65,3 +65,5 @@ Viva Glint offers prescribed templates and a blank template option for each type
 ## Align your organization to make the most of Viva Glint programs
 
 [Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](https://go.microsoft.com/fwlink/?linkid=2283226)
+
+:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
