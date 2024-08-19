@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 08/19/2024
 ---
 
-## Viva Holistic Listening Vision and Strategy Discovery Workbook 
+# Viva Holistic Listening Vision and Strategy Discovery Workbook 
 
 **Articulate your business priorities and needs.** 
 
