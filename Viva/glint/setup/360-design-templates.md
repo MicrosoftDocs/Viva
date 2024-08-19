@@ -1,5 +1,5 @@
 ---
-title: 360 program design and templates (preview)
+title: 360 program design and templates 
 description: Learn about 360 program design.
 ms.author: JudithWeiner
 author: JudyWeiner
