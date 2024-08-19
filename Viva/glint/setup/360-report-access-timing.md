@@ -1,5 +1,5 @@
 ---
-title: 360 Feedback report access and timing (preview)
+title: 360 Feedback report access and timing 
 description: Decide whether subjects, coaches, or managers in a Viva Glint 360 feedback report receive access to a subject’s report, and choose the timing. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 08/19/2024
 ---
 
-# 360 Feedback report access and timing (preview)
+# 360 Feedback report access and timing
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
