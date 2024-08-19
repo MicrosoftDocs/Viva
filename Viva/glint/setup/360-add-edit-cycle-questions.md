@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# Add and edit 360 cycle questions (preview)
+# Add and edit 360 cycle questions 
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
