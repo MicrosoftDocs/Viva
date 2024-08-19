@@ -1,6 +1,6 @@
 ---
 title: Reopen a recently closed Viva Glint survey cycle
-description: Viva Glint suggests changing a live survey only when necessary.
+description: To increase participation rates, a recently closed survey cycle can be reopened.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -28,7 +28,7 @@ Sometimes survey takers may need extra time to complete a survey or your respons
 3. In the **Survey Cycles** section, toggle to the **Completed** tab.
 4. From the **Actions** menu, select **Reopen Survey**.
 
-       :::image type="content" source="../../media/glint/setup/reopen-survey.png" alt-text="Screenshot of the steps to take to reopen a survey window .":::
+   :::image type="content" source="../../media/glint/setup/reopen-survey.png" alt-text="Screenshot of the steps to take to reopen a survey window .":::
 
 5. A **Reopen Survey Cycle** window opens. Consider the following before moving on:
    - Notification emails about this survey's close date and Team Conversatiosn are rescheduled based on the new close date. If you prefer, disable all future notification emails about this survey cycle. 
