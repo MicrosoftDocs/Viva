@@ -1,5 +1,5 @@
 ---
-title: 360 core survey questions (preview)
+title: 360 core survey questions 
 description: View the 360 program core items.
 ms.author: JudithWeiner
 author: JudyWeiner
