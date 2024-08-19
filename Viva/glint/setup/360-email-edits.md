@@ -1,5 +1,5 @@
 ---
-title: Customize Viva Glint 360 email content (preview)
+title: Customize Viva Glint 360 email content 
 description: 
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# Customize Viva Glint 360 email content (preview)
+# Customize Viva Glint 360 email content 
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
