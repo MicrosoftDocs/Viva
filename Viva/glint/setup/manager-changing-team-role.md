@@ -56,7 +56,7 @@ Trend for employee **Ben**
 - Ben’s eSat score of 76 is part of Mike’s Team score and feeds into the HR overall score.
 
 **Survey 2**
-- Ben moves to Finance and now his manager is Lucy.
+- Ben moves to Finance and now reports to Lucy.
 - Ben's eSat score of 76 stays as part Mike’s trend. 
 
 **Future organizational changes don't affect any scores.**
@@ -77,10 +77,10 @@ Trend for manager **David**
 **Survey 2**
 - Michelle left the company.
 - David takes over to manage team 2.
-  - He takes his score from survey 1 for engagement with him (82).
-  - He doesn't inherit Michelle’s score from survey 1.
-  - The trend score for Michelle in survey 1 was a snapshot in time based on employees' feedback during this time.
-  - There is no link of Michelle's score to David.
+  - David takes his score from survey 1 for engagement with him (82).
+  - David doesn't inherit Michelle’s score from survey 1.
+  - The trend score for Michelle in survey 1 was a snapshot in time based on employees' feedback.
+  - There's no link of Michelle's score to David.
 
 **In this scenario, the team can share Michelle’s report from survey 1.**
 
@@ -90,7 +90,7 @@ Trend for manager **David**
 
 **Survey 1**
 - Caroline is the manager for Team HR.
-- Their eSat score is 91.
+- The HR team's eSat score is 91.
 
 **Survey 2**
 
