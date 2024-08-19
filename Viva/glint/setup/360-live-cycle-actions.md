@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# Viva Glint 360 live cycle management (preview)
+# Viva Glint 360 admin live cycle management 
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
