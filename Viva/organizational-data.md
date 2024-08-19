@@ -101,9 +101,6 @@ There are two types of attributes you can add in your organizational data file: 
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
 
 
-> [!NOTE]
-> The maximum number of total attributes allowed in the system is 105, which includes required attributes.
-
 #### Sample data file
 Here's an example snippet of a valid .csv file:
 
@@ -121,13 +118,13 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 For more information about attributes, see the [Attribute reference](#attribute-reference).
 
 ### Step 3 - Import your organizational data for the first time 
-After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights) or from a SharePoint site.
+After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights-licensed customers) or from a SharePoint site.
 
-#### Upload the .csv file from your computer (for Viva Insights users)
+#### Upload the .csv file from your computer (for Viva Insights-licensed customers)
 After you create the .csv file with your data, you can upload it directly from your local files. 
 
 >[!NOTE]
-> - Local upload is only available for Viva Insights users.
+> - Local upload is only available for Viva Insights-licensed customers.
 > - There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
 
 :::image type="content" source="media/orgdata-import-local.png" alt-text="A screenshot shows local import option. ":::
@@ -159,7 +156,7 @@ Before you import the data into Viva, you need the path to the file on SharePoin
 ##### Import the data into Microsoft 365
 Now you're ready to import the data. 
 
-1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started**.
+1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
 3. On the **Import data from SharePoint** page, enter the SharePoint location where you saved your .csv file. (If you copied the location at the end of the upload step, paste it here.) 
 1. Confirm that you understand that the data you upload here may be processed by Viva and Microsoft 365, as well as non-Microsoft services that you've granted access to the data through Microsoft Graph. Select **Next**.
 1. Review the details for your upload, and then select **Begin validation**.
