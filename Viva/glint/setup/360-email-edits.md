@@ -1,6 +1,6 @@
 ---
 title: Customize Viva Glint 360 email content 
-description: 
+description: The  Microsoft 365 admin can configure a custom email domain for your organization
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -24,7 +24,7 @@ ms.date: 8/19/2024
 
 ## Custom sending domains and branding (optional)
 
-In the [Microsoft 365 Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your Microsoft 365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
+In the [Microsoft 365 Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your Microsoft 365 admin can optionally configure a custom email domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
 - [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
