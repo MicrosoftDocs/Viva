@@ -21,7 +21,7 @@ ms.date: 08/19/2024
 
 **Articulate your business priorities and needs.** 
 
-In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take time to align with your internal stakeholders. 
+Build your holistic employee listening strategy and design a program that reflects the needs of your organization strategically. Take time to align with your internal stakeholders. 
 
 Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
 
@@ -29,20 +29,16 @@ Download and complete our [Holistic Listening Vision and Strategy Discovery Work
 
 ## The purpose of this workbook
 
-In order to build your holistic employee listening strategy and design aprogram that reflects the needs of your organization, take some time to align with internal stakeholders and complete this workbook as a team.
+In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take some time to align with internal stakeholders and complete this workbook as a team.
 
-This workbook helps you articulate the critical business information that are important to consider alongside your listening strategy. Continue to use this sustainable guide - track your progress on achieving your goals over time.
+This workbook helps you articulate the critical business information that is important to consider alongside your listening strategy. Continue to use this sustainable guide - track your progress on achieving your goals over time.
 
 ## Who should contribute?
 
-To ensure success, responses to the workbook should be a representation of your entire organization. To accomplish this, we strongly recommend that you review this 
-workbook internally with your executive sponsors, senior business leaders, and project teams to create alignment and ensure all feedback and ideas are 
-represented.
+To ensure success, responses to the workbook should be a representation of your entire organization. Review this workbook with your executive sponsors, senior business leaders, and project teams to create alignment and ensure all feedback and ideas are represented.
 
 ## Revisit your Discovery Workbook once a year
 
-If you have a Viva People Science consultant or partner, send the completedworkbook back to them via a Secure File Transfer method of 
-your choice. A meeting will be scheduled between you and your Consultant to review the information you provided.
+If you have a Viva People Science consultant or partner, send the completed workbook back to them via a Secure File Transfer method of your choice. A meeting is scheduled between you and your consultant to review the information you provided.
 
-If you don't have professional services support, save the workbook and revisit it annually to track your progress. Use the information 
-to help you build your listening programs.
+If you don't have professional services support, save the workbook and revisit it annually to track your progress. Use the information to help you build your listening programs.
