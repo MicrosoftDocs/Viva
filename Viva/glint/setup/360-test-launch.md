@@ -1,5 +1,5 @@
 ---
-title: Test and launch a Viva Glint 360 feedback cycle (preview)
+title: Test and launch a Viva Glint 360 feedback cycle 
 description: Check every detail of a 360 feedback cycle before selecting Schedule Cycle.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -18,7 +18,7 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Test and launch a Viva Glint 360 feedback cycle (preview)
+# Test and launch a Viva Glint 360 feedback cycle
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
