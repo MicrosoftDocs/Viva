@@ -63,20 +63,20 @@ Subjects can all see all completed feedback history.
 
 ## Allow 360 subjects to create Focus Areas
 
-Following the procedure for granting feedback access, enable Create Focus Areas permission for subjects to allow them to create a Focus Area from their 360 report. This permission enables the Focus Areas tab on their Glint dashboard. 
+Following the procedure for granting feedback access, enable **Create Focus Areas** permission for subjects to allow them to create a Focus Area from their 360 report. This permission enables the **Focus Areas** tab on their Glint dashboard. 
 
-:::image type="content" source="../../media/glint/setup/360-focus-area-conversations.png" alt-text="Screenshot of confirming changes to permissions.":::
+:::image type="content" source="../../media/glint/setup/360-focus-area-conversations.png" alt-text="Screenshot of Focus Areas tab.":::
 
 >[!NOTE]
 >Your organization may opt to substitute the word Goals for Focus Areas. There are many opportunities to customize the program to use terminology which is comfortable in your business. *For this reason, written guidance and images may not always appear verbatim.*
 
 ## Add and edit employees after the initial role creation
 
-Use the **Add/Edit Employees** button to open the *Choose a way to add employees* window. Follow the on-screen guidance.
+Use the **Add/Edit Employees** button to open the **Choose a way to add employees** window. Follow the on-screen guidance.
 
 :::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" lightbox="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
 
 > [!TIP]
-> Within a user’s profile, use the View As feature to confirm a user’s access to a program.
+> Within a user’s profile, use the **View As** feature to confirm a user’s access to a program.
 
 
