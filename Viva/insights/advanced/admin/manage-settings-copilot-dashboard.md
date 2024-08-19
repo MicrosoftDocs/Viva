@@ -1,5 +1,5 @@
 ---
-ms.date: 08/15/2024
+ms.date: 08/19/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -247,7 +247,7 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 *Applies to: Microsoft 365 global admins*
 
 >[!Important]
->If you don’t create an exclusion list, *all* employees who have a Copilot license are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
+>If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
 
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.
