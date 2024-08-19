@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# Viva Glint 360 competencies and reporting (preview)
+# Viva Glint 360 competencies and reporting 
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
