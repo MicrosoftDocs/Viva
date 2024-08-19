@@ -21,14 +21,12 @@ ms.date: 08/24/2024
 
 Sometimes survey takers may need extra time to complete a survey or your response rate may not be as high as you hoped. Admins can reopen a survey as long as a new cycle hasn't started. For best results, reopen a recently closed survey within a day or two of the survey cycle ending.  
 
-Procedure:
+## Procedure:
 
 1. Select the **Configuration** symbol on your admin dashboard (landing page).
 2. Select **Survey Programs**.
 3. In the **Survey Cycles** section, toggle to the **Completed** tab.
 4. Using the horizontal elipses (overflow menu) next to the survey you wish to reopen, choose **Reopen Survey**.
-
-    :::image type="content" source="../../media/glint/setup/reopen-survey-window.png" alt-text="Screenshot of the steps to take to reopen a survey window from a completed cycle.":::
 
 5. A **Reopen Survey Cycle** window opens. Consider the following before moving on:
    - Notification emails about this survey's close date and Team Conversatiosn are rescheduled based on the new close date. If you prefer, disable all future notification emails about this survey cycle. 
@@ -36,8 +34,6 @@ Procedure:
    - The Team Conversations for this survey is deleted and regenerated after the survey closes on the new date. It's not available while the survey is reopened.
    - Review any scheduled Nudges. They aren't rescheduled automatically. 
 6. Select a new close date for this survey.
-
- :::image type="content" source="../../media/glint/setup/new-survey-close-date.png" alt-text="Screenshot of the window to choose a new survey close date.":::
    
    > [!NOTE]
    > A survey extension can't close past the start date of the next scheduled survey. If you choose an invalid date, you see a message directing you to choose a different date.
