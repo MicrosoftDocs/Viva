@@ -24,8 +24,6 @@ ms.date: 8/19/2024
 
 This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting-access.png" lightbox="../../media/glint/setup/360-competencies-reporting-access.png" alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
-
 ## Competencies
 
 Competencies are a set of verifiable characteristics and skills that enable and improve the efficiency of performing work. 
