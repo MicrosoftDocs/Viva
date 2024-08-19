@@ -44,5 +44,5 @@ represented.
 If you have a Viva People Science consultant or partner, send the completedworkbook back to them via a Secure File Transfer method of 
 your choice. A meeting will be scheduled between you and your Consultant to review the information you provided.
 
-If you don't have professional services support, save the workbook and revisit it once a year to track your progress. Use the information 
+If you don't have professional services support, save the workbook and revisit it annually to track your progress. Use the information 
 to help you build your listening programs.
