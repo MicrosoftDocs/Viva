@@ -46,7 +46,7 @@ Your email looks like this:
 
 :::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
 
-- Select feedback providers from your Glint dashboard
+- Select **Feedback providers** from your Glint dashboard
   
   - From your Glint manager dashboard, in the Feedback tab, you see that you have a 360 program in progress.
  
@@ -75,11 +75,11 @@ If you haven’t had time or forgot to select feedback providers, you receive th
 
 ## Step 2 - Take your self-assessment
 
-From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
+From the **Feedback** tab on your Glint dashboard, select **View** for your program. Now **Step 2** is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
 
-:::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
+:::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the self-assessment window.":::
 
-You're taken to the first page of your self-assessment:
+You're taken to the first page of the self-assessment:
 
 :::image type="content" source="../../media/glint/setup/360-first-page-self.png" alt-text="Screenshot of the first page of the self-assessment.":::
 
