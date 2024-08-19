@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 competencies and reporting (preview)
+title: Viva Glint 360 competencies and reporting 
 description: Competencies are verifiable characteristics and skills, which enable and improve the efficiency of performing work. Learn to develop your competency model.
 ms.author: JudithWeiner
 author: JudyWeiner
