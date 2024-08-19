@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/19/2024
 ---
 
-# 360 core survey questions (preview)
+# 360 core survey questions
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
