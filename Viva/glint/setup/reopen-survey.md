@@ -1,4 +1,4 @@
---
+---
 title: Reopen a recently closed Viva Glint survey
 description: Viva Glint suggests changing a live survey only when necessary.
 ms.author: JudithWeiner
