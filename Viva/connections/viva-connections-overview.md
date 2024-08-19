@@ -171,7 +171,7 @@ Resources are the navigational links that are set up and customized from the Tea
 
 > [!NOTE]
 >
-> - Up to 48 resource links can be created in the new Resources section.
+> Up to 48 resource links can be created in the Resources section.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-resources-overview.png" alt-text="Screenshot of the resource section within the Viva Connections experience." lightbox="../media/connections/viva-connections-overview/vc3-resources-overview.png":::
 
@@ -185,7 +185,7 @@ Accessing Viva Connections from a tablet or mobile device features a more compac
 
 > [!NOTE]
 >
-> - The spotlight will not display in the mobile experience at this time. A future update is planned to bring this feature to mobile.
+> The spotlight will not display in the mobile experience at this time. A future update is planned to bring this feature to mobile.
 
 ### The Viva Connections desktop experience
 
@@ -242,10 +242,6 @@ A tailored experience is one in which content is automatically displayed accordi
 - **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Microsoft Entra ID groups for targeting so that users in different groups see relevant navigation items.
 
 <br>
-
-> [!NOTE]
->
-> Audience targeting for links in the new Resource section will be rolled out in Q2 2024. Audience targeting for global navigation will still be available.  
 
 |Capability name |Curated vs. tailored  |Details  |
 |---------|---------|---------|
