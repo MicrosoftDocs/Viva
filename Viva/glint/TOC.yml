@@ -213,7 +213,7 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      - name: Survey program types
+      - name: Discovery Workbook and survey program types
         href: start/program-types-templates.md  
       - name: Set up and customize programs
         href: setup/customize-program.md

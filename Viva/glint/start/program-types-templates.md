@@ -1,12 +1,12 @@
 ---
-title: Viva Glint program types and associated templates 
+title: Viva Glint Discovery Workbook and program types  
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency
+keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency, holistic listening, discovery workbook, vision strategy, vision planning
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,18 +14,20 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2024
+ms.date: 08/19/2024
 ---
 
-# Viva Glint program types and associated templates
+# Viva Glint Discovery Workbook and program types 
 
-Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
+Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
 
-Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition.
+Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Our Viva People Science research team continually updates survey items and develops templates and suggestions to provide meaningful insights into the current world of work.
 
-In addition to **Engagement survey programs**, Glint customers can opt into **Employee Lifecycle programs.**
+## Plan your program by using the  Holistic Listening Vision and Strategy Discovery Workbook 
 
-Our Viva People Science team continually updates survey items and develops templates to provide meaningful insights into the current world of work.
+**Articulate your business priorities and needs.** In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take time to align with your internal stakeholders. Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). This workbook helps you articulate the critical business information that is important to consider alongside your listening strategy and track the progress of your goals over time. 
+
+:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
 
 ## Two categories of surveys 
 
