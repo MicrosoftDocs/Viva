@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/01/2024
+ms.date: 08/19/2024
 ---
 
 # Manager reporting access when changing team or role
@@ -53,15 +53,15 @@ Trend for employee **Ben**
 
 **Survey 1**
 - Ben’s manager is Mike (HR).
-- Ben’s eSat score of 76 on eSat is part of Mike’s Team score and feeds into the HR overall score.
+- Ben’s eSat score of 76 is part of Mike’s Team score and feeds into the HR overall score.
 
 **Survey 2**
 - Ben moves to Finance and now his manager is Lucy.
 - Ben's eSat score of 76 stays as part Mike’s trend. 
 
 **Future organizational changes don't affect any scores.**
-- Ben always has the esat score of 76 for Survey 1.
-- Benand always feeds into the trend score for Mike.
+- Ben always has the eSat score of 76 for Survey 1.
+- Ben's score always feeds into the trend score for Mike.
 
 ### Trend example: Manager hierarchy - manager
 
@@ -79,7 +79,7 @@ Trend for manager **David**
 - David takes over to manage team 2.
   - He takes his score from survey 1 for engagement with him (82).
   - He doesn't inherit Michelle’s score from survey 1.
-  - The trend score for Michelle in survey 1 was a snapshot in time based on employees feedback during this time.
+  - The trend score for Michelle in survey 1 was a snapshot in time based on employees' feedback during this time.
   - There is no link of Michelle's score to David.
 
 **In this scenario, the team can share Michelle’s report from survey 1.**
@@ -97,13 +97,10 @@ Trend for manager **David**
 - Tracey left the company.
    - Tracey continues to show in historical reports in the manager hierarchy.
 - Caroline moved over to Team Comms as manager.
-  - Caroline keeps the history of the 91 Esat score.
+  - Caroline keeps the history of the 91 eSat score.
 - Team HR gets a new manager.
 
 **Organizational restructure:** 
 - New managers don't appear in the trend
 - Changes in organizational levels don't appear in data.
 - The new HR manager doesn't inherit Caroline's trend
-
-
-
