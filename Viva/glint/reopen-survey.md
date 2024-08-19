@@ -1,6 +1,6 @@
 --
-title: Reopen a recently closed Viva Glint survey
-description: Viva Glint suggests changing a live survey only when necessary.
+title: Reopen a closed Viva Glint survey
+description: Provide extra time to survey takers to increase your survey response rate.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -17,13 +17,11 @@ ms.localizationpriority: high
 ms.date: 08/24/2024
 ---
 
-# Reopen a recently closed Viva Glint survey
-
-## Reopen a survey window for a recently closed survey
+# Reopen a closed Viva Glint survey
 
 Sometimes survey takers may need extra time to complete a survey or your response rate may not be as high as you hoped. Admins can reopen a survey as long as a new cycle hasn't started. For best results, reopen a recently closed survey within a day or two of the survey cycle ending.  
 
-Procedure:
+## Procedure:
 
 1. Select the **Configuration** symbol on your admin dashboard (landing page).
 2. Select **Survey Programs**.
