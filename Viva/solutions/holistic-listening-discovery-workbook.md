@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, survey frequency, holistic listening, discovery workbook, vision strategy, vision planning
+keywords:vision strategy, vision planning
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -23,7 +23,7 @@ ms.date: 08/19/2024
 
 Build your holistic employee listening strategy and design a program that reflects the needs of your organization strategically. Take time to align with your internal stakeholders. 
 
-Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
+Download and complete the Viva [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
 
 ## The purpose of this workbook
 
