@@ -13,7 +13,7 @@ items:
     - name: Microsoft Viva language support
       href: viva-language-support.md
     - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
-      href: /viva/solutions/holistic-listening-discovery-workbook.md
+      href: solutions/holistic-listening-discovery-workbook.md
     - name: Use Organizational Data in Microsoft 365
       href: organizational-data.md  
       items:
