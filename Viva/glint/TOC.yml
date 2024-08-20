@@ -305,7 +305,7 @@ items:
               - name: User roles and permissions
                 href: setup/360-roles-permissions.md
               - name: Program design and templates
-                href: 360-design-templates.md
+                href: setup/360-design-templates.md
           - name: Manage 360 cycles
             items:
               - name: Create a new 360 cycle
