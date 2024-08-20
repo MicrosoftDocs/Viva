@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/19/2024
+ms.date: 08/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -264,9 +264,9 @@ The following table provides more details about the Organizational Data in Micro
 |14|Microsoft_CompanyOfficeCity|The city of the company office the user is associated with. This is the publicly available office address city.|String|Redmond|
 |15|Microsoft_CompanyOfficeState|The state. This is the publicly available company office state.|String|Washington|
 |16|Microsoft_CompanyOfficeCountryOrRegion|The country or region. It's a free-format string value, for example, "United States". This is the publicly available company office country or region.|String|United States|
-|17|Microsoft_CompanyOfficePostalCode|The postal code. This is the publicly available company office postal code.|String|98004|
+|17|Microsoft_CompanyOfficePostalCode|The publicly available company office postal code.|String|98004|
 |18|Microsoft_Company|Company name.|String|Contoso|
-|19|Microsoft_CompanyCode||||
+|19|Microsoft_CompanyCode|Legal entity number of the company or its subdivision.|String|A2518|
 |20|Microsoft_SecondaryJobTitle|Secondary job title for the employee|String|Software engineer|
 |21|Microsoft_UserSkillNames|Skills the employee has, separated by commas. This value is used for Viva Skills inferencing, so it's important to make sure the field uploaded here is a field that you want to use to generate skills for your users.|String|Project management, organization|
 
@@ -294,3 +294,5 @@ The following table shows how Organizational Data in Microsoft 365 attributes ma
 |16|Microsoft_CompanyOfficeCountryOrRegion|positions -> positionDetail -> companyDetail -> physicalAddress -> countryOrRegion|
 |17|Microsoft_CompanyOfficePostalCode|positions -> positionDetail -> companyDetail -> physicalAddress -> postalCode|
 |18|Microsoft_Company|positions -> positionDetail -> companyDetail -> displayName|
+|19|Microsoft_CompanyCode|positions -> positionDetail -> companyDetail ->companyCode|
+|20|Microsoft_SecondaryJobTitle|positions -> positionDetail -> secondaryJobTitle|
