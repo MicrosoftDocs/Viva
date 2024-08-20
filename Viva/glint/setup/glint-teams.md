@@ -32,7 +32,7 @@ In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your 
 1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Polices**.
 1. Set up a policy (or modify an existing policy) to include the Viva Glint app for all users in your organization or a select group of users: [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 1. When the Glint app is installed for users, they receive a welcome message in Microsoft Teams.
-
+   
    :::image type="content" source="../../media/glint/setup/teams-install-notice.png" alt-text="Screenshot of the Teams message that users receive when Viva Glint has been installed to Microsoft Teams.":::
 
 ### Install Microsoft Viva Glint in Teams as an individual
@@ -59,9 +59,9 @@ To enable Microsoft Teams as a Viva Glint admin:
 
 1. Select the **Configuration** symbol and in the **Service Configuration** section, choose **General Settings**. 
 1. In the **Communications** section, switch the **Microsoft Teams** toggle to **Yes**.  
-1. Select **Save Changes** in the top right of the **General Settings** page. 
-
-   :::image type="content" source="../../media/glint/setup/enable-teams-gen-settings.png" alt-text="Screenshot of the Microsoft Teams toggle switched to Yes in General Settings.":::
+1. Select **Save Changes** in the top right of the **General Settings** page.
+   
+   ::image type="content" source="../../media/glint/setup/enable-teams-gen-settings.png" alt-text="Screenshot of the Microsoft Teams toggle switched to Yes in General Settings.":::
 
 ## Survey and Nudges settings
 
@@ -78,7 +78,7 @@ To enable Microsoft Teams at the survey program level:
 1. Select a survey and go to the **Communications** section.  
 1. In the **Channels** section, switch the **Microsoft Teams** toggle to **On**.
 1. Select **Save Changes** in the top right of the **Communications** page.
-
+   
    :::image type="content" source="../../media/glint/setup/enable-teams-surveys.png" alt-text="Screenshot of the Microsoft Teams toggle switched to On in the Communications section of a Glint survey.":::
 
 ### Nudges
@@ -89,5 +89,5 @@ To enable Microsoft Teams for Nudges:
 1. Select **Edit Details** for the **Recipient Group** that should be updated.  
 1. In the **Channels** section, switch the **Microsoft Teams** toggle to **On**.
 1. Select **Save Changes** in the top left of the **Recipient Group Setup** page.
-
+   
    :::image type="content" source="../../media/glint/setup/enable-teams-nudges.png" alt-text="Screenshot of the Microsoft Teams toggle switched to On in the Recipient Group Setup section for a Nudges recipient group.":::
