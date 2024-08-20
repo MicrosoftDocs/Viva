@@ -61,7 +61,7 @@ To enable Microsoft Teams as a Viva Glint admin:
 1. In the **Communications** section, switch the **Microsoft Teams** toggle to **Yes**.  
 1. Select **Save Changes** in the top right of the **General Settings** page.
    
-   ::image type="content" source="../../media/glint/setup/enable-teams-gen-settings.png" alt-text="Screenshot of the Microsoft Teams toggle switched to Yes in General Settings.":::
+   :::image type="content" source="../../media/glint/setup/enable-teams-gen-settings.png" alt-text="Screenshot of the Microsoft Teams toggle switched to Yes in General Settings.":::
 
 ## Survey and Nudges settings
 
