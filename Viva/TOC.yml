@@ -20,7 +20,7 @@ items:
       - name: Use organizational data in the Copilot dashboard
         href: organizational-data-copilot.md    
       - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
-        href: /viva/solutions/glint-insights-integration-overview.md
+        href: solutions/glint-insights-integration-overview.md
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview
@@ -42,7 +42,7 @@ items:
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
-      href: /viva/solutions/holistic-listening-discovery-workbook.md
+      href: solutions/holistic-listening-discovery-workbook.md
     - name: Self-help diagnostics for Viva administrators
       href: /viva/troubleshoot/viva-suite-administration/viva-self-help-diagnostics?toc=/viva/toc.json&bc=/viva/breadcrumb/toc.json 
   - name: Microsoft Viva Amplify
