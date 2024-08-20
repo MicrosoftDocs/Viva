@@ -14,11 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/23/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 08/19/2024
 ---
 
-# Viva Glint 360 program authentication and participant experiences (preview)
+# Viva Glint 360 program authentication and participant experiences 
+
+> [!NOTE]
+> This feature is available beginning on 8/24/2024.
 
 Subjects and others who should have access to a subject’s 360 must first have access to Viva Glint and authenticate with Microsoft Entra ID. 
 Feedback providers also must have access to Viva Glint and authenticate via Microsoft Entra ID to complete the survey. 

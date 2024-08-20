@@ -1,5 +1,5 @@
 ---
-title: 360 User Roles and permissions (preview)
+title: 360 User Roles and permissions 
 description: Admins in Viva Glint have access to create and edit all Glint programs. You may, however, choose to set up an additional user role to *only* have access to edit 360 programs. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/23/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/19/2024
 ---
 
-# 360 User Roles and permissions (preview)
+# 360 User Roles and permissions 
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available beginning on 8/24/2024.
 
 By default, people in the Viva Glint admin role have access to create and edit all Glint programs, including 360s. You may, however, choose to set up an extra user role to *only* have access to edit 360 programs. In this case, you first need to create a user role - or adjust an existing user role - to have exclusive 360 admin permissions. 
 
@@ -64,20 +63,20 @@ Subjects can all see all completed feedback history.
 
 ## Allow 360 subjects to create Focus Areas
 
-Following the procedure for granting feedback access, enable Create Focus Areas permission for subjects to allow them to create a Focus Area from their 360 report. This permission enables the Focus Areas tab on their Glint dashboard. 
+Following the procedure for granting feedback access, enable **Create Focus Areas** permission for subjects to allow them to create a Focus Area from their 360 report. This permission enables the **Focus Areas** tab on their Glint dashboard. 
 
-:::image type="content" source="../../media/glint/setup/360-focus-area-conversations.png" alt-text="Screenshot of confirming changes to permissions.":::
+:::image type="content" source="../../media/glint/setup/360-focus-area-conversations.png" alt-text="Screenshot of Focus Areas tab.":::
 
 >[!NOTE]
 >Your organization may opt to substitute the word Goals for Focus Areas. There are many opportunities to customize the program to use terminology which is comfortable in your business. *For this reason, written guidance and images may not always appear verbatim.*
 
 ## Add and edit employees after the initial role creation
 
-Use the **Add/Edit Employees** button to open the *Choose a way to add employees* window. Follow the on-screen guidance.
+Use the **Add/Edit Employees** button to open the **Choose a way to add employees** window. Follow the on-screen guidance.
 
 :::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" lightbox="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
 
 > [!TIP]
-> Within a user’s profile, use the View As feature to confirm a user’s access to a program.
+> Within a user’s profile, use the **View As** feature to confirm a user’s access to a program.
 
 

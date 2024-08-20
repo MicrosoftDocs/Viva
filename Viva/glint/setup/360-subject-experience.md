@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program - subject experience (preview)
+title: Viva Glint 360 feedback program - subject experience
 description: A 360 feedback program is a foundational step toward professional growth and meaningful change. View the 3-step journey.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/19/2024
 ---
 
-# Viva Glint 360 feedback program - subject experience (preview)
+# Viva Glint 360 feedback program - subject experience
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available beginning on 8/24/2024.
 
 A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 isn't a performance evaluation but is truly focused on your development.
 
@@ -47,7 +46,7 @@ Your email looks like this:
 
 :::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
 
-- Select feedback providers from your Glint dashboard
+- Select **Feedback providers** from your Glint dashboard
   
   - From your Glint manager dashboard, in the Feedback tab, you see that you have a 360 program in progress.
  
@@ -76,11 +75,11 @@ If you haven’t had time or forgot to select feedback providers, you receive th
 
 ## Step 2 - Take your self-assessment
 
-From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
+From the **Feedback** tab on your Glint dashboard, select **View** for your program. Now **Step 2** is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
 
-:::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
+:::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the self-assessment window.":::
 
-You're taken to the first page of your self-assessment:
+You're taken to the first page of the self-assessment:
 
 :::image type="content" source="../../media/glint/setup/360-first-page-self.png" alt-text="Screenshot of the first page of the self-assessment.":::
 
