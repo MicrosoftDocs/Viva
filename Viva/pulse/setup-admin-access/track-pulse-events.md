@@ -1,5 +1,5 @@
 ---
-ms.date: 08/2-/2024
+ms.date: 08/20/2024
 title: "Track Viva Pulse events in the Microsoft 365 audit log"
 description: "View Viva Pulse events through Microsoft Purview audit logs."
 ms.reviewer: 
@@ -7,8 +7,7 @@ ms.author: hasrivas
 author: hasrivas
 manager: alisaliddle
 audience: Admin
-f1.keywords:
-- 
+f1.keywords: NOCSH 
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -52,4 +51,4 @@ To view the audit log:
 
 ## Related articles
 
-[Viva Pulse Activities](https://learn.microsoft.com/en-us/purview/audit-log-activities#viva-pulse-activities)
+[Viva Pulse Activities](https://go.microsoft.com/fwlink/?linkid=2283466)
