@@ -1,5 +1,5 @@
 ---
-title: Test and launch a Viva Glint 360 feedback cycle
+title: Test and launch a Viva Glint 360 feedback cycle 
 description: Check every detail of a 360 feedback cycle before selecting Schedule Cycle.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 8/20/2024
 ---
 
-# Test and launch a Viva Glint 360 feedback cycle 
+# Test and launch a Viva Glint 360 feedback cycle
 
 > [!NOTE]
 > This feature becomes available on August 24, 2024.

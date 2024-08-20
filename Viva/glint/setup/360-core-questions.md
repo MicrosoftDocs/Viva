@@ -1,5 +1,5 @@
 ---
-title: 360 core survey questions (preview)
+title: 360 core survey questions 
 description: View the 360 program core items.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/24/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/19/2024
 ---
 
-# 360 core survey questions (preview)
+# 360 core survey questions
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available beginning on 8/24/2024.
 
 In *Cycle Settings*, chooose **Survey Questions**.
 

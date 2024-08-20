@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program overview (preview)
+title: Viva Glint 360 feedback program overview 
 description: The Microsoft Viva Glint 360 Feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/15/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 08/19/2024
 ---
 
-# Viva Glint 360 feedback program overview (preview)
+# Viva Glint 360 feedback program overview 
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available beginning on 8/24/2024.
 
 The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
