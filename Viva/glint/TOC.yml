@@ -213,8 +213,10 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      - name: Discovery Workbook and survey program types
-        href: start/program-types-templates.md  
+      - name: Survey program types and templates
+        href: start/program-types-templates.md
+      - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
+        href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
         href: setup/customize-program.md
       - name: Survey Coach and Tooltips
