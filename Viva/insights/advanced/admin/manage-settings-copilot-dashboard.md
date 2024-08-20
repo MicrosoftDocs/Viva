@@ -1,5 +1,5 @@
 ---
-ms.date: 08/19/2024
+ms.date: 08/20/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -19,7 +19,7 @@ audience: Admin
 # Manage settings for the Microsoft Copilot Dashboard 
 
 >[!Note]
->This feature is rolling out gradually to all customers with more than 100 Copilot assigned licenses.
+>This feature is rolling out gradually to all customers with more than 50 Copilot assigned licenses.
 
 *Applies to: Microsoft 365 global admins and Viva Insights admins* 
 
