@@ -19,26 +19,26 @@ search.appverid:
 
 To monitor security and compliance-related Viva Pulse events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security compliance portal.
   
-To audit events, you must have be assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Pulse events from your home network but not from external networks. You can track the following Viva Pulse events:
+To audit events, you must have been assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Pulse events from your home network but not from external networks. You can track the following Viva Pulse events:
 
-- **User created a Pulse survey** — New Viva Pulse feedback request is created.
-- **User submitted response to a pulse survey** — User provided feedback for a Viva Pulse feedback request.
-- **User extended their pulse survey deadline** — The deadline for the existing Viva Pulse feedback request was extended..
-- **User invited additional users to Pulse survey** — Additional users were invited to an existing Viva Pulse feedback request.
-- **User cancelled a Pulse survey** — User cancelled a Pulse survey.
-- **User shared a pulse report** — Viva Pulse feedback result was shared with users.
-- **User created a Pulse draft** — User created a Pulse draft.
-- **User deleted a Pulse draft** — User deleted a Pulse draft.
-- **Admin deleted an user's data** — Admin deleted an user's data.
-- **User starts a new Pulse report conversation** — User responds to a Pulse open text response to start a new conversation in a Pules report.
-- **User responds to a Pulse report conversation** — User responds to an existing conversation in a Pulse report.
-- **User deletes a Pulse report conversation message** — Admin or User deletes a message which is part of a conversation in a Pulse report.
-- **Admin updated tenant's settings** — Admin updated an organization settings for Viva Pulse.
+- **User created a Pulse survey**—New Viva Pulse feedback request is created.
+- **User submitted response to a pulse survey**—User provided feedback for a Viva Pulse feedback request.
+- **User extended their pulse survey deadline**—The deadline for the existing Viva Pulse feedback request was extended.
+- **User invited additional users to Pulse survey**—More users were invited to an existing Viva Pulse feedback request.
+- **User canceled a Pulse survey**—User canceled a Pulse survey.
+- **User shared a pulse report**—Viva Pulse feedback result was shared with users.
+- **User created a Pulse draft**—User created a Pulse draft.
+- **User deleted a Pulse draft**—User deleted a Pulse draft.
+- **Admin deleted an user's data**—Admin deleted a user's data.
+- **User starts a new Pulse report conversation**—User responds to a Pulse open text response to start a new conversation in a Pules report.
+- **User responds to a Pulse report conversation**—User responds to an existing conversation in a Pulse report.
+- **User deletes a Pulse report conversation message**—Admin or User deletes a message that is part of a conversation in a Pulse report.
+- **Admin updated tenant's settings**—Admin updated an organization setting for Viva Pulse.
 
 
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 
-Before you can view the audit log, you need to turn on [Microsoft 365 audit log search](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It cab take a few hours after you turn it on before you can search the logs.
+Before you can view the audit log, you need to turn on [Microsoft 365 audit log search](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It can take a few hours after you turn it on before you can search the logs.
   
 To view the audit log:
   
