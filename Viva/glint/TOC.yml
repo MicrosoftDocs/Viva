@@ -216,7 +216,7 @@ items:
       - name: Viva Glint survey program types
         href: start/program-types-templates.md
       - name: Holistic Listening Vision and Strategy Discovery Workbook
-        href: ../solutions/holistic-listening-discovery-workbook.md
+        href: viva/solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
         href: setup/customize-program.md
       - name: Survey Coach and Tooltips
