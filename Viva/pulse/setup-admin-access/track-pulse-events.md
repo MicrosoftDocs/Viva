@@ -49,8 +49,6 @@ To view the audit log:
 
 3. Follow the instructions to search audit logs as described in [Search the audit sign-in the Microsoft 365 Security and compliance portal](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c#run).
 
-    :::image type="content" source="../media/track-engage-events-audit-log-inline.png" alt-text="Screen shot showing the Audit Log Search dialog box." lightbox="../media/track-engage-events-audit-log.png":::
-  
 
 ## Related articles
 
