@@ -313,7 +313,7 @@ items:
               - name: Configure cycle settings
                 items:
                   - name: Setup
-                    href: setup/360-config-cycle-settings.md
+                    href: ../viva/360-config-cycle-settings.md
                   - name: Survey questions
                     items:
                        - name: Core questions
@@ -323,7 +323,7 @@ items:
               - name: Feedback provider selections
                 href: setup/overview-feedback-provider-selection.md
               - name: Competencies and survey guidance
-                href: setup/360-compentencies.md
+                href: setup/360-competencies.md
               - name: Report access and timing
                 href: setup/360-report-access-timing.md
               - name: Schedule and communications setup
@@ -335,9 +335,9 @@ items:
           - name: Export and import cycle content
             href: setup/360-export-import.md
           - name: Test and launch
-            href: setup/test-launch
+            href: setup/test-launch.md
           - name: Admin experience during live survey
-            href: setup/360-admin-live-cycle-actions.md
+            href: setup/360-live-cycle-actions.md
           - name: 360 Subject experience
             href: setup/360-subject-experience.md
           - name: 360 Feedback provider experience
