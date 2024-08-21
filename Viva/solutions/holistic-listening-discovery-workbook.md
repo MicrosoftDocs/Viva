@@ -19,7 +19,7 @@ ms.date: 08/21/2024
 
 # Viva Holistic Listening Vision and Strategy Discovery Workbook 
 
-## Download and complete the Viva [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
+## Download and complete the [Viva Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
 
 **Articulate your business priorities and needs.** 
 
