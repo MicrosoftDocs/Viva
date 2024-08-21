@@ -32,7 +32,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
   
 ## Viva Engage and Teams
 
-[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/en-us/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528?storagetype=live).
+[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/en-us/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528)
 
 ## Viva Engage Embed
 
