@@ -313,7 +313,7 @@ items:
         items:
           - name: Make changes to a live survey
             href: setup/change-live-survey.md
-          - name: Reopen a closed survey
+          - name: Reopen or extend a survey cycle
             href: setup/reopen-survey.md
   - name: Support survey participants 
     items:
