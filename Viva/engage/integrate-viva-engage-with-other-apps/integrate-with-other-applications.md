@@ -24,7 +24,7 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 Viva Engage offers various integrations to help make other applications more mobile and social. 
   
 > [!TIP]
-> For many integrations, you need [the Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
+> For many integrations, you need [the Viva Engage community or group's feedID](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f). 
   
 ## Viva Engage for SharePoint
 
@@ -62,9 +62,3 @@ Create your own applications using the data in Viva Engage, including automation
 ### Viva Engage App directory
 
 Review this comprehensive list of Viva Engage apps in the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143).
-  
-## Related articles
-
-[How do I find my Viva Engage group ID?](https://support.office.com/article/b0e49b2c-ca30-4025-b3bc-7bd764c3e2ec)
-
-[Viva Engage Developer Center](https://go.microsoft.com/fwlink/?LinkId=525064)
