@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
 ms.reviewer: smathurin
-ms.date: 09/13/2023
+ms.date: 08/21/2024
 audience: admin
 ms.topic: concept-article
 ms.service: viva-amplify

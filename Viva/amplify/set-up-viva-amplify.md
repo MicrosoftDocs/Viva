@@ -47,7 +47,7 @@ Campaigns are stored in the associated users' OneDrive for Business. Therefore, 
 ### Assign admin roles
 
 >[!IMPORTANT]
->Users need both SharePoint admin and Groups admin roles to be able to manage settings in Viva Amplify.
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify.
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
