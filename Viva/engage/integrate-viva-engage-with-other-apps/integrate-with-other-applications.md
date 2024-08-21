@@ -32,7 +32,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
   
 ## Viva Engage and Teams
 
-[Add a Viva Engage tab to a Teams channel](https://support.office.com/article/9fdca2b6-f03f-4632-87d1-e83b87b458b2).
+[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/en-us/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528?storagetype=live).
 
 ## Viva Engage Embed
 
@@ -57,7 +57,7 @@ The Viva Engage for Salesforce.com Integration automatically delivers your Sales
   
 ## Custom apps using the Yammer APIs
 
-Create your own applications using the data in Viva Engage, including automation tools for backing up data and deactivating users as they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
+Create your own applications, such as automation tools that back up data and deactivate users when they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
   
 ### Viva Engage App directory
 
