@@ -99,7 +99,7 @@ Until your cycle is complete, Step 3 shows as **Awaiting Results**.
 
 During this time, stay engaged:
  - Reaccess your initial welcome email and select **Select feedback providers.**
- - From the Feedback tab on your Glint dashboar, select **My Feedback** and then **View.**
+ - From the Feedback tab on your Glint dashboard, select **My Feedback** and then **View.**
 
 ## Access your 360 report
 
@@ -133,7 +133,7 @@ View the total number of comments and the actual comments left by feedback provi
 
 #### Top relative strengths and Top relative opportunities
 
-In this section, take action to better understand where others see you as effective or where there is an opportunity for improvement.  Select **Take action** to view these insights further.
+In this section, take action to better understand where others see you as effective or where there's an opportunity for improvement.  Select **Take action** to view these insights further.
 
 #### Overall Scores
 
