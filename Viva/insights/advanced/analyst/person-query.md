@@ -78,7 +78,7 @@ Under **Query setup**:
 
 1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
-1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**. [Learn more about Viva Insights metrics](../../advanced/reference/metrics.md).
+1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**. [Learn more about advanced insights metrics](../../advanced/reference/metrics.md).
    
    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
    
