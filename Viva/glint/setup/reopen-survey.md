@@ -1,6 +1,6 @@
 ---
 title: Reopen or extend a Viva Glint survey cycle
-description: To increase participation rates, a recently closed survey cycle can be reopened.
+description: To increase participation rates, a recently closed survey cycle can be reopened or a survey close date can be extended.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,7 +19,7 @@ ms.date: 08/24/2024
 
 # Reopen or extend a Viva Glint survey cycle
 
-Sometimes survey takers may need extra time to complete a survey or your response rate may not be as high as you hoped. Admins can reopen a survey cycle as long as a new cycle hasn't started. The survey cycle can also be extended. 
+Sometimes survey takers may need extra time to complete a survey or your response rate may not be as high as you hoped. Admins can reopen a survey cycle as long as a new cycle isn't started. The survey cycle can also be extended. 
 
 >[!TIP]
 >For best results, reopen a recently closed survey within a day or two of the survey cycle ending.
@@ -29,17 +29,17 @@ Sometimes survey takers may need extra time to complete a survey or your respons
 > [!IMPORTANT]
 > Survey close notifications aren't automatically regenerated once the original closing notification is sent. 
 
-When a survey is closed **and** notification emails have already been sent, the admin needs to manually set new notification dates. Reset new communications in the **Communications** section of **Program Summary**. 
+When a survey is closed **and** notification emails are sent, the admin needs to manually set new notification dates. Reset new communications in the **Communications** section of **Program Summary**. 
 
 Also consider:
 
-- The Team Conversations for this survey is deleted and regenerated after the survey closes on the new date. Team Conversations is not available while the survey is reopened.
+- The Team Conversations for this survey is deleted and regenerated after the survey closes on the new date. Team Conversations isn't available while the survey is reopened.
 - The **Phased Access** user role can't access the results of this survey until the role is regranted access. 
 - Review and reschedule any Nudges already set. They also aren't rescheduled automatically. 
 
 ## Extend a survey that hasn't closed
 
-When a survey is extended before its close date - the survey close notification has not been sent - the notification generation automatically updates. The default for survey close notifications is three days post survey close.
+When a survey is extended before its close date - therefore, the survey close notification isn't sent - the notification generation automatically updates. The default for survey close notifications is three days post survey close.
 >
 >Example:
 >
@@ -51,7 +51,7 @@ When a survey is extended before its close date - the survey close notification 
 1. Select the **Configuration** symbol on your admin dashboard (landing page).
 2. Select **Survey Programs**.
 3. In the **Survey Cycles** section, toggle to the **Completed** tab.
-4. From the horizontal elipses in the program bar, select **Reopen Survey**.
+4. From the horizontal ellipses in the program bar, select **Reopen Survey**.
 
    :::image type="content" source="../../media/glint/setup/reopen-survey-v2.png" alt-text="Screenshot of the steps to take to reopen a survey window.":::
 
