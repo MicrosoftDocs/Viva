@@ -1,12 +1,12 @@
 ---
-title: Viva Glint 360 feedback program - subject experience
+title: Viva Glint 360 feedback program - Subject experience
 description: A 360 feedback program is a foundational step toward professional growth and meaningful change. View the 3-step journey.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: PDF subject guide
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,21 +14,24 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/21/2024
 ---
 
-# Viva Glint 360 feedback program - subject experience
+# Viva Glint 360 feedback program - Subject experience
 
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
 
+**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
+
 A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 isn't a performance evaluation but is truly focused on your development.
 
-Your direct manager assigns you to become a 360 program subject. As a 360 subject you complete a self-assessment and request feedback from various others such as your manager, direct reports (if you’re a people manager) and other collaborators.
+Direct managers assign 360 program subjects. As a 360 subject, a self-assessment is completed and feedback is requested from various others, such as managers, direct reports (if you’re a people manager) and other collaborators.
 
-Your experience:
+## 3-step 360 Subject journey
 
-## 3-step 360 subject journey
+>[!NOTE]
+>This process below is written for a 360 Subject so it is shareable. Best practice is to use the PDF guide linked above.
 
 After accessing your 360 program, begin your three-step journey.
 
