@@ -115,7 +115,7 @@ You receive an email letting you know to review your report. Use the button in t
 
 :::image type="content" source="../../media/glint/setup/360-subjects-feedback-tabs.png" alt-text="Screenshot of the tabs on a subject's Feedback dashboard.":::
 
-Use the **lightbulb** symbol for guidance on how to view the report.
+Use the **light bulb** symbol for guidance on how to view the report.
 
 ### View Insights
 
