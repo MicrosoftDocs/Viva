@@ -40,7 +40,9 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add the News card](#add-the-news-card).
 - [Add the OneDrive card](#add-the-onedrive-card).
 - [Add the People card](#add-the-people-card).
+- [Add the Quick links card](#add-the-quick-links-card).
 - [Add a Shifts card](#add-a-shifts-card).
+- [Add a Stream playlist card](#add-a-stream-playlist-card).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a partner card or Microsoft app](#add-a-partner-card-or-microsoft-app).
 - [Add a Topics card](#add-a-topics-card).
@@ -342,9 +344,9 @@ The Assigned tasks card allows users to create and view tasks from the card or o
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-> [!NOTE]
->
-> The size of the card will affect how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
+   > [!NOTE]
+   >
+   > The size of the card will affect how many buttons are available on the card. The **Add tasks** and **Open Planner** buttons appear on large cards (default size), while on medium sized cards only the **Add tasks** button is shown.
 
    ![Screenshot showing how to choose a card size.](/viva/media/connections/create-dashboard/assigned-tasks-card-properties.png)
 
@@ -448,7 +450,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
 
 2. Select **OneDrive** from the dashboard toolbox.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive card icon." lightbox="../media/connections/create-dashboard/onedrive-card-icon-border.png":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive card icon.":::
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the OneDrive card.
 
@@ -456,7 +458,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
 
 5. Choose your card size from the **Card size** drop-down list.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-card-size.png" alt-text="Screenshot showing card size options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-card-size.png":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-card-size.png" alt-text="Screenshot showing card size options in the OneDrive card properties panel.":::
 
 6. Select a **Source** for files to be displayed from:
     - **Recent**: Recent files the user accessed display.
@@ -465,7 +467,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
 
 7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel.":::
 
 ## Add the People card
 
@@ -491,7 +493,7 @@ The People Search card automatically retrieves contact information from members 
 
 Use the Quick links card to provide a list of relevant links or files selected by admins to users. Users can select the link to be taken to the respective web page or file.
 
-:::image type="content" source="../media/connections/create-dashboard/quick-links-demo.png" alt-text="Screenshot of the Quick links card in action." lightbox="../media/connections/create-dashboard/quick-links-demo.png":::
+:::image type="content" source="../media/connections/create-dashboard/quick-links-demo.png" alt-text="Screenshot of the Quick links card in action.":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
@@ -507,7 +509,7 @@ Use the Quick links card to provide a list of relevant links or files selected b
 
 6. Select a **card size** for the Quick links card.
 
-    :::image type="content" source="../media/connections/create-dashboard/quick-links-properties.png" alt-text="Screenshot of the Quick links properties pane showing card customization options." lightbox="../media/connections/create-dashboard/quick-links-properties.png":::
+    :::image type="content" source="../media/connections/create-dashboard/quick-links-properties.png" alt-text="Screenshot of the Quick links properties pane showing card customization options.":::
 
 7. Under links, select **+ Add link** to add a URL, SharePoint page, or files. Added links show below the **+ Add link** button. You can add up to 20 links.
 
@@ -519,7 +521,7 @@ Use the Quick links card to provide a list of relevant links or files selected b
 
 9. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-:::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting." lightbox="../media/connections/create-dashboard/quick-links-properties-links-at.png":::
+   :::image type="content" source="../media/connections/create-dashboard/quick-links-properties-links-at.png" alt-text="Screenshot of the Quick links properties pane showing where you can manage links and audience targeting.":::
 
 ## Add a Shifts card
 
@@ -541,7 +543,11 @@ The Shifts card shows users information about their next or current shift from t
 
 The Stream playlist card displays a list of videos to users that can be viewed in Microsoft Stream by selecting an existing playlist from a SharePoint site. For more information, see the article on [creating a playlist from SharePoint](/stream/streamnew/stream-playlists-new-creation#create-a-playlist-from-sharepoint).
 
-:::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action." lightbox="../media/connections/create-dashboard/stream-playlist-demo.png":::
+> [!NOTE]
+>
+> The Stream playlist card is currently rolling out and will be fully available by early September 2024. 
+
+:::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action.":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
@@ -555,7 +561,7 @@ The Stream playlist card displays a list of videos to users that can be viewed i
 
 5. Under source, select a **SharePoint site** that has the playlist you wish to display. You can search for a SharePoint site by its title, URL, or select from a list of frequented sites.
 
-:::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-1.png" alt-text="Screenshot of the Stream playlist properties pane showing options for selecting a source from SharePoint" lightbox="../media/connections/create-dashboard/stream-playlist-properties-1.png":::
+   :::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-1.png" alt-text="Screenshot of the Stream playlist properties pane showing options for selecting a source from SharePoint":::
 
 6. Under playlist, select the **playlist** from the drop-down of available playlists found from your selected source.
 
@@ -572,7 +578,7 @@ The Stream playlist card displays a list of videos to users that can be viewed i
 
 10. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-:::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-2.png" alt-text="Screenshot of the Stream playlist properties pane showing playlist customization options." lightbox="../media/connections/create-dashboard/stream-playlist-properties-2.png":::
+    :::image type="content" source="../media/connections/create-dashboard/stream-playlist-properties-2.png" alt-text="Screenshot of the Stream playlist properties pane showing playlist customization options.":::
 
 ## Add a Teams app card
 
@@ -699,11 +705,11 @@ Content in the card is dynamic and changes according to the [users role](/viva/p
 
 The Pulse card tells feedback authors the number of responses an active or recently closed pulse received and provides a link to feedback results in their Viva Pulse account for the recently closed pulse. When multiple feedback results are available, authors are directed to their **Pulses sent** tab within the Viva Pulse Teams app.
 
-   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-closed-state.png" alt-text="Screenshot showing two states of the Viva Pulse card." lightbox="../media/connections/create-dashboard/pulse-card-author-closed-state.png":::
+   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-closed-state.png" alt-text="Screenshot showing two states of the Viva Pulse card.":::
 
 When no open pulses are available, the card displays **send a pulse**, which brings the author to the Viva Pulse Teams app where they can create a new request for feedback to be sent out.
 
-   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-send-pulse.png" alt-text="Screenshot showing the send a pulse state of the Viva Pulse card." lightbox="../media/connections/create-dashboard/pulse-card-author-send-pulse.png":::
+   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-send-pulse.png" alt-text="Screenshot showing the send a pulse state of the Viva Pulse card.":::
 
 > [!NOTE]
 >
@@ -716,13 +722,13 @@ To add the Viva Pulse card to your dashboard:
 
 2. Select **Viva Pulse** from the dashboard toolbox.
 
-      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse card icon." lightbox="../media/connections/create-dashboard/pulse-card-icon.png":::
+      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse card icon.":::
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
 4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
 
-      :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties." lightbox="../media/connections/create-dashboard/pulse-card-properties.png":::
+      :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties.":::
 
 For more information on using Viva Pulse as a feedback author or feedback recipient, see [the Viva Pulse documentation here](https://support.microsoft.com/topic/34c94efe-185d-480e-94a2-27e013a5204b).
 

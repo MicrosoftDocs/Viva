@@ -1,5 +1,5 @@
 ---
-title: Viva Glint Discovery Workbook and program types  
+title: Viva Glint programs and survey types  
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,17 +17,11 @@ ms.localizationpriority: high
 ms.date: 08/19/2024
 ---
 
-# Viva Glint Discovery Workbook and program types 
+# Viva Glint programs and survey types 
 
 Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
 
 Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Our Viva People Science research team continually updates survey items and develops templates and suggestions to provide meaningful insights into the current world of work.
-
-## Plan your program by using the  Holistic Listening Vision and Strategy Discovery Workbook 
-
-**Articulate your business priorities and needs.** In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take time to align with your internal stakeholders. Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). This workbook helps you articulate the critical business information that is important to consider alongside your listening strategy and track the progress of your goals over time. 
-
-:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
 
 ## Two categories of surveys 
 
@@ -67,3 +61,9 @@ Viva Glint offers prescribed templates and a blank template option for each type
 |[Patient Safety template](/viva/glint/setup/patient-safety-survey)|Special topic|Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.|Recurring|Healthcare managers and teams|All eligible employees|
 |[Manager Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231106)|Special topic|Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness|Recurring|Managers and teams|All eligible employees|
 |[Team Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231201)|Special topic|Identifies a team's unique dynamics and opportunities for improvement|Recurring|Managers and teams|All eligible employees|
+
+## Align your organization to make the most of Viva Glint programs
+
+[Use the Viva Holistic Listening Vision & Strategy Discovery Workbook](https://go.microsoft.com/fwlink/?linkid=2283226)
+
+:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
