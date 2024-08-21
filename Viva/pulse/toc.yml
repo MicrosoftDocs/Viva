@@ -34,7 +34,7 @@ items:
     - name: Track Viva Pulse events in the Microsoft 365 Audit Log
       href: setup-admin-access/track-pulse-events.md
     - name: Search Pulse content with eDiscovery
-      href: ediscovery-Pulse.md
+      href: setup-admin-access/ediscovery-Pulse.md
       
 - name: Troubleshoot
   items:
