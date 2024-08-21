@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 terminology
+keywords: localization, supported languages, dashboard languages
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 08/21/2024
 ---
 
 # Viva Glint 360 feedback General Settings 
@@ -22,9 +22,9 @@ ms.date: 08/19/2024
 > [!NOTE]
 > This feature is available beginning on 8/24/2024.
 
-From the Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. Review selections that apply to all your Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744), focusing on these three items:
+From the Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. Review selections that apply to all your Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744).
 
-</div>
+Focus on these three items:
 
 |Section|Item to set up|Description|
 |-------|---------|---------|
