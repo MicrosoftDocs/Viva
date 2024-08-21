@@ -14,16 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 08/21/2024
 ---
 
 # Viva Holistic Listening Vision and Strategy Discovery Workbook 
 
+## Download and complete the Viva [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
+
 **Articulate your business priorities and needs.** 
 
 Build your holistic employee listening strategy and design a program that reflects the needs of your organization strategically. Take time to align with your internal stakeholders. 
-
-Download and complete the Viva [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). 
 
 ## The purpose of this workbook
 
