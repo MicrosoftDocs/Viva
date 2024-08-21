@@ -120,7 +120,7 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 >If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
 >[!IMPORTANT]
->Users who you want to be able to create campaigns need to have **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/microsoft-365/solutions/manage-creation-of-groups)
+>Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
 
 ## Manage campaigns in the SharePoint admin center
 
