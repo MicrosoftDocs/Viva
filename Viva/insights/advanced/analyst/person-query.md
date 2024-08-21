@@ -65,8 +65,8 @@ Under **Query setup**:
 
     Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
        
->[!Note]
-> Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
+    >[!Note]
+    >Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
 >
 > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
@@ -148,9 +148,9 @@ To move a condition or condition group, take the following actions:
 1. Select the six-dot icon to the right.
 1. Drag the six-dot icon above or below other conditions or groups.
   
-To delete a condition or condition group, select the trashcan icon to the right.
-
-:::image type="content" source="../images/meeting-query-move-condition.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
+   To delete a condition or condition group, select the trashcan icon to the right.
+    
+   :::image type="content" source="../images/meeting-query-move-condition.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
 
 ### Add employee attributes
 
