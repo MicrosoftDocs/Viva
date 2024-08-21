@@ -69,9 +69,11 @@ See [Attribute reference](#attribute-reference) for more details about the speci
    - **Microsoft_UserSkillNames** 
 
 > [!IMPORTANT]
-> 1. In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data precedence for your tenant in [Data usage](#data-usage).
-> 2. If you upload organizational data through the Microsoft 365 admin center, that data is also accessible to and used by Viva Insights (except for those excluded attributes listed in [How Organizational Data in Microsoft 365 works with Viva Insights](#how-organizational-data-in-microsoft-365-works-with-viva-insights)). If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
-> 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
+> - In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data precedence for your tenant in [Data usage](#data-usage).
+>
+> - If you upload organizational data through the Microsoft 365 admin center, that data is also accessible to and used by Viva Insights (except for those excluded attributes listed in [How Organizational Data in Microsoft 365 works with Viva Insights](#how-organizational-data-in-microsoft-365-works-with-viva-insights)). If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
+>
+> - Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
 ## Prepare and import your organizational data 
@@ -104,7 +106,7 @@ There are two types of attributes you can add in your organizational data file: 
 #### Sample data file
 Here's an example snippet of a valid .csv file:
 
-```
+```CSV
 Microsoft_PersonEmail,Microsoft_ManagerEmail,Microsoft_LevelDesignation,Microsoft_Organization,Microsoft_Layer,Microsoft_CompanyOfficeCity
 Emp1@contoso.com,Mgr1@contoso.com,Junior IC,Sales,8,Seattle
 Emp2@contoso.com,Mgr1@contoso.com,Junior IC,Sales,8,Seattle
@@ -137,7 +139,9 @@ Use the following steps to upload your data to SharePoint. Make sure that your S
 
 1. Open the SharePoint site library.
 2. Select **Upload**, and then select **Files**.
+
    :::image type="content" source="media/sharepoint-library.png" alt-text="A screenshot shows the Upload menu in SharePoint.":::
+
 3. Navigate to the location where you saved the .csv file, and then select **Open**.
 
    You can also use drag and drop to upload the file.
@@ -145,8 +149,11 @@ Use the following steps to upload your data to SharePoint. Make sure that your S
    Before you import the data into Viva, you need the path to the file on SharePoint, in this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv. Use the following steps to get the path to your file - the path isn't the same as the URL that you see in your browser when you view the file.
 
 1. Select the ellipses (...) next to the file and then select **Details**.
+
    :::image type="content" source="media/sharepoint-path-ellipses.png" alt-text="A screenshot shows the ellipses option next to a file in a SharePoint library. "::: 
+
 1. Find the **Path** value, and then select the copy icon. 
+
    :::image type="content" source="media/sharepoint-path-icon.svg" alt-text="A screenshot shows the Path information for a file in SharePoint.":::
    
    
@@ -243,7 +250,7 @@ Use the following information to fulfill DSRs from end users:
 ## Attribute reference   	
 The following table provides more details about the Organizational Data in Microsoft 365 attributes.
 
->[!NOTE]
+> [!NOTE]
 > Be aware that **Microsoft_LevelDesignation** and **Microsoft_Layer** attributes don't have corresponding properties in Microsoft Entra. Because of this, the only way to add these values to a Microsoft 365 User Profile is by using the Organizational Data in Microsoft 365 feature.
 
 |#|Attribute|Description|Data type|Example|
