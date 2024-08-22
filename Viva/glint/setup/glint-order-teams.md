@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/31/2024
+ms.date: 08/22/2024
 ---
 
 # Viva Glint Licensing
