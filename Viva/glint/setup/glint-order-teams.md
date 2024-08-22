@@ -38,9 +38,6 @@ If the 45 day grace period expires before licenses and active users are aligned,
 - 360 survey cycle creation
 - 360 survey cycle scheduling
 
-> [!NOTE]
-> Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
-
 >[!CAUTION]
 >If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
 
