@@ -278,7 +278,9 @@ items:
                 href: setup/program-summary-communications.md
                 items:
                   - name: Customize survey email content
-                    href: setup/email-content-customization.md            
+                    href: setup/email-content-customization.md
+                  - name: Multi-language emails
+                    href: setup/multi-lang-emails.md                        
               - name: Coaching setup 
                 href: setup/program-summary-coaching.md
                 items:         
