@@ -34,10 +34,10 @@ Multitenant organization (MTO) is a Microsoft 365 feature that enables your comp
 
 Select a step to jump to instructions for a specific part of multitenant organization setup for Viva Glint. 
 
-|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Glint app](#import-users-from-all-tenants-to-the-glint-app) |
+|:::image type="icon" source="/office/media/icons/task-list-planning-blue.png" ::: |[Plan for MTO](#1-plan-for-mto)| :::image type="icon" source="/office/media/icons/administrator.png" ::: |[Set up MTO](#2-set-up-mto)| :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |[Sync users](#3-sync-users) |:::image type="icon" source="/office/media/icons/users-people.png" ::: |[Import users from all tenants to the Glint app](#4-import-users-from-all-tenants-to-the-glint-app) |
 |:---|:---|:---|:---|:---|:---|:---|:---|
 
-### 1. Plan for MTO
+### 1 Plan for MTO
 
 Meet internally with your MTO stakeholders, review requirements, and consider Glint survey access methods to plan for your MTO setup.
 
@@ -50,7 +50,7 @@ Meet internally with your MTO stakeholders, review requirements, and consider Gl
 | :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: | **Review requirements** <br> <br>_Microsoft 365 global admin_ | <ul><li>All tenants exist in the same cloud</li><li>All tenants use Microsoft Entra ID </li><li>Glint is installed in one tenant where all Glint licenses used in the MTO are purchased (regardless of the home tenant of the user)</li> <li>[Target and source tenant prerequisites](https://go.microsoft.com/fwlink/?linkid=2282429)</li><li>[License requirements](https://go.microsoft.com/fwlink/?linkid=2282509)<li>[Learn about MTO limitations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)</li> </ul>|
 |:::image type="icon" source="/office/media/icons/users-settings.png" ::: | **Determine survey access methods and users to sync** <br> <br>_Viva Glint admin_ <br> <br>_Glint project team_ | <ul><li>**Authentication with Microsoft Entra ID**<br> _Survey takers must exist in Entra and in the Glint app_ <br></li> <li>**Personalized links**<br> _Survey takers need to exist in the Glint app only_ <br></li> <li>**Attribute-based survey access**<br> _Survey takers need to exist in the Glint app only_</li> <li>[Learn more about Glint survey access methods](/viva/glint/setup/understand-survey-access-methods)</li></ul><br> **All users that access survey results must exist in Entra**|
 
-### 2. Set up MTO
+### 2 Set up MTO
 
 Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center (MAC) or using the Microsoft Graph API. Setup in the Microsoft 365 admin center offers a user-friendly experience with simple and quick configuration steps. Microsoft Graph API configuration gives admins more granular control and advanced customization and automation options. Consider your organization’s level of complexity across tenants when choosing an MTO setup method.
 
@@ -66,7 +66,7 @@ Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center (MA
 |:::image type="icon" source="/office/media/icons/api.png" ::: | **Option 2: Set up MTO with the Microsoft Graph API** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>As the target tenant admin, [sign in to the target tenant](https://go.microsoft.com/fwlink/?linkid=2282257) and [create an MTO](https://go.microsoft.com/fwlink/?linkid=2282047)</li> <li> [As the target tenant admin, add tenants to the MTO](https://go.microsoft.com/fwlink/?linkid=2282346)</li><li> As the source tenant admin, [sign in to the source tenant](https://go.microsoft.com/fwlink/?linkid=2282048) and [join the MTO](https://go.microsoft.com/fwlink/?linkid=2282347)</li><li> As the target tenant admin, [setup a cross-tenant access policy](https://go.microsoft.com/fwlink/?linkid=2282049) and [configure inbound user sync](https://go.microsoft.com/fwlink/?linkid=2282348)</li></ul>|
 
 
-### 3. Sync users
+### 3 Sync users
 
 There are two options to sync users for MTO and Viva Glint: B2B collaboration or cross-tenant synchronization. Both options result in the creation of [B2B collaboration users](/entra/external-id/user-properties). Cross-tenant synchronization automatically updates users and removes them when they leave the organization. Review prerequisites for each method:
 
@@ -86,7 +86,7 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 |:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
 
 
-### 4. Import users from all tenants to the Glint app
+### 4 Import users from all tenants to the Glint app
 
 To successfully access surveys and results, all users need to be imported to the Glint application, regardless of their home tenant. Glint offers two methods to import users:
 
