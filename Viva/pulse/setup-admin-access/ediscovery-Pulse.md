@@ -17,21 +17,25 @@ search.appverid:
 
 # Use eDiscovery for Viva Pulse content 
 
-To monitor security and compliance-related Viva Pulse events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security compliance portal.
-  
-To audit events, you must have been assigned the Audit Logs role in Microsoft Exchange Online. You can view Viva Pulse events from your home network but not from external networks. You can track the following Viva Pulse events:
+You can use eDiscovery to surface Viva Pulse content from within the Microsoft Purview compliance portal. Pulse requests and responses data is stored in Microsoft Forms. Hence, we rely on an eDiscovery search of Microsoft Forms data in Microsoft Purview. The following Pulse data is discoverable using Microosft Purview:
+- Pulse requests: Pulse requests created and sent by users. 
+- Pulse responses: Responses to Pulse requests by users.
 
-- **User created a Pulse survey**—New Viva Pulse feedback request is created.
+## Pre-requisites
 
-## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
+- Licensing: Because discovery of Forms content within this preview requires eDiscovery premium, you must have appropriate licensing. Please see this article for more information: 
+[Microsoft Purview eDiscovery - Service Descriptions | Microsoft Learn](https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-purview-ediscovery#feature-availability)  If your tenant does not have appropriate licensing, see [Free trial of Microsoft Purview compliance solutions | Microsoft Learn](https://learn.microsoft.com/purview/compliance-easy-trials). 
+- Permissions: You must have appropriate permissions to use eDiscovery. See the following article for more information: [Assign eDiscovery permissions in the Microsoft Purview compliance portal | Microsoft Learn](https://learn.microsoft.com/purview/ediscovery-assign-permissions).
 
-Before you can view the audit log, you need to turn on [Microsoft 365 audit log search](https://support.office.com/article/e893b19a-660c-41f2-9074-d3631c95a014). You only have to do this step once. It can take a few hours after you turn it on before you can search the logs.
-  
-To view the audit log:
-  
-1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/homepage) and sign in using your work or school account.
 
-2. In the left pane of the compliance portal, select **Audit**.
+## How to search for Pulse content via Microsoft Forms content
 
-3. Follow the instructions to search audit logs as described in [Search the audit sign-in the Microsoft 365 Security and compliance portal](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c#run).
+- Microsoft Pulse content is discoverable using the author's Exhange mailbox locations ([custodial, non-custodial, or additional](https://learn.microsoft.com/purview/ediscovery-managing-custodians)).
 
+- To find both Pulse requests and responses, you can use the **Microsoft Forms** type when creating a collection using the query builder or use the KQL editor with **ItemClass=“IPM.File.Forms”** as the search term.
+
+- You can identify specific Pulse requests by searching for the Pulse request title.
+
+- Pulse requests and responses can be grouped within the review set by selecting **Group by conversations and related items**.
+
+- Participants, recipients, sender can also be used to identify Pulse requests & responses.
