@@ -14,15 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/24/2024
 ---
 
 # 360 program design and templates 
 
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
-
-[Refer to this guidance for Viva Glint best practices for customizing and setting up programs](https://go.microsoft.com/fwlink/?linkid=2240920).
+[Refer to this guidance for Glint best practices for customizing programs](https://go.microsoft.com/fwlink/?linkid=2240920).
 
 In addition to the guidance linked above, there are items specific to 360 design to keep in mind. Viva People Scientists conducted an extensive study to identify 300+ unique work behaviors. This study resulted in the validated core items populated in the 360 template. Open-ended questions provide additional context and help the subject prioritize developmental opportunities.
 25 or less questions will produce the most useful data for 360 subjects.
