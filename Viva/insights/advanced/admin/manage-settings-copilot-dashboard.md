@@ -1,5 +1,5 @@
 ---
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -242,7 +242,7 @@ You can only upload non-Copilot users in the Microsoft 365 admin center. The lis
 
 When the tenant purchases Viva Insights licenses that are allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
 
-## Create an exclusion list
+## Create an exclusion list (hide users from aggregates)
 
 *Applies to: Microsoft 365 global admins*
 
@@ -254,7 +254,7 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 
 Your organization might want to exclude certain users from being included in the aggregated insights in the Microsoft Copilot Dashboard for various reasons, such as legal, compliance, or ethical concerns.
 
-The user exclusion list feature lets global admins honor these requests and allows global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
+The user exclusion list allows Global admins to specify which employees' data should not be shown in the dashboard.
 
 You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) using these steps: 
 
