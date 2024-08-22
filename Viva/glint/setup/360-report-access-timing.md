@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 08/24/2024
 ---
 
 # 360 Feedback report access and timing
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 Decide whether subjects, coaches, or managers receive access to a subject’s report, and then choose the timing. 
 
