@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/21/2024
+ms.date: 8/24/2024
 ---
 
 # Viva Glint 360 feedback program - Subject experience
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 **[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
 
