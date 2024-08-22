@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -88,16 +88,16 @@ Before you upload organizational data, you need to do the following:
 ### Step 1 - Download a .csv template
 
 1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
-1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started**.
+1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
 2. Select **Download CSV template**.
 
 > [!NOTE]
 > You can also use organizational data exported from another system, such as your HR software, as your starting point, as described in [Get an export of organizational data](/viva/insights/advanced/admin/prepare-org-data#step-3---get-an-export-of-organizational-data).
 
 ### Step 2 - Structure the organizational data
-Now that you have your .csv file starting point, add the organizational data that you want to use in Microsoft 365. Save the file to SharePoint.
+Now that you have your .csv file starting point, add the organizational data that you want to use in Microsoft 365, and then save the file.
 
-There are two types of attributes you can add in your organizational data file: required and reserved optional. Attributes can be in any order in the file. However, you can't use the names of required and reserved attributes as the names of any new custom attributes.
+There are two types of attributes you can add in your organizational data file: required and reserved optional. Attributes can be in any order in the file. 
 
 - **Required** - The only attribute required by default is email address.
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
