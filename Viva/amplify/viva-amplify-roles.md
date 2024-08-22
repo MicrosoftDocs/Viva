@@ -1,7 +1,7 @@
 ---
 title: Roles in Viva Amplify
 ms.reviewer:
-ms.date: 09/13/2023
+ms.date: 08/22/2024
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
