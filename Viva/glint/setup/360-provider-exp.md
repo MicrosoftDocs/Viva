@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/21/2024
+ms.date: 8/24/2024
 ---
 
 # 360 Viva Glint feedback program - feedback provider experience
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 Feedback providers receive an email invitation to provide feedback. Selecting the button from the email opens a browser window with the survey. After the feedback provider submits their feedback, a Thank You page confirms they’ve completed their task.
 After a feedback provider gives feedback, responses can't be edited.
