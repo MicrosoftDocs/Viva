@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/24/2024
 ---
 
 # Customize Viva Glint 360 email content 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 ## Custom sending domains and branding (optional)
 
