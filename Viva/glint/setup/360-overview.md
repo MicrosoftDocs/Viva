@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 08/24/2024
 ---
 
 # Viva Glint 360 feedback program overview 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
