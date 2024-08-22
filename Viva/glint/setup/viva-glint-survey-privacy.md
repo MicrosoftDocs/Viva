@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 ---
 
 # How Viva Glint helps protect your privacy
