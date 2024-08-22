@@ -29,7 +29,7 @@ Sometimes survey takers may need extra time to complete a survey or your respons
 > [!IMPORTANT]
 > Survey close notifications aren't automatically regenerated once the original closing notification is sent. 
 
-When a survey is closed **and** notification emails are sent, the admin needs to manually set new notification dates. Reset new communications in the **Communications** section of **Program Summary**. 
+When a survey cycle is closed **and** the survey end notification email has sent, no further survey end notification email is sent.
 
 Also consider:
 
@@ -37,13 +37,13 @@ Also consider:
 - The **Phased Access** user role can't access the results of this survey until the role is regranted access. 
 - Review and reschedule any Nudges already set. They also aren't rescheduled automatically. 
 
-## Extend a survey that hasn't closed
+## Extend a survey cycle that hasn't closed
 
-When a survey is extended before its close date - therefore, the survey close notification isn't sent - the notification generation automatically updates. The default for survey close notifications is three days post survey close.
+When a survey cycle is extended *before* its original close date, the notification generation automatically updates to reflect the new close date. The default for the survey end notification email is three days post survey cycle close.
 >
->Example:
+> Example:
 >
-> - The survey close date is March 10. The survey close notification is set to send on March 13.
+> - The survey end date is March 10. The survey end notification email is set to send on March 13.
 > - On March 8, you extend the close date to March 15. The survey close notification automatically moves to March 18.
 
 ## Procedure for reopening or extending a survey 
@@ -59,7 +59,7 @@ When a survey is extended before its close date - therefore, the survey close no
 
    :::image type="content" source="../../media/glint/setup/new-close-date-v3.png" alt-text="Screenshot of the window to choose a new survey close date.":::
   
-6. Select a new close date for your survey.
+6. Select a new **Close date** for your survey.
 
 > [!NOTE]
 > A survey extension can't close *past the start date of the next scheduled survey.* If you choose an invalid date, you see a message directing you to choose a different date.
