@@ -57,7 +57,7 @@ When a survey is extended before its close date - therefore, the survey close no
 
 5. A **Reopen Survey Cycle** window opens.
 
-   :::image type="content" source="../../media/glint/setup/new-close-date-v2.png" alt-text="Screenshot of the window to choose a new survey close date.":::
+   :::image type="content" source="../../media/glint/setup/new-close-date-v3.png" alt-text="Screenshot of the window to choose a new survey close date.":::
   
 6. Select a new close date for your survey.
 
