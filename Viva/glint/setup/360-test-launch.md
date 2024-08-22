@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/20/2024
+ms.date: 8/2/2024
 ---
 
-# Test and launch a Viva Glint 360 feedback cycle
-
-> [!NOTE]
-> This feature becomes available on August 24, 2024.
+# Test and launch a Glint 360 feedback cycle
 
 Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some 360 elements can't be edited once a 360 program is live, including:
 
