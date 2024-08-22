@@ -55,7 +55,7 @@ Meet internally with your MTO stakeholders, review requirements, and consider Gl
 Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center (MAC) or using the Microsoft Graph API. Setup in the Microsoft 365 admin center offers a user-friendly experience with simple and quick configuration steps. Microsoft Graph API configuration gives admins more granular control and advanced customization and automation options. Consider your organization’s level of complexity across tenants when choosing an MTO setup method.
 
 > [!TIP]
-> MTO setup in the Microsoft 365 admin center is recommended and the most commonly used setup method.
+> MTO setup in the Microsoft 365 admin center is recommended and is the most commonly used setup method.
 
 > [!IMPORTANT]
 > If your organization already uses B2B collaboration or cross-tenant synchronization to sync users, an MTO setup is still required. MTO and (an included MTO policy) identifies trusted domains and tenants.
