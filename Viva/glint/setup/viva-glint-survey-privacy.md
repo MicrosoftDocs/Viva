@@ -136,9 +136,6 @@ In this case, the marketing PM can't see the European score because, with only o
 
 The confidentiality statement displayed for 360 participants depends on the type of feedback provider, the selected confidentiality threshold, and the Feedback Provider Response Information setting in a 360 feedback cycle. Review this information to see the statement that displays for each user in each situation.
 
-> [!NOTE]
-> Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
-
 |Feedback provider  |Confidentiality threshold   |Feedback provider response information setting |Confidentiality statement|
 |:----------|:-----------|:------------|:------------|
 |Self     |1       |On or Off        |Your feedback is visible to you and a limited number of people that are granted permission by your organization to view your 360 report. See your organization’s Privacy Policy for more information. Learn how Viva Glint handles survey responses in [Microsoft Viva Glint Reporting and Confidentiality Rules](viva-glint-survey-privacy.md). |
