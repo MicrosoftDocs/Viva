@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/24/2024
 ---
 
 # Viva Glint 360 feedback program email templates
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 Use Glint's email templates to introduce 360 feedback program participants to stakeholders.
 
