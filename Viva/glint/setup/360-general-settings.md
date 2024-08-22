@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/21/2024
+ms.date: 08/24/2024
 ---
 
 # Viva Glint 360 feedback General Settings 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 From the Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. Review selections that apply to all your Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744).
 
