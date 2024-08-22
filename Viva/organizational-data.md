@@ -95,7 +95,7 @@ Before you upload organizational data, you need to do the following:
 > You can also use organizational data exported from another system, such as your HR software, as your starting point, as described in [Get an export of organizational data](/viva/insights/advanced/admin/prepare-org-data#step-3---get-an-export-of-organizational-data).
 
 ### Step 2 - Structure the organizational data
-Now that you have your .csv file starting point, add the organizational data that you want to use in Microsoft 365. Save the file to SharePoint.
+Now that you have your .csv file starting point, add the organizational data that you want to use in Microsoft 365, and then save the file.
 
 There are two types of attributes you can add in your organizational data file: required and reserved optional. Attributes can be in any order in the file. 
 
