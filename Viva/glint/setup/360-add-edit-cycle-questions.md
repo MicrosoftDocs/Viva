@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/24/2024
 ---
 
 # Add and edit 360 cycle questions 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the + symbol. 
 - You can use the **+ symbol under the question list**.
