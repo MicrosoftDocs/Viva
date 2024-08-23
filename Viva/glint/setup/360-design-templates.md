@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/24/2024
+ms.date: 8/23/2024
 ---
 
 # 360 program design and templates 
@@ -28,9 +28,9 @@ In addition to the guidance linked above, there are items specific to 360 design
 
 Yes. Although your org may have a competency model, it doesn’t guarantee alignment with what you consider the behaviors of a successful leader. Use the Glint 360 program to establish a competency model unique to your organization.
 
-## Use a 360 template
+## Use the 360 template
 
-Start from a Glint Manager 360 template or with a blank 360 feedback program. Each program should ideally end up with individual cycles, which your organization administers over a schedule period of time. 
+Start from a **Glint Manager 360 template** or with a **blank 360 feedback program template**. Each program should ideally end up with individual cycles, which your organization administers over a schedule period of time. 
 Create a separate 360 feedback program if you’re planning major changes to a cycle or to create a different overall experience for individual subjects. For example: 360 programs for Managers, Executives, and Employee Resource Groups could be set up as three separate programs.
 
 Follow this process:
