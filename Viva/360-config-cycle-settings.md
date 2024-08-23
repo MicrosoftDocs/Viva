@@ -1,5 +1,5 @@
 ---
-title: Configure 360 cycle settings (preview)
+title: Configure 360 cycle settings 
 description: There are five areas to set up in a new 360 cycle. Follow this guidance.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,8 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/23/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/23/2024
 ---
 
 # Configure 360 cycle settings (preview)
