@@ -14,8 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/24/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/23/2024
 ---
 
 # 360 feedback provider selection (preview)
