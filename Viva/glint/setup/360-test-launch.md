@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/2/2024
+ms.date: 8/23/2024
 ---
 
 # Test and launch a Glint 360 feedback cycle
