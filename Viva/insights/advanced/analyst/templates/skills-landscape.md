@@ -12,8 +12,10 @@ ms.service: viva-insights
 manager: ablubetk
 audience: Admin
 ---
-# Skills landscape report 
-*Applies to: private preview customers only*
+# Skills landscape report (preview)
+
+>[!Important]
+>This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 The Skills landscape report helps you explore top skills people in your company may be using and identify potential skill gaps. These insights are powered by Skills in Viva.
 With this report, you can:
