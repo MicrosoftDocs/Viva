@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/24/2024
+ms.date: 8/23/2024
 ---
 
 # Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program
