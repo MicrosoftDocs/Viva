@@ -38,7 +38,7 @@ Selecting subjects can be done manually or through an upload, if you’re adding
 2.	In the window that displays, select **Download CSV**.
 3.	Populate the .csv file with subject unique IDs and email addresses and then add the names by selecting **Upload**. 
 
-:::image type="content" source="../../media/glint/setup/360-bulk-subject-coach-upload.png" lightbox="../../media/glint/setup/360-bulk-subject-coach-upload.png" alt-text="Screenshot of the Upload a Subject and Coach CSV window.":::
+    :::image type="content" source="../../media/glint/setup/360-bulk-subject-coach-upload.png" lightbox="../../media/glint/setup/360-bulk-subject-coach-upload.png" alt-text="Screenshot of the Upload a Subject and Coach CSV window.":::
 
 >[!NOTE]
 > Coach assignment is optional, and selection is up to your organization. Managers are often coaches but don’t have to be. Coaches guide subjects though their 360 report and are automatically granted report access.
@@ -55,8 +55,8 @@ Generally, allow the 360 subject to select and review their own feedback provide
 1. Select the **ellipses next to the subject name** and then choose **Edit/Add Feedback Providers**.
 2. Choose the appropriate feedback providers and then select **Invite Feedback Providers when cycle is live**. 
 
-> [!NOTE]
-> You configured and previewed emails that go to the 360 subjects in the Communications setup for the cycle. That email is where they subjects see what tasks are left for them to do for their 360.
+    > [!NOTE]
+    > You configured and previewed emails that go to the 360 subjects in the Communications setup for the cycle. That email is where they subjects see what tasks are left for them to do for their 360.
 
 ## Using the prepopulated Feedback Providers setting for senior leaders
 
@@ -65,22 +65,19 @@ In the subject ellipses menu:
 1.	Select **Edit/Add feedback providers**. 
 1.	Select **Invite feedback providers when Cycle is Live**. 
 
-Once selections are saved and the cycle is live, feedback providers receive an invitation to participate. The subject can review and add additional feedback providers during the cycle. 
-
-> [!NOTE]
-> Employees, other than the subject, may be added to any feedback provider category but can’t be added to multiple feedback provider categories for a single subject.
+    Once selections are saved and the cycle is live, feedback providers receive an invitation to participate. The subject can review and add additional feedback providers during the cycle. 
+    
+    > [!NOTE]
+    > Employees, other than the subject, may be added to any feedback provider category but can’t be added to multiple feedback provider categories for a single subject.
 
 ## Add a coach
 
-1. **Select the ellipses next to the subject name**
+1. Select the ellipses next to the subject name.
 2. Select **Edit/Add Coach.**
-3. Search for the coach’s name using the search bar and select **Add Coach**.
+3. Search for the coach's name using the search bar and select **Add Coach**.
 
-> [!IMPORTANT]
-> The role of coach is optional and the 360 program can proceed without it.
-
-:::image type="content" source="../../media/glint/setup/360-edit-add-coach.png"alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
-
-
-
+   > [!IMPORTANT]
+   > The role of coach is optional and the 360 program can proceed without it.
+    
+   :::image type="content" source="../../media/glint/setup/360-edit-add-coach.png"alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
 

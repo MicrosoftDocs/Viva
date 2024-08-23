@@ -62,8 +62,8 @@ Use these definitions to understand a 360 program:
 
 ## More resources 
 
-**360 feedback program subject guide - PDF version**(https://go.microsoft.com/fwlink/?linkid=2282087)
-**Viva Glint 360 feedback program Learning Path**(https://go.microsoft.com/fwlink/?linkid=2283679)
+[**360 feedback program subject guide - PDF version**](https://go.microsoft.com/fwlink/?linkid=2282087)
+[**Viva Glint 360 feedback program Learning Path**](https://go.microsoft.com/fwlink/?linkid=2283679)
 
 
 

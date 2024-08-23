@@ -21,7 +21,7 @@ ms.date: 08/23/2024
 
 1. From the Glint admin dashboard, select the **Configuration** symbol and then **General Settings**. 
 1. Review selections that apply to all your Glint programs and confirm that 360 items are set up. 
-1. View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744).
+1. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744).
 
 Focus on these items:
 

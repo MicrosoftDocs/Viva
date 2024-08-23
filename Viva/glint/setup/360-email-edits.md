@@ -48,15 +48,15 @@ To edit Viva Glint 360 email content:
 3. In the edit pane that appears, select the pencil icon to edit content.
 4. Viva Glint 360 emails and reminders contain multiple editable sections:
 
-   :::image type="content" source="../../media/glint/setup/360-welcome-email-edit.png" alt-text="Screenshot      of editable 360 email sections in the Welcome and Feedback Provider Selection email.":::
+   :::image type="content" source="../../media/glint/setup/360-welcome-email-edit.png" alt-text="Screenshot of editable 360 email sections in the Welcome and Feedback Provider Selection email.":::
 
 5. Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 6. Preview edits by selecting the eye icon in the email edit pane to view emails in the platform.
 7. Repeat these steps for all 360 emails that need customizations for your organization.
 
 
-> [!CAUTION]
-> Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
+   > [!CAUTION]
+   > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
 
 ### Email macros
 

@@ -77,8 +77,8 @@ Dependent on the provider category, provider response information settings, and 
 ### Feedback provider response information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and if they've responded. In reporting, subjects see which feedback providers responded per category, but responses are not tied to individual names.
-- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reporting, they see only the number of feedback providers who responded.
+- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses are not tied to individual names.
+- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reports, they see only the number of feedback providers who responded.
 
 :::image type="content" source="media/glint/setup/360-provider-response-info.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
