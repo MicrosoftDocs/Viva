@@ -53,7 +53,7 @@ When a survey cycle is extended *before* its original close date, the notificati
 3. In the **Survey Cycles** section, toggle to the **Completed** tab.
 4. From the horizontal ellipses in the program bar, select **Reopen Survey**.
 
-   :::image type="content" source="../../media/glint/setup/reopen-survey-v2.png" alt-text="Screenshot of the steps to take to reopen a survey window.":::
+   :::image type="content" source="../../media/glint/setup/reopen-survey-v2.png" alt-text="Screenshot that shows the steps to take to reopen a survey window." lightbox="../../media/glint/setup/reopen-survey-v2.png":::
 
 5. A **Reopen Survey Cycle** window opens.
 
@@ -63,7 +63,7 @@ To reopen this survey cycle, select a new close date. To avoid duplicating work 
 - **Nudges:** The Nudges schedule doesn't automatically update.
 - **Reporting level access:** User Roles with Phased access - who were granted Live access before the survey cycle was reopened - automatically return to Phased access.
 - **Alerts report:** Existing alerts are removed and regenerated after the new survey close date. No action required.
-- **Survey emails:** Upcoming communications are automatically reschedule based on the survey close date.
+- **Survey emails:** Upcoming communications are automatically rescheduled based on the survey close date.
   
 6. Select a new **Close date** for your survey.
 
