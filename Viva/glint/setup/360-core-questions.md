@@ -19,7 +19,7 @@ ms.date: 8/23/2024
 
 # 360 core survey questions
 
-In **Cycle Settings**, chooose **Survey Questions**.
+In **Cycle Settings**, choose **Survey Questions**.
 
 :::image type="content" source="../../media/glint/setup/360-cycle-setting-survey-questions.png" lightbox="../../media/glint/setup/360-cycle-setting-survey-questions.png" alt-text="Screenshot of the second section to set up in Cycle Settings.":::
 

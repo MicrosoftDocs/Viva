@@ -54,7 +54,7 @@ Select up to six feedback provider categories.
 |Skip Manager|1|Yes|Prepopulates with the subject's direct manager|
 |Direct reports|3*|Yes|Prepopulatees with the subject's direct reports|
 |Peers|3*|Yes|Prepopulates with people who have the same direct manager as the subject|
-|Custom|1|N/A|Not commonly used, but could by used for a *dotted line manager* or *mentor* feedback|
+|Custom|1|N/A|Not commonly used, but could be used for a *dotted line manager* or *mentor* feedback|
 |Custom|3*|N/A|Commonly used for *Collaborators*|
 
 > [!IMPORTANT]
@@ -62,11 +62,11 @@ Select up to six feedback provider categories.
 
 ### Edit a feedback provider category
 
-**Hover over and choose a category** eo open the Edit window for that category, which looks like this (for example):
+**Hover over and choose a category** to open the Edit window for that category, which looks like this (for example):
 
 :::image type="content" source="media/glint/setup/360-edit-provider-category.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
 
-Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed. 
+Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
 Confidentiality Statements
 
 >[!CAUTION]

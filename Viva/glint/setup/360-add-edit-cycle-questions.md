@@ -37,7 +37,7 @@ Use these filters:
 |Source| <ul><li> Custom </li><li> Viva Glint</li><ul>|
 |Type| <ul><li> Rating - 5-7 point scale </li><li> Open-ended </li><li> Multiple Choice</li><ul>|
 |Benchmark|Use the search bar|
-|More Filters| <ul><li> Whether the quetion was used in other program </li><li> Whether translations are available</li><ul>|
+|More Filters| <ul><li> Whether the question was used in other program </li><li> Whether translations are available</li><ul>|
 
 :::image type="content" source="../../media/glint/setup/360-create-question.png" alt-text="Screenshot of the Create Question window.":::
 
