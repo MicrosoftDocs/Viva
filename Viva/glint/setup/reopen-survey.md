@@ -52,9 +52,6 @@ When a survey cycle is extended *before* its original close date, the notificati
 2. Select **Survey Programs**.
 3. In the **Survey Cycles** section, toggle to the **Completed** tab.
 4. From the horizontal ellipses in the program bar, select **Reopen Survey**.
-
-   :::image type="content" source="../../media/glint/setup/reopen-survey-v2.png" alt-text="Screenshot that shows the steps to take to reopen a survey window." lightbox="../../media/glint/setup/reopen-survey-v2.png":::
-
 5. A **Reopen Survey Cycle** window opens.
 
 To reopen this survey cycle, select a new close date. To avoid duplicating work for managers, reopen the cycle within one day of the previous cycle end date. Consider this guidance, then review and adjust as needed:
