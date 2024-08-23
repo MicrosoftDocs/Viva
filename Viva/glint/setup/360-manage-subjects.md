@@ -50,7 +50,7 @@ Generally, allow the 360 subject to select and review their own feedback provide
 >[!IMPORTANT]
 > If 360s are being run for senior execs, prepopulated feedback providers are automatically invited.
 
-:::image type="content" source="../../media/glint/setup/360-edit-add-providers.png"alt-text="Screenshot of the ellipses section dropdown next to a subject's name.":::
+:::image type="content" source="../../media/glint/setup/360-edit-add-providers.png" lightbox="../../media/glint/setup/360-edit-add-providers.png" alt-text="Screenshot of the ellipses section dropdown next to a subject's name.":::
 
 1. Select the **ellipses next to the subject name** and then choose **Edit/Add Feedback Providers**.
 2. Choose the appropriate feedback providers and then select **Invite Feedback Providers when cycle is live**. 
@@ -79,5 +79,5 @@ In the subject ellipses menu:
    > [!IMPORTANT]
    > The role of coach is optional and the 360 program can proceed without it.
     
-   :::image type="content" source="../../media/glint/setup/360-edit-add-coach.png"alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
+   :::image type="content" source="../../media/glint/setup/360-edit-add-coach.png" lightbox="../../media/glint/setup/360-edit-add-coach.png" alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
 
