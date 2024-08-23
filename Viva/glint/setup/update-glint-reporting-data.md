@@ -12,7 +12,7 @@ keywords: advanced configuration, uploads, retroactive update
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 09/15/2023
 ---
 

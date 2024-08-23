@@ -213,8 +213,10 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      - name: Survey program types
-        href: start/program-types-templates.md  
+      - name: Survey program types and templates
+        href: start/program-types-templates.md
+      - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
+        href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
         href: setup/customize-program.md
       - name: Survey Coach and Tooltips
@@ -276,7 +278,9 @@ items:
                 href: setup/program-summary-communications.md
                 items:
                   - name: Customize survey email content
-                    href: setup/email-content-customization.md            
+                    href: setup/email-content-customization.md
+                  - name: Multi-language emails
+                    href: setup/multi-lang-emails.md                        
               - name: Coaching setup 
                 href: setup/program-summary-coaching.md
                 items:         
@@ -292,6 +296,60 @@ items:
             href: setup/exit.survey.md
           - name: Preview and filter a Lifecycle survey
             href: setup/preview-filter-lifecycle-programs.md 
+      - name: Create a 360 feedback program
+        items:
+          - name: Overview and terminology
+            href: setup/360-overview.md
+          - name: Authentication and participant experiences
+            href: setup/360-authenticate-participate.md
+          - name: 360 Feedback programs
+            items:
+              - name: General settings
+                href: setup/360-general-settings.md
+              - name: User roles and permissions
+                href: setup/360-roles-permissions.md
+              - name: Program design and templates
+                href: setup/360-design-templates.md
+          - name: Manage 360 cycles
+            items:
+              - name: Create a new 360 cycle
+                href: setup/create-new-360-cycle.md
+              - name: Configure cycle settings
+                items:
+                  - name: Setup
+                    href: ../360-config-cycle-settings.md
+                  - name: Survey questions
+                    items:
+                       - name: Core questions
+                         href: setup/360-core-questions.md
+                       - name: Adding and editing questions
+                         href: setup/360-add-edit-cycle-questions.md
+              - name: Feedback provider selections
+                href: setup/overview-feedback-provider-selection.md
+              - name: Competencies and survey guidance
+                href: setup/360-competencies.md
+              - name: Report access and timing
+                href: setup/360-report-access-timing.md
+              - name: Schedule and communications setup
+                href: setup/360-schedules-comms.md
+              - name: Customize 360 email content
+                href: setup/360-email-edits.md
+              - name: Manage subjects, coaches, feedback providers
+                href: setup/360-manage-subjects.md
+          - name: Export and import cycle content
+            href: setup/360-export-import.md
+          - name: Test and launch
+            href: setup/360-test-launch.md
+          - name: Admin experience during live survey
+            href: setup/360-live-cycle-actions.md
+          - name: 360 Subject experience
+            href: setup/360-subject-experience.md
+          - name: 360 Feedback provider experience
+            href: setup/360-provider-exp.md
+          - name: 360 email communication templates
+            href: setup/360-email-templates.md
+          - name: 360 FAQs
+            href: setup/360-faqs.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
@@ -307,10 +365,14 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
           - name: Delete survey data 
             href: setup/delete-survey-data.md
+      - name: Edit live surveys or reopen closed surveys
+        items:
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
+          - name: Reopen or extend a survey cycle
+            href: setup/reopen-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey

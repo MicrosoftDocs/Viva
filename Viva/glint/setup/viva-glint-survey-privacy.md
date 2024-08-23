@@ -15,14 +15,14 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/07/2024
+ms.date: 08/22/2024
 ---
 
 # How Viva Glint helps protect your privacy
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback, allowing our customers to get the most out of Viva Glint.
 
-Viva Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Viva Glint offers two types of surveys: confidential and identifiable.
+Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Viva Glint offers two types of surveys: confidential and identifiable.
 
 ## Confidential surveys
 
@@ -49,16 +49,16 @@ A privacy statement provides information about who can see survey takers' identi
 
 ## Privacy statements advise access and data handling of survey responses
 
-Even for confidential surveys, your organization's customer admin might be able to access identifiable survey responses. Access might be necessary for an organization to meet its legal obligations, such as [Data Subject Rights under GDPR](/microsoft-365/admin/security-and-compliance/gdpr-compliance?view=o365-worldwide&preserve-view=true). However, your organization can choose to opt out of this access on a survey-by-survey basis using admin controls. 
+Even for confidential surveys, your organization's customer admin might be able to access identifiable survey responses. Access might be necessary for an organization to meet its legal obligations, such as [Data Subject Rights under GDPR](/microsoft-365/admin/security-and-compliance/gdpr-compliance?view=o365-worldwide&preserve-view=true). Your organization can opt out of this access on a survey-by-survey basis using admin controls. 
 
 > [!IMPORTANT]
 > A statement is automatically selected based on your program setup configurations.
 
 ## Confidential survey statement for surveys that *don't* support raw survey responses export
 
-If your organization chooses to restrict the export of raw survey responses for confidential surveys, this statement is applied to surveys: 
+If your organization restricts the export of raw survey responses for confidential surveys, this statement is applied to surveys: 
 
-> Your responses are confidential and reported to [)rganization name] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. Microsoft Viva Glint Reporting and Confidentiality Rules describe other ways your data might be accessed and your organization's Privacy Policy also has more information.
+> Your responses are confidential and reported to [Organization name] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. Microsoft Viva Glint Reporting and Confidentiality Rules describe other ways your data might be accessed and your organization's Privacy Policy also has more information.
 
 ## Confidential survey statement for surveys that *do* support raw survey responses export
 
@@ -84,9 +84,9 @@ A minimum response threshold is the lowest number of responses a survey item mus
  - By default, the minimum response threshold for rating or multiple-choice items is set at five. 
  - For comments, it's set at 10.
 
-Your organization can adjust the thresholds, either higher or lower, for each survey program, and these thresholds are noted to survey takers.
+Your organization can adjust the thresholds, higher or lower, for each survey program, and these thresholds are noted to survey takers.
 
-At the beginning of a survey, the privacy statement informs the participants whether the survey is confidential or identifiable and specifies its minimum response thresholds. Once a program is launched, its minimum response thresholds can't be changed. *Changing or altering a minimum response threshold requires a new survey program.* The previous program with the original confidentiality threshold could, however, be drawn into reports for comparison against new results with the new threshold.
+At the beginning of a survey, the privacy statement informs the participants whether the survey is confidential or identifiable and specifies its minimum response thresholds. Once a program is launched, its minimum response thresholds can't be changed. **Changing or altering a minimum response threshold requires a new survey program.** The previous program with the original confidentiality threshold could, however, be drawn into reports for comparison against new results with the new threshold.
 
 > [!NOTE]
 > To be classified as a confidential survey, the minimum number of responses must be three (3) or higher. If the threshold is below three (3), the survey is identifiable.
@@ -96,7 +96,7 @@ At the beginning of a survey, the privacy statement informs the participants whe
 Your organization configures who views and configures survey reports at various levels. For instance, your organization might use the following reporting hierarchy for its marketing organization and assign permissions accordingly:
 
 1. Marketing program managers (PMs) can only view survey results from the team they manage.
-2. Marketing directors (to whom marketing PMs report) can view survey results for all the teams reporting up through them.
+2. Marketing directors (to whom marketing PMs report) can view survey results for all teams reporting up through them.
 3. The Chief Marketing Officer (to whom the marketing director reports) can view survey data for the entire marketing organization.
 
 Each reporting group feeds into a hierarchy level, or rollup, giving users visibility related to their role and authority.
@@ -117,7 +117,7 @@ The default minimum response thresholds for ratings and multiple-choice question
 
 In some cases, even when the minimum response threshold is met, the ability to filter reporting by responder attributes and then compare those filtered results to nonfiltered results might allow a responder to be identified. In these cases, responses are **suppressed**,—meaning they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
 
- > Consider a marketing PM from the example above, given the following:
+> Consider a marketing PM from the example above, given the following:
 > - Five (5) of the six (6) team members are in North America; one (1) is in Europe.
 > - The organization has configured Viva Glint to allow filtering of responses by survey taker region.
 > - The survey's minimum response threshold is set to five (5).
@@ -135,9 +135,6 @@ In this case, the marketing PM can't see the European score because, with only o
 ## 360 feedback programs
 
 The confidentiality statement displayed for 360 participants depends on the type of feedback provider, the selected confidentiality threshold, and the Feedback Provider Response Information setting in a 360 feedback cycle. Review this information to see the statement that displays for each user in each situation.
-
-> [!NOTE]
-> Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
 
 |Feedback provider  |Confidentiality threshold   |Feedback provider response information setting |Confidentiality statement|
 |:----------|:-----------|:------------|:------------|

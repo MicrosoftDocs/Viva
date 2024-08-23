@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/13/2024
+ms.date: 08/22/2024
 ---
 
 # Delete user data from Viva Glint
@@ -48,7 +48,6 @@ processed right away.
 
 > [!IMPORTANT]
 > - Viva Glint 360 feedback responses are also deleted with these requests.
-> - Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
 
 > [!NOTE]
 > Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee. No previous data is stored once deleted.

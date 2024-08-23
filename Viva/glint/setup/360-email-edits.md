@@ -1,6 +1,6 @@
 ---
-title: Customize Viva Glint 360 email content (preview)
-description: 
+title: Customize Viva Glint 360 email content 
+description: The  Microsoft 365 admin can configure a custom email domain for your organization
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -14,18 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/23/2024
 ---
 
-# Customize Viva Glint 360 email content (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Customize Viva Glint 360 email content 
 
 ## Custom sending domains and branding (optional)
 
-In the [Microsoft 365 Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your Microsoft 365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
+In the [Microsoft 365 Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your Microsoft 365 admin can optionally configure a custom email domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
 - [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
@@ -52,15 +48,15 @@ To edit Viva Glint 360 email content:
 3. In the edit pane that appears, select the pencil icon to edit content.
 4. Viva Glint 360 emails and reminders contain multiple editable sections:
 
-   :::image type="content" source="../../media/glint/setup/360-welcome-email-edit.png" alt-text="Screenshot      of editable 360 email sections in the Welcome and Feedback Provider Selection email.":::
+   :::image type="content" source="../../media/glint/setup/360-welcome-email-edit.png" alt-text="Screenshot of editable 360 email sections in the Welcome and Feedback Provider Selection email.":::
 
 5. Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 6. Preview edits by selecting the eye icon in the email edit pane to view emails in the platform.
 7. Repeat these steps for all 360 emails that need customizations for your organization.
 
 
-> [!CAUTION]
-> Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
+   > [!CAUTION]
+   > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
 
 ### Email macros
 

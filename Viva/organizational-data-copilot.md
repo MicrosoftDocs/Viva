@@ -26,7 +26,7 @@ description: "Use organizational data in the Microsoft Copilot Dashboard"
 If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the [Copilot Dashboard](insights/org-team-insights/delegate-access.md) (as long as you've got a Microsoft Copilot license). Use the following information to configure and manage organizational data for the Copilot Dashboard.
 
 > [!NOTE]
-> To see data in the Copilot Dashboard, you need either 100 Microsoft Copilot licenses or 10 Viva Insights license.
+> To see data in the Copilot Dashboard, you need either 50 Microsoft Copilot licenses or 10 Viva Insights license.
 
 Your configuration experience with Organizational Data in Microsoft 365 and Microsoft Copilot depends on whether you're configuring organizational data for the first time or if you've previously set it up and are now adding Microsoft Copilot into your infrastructure.
 
