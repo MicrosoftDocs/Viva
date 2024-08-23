@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 08/23/2024
 ---
 
 # Viva Glint 360 feedback program overview 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
@@ -62,6 +59,11 @@ Use these definitions to understand a 360 program:
 |**Scheduled cycle**|The cycle goes live on the *Cycle Start* date. |
 |**Live cycle**|The cycle is in progress and subjects and feedback providers are actively participating. Reports can be generated and released for subjects who qualify and meet these criteria: <ul><li> Self-assessment completed</li><li> Confidentiality threshold for provider category is met; includes one feedback provider who isn't the subject</li><li> Cycle is closed for the subject</li><ul>|
 |**Completed cycle**|The cycle is complete for all subjects, and reports can be released.|
+
+## More resources 
+
+- [**360 feedback program subject guide - PDF version**](https://go.microsoft.com/fwlink/?linkid=2282087)
+- [**Viva Glint 360 feedback program Learning Path**](https://go.microsoft.com/fwlink/?linkid=2283679)
 
 
 
