@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # Viva Glint 360 competencies and reporting 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
 
@@ -62,7 +59,7 @@ Repeat this procedure until you have mapped all competencies to at least one que
 
 1.	In Cycle Settings, select **Competencies & Reporting**. The *Competencies & Reporting* page opens.  The Competencies section shows the number of questions mapped to each competency.
 2.	Select the competency to be customized or mapped.
-3.	Assign values to the Competency Name and Competency Description fields. This text is used in reports
+3.	Assign values to the Competency Name and Competency Description fields. This text is used in reports.
 4.	Select at least one question to map to the competency. To search for a question, begin entering the question label in the *Search Question* field. 
 5.	Select **Save Changes.**
 
@@ -93,7 +90,7 @@ Glint offers standard program and report guidance templates.
 1.	Toggle Survey Guidance to **ON** to reveal the *Select a content resource* dropdown menu. 
 1.	**Key in 360 in the search bar** to access the standard templates. 
 
-:::image type="content" source="../../media/glint/setup/360-survey-guidance.png"alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
+    :::image type="content" source="../../media/glint/setup/360-survey-guidance.png" alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
 
 >[!TIP]
 > We recommend using **360 _Survey_Guidance** for the Survey Guidance. Review and edit the guidance from within *Content Resources*. 

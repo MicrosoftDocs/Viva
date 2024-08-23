@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # 360 User Roles and permissions 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 By default, people in the Viva Glint admin role have access to create and edit all Glint programs, including 360s. You may, however, choose to set up an extra user role to *only* have access to edit 360 programs. In this case, you first need to create a user role - or adjust an existing user role - to have exclusive 360 admin permissions. 
 
@@ -46,7 +43,7 @@ From the Glint admin dashboard, select the **Configuration symbol** and then **U
 
 ## Access to feedback
 
-Subjects and leaders involved in 360s need access to the Feedback tab on their Glint dashboard. 
+Subjects and leaders involved in 360s need access to the **Feedback tab** on their Glint dashboard. 
 
 It’s optional to grant feedback providers access to the Feedback tab. Granting access enables them to log in and view any open or historical requests to provide feedback to a 360 subject.
 

@@ -14,17 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # Viva Glint 360 frequently asked questions 
 
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
-
 These frequently asked questions (FAQs) address common questions that Microsoft Viva Glint 360 subjects, admins, and coaches have when interacting with 360 cycles.
 
-## Subjects
+## Subject FAQs
 
 ### Can I start my feedback and complete it later?
 Yes, Viva Glint feedback surveys automatically save your answers. Select the link from the original invitation to review your feedback email or access it from the "Feedback" tab within Viva Glint to complete it anytime before the end date.
@@ -44,7 +41,7 @@ If a manager has access to results for a direct report, they receive an email wi
 ### How can I tell how many feedback providers responded?
 During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 feedback card in My Feedback - In Progress.Select Step 1 to see a list of invited feedback providers and responders. In addition, Viva Glint sends an email before the 360 cycle ends, which includes a list of feedback providers who didn't respond. After the 360 cycle is complete and you receive access to your 360 report, go to the Insights tab. Select Response Rate to see a list of feedback providers who responded.
 
-## Admins
+## Admin FAQs
 
 ### How do I reach out for support?
 Reach out to the Microsoft 360 Admin Center for support: [Get Support](https://go.microsoft.com/fwlink/?linkid=2272576).
@@ -82,8 +79,8 @@ Yes, you can delete a 360 program only if all the 360 cycles within it are in "d
 ### Can I delete a 360 cycle?
 Yes, you can delete a 360 cycle in "draft" or "scheduled" status. A 360 cycle can’t be deleted in "live" or "completed" status.
 
-## Coaches
+## Coach FAQs
 
-### Is there a way to compile feedback provider information to look at feedback provider tendencies (leniency, stringency)?
+**Is there a way to compile feedback provider information to look at feedback provider tendencies (leniency, stringency)?**
 
 Yes, on the All Responses tab of the 360 report, choose whether you want to see scores for all scaled items mapped to a competency. You can select across one, multiple, or all feedback provider categories to find trends. You can see the feedback provider group tendency (not individual tendency) by viewing the All Responses in the 360 report. Scores are shown for all scaled items mapped to a competency across one, multiple, or all categories to identify trends. You can view the range of scores provided for each competency or item by feedback provider group in many sections of the report.
