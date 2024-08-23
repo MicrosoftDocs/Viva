@@ -14,16 +14,18 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/24/2024
+ms.date: 8/23/2024
 ---
 
 # Viva Glint 360 feedback program - Subject experience
 
-**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
-
 A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 isn't a performance evaluation but is truly focused on your development.
 
 Direct managers assign 360 program subjects. As a 360 subject, a self-assessment is completed. Also, feedback is requested from various others, such as managers, direct reports, and other collaborators.
+
+## Subject Guide
+
+**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
 
 ## 3-step 360 Subject journey
 
