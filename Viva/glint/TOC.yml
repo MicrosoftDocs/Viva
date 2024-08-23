@@ -365,10 +365,14 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
           - name: Delete survey data 
             href: setup/delete-survey-data.md
+      - name: Edit live surveys or reopen closed surveys
+        items:
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
+          - name: Reopen or extend a survey cycle
+            href: setup/reopen-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
