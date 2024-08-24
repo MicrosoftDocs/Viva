@@ -66,6 +66,13 @@ The campaign dashboard provides a list of active, ended, and draft campaigns cre
 
 The campaign landing page is visible to any Viva Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
+## Upload or update the campaign image
+
+Corporate communicators can update cover photos for network-level campaigns. When uploading a PNG or JPG image for the campaign cover, keep in mind that the image dimensions are 984 pixels by 160 pixels and the file must be 20 MBs or smaller.
+
+- On the campaign homepage, select the options (...) menu under the existing image, and select **Upload cover photo**.
+
+
 ## End or delete an official campaign
 
 When an official campaign ends, the follow button and default publisher on the campaign landing page are disabled. Users can still post in communities and storylines using the verified campaign hashtag, and those posts appear on the campaign landing page.
