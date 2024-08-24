@@ -72,6 +72,7 @@ Corporate communicators can update cover photos for network-level campaigns. Whe
 
 - On the campaign homepage, select the options (...) menu under the existing image, and select **Upload cover photo**.
 
+:::image type="content" source="../media/engage/campaigns/update-cover-photo.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
 
 ## End or delete an official campaign
 
