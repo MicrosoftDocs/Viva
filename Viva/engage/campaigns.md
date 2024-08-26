@@ -67,9 +67,9 @@ The campaign is in draft state. Until you publish the campaign, only Engage admi
 
 The campaign landing page is visible to any Viva Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
-## Update the campaign image
+## Update the campaign cover photo
 
-Corporate communicators can update the cover photo with a PNG or JPG image, 20 MBs or smaller. Dimensions for the campaign cover image are 984 pixels by 160 pixels.
+Corporate communicators can update the cover photo with a PNG or JPG image, 20 MB or smaller. Dimensions for this image are 984 pixels by 160 pixels.
 
 - On the campaign homepage, select the options (...) menu under the existing image, and select **Upload cover photo**.
 
