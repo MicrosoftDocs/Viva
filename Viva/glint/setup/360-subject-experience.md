@@ -1,12 +1,12 @@
 ---
-title: Viva Glint 360 feedback program - subject experience
+title: Viva Glint 360 feedback program - Subject experience
 description: A 360 feedback program is a foundational step toward professional growth and meaningful change. View the 3-step journey.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: PDF subject guide
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,21 +14,23 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
-# Viva Glint 360 feedback program - subject experience
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
+# Viva Glint 360 feedback program - Subject experience
 
 A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 isn't a performance evaluation but is truly focused on your development.
 
-Your direct manager assigns you to become a 360 program subject. As a 360 subject you complete a self-assessment and request feedback from various others such as your manager, direct reports (if you’re a people manager) and other collaborators.
+Direct managers assign 360 program subjects. As a 360 subject, a self-assessment is completed. Also, feedback is requested from various others, such as managers, direct reports, and other collaborators.
 
-Your experience:
+## Subject Guide
 
-## 3-step 360 subject journey
+**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
+
+## 3-step 360 Subject journey
+
+>[!NOTE]
+>This journey is written for a 360 Subject so it is shareable. Best practice is to use the PDF guide linked above.
 
 After accessing your 360 program, begin your three-step journey.
 
@@ -42,9 +44,9 @@ There are two ways to begin your 360 process:
   - The email provides instructions about next steps and prompts to **Select feedback providers**.
   - Upon selecting this prompt, you’re prompted to log into Viva Glint and brought to a page to select your feedback providers.
 
-Your email looks like this:
-
-:::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
+    Your email looks like this:
+    
+    :::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
 
 - Select **Feedback providers** from your Glint dashboard
   
@@ -61,7 +63,7 @@ You may see prepopulated feedback providers (manager, direct reports, peers). Th
 3.	A banner confirms that your feedback providers are updated. 
 4.	Feedback provider email invitations are sent within 15 minutes of confirming your providers.
 
-### What if I haven't invited enough feedback providers?
+### What if enough feedback providers haven't been included?
 
 You receive on-screen notification if your minimum number of providers isn't met. Select **Update Feedback Providers** after correcting this issue.
 
@@ -69,7 +71,7 @@ You receive on-screen notification if your minimum number of providers isn't met
 
 ### Feedback provider reminder
 
-If you haven’t had time or forgot to select feedback providers, you receive this email:
+If time was tight or for any other reason, you forgot to select feedback providers, you receive this email:
 
 :::image type="content" source="../../media/glint/setup/360-feedback-reminder.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
@@ -90,19 +92,19 @@ When finished, you see this message:
 
 ## Step 3 - Review your report and reflect
 
-Until your cycle is complete, Step 3 shows as *Awaiting Results*.
+Until your cycle is complete, Step 3 shows as **Awaiting Results**.
 
 :::image type="content" source="../../media/glint/setup/360-awaiting-results.png" alt-text="Screenshot Step 3 in the self-assessment journey.":::
 
-You see this from either of these sources:
- - reaccessing your initial welcome email and selecting "Select feedback providers"
- - or, from the Feedback tab on your Glint dashboard. Select **My Feedback** and then **View.**
+During this time, stay engaged:
+ - Reaccess your initial welcome email and select **Select feedback providers.**
+ - From the Feedback tab on your Glint dashboard, select **My Feedback** and then **View.**
 
 ## Access your 360 report
 
 You receive an email letting you know to review your report. Use the button in the email or access your report from the Feedback tab on the Glint platform. 
 
-1.	Scroll to the *Feedback History* section to access your completed 360.
+1.	Scroll to the **Feedback History** section to access your completed 360.
 2.	Select the card to open the report. Data shows the number of completed participants (you included) and their initials.
 3.	On the toolbar, select the horizontal ellipses to review the confidentiality settings. You can also download a PDF of your report.
 4.	Choose a tab to open:
@@ -110,9 +112,9 @@ You receive an email letting you know to review your report. Use the button in t
      - **Comments** – A view of all comments. Comments are intended to give context for why someone provided a specific rating.
      - **All Responses** – A detailed view of your survey questions. View in bar chart or table format.
 
-:::image type="content" source="../../media/glint/setup/360-subjects-feedback-tabs.png" alt-text="Screenshot of the tabs on a subject's Feedback dashboard.":::
+     :::image type="content" source="../../media/glint/setup/360-subjects-feedback-tabs.png" alt-text="Screenshot of the tabs on a subject's Feedback dashboard.":::
 
-Use the lightbulb symbol for guidance on how to view the report.
+Use the **light bulb** symbol for guidance on how to view the report.
 
 ### View Insights
 
@@ -130,7 +132,7 @@ View the total number of comments and the actual comments left by feedback provi
 
 #### Top relative strengths and Top relative opportunities
 
-In this section, take action to better understand where others see you as effective or where there is an opportunity for improvement.  Select **Take action** to view these insights further.
+In this section, take action to better understand where others see you as effective or where there's an opportunity for improvement.  Select **Take action** to view these insights further.
 
 #### Overall Scores
 

@@ -12,15 +12,11 @@ items:
       href: microsoft-viva-admin-roles.md
     - name: Microsoft Viva language support
       href: viva-language-support.md
-    - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
-      href: solutions/holistic-listening-discovery-workbook.md
     - name: Use Organizational Data in Microsoft 365
       href: organizational-data.md  
       items:
       - name: Use organizational data in the Copilot dashboard
         href: organizational-data-copilot.md    
-      - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
-        href: solutions/glint-insights-integration-overview.md
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview
@@ -39,6 +35,8 @@ items:
         href: copilot/viva-copilot-overview.md
       - name: Control access to Copilot in Viva
         href: copilot/copilot-access-management.md
+    - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+      href: solutions/glint-insights-integration-overview.md
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Viva Holistic Listening Vision & Strategy Discovery Workbook

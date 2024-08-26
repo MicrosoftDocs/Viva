@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/20/2024
+ms.date: 08/22/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -55,7 +55,10 @@ Meet internally with your MTO stakeholders, review requirements, and consider Gl
 Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center (MAC) or using the Microsoft Graph API. Setup in the Microsoft 365 admin center offers a user-friendly experience with simple and quick configuration steps. Microsoft Graph API configuration gives admins more granular control and advanced customization and automation options. Consider your organization’s level of complexity across tenants when choosing an MTO setup method.
 
 > [!TIP]
-> MTO setup in the Microsoft 365 admin center is recommended and the most commonly used setup method. 
+> MTO setup in the Microsoft 365 admin center is recommended and is the most commonly used setup method.
+
+> [!IMPORTANT]
+> If your organization already uses B2B collaboration or cross-tenant synchronization to sync users, an MTO setup is still required. MTO and (an included MTO policy) identifies trusted domains and tenants.
 
 | :::image type="icon" source="/office/media/icons/administrator.png" ::: |Step <br> <br> _roles involved_ | More information |
 |:---|:---|:---|
@@ -73,8 +76,9 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 > [!TIP]
 > Cross-tenant synchronization is recommended and offers a more automated and streamlined user sync method.
 
-> [!NOTE]
-> If your organization already has cross-tenant synchronization set up for users that need to access Glint in the target tenant, skip this step.
+> [!IMPORTANT]
+> - If your organization already has cross-tenant synchronization set up for users that need to access Glint in the target tenant, skip this step.
+> - If your organization uses [B2B direct connect](/entra/external-id/b2b-direct-connect-overview), accounts for source tenant users aren't created in the target tenant. Cross-tenant synchronization is still needed to sync users and doesn't affect any existing B2B direct connect setups. 
 
 | :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |Sync option <br> <br> _roles involved_| More information |
 |:---|:---|:---|

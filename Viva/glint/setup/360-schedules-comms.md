@@ -14,13 +14,11 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # Setup schedules and communications for a Viva Glint 360 
 
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 :::image type="content" source="../../media/glint/setup/360-schedule-comms-access.png" alt-text="Screenshot how to access Schedule and Communications setup in Cycle Settings.":::
 
 ## Schedule setup 

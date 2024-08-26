@@ -24,7 +24,7 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 Viva Engage offers various integrations to help make other applications more mobile and social. 
   
 > [!TIP]
-> For many integrations, you need [the Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
+> For many integrations, you need [the Viva Engage community or group's feedID](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f). 
   
 ## Viva Engage for SharePoint
 
@@ -32,7 +32,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
   
 ## Viva Engage and Teams
 
-[Add a Viva Engage tab to a Teams channel](https://support.office.com/article/9fdca2b6-f03f-4632-87d1-e83b87b458b2).
+[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/en-us/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528)
 
 ## Viva Engage Embed
 
@@ -57,14 +57,8 @@ The Viva Engage for Salesforce.com Integration automatically delivers your Sales
   
 ## Custom apps using the Yammer APIs
 
-Create your own applications using the data in Viva Engage, including automation tools for backing up data and deactivating users as they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
+Create your own applications, such as automation tools that back up data and deactivate users when they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
   
 ### Viva Engage App directory
 
 Review this comprehensive list of Viva Engage apps in the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143).
-  
-## Related articles
-
-[How do I find my Viva Engage group ID?](https://support.office.com/article/b0e49b2c-ca30-4025-b3bc-7bd764c3e2ec)
-
-[Viva Engage Developer Center](https://go.microsoft.com/fwlink/?LinkId=525064)

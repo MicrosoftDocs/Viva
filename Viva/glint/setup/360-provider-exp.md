@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: Melissa Barry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: raters, rater experience
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,18 +14,20 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # 360 Viva Glint feedback program - feedback provider experience
 
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
-
 Feedback providers receive an email invitation to provide feedback. Selecting the button from the email opens a browser window with the survey. After the feedback provider submits their feedback, a Thank You page confirms they’ve completed their task.
 After a feedback provider gives feedback, responses can't be edited.
 
->[!Note]
+> [!IMPORTANT]
 > Feedback providers can be added by subjects or 360 admins until the cycle closes for the subject. Subjects can only be added by 360 admins until the feedback provider selection end date for the cycle.
+
+## More resources
+
+**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
+
 
 

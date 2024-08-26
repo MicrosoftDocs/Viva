@@ -1,5 +1,5 @@
 ---
-title: Use multiple languages in Viva Glint survey emails (preview)
+title: Use multiple languages in Viva Glint survey emails
 description: To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 08/26/2024
 ---
 
-# Use multiple languages in Viva Glint survey emails (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Use multiple languages in Viva Glint survey emails
 
 To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint. Use cases include:
 
@@ -31,7 +27,6 @@ To ensure that your global employee population receives communications that they
 > [!NOTE]
 > - Multiple language emails: 
 >   - are for survey communications only and aren’t supported for Team Conversations emails.
->   - don’t currently support multiple paragraphs/paragraph breaks.
 >   - don't currently support right to left languages.
 
 ## How multiple language emails work

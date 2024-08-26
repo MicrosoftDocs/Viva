@@ -278,7 +278,9 @@ items:
                 href: setup/program-summary-communications.md
                 items:
                   - name: Customize survey email content
-                    href: setup/email-content-customization.md            
+                    href: setup/email-content-customization.md
+                  - name: Multi-language emails
+                    href: setup/multi-lang-emails.md                        
               - name: Coaching setup 
                 href: setup/program-summary-coaching.md
                 items:         
@@ -363,10 +365,14 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
           - name: Delete survey data 
             href: setup/delete-survey-data.md
+      - name: Edit live surveys or reopen closed surveys
+        items:
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
+          - name: Reopen or extend a survey cycle
+            href: setup/reopen-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
