@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/29/2024
+ms.date: 08/26/2024
 ---
 
 # Use multiple languages in Viva Glint survey emails
@@ -27,7 +27,6 @@ To ensure that your global employee population receives communications that they
 > [!NOTE]
 > - Multiple language emails: 
 >   - are for survey communications only and aren’t supported for Team Conversations emails.
->   - don’t currently support multiple paragraphs/paragraph breaks.
 >   - don't currently support right to left languages.
 
 ## How multiple language emails work
