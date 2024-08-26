@@ -93,15 +93,18 @@ When an official campaign ends, the follow button and default publisher on the c
 
 Users can discover campaigns through posts that contain the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.  To participate in an official campaign from the Home feed, users can create or comment on a post by using the verified campaign hashtag in a community, on a storyline, or from the official campaign landing page.
 
-- **Verified campaign hashtag**
-    - When users select a post or comment that contains the verified campaign hashtag, they're routed to the official campaign landing page, where they can follow the campaign.
+**Verified campaign hashtag**
+
+- When users select a post or comment that contains the verified campaign hashtag, they're routed to the official campaign landing page, where they can follow the campaign.
 
    > [!NOTE]
    > To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the verified campaign hashtag to their storyline and communities. You can also share the campaign link through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
-- **Campaigns modules**
-    - **Top campaigns** module: On the right side of the Home feed, the *Top campaigns module* shows active official campaigns with the highest number of followers.
-    - **Followed campaigns** module: When a user follows an official campaign, they see a *Followed campaigns* module on the right side of their storyline.
+**Campaigns modules**
+    
+- **Top campaigns** module: On the right side of the Home feed, the *Top campaigns module* shows active official campaigns with the highest number of followers.
+
+- **Followed campaigns** module: When a user follows an official campaign, they see a *Followed campaigns* module on the right side of their storyline.
 
 ## Manage official campaign analytics and engagement
 
