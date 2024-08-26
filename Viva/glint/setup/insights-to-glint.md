@@ -118,7 +118,7 @@ In the **Select Programs and Cycles** section, import data from previous cycles 
     1.	Glint currently supports importing the selected behavioral data for the last two cycles, up to 24 months.
 2.	Select **Import behaviors**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors.png" alt-text="Screenshot of the confirmation that behavioral attributes are added..":::
+    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors.png" alt-text="Screenshot of the confirmation that behavioral attributes are added.":::
 
 3. This confirmation shows:
 
