@@ -1,6 +1,6 @@
 ---
 title: Send Viva Insights data to Viva Glint
-description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
+description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
