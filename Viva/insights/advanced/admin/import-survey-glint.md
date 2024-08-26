@@ -132,3 +132,8 @@ The **Data quality** tab shows you the following information for each imported s
 *Applies to: Viva Glint admin*
 
 Follow [these steps](https://go.microsoft.com/fwlink/?linkid=2271365) to delete any Viva Glint survey data that was imported into Viva Insights.
+
+
+## Related topics
+
+[Export Viva Insights data to Viva Glint](../admin/export-insights-data-glint.md)
