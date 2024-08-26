@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 08/28/2024
 ---
 
-# Import Viva Insights data into Viva Glint 
+# Send Viva Insights data into Viva Glint 
 
 >[!IMPORTANT]
 >This feature is currently availabile to preview customers only. Features described here are subject to change.
