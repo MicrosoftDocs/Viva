@@ -479,11 +479,13 @@ items:
         items:    
           - name: Overview
             href: ../solutions/glint-insights-integration-overview.md
-          - name: Export Viva Glint survey results to Viva Insights (preview)
+          - name: Send Viva Glint data to Viva Insights
             href: setup/insights-integration.md
-          - name: Import survey results from Viva Glint into Viva Insights (preview)
+          - name: Send Viva Insights data to Viva Glint
+            href: 
+          - name: Import survey results from Viva Glint into Viva Insights
             href: ../insights/advanced/admin/import-survey-glint.md
-          - name: Glint and organizational insights report (preview)
+          - name: Glint and Organizational Insights report
             href: ../insights/advanced/analyst/templates/glint.md
           - name: Partitions in Viva Insights
             href: ../insights/advanced/admin/partitions.md
