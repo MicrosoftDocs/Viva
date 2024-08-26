@@ -25,12 +25,12 @@ Campaigns are an interactive way to drive employee engagement. They provide powe
 
 Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](https://support.microsoft.com/en-us/topic/community-campaigns-in-viva-engage-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8).
 
-Use this article to create, manage, and delete official campaigns. You must have Engage admin or corporate communicator permissions to do this.
+Engage admin or corporate communicators can create, manage, and delete official campaigns.
 
 >[!NOTE]
 >Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
 
-## Access the offical campaign dashboard
+## Access the official campaign dashboard
 
 >[!NOTE]
 >Unlicensed admins can only access the campaign management dashboard to delete campaigns.
@@ -54,7 +54,7 @@ The campaign dashboard provides a list of active, ended, and draft campaigns cre
 1. Select **Create campaign** in the upper-right corner of the campaign dashboard.
 1. Fill in the fields according to your campaign goals.
     - **Campaign hashtag** is a required field. The campaign hashtag is the campaign name and appears on the campaign landing page.
-    - **Default publisher** is the post type (discussion, question, poll, or praise) the publisher defaults to when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
+    - **Default publisher** refers to the default post type (discussion, question, poll, or praise) when users post on the campaign page. For example, if you choose **Question**, the question format automatically appears when a user posts on the campaign page.
     - **Theme color** lets you customize the color of the campaign hashtag.  
     - **Add co-organizers** to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](https://support.microsoft.com/en-us/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
 
@@ -67,9 +67,9 @@ The campaign is in draft state. Until you publish the campaign, only Engage admi
 
 The campaign landing page is visible to any Viva Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
-## Upload or update the campaign image
+## Update the campaign image
 
-Corporate communicators can update cover photos for network-level campaigns. When uploading a PNG or JPG image for the campaign cover, keep in mind that the image dimensions are 984 pixels by 160 pixels and the file must be 20 MBs or smaller.
+Corporate communicators can update the cover photo with a PNG or JPG image, 20 MBs or smaller. Dimensions for the campaign cover image are 984 pixels by 160 pixels.
 
 - On the campaign homepage, select the options (...) menu under the existing image, and select **Upload cover photo**.
 
@@ -79,7 +79,7 @@ Corporate communicators can update cover photos for network-level campaigns. Whe
 
 When an official campaign ends, the follow button and default publisher on the campaign landing page are disabled. Users can still post in communities and storylines using the verified campaign hashtag, and those posts appear on the campaign landing page.
 
-1. In Viva Engage, select the ellipses icon and then select **Admin**.  
+1. In Viva Engage, select the ellipses (...) icon and then select **Admin**.  
 
 1. From the Feature management tab, select **Campaigns**. 
 
@@ -91,7 +91,7 @@ When an official campaign ends, the follow button and default publisher on the c
 
 ## Build awareness for official campaigns
 
-Users can discover offical campaigns through posts that contain the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.  To participate in an official campaign from the Home feed, users can create or comment on a post by using the verified campaign hashtag in a community, on a storyline, or from the official campaign landing page.
+Users can discover campaigns through posts that contain the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.  To participate in an official campaign from the Home feed, users can create or comment on a post by using the verified campaign hashtag in a community, on a storyline, or from the official campaign landing page.
 
 - **Verified campaign hashtag**
     - When users select a post or comment that contains the verified campaign hashtag, they're routed to the official campaign landing page, where they can follow the campaign.
@@ -157,7 +157,7 @@ Corporate communicators can perform the following functions to manage official c
 
 **Can I create a campaign for a hashtag that's already in use?** 
 
-If a hashtag is in use by another official campaign---even if that campaign has ended---the hashtag is unavailable for reuse. If the hashtag is in use by an unpublished campaign, it's available, but any content created before the campaign becomes **Active** isn't included in views or analytics.
+Hashtags in use by other active or ended campaigns are unavailable for reuse. If the hashtag is in use by an unpublished campaign, it's available. However, any content created before the campaign is published won't be included in views or analytics.
 
 **How often are campaign analytics refreshed?**
 
