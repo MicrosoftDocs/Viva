@@ -189,3 +189,4 @@ Use the ellipses next to each program to open the **Remove program** option.
 :::image type="content" source="../../media/glint/setup/glintsights-remove-program.png" alt-text="Screenshot of removing a program window.":::
 
 Select **Remove** from the window that opens.
+
