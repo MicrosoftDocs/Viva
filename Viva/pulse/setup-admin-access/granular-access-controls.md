@@ -19,7 +19,7 @@ search.appverid: MET150
 
 # Granular access controls for Viva Pulse
 
-As a Viva Pulse administrator, you can use create or manage policies to define which users can access specific features in Viva Pulse. Feature access management gives you the ability to manage the availability specific capabilites in Viva Pulse for particular groups or users in your tenant. This helps to tailor Viva Pulse to meet your local regulatory and business requirements. See [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618) to learn more.
+As a Viva Pulse administrator, you can use create or manage policies to define which users can access specific features in Viva Pulse. Feature access management enables you to configure which specific features of Viva Pulse are available to certain groups or users within your tenant. This helps to tailor Viva Pulse to meet your local regulatory and business requirements. See [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618) to learn more.
 
 ## Customization
 
