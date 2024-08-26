@@ -58,10 +58,10 @@ The campaign dashboard provides a list of active, ended, and draft campaigns cre
     - **Theme color** lets you customize the color of the campaign hashtag.  
     - **Add co-organizers** to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](https://support.microsoft.com/en-us/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
 
-1. Select **Confirm** to save your changes.
-The campaign is in draft state. Until you publish the campaign, only Engage admins and corporate communicators can view the campaign.
+1. Select **Confirm** to save your changes.<br>
+The campaign is now in draft state. Until you publish the campaign, only Engage admins and corporate communicators can view the campaign.
 
-1. To publish the organization, select the ellipses button on the campaign management dashboard, and select **Publish campaign**.
+1. To publish the organization, select the ellipses button on the campaign management dashboard, and from the menu select **Publish campaign**.
 
 [![Screenshot of the UI dropdown to publish and delete a campaign.](/viva/media/engage/admin/publish-campaign-button.png)](/viva/media/engage/admin/publish-campaign-button.png#lightbox)
 
