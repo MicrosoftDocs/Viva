@@ -138,7 +138,7 @@ Select **Manage Integration**. The **Import Viva Insights data** page opens.
 
 You can see the list of attributes imported. 
 
-1.  To bring in other behaviors, select **+ Add attributes** and follow the same  procedure. Attributes continue to populate in the **Imported Attributes** column.
+1. To bring in other behaviors, select **+ Add attributes** and follow the same  procedure. Attributes continue to populate in the **Imported Attributes** column.
 
    :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes.png" alt-text="Screenshot of the Import Viva Insights data window.":::	
 
@@ -161,7 +161,7 @@ All data ranges are the same across the entire company.
 
 :::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds, in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
 
 ## Delete an imported attribute
