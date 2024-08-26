@@ -19,15 +19,15 @@ search.appverid: MET150
 
 # Granular access controls for Viva Pulse
 
-As a Viva Pulse administrator, you can use access policies to manage which users can access specific features in Viva Pulse. Feature access management gives you the ability to enable or disable specific features in Viva Pulse for particular groups or users in your tenant and tailor Viva Pulse to meet your local regulatory and business requirements. See [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618) to learn more.
+As a Viva Pulse administrator, you can use create or manage policies to define which users can access specific features in Viva Pulse. Feature access management gives you the ability to manage the availability specific capabilites in Viva Pulse for particular groups or users in your tenant. This helps to tailor Viva Pulse to meet your local regulatory and business requirements. See [Control access to features in Viva](https://go.microsoft.com/fwlink/p/?linkid=2245618) to learn more.
 
 ## Customization
 
-You can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions through centralized feature access management, which allows you to configure access to customization capabilities at the tenant level, group level (using AAD groups or M365 groups), or at the user level for maximum flexibility. The customization control will be default turned on for your tenant. Use the FeatureID value **CustomizationControl** to configure customization capability for your tenant. 
+You can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions through centralized feature access management, which allows you to configure access to customization capabilities at the tenant level, group level (using AZure Active Directory groups or Microsoft 365 groups), or at the user level for maximum flexibility. The customization control is default turned on for your tenant. Use the FeatureID value **CustomizationControl** to configure customization capability for your tenant. 
 
-## Customization
+## Conversations in Pulse reports
 
-You can control whether feedback authors can respond to open text responses in their Pulse reports and have a deidentified conversation with the Pulse participant as part of their Pulse reports. Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level (using AAD groups or M365 groups), or at the user level for maximum flexibility. This capability will be default turned on for your tenant. Use the FeatureID value **PulseConversation** to configure conversations in Pulse reports for your tenant. 
+Viva Pulse authors can respond to open text responses in their Pulse reports and have a de-identified conversation with the Pulse participant who provided that particular open text response. Using centralized feature access management, you can decide for this capability to be available at the tenant level, group level (using AZure Active Directory groups or Microsoft 365 groups), or at the user level for maximum flexibility. This capability is default turned on for your tenant. Use the FeatureID value **PulseConversation** to configure conversations in Pulse reports for your tenant. 
 
 ## Resources
 
