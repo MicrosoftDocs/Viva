@@ -32,7 +32,7 @@ To use this integration:
 -	Your organization has purchased a Viva Insights tenant
 -	Your organization has purchased Premium Viva Insights licenses
 
-Select **Learn more** to get more information about the integration.
+Select **Learn more** in the platform to get more information about the integration.
 
 :::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
 
