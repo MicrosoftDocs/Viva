@@ -49,7 +49,7 @@ Select **Campaigns** on the **Feature management** tab to access the campaign 
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns or access campaign analytics for better understanding of the campaigns' performance and engagement.
 
-## Create and publish an official campaign
+## Create an official campaign
 
 1. Select **Create campaign** in the upper-right corner of the campaign dashboard.
 1. Fill in the fields according to your campaign goals.
