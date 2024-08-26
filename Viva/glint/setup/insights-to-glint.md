@@ -29,8 +29,8 @@ Glint admins can import behavioral data from Microsoft Viva Insights to suppleme
 -	Control who can access Viva Insights data
 
 To use this integration:
--	Your organization has purchased a Viva Insights tenant
--	Your organization has purchased Premium Viva Insights licenses
+-	Your organization purchased a Viva Insights tenant
+-	Your organization purchased Premium Viva Insights licenses
 
 Select **Learn more** in the platform to get more information about the integration.
 
@@ -41,8 +41,8 @@ Select **Learn more** in the platform to get more information about the integrat
 On your first visit to the Viva Insights Integrations platform, accessible from your admin configuration dashboard, you see a window requesting you to review and agree to this information:
 
 - Data sharing from Viva Insights to Viva Glint is a feature governed by the Microsoft Viva Preview Agreement. 
--	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics will be shared with Glint and subject to further processing by Glint. Glint stores a copy of the share Insights data, which can be deleted from Glint at any time.
--	By selecting the checkbox below, you enable Insights-to-Glint data sharing and agree to the Microsoft viva preview Agreement.
+-	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics is shared with Glint and subject to further processing by Glint. Glint stores a copy of the share Insights data, which can be deleted from Glint at any time.
+-	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft viva preview Agreement.
 
 ## Set up the Viva Insights integration 
 
@@ -102,7 +102,7 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 |Call hours|Number of hours a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |After-hours collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
 |Multitasking hours|Number of hours a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting)|0 to less than 10|10 to less than 20|20 to less than 30|30 or more|Hour|
+|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person. These hours are either internal or external. They are determined after deduplication of time due to overlapping activities. 
 |Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send eamils, read or send Teams chcats, or initiate or receive Teams calls. In other words, uninterrupted hours is the sume of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |Meeting hours|Number of hours a person spent in meetings with at least one other person, during and outside of working hours.|0 to less than 6| 60 to less than 12|10 to less than 15|15 or more|Hour|
 |Meeting hours with Manager 1:1|Number of meeting hours involving only the person and their manager|0 to less tha 0.01|0.01 to less than 0.25|0.25 to less than 0.5|0.5 or more|Hour|
