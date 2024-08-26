@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 08/28/2024
 ---
 
-# Import Viva Insights data into Viva Glint (preview)
+# Send Viva Insights data into Viva Glint (preview)
 
 >[!IMPORTANT]
 >This feature is currently availabile to preview customers only. Features described here are subject to change.
@@ -136,13 +136,13 @@ Select **Manage Integration**. The **Import Viva Insights data** page opens.
 
  ## Manage imported attributes
 
-You can see the list of attributes you’ve imported. 
+You can see the list of attributes imported. 
 
 1.  To bring in other behaviors, select **+ Add attributes** and follow the same  procedure. Attributes continue to populate in the **Imported Attributes** column.
 
    :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes.png" alt-text="Screenshot of the Import Viva Insights data window.":::	
 
-2. Use the **ellipses** next to each behavior to open a dropdown menu, providing options for you to edit, customize, or delete attributes.
+2. Use the **ellipses** next to each behavior to open a dropdown menu, providing options for you to edit, customize, or delete.
 
    :::image type="content" source="../../media/glint/setup/glintsights-imported-attributes-dropdown.png" alt-text="Screenshot of the Imported Attributes dropdown menu.":::	
 
@@ -162,7 +162,7 @@ All data ranges are the same across the entire company.
 :::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
 
 >[!IMPORTANT]
-> Glint respects Viva Insights confidentiality thresholds in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
+> Glint respects Viva Insights confidentiality thresholds, in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
 
 ## Delete an imported attribute
 
