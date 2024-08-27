@@ -300,8 +300,6 @@ items:
         items:
           - name: Overview and terminology
             href: setup/360-overview.md
-          - name: Authentication and participant experiences
-            href: setup/360-authenticate-participate.md
           - name: 360 Feedback programs
             items:
               - name: General settings
