@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/25/2024
+ms.date: 08/27/2024
 ---
 
 # Manage Viva Glint confidentiality thresholds
@@ -28,7 +28,9 @@ For a deeper understanding of how confidentiality and suppression appear in Viva
 
 ## Understand confidentiality thresholds
 
-Threshold settings determine how items scores, response rates, and comments display in Glint reporting. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds for confidential surveys where the default threshold to display scores is five (5) but can be adjusted (to as low as three (3) responses.)
+Threshold settings determine how items scores, response rates, and comments display in Glint reporting. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds.
+
+ - For confidential surveys, the default threshold to display scores is five (5) but can be adjusted (to as low as three responses.)
 
 ### Rated question scores
 
@@ -131,14 +133,18 @@ To edit threshold values:
 2. On the **Survey Details** page, enter new values in each threshold field for rated question scores, response rates, and comments.
 
    > [!NOTE]
-   > The survey must be in DRAFT state to make any edits. Undo the **Approved** toggle in Program Summary to make changes.
+   > The survey must be in DRAFT state to make any edits. Switch the **Approved** toggle in Program Summary to make changes.
 
    Use the information in the [Understand confidentiality thresholds](#understand-confidentiality-thresholds) section to find descriptions of thresholds, default values, and impacted reports.
 1. Select **Save Changes** at the bottom of the page.
 
 ## Identifiable surveys
 
-Admins can make Viva Glint Lifecycle and Always-On surveys identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
+Admins can make Glint Lifecycle and Always-On surveys identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these surveys, which typically have lower respondent counts.
+
+>[!IMPORTANT]
+> - The minimum threshold for an ad hoc or recurring program is three (3).
+> - The minimum threshold for an Employee Lifecyce or always-on survey is one (1).
 
 ### Lower thresholds for identifiable surveys
 
@@ -147,7 +153,7 @@ Admins can make Viva Glint Lifecycle and Always-On surveys identifiable during [
 
 1. In **Program Summary**, go to **Program Setup**.
 2. Toggle **Confidential Responses** to **No.**
-3. This setting automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
+3. This automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
 4. If needed, make more adjustments to thresholds for a survey [with this guidance](#survey-thresholds).
 
 :::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO."lightbox="../../media/glint/setup/always-on-threshold.png":::
