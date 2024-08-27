@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/26/2024
+ms.date: 08/27/2024
 ---
 
 # Program Setup in Program Summary
@@ -46,19 +46,19 @@ The **Program Setup** page is the first configuration page within *Program Summa
 
 ## Set up the second section - Confidentiality
 
-The first toggle is set to YES by default. Confidential responses promote accurate feedback.
+The first toggle is set to **YES** by default. Confidential responses promote accurate feedback.
 
 1. **Enable Export of Raw Survey Responses** - Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party. [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export).
 1. **Company Message to Survey Participants** - Allows organizations to incorporate additional details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. Additionally, they may intend to provide supplementary guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title “Message from {{Client_Name}},” directly following Viva Glint’s confidentiality statement.
 
->[!TIP]
-> **Employee Lifecycle surveys often target only a few individuals.** For this reason, reducing your confidentiality threshold helps protect their privacy.
-
 >[!NOTE]
->The character limit for the Company Message to Survey Participants is 1,024.
+> - Translations for the Company Message must be done manually.
+> - The character limit for the Company Message to Survey Participants is 1,024.
 
 >[!TIP]
->Custom messaging previously set up within General Settings but now edited at the survey level, overrides the initial messaging - **survey level custom messaging takes precedence**.
+> - Custom messaging previously set up within General Settings but edited at the survey level, overrides the initial messaging - **survey level custom messaging takes precedence**.
+> - **Employee Lifecycle surveys often target only a few individuals.** For this reason, reducing your confidentiality threshold helps protect their privacy.
+
 
 :::image type="content" source="../../media/glint/setup/platform-setup-confidentiality-new-message.png" alt-text="Screenshot that shows the Confidentiality configuration within Program Setup.":::
 
