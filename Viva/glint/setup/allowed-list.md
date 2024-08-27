@@ -29,7 +29,7 @@ Viva Glint emails come from one of the domains listed here for the US and EU. Ad
 - microsoft.com - Microsoft Email Communications
 - email1.microsoft.com - Newsletter and Product Updates
 
-### Glint survey and system emails for the US and EU originate from:
+#### Glint survey and system emails for the US and EU originate from:
 
 - **no-reply@glint.microsoft** and **no-reply@glint.mail.microsoft**
 
