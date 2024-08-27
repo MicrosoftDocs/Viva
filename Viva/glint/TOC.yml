@@ -480,7 +480,7 @@ items:
           - name: Send Viva Glint data to Viva Insights
             href: setup/insights-integration.md
           - name: Send Viva Insights data to Viva Glint
-            href: /glint/introduction-viva-glint.md
+            href: setup/insights-to-glint.md
           - name: Resources for analysts
             items:
                - name: Analyst setup of Partitions in Viva Insights
