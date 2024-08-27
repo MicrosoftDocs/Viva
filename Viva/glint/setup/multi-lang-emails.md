@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/26/2024
+ms.date: 08/27/2024
 ---
 
 # Use multiple languages in Viva Glint survey emails
@@ -77,9 +77,6 @@ To enable multiple language sections in emails for survey participants:
 3. Select **Save Changes** in the top right of the **Communications** page.
 
    :::image type="content" source="../../media/glint/setup/email-settings-multi-lang.png" alt-text="Screenshot of the multiple language email setting in the Communications section of survey setup.":::
-
-> [!IMPORTANT]
-> Multi-language emails don’t currently support multiple paragraphs/paragraph breaks.
    
 ## Configure dual language emails
 
