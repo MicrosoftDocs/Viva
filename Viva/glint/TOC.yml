@@ -486,7 +486,9 @@ items:
                - name: Analyst setup of Partitions in Viva Insights
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
-                 href: ../insights/advanced/analyst/templates/glint.md  - name: Troubleshoot
+                 href: ../insights/advanced/analyst/templates/glint.md  
+                 
+  - name: Troubleshoot
     items:
       - name: Data File Uploads
         items:
