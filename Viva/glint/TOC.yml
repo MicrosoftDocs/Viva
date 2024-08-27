@@ -473,7 +473,7 @@ items:
         href: setup/focus-areas-managers-creating.md
       - name: Address access issues
         href: setup/manager-access-issues.md              
-    - name: Viva integrations
+  - name: Viva integrations
     items:
       - name: Viva Glint and Viva Insights
         items:    
