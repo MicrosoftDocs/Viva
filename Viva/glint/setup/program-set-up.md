@@ -1,6 +1,6 @@
 ---
 title: Program setup in Program Summary
-description: In Program Setup you define the basics of your program, such as its name and what languages will be needed, along with confidentiality directives.
+description: In Program Setup you define the basics of your program, such as its name and what languages are needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: elizapo
@@ -19,7 +19,7 @@ ms.date: 08/27/2024
 
 # Program Setup in Program Summary
 
-The **Program Setup** page is the first configuration page within *Program Summary*. It allows you to define the basics of your program.
+The **Program Setup** page is the first configuration page within *Program Summary*. This is where you define the basics of your program.
 
 :::image type="content" source="../../media/glint/setup/program-setup-from-program-summary.png" alt-text="Screenshot that shows the Program Setup page for configuration within the Program Summary.":::
 
@@ -34,9 +34,9 @@ The **Program Setup** page is the first configuration page within *Program Summa
    :::image type="content" source="../../media/glint/setup/admin-survey-email.png" alt-text="Screenshot of the survey admin notification email for an upcoming Glint survey.":::
 
 1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
-1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson for additional setup](https://www.microsoft.com).  
-1. Confidential Responses are set to YES by default.  
-1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users will not be able to resubmit survey responses.
+1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson](https://www.microsoft.com).  
+1. Confidential Responses are set to **YES** by default.  
+1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users can't resubmit survey responses.
 
    :::image type="content" source="../../media/glint/setup/program-setup-survey-resubmit.png" alt-text="Screenshot that shows how to enable Allow Survey Resubmission so managers can reset surveys for survey takers.":::
 
@@ -49,7 +49,7 @@ The **Program Setup** page is the first configuration page within *Program Summa
 The first toggle is set to **YES** by default. Confidential responses promote accurate feedback.
 
 1. **Enable Export of Raw Survey Responses** - Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party. [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export).
-1. **Company Message to Survey Participants** - Allows organizations to incorporate additional details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. Additionally, they may intend to provide supplementary guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title “Message from {{Client_Name}},” directly following Viva Glint’s confidentiality statement.
+1. **Company Message to Survey Participants** - Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title “Message from [<Client_Name>],” directly following Glint’s confidentiality statement.
 
 >[!NOTE]
 > - Translations for the Company Message must be done manually.
