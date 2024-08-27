@@ -14,13 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 08/27/2024
 ---
 
 # Managers using the Team Summary dashboard in Viva Glint
 
 The Team Summary manager dashboard experience displays results from the most recently closed program. You can choose to see results from previous programs as well. 
-The following guide describes each section in the manager dashboard. 
+This guide describes each section in the manager dashboard. 
 
 ## Understand the survey title card 
 
@@ -41,13 +41,13 @@ Your manager sees the following four steps:
 1. Step 3: Discuss with your team 
 1. Step 4: Commit to next steps 
 
-## What else will your manager see on their dashboard? 
+## What else does your manager see on their dashboard? 
 
 The manager dashboard defaults to showing the results from the most recent survey program. Switch to another program by using the **Switch Program** drop down menu.
 
 ### Survey participation 
 
-In this section, you'll see 
+In this section, you see 
 
 - Response Rate: The percentage of how many team members responded to the survey, compared to a benchmark response rate.
 - Comments: The number of comments overall, which question received the most comments and the opportunity to view the comments (if the confidentiality threshold has been met). You can drill down to see comments, but we recommend reviewing reports at a high-level first. 
@@ -56,7 +56,7 @@ In this section, you'll see
 
 Managers may see an animated Celebrations display if there are positive trends or the number of items above benchmark have improved compared to past reports. The criteria for a celebration to show up is **"Our team’s scores for X questions are above [the company’s/the benchmark/all my teams]!"**, allowing Celebrations to show even in a new survey.
 
-Other factors are considered when populating this section. The table below helps to understand them:
+This table describes other factors considered when populating this section:
 
 |Improved Score type |Compared to |Minimum Response Count and score difference|Celebration message|
 |------------|-------|-------|-------|
@@ -72,7 +72,7 @@ Other factors are considered when populating this section. The table below helps
 
 This section contains the metrics for the key outcome of the survey. The number in the blue box is the overall result for this survey.
 
-In this section, you'll also see: 
+In this section, you see: 
 
 - Trend survey: Your current score versus any previous scores. Keep in mind that trend results won't be available for the first survey.
 - Your team score compared to the Company score. To view your team score in comparison to the external comparison score (outside your organization), use the **Settings** button to switch to **Benchmark**. The Benchmark may be global, or it may be industry or location specific. Your administrator made this choice when setting up your survey program. 
@@ -90,16 +90,14 @@ Use the right-facing arrow to drill down for more information and suggested acti
 
 This section shows the Top Strengths and Top Opportunities that can drive your business.
 Strengths and opportunities are derived from a manager’s Driver Impact report.
-
-The following colors are used:
-
+Color coding:
 - Blue: Strength
 - Red: Opportunity
 - Gray: Excluded; items may be excluded from a Strength & Opportunity calculation because they don't have a benchmark comparison, or they don't have a high impact on engagement.
 
 ### Top Strengths
 
-The Top Strengths are as follows:
+The Top Strengths are:
 
 - Up to three high impact strength scores with their correlating driver and survey item 
 - Benchmark comparison where applicable
@@ -108,7 +106,7 @@ The Top Strengths are as follows:
 
 ### Top Opportunities
 
-The Top Opportunities are as follows:
+The Top Opportunities are:
 
 - Up to three high impact opportunity scores with their correlating key driver and question 
 - Benchmark comparison where applicable
