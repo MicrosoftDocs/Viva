@@ -87,7 +87,7 @@ When you disable storyline for a user, the user is unable to create new storylin
 
 Even though the user no longer has a storyline tab on their profile, their storyline conversations are available through the All activity feed and through search.
 
-All Storyline content is available through [network data export](/viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range). Networks in Native Mode can also access this content [through eDiscovery](eDiscovery-engage.md).
+All Storyline content is available through [network data export](/Viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range). Networks in Native Mode can also access this content [through eDiscovery](eDiscovery-engage.md).
 
 > [!NOTE]
 > If you need to address objectionable content or security concerns, an effective solution is to [delete the conversation](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [block the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
