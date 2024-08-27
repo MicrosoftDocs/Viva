@@ -17,10 +17,10 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Microsoft 365 Copilot impact report (preview)
+# Microsoft 365 Copilot impact report (public preview)
 
 > [!Important]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+> This feature is available to all customers in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 The **Microsoft 365 Copilot impact** report helps leaders understand the impact of Copilot usage among employees across their organization. The insights can help you evaluate the relationship between Copilot adoption and collaboration patterns. It also spotlights the total number of hours employees were “assisted” by Copilot in their daily work.
 

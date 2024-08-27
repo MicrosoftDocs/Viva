@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2024
+ms.date: 08/22/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -19,13 +19,15 @@ audience: Admin
 # Manage settings for the Microsoft Copilot Dashboard 
 
 >[!Note]
->This feature is rolling out gradually to all customers with more than 100 Copilot assigned licenses.
+>This feature is rolling out gradually to all customers with more than 50 Copilot assigned licenses.
 
 *Applies to: Microsoft 365 global admins and Viva Insights admins* 
 
 As a Microsoft 365 global admin or Viva Insights admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
 
-### Manage access for individual users
+## Manage access for individual users
+
+*Applies to: Microsoft 365 global admins*
 
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
@@ -64,7 +66,9 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../advanced/setup-maint/setup-overview.md) (it is on by default).
 
-### Remove access to the dashboard for the entire tenant with Powershell
+## Remove access to the dashboard for the entire tenant with Powershell
+
+*Applies to: Microsoft 365 global admins*
 
 You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
@@ -80,7 +84,9 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
  IsFeatureEnabled : false
  Everyone
 ```
-### Turn off dashboard auto-enablement with Powershell 
+## Turn off dashboard auto-enablement with Powershell 
+
+*Applies to: Microsoft 365 global admins*
 
 This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. This control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies.  [Learn more about how to set these policies](/viva/feature-access-management).
 
@@ -105,9 +111,9 @@ This feature access control allows Global admins to enable or disable the auto-e
  Everyone
 ```
 
-### Upload organizational data 
+## Upload organizational data 
 
-#### For Viva Insights customers 
+### For Viva Insights customers 
 
 *Applies to: Viva Insights admins*
 
@@ -136,7 +142,7 @@ Below are the attributes that are used in the Copilot dashboard. Your admin shou
 | Organization | Microsoft_Organization | Required |
 | FunctionType | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded. |
 
-#### For Copilot customers
+### For Copilot customers
 
 *Applies to: Microsoft 365 global admins*
 
@@ -154,21 +160,39 @@ Below are the attributes used in the dashboard. The admin should use the exact s
 | Microsoft_Organization | Required |
 | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded.  |
 
-### Upload aggregated survey results
+## Upload aggregated survey results
+
+*Applies to: Microsoft 365 global admins*
 
 You can also upload aggregated survey responses to enable a summary view of Copilot sentiment for the entire company. [Learn how using these steps](/microsoft-365/admin/adoption/ai-assistance). If you use this upload method, filters and heat maps are *not* supported. Filters and heat maps are only available to customers with a Viva Insights license.
 
 >[!Note]
 >If you upload survey data both as a .csv file *and* as aggregated results through the Microsoft 365 admin center, only the .csv survey results are shown in the dashboard. If you subsequently delete the .csv data, then the aggregated results are shown in the dashboard.
 
-### Set minimum group size 
+## Set minimum group size 
+
+*Applies to: Microsoft 365 global admins and Viva Insights admins*
 
 >[!Note]
 >This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot dashboard.
 
-The dashboard’s adoption and impact pages provide user-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees. [Use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
+The dashboard’s adoption and impact pages provide user-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
-### Manage and upload non-Copilot users 
+If your tenant does *not* have a Viva Insights license and you're a global admin, use these steps to set the minimum group size:
+
+1. In the [Microsoft 365 Admin Center](https://admin.microsoft.com), go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**. 
+
+2. Under **Copilot dashboard in Microsoft 365**, select **Manage minimum group size**. 
+
+3. Enter your preferred minimum group size, which must be at least five, then select **Save**. 
+
+    :::image type="content" source="../images/min-group-size-admin.png" alt-text="Screenshot that shows admins how to set the minimum group size.":::
+
+Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
+
+## Manage and upload non-Copilot users 
+
+*Applies to: Microsoft 365 global admins*
 
 >[!Note]
 >When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot dashboard.
@@ -179,21 +203,26 @@ You can upload a list of users for cohort analysis in the [Microsoft 365 Admin C
 
 1. Go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**.  
 
-2. Select **Manage non-Copilot users**. 
+2. Under **Microsoft Copilot Dashboard**, select **Manage non-Copilot users**.
+
+    :::image type="content" source="../images/cohort-upload-03.png" alt-text="Screenshot that shows where to access the cohort upload feature.":::
 
 3. Select **Import users**. Then choose the upload mode: **Add to existing users** or **Replace all existing with new users**. **Add to existing users** adds the new users to the existing list, while **Replace all existing with new users** overwrites the existing list with the new users.
 
     :::image type="content" source="../images/cohort-upload-01.png" alt-text="Screenshot that shows how import new Copilot users.":::
 
+    >[!Note]
+    >You’ll be able to upload non-Copilot users with Entra ID in the coming weeks. 
+
 4. To upload a list of users, upload a .csv file that contains the “PersonId” of the users you want to include in the cohort analysis. The “PersonId” is a unique identifier for the employee record. It can be an employee's primary SMTP address or email alias. For example, person.name@xyz.com. For guidance, you can download a template for the .csv file from the admin center.
 
-    :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how import new users from a csv file.":::
+    :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how to import new users from a csv file.":::
 
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and allows you to download a detailed report or fix the errors in the file. 
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
 
 6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload.
 
-#### Cohort upload scenarios based on Viva Insights licenses
+### Cohort upload scenarios based on Viva Insights licenses
 
 Due to recent updates to the Copilot Dashboard, there are several scenarios to be aware of related to the number of Viva Insights licenses in the tenant during certain time periods. 
 
@@ -211,23 +240,42 @@ You can only upload non-Copilot users in the Microsoft 365 admin center. The lis
 
 **Scenario 4: Tenant doesn’t have any Viva Insights licenses on June 30, 2024, but purchases licenses at any time in the future**
 
-When the tenant purchases Viva Insights licenses allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
+When the tenant purchases Viva Insights licenses that are allocated to non-Copilot users, that group is part of the cohort analysis, together with additional uploaded non-Copilot users in Microsoft 365 Admin Center.
 
-### Create an exclusion list
+## Create an exclusion list (hide users from aggregates)
+
+*Applies to: Microsoft 365 global admins*
+
+>[!Important]
+>If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
 
 >[!Note]
->When you upload an exclusion list, the process could take up to five days.
+>When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.
 
-Your organization may want to exclude certain employees’ collaboration data from being measured in the dashboard for various reasons, such as legal compliance or ethical concerns.  
+Your organization might want to exclude certain users from being included in the aggregated insights in the Microsoft Copilot Dashboard for various reasons, such as legal, compliance, or ethical concerns.
 
-The exclusion list feature lets Global admins honor these requests and allows Global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
+The user exclusion list allows Global admins to specify which employees' data should not be shown in the dashboard.
 
-You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) under the **Copilot Dashboard** section. 
+You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) using these steps: 
 
-To add or remove users from the list, upload a .csv file or select an Azure Active Directory (AAD) group. The CSV file should have one column with the header "PersonId” and the values should be the email addresses for the users you want excluded. You can append or replace the existing list with the new upload.
 
-You can also validate, confirm, view, and undo the upload in the admin center. This feature doesn’t affect other Viva Insights scenarios, such as the personal dashboard or the manager dashboard. This feature is subject to data validations and formatting rules to ensure the accuracy and quality of the data.
+1. Go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**. 
 
-## Related topic
+2. Select **Exclusion list for the Copilot in Microsoft 365 Dashboard**. 
+
+3. Select **Import users**. Then choose the upload mode: **Add to existing users** or **Replace all existing with new users**. **Add to existing users** adds the new users to the existing list, while **Replace all existing with new users** overwrites the existing list with the new users.
+
+    :::image type="content" source="../images/exclusion-list-01.png" alt-text="Screenshot that shows how to import users with the exclusion list feature.":::
+
+4. To upload a list of users, upload a .csv file that contains the “PersonId” of the users you want to include in the cohort analysis. The “PersonId” is a unique identifier for the employee record. It can be an employee's primary SMTP address or email alias. For example, person.name@xyz.com. For guidance, you can download a template for the .csv file from the admin center.
+
+    :::image type="content" source="../images/exclusion-list-02.png" alt-text="Screenshot that shows how to upload a csv file for the exclusion list.":::
+
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and the results allow you to download a detailed report or fix the errors in the file. 
+
+6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload. 
+
+
+### Related topic
 
 [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](../../org-team-insights/copilot-dashboard.md)

@@ -14,7 +14,7 @@
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
-     - name: Support Microsoft Copilot 365 adoption in your organization
+     - name: Support Microsoft 365 Copilot adoption in your organization
        href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
@@ -150,13 +150,18 @@
           href: eac-answers-faq.md
         - name: Import questions-and-answer pairs to communities 
           href: eac-answers-importer.md
-      - name: Integration with Microsoft apps
-        items:   
-        - name: Integrate Viva Engage with other applications
-          href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
-        - name: Social experience options in SharePoint enterprise
-          href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-        - name: Add Viva Engage feed to a SharePoint page
-          href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
-        - name: Viva Engage and Microsoft Defender
-          href: /viva/engage/viva-engage-and-defender
+   - name: Integrate with Microsoft apps
+     items:   
+      - name: Integrate Viva Engage with other applications
+        href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
+      - name: Viva Engage and Microsoft Defender
+        href: /viva/engage/viva-engage-and-defender
+      - name: Social experience options in SharePoint 
+        href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
+      - name: Add a feed to a SharePoint page
+        href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
+      - name: Migrate your classic feeds in SharePoint 
+        href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-to-conversations-webparts
+      - name: Migrate your classic Embed feeds in HTML apps
+        href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-yammer-embed-to-engage
+

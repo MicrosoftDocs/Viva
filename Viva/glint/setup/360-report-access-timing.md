@@ -1,5 +1,5 @@
 ---
-title: 360 Feedback report access and timing (preview)
+title: 360 Feedback report access and timing 
 description: Decide whether subjects, coaches, or managers in a Viva Glint 360 feedback report receive access to a subject’s report, and choose the timing. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/28/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 08/23/2024
 ---
 
-# 360 Feedback report access and timing (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# 360 Feedback report access and timing
 
 Decide whether subjects, coaches, or managers receive access to a subject’s report, and then choose the timing. 
 
@@ -29,16 +25,16 @@ Decide whether subjects, coaches, or managers receive access to a subject’s re
 
 If access is turned to **ON**, a dropdown menu lets you choose report access timing:
 
-1.	Immediately - A report access email is sent as soon as the 360 cycle closes for a subject.
-2.	1-14 days - A report access email is sent based on the selected number of days after the cycle closes for a subject. 
-3.	Manually – An admin releases reports at an individual level or using the bulk report release feature. 
+- Immediately - A report access email is sent as soon as the 360 cycle closes for a subject.
+- 1-14 days - A report access email is sent based on the selected number of days after the cycle closes for a subject. 
+- Manually – An admin releases reports at an individual level or using the bulk report release feature. 
 
 >[!NOTE]
 > Changes can be made during a live cycle, but changes only apply to reports not yet released.
 
 Global Reporting Guidance
 
-:::image type="content" source="../../media/glint/setup/360-resource-guidance.png"alt-text="Screenshot of the the search bar for choosing resource guidance.":::
+:::image type="content" source="../../media/glint/setup/360-resource-guidance.png"alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
 Glint offers standard program and report guidance templates. 
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 08/08/2024
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 
 # Assign licenses for Viva Insights
 
-![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin*
+![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin and Viva Insights admin*
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).

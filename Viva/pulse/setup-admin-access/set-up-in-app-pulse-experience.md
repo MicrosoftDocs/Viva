@@ -35,7 +35,13 @@ All Pulses require a minimum number of responses before authors can view unattri
 
 ### Customized privacy policy link
 
-You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in the common navigation header (top right ellipses). When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
+You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in three places: 
+
+1. In the common navigation header (top right ellipses).
+2. The 'Learn More' page, which appears when the author creates a new pulse during a new session.
+3. Before starting pulse, when the respondent opens the pulse request to respond.
+
+When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
 2. Under the **Customize privacy policy statement** section, in the text box labeled **Link to privacy policy statement**, type or paste a link to your company’s privacy statement to be shown in the app in place of the Microsoft privacy statement.
@@ -73,11 +79,12 @@ You can use this link to remind employees of internal policies and guidelines fo
 
 ## Notifications
 
-An employee’s ability to manage their email notifications preferences is default turned on, but as an admin, you can control whether the employee can manage their email notification preferences. Once the default is turned off, employees can't manage their email notification preferences and will receive all of Viva Pulse’s email notifications. To make any notification configurations:
+An employee’s ability to manage their email notifications preferences is default turned on, but as an admin, you can control whether the employee can manage their email notification preferences. Once the default is turned off, employees can't manage their email notification preferences and will receive all of Viva Pulse’s email notifications. You can also change the notification channels that users receive notifications from. To make any notification configurations:
 
 1. In the **Manage** tab, navigate to the **Notifications** tab.
-2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
-3. The update is autosaved.
+3. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
+4. To update where users receive notifications, use the toggle associated with the preferred channel (Teams Activity Feed, Chatbot, Email).
+5. The update is autosaved.
 
 ## Viva resources
 

@@ -1,5 +1,5 @@
 ---
-title: Configure 360 cycle settings (preview)
+title: Configure 360 cycle settings 
 description: There are five areas to set up in a new 360 cycle. Follow this guidance.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,8 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/23/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/23/2024
 ---
 
 # Configure 360 cycle settings (preview)
@@ -55,7 +54,7 @@ Select up to six feedback provider categories.
 |Skip Manager|1|Yes|Prepopulates with the subject's direct manager|
 |Direct reports|3*|Yes|Prepopulatees with the subject's direct reports|
 |Peers|3*|Yes|Prepopulates with people who have the same direct manager as the subject|
-|Custom|1|N/A|Not commonly used, but could by used for a *dotted line manager* or *mentor* feedback|
+|Custom|1|N/A|Not commonly used, but could be used for a *dotted line manager* or *mentor* feedback|
 |Custom|3*|N/A|Commonly used for *Collaborators*|
 
 > [!IMPORTANT]
@@ -63,11 +62,11 @@ Select up to six feedback provider categories.
 
 ### Edit a feedback provider category
 
-**Hover over and choose a category** eo open the Edit window for that category, which looks like this (for example):
+**Hover over and choose a category** to open the Edit window for that category, which looks like this (for example):
 
 :::image type="content" source="media/glint/setup/360-edit-provider-category.png"alt-text="Screenshot of an example of a window that opens to edit a feedback provider category.":::
 
-Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed. 
+Edit each field as you’d like. When editing in another language that is available in the dropdown menu, that language saves so you can come back to it later if further edits are needed.
 Confidentiality Statements
 
 >[!CAUTION]
@@ -78,8 +77,8 @@ Dependent on the provider category, provider response information settings, and 
 ### Feedback provider response information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and if they've responded. In reporting, subjects see which feedback providers responded per category, but responses are not tied to individual names.
-- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reporting, they see only the number of feedback providers who responded.
+- **On** (default): Subjects see feedback providers and if they've responded. In reports, subjects see which feedback providers responded per category, but responses are not tied to individual names.
+- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reports, they see only the number of feedback providers who responded.
 
 :::image type="content" source="media/glint/setup/360-provider-response-info.png"alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
