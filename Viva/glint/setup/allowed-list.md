@@ -19,7 +19,7 @@ ms.date: 08/27/2024
 
 # Allowed list information for Viva Glint
 
-Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.microsoft, add **glint.microsoft** to your allowed list.
+Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.microsoft, add **glint.microsoft** to your allowed list.
 
 ## Add email sender domains
 
@@ -52,7 +52,7 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 ### United States:
 
 | Host | TCP port | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | sftp2.us1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
 | sftp.us1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
@@ -65,7 +65,7 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 ### European Union:
 
 | Host | TCP port | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | sftp2.eu1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
 | sftp.eu1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
@@ -85,4 +85,11 @@ Some Viva Glint applications require the use of **third-party cookies**, like ho
 
 ## IP exceptions
 
-If your organization requires an **IP exception** for Viva Glint's SFTP server, the US address is 172.174.87.0, and the EU address is 20.238.98.162.
+If your organization requires an **IP exception** for Viva Glint's SFTP server, use the IP address based on your Viva Glint region (US or EU) and selected SFTP port (22 or 1122):
+
+| Host | TCP port | IP address |
+| :--- | :--- | :--- |
+| sftp2.us1.glint.cloud.microsoft | 22 | 40.88.26.84 |
+| sftp.us1.glint.cloud.microsoft | 1122 | 172.174.87.0 |
+| sftp2.eu1.glint.cloud.microsoft | 22 | 52.138.180.95 |
+| sftp.eu1.glint.cloud.microsoft | 1122 | 20.238.98.162 |
