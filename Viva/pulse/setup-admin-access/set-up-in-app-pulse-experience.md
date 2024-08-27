@@ -79,11 +79,12 @@ You can use this link to remind employees of internal policies and guidelines fo
 
 ## Notifications
 
-An employee’s ability to manage their email notifications preferences is default turned on, but as an admin, you can control whether the employee can manage their email notification preferences. Once the default is turned off, employees can't manage their email notification preferences and will receive all of Viva Pulse’s email notifications. To make any notification configurations:
+An employee’s ability to manage their email notifications preferences is default turned on, but as an admin, you can control whether the employee can manage their email notification preferences. Once the default is turned off, employees can't manage their email notification preferences and will receive all of Viva Pulse’s email notifications. You can also change the notification channels that users receive notifications from. To make any notification configurations:
 
 1. In the **Manage** tab, navigate to the **Notifications** tab.
-2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
-3. The update is autosaved.
+3. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
+4. To update where users receive notifications, use the toggle associated with the preferred channel (Teams Activity Feed, Chatbot, Email).
+5. The update is autosaved.
 
 ## Viva resources
 
