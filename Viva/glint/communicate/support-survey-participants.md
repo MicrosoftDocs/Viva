@@ -62,16 +62,16 @@ If a user is eligible for a survey but wasn’t included at the time of launch, 
 
 ### Use the Viva Glint survey invite link
 
-Any user in your organization can use these links to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the resent emails uses the same [access method](/viva/glint/setup/understand-survey-access-methods) as the original invites (authentication with Microsoft Entra ID or a personalized link).
+Any user in your organization can use these links to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the new emails uses the same [access method](/viva/glint/setup/understand-survey-access-methods) as the original invites (authentication with Microsoft Entra ID or a personalized link).
 
 - US server: https://app.us1.glint.cloud.microsoft/companyID/q2/resend-pulse
 - EU server: https://app.eu1.glint.cloud.microsoft/companyID/q2/resend-pulse 
 
 :::image type="content" source="../../media/glint/setup/vg-resend-url-page.png" alt-text="Screenshot of the Viva Glint resend survey landing page.":::
 
-Users receive a notification email after using the resend survey link if they have no active surveys.
+Users receive a notification email after using the link if they have no active surveys.
 
-:::image type="content" source="../../media/glint/setup/email-no-active-surveys.png" alt-text="Screenshot of the email a user receives when they use the resend survey link but have no active surveys.":::
+:::image type="content" source="../../media/glint/setup/email-no-active-surveys.png" alt-text="Screenshot of the email a user receives when they use the link to resend survey invites but have no active surveys.":::
 
 ## Be mindful of scheduled monthly maintenance
 
