@@ -1,6 +1,6 @@
 ---
 title: Support participants during a live Viva Glint survey
-description: "During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take additional steps listed here to set up users for success to submit their valuable feedback."
+description: During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take additional steps listed here to set up users for success to submit their valuable feedback.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: skaradzic
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2024
+ms.date: 08/28/2024
 ---
 
 # Support survey participants during a live Viva Glint survey
@@ -56,12 +56,16 @@ If a user should have been eligible for a survey but wasn’t included at the ti
 
 ### Use the Viva Glint survey invite link
 
-Any user in your organization can use the resend survey link to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails.
+Any user in your organization can use the resend survey link to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the new invite emails use the same [access method](/viva/glint/setup/understand-survey-access-methods) (authentication with Microsoft Entra ID or a personalized link) as the original invites.
 
 - US server: https://app.us1.glint.cloud.microsoft/companyID/q2/resend-pulse
 - EU server: https://app.eu1.glint.cloud.microsoft/companyID/q2/resend-pulse 
 
 :::image type="content" source="../../media/glint/setup/vg-resend-url-page.png" alt-text="Screenshot of the Viva Glint resend survey landing page.":::
+
+Users receive a notification email after using the resend survey link if they have no active surveys.
+
+:::image type="content" source="../../media/glint/setup/email-no-active-surveys.png" alt-text="Screenshot of the email a user receives when they use the resend survey link but have no active surveys.":::
 
 ## Be mindful of scheduled monthly maintenance
 
