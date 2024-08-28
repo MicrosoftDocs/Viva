@@ -213,7 +213,7 @@ Under **Adoption by group**, a graph shows the change in Copilot adoption over t
 
 You can sort the table by the headers. For example, to sort by the metric value, select **Metric**. To sort by the group names alphabetically, select **View by**.
 
-:::image type="content" source="images/trendline-adoption-01.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-01.png":::
+:::image type="content" source="images/trendline-adoption-01a.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-01a.png":::
 
 **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
