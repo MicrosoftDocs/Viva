@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/26/2024
+ms.date: 08/28/2024
 ---
 
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
@@ -50,9 +50,9 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 ### Send Viva Glint data to Viva Insights
 
-- **Glint Admin:** [Send Viva Glint data into Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
+- **Glint Admin:** [Send Viva Glint data into Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
 
-- **Insights Admin:** [Send Viva Glint data to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
+- **Insights Admin:** [Send Viva Glint data to Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
 
 ### Send Viva Insights data to Viva Glint
 

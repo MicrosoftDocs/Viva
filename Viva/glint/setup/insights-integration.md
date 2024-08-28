@@ -1,5 +1,5 @@
 ---
-title: Export Viva Glint survey results to Viva Insights (preview)
+title: Export Viva Glint survey results to Viva Insights 
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/22/2024
+ms.date: 08/28/2024
 ---
 
-# Export Viva Glint survey results to Viva Insights (preview)
+# Export Viva Glint survey results to Viva Insights 
 
 >[!IMPORTANT]
 >This feature is currently availabile to preview customers only. Features described here are subject to change.
@@ -29,7 +29,7 @@ HR analysts and other leaders in your organization can bring Microsoft Viva Glin
 >[!IMPORTANT]
 >By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within [Microsoft Viva Insights](/../viva/insights/introduction).
 
-This consent screen displays the first time you begin this integration. You must **Agree to terms** before moving forward.
+This consent screen displays the first time you begin this integration. **Agree to terms** before moving forward.
 
 :::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Preview agreement.":::
 
