@@ -1069,12 +1069,7 @@
             "redirect_url": "/viva/glint/setup/360-overview",
             "redirect_document_id": false
 	    },
-        { 
-            "source_path": "Viva/connections/mobile-notifications-viva-connections.md",
-            "redirect_url": "/viva/connections/viva-connections-news-notifications",
-            "redirect_document_id": false
-        }
-
+       
     ]
 
 }
