@@ -10,6 +10,7 @@ keywords: Microsoft Privacy Statement
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-privacy
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
