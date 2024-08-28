@@ -2,7 +2,7 @@
 title: Dashboard experiences for Viva Glint roles
 description: Microsoft Viva Glint allows admins to customize dashboards for different roles with various permissions.
 ms.author: JudithWeiner
-author: Judy Weiner
+author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
