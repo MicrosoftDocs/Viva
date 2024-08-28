@@ -43,7 +43,7 @@ For example, to disable access to Copilot in Viva Goals for only your users in G
 - Assign the Microsoft 365 group that contains all Germany users to the group policy.
 - Set the group policy to OFF (disabled).
 
-For detailed information about controlling access using VFAM, including cmdlet syntax, see [Microsoft Viva - Feature access management](../feature-access-management.md).
+For detailed information about controlling access using VFAM, including cmdlet syntax, see [Control access to features in Viva](../feature-access-management.md).
 
 ### Configure access to Copilot by using VFAM PowerShell cmdlets 
 
