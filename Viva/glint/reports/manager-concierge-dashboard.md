@@ -14,17 +14,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 08/28/2024
 ---
-
 
 # Use the Manager Concierge dashboard in Viva Glint 
 
 Manager Concierge is a four-step on-screen guidance and timeline feature, which assists managers to understand survey results, share them with their teams, and take ongoing action.  
 
-Manager Concierge is enabled per User Role at the program level in the Reporting step of Program Summary and appears at the top of a manager’s dashboard, greeting them by name. This timeline automatically updates based on when the survey closes and as the manager is sharing results and committing to next steps with their team.  
+Manager Concierge is enabled per User Role at the program level in the **Reporting** step of **Program Summary**. It is viewed on a manager’s Glint dashboard, greeting them by name. This timeline automatically updates based on when a survey closes and as the manager shares results and commits to next steps with their team.  
 
-Managers who have both Manager Concierge and Team Conversations enabled, receive a guided, customized presentation kit to share with their teams in real-time and progress is recorded as it's completed. Managers can switch back and forth between steps and come back to the kit even after completion. 
+Managers who have both Manager Concierge and Team Conversations enabled, receive a guided, customized presentation kit to share with their teams in real-time. Progress is recorded as it's completed. Managers can switch back and forth between steps and come back to the kit even after completion. 
 
 ## View Manager Concierge without Team Conversations  
 
@@ -36,17 +35,17 @@ Managers follow these prescribed steps, which automatically update as they progr
 
 1. Discuss with your team: Using the **Download Presentation Kit** and results from Team Summary or the Reports tab, managers can customize a slide deck to share with their team.  
 
-1. Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](https://www.microsoft.com) and then provide communications to drive sustained action. Learn to create a Focus Area report here. 
+1. Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](https://www.microsoft.com) and then provide communications to drive sustained action. 
 
 ## View Manager Concierge with Team Conversations 
 
-Managers follow these prescribed steps, which automatically update as they progress: 
+Managers follow these prescribed steps, which update as they progress: 
 
 1. As above 
 
 1. As above 
 
-1. Once the survey closes, the hyperlink switches from *Download Presentation Kit* to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](https://www.microsoft.com). This link remains available even after the conversation has been marked as complete; the kit can continue to be customized. 
+1. Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](https://www.microsoft.com). This link remains available even after the conversation is marked as complete and the kit can continue to be customized. 
 
 1. Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. For more information, see [Learn to create a Focus Area report](https://www.microsoft.com). 
 
