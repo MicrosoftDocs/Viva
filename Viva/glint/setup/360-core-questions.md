@@ -14,19 +14,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/27/2024
 ---
 
 # 360 core survey questions
 
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
-
-In *Cycle Settings*, chooose **Survey Questions**.
+In **Cycle Settings**, choose **Survey Questions**.
 
 :::image type="content" source="../../media/glint/setup/360-cycle-setting-survey-questions.png" lightbox="../../media/glint/setup/360-cycle-setting-survey-questions.png" alt-text="Screenshot of the second section to set up in Cycle Settings.":::
 
-In the Glint Manager 360 Program template, questions are pre-populated. 
+In the **Glint Manager 360 Program template**, questions are pre-populated. 
 
 ## 360 core survey items
 

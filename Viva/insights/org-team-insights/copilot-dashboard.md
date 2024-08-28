@@ -1,5 +1,5 @@
 ---
-ms.date: 8/20/2024
+ms.date: 8/28/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -277,8 +277,6 @@ To measure Copilot user sentiment in your organization, we recommend delivering 
 
 For each of these, we recommend allowing users to indicate whether or not they Strongly Disagree, Disagree, Neither Agree Nor Disagree, Agree, or Strongly Agree with the statement. You can then combine the “Agree” and “Strongly Agree” responses to compute the % of users who agreed with each statement and compare results with the Microsoft benchmarks shown in this tab.
 
-Your user survey does not need to be limited to these four statements, but we recommend including them at a minimum for easy comparison with Microsoft’s benchmark results.
-
 **Upload tenant-level survey results through the Microsoft 365 admin center**
 
 Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results).
@@ -325,7 +323,7 @@ On any card, select **Explore more** to dive into these metrics.
 >[!Important]
 >Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors, such as seasonality, role shifts, or organizational changes, may influence changes in these metrics.
 
-**Comparison between groups**
+###### Comparison between groups
 
 This analysis helps you compare usage patterns between two groups. Analysts can use this to compare usage patterns between Copilot and non-Copilot users, or even two different Copilot user groups.  
 
@@ -512,9 +510,15 @@ Users can access the dashboard less than 24 hours after being enabled.
 
 No, a Viva Insights subscription is not required to access Copilot dashboard. Your ability to view tenant-level or user-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
 
-**Q5. In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
+**Q5. In the Sentiment section I don’t see any survey responses. Why?** 
 
-Your admin has not uploaded any survey data for your organization. Use the steps above to upload it.
+Either survey data is not uploaded for your organization, or the minimum privacy threshold is not met. The privacy threshold is not met if any of the following apply: 
+
+* The total number of survey responses is less than the minimum privacy group size. 
+
+* The number of responses for a specific question is less than the minimum group size. 
+
+* The number of responses classified as favorable, neutral, or unfavorable for any given question is less than the minimum group size. 
 
 **Q6. Who is considered a Copilot licensed employee?**
 Any employee who has been assigned a Copilot license, including the following service plans:

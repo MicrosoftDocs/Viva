@@ -14,13 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/19/2024
+ms.date: 8/23/2024
 ---
 
 # Viva Glint 360 cycle content export and import 
-
-> [!NOTE]
-> This feature is available beginning on 8/24/2024.
 
 After setting up a Microsoft Viva Glint 360 cycle and making all customizations in English, use Export and Import Cycle Content options to apply all updates to translations.
 
