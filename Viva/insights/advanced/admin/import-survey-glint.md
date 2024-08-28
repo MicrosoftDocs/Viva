@@ -3,6 +3,7 @@ title: Import survey results from Viva Glint into Viva Insights
 description: Learn how to set up a connection between Glint and Viva Insights and import your data to the advanced insights app
 author: zachminers
 ms.author: v-zachminers
+ms.date: 08/28/2024
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
