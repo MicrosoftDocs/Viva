@@ -45,7 +45,7 @@ For example, to disable access to Copilot in Viva Goals for only your users in G
 
 For detailed information about controlling access using VFAM, including cmdlet syntax, see [Microsoft Viva - Feature access management](../feature-access-management.md).
 
-## PowerShell cmdlet reference for use with Copilot in Viva Goals 
+### PowerShell cmdlet reference for use with Copilot in Viva Goals 
 
 The following table provides example PowerShell cmdlets, with parameters, that you can use to enable or disable access to Copilot in Viva Goals.
 
@@ -61,7 +61,7 @@ For these examples, the **ModuleId** is *VivaGoals*, and the **featureId** is *C
 |Check whether a specific user can access Copilot in Viva Goals.|`Get-VivaModuleFeatureEnablement -ModuleId VivaGoals -Featureid CopilotInVivaGoals  -Identity  <user_email>`|
 
  
-## Configuring copilot settings from Microsoft 365 Admin Center  
+### Configuring copilot settings from Microsoft 365 Admin Center  
 
 You can also control access to Copilot in Viva Goals from the Microsoft 365 Admin Center.  
 
