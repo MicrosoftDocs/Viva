@@ -1,5 +1,5 @@
 ---
-title: Send Viva Insights data to Viva Glint 
+title: Send Viva Insights data to Viva Glint (public preview)
 description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,10 +17,10 @@ ms.localizationpriority: high
 ms.date: 08/28/2024
 ---
 
-# Send Viva Insights data into Viva Glint 
+# Send Viva Insights data into Viva Glint (public preview)
 
 >[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
+>This feature is currently availabile to public preview customers only. Features described here are subject to change.
 
 Glint admins can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
