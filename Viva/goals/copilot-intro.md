@@ -2,7 +2,7 @@
 ms.date: 08/28/2024
 title: Copilot in Viva Goals
 ms.reviewer: 
-ms.author: v-nstockwell
+ms.author: daisyfell
 author: DefinitelyNotNitza
 manager: Liz.Pierce
 audience: Admin
@@ -54,11 +54,11 @@ For these examples, the **ModuleId** is *VivaGoals*, and the **featureId** is *C
 
 |Task|Cmdlet|
 |-|-|
-|View the existing policy.|Get-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals|
-|Update tenant policy to disable access to Copilot in Viva Goals for everyone.|Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $false -Everyone|
-|Add custom policy to enable Viva Goals co-pilot for specific group or user.|Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $true -UserIds <user_emails> -GroupIds <group_email>|
-|Add a custom policy to disable access for a specific group or user.|Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $false –UserIds <user_email> –GroupIds <group_email>|
-|Check whether a specific user can access Copilot in Viva Goals.|Get-VivaModuleFeatureEnablement -ModuleId VivaGoals -Featureid CopilotInVivaGoals  -Identity  <user_email>|
+|View the existing policy.|`Get-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals`|
+|Update tenant policy to disable access to Copilot in Viva Goals for everyone.|`Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $false -Everyone`|
+|Add custom policy to enable Viva Goals co-pilot for specific group or user.|`Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $true -UserIds <user_emails> -GroupIds <group_email>`|
+|Add a custom policy to disable access for a specific group or user.|`Add-VivaModuleFeaturePolicy -ModuleId VivaGoals -FeatureId CopilotInVivaGoals -Name <PolicyName> -IsFeatureEnabled $false –UserIds <user_email> –GroupIds <group_email>`|
+|Check whether a specific user can access Copilot in Viva Goals.|`Get-VivaModuleFeatureEnablement -ModuleId VivaGoals -Featureid CopilotInVivaGoals  -Identity  <user_email>`|
 
  
 ## Configuring copilot settings from Microsoft 365 Admin Center  
