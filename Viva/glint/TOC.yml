@@ -2,7 +2,6 @@ items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
   - name: Privacy and confidentiality
-    href: setup/viva-glint-privacy.md
     items:
       - name: Privacy policies 
         href: setup/add-privacy-policy.md
@@ -68,9 +67,7 @@ items:
       - name: Glint platform setup and planning
         items:
           - name: Access Viva Glint
-            href: setup/access-glint.md
-          - name: Set up your Glint platform
-            href: setup/setup-platform-admin.md       
+            href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
           - name: Communication plans and templates
