@@ -15,12 +15,12 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 08/28/2024
 ---
 
 # Microsoft Viva Glint privacy
 
-Microsoft Viva provides privacy-protected, data-driven insights and recommendations to help improve productivity and wellbeing. Microsoft Viva Glint adheres to all Microsoft Viva [privacy safeguards](https://www.microsoft.com/microsoft-viva/privacy).
+Microsoft Viva provides privacy-protected, data-driven insights and recommendations to help improve productivity and well-being. Microsoft Viva Glint adheres to all Microsoft Viva [privacy safeguards](https://www.microsoft.com/microsoft-viva/privacy).
 
 For information specific to Viva Glint:
 
