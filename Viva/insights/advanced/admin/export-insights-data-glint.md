@@ -96,18 +96,23 @@ Below is a list of all Viva Insights metrics that can be shared with Viva Glint.
 ## FAQ
 
 **How long does it take for Viva Insights data to export to Viva Glint after the Glint admin sets up the integration?**
+
 About two hours.
 
 **What happens if the Microsoft 365 Global admin turns off sharing and there is a request to send Viva Insights data to Viva Glint in progress?**
+
 If the Microsoft 365 Global Admin turns off sharing the request will fail.
 
 **Is there a way to change which Viva Insights metrics are available to be shared with Viva Glint?**
+
 It's a fixed list of metrics, and you can’t change which metrics are available.
 
 **What if the survey population does not have Viva Insights licenses? Will there still be Viva Insights data for these users?**
+
 Viva Glint only receives metric data for employees who have a paid Viva Insights license.
 
 **What time period does the shared Viva Insights data cover?**
+
 The Viva Glint admin [controls this setting](https://go.microsoft.com/fwlink/?linkid=2281411).
 
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 01/12/2022
+ms.date: 08/29/2024
 title: "Use the Viva Connections Dashboard web part"
 ms.reviewer: 
 ms.author: evanatkin
@@ -24,13 +24,13 @@ description: "Learn how to use the Dashboard web part"
 
 # The Viva Connections Dashboard web part
 
-[Viva Connections](https://www.microsoft.com/microsoft-viva/connections) is an integrated experience designed to drive employee engagement. When deploying Viva Connections, you'll [set up a Dashboard](create-dashboard.md) and [use cards](viva-connections-overview.md) to bring together resources for different audiences to provide a comprehensive view of everything they need to complete common tasks. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR policies, and more.
+[Viva Connections](https://www.microsoft.com/microsoft-viva/connections) is an integrated experience designed to drive user engagement. When [deploying Viva Connections](viva-connections-setup-overview.md), you'll [set up a Dashboard](/viva/connections/create-dashboard) and [use cards](/viva/connections/create-dashboard#available-dashboard-cards) to bring together resources for different audiences to provide a comprehensive view of everything they need to complete common tasks. For example, the Dashboard could include a card that allows users to access cafeteria menus, schedules, reports, shift schedules, HR policies, and more.
 
-Once a Dashboard is published, you can use the Dashboard web part to display it on your SharePoint home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections Dashboard](create-dashboard.md).
+Once a Dashboard is published, you can use the Dashboard web part to display it on your SharePoint home site. If you want to add, remove, or reorder cards, the existing Dashboard on your site must be edited. To learn how to create or edit a Dashboard, see [Create a Viva Connections dashboard and add cards](create-dashboard.md).
 
 ## Add the Dashboard web part
 
-To add a Dashboard web part, firstly ensure that you are in the **edit** mode. To do this, select **Edit** at the top-right of the SharePoint home site page.
+To add a Dashboard web part, firstly ensure that you are in the **edit** mode. Select **Edit** at the top-right of the SharePoint home site page.
 
 Once in **edit** mode, perform the following steps:
 
@@ -40,9 +40,9 @@ Once in **edit** mode, perform the following steps:
 
    :::image type="content" source="../media/connections/dashboard-picker.png" alt-text="Screenshot that shows the screen on which you can search for a web part and select it once displayed.":::
 
-   The web part will be added to your page where it's populated with the cards from the existing Dashboard on your site, as in this example where the Dashboard is placed in a vertical column on the right:
+   The web part is added to your page and is populated with the cards from the existing Dashboard on your site. In this example, the Dashboard is placed in a vertical section on the right:
 
-   :::image type="content" source="../media/connections/display-of-web-card.png" alt-text="The screen that displays the web card.":::
+   :::image type="content" source="../media/connections/display-of-web-card.png" alt-text="Screenshot showing the screen that displays the web card.":::
 
 3. Optionally, you can change the title of the Dashboard by selecting it in the web part and typing over it with your own title.
 
@@ -63,13 +63,13 @@ Once in **edit** mode, perform the following steps:
 
 ## Additional information
 
-- **The Dashboard web part is hidden when there are no cards to show**: There may be no cards to show when the Dashboard author has targeted cards for specific audiences, and people outside of those audiences are viewing the page. For example, if all cards are targeted to your development group, only people in the development group will see the Dashboard.
+- **The Dashboard web part is hidden when there are no cards to show**: There might be no cards to show when the Dashboard author has targeted cards for specific audiences, and people outside of those audiences are viewing the page. For example, if all cards are targeted to your development group, only people in the development group will see the Dashboard.
 
 - **We recommend you use the Dashboard web part in a vertical section**: Although a vertical section is recommended, the web part can be used in any section in one, two, or three column layouts. Here’s an example of a Dashboard web part in a horizontal section:
 
    :::image type="content" source="../media/connections/Dashboard-web-part-horizontal-section.png" alt-text="The screen displaying the web part in a horizontal layout.":::
 
-- **The Dashboard web part can be added to any page on your SharePoint home site**: The Dashboard is most useful on your SharePoint home page, but it's possible to add it to any page on your SharePoint home site. One practical use for doing this is to experiment with your page layout to see where you think the Dashboard will fit best. To do this, just create a copy of your SharePoint home page and start experimenting.
+- **The Dashboard web part can be added to any page on your SharePoint home site**: The Dashboard is most useful on your SharePoint home page, but it's possible to add it to any page on your SharePoint home site. One practical use for adding the Dashboard to your home site is to experiment with your page layout to see where you think the Dashboard fits best. Just create a copy of your SharePoint home page and start experimenting.
 - **The Dashboard web part can be used in sections with a colored background**: When editing a section, you can change the background of the section and the cards of the Dashboard will have a different color from that background.
 
    :::image type="content" source="../media/connections/card-color.png" alt-text="The screen indicating the color of the card.":::
@@ -81,6 +81,5 @@ Once in **edit** mode, perform the following steps:
 ## More resources
 
 [Overview of Viva Connections](viva-connections-overview.md)
-<br>
 
 [Set up and launch Viva Connections](set-up-admin-center.md)

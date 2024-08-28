@@ -14,16 +14,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 08/28/2024
 ---
 
-# Use Viva Glint’s Broader Team Insights feature
+# Use the Viva Glint Broader Team Insights feature
 
 Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights (BTI), managers are empowered to significantly impact employee engagement.  
 
-## Empower managers of small teams to use Broader Team Insights
+## Empower managers of small teams 
 
-Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
+Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
 
 Broader Team Insights isn't only limited to managers of small teams. Team leaders at all levels who use Broader Team Insights are better able to anchor their team’s feedback in the context of their larger department, have better conversations, and align actions.
 
@@ -38,13 +38,11 @@ The Broader Team Insights dashboard allows managers to review a high-level summa
 
 By enabling bottom-up change, you can create more engaged people, align teams, and promote greater business performance.
 
-## How teams use Broader Team Insights
+## Access Broader Team Insights
 
-When a team’s number of responses fall below the confidentiality threshold, the team manager isn't able to view their *own* team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
+When results are ready, the team manager receives an email with a link to view results. When selecting this link, however, a message indicates that while there is no access to their own team’s results (because confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
 
-When results are ready, the team manager receives an email with a link to view results. When selecting this link, however, a message indicates that while there is no access to their own team’s results (because minimum confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
-
-This BTI summary report view provides this manager the opportunity to see guidance on how to have a conversation with their own team about the Broader Team Insights results and an abbreviated view of the Executive Summary report.
+This BTI summary report view provides this manager the opportunity to see guidance on how to have a conversation with their own team about the BTI results and an abbreviated view of the Executive Summary report.
 
 ## Set up Broader Team Insights
 
@@ -56,7 +54,7 @@ From the admin dashboard, Broader Team Insights is enabled following this proced
 
 ### Set up Program Roles 
 
-The first section in **Reporting** is **Program Roles**. In this section, you customize how your dashboard displays results and when your people can view survey results. This section allows set up by specific roles. 
+The first section in **Reporting** is **Program Roles**. In this section, customize how your dashboard displays results and when your people can view survey results. This section allows set up by specific roles. 
 
    > [!NOTE]
    >When a manager is in a role with Broader Team Insights enabled, cascaded results are based on their custom permissions, irrespective of their rollup managerial hierarchy. Decide whether this role’s reports are visible to directs only or are visible to their entire roll-up hierarchy. **ON** enables sharing of report. **OFF** disables the role from sharing reports.
@@ -78,11 +76,11 @@ Once a survey is completed, it moves to the Completed section of the Program pag
    > [!TIP]
    >Set a calendar reminder to grant Phased access to leaders without Live access permissions.
 
-### How to change access once User Roles are set 
+### Change access once User Roles are set 
 
-Access can be changed in **Program Summary** for upcoming cycles and Live cycles. All upcoming surveys for that program will be changed.  
+Access can be changed in **Program Summary** for upcoming cycles and Live cycles. All upcoming surveys for that program are changed.  
 
-Follow these steps to change the access:
+To change the access:
 
 1. In **Program Summary** switch the Approved status from YES to **NO**.
 1. Select **Save Changes**, then switch Approved status from NO to **YES**.   
