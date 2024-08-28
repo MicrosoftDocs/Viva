@@ -53,7 +53,7 @@ Items:
       - name: Embed videos in the Viva Connections feed
         href: video-news-links.md
       - name: Viva Connections News notifications
-        href: mobile-notifications-viva-connections.md
+        href: viva-connections-news-notifications.md
       - name: Frequently asked questions about the feed
         href: faqs-viva-connections-feed.md
   - name: Viva Connections and home sites
