@@ -35,7 +35,7 @@ Viva Learning supports the following document types, when adding content from Sh
 > - This content isn't searchable in Viva Learning. 
 > - The default language for this content is the one set by your organization's admin.  
 
-1. Create a [learning path](creating-learning-paths.md) or [learning collection](creating-learning-collections.md).
+1. Create a [learning path](creating-learning-paths.md), [learning collection](creating-learning-collections.md), or [featured set](use-tabs.md#feature-sets)
 
 2. Select **Add content** to add courses to your learning path.
 
