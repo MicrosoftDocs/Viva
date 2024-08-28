@@ -26,11 +26,11 @@ Watch this 3-minute video to learn about Team Conversations:
 
 ## Manager guidelines for launching Team Conversations
 
-From the manager dashboard
+From the manager dashboard:
 
 1. Select **Launch Team Conversation** (Step 3) in Manager Concierge. A customized message appears, explaining the Team Conversations presentation process.
 2. Select **Get Started**.
-3. Review the presentation using the slide titles on the left for navigation. Each slide is intended to facilitate conversation with thought starters your admin has provided.
+3. Review the presentation using the slide titles on the left for navigation. Each slide is intended to facilitate conversation with thought prompts provided.
 
 ### Sharing Team Conversations
 
@@ -43,7 +43,7 @@ The procedure:
 3. Select the **Share** button at the top right on the screen.
 4. Select **Send a Copy**.
 5. Select the **Email** option.
-6. **Add the email address(es)** for the employee(s) the presentation is to be shared with. The attachment is read-only.
+6. **Add the email address(es)** for each employee the presentation is to be shared with. The attachment is read-only.
 7. Select **Send**.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ The Focus Area selected is added to this slide. Now, add Action Items to support
 
 ### Summary Section
 
-When the conversation has been shared with the team, the manager should **Mark as Done**. Go back and make changes later.
+When the conversation is shared with the team, the manager should **Mark as Done**. Changes can be made later.
 
 ## Actions to take after Team Conversation is set up
 
