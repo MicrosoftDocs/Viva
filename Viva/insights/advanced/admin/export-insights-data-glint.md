@@ -3,6 +3,7 @@ title: Export Viva Insights data to Viva Glint
 description: Learn how to set up a connection between Glint and Viva Insights to export your Insights data to the Viva Glint platform.
 author: zachminers
 ms.author: v-zachminers
+ms.date: 08/28/2024
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
