@@ -3,7 +3,7 @@ title: Support participants during a live Viva Glint survey
 description: During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take additional steps listed here to set up users for success to submit their valuable feedback.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: survey taker, survey participant, live survey, support
