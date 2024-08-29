@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/22/2024
+ms.date: 08/29/2024
 ---
 
 # How Viva Glint helps protect your privacy
@@ -38,6 +38,9 @@ For confidential surveys, Viva Glint aggregates (group averages) responses befor
 ## Identifiable surveys
 
 In Identifiable surveys, survey takers' identities might be directly or indirectly available within reporting. The minimum response threshold for these surveys is less than three. An example of an identifiable survey could be a company's Exit survey, where viewing responses for each departing employee is necessary.
+
+>[!IMPORTANT]
+>Admins can make Glint Lifecycle and Always-On surveys identifiable in **Program Setup, ** in the Confidential Responses setting, which automatically updates thresholds at the survey level.
 
 ## Use your organization's statement about privacy
 
