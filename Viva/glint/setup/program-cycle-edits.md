@@ -29,13 +29,13 @@ Setting up your first Viva Glint program in the manner suggested is the most eff
 
 **Tip**: We use the word “survey” most often when referring to a cycle. This term aligns best for global translation.  
 
-**Linked**: By default, all surveys/cycles are linked, meaning that any changes made at the program leve automatically apply to all future surveys in the program.  
+**Linked**: By default, all surveys/cycles are linked, meaning that any changes made at the program level automatically apply to all future surveys in the program.  
 
 **Unlinked**: A single survey can be edited in ways that don't affect future surveys in the same program. When edits are made to a single survey, it becomes unlinked. Edits made to an unlinked survey only affect that survey. Future surveys in the same program aren't affected. Trend data is unaffected. 
 
 ## Edit a program versus a cycle
 
-Once an entire program has been set up, future survey cycless are edited at the program level in the [Program Summary](https://www.microsoft.com/) section of the admin dashboard. For example, if you want to set up a series and avoid major adjustments to each survey, edit at the program level. If untouched, the same survey emails, text, and questions are repeated with each cycle in the program. However, you might choose to edit a single survey, or cycle, in ways that won't affect future cycles in the program. 
+Once an entire program has been set up, future survey cycles are edited at the program level in the [Program Summary](https://www.microsoft.com/) section of the admin dashboard. For example, if you want to set up a series and avoid major adjustments to each survey, edit at the program level. If untouched, the same survey emails, text, and questions are repeated with each cycle in the program. However, you might choose to edit a single survey, or cycle, in ways that won't affect future cycles in the program. 
 
 >[!TIP]
 > Carefully consider edits at the program level which affect all future surveys. 
