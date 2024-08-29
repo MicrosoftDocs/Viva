@@ -68,7 +68,7 @@ The Viva Insights admin sets up the import and contacts you to verify that the p
    
 ## Sync with Entra ID
 
-If you find discrepancies between Glint active users and their Entra IDs in MAC, remedy the discrepancies by following [Prerequisites to the integration]( https://learn.microsoft.com/viva/solutions/glint-insights-integration-overview#prerequisites-to-the-integration) on the Viva Glint and Viva Insights overview page. 
+If you find discrepancies between Glint active users and their Entra IDs in MAC, remedy the discrepancies by following [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) on the Viva Glint and Viva Insights overview page. 
 
 To resync the data to pick up the Entra ID changes: 
  - Remove and then re-add the survey programs to resend Glint data to Insights. 
