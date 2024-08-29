@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 08/29/2024
 ---
 
-# Integrate Viva Glint and Viva Insights to maximize data insight
+# Integrate Viva Glint and Viva Insights to maximize data insight (preview)
 
 >[!IMPORTANT]
 > This feature is available to private preview customers only. Features described here are subject to change.
