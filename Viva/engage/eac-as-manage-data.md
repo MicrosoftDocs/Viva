@@ -142,7 +142,7 @@ This data export doesn't include:
 - Followed or following users, or followed topics
 - File attachments stored in SharePoint<br>
 
-## Export data for a user
+## Export data for one user
 
 If the user is a member of multiple networks, you must export their data from each network separately.  
 
