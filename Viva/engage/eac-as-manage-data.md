@@ -19,9 +19,9 @@ search.appverid:
 - MET150
 ---
 
-# Export data in the Viva Engage admin center
+# Export and manage Viva Engage data 
 
-Engage administrator often need to export data to manage users and content in the network. This article explains the different options available to help you manage usage, compliance, and discovery.
+Engage administrators often need to export data to manage users and content in the network. This article explains the different options available to help you manage usage, compliance, and discovery.
 
 ## Export data
 
