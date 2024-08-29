@@ -85,12 +85,12 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 4.	Select **Save**. This attribute now shows as **Added**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-added.png" lightbox="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-added-2.png" alt-text="Screenshot of the Added confirmation." lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
 5.	Continue adding attributes until you have everything you need. 
 6.	**Select Programs.**
 
-      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" lightbox="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
+      :::image type="content" source="../../media/glint/setup/glintsights-select-programs-2.png" alt-text="Screenshot of the Select Programs button."lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
@@ -128,7 +128,7 @@ In the **Select Programs and Cycles** section, import data from previous cycles 
     1.	Glint currently supports importing the selected behavioral data for the last two cycles, up to 24 months.
 2.	Select **Import behaviors**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors.png" alt-text="Screenshot of the confirmation that behavioral attributes are added.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors-2.png" alt-text="Screenshot of the confirmation that behavioral attributes are added."lightbox="../../media/glint/setup/glintsights-import-behaviors-2.png":::
 
 3. This confirmation shows:
 
@@ -150,11 +150,11 @@ You can see the list of attributes imported.
 
 1. To bring in other behaviors, select **+ Add attributes** and follow the same  procedure. Attributes continue to populate in the **Imported Attributes** column.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes.png" alt-text="Screenshot of the Import Viva Insights data window.":::	
+   :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes-2.png" alt-text="Screenshot of the Import Viva Insights data window."lightbox="../../media/glint/setup/glintsights-manage-add-attributes-2.png":::	
 
 2. Use the **ellipses** next to each behavior to open a dropdown menu, providing options for you to edit, customize, or delete.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-imported-attributes-dropdown.png" alt-text="Screenshot of the Imported Attributes dropdown menu.":::	
+   :::image type="content" source="../../media/glint/setup/glintsights-imported-attributes-dropdown-2.png" alt-text="Screenshot of the Imported Attributes dropdown menu."lightbox="../../media/glint/setup/glintsights-imported-attributes-dropdown-2.png" :::	
 
 ## Edit attributes
 
@@ -190,13 +190,13 @@ Glint imports Insights data for previous and future cycles by selecting more pro
 
 Select the **+ Add Programs** button and then the **Add** button as desired. These programs are now added to the **Enabled Programs** column.
 
-:::image type="content" source="../../media/glint/setup/glintsights-add-program.png" alt-text="Screenshot of the Add programs button.":::
+:::image type="content" source="../../media/glint/setup/glintsights-add-program-2.png" alt-text="Screenshot of the Add programs button."lightbox="../../media/glint/setup/glintsights-add-program-2.png":::
 
 ### Remove programs
 
 Use the ellipses next to each program to open the **Remove program** option.
 
-:::image type="content" source="../../media/glint/setup/glintsights-remove-program.png" alt-text="Screenshot of removing a program window.":::
+:::image type="content" source="../../media/glint/setup/glintsights-remove-program-2.png" alt-text="Screenshot of removing a program window.":::
 
 Select **Remove** from the window that opens.
 

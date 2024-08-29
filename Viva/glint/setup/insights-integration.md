@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 08/29/2024
 ---
 
 # Send Viva Glint survey results to Viva Insights (public preview)
@@ -100,9 +100,7 @@ This guidance is for the initial sending of data to Insights only.
 
 2. Select **+ Add Programs.**
 
-3. In the *Add Program* window, select **Add** next to any program. You can select multiple programs.
-
-   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" lightbox="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
+3. In the **Add Program** window, select **Add** next to any program. You can select multiple programs.
 
 4. A message confirms that your program or programs are added. 
 
