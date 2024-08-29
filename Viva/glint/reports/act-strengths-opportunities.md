@@ -14,15 +14,15 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 08/29/2024
 ---
 
 # Use Viva Glint to act on Strengths and Opportunities
 
-The Strengths & Opportunities (S&0) report is designed so a manager can focus on opportunities first, as they have the highest impact on employee engagement. For this reason, the option to *Take Action* appears by default in the Opportunities section. Taking action is initiated by:
+The Strengths & Opportunities (S&0) section is designed so a manager can focus on opportunities first, as they have the highest impact on employee engagement. For this reason, the option to *Take Action* appears by default in the Opportunities section. Taking action is initiated by:
 
 - Selecting the **Take Action** button.
-- Selecting the **vertical ellipses** in the Strengths or the Opportunities column and selecting **Take Action**.
+- Selecting the **ellipses** in the Strengths or the Opportunities column and selecting **Take Action**.
 
 ## Watch these videos
 
@@ -34,6 +34,11 @@ The Strengths & Opportunities (S&0) report is designed so a manager can focus on
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
 
+> [!NOTE]
+> If there are less than two eligible items ranked, the Strengths & Opportunities section is hidden on a user's dashboard. This can happen when:
+> - There are insufficient results
+> - All items have low or medium impact
+> - A user is on a report filtered to only one item
 
 ## Why does my screen indicate *View Focus Area* rather than *Take Action*?
 
@@ -46,8 +51,8 @@ When a manager has already acted - by choosing a Focus Area - the platform indic
 
 Within the strengths section, you may see "realized" or "unrealized" labels or no such label. 
 
-- Realised strength - something your team is good at and that they do on a regular basis
-- Unrealised strength - something that your team is good but doesnt practice regularly and should be considered as an opportunity
+- Realized strength - something your team is good at and that they do on a regular basis
+- Unrealized strength - something that your team is good but doesn't practice regularly and should be considered as an opportunity
 - Unlabeled - the gap between what is realized and unrealized, for purposes of calling out the items that deserve attention
   
 ## Custom Strengths and Opportunities
