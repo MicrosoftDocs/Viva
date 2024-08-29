@@ -14,9 +14,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/14/2024
+ms.date: 08/29/2024
 ---
-
 
 # Add new survey items, sections, and section breaks to a Viva Glint program
 
@@ -39,7 +38,7 @@ In the **Question Library** slider window, there is the option to select a surve
 
 ### Add a question from the Glint Question Library
 
-The Viva Glint Question Library has approximately 
+The Viva Glint Question Library has over 400 validated items for you to choose from.
 
 1. Use the **Sources** dropdown menu to filter the question selection to **Custom** or **Viva Glint** questions.
 1. Use the **Type** dropdown menu to filter for Rating, Multiple Choice, or Open-ended questions.
