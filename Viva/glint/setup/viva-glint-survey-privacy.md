@@ -120,16 +120,16 @@ The default minimum response thresholds for ratings and multiple-choice question
 
 In some cases, even when the minimum response threshold is met, the ability to filter a report by attributes might allow a responder to be identified. In these cases, responses are **suppressed**,— they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two (2) responses that separate the smallest attribute group from the next smallest group that meets the minimum response threshold.
 
-### Example - Marketing PM**
+### Example - Marketing PM
 > - Five (5) of the six (6) team members are in North America; one (1) is in Europe.
 > - The organization configured Glint to allow filtering of responses by survey taker region.
 > - The survey's minimum response threshold is five (5).
 > - All six (6) team members respond to an item that asks them to rate their manager's communication skills, from 'Very Good' to 'Very Poor.'
 > - The North America team members all provide a rating of 'Very Good;' the European team member provide a rating of 'Very Poor.'
 
-In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
+>In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
 
-**Why?**
+#### Why?
 
 > By comparing the teamwide score to the North American score, the PM might mathematically be able to determine the score received from the single European team member. When the PM sees that the North American score is 'Very Good,' but the teamwide score isn't, the user might infer that the European team member brought the average down. With a little math, the PM could calculate the exact score the European team member provided.
 > 
