@@ -2139,7 +2139,7 @@
   { 
       "source_path": "Viva/connections/mobile-notifications-viva-connections.md",
       "redirect_url": "/viva/connections/viva-connections-news-notifications",
-      "redirect_document_id": false
+      "redirect_document_id": true
   },
   {
       "source_path": "Viva/glint/setup/viva-glint-privacy.md",
@@ -2150,6 +2150,6 @@
       "source_path": "Viva/glint/setup/setup-platform-admin.md",
       "redirect_url": "/viva/glint/introduction-viva-glint",
       "redirect_document_id": true
-  },  
+  }  
   ]
 }
