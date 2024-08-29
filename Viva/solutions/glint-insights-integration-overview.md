@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 08/29/2024
 ---
 
-Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
+# Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
 
 >[!IMPORTANT]
 > This feature is available to private preview customers only. Features described here are subject to change.
