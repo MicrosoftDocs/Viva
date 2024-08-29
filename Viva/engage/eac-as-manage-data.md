@@ -33,8 +33,8 @@ Engage administrators often need to export data to manage users and content in t
 |  [**Export user and admin list**](#export-user-and-admin-list)  |  Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
 |  [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
 |  [**Export data for one user**](#export-data-for-one-user) | Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.|
-|  [**Automate data exports**](#automate-your-data-exports) | Automate recurring exports for compliance through the Data Export API. |
-|  [**Export Engage files with the API**](#export-large-file-volumes-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
+|  [**Automate data exports**](#automate-data-exports) | Automate recurring exports for compliance through the Data Export API. |
+|  [**Export Engage files with the API**](#export-large-volumes-of-files-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
 
 
 ## Access data export options
