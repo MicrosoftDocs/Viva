@@ -56,7 +56,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 ### Send Viva Insights data to Viva Glint
 
-- **Glint Admin:** [Send Viva Insights data into Viva Glint](https://go.microsoft.com/fwlink/?linkid=2283911)
+- **Glint Admin:** [Send Viva Insights data into Viva Glint](https://learn.microsoft.com/viva/glint/setup/insights-to-glint)
 
 - **Insights Admin:** [Send Viva Insights data to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2282406)
 

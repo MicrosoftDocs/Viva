@@ -14,16 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 08/28/2024
 ---
 
 # Use Viva Glint’s Executive Summary report
 
 The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
 
-## Choose reports to share on your Executive Summary report
+## Choose reports to share on your Executive Summary 
 
-There are many reports that you can choose to be part of this dashboard view. The following descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
+There are many reports that you be part of this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
 
 | Report or section  | Description |
 | -------------- | ----------------- |
@@ -61,7 +61,7 @@ To learn about other reports available, see [Report types](https://go.microsoft.
 
 ## Edit a report
 
-The settings button opens a window where you can choose the right comparison data to interpret survey results within the context of how others are doing. Viva Glint provides four options for comparison reporting:
+The settings button opens a window where you can choose the right comparison data to interpret survey results within the context of how others are doing. Glint provides four options for comparison reporting:
 
 - **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Glint customers. Helpful for admins and first-time survey results analysis.
 - **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility.
@@ -79,9 +79,9 @@ Most reports are filterable by attribute and hierarchy. Use the **filter** symbo
 
 To add a report, select the **More** dropdown button at the bottom of the page and then **+ Add Section**. 
 
-If you already have some reports displayed but want to add more, the More button won't be available, but you will find the **+Add Section** at the bottom of the page. 
+If you already have reports displayed but want to add others, the More button isn't available - select **+Add Section** at the bottom of the page. 
 
-If you choose not to share one of the reports that already appears, choose **Delete** on the vertical ellipses at the right of the report.
+If you choose not to share one of the reports that already appears, choose **Delete** on the vertical ellipses next to the report.
 
 ## Export a report
 
