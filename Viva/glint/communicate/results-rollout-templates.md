@@ -25,8 +25,6 @@ To act on feedback from your Microsoft Viva Glint programs, use the results roll
 
 Sample communications aren't generated in the Glint platform. 
 
-Use these hyperlinks to post-survey close email templates:
-
 ## Tips for using Viva Glint templates 
 
 - Customize the content in your voice. Look for placeholders, like [company name], and insert applicable information. 
@@ -36,7 +34,9 @@ Use these hyperlinks to post-survey close email templates:
 
 Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
-## Email templates for your entire organization 
+## Email templates for your entire organization
+
+Use these hyperlinks to access post-survey close email templates:
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
