@@ -85,7 +85,7 @@ This data export doesn't include:
 - Followed or following users, or followed articles
 - File attachments stored in SharePoint
 
-## Export tenant (network) data
+## Export tenant data by date range
 
 >[!IMPORTANT]
 >If you're on a large network (10,000 or more users) and experience time-out errors when running a network export job, we recommend that you: choose hours outside of standard operating hours to export, and limit the date range to no more than one month.
