@@ -36,6 +36,16 @@ Select **Learn more** in the platform to get more information about the integrat
 
 :::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
 
+## Sync with Entra ID
+
+If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
+
+To resync the data to pick up the Entra ID changes: 
+- In manage integration: delete all attributes and remove all programs. 
+- Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
+
+In the future, expect this resync to happen automatically.
+
 ## Manage data sharing 
 
 On your first visit to the Viva Insights Integrations platform, accessible from your admin configuration dashboard, you see a window requesting you to review and agree to this information:
