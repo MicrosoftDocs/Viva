@@ -85,7 +85,7 @@ This guidance is for the initial sending of data to Insights only.
 
 3. In the *Add Program* window, select **Add** next to any program. You can select multiple programs.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
+   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" lightbox="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
 
 4. A message confirms that your program or programs are added. 
 
