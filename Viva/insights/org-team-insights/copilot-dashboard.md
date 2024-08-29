@@ -1,5 +1,5 @@
 ---
-ms.date: 8/23/2024
+ms.date: 8/28/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -19,7 +19,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an [Exchange Online, E3, or E5 license](../advanced/setup-maint/environment-requirements.md#microsoft-365-plans). Neither a paid Viva Insights license nor a Copilot license is required to view the dashboard. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active [Exchange Online, E3, or E5 license](../advanced/setup-maint/environment-requirements.md#microsoft-365-plans). Neither a paid Viva Insights license nor a Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes every employee who has an assigned Copilot license. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -41,8 +41,8 @@ The types of insights and features provided by the dashboard vary depending on t
 
 | Total number of Copilot assigned licenses in tenant | Viva Insights assigned license in the tenant (Yes or No) | Availability of features in Microsoft Copilot Dashboard  |
 |---|---|---|
-| N/A | Yes (at least 10) | All features: <br><br /><li>Readiness page<li>Adoption page with tenant-level and user-level metrics plus filters<li>Impact page with user-level metrics plus filters<li>Sentiment with user-level survey results |
-| 50 or more | N/A | All features: <br><br /><li>Readiness page<li>Adoption page with tenant-level and user-level metrics plus filters<li>Impact page with user-level metrics plus filters<li>Sentiment with tenant-level survey results |
+| N/A | Yes (at least 10) | All features: <br><br /><li>Readiness page<li>Adoption page with tenant-level and group-level metrics plus filters<li>Impact page with group-level metrics plus filters<li>Sentiment with group-level survey results |
+| 50 or more | N/A | All features: <br><br /><li>Readiness page<li>Adoption page with tenant-level and group-level metrics plus filters<li>Impact page with group-level metrics plus filters<li>Sentiment with tenant-level survey results |
 |Less than 50 | N/A | Limited features: <br><br /><li>Readiness page<li>Adoption page with tenant-level metrics only<li>Sentiment with tenant-level survey results |
 
 
@@ -205,7 +205,15 @@ Now let’s look at the insights provided by this page.
 
 **Insight #1: High-level overview of Copilot usage across the organization**
 
-:::image type="content" source="images/copilot-dash-adoption.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/copilot-dash-adoption.png":::
+Under **Adoption by group**, a graph shows the change in Copilot adoption over the previous six months, aggregated weekly. Select **Metric** to see the adoption trends for a specific group. Metrics include active Copilot users, Copilot licensed employees, percentage of active Copilot users, or percentage of Copilot licensed employees. You can select any data point on the graph to see more details for that point in time. Below the graph you’ll find adoption trends for specific groups. 
+
+* **All users**: By default, the trendline displays the past six-month trend for all users in your company. You can update the filters on the top of the page for specific groups. 
+
+* **View by groups, organization, or job function attributes**: Select **View by** to drill down into different groups. To add more groups to your trend graph, select the eye icon under **Show trend**. To protect individual privacy, we don't show the metrics for groups that are smaller than the minimum group size. 
+
+You can sort the table by the headers. For example, to sort by the metric value, select **Metric**. To sort by the group names alphabetically, select **View by**.
+
+:::image type="content" source="images/trendline-adoption-02.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-02.png":::
 
 **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
@@ -285,11 +293,9 @@ Microsoft 365 global admins can upload aggregated survey results through Adoptio
 
 This page helps you assess Copilot impact by layering the results of Microsoft's quantitative and qualitative research on top of your organization's Copilot and Microsoft 365 usage patterns. 
 
-At the top of the page, you’ll see tallies for **Active Copilot users**, **Copilot actions taken**, **Copilot assisted hours**, and **Copilot assisted value**. Let’s define these terms.
+At the top of the page, you’ll see graphs that illustrate tallies for **Copilot actions taken**, **Copilot assisted hours**, and **Copilot assisted value** over the previous six months. Let’s define these terms.
 
-* **Active Copilot users**: The total number of employees who performed at least one Copilot activity in the previous 28 days.
-
-* **Copilot actions taken**: The total number of actions taken using Copilot across Microsoft 365 apps.
+**Copilot actions taken**: The total number of actions taken using Copilot across Microsoft 365 apps.
 
 #### Copilot assisted hours
 
@@ -318,12 +324,14 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 
 **Key insights for this page:**
 
-On any card, select **Explore more** to dive into these metrics.
+On any card, select **Explore more** to dive into these metrics. You’ll find graphs which illustrate the six-month trends for each card. Select **Metric** to toggle between the different insights for the card.
+
+:::image type="content" source="images/trendline-impact-01.png" alt-text="Screenshot that shows the trendline graph for impact metrics.":::
 
 >[!Important]
 >Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors, such as seasonality, role shifts, or organizational changes, may influence changes in these metrics.
 
-**Comparison between groups**
+###### Comparison between groups
 
 This analysis helps you compare usage patterns between two groups. Analysts can use this to compare usage patterns between Copilot and non-Copilot users, or even two different Copilot user groups.  
 
@@ -391,7 +399,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 :::image type="content" source="images/copilot-dash-sentiment-ga.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-sentiment-ga.png":::
 
-#### Upload user-level survey results with the advanced insights app
+#### Upload group-level survey results with the advanced insights app
 
 *Applies to: Viva Insights admin* 
 
@@ -506,9 +514,9 @@ Employees can view the dashboard in the Viva Insights Teams or web app.
 **Q3. How long after enablement can users access the Copilot dashboard?**
 Users can access the dashboard less than 24 hours after being enabled.
 
-**Q4. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level, or user-level insights?**
+**Q4. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level, or group-level insights?**
 
-No, a Viva Insights subscription is not required to access Copilot dashboard. Your ability to view tenant-level or user-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
+No, a Viva Insights subscription is not required to access Copilot dashboard. Your ability to view tenant-level or group-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
 
 **Q5. In the Sentiment section I don’t see any survey responses. Why?** 
 
