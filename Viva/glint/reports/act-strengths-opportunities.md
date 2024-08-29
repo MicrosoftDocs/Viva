@@ -52,7 +52,7 @@ When a manager has already acted - by choosing a Focus Area - the platform indic
 Within the strengths section, you may see "realized" or "unrealized" labels or no such label. 
 
 - Realized strength - something your team is good at and that they do on a regular basis
-- Unrealized strength - something that your team is good but doesnt practice regularly and should be considered as an opportunity
+- Unrealized strength - something that your team is good but doesn't practice regularly and should be considered as an opportunity
 - Unlabeled - the gap between what is realized and unrealized, for purposes of calling out the items that deserve attention
   
 ## Custom Strengths and Opportunities
