@@ -20,13 +20,13 @@ ms.date: 08/29/2024
 
 # How Viva Glint helps protect your privacy
 
-Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback, allowing our customers to get the most out of Viva Glint.
+Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback. This is how our customers get the most out of Glint.
 
 Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Viva Glint offers two types of surveys: confidential and identifiable.
 
 ## Confidential surveys
 
-For confidential surveys, Viva Glint aggregates (group averages) responses before reporting results. Because it's easier to guess a survey taker's identity when there are just a few responses, confidential survey responses are reported only when an item receives a minimum number of responses. Your organization chooses this number and it might differ for rating/multiple choice questions versus comments. For a survey to be confidential, this minimum number of responses can't be set at less than three (3). 
+For confidential surveys, Glint aggregates (group averages) responses before reporting results. It's easier to guess a survey taker's identity when there are just a few responses. For this reason, confidential survey responses are reported only when an item meets the confidentiality threshold for responses. Your organization chooses this number and it might differ for items versus comments. For a survey to be confidential, the minimum number of responses is three (3). 
 
 > [!NOTE]
 > Glint surveys might contain three types of items/questions:
@@ -84,15 +84,15 @@ Survey takers' privacy is protected by setting and communicating a minimum numbe
 
 A minimum response threshold is the lowest number of responses a survey item must receive for its results to be reported. The higher the level of aggregation, the less likely it is that users reviewing a survey report are able to infer the identity of an individual survey taker.
 
- - By default, the minimum response threshold for rating or multiple-choice items is set at five. 
- - For comments, it's set at 10.
+ - By default, the minimum response threshold for rating or multiple-choice items is five. 
+ - For comments, the minimum response threshold is 10.
 
 Your organization can adjust the thresholds, higher or lower, for each survey program, and these thresholds are noted to survey takers.
 
 At the beginning of a survey, the privacy statement informs the participants whether the survey is confidential or identifiable and specifies its minimum response thresholds. Once a program is launched, its minimum response thresholds can't be changed. **Changing or altering a minimum response threshold requires a new survey program.** The previous program with the original confidentiality threshold could, however, be drawn into reports for comparison against new results with the new threshold.
 
 > [!NOTE]
-> To be classified as a confidential survey, the minimum number of responses must be three (3) or higher. If the threshold is below three (3), the survey is identifiable.
+> To be classified as a *confidential* survey, the minimum number of responses is three (3) or higher. If the threshold is below three (3), the survey is *identifiable*.
 
 ## Privacy is protected by managing reporting roles and permissions
 
@@ -104,7 +104,7 @@ Your organization configures who views and configures survey reports at various 
 
 Each reporting group feeds into a hierarchy level, or rollup, giving users visibility related to their role and authority.
 
-If the minimum response threshold isn't met at for a user's team, their responses won't be reported at that level. Instead, responses are aggregated with extra responses and rolled up to the next level.
+If the minimum response threshold isn't met for a user's team, their responses aren't reported. Instead, responses are aggregated with and rolled up to the next level.
 
 > Consider a survey of the marketing organization described above with the minimum reporting threshold set to five (5). A marketing PM can see aggregated survey responses for any item to which at least five (5) of their team members responded. But if only four (4) responded to a specific item, the responses for that item aren't shown to the marketing PM. Instead, the responses are combined with those of other employees reporting up through the marketing director and rolled in to the next reporting level - the marketing director.
 >
@@ -118,26 +118,26 @@ The default minimum response thresholds for ratings and multiple-choice question
 
 ## Suppression thresholds add further protection
 
-In some cases, even when the minimum response threshold is met, the ability to filter reporting by responder attributes and then compare those filtered results to nonfiltered results might allow a responder to be identified. In these cases, responses are **suppressed**,—meaning they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
+In some cases, even when the minimum response threshold is met, the ability to filter a report by attributes might allow a responder to be identified. In these cases, responses are **suppressed**,— they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two (2) responses that separate the smallest attribute group from the next smallest group that meets the minimum response threshold.
 
-> Consider a marketing PM from the example above, given the following:
+### Example - Marketing PM**
 > - Five (5) of the six (6) team members are in North America; one (1) is in Europe.
-> - The organization has configured Viva Glint to allow filtering of responses by survey taker region.
-> - The survey's minimum response threshold is set to five (5).
-> - All six (6) team members respond to a question that asks them to rate their manager's communication skills from 'Very Good' to 'Very Poor.'
-> - The North America team members all provided a rating of 'Very Good;' the European team member provided a rating of 'Very Poor.'
+> - The organization configured Glint to allow filtering of responses by survey taker region.
+> - The survey's minimum response threshold is five (5).
+> - All six (6) team members respond to an item that asks them to rate their manager's communication skills, from 'Very Good' to 'Very Poor.'
+> - The North America team members all provide a rating of 'Very Good;' the European team member provide a rating of 'Very Poor.'
 
 In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
 
 **Why?**
 
-> By comparing the teamwide score to the North American score, the marketing PM might be mathematically able to determine the score received from the single European team member. When the PM sees that the North American score is 'Very Good' but the teamwide score isn't, the user might correctly infer that the European team member brought the average down. With a little math, the marketing PM might be able to calculate the exact score the European team member provided.
+> By comparing the teamwide score to the North American score, the PM might mathematically be able to determine the score received from the single European team member. When the PM sees that the North American score is 'Very Good,' but the teamwide score isn't, the user might infer that the European team member brought the average down. With a little math, the PM could calculate the exact score the European team member provided.
 > 
-> For the North American score to be displayed, there needs to be more than two responses within the overall team score that aren't within the North American group. So, if the overall team earned eight responses where five were from North America and three were from Europe, the marketing PM *does see* both the overall team score and the North American score, having exceeded the suppression threshold.
+> For the North American score to be displayed, there must be more than two (2) responses within the overall team score that aren't within the North American group. So, if the overall team earned eight (8) responses where five (5) were from North America and three (3) were from Europe, the PM sees both the overall team score and the North American score. The, suppression threshold was met.
 
 ## 360 feedback programs
 
-The confidentiality statement displayed for 360 participants depends on the type of feedback provider, the selected confidentiality threshold, and the Feedback Provider Response Information setting in a 360 feedback cycle. Review this information to see the statement that displays for each user in each situation.
+The confidentiality statement displayed for 360 feedback participants depends on the type of feedback provider, the selected confidentiality threshold, and the Feedback Provider Response Information setting in a 360 feedback cycle. Review this information to see the statement that displays for each user in each situation.
 
 |Feedback provider  |Confidentiality threshold   |Feedback provider response information setting |Confidentiality statement|
 |:----------|:-----------|:------------|:------------|
