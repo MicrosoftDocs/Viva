@@ -51,14 +51,14 @@ When a manager has already acted - by choosing a Focus Area - the platform indic
 
 Within the strengths section, you may see "realized" or "unrealized" labels or no such label. 
 
-- Realized strength - something your team is good at and that they do on a regular basis
-- Unrealized strength - something that your team is good but doesn't practice regularly and should be considered as an opportunity
+- Realized strength - something your team is good at and do on a regular basis
+- Unrealized strength - something that your team is good at but doesn't practice regularly and should be considered as an opportunity
 - Unlabeled - the gap between what is realized and unrealized, for purposes of calling out the items that deserve attention
   
 ## Custom Strengths and Opportunities
 
 Outcomes and comparisons used to calculate S&Os can be customized in either of the following ways:
 
-- Select **Settings** at the top right, to reveal the option to change outcomes and comparisons.
-- At the top of the Strengths and Opportunities section, select the hyperlinked words to change the outcome or comparison.
+- Select **Settings** to reveal the option to change outcomes and comparisons.
+- In the Strengths and Opportunities section, select the hyperlinked words to change the outcome or comparison.
 
