@@ -36,17 +36,17 @@
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
         - name: Setup requirements for Native Mode
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
-        - name: Native Mode step-by-step guide
+        - name: Step-by-step guide for Native Mode
           href: native-mode-guide.md
         - name: Consolidate multiple networks
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
-        - name: Multitenant organization
-          href: /viva/engage/mto-setup
-        - name: Non-Native and hybrid network upgrades
-          href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
         - name: Manage domains in Microsoft 365
           href: /viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains
-        - name: Configure email
+        - name: Set up Viva Engage for a multitenant organization
+          href: /viva/engage/mto-setup
+        - name: Upgrades for non-Native and hybrid networks
+          href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
+        - name: Configure email for the network
           href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
         - name: Customize the look of your network
           href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
@@ -54,7 +54,7 @@
           href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
         - name: File storage for Viva Engage
           href: /viva/engage/get-started-with-viva-engage/file-storage
-     - name: Manage Viva Engage groups
+     - name: Manage Viva Engage communities
        items:
         - name: Viva Engage and Microsoft 365 groups
           href: engage-microsoft-365-groups.md
