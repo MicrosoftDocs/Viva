@@ -90,12 +90,14 @@ items:
             href: advanced/admin/upload-org-data-subsequent.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
-          - name: Import survey data from Viva Glint
+          - name: Integrate Viva Glint and Viva Insights data
             items:
             - name: Integrate Viva Glint and Viva Insights
               href: ../solutions/glint-insights-integration-overview.md
-            - name: Import survey results
+            - name: Import Viva Glint survey results
               href: advanced/admin/import-survey-glint.md
+            - name: Export Viva Insights data to Viva Glint
+              href: advanced/admin/export-insights-data-glint.md
           - name: Create partitions
             href: advanced/admin/partitions.md
           - name: File rules and validation errors  
@@ -133,7 +135,9 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md               
+                href: advanced/analyst/cross-collaboration-g2g.md   
+              - name: Collaboration between internal and external individuals
+                href: advanced/analyst/external-collaboration.md               
             - name: Uncover network collaboration insights
               href: advanced/analyst/network-collaboration-insights.md 
             - name: Create change management queries

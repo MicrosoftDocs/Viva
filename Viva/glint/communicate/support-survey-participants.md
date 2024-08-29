@@ -1,9 +1,9 @@
 ---
 title: Support participants during a live Viva Glint survey
-description: "During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take additional steps listed here to set up users for success to submit their valuable feedback."
+description: During a live Viva Glint survey, participants can use online support content to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: survey taker, survey participant, live survey, support
@@ -14,26 +14,32 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2024
+ms.date: 08/28/2024
 ---
 
 # Support survey participants during a live Viva Glint survey
 
-Introduce Viva Glint surveys and [communicate proactively](https://go.microsoft.com/fwlink/?linkid=2241178) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://go.microsoft.com/fwlink/?linkid=2239301) to answer many of their questions. Take steps listed here to set up users for success to submit their valuable feedback.
+Introduce Viva Glint surveys and [communicate proactively](https://go.microsoft.com/fwlink/?linkid=2241178) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://go.microsoft.com/fwlink/?linkid=2239301) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 
 ## Create an FAQ document
 
-Use the [Viva Glint FAQ template](survey-taker-faq.md) to create your own internal document to address commonly asked questions in your organization. Include how users are eligible to participate, what to do if users run into login issues, the survey start and end dates, the sending email address for survey emails, and the [resend survey link](#use-the-viva-glint-survey-invite-link) filled in with your company ID.
+Use the [Viva Glint FAQ template](survey-taker-faq.md) to create your own internal document to address commonly asked questions in your organization. Include: 
+
+- How users are eligible to participate
+- What to do if users run into login issues
+- The survey start and end dates
+- The sending email address for survey emails
+- The [resend survey link](#use-the-viva-glint-survey-invite-link), filled in with your company ID.
 
 ## Allow survey resubmission
 
-Use the Allow Survey Resubmission feature during survey [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) so that participants can resubmit their responses by selecting a link on the survey Thank You page.
+Use the "Allow Survey Resubmission" feature during survey [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) so that participants can resubmit their responses by selecting a link on the survey Thank You page.
 
 :::image type="content" source="../../media/glint/setup/vg-survey-resubmit.png" alt-text="Screenshot of the Thank You page with survey resubmission enabled.":::
 
 ## Manage authentication issues
 
-Your organization may require that you authenticate with Microsoft Entra to access surveys in Viva Glint. If users encounter any issues when logging in, the following articles help with common troubleshooting topics related to multi-factor authentication. Route Microsoft Entra login issues to your IT help desk.
+Your organization may require that you authenticate with Microsoft Entra to access surveys in Viva Glint. If users encounter any issues when logging in, the following articles help with common troubleshooting topics related to multifactor authentication. Route Microsoft Entra login issues to your IT help desk.
 
 - [Common problems with two-step verification for a work or school account](https://go.microsoft.com/fwlink/?linkid=2260397)
 - [Troubleshoot problems using Microsoft Authenticator](https://go.microsoft.com/fwlink/?linkid=2260398)
@@ -50,18 +56,22 @@ Your organization may use [attribute-based access](https://go.microsoft.com/fwli
 
 ## Resend survey invites
 
-### Use the Resend Survey option in Viva Glint
+### Use the "Resend Survey" option in Viva Glint
 
-If a user should have been eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](https://go.microsoft.com/fwlink/?linkid=2230865) option to send an invite during a live survey. In the configuration section, select People and search for a user. After selecting their profile, select Actions and choose Send Survey, which will send in invite email.
+If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](https://go.microsoft.com/fwlink/?linkid=2230865) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
 ### Use the Viva Glint survey invite link
 
-Any user in your organization can use the resend survey link to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails.
+Any user in your organization can use these links to resend invites for all a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the new emails uses the same [access method](/viva/glint/setup/understand-survey-access-methods) as the original invites (authentication with Microsoft Entra ID or a personalized link).
 
 - US server: https://app.us1.glint.cloud.microsoft/companyID/q2/resend-pulse
 - EU server: https://app.eu1.glint.cloud.microsoft/companyID/q2/resend-pulse 
 
 :::image type="content" source="../../media/glint/setup/vg-resend-url-page.png" alt-text="Screenshot of the Viva Glint resend survey landing page.":::
+
+Users receive a notification email after using the link if they have no active surveys.
+
+:::image type="content" source="../../media/glint/setup/email-no-active-surveys.png" alt-text="Screenshot of the email a user receives when they use the link to resend survey invites but have no active surveys.":::
 
 ## Be mindful of scheduled monthly maintenance
 

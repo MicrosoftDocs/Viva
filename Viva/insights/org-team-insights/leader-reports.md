@@ -1,5 +1,5 @@
 ---
-ms.date: 07/10/2024
+ms.date: 08/16/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -50,9 +50,9 @@ To view these reports:
 
 * If you’ve been assigned both the **Insights Business Leader** role and the **Group Manager** role, you can view the relevant organization insights for either role. [Learn more about insights by role](./org-insights.md).
 
-## Overview of the Leader reports
+### Overview of the Leader reports
 
-### New hire onboarding and integration
+## New hire onboarding and integration
 
 >[!Note]
 >This report requires the HireDate attribute as a column in your organizational data file. If your admin hasn't uploaded this column, you won't be able to see the report's content. [Learn more about the organization data upload process](../advanced/admin/prepare-org-data.md).
@@ -141,7 +141,21 @@ Navigate to the **Recent pulse survey** card and select either **Open survey** f
 
 You'll find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
 
-### External focus
+## Employee engagement
+
+This report helps leaders understand the reach of their communications in their organization. Specifically, it lets leaders learn more about their employees’ engagement with leaders' emails, meetings, and shared files, to better understand the effectiveness of different modes of communication.
+
+The report is powered by the following metrics:
+
+| Metric | Definition |
+|-----|-----|
+| Leader reach | [Number of employees who received an email, file, or meeting invite] divided by [Team size] |
+| Communication engagement rate | [Number of employees who opened leaders’ email, opened leaders’ file, or accepted leaders’ meeting] divided by [Number of employees receiving an email, file, or meeting invite] |
+| Email open rate | [Number of employees who opened leaders’ email] divided by [Number of employees who received email from leader] |
+| Meeting attendance rate | [Number of employees who attended leaders’ meetings] divided by [Number of employees who received meeting invite from leader] |
+| File open rate | [Number of employees who opened leaders’ files] divided by [Number of employees who received file from leader] |
+
+## External focus
 
 This report helps leaders understand how employees are managing external relationships, and how different parts of the company may have been impacted by business shifts.
 
@@ -159,7 +173,7 @@ This report is powered by the following metrics:
 >[!Note]
 >By default, the benchmark filter for this report is set to the prior four weeks and values will only show in the table. If you change the benchmark setting to **Peer** or **Your company**, the filter displays data for the prior 12 weeks in both the table and the line chart.
 
-### Meeting cost and quality
+## Meeting cost and quality
 
 The **Meeting cost and quality** report helps you understand your organization’s meeting investments. You can see how much time your team spends in meetings and what share of it goes to large or long recurring meetings. If a lot of time is spent in large or long recurring meetings, then you might decide that it's worthwhile to encourage reviews of these kinds of meetings, because reviewing just one or two can impact a lot of employees' time.
 
@@ -181,7 +195,7 @@ This report is powered by the following metrics:
 
 Optionally, some insights display the amount of time spent in meetings as a currency value. This can be useful for you when evaluating your organization’s time as an investment. The conversion to currency doesn't use any individual or group’s pay information. You can adjust the conversion rate and units, or choose to see these values as hours, in Insights settings.
 
-### Hybrid workplace
+## Hybrid workplace
 
 >[!IMPORTANT]
 > The report described below is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
@@ -211,21 +225,30 @@ This report is powered by the following metrics:
 | Percent of employees working flexible hours  | Employees with nine or fewer active hours a day, but who spend more than five hours a week outside of typical or set working hours. |
 | Meetings with manager hours | Number of hours a person spent in any meetings with their manager, including meetings with others as well as manager 1:1s. |
 
-#### Privacy and engagement rates
+## Privacy and engagement rates
 
-Viva Insights respects user privacy. For this reason, Viva Insights does not show information about individuals, and when necessary to protect privacy, it reports approximated values in this way:
+Viva Insights respects user privacy and does not show information about individuals. Viva Insights also uses threshold values to protect privacy, and different reports use different thresholds. When necessary to protect privacy, for example, the **Employee engagement** report uses approximated values in this way:
 
-* **Below minimum:** For engagement rates lower than the minimum threshold, the threshold value is reported. For example, when 20 percent of 10 measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "< 25%."
+* **Below minimum**: For engagement rates lower than the minimum threshold, the threshold value is reported. For example, when 10 percent of measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "< 15%." 
 
-* **Between thresholds:** If the actual engagement rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual engagement rate is reported.
+* **Between thresholds**: If the actual engagement rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual engagement rate is reported. 
 
-* **Above maximum:** For engagement rates higher than the maximum threshold, the threshold value is reported. For example, when 80 percent of 10 measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "> 75%."
+* **Above maximum**: For engagement rates higher than the maximum threshold, the threshold value is reported. For example, when 90 percent of measured employees engage with a leader’s sent email, meetings, and shared files, Viva Insights displays the engagement rate as "> 85%."
 
-Engagement rate thresholds:
+##### Thresholds for the **Employee engagement** report
+
+| Number of employees | Engagement rate | 
+|---|---|
+| > 10 | Minimum: 15% <br> <br /> Maximum: 85% |
+
+
+##### Thresholds for the **Hybrid workplace** report
 
 | Number of employees | Engagement rate |
 |---|---|
 | 10-20 | Minimum: 25% <br> <br /> Maximum: 75% |
 | > 21 | Minimum: 10% <br> <br /> Maximum: 90% |
+
+### Related resources
 
 [Learn more about privacy in Viva Insights](../advanced/privacy/privacy.md).

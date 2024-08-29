@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 live cycle management (preview)
+title: Viva Glint 360 live cycle management 
 description: Microsoft Viva Glint 360 admins have access to dashboards and settings during live 360 cycles that allow them to track responses and edit some elements related to feedback providers, survey questions, competencies, schedule, and communications.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/24/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/23/2024
 ---
 
-# Viva Glint 360 live cycle management (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Viva Glint 360 admin live cycle management 
 
 Microsoft Viva Glint 360 admins have enhanced access to dashboards and settings during live 360 cycles. During live cycles, admins can track responses and edit items related to feedback providers, survey questions, competencies, schedule, and communications.
 

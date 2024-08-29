@@ -1,12 +1,12 @@
 ---
-title:  Add new survey items and section breaks to a Viva Glint program
+title:  Add new survey items, sections, and section breaks to a Viva Glint program
 description: Viva Glint admins can add rating questions, multiple choice questions, open-ended questions, or section breaks to a prepopulated template or to a blank survey template.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: add rating question, add multiple choice question, add open-ended question, add section break, survey item
+keywords: add rating question, add multiple choice question, add open-ended question, add section break, survey item, survey section
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,17 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/17/2024
+ms.date: 08/29/2024
 ---
 
+# Add new survey items, sections, and section breaks to a Viva Glint program
 
-# Add new survey items and section breaks to a Viva Glint program
+From the **Questions** page in **Program Summary**, select the **+ symbol** at the lower right side of the window to reveal menu options for adding items to your survey. Choices are shown in the large red box in this image:
 
-Select the **+ symbol** at the lower right side to reveal options to add survey items or a section break.  A Microsoft Viva Glint "survey item" refers to any type of question or statement put forth to a survey taker. The **+ symbol** displays as an **X** after it has been selected.
+:::image type="content" source="../../media/glint/setup/add-dropdown-menu.png" alt-text="Screenshot of process to add items to a Glint program.":::
 
-:::image type="content" source="../../media/glint/setup/add-questions.png" alt-text="Screenshot of process to add questions and section breaks to a Viva Glint program.":::
-
- ## Add a question to a survey
+ ## Add a new question to your survey
 
  There are three (3) types of questions which can be added to a survey:
  - Rating
@@ -37,9 +36,9 @@ Select the **+ symbol** at the lower right side to reveal options to add survey 
 
 In the **Question Library** slider window, there is the option to select a survey item from the Viva Glint Question Library or to create your own survey item.
 
-### Follow these steps to add a question from the Viva Glint Question Library
+### Add a question from the Glint Question Library
 
-The Viva Glint Question Library has approximately 
+The Viva Glint Question Library has over 400 validated items for you to choose from.
 
 1. Use the **Sources** dropdown menu to filter the question selection to **Custom** or **Viva Glint** questions.
 1. Use the **Type** dropdown menu to filter for Rating, Multiple Choice, or Open-ended questions.
@@ -51,16 +50,16 @@ The Viva Glint Question Library has approximately
       
    :::image type="content" source="../../media/glint/setup/add-questions-with-filters.png" alt-text="Screenshot of More Filters slider window.":::
    
-1. Select your new item from the new list and then press the **+** symbol. You will see a small "Question Added" banner display on the Questions page.
+1. Select your new item from the new list and then press the **+** symbol. You will see a small "Question Added" banner display on the **Questions** page.
 
-### Follow these steps to create a new question
+### Create a new question
 
-Select the **+ Create** button. A Create Question slider window opens.
+Select the **+ Create** button. A **Create Question** window opens.
    
 :::image type="content" source="../../media/glint/setup/create-own-question.png" alt-text="Screenshot of Create Question slider window.":::
 
 >[!CAUTION]
->Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated, and usually come with benchmarks and action plans. 
+>Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and usually come with benchmarks and action plans. 
 
 For your new item, complete the following fields:
 1. Select a **Language** from languages prepopulated in the dropdown menu
@@ -76,16 +75,16 @@ For your new item, complete the following fields:
 1. Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help you manager act on feedback
 1. Select **Save and Add**.
 
-## Add a section break to your survey program
+## Differentiate between a *section break* and a *survey section*
 
-For surveys that intend to cover more than one topic, you'll want to give survey takers notice that the topic is switching (for example, from Engagement to Benefits). 
-Select **Add Section Break** to open the Add Section Break slider window.
+>[!TIP]
+> - Section break: User scrolls and new items continue to be shown without any header. For surveys that intend to cover more than one topic, give survey takers notice that the topic is switching (for example, from Engagement to Benefits) and add a Section Break.
+> - Survey section: A persistent header with multiple items tied to it, which remains at the top of the screen as the user responds.
 
-:::image type="content" source="../../media/glint/setup/add-section-break-to-survey.png" alt-text="Screenshot of Add Section Break slider window.":::
+:::image type="content" source="../../media/glint/setup/section-break.png" alt-text="Screenshot of Add Section Break and Add Survey Section dropdown menu.":::
 
-The **+** symbol opens a list of suggested topics that might help you develop your instructional text. If you select one of these items, the blue field that populates must be deleted from the text box in order for you to add text over it; it's really intended as suggestions to help create content.
 
-The character counter is a handy tool that also opens when selecting the **+** symbol!
+
 
 
 

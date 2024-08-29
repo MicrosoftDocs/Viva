@@ -2,7 +2,6 @@ items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
   - name: Privacy and confidentiality
-    href: setup/viva-glint-privacy.md
     items:
       - name: Privacy policies 
         href: setup/add-privacy-policy.md
@@ -22,10 +21,12 @@ items:
         href: start/viva-glint-learning-paths-and-modules.md
       - name: Badge certifications
         href: start/viva-glint-badging.md
-      - name: Customer cohorts
-        href: start/customer-cohorts.md
       - name: Newsletter registration
         href: setup/newsletter-register.md
+      - name: Submit product feedback
+        href: setup/glint-product-feedback.md        
+      - name: Contact support
+        href: setup/contact-support.md        
       - name: Viva People Science research
         items:
         - name: Viva People Science and Glint
@@ -57,21 +58,16 @@ items:
             href: setup/viva-glint-tenant-provision.md
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
-            items:
-              - name: Role definitions
-                href: start/role-definitions.md
+          - name: Role definitions
+            href: start/role-definitions.md
           - name: Licensing
             href: setup/glint-order-teams.md
           - name: Third party notice
             href: /legal/viva/glint/third-party-notice
       - name: Glint platform setup and planning
         items:
-          - name: Set up your Glint platform
-            items:
-              - name: Access Viva Glint
-                href: setup/access-glint.md
-              - name: Set up your Glint platform
-                href: setup/setup-platform-admin.md
+          - name: Access Viva Glint
+            href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
           - name: Communication plans and templates
@@ -214,8 +210,10 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      - name: Survey program types
-        href: start/program-types-templates.md  
+      - name: Survey program types and templates
+        href: start/program-types-templates.md
+      - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
+        href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
         href: setup/customize-program.md
       - name: Survey Coach and Tooltips
@@ -277,7 +275,9 @@ items:
                 href: setup/program-summary-communications.md
                 items:
                   - name: Customize survey email content
-                    href: setup/email-content-customization.md            
+                    href: setup/email-content-customization.md
+                  - name: Multi-language emails
+                    href: setup/multi-lang-emails.md                        
               - name: Coaching setup 
                 href: setup/program-summary-coaching.md
                 items:         
@@ -293,6 +293,58 @@ items:
             href: setup/exit.survey.md
           - name: Preview and filter a Lifecycle survey
             href: setup/preview-filter-lifecycle-programs.md 
+      - name: Create a 360 feedback program
+        items:
+          - name: Overview and terminology
+            href: setup/360-overview.md
+          - name: 360 Feedback programs
+            items:
+              - name: General settings
+                href: setup/360-general-settings.md
+              - name: User roles and permissions
+                href: setup/360-roles-permissions.md
+              - name: Program design and templates
+                href: setup/360-design-templates.md
+          - name: Manage 360 cycles
+            items:
+              - name: Create a new 360 cycle
+                href: setup/create-new-360-cycle.md
+              - name: Configure cycle settings
+                items:
+                  - name: Setup
+                    href: ../360-config-cycle-settings.md
+                  - name: Survey questions
+                    items:
+                       - name: Core questions
+                         href: setup/360-core-questions.md
+                       - name: Adding and editing questions
+                         href: setup/360-add-edit-cycle-questions.md
+              - name: Feedback provider selections
+                href: setup/overview-feedback-provider-selection.md
+              - name: Competencies and survey guidance
+                href: setup/360-competencies.md
+              - name: Report access and timing
+                href: setup/360-report-access-timing.md
+              - name: Schedule and communications setup
+                href: setup/360-schedules-comms.md
+              - name: Customize 360 email content
+                href: setup/360-email-edits.md
+              - name: Manage subjects, coaches, feedback providers
+                href: setup/360-manage-subjects.md
+          - name: Export and import cycle content
+            href: setup/360-export-import.md
+          - name: Test and launch
+            href: setup/360-test-launch.md
+          - name: Admin experience during live survey
+            href: setup/360-live-cycle-actions.md
+          - name: 360 Subject experience
+            href: setup/360-subject-experience.md
+          - name: 360 Feedback provider experience
+            href: setup/360-provider-exp.md
+          - name: 360 email communication templates
+            href: setup/360-email-templates.md
+          - name: 360 FAQs
+            href: setup/360-faqs.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
@@ -308,10 +360,14 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
           - name: Delete survey data 
             href: setup/delete-survey-data.md
+      - name: Edit live surveys or reopen closed surveys
+        items:
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
+          - name: Reopen or extend a survey cycle
+            href: setup/reopen-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
@@ -328,7 +384,7 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
-          - name: Manager reporting access when changing team or role
+          - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
@@ -355,6 +411,8 @@ items:
          - name: Comments Report
            href: reports/comments-report.md
            items:
+             - name: Comment Suppression
+               href: reports/comments-suppression.md
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
          - name: Response Rate Report
@@ -400,8 +458,6 @@ items:
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
-          - name: Submit product feedback
-            href: setup/glint-product-feedback.md
   - name: Take action as a manager
     items:
       - name: The ACT framework and Team Conversations
@@ -418,14 +474,16 @@ items:
         items:    
           - name: Overview
             href: ../solutions/glint-insights-integration-overview.md
-          - name: Export Viva Glint survey results to Viva Insights (preview)
+          - name: Send Viva Glint data to Viva Insights
             href: setup/insights-integration.md
-          - name: Import survey results from Viva Glint into Viva Insights (preview)
-            href: ../insights/advanced/admin/import-survey-glint.md
-          - name: Glint and organizational insights report (preview)
-            href: ../insights/advanced/analyst/templates/glint.md
-          - name: Partitions (in Viva Insights)
-            href: ../insights/advanced/admin/partitions.md
+          - name: Send Viva Insights data to Viva Glint
+            href: setup/insights-to-glint.md
+          - name: Resources for analysts
+            items:
+               - name: Analyst setup of Partitions in Viva Insights
+                 href: ../insights/advanced/admin/partitions.md
+               - name: Glint and Insights analyst report
+                 href: ../insights/advanced/analyst/templates/glint.md             
   - name: Troubleshoot
     items:
       - name: Data File Uploads

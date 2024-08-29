@@ -6,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 07/19/2024
+ms.date: 08/15/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -65,7 +65,7 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 - **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
-- **Top questions** shows users the most commonly-asked questions in the community. Top questions appear in the right sidebar for quick reference.
+- **Top questions** shows users the most commonly-asked questions in the community for the past 90 days. The Top questions tile appears in the right sidebar for quick reference.
 
 - **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
@@ -73,7 +73,7 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 ## Fuel your Copilot adoption community with information resources
 
-To help the community grow, upskill, and share knowledge, the Copilot adoption community admin can upload FAQs and other informational documents into the community through the Answers Intelligent Importer. Intelligent Importer leverages AI to generate question-and-answer pairs from the imported content, which you can review, edit, and then post. Learn how to use [Intelligent Importer](/viva/engage/eac-answers-importer).
+ Community admins can address questions proactively by uploading informational documents, like FAQs, through the Answers Intelligent Importer. From the imported content, Intelligent Importer generates question-and-answer pairs, which admins can review and edit before posting. For details, see [Intelligent Importer](/viva/engage/eac-answers-importer).
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-importer.png" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
 
@@ -95,3 +95,15 @@ The banner in the home feed shows up for all network admins and corporate commun
 **Will these features be available for other communities?**
 
 The ability to customize communities based on business objectives is being considered. Keep an eye on the public roadmap for more updates and dates.
+
+**Can I have more than one Copilot adoption community?**
+
+No, you can configure only one community using this new community type.
+
+**Can I use dynamic membership with the Copilot adoption community?**
+
+Yes, you can use dynamic membership with this community. However, the suggested members feature will no longer be available. Learn more about [dynamic membership here](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group).
+
+**Who can participate in the Copilot adoption community?**
+
+You can make this community public or private. If private, only members can access and engage with the community content. If public, all users can access, engage with, and discover the community content.
