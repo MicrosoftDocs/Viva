@@ -126,4 +126,4 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 
 [Limitations of multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)
 
-[Microsoft Entra ID multitenant documention](/entra/identity/multi-tenant-organizations/)
+[Microsoft Entra ID multitenant documentation](/entra/identity/multi-tenant-organizations/)
