@@ -87,6 +87,8 @@ This data export doesn't include:
 
 ## Export tenant data by date range
 
+Use this method to export data for the Viva Engage network.
+
 >[!IMPORTANT]
 >If you're on a large network (10,000 or more users) and experience time-out errors when running a network export job, we recommend that you: choose hours outside of standard operating hours to export, and limit the date range to no more than one month.
 
