@@ -38,7 +38,7 @@ The Strengths & Opportunities (S&0) section is designed so a manager can focus o
 > If there are less than two eligible items ranked, the Strengths & Opportunities section is hidden on a user's dashboard. This can happen when:
 > - There are insufficient results
 > - All items have low or medium impact
-> - A users is on a report filtered to only one item
+> - A user is on a report filtered to only one item
 
 ## Why does my screen indicate *View Focus Area* rather than *Take Action*?
 
