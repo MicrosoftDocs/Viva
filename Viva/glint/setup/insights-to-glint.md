@@ -1,5 +1,5 @@
 ---
-title: Send Viva Insights data to Viva Glint 
+title: Send Viva Insights data to Viva Glint (public preview)
 description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,10 +17,10 @@ ms.localizationpriority: high
 ms.date: 08/29/2024
 ---
 
-# Send Viva Insights data into Viva Glint 
+# Send Viva Insights data into Viva Glint (public preview)
 
 >[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
+>This feature is currently availabile to public preview customers only. Features described here are subject to change.
 
 Glint admins can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
@@ -85,12 +85,12 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 4.	Select **Save**. This attribute now shows as **Added**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-added.png" lightbox="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
 
 5.	Continue adding attributes until you have everything you need. 
 6.	**Select Programs.**
 
-      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
+      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" lightbox="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
