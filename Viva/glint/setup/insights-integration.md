@@ -1,5 +1,5 @@
 ---
-title: Send Viva Glint survey results to Viva Insights 
+title: Send Viva Glint survey results to Viva Insights (public preview)
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,10 @@ ms.localizationpriority: high
 ms.date: 08/29/2024
 ---
 
-# Send Viva Glint survey results to Viva Insights 
+# Send Viva Glint survey results to Viva Insights (public preview)
+
+>[!IMPORTANT]
+> This feature is available to public preview customers only. Features described here are subject to change.
 
 >[!IMPORTANT]
 >This feature is currently available to preview customers only. Features described here are subject to change.
