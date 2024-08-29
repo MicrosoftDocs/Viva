@@ -75,12 +75,12 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 4.	Select **Save**. This attribute now shows as **Added**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-added.png" lightbox="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
 
 5.	Continue adding attributes until you have everything you need. 
 6.	**Select Programs.**
 
-      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" lightbox="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
+      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
