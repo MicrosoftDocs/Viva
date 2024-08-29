@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.date: 08/29/2024
 ---
 
 
@@ -67,6 +67,12 @@ In determining strengths and opportunities, the platform considers the distance 
 
 - Relative Strengths are indicated by points with a **bold white dot**.
 - Relative Opportunities are indicated by a **red dot**.
+
+> [!NOTE]
+> If there are less than two eligible items ranked, the Strengths & Opportunities section is hidden on a user's dashboard. This can happen when:
+> - There are insufficient results
+> - All items have low or medium impact
+> - A users is on a report filtered to only one item
 
 ### Table view
 
