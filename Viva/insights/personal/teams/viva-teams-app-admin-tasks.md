@@ -1,5 +1,5 @@
 ---
-ms.date: 06/15/2023
+ms.date: 08/27/2024
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers
@@ -103,7 +103,7 @@ To check whether a user has access to features in Microsoft Viva Insights in Mic
 To enable or disable meeting effectiveness surveys for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace **roy@contoso.com** with your applicable username and organization:
 
 ```powershell
-Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
+Set-DefaultTenantMyAnalyticsFeatureConfig -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
 * If you set the Enabled parameter to `$false`, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
@@ -145,7 +145,7 @@ Use the following script to:
    {
    $user.identity
    $upn=$user.identity
-   Set-VivaInsightsSettings –Identity $upn -Enabled $meetingEffectivenessSurveysMode -Feature MeetingEffectivenessSurvey
+   Set-DefaultTenantMyAnalyticsFeatureConfig –Identity $upn -Enabled $meetingEffectivenessSurveysMode -Feature MeetingEffectivenessSurvey
    }
    ```
 

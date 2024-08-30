@@ -1,5 +1,5 @@
 ---
-ms.date: 1/17/2024
+ms.date: 8/26/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -8,7 +8,12 @@ ms.topic: article
 ms.localizationpriority: medium 
 manager: helayne
 audience: Admin
-ms.collection: viva-insights-advanced 
+ms.collection: 
+- viva-insights-personal
+- essentials-manage
+- viva-copilot
+- magic-ai-copilot
+- viva-insights-advanced
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -221,6 +226,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
 |  Days of active Copilot chat (work) usage  |  The number of days the user was actively using Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
 | Copilot chat (work) prompts submitted | The number of queries submitted by users in Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
+| Copilot assisted hours | The estimated number of hours users were assisted by using Copilot. [Learn more about this metric calculation](../../org-team-insights/copilot-dashboard.md#details-on-the-copilot-assisted-hours-metric).  | 10/15/2023 |
 | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
 | Total Copilot enabled days  | The number of days the user had at least one service plan for Microsoft Copilot enabled. | 10/15/2023 |
 | Copilot chat (work) enabled days |  The number of days the user had Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat) enabled. | 10/15/2023 |

@@ -1,5 +1,5 @@
 ---
-title: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+title: Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
 description: Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into their business to better understand their people’s full work experience. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,13 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/08/2024
+ms.date: 08/29/2024
 ---
 
-# Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+# Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
 
 >[!IMPORTANT]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available to private preview customers only. Features described here are subject to change.
 
 Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience.   
 
@@ -48,13 +48,21 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 
 Now that you understand the benefits of integrating Viva Glint and Viva Insights, you’re ready to set up the integration. Use these links:
 
-- Admin: [Import survey results from Viva Glint into Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
+### Send Viva Glint data to Viva Insights
 
-- Admin: [Export Viva Glint survey results to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
+- **Glint Admin:** [Send Viva Glint data into Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
 
-- Admin: [Partitions in Viva Insights](/../../viva/insights/advanced/admin/partitions#how-to-create-a-partition-and-assign-analysts-access)
+- **Insights Admin:** [Send Viva Glint data to Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
 
-- Analyst: [Glint and organizational insights report](/../../viva/insights/advanced/analyst/templates/glint)
+### Send Viva Insights data to Viva Glint
+
+- **Insights Admin:** [Send Viva Insights data to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2282406)
+
+### Resources for Viva Insights analysts
+
+- **Glint and Insights Admin:** [Set up Partitions in Viva Insights](/../../viva/insights/advanced/admin/partitions#how-to-create-a-partition-and-assign-analysts-access)
+
+- **Glint and Insights Analyst:** [Glint and Insights Analyst](/../../viva/insights/advanced/analyst/templates/glint)
 
 ## Download the playbook
 
