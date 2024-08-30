@@ -39,6 +39,8 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 
 Campaigns are stored in the associated users' OneDrive for Business. Therefore, users need to have OneDrive for Business in place to be able to create campaigns in Viva Amplify. [Learn how to set up OneDrive for your organization](/microsoft-365/admin/setup/set-up-file-storage-and-sharing).
 
+Campaigns require an Exchange mailbox. Users therefore need to have Exchange set up in order to create campaigns.
+
 ## Product limitations
 
 - **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
@@ -47,7 +49,7 @@ Campaigns are stored in the associated users' OneDrive for Business. Therefore, 
 ### Assign admin roles
 
 >[!IMPORTANT]
->Users need both SharePoint admin and Groups admin roles to be able to manage settings in Viva Amplify.
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify.
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
@@ -120,7 +122,7 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 >If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
 >[!IMPORTANT]
->Users who you want to be able to create campaigns need to have **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/microsoft-365/solutions/manage-creation-of-groups)
+>Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
 
 ## Manage campaigns in the SharePoint admin center
 

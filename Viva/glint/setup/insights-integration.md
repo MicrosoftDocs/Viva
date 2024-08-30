@@ -1,5 +1,5 @@
 ---
-title: Export Viva Glint survey results to Viva Insights (preview)
+title: Send Viva Glint survey results to Viva Insights (public preview)
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,22 +14,30 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/22/2024
+ms.date: 08/29/2024
 ---
 
-# Export Viva Glint survey results to Viva Insights (preview)
+# Send Viva Glint survey results to Viva Insights (public preview)
 
 >[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
+> This feature is available to public preview customers only. Features described here are subject to change.
+
+>[!IMPORTANT]
+>This feature is currently available to preview customers only. Features described here are subject to change.
 
 HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint - along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
+
+>[!IMPORTANT]
+>Please be advised of a current limitation in the Glint admin UI: All Viva Insights purchased license counts are showing instead of only the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.  
+
+Counts are in this UI on the Glint admin integration config landing page
 
 ## What data can be sent to Viva Insights?
 
 >[!IMPORTANT]
 >By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within [Microsoft Viva Insights](/../viva/insights/introduction).
 
-This consent screen displays the first time you begin this integration. You must **Agree to terms** before moving forward.
+This consent screen displays the first time you begin this integration. **Agree to terms** before moving forward.
 
 :::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Preview agreement.":::
 
@@ -61,6 +69,15 @@ The Viva Insights admin sets up the import and contacts you to verify that the p
 
    :::image type="content" source="../../media/glint/setup/glintsights-setup-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons." lightbox="../../media/glint/setup/glintsights-setup-v2.png":::
    
+## Sync with Entra ID
+
+If you find discrepancies between Glint active users and their Entra IDs in MAC, remedy the discrepancies by following [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) on the Viva Glint and Viva Insights overview page. 
+
+To resync the data to pick up the Entra ID changes: 
+ - Remove and then re-add the survey programs to resend Glint data to Insights. 
+
+In the future, expect this resync to occur automatically. 
+
 ## Sending and managing data
 
 This guidance is for the initial sending of data to Insights only.
@@ -83,9 +100,7 @@ This guidance is for the initial sending of data to Insights only.
 
 2. Select **+ Add Programs.**
 
-3. In the *Add Program* window, select **Add** next to any program. You can select multiple programs.
-
-   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
+3. In the **Add Program** window, select **Add** next to any program. You can select multiple programs.
 
 4. A message confirms that your program or programs are added. 
 

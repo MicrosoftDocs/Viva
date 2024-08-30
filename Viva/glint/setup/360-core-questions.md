@@ -1,5 +1,5 @@
 ---
-title: 360 core survey questions (preview)
+title: 360 core survey questions 
 description: View the 360 program core items.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,20 +14,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/24/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 8/27/2024
 ---
 
-# 360 core survey questions (preview)
+# 360 core survey questions
 
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
-
-In *Cycle Settings*, chooose **Survey Questions**.
+In **Cycle Settings**, choose **Survey Questions**.
 
 :::image type="content" source="../../media/glint/setup/360-cycle-setting-survey-questions.png" lightbox="../../media/glint/setup/360-cycle-setting-survey-questions.png" alt-text="Screenshot of the second section to set up in Cycle Settings.":::
 
-In the Glint Manager 360 Program template, questions are pre-populated. 
+In the **Glint Manager 360 Program template**, questions are pre-populated. 
 
 ## 360 core survey items
 

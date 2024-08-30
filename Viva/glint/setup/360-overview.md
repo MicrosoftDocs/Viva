@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program overview (preview)
+title: Viva Glint 360 feedback program overview 
 description: The Microsoft Viva Glint 360 Feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 08/23/2024
 ---
 
-# Viva Glint 360 feedback program overview (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Viva Glint 360 feedback program overview 
 
 The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
@@ -31,9 +27,10 @@ The Microsoft Viva Glint 360 Feedback process gives employees insight into their
 
 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
 
-Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware. The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development.
+Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware. The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
-:::image type="content" source="../../media/glint/setup/360-access-admin-dashboard.png" alt-text="Screenshot of how to access 360s from the Viva Glint admin dashboard.":::
+ 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nzWM]
 
 ## 360 feedback program 
 
@@ -62,6 +59,11 @@ Use these definitions to understand a 360 program:
 |**Scheduled cycle**|The cycle goes live on the *Cycle Start* date. |
 |**Live cycle**|The cycle is in progress and subjects and feedback providers are actively participating. Reports can be generated and released for subjects who qualify and meet these criteria: <ul><li> Self-assessment completed</li><li> Confidentiality threshold for provider category is met; includes one feedback provider who isn't the subject</li><li> Cycle is closed for the subject</li><ul>|
 |**Completed cycle**|The cycle is complete for all subjects, and reports can be released.|
+
+## More resources 
+
+- [**360 feedback program subject guide - PDF version**](https://go.microsoft.com/fwlink/?linkid=2282087)
+- [**Viva Glint 360 feedback program Learning Path**](https://go.microsoft.com/fwlink/?linkid=2283679)
 
 
 
