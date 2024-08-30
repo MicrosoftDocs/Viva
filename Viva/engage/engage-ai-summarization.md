@@ -28,7 +28,7 @@ The [data, privacy, and security guidelines](/viva/engage/manage-security-and-co
 
 ## Which features use AI Summarization?
 
-Network analytics, Conversation analytics, and Copilot use AI Summarization. Additional Viva Engage features are likely to incorporate AI Summarization services in the coming year.
+Network analytics, Conversation analytics, and Copilot use AI Summarization. Other Viva Engage features are likely to incorporate AI Summarization services in the coming year.
 
 Network analytics draws upon stored summaries to derive network theme extraction, network sentiment analysis, and conversation summarization.
 
@@ -49,10 +49,10 @@ Policy settings apply anytime a user signs in, and determine which enabled featu
 |--------|------------|----------|-------------|
 |**Enabled** (Default)| Processes Engage threads within the tenant.|Enhances Copilot conversation starters on the Home page. Summarizations provide insights and recaps, and  posting suggestions based on network activity.|Required for sentiment analysis in Network analytics.|
 |**Enabled with user opt out**|Provides the same functionality as **Enabled**, except that users who have access to AI Summarization can turn it off for their user account through the setting in their personal analytics.|If a user opts out, Copilot lacks summarization data for the network and is unable to provide insights and recaps, or posting suggestions based on network activity.|If an admin or corporate communicator opts out, they turn off sentiment analysis in Network analytics. If enough users opt out, the network may not meet the minimum required data for Network analytics.|
-|**Disabled**|Stops all processing of Engage threads. If you disable AI Summarization for the tenant, without creating either 1) a user or group enablement policy, or 2) a disabled tenant policy, all history data in the tenant is deleted retroactively. To prevent deletion of all summarization data, accompany this setting change with one of the aforementioned policies.|Disables Copilot conversation starters on the Home page and Copilot responses for posts and insights that require summarization posts across the network.|Disables all Network analytics (theme, sentiment analysis, and conversation summarization).|
+|**Disabled**|Stops all processing of Engage threads. If you disable AI Summarization for the tenant, without creating either a user or group enablement policy or a disabled tenant policy, all history data in the tenant is deleted retroactively. To prevent deletion of all summarization data, accompany this setting change with one of the aforementioned policies.|Disables Copilot conversation starters on the Home page and Copilot responses for posts and insights that require summarization posts across the network.|Disables all Network analytics (theme, sentiment analysis, and conversation summarization).|
 
 ## See also
 
-[Data, Privacy, and Security for Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
+[Data, Privacy, and Security for Microsoft Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
 
-[Set up Copilot in Viva Engage](/viva/engage/configure-copilot-for-engage)
+[Set up Microsoft Copilot in Viva Engage](/viva/engage/configure-copilot-for-engage)
