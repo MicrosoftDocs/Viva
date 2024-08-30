@@ -102,7 +102,7 @@ The report provides insights about the skills landscape in your organization to 
 
 
 ### About skill distribution and related concepts
-This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills on the settings page. Additionally, people with related skills can be included in the distribution, which is configurable on each report page. 
+This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills in **Report settings**. Additionally, people with related skills can be included in the distribution, which is configurable on each report page. 
 * **Skill confirmed by user**: A skill that a person confirmed they have in Skills in Viva.
 * **Skill inferred by AI**: A skill that an AI system predicts a person has but hasn’t been confirmed by the person. AI inferences are based on job titles and recent Microsoft 365 activities. 
 * **Related skills**: If two skills are related, it’s more likely they share a common knowledge foundation or can be used to accomplish similar tasks. 
