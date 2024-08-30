@@ -203,7 +203,7 @@ At the top of the page, you’ll see tallies for **Copilot licensed employees**,
 
 Now let’s look at the insights provided by this page.
 
-**Insight #1: High-level overview of Copilot usage across the organization**
+###### **Insight #1: High-level overview of Copilot usage across the organization**
 
 Under **Adoption by group**, a graph shows the change in Copilot adoption over the previous six months, aggregated weekly. Select **Metric** to see the adoption trends for a specific group. Metrics include active Copilot users, Copilot licensed employees, percentage of active Copilot users, or percentage of Copilot licensed employees. You can select any data point on the graph to see more details for that point in time. Below the graph you’ll find adoption trends for specific groups. 
 
@@ -215,7 +215,7 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 :::image type="content" source="images/trendline-adoption-02.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-02.png":::
 
-**Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
+###### **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
 App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, OneNote, Loop, and Copilot chat (formerly Microsoft 365 Chat).
 
