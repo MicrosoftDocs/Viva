@@ -11,11 +11,13 @@
    - name: Copilot in Viva Engage
      items:
      - name: Set up Copilot in Viva Engage
-       href: configure-copilot-for-engage.md 
+       href: configure-copilot-for-engage.md
+     - name: AI Summarization in Viva Engage
+       href: /viva/engage/engage-ai-summarization
+     - name: Start a Microsoft 365 Copilot adoption community
+       href: /viva/engage/engage-365-copilot-adoption-platform
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
-     - name: Support Microsoft 365 Copilot adoption in your organization
-       href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
      - name: Viva Engage admin center overview 
