@@ -25,7 +25,7 @@ ms.date: 09/03/2024
 HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint - along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
 >[!IMPORTANT]
->Please be advised of a current limitation in the Glint admin UI: All Viva Insights purchased license counts are showing instead of only the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.  
+>Please be advised of a current limitation in the Glint admin UI: **All** Viva Insights purchased license counts are showing instead of only the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.  
 
 Counts are in this UI on the Glint admin integration config landing page
 
