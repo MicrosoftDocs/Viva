@@ -39,5 +39,5 @@ The date displayed when you hover over data points is Day 1 of that range - mean
    > - The first data point on the trend graph shows February 21, 202 - 90 days before today's date. 
    > - The second data point on the trend graph shows November 23, 2021 - 180 days before today's date.   
 
-    NOTE:
-    The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were     received from November 23 - January 8th as the program did not open until January 9th
+>[!NOTE]
+ The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were     received from November 23 - January 8th as the program did not open until January 9th
