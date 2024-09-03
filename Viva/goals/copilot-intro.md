@@ -66,21 +66,19 @@ For these examples, the **ModuleId** is *VivaGoals*, and the **featureId** is *C
 You can also control access to Copilot in Viva Goals from the Microsoft 365 Admin Center.  
 
 To enable or disable access for everyone in your organization, do the following:
-1. In the Microsoft 365 admin center, select **Copilot**, and then select **Viva Goals**. 
-
-   Your Org-wide setting shows whether access is enabled for your entire organization. 
-2. To turn this setting on or off, select **Manage**. 
-3. Select **On** to enable access for everyone or **Off** to disable access for everyone. 
-4. Select **Save**. 
+1. In the Microsoft 365 admin center, select **Copilot**, and then select **Viva Goals**. Your Org-wide setting shows whether access is enabled for your entire organization.
+2. To turn this setting on or off, select **Manage**.
+3. Select **On** to enable access for everyone or **Off** to disable access for everyone.
+4. Select **Save**.
 
 To enable access for select people or groups, do the following: 
 
-1. In the Microsoft 365 admin center, select **Copilot**, and then select **Viva Goals**. 
-2. Select **Create policy** under **Custom policies for people and groups**. 
-3. Give your policy a descriptive name. For example, "Disable for users in office X." 
-4. Select **Off for specific people** if you want to disable access to Copilot in Viva Goals for only people you select. Choose **On for specific people** if you want to enable access only the people you select. 
-5. Add the people or groups you want the policy to apply to. 
-6. Select **Save**. 
+1. In the Microsoft 365 admin center, select **Copilot**, and then select **Viva Goals**.
+2. Select **Create policy** under **Custom policies for people and groups**.
+3. Give your policy a descriptive name. For example, "Disable for users in office X."
+4. Select **Off for specific people** if you want to disable access to Copilot in Viva Goals for only people you select. Choose **On for specific people** if you want to enable access only the people you select.
+5. Add the people or groups you want the policy to apply to.
+6. Select **Save**.
 
 > [!NOTE]
 > You can create multiple custom policies to suit your organization's needs. 
