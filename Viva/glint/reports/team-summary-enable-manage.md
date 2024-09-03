@@ -1,6 +1,6 @@
 ---
 title: Enable and manage the Team Summary dashboard
-description: Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams. It is easily enabled from the Viva Glint admin dashboard.
+description: Team Summary is an enhanced survey results dashboard for managers, which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams. It's easily enabled from the Viva Glint admin dashboard.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -18,7 +18,7 @@ ms.date: 09/03/2024
 ---
 # Enable and manage the Team Summary dashboard
 
-Team Summary is an enhanced survey results dashboard for managers that captures employee feedback in an easy-to-use and insightful way. Team Summary is compatible with all recurring and ad hoc feedback surveys.
+Team Summary is an enhanced survey results dashboard for managers, which captures employee feedback in an easy-to-use and insightful way. Team Summary is compatible with all recurring and ad hoc feedback surveys.
 
 Team Summary is designed to:
  
@@ -28,11 +28,11 @@ Team Summary is designed to:
 
 ## Why use Team Summary? 
 
-The likelihood of employee feedback fueling organizational success hinges on the actions taken based on that feedback. While many companies build energy and excitement around taking the survey, momentum can slow after managers receive and view their results. This can happen because:
+The likelihood of employee feedback fueling organizational success hinges on the actions taken based on that feedback. While many companies build energy and excitement around taking the survey, momentum can slow after managers receive and view their results. This energy slow-down can happen because:
 
 - Data can feel overwhelming and difficult to make actionable. 
 - Next steps aren't always clear. 
-- Engagement feedback can be interpreted by a manager as only a reflection of their performance.
+- Engagement feedback is interpreted by a manager as only a reflection of their performance.
 
 ### Team Summary provides simple dashboard guidance for managers
 
@@ -60,7 +60,7 @@ If a program is approved in **Program Summary**, the **Approved** status must be
 1. From the dashboard, select **Configure** and then **Survey Programs.**
 2. Select the survey.
 3. In **Program Summary**, choose **Reporting**.
-4. Select **Add Role**. From the dropdown menu, select the new role title. The new role is added to the **Program Roles** section. Now, enable Team Summary for the new role as per the procedure above.
+4. Select **Add Role**. From the dropdown menu, select the new role title. The new role is added to the **Program Roles** section. Now, enable Team Summary for the new role.
 5. Select **Save Changes**.
 
 ## Preview the Team Summary manager dashboard
