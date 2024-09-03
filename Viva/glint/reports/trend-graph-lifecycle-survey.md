@@ -19,19 +19,19 @@ ms.date: 09/03/2024
 
 # Use the trend graph in a Viva Glint Employee Lifecycle program
 
-The Trend Graph for Employee Lifecycle (ELC) surveys behaves differently than that of a Microsoft Viva Glint *recurring* program. 
+The Trend Graph for an Employee Lifecycle (ELC) survey behaves differently than the Trend Graph of a Viva Glint *recurring* program. 
 
-- By default, the scores displayed in reports are filtered to responses received in the last 90 days. 
+- ELC surveys, by default, display scores filtered to responses received in the last 90 days. 
 - ELC surveys are always active so reports group based on the date range selected or the default 90 days.  
-- Responses appear on the dashboard as feedback is submitted. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions. 
+- ELC responses appear on the dashboard in real time. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions. 
 
 ## When the default period is used 
 
 - The latest data point on the graph is any surveys received within the past 90 days. 
 - The next point is the 90 days before the first data point (180 days - 91 days before today). 
-- The point prior to that is 90 days before the second data point (270 days - 181 days before today), and so on.  
+- The point on the graph before that date is 90 days before the second data point (270 days - 181 days before today), and so on.  
 
-The date tdisplayed when you hover over data points is Day 1 of that range - meaning that *the most recent* data point is 90 days before today's date (the date being studied). This date is not capped by the actual survey launch date. Therefore, a date earlier than the survey launch date can be displayed on one of these data points. 
+The date displayed when you hover over data points is Day 1 of that range - meaning that *the most recent* data point is 90 days before today's date (the date being studied). This date isn't capped by the survey launch date. A date earlier than the survey launch date can be displayed on one of these data points. 
 
   >**Example**: 
    > - Today's date is May 21, 2022. 
