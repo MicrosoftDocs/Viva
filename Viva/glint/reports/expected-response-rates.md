@@ -14,23 +14,25 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 09/03/2024
 --- 
 
 # Viva Glint’s position on expected response rates
 
 Expect the unexpected! Response rates differ between surveys, industries, and populations. They can be filtered by teams, locations, or any demographic cut you've supplied in your Employee Attribute File.
 
-- **For recurring and ad hoc surveys** : The response rate is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation.
-- **For Employee Lifecycle surveys** : The response rate is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation. Unlike recurring and ad-hoc surveys, the response rate may change depending on the date range selected in the report. When selecting a date range, the response rate will include people who responded to surveys generated during that period.
-- **For Always-On surveys** : Because the survey is always live, the response rate can't be calculated in the same manner. In this case, the response rate percentage refers to the number of participants who submitted the survey, divided by the total number of eligible participants who started the survey.
+|Survey type|Calculation|
+|----|----|
+|**Recurring and Ad hoc** | The response rate is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation.
+|**Employee Lifecycle**| The response rate is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation. Unlike recurring and ad-hoc surveys, the response rate may change depending on the date range selected in the report. When selecting a date range, the response rate will include people who responded to surveys generated during that period.
+|**Always-On** |The response rate can't be calculated in the same manner because the survey is always live. In this case, the response rate percentage refers to the number of participants who submitted the survey, divided by the total number of eligible participants who started the survey.
 
 >[!CAUTION]
-> Comparators are never apples to apples. For this reason, Viva Glint discourages placing too much value on them. Because many companies like to see response rate benchmarks, Viva Glint provides them below for informational purposes only.
+> Comparators are never apples to apples. For this reason, Glint discourages placing too much value on them. Because many companies like to see response rate benchmarks, Glint provides them below for informational purposes only.
 
 ## The response rate benchmark score used on the platform
 
-The benchmark score of 75% displayed on the platform reflects Glint's latest global industry update on engagement from June 2022.
+The benchmark score of 75% displayed on the platform reflects Glint's latest global industry update on engagement from December 31, 2023.
 
 If you require a deeper dive:
 
@@ -58,7 +60,7 @@ For organizations of 1000 employees, once a representative sample of data from 5
 
 Most of our customers have more than 1000 employees. For these companies, when responses reach or go above 60%, we typically don't see company-wide scores change by more than a point or two at higher response levels.
 
-Sample size varies. The most important factor in judging the sample's quality isn't its size but how similar it's to the population of interest. For example, a random sample of 100 out of a company's full 2000-employee population will be much more informative than a sample of the 200 out of 2000 who work in Human Resources.
+Sample size varies. The most important factor in judging the sample's quality isn't its size but its similarity to the population of interest. For example, a random sample of 100 out of a company's 2000-employee population is more informative than a sample of 200 of 2000 who work in Human Resources.
 
 ### What percentage of respondents leave at least one comment?
 
