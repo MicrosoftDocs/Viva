@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/16/2024
+ms.date: 09/03/2024
 ---
 
 # Manage language translations in Viva Glint programs 
@@ -31,7 +31,7 @@ There are four steps for making language translations:
 4. Import content back into the Viva Glint program
 
 > [!TIP]
-> [Language codes](https://www.codetwo.com/admins-blog/list-of-office-365-language-id) can be found on this Microsoft 365 page. Not all languages listed are available for Glint programs. Use this comprehensive list to find codes for languages permissioned on your Glint platform.
+> Find valid language codes for Viva Glint on the Language Codes tab of the Viva Glint [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533).
 
 ## Export survey and email text 
 
