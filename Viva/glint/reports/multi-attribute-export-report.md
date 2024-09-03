@@ -1,7 +1,7 @@
 ---
 title: Use Viva Glint's Multi-Attribute Export report for admins 
 description: "Using the Multi-Attribute Export report, admins can deep dive into survey scores and view results of combinations for up to three attributes."
-ms.author: AliciaWeixelman
+ms.author: AWeixelman
 author: AliciaWeixelman
 manager: MelissaBarry
 audience: admin
