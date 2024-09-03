@@ -27,7 +27,7 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 > [!NOTE] 
 > Admins can't combine authentication with Microsoft Entra ID and personalized survey links in Viva Glint as a combined access method. The link behind the **Provide Feedback** button in survey emails has to use authentication with Microsoft Entra ID **or** personalized survey links.
 
-Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations accross other Viva applications.
+Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations across other Viva applications.
 
 > [!NOTE] 
 > Personalized links and attribute-based access aren't currently available access methods for [Viva Glint 360 feedback programs](360-overview.md). Participants in 360 feedback (raters, feedback providers, admins) must acess 360s with authentication via Microsoft Entra ID. 
@@ -98,6 +98,6 @@ Viva Glint survey access methods present different user experiences depending on
 
 ### Attribute-based access
 
-- **Survey access:** Users (managers with report access or individual contributors) access the attribute-based access survey link shared by their organization. This may be converted to a shortened link or a QR code for easy access by deskless workers.
+- **Survey access:** Users (managers with report access or individual contributors) access the attribute-based access survey link shared by their organization. Admins can convert this link a shortened version or a QR code for easy access by deskless workers.
 - **Landing page:** Users go to an access page that prompts them to enter two (2) pieces of information (for example, employee ID and email address). After users enter correct information, they go to the survey welcome page.
 
