@@ -1068,8 +1068,12 @@
             "source_path": "viva/glint/setup/360-authenticate-participate.md",
             "redirect_url": "/viva/glint/setup/360-overview",
             "redirect_document_id": false
-	    },
-       
+	},
+        {
+            "source_path": "viva/glint/reports/team-summary-dashboard.md",
+            "redirect_url": "/viva/glint/reports/team-summary-enable-manage",
+            "redirect_document_id": false
+        },
     ]
 
 }
