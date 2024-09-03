@@ -36,7 +36,7 @@ Microsoft 365 Global admins and Viva Goals admins can control who has access to 
 Customers with a *Viva Suite* or *Viva Goals Standalone* license, or a trial version of either, can activate Copilot in the Viva Goals admin center.
 
 ## Configuring Copilot access using Viva Feature Access Management 
-You can use VFAM in either the Microsoft 365 admin center or by using PowerShell cmdlets. You can enable or disable access to Copilot in Viva Goals for everyone, for specific users, or for specific groups by creating tenant or group level access policies.  
+You can enable or disable access to Copilot in Viva Goals for everyone, for specific users, or for specific groups by creating tenant or group level access policies through Viva Feature Access Management.  
 
 For example, to disable access to Copilot in Viva Goals for only your users in Germany, you do the following: 
 - Create a group access policy in VFAM (using PowerShell cmdlets).
@@ -44,6 +44,10 @@ For example, to disable access to Copilot in Viva Goals for only your users in G
 - Set the group policy to OFF (disabled).
 
 For detailed information about controlling access using VFAM, including cmdlet syntax, see [Control access to features in Viva](../feature-access-management.md).
+
+There are two ways to create access policies:
+- [By using VFAM PowerShell cmdlets](#configure-access-to-copilot-by-using-vfam-powershell-cmdlets)
+- [By using the Microsoft 365 admin center](#configure-access-to-copilot-from-the-microsoft-365-admin-center)
 
 ### Configure access to Copilot by using VFAM PowerShell cmdlets 
 
