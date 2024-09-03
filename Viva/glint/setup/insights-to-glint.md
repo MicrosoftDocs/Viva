@@ -1,5 +1,5 @@
 ---
-title: Send Viva Insights data to Viva Glint (preview)
+title: Send Viva Insights data to Viva Glint (public preview)
 description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,13 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 08/29/2024
 ---
 
-# Send Viva Insights data into Viva Glint (preview)
+# Send Viva Insights data into Viva Glint (public preview)
 
 >[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
+>This feature is currently availabile to public preview customers only. Features described here are subject to change.
 
 Glint admins can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
@@ -35,6 +35,16 @@ To use this integration:
 Select **Learn more** in the platform to get more information about the integration.
 
 :::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
+
+## Sync with Entra ID
+
+If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
+
+To resync the data to pick up the Entra ID changes: 
+- In manage integration: delete all attributes and remove all programs. 
+- Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
+
+In the future, expect this resync to happen automatically.
 
 ## Manage data sharing 
 
@@ -75,12 +85,12 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 4.	Select **Save**. This attribute now shows as **Added**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-added.png" alt-text="Screenshot of the Added confirmation.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-added-2.png" alt-text="Screenshot of the Added confirmation." lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
 5.	Continue adding attributes until you have everything you need. 
 6.	**Select Programs.**
 
-      :::image type="content" source="../../media/glint/setup/glintsights-select-programs.png" alt-text="Screenshot of the Select Programs button.":::
+      :::image type="content" source="../../media/glint/setup/glintsights-select-programs-2.png" alt-text="Screenshot of the Select Programs button."lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
@@ -118,7 +128,7 @@ In the **Select Programs and Cycles** section, import data from previous cycles 
     1.	Glint currently supports importing the selected behavioral data for the last two cycles, up to 24 months.
 2.	Select **Import behaviors**.
 
-    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors.png" alt-text="Screenshot of the confirmation that behavioral attributes are added.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-import-behaviors-2.png" alt-text="Screenshot of the confirmation that behavioral attributes are added."lightbox="../../media/glint/setup/glintsights-import-behaviors-2.png":::
 
 3. This confirmation shows:
 
@@ -140,11 +150,11 @@ You can see the list of attributes imported.
 
 1. To bring in other behaviors, select **+ Add attributes** and follow the same  procedure. Attributes continue to populate in the **Imported Attributes** column.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes.png" alt-text="Screenshot of the Import Viva Insights data window.":::	
+   :::image type="content" source="../../media/glint/setup/glintsights-manage-add-attributes-2.png" alt-text="Screenshot of the Import Viva Insights data window."lightbox="../../media/glint/setup/glintsights-manage-add-attributes-2.png":::	
 
 2. Use the **ellipses** next to each behavior to open a dropdown menu, providing options for you to edit, customize, or delete.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-imported-attributes-dropdown.png" alt-text="Screenshot of the Imported Attributes dropdown menu.":::	
+   :::image type="content" source="../../media/glint/setup/glintsights-imported-attributes-dropdown-2.png" alt-text="Screenshot of the Imported Attributes dropdown menu."lightbox="../../media/glint/setup/glintsights-imported-attributes-dropdown-2.png" :::	
 
 ## Edit attributes
 
@@ -180,13 +190,13 @@ Glint imports Insights data for previous and future cycles by selecting more pro
 
 Select the **+ Add Programs** button and then the **Add** button as desired. These programs are now added to the **Enabled Programs** column.
 
-:::image type="content" source="../../media/glint/setup/glintsights-add-program.png" alt-text="Screenshot of the Add programs button.":::
+:::image type="content" source="../../media/glint/setup/glintsights-add-program-2.png" alt-text="Screenshot of the Add programs button."lightbox="../../media/glint/setup/glintsights-add-program-2.png":::
 
 ### Remove programs
 
 Use the ellipses next to each program to open the **Remove program** option.
 
-:::image type="content" source="../../media/glint/setup/glintsights-remove-program.png" alt-text="Screenshot of removing a program window.":::
+:::image type="content" source="../../media/glint/setup/glintsights-remove-program-2.png" alt-text="Screenshot of removing a program window.":::
 
 Select **Remove** from the window that opens.
 

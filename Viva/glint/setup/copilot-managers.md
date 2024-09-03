@@ -1,6 +1,6 @@
 ---
-title: How managers use Copilot in Viva Glint (preview)
-description: Managers with Copilot in Viva Glint have access to comment summarization to see comments bundled by common subject matter, easily identifying themes and guidance, to help improve engagement and productivity.
+title: How managers use Microsoft 365 Copilot in Viva Glint
+description: Managers with Microsoft 365 Copilot in Viva Glint have access to comment summarization to see comments bundled by common subject matter, easily identifying themes and guidance, to help improve engagement and productivity.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,15 +16,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/01/2024
+ms.date: 08/29/2024
 ---
 
-# How managers use Copilot in Viva Glint (preview)
+# How managers use Copilot in Viva Glint 
 
-> [!NOTE]
-> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
-
-Managers with Copilot in Viva Glint have access to comment summarization.  Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](https://go.microsoft.com/fwlink/?linkid=2234345).
+Managers with Copilot in Glint have access to comment summarization.  Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](https://go.microsoft.com/fwlink/?linkid=2234345).
 Copilot suggests items that are relevant to your data set and helps you explore and dig deeper. In-platform prompts provide multiple options for generating data summaries.
 
 Share this guidance with your managers:
@@ -33,7 +30,7 @@ Share this guidance with your managers:
 
 Use your Glint [Team Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231210) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](https://go.microsoft.com/fwlink/?linkid=2231116) for your team, as well as the other summaries on your dashboard. 
 
-Now, access Copilot in Viva Glint in one of these ways:
+Now, access Copilot in Glint in one of these ways:
 - Log into the Glint dashboard and select the Copilot button. 
 - Navigate to **Reports** on the top menu bar and use Copilot for a specific report. 
 
