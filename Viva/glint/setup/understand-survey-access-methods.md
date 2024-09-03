@@ -19,13 +19,16 @@ ms.date: 09/03/2024
 
 # Viva Glint survey access methods
 
-Microsoft Viva Glint offers multiple survey access methods that can be used independently or in combination to meet the needs of your employee population. Admins can set up combined access methods with:
+Microsoft Viva Glint offers multiple survey access methods that can be used independently or in combination to meet the needs of your employee population. Admins can set up these combined access methods:
 
-- Authentication with Microsoft Entra ID and attribute-based access
-- Personalized survey links and attribute-based access
-- Admins can't combine authentication with Microsoft Entra ID and personalized survey links in Viva Glint as a combined access method. The link behind the **Provide Feedback** button in survey emails has to use either authentication with Microsoft Entra ID or personalized survey links.
+|First access method   |Second access method   |Supported combined access method?|
+|:----------|:-----------|:------------|
+|Authentication with Microsoft Entra ID     |Attribute-based access      |Yes       |
+|Personalized link |Attribute-based access    |Yes |
+|Attribute-based access |Personalized link  |No|
 
-Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations across other Viva applications.
+> [!TIP] 
+> Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations across other Viva applications.
 
 > [!NOTE] 
 > Personalized links and attribute-based access aren't currently available for [Viva Glint 360 feedback programs](360-overview.md). Participants in 360 feedback (raters, feedback providers, admins) must access 360s with authentication via Microsoft Entra ID. 
