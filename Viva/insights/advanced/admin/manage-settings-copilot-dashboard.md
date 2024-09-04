@@ -176,7 +176,7 @@ You can also upload aggregated survey responses to enable a summary view of Copi
 >[!Note]
 >This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot dashboard.
 
-The dashboard’s adoption and impact pages provide user-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
+The dashboard’s adoption and impact pages provide group-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
 If your tenant does *not* have a Viva Insights license and you're a global admin, use these steps to set the minimum group size:
 
