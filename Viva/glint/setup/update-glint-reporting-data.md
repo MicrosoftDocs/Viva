@@ -38,11 +38,11 @@ Some attributes in Glint always reference the most current information and don't
 
 ## Factor in Survey Program type
 
-Recurring and Ad-Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with retroactive update options. Employee Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
+Recurring and Ad Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with retroactive update options. Employee Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
 
 ## Uploads: Retroactive User Updates
 
-To retain current employee informationm, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+To retain current employee information, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
 
 > [!IMPORTANT]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
