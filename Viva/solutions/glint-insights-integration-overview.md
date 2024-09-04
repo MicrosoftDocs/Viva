@@ -50,7 +50,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 ### Send Viva Glint data to Viva Insights
 
-[Send Viva Glint data into Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
+- **Glint Admin:** [Send Viva Glint data into Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
 
 - **Insights Admin:** [Send Viva Glint data to Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
 
