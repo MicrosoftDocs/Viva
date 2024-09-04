@@ -2150,6 +2150,11 @@
       "source_path": "Viva/glint/setup/setup-platform-admin.md",
       "redirect_url": "/viva/glint/introduction-viva-glint",
       "redirect_document_id": true
-  }  
+  },  
+  {
+      "source_path": "Viva/glint/setup/best-practice-setup-guidance.md",
+      "redirect_url": "/viva/glint/setup/customize-program",
+      "redirect_document_id": true
+  }     
   ]
 }
