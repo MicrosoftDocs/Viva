@@ -25,7 +25,7 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 |:----------|:-----------|:------------|
 |Authentication with Microsoft Entra ID     |Attribute-based access      |Yes       |
 |Personalized link |Attribute-based access    |Yes |
-|Attribute-based access |Personalized link  |No|
+|Authentication with Microsoft Entra ID |Personalized link  |No|
 
 > [!TIP] 
 > Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations across other Viva applications.
