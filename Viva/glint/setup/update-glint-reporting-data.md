@@ -3,7 +3,7 @@ title: How to update reporting data in closed Viva Glint surveys
 description: For highly trained users, Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform complex data updates. Use this guidance to determine which retroactive update option best meets your needs.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: advanced configuration, uploads, retroactive update
@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/15/2023
+ms.date: 09/04/2024
 ---
 
 # How to update reporting data in closed Viva Glint surveys
@@ -21,11 +21,11 @@ ms.date: 09/15/2023
 For highly trained users, Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform retroactive updates to survey data. Use this guidance to determine which retroactive update option best meets your needs.
 
 > [!CAUTION]
-> Do not perform a retroactive update while a Viva Glint survey is live.
+> Do not perform a retroactive update while a Glint survey is live.
 
 ## Attributes that don't require retroactive updates
 
-Some attributes in Viva Glint always reference the most current information and don't require retroactive updates. These include:
+Some attributes in Glint always reference the most current information and don't require retroactive updates. These include:
 
 - First Name
 - Last Name
@@ -38,11 +38,11 @@ Some attributes in Viva Glint always reference the most current information and 
 
 ## Factor in Survey Program type
 
-Recurring and Ad-Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with Viva Glint retroactive update options. Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
+Recurring and Ad-Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with retroactive update options. Employee Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
 
 ## Uploads: Retroactive User Updates
 
-Upload a file of all or some users in your closed survey to apply new values to past versions of data without touching current employee information. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+To retain current employee informationm, upload a file of all or some users in your closed survey to apply new values to past versions of data. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
 
 > [!IMPORTANT]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
@@ -50,4 +50,4 @@ Upload a file of all or some users in your closed survey to apply new values to 
 
 ## Data Apps: RETROACTIVE_PULSE_UPDATE
 
-Update Manager Hierarchy information for closed surveys by uploading corrected users to Viva Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+Update Manager Hierarchy information for closed surveys by uploading corrected users to Glint, running the RETROACTIVE_PULSE_UPDATE Data App, and reverting user data to current information after the update. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
