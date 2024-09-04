@@ -21,6 +21,8 @@ ms.date: 08/29/2024
 
 >[!IMPORTANT]
 >This feature is currently availabile to public preview customers only. Features described here are subject to change.
+>
+>Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of on the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.
 
 Glint admins can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
