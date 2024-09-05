@@ -69,12 +69,12 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
 
-Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet the following criteria to qualify:
+Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet both of the following criteria to qualify:
 
 * The majority of users in the tenant are part of a single reporting line; for example, they report to the same CEO
 * The tenant has at least 2,500 users with an Entra ID
 
-For those qualifying tenants, only users who meet the following criteria are enabled by default:
+For those qualifying tenants, only users who meet all of the following criteria are enabled by default:
 
 * The user’s in the top three levels in the organization
 * The user has a significant portion of the organization in their reporting line
