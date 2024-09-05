@@ -27,7 +27,7 @@ Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 
 Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot from being enabled by default for any User Roles. 
 
-Assign yourself and others using Copilot to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**. 
+Assign yourself and others using Copilot to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**.
 
 >[!IMPORTANT]
 >Users without access to the Comment Report can’t access Copilot in Viva Glint.
@@ -72,8 +72,7 @@ From your admin dashboard, follow this process:
 
 6. Toggle **Copilot in Viva Glint** to **On** and then **Save Changes.**
 
-    :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot- 
-    enabled.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot-enabled.png":::
 
 ## Ensure Copilot is enabled
 
