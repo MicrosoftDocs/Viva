@@ -39,12 +39,12 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**|[AI summarization](/viva/engage/engage-ai-summarization) processes conversation threads across the tenant. When user interaction with Copilot requires summarized data, AI Summarization returns summaries relevant to the user prompt *from posts to which the user already has access*. Stored summarized data complies with GDPR deletion requirements and is available through [Engage network export](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range).|
+|**Process and store messages for summarization**|[AI Summarization](/viva/engage/engage-ai-summarization) processes conversation threads across the tenant. When user interaction with Copilot requires summarized data, AI Summarization returns summaries relevant to the user prompt *from posts to which the user already has access*. Summarized data complies with GDPR deletion requirements and is available through [Engage network export](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range).|
 |**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Control access to Copilot and AI Summarization services
 
-Access to Copilot and AI Summarization are managed individually through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets, providing a more flexible and scalable approach to deployment.
+Access to Copilot and AI Summarization are managed separately through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets, providing a more flexible and scalable approach to deployment.
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
