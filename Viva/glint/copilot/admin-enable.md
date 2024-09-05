@@ -40,7 +40,7 @@ From your admin dashboard, follow this process:
 2.	In the **Employees** section, select **User Roles**.
 3.	Select the User Role to provide Comment Report access. In this example, Company Admin is chosen.
    
-   :::image type="content" source="../../media/glint/setup/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions. "lightbox="../../media/glint/setup/copilot- select-user.png":::
+     :::image type="content" source="../../media/glint/setup/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions. "lightbox="../../media/glint/setup/copilot- select-user.png":::
 
 >[!NOTE]
 >The Manager role has Comment Report permission enabled as a default setting.
@@ -68,11 +68,12 @@ From your admin dashboard, follow this process:
 
 5. In **Program Roles**, select the User Role to enable with Copilot. *In this example, the customized role is 'VI'.*
 
-   :::image type="content" source="../../media/glint/setup/copilot-program-roles.png" alt-text="Screenshot of an example User Role."lightbox="../../media/glint/setup/copilot-program-roles.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-program-roles.png" alt-text="Screenshot of an example User Role."lightbox="../../media/glint/setup/copilot-program-roles.png":::
 
 6. Toggle **Copilot in Viva Glint** to **On** and then **Save Changes.**
 
-   :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section. "lightbox="../../media/glint/setup/copilot-enabled.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section. "lightbox="../../media/glint/setup/copilot- 
+    enabled.png":::
 
 ## Ensure Copilot is enabled
 
