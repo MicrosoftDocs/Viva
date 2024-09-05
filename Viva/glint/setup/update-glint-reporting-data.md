@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/04/2024
+ms.date: 09/05/2024
 ---
 
 # How to update reporting data in closed Viva Glint surveys
@@ -46,7 +46,6 @@ To retain current employee information, upload a file of all or some users in yo
 
 > [!IMPORTANT]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
-
 
 ## Data Apps: RETROACTIVE_PULSE_UPDATE
 
