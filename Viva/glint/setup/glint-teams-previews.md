@@ -30,7 +30,7 @@ Preview Microsoft Teams survey notifications (invites, reminders, results notifi
 
 ## Preview survey notifications 
 
-To preview Microsoft Teams invites and reminders for a survey program:
+To preview Microsoft Teams invites, reminders, and survey results notifications for a survey program:
 
 1. Select the **Configuration** symbol and in the **Surveys** section choose **Survey Programs**. 
 1. Select a survey and go to the **Communications** section.  
