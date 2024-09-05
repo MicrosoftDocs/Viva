@@ -6,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/02/2024
+ms.date: 09/05/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -28,7 +28,7 @@ The [data, privacy, and security guidelines](/viva/engage/manage-security-and-co
 
 ## Which features use AI Summarization?
 
-Network analytics, Conversation analytics, and Copilot use AI Summarization. Other Viva Engage features are likely to incorporate AI Summarization services in the coming year.
+Copilot and Analytics (Networks, Conversation, and Audiences) use AI Summarization. Other Viva Engage features are likely to incorporate AI Summarization services in the coming year.
 
 Network analytics draws upon stored summaries to derive network theme extraction, network sentiment analysis, and conversation summarization.
 
