@@ -52,7 +52,7 @@ Changes to the Copilot in Viva Engage feature can take up to 48 hours to take ef
 
 ### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization can be turned on or off. AI Summarization supports a third enablement state–-enabled with an option for users to opt out. Learn more about [AI Summarization](/viva/engage/engage-ai-summarization) and how it works in Viva Engage.
+Copilot and AI Summarization can be turned on or off. Learn more about [AI Summarization](/viva/engage/engage-ai-summarization) and how it works in Viva Engage.
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
