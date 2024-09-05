@@ -1,5 +1,5 @@
 ---
-title: Admin enablement for Microsoft 365 Copilot in Viva Glint
+title: Admin enablement for Microsoft 365 Copilot in Viva Glint (preview)
 description: Admins enable Copilot in Viva Glint. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -19,7 +19,7 @@ ms.localizationpriority: high
 ms.date: 09/05/2024
 ---
 
-# Admin enablement for Microsoft 365 Copilot in Viva Glint
+# Admin enablement for Microsoft 365 Copilot in Viva Glint (preview)
 
 Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 - You have at least one Recurring or Ad hoc survey administered or closed on the Viva Glint platform
