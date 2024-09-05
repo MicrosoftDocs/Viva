@@ -48,11 +48,11 @@ Access to Copilot and AI Summarization are managed separately through the [Viva 
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user can be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
-Changes to the Copilot in Viva Engage feature can take up to 48 hours to take effect. Changes to AI Summarization generally take effect within 24 hours.
+Learn more about [AI Summarization](/viva/engage/engage-ai-summarization) and how it works with other features in Viva Engage.
 
-### Copilot and AI Summarization enablement states
+#### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization can be turned on or off. Learn more about [AI Summarization](/viva/engage/engage-ai-summarization) and how it works in Viva Engage.
+Copilot and AI Summarization can be turned on or off. Changes to Copilot may require 48 hours to take effect. Changes to AI Summarization generally take effect within 24 hours.
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
