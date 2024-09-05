@@ -39,7 +39,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**|[AI Summarization](/viva/engage/engage-ai-summarization) processes conversation threads across the tenant. When user interaction with Copilot requires summarized data, AI Summarization returns summaries relevant to the user prompt *from posts to which the user already has access*. Summarized data complies with GDPR deletion requirements and is available through [Engage network export](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range).|
+|**Process and store messages for summarization**|AI Summarization processes conversation threads across the tenant. When user interaction with Copilot requires summarized data, AI Summarization returns summaries relevant to the user prompt *from posts to which the user already has access*. Summarized data complies with GDPR deletion requirements and is available through [Engage network export](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range).|
 |**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Control access to Copilot and AI Summarization services
@@ -52,7 +52,7 @@ Changes to the Copilot in Viva Engage feature can take up to 48 hours to take ef
 
 ### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization can be turned on or off. AI Summarization supports a third enablement state–-enabled with an option for users to opt out.
+Copilot and AI Summarization can be turned on or off. AI Summarization supports a third enablement state–-enabled with an option for users to opt out. Learn more about [AI Summarization](/viva/engage/engage-ai-summarization) and how it works in Viva Engage.
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
@@ -82,7 +82,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 
 ## Access Copilot in Viva Engage
 
-Users can access Copilot anywhere they write posts in Engage: the home feed, storyline, and community and campaign pages.
+Users can access Copilot anywhere they write posts in Engage: the home feed, storyline, and on community and campaign pages.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
 
