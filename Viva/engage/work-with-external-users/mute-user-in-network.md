@@ -1,12 +1,11 @@
 ---
-title: "Reduce visibility of a user's posts in Viva Engage (Private Preview)"
+title: "Reduce visibility of a user's posts in Viva Engage"
 f1.keywords:
 - NOCSH
-- ROBOTS: NOINDEX, NOFOLLOW
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 07/02/2024
+ms.date: 09/05/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -19,10 +18,7 @@ search.appverid:
 description: "Engage admins can reduce the number of places where a user's post appears in the Viva Engage network."
 ---
 
-# Reduce visibility of a user's posts in Viva Engage (Private Preview)
-
->[!IMPORTANT]
->This Viva Engage feature is currently available only for private preview customers. The features described here are subject to change.
+# Reduce visibility of a user's posts in Viva Engage 
 
 Engage admins and network admins can use the Viva Engage **Mute user** option to remove a user’s thread starters from the network's Home feed and storylines feed, and from future email digests. A *thread starter* is defined as the original post (question, conversation, article, poll, or praise) that a user publishes in Viva Engage.
 
@@ -30,7 +26,7 @@ The **Mute user** option doesn’t prevent the user from creating content, nor d
 
 ## How does the user’s experience change?
 
-When a user’s account is in muted status, the user receives no notification of this change. Their posted thread starters are removed from the Home feed, storylines feed, and email digests. Any posted comments and replies they have in these locations will remain.
+When a user’s account is in muted status, the user receives no notification of this change. Their posted thread starters are removed from the Home feed, storylines feed, and email digests. Any posted comments and replies they have in these locations remain.
 
 Followers of the muted user’s account continue to get notifications of the muted user’s posts and see their thread starters in the Home feed, storylines feed, and email digests. All other users (nonfollowers) can only see a muted user’s content by visiting the muted user’s storyline or the communities they belong to.
 
@@ -64,4 +60,4 @@ All activity from the mute user for network mode feature is available through th
 
 - User ID of each user who is muted
 - User ID of admins who assigned or unassigned mute status in the network
-- Date and time the user was muted for the network or the mute status was removed.
+- Date and time the user was muted for the network, or when the mute status was removed

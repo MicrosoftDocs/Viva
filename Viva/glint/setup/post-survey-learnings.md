@@ -14,14 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 09/04/2024
 ---
 
 # Share Viva Glint post-survey learning experiences with your employees
 
-Employee engagement is most successful when every member of an organization takes actions to drive their own happiness at work.  
-
-Post-survey learning experiences are an engagement feature offering People-Science-curated videos at the end of a survey to help your employees prepare for [Team Conversations](https://www.microsoft.com) and Focus Area planning sessions.  
+Employee engagement is most successful when every member of an organization takes actions to drive their own happiness at work.  Post-survey learning experiences offer People-Science-curated videos at the end of a survey to help your employees prepare for [Team Conversations](https://www.microsoft.com) and Focus Area planning sessions.  
 
 ## Post-survey learning videos are available with all recurring surveys  
 
@@ -34,14 +32,13 @@ Currently, the four videos included are:
 
 Videos can't be edited. 
 
-## How to enable or disable post-learning videos in a survey 
+## Enable or disable post-learning videos in a survey 
 
-The default for the experience is YES (On) but the experience may be switched to NO (Off). Enable or disable from your admin dashboard. 
+The default setting for the experience is **YES** (On) but the experience may be switched. Enable or disable from your admin dashboard. 
+1.Select **Configure** 
+1.Select **General Settings** in the **Client Settings** section. 
+1.Choose to enable or disable the learning experience. 
 
-- Select **Configure** 
-- Select **General Settings** in the **Client Settings** section. 
-- Choose to enable or disable the learning experience. 
+## Post-learning experiences for survey takers
 
-## What survey takers gain from the post-learning experiences 
-
-The post-learning survey experience increases preparedness for valuable ACT conversations and builds on the momentum of feedback by providing an opportunity for learning as soon as a survey is completed. End users find high quality, bite-sized learning videos, which allow them to take immediate steps around their feelings of engagement. The video selections are designed to inspire a greater sense of ownership over the work experience, facilitate self-reflection and quality team discussions, and foster broad participation in action-taking, which leads to sustainable improvements.  
+The post-learning survey experience increases preparedness for team conversations. It builds on the momentum of feedback by providing an opportunity for learning as soon as a survey is completed. End users find high quality, bite-sized learning videos, which allow them to take immediate steps around their feelings of engagement. The video selections are designed to inspire a sense of ownership over the work experience, facilitate self-reflection and quality team discussions, and foster participation in action-taking to lead to sustainable improvements.  

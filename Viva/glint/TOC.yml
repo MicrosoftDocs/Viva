@@ -2,7 +2,6 @@ items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
   - name: Privacy and confidentiality
-    href: setup/viva-glint-privacy.md
     items:
       - name: Privacy policies 
         href: setup/add-privacy-policy.md
@@ -68,9 +67,7 @@ items:
       - name: Glint platform setup and planning
         items:
           - name: Access Viva Glint
-            href: setup/access-glint.md
-          - name: Set up your Glint platform
-            href: setup/setup-platform-admin.md       
+            href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
           - name: Communication plans and templates
@@ -201,10 +198,12 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Copilot in Viva Glint
+  - name: Microsoft 365 Copilot in Viva Glint
     items:
       - name: Intro and admin setup
         href: copilot/copilot-admin-intro.md
+      - name: Admin enablement for Copilot in Viva Glint
+        href: copilot/admin-enable.md
       - name: Copilot data, privacy, and security
         href: setup/copilot-privacy.md
       - name: Managers using Copilot
@@ -455,9 +454,8 @@ items:
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
-            href: reports/team-summary-dashboard.md
             items:
-              - name: Set up the Team Summary dashboard
+              - name: Eanble and manage the Team Summary dashboard
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
@@ -477,14 +475,16 @@ items:
         items:    
           - name: Overview
             href: ../solutions/glint-insights-integration-overview.md
-          - name: Export Viva Glint survey results to Viva Insights (preview)
+          - name: Send Viva Glint data to Viva Insights
             href: setup/insights-integration.md
-          - name: Import survey results from Viva Glint into Viva Insights (preview)
-            href: ../insights/advanced/admin/import-survey-glint.md
-          - name: Glint and organizational insights report (preview)
-            href: ../insights/advanced/analyst/templates/glint.md
-          - name: Partitions in Viva Insights
-            href: ../insights/advanced/admin/partitions.md
+          - name: Send Viva Insights data to Viva Glint
+            href: setup/insights-to-glint.md
+          - name: Resources for analysts
+            items:
+               - name: Analyst setup of Partitions in Viva Insights
+                 href: ../insights/advanced/admin/partitions.md
+               - name: Glint and Insights analyst report
+                 href: ../insights/advanced/analyst/templates/glint.md             
   - name: Troubleshoot
     items:
       - name: Data File Uploads

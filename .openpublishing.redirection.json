@@ -2136,5 +2136,25 @@
       "redirect_url": "/viva/connections/viva-connections-overview",
       "redirect_document_id": false
   },
+  { 
+      "source_path": "Viva/connections/mobile-notifications-viva-connections.md",
+      "redirect_url": "/viva/connections/viva-connections-news-notifications",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "Viva/glint/setup/viva-glint-privacy.md",
+      "redirect_url": "/viva/glint/setup/add-privacy-policy",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "Viva/glint/setup/setup-platform-admin.md",
+      "redirect_url": "/viva/glint/introduction-viva-glint",
+      "redirect_document_id": true
+  },  
+  {
+      "source_path": "Viva/glint/setup/best-practice-setup-guidance.md",
+      "redirect_url": "/viva/glint/setup/customize-program",
+      "redirect_document_id": true
+  }     
   ]
 }

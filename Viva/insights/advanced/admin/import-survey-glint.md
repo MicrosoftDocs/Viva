@@ -3,6 +3,7 @@ title: Import survey results from Viva Glint into Viva Insights
 description: Learn how to set up a connection between Glint and Viva Insights and import your data to the advanced insights app
 author: zachminers
 ms.author: v-zachminers
+ms.date: 08/28/2024
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -132,3 +133,8 @@ The **Data quality** tab shows you the following information for each imported s
 *Applies to: Viva Glint admin*
 
 Follow [these steps](https://go.microsoft.com/fwlink/?linkid=2271365) to delete any Viva Glint survey data that was imported into Viva Insights.
+
+
+## Related topics
+
+[Export Viva Insights data to Viva Glint](../admin/export-insights-data-glint.md)
