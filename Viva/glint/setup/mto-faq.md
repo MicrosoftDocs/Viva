@@ -26,10 +26,10 @@ ROBOTS: NOINDEX, NOFOLLOW
 Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group for access to Microsoft Viva Glint in your organization. 
 
 ## Why does my organization need to enable MTO for Glint?
-The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. The MTO policy is created by the target tenant and the source tenants are added. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
+The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. Tenant admins create an MTO policy in the target tenant and add source tenants. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
 
 ## Are there any options for organizations who already use B2B collaboration or cross-tenant synchronization (CTS) to access Glint?
-Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. Below shows the Glint dashboard access and experience for each customer sync type:
+Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva Glint. The following shows the Glint dashboard access and experience for each customer sync type:
 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
@@ -42,7 +42,7 @@ Microsoft 365 admins can install Glint to only one tenant - the target tenant. G
 
 1. A Glint admin user must be logged into the target tenant, where Glint is installed.
 1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Glint app.
-1. Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users will receive the survey however may not be able to access the survey depending on whether an organization has chosen sign-in using Microsoft Entra ID as a survey access method.
+1. Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
 |Users synced with B2B collab or CTS?  |HRIS import to Glint app complete?  |Survey access method |Result for survey taker|
 |:----------|:-----------|:-----------|:-----------|
@@ -68,7 +68,7 @@ Yes, but only under certain circumstances. Consider this scenario, where a custo
 - Tenant A: The target tenant where Glint is installed
 - Tenant B: The source tenant
 
-The tenant B admin won't have access to Glint to send surveys. The tenant A Glint admin can send all users across both tenants a survey if:
+The tenant B admin doesn't have access to Glint to send surveys. The tenant A Glint admin can send all users across both tenants a survey if:
 
 1. Users' HRIS data are imported to the Glint app.
    1. Without this step, tenant A admins can only send surveys to users in tenant A.
@@ -79,12 +79,12 @@ The tenant B admin won't have access to Glint to send surveys. The tenant A Glin
 Restricting MTO to specific app isn't currently possible. MTO setup impacts synced users' experience in any apps or features integrated with MTO, such as Microsoft Teams, Search, and People card.
 
 ## How long does it take to set up MTO?
-One working session of an hour with the M365 or Entra Admin should be enough to enable MTO and test. It's recommended to factor in another session in case you run into any problems.
+One working session of an hour with the Microsoft 365 or Entra Admin should be enough to enable MTO and test. But, factor in another session in case you run into any problems.
 
 ## How does MTO impact guest users? Can our organization add guest users without converting them to members?
-MTO uses any B2B collaboration or CTS and doesn't automatically change the external user set up.
+MTO uses any B2B collaboration or CTS and doesn't automatically change the external user setup.
 
-- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. The maximum number of external guest users an organization can have is 50k MAU and if they have more, it incurs additional costs. Most customers will not hit the external guest 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guest users at an additional cost or converting them to member users.
+- B2B collaboration sets up the target tenant members as **external guest users** by default. These users are automatically added as external guests in MTO policy. Most customers don't hit the external guest maximum of 50,000 monthly average users (MAU). If an organization hits this limit, they can choose between keeping their guest users at an extra cost or converting them to member users.
 - CTS sets up the target tenant members as **external member users** by default. These users are automatically added as external members in the MTO policy. There's an unlimited number of member users allowed.
 
 Learn more:
@@ -93,7 +93,7 @@ Learn more:
 - [Properties of a B2B guest user](/entra/external-id/user-properties)
 
 ## Can I give dashboard access to users outside of my target tenant?
-Yes. You’ll have to add the user(s) to the target tenant, import the users’ HRIS data to Glint, and share credentials with the user(s) so they can access the Glint Dashboard.
+Yes. Admins need to add the users to the target tenant, import the users’ HRIS data to Glint, and share credentials with the users so they can access the Glint Dashboard.
 
 **If source tenants are Microsoft Entra ID tenants:**
 - Adding users to the target tenant alone isn't enough because users' still have their target tenant set as the source tenant.
@@ -101,13 +101,13 @@ Yes. You’ll have to add the user(s) to the target tenant, import the users’ 
 
 **If source tenants aren't Microsoft Entra ID tenants:**
 - Add users directly to the target tenant.
-- An MTO policy and user sync isn't needed because these users have the target tenant as their home tenant in Entra.
+- An MTO policy and user sync aren't needed because these users have the target tenant as their home tenant in Entra.
 
 ## Can set up one tenant now and add others later?
 Yes. If you currently have multiple tenants, you can migrate and access Glint with your primary tenant to start with.
 
 ## Are there any licensing requirements?
-Yes. P1 licensing is required for MTO set up. [Learn more](https://go.microsoft.com/fwlink/?linkid=2282509).
+Yes. P1 licensing is required for MTO setup. [Learn more](https://go.microsoft.com/fwlink/?linkid=2282509).
 
 ## Are there any additional costs associated with enabling MTO?
 No.
