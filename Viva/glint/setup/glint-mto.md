@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: MTO, multitenant organization, B2B collaboration, cross-tenant sync, FAQ
 ms.collection:  
 - Microsoft 365initiative-viva
 - selfserve 
