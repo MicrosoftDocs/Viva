@@ -95,14 +95,14 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. Select parameters to update Manager ID:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
-   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 5.
+   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
    1. **attributeName:**  Select **Load Values** and choose your Manager ID attribute. 
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
 1. Select parameters to update the overall Manager Hierarchy:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
-   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 5.
+   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
    1. **attributeName:**  Select **Load Values** and choose **(hierarchy) Manager**.
    1. **reloadAnalytics:** Switch toggle to **On**.
    1. Select **Execute, and show first 500 log records**.    
