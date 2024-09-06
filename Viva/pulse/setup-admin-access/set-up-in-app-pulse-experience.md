@@ -2,8 +2,8 @@
 title: Set up the in-app Viva Pulse experience
 description: "Set up the in-app Viva Pulse experience"
 ms.reviewer: 
-ms.author: michellehu
-author: michellehu-msft
+ms.author: jjaworsk
+author: jjaworsk
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
@@ -21,13 +21,21 @@ The Viva Pulse in-app experience can be managed by users with the Viva Pulse adm
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
 
-## Privacy and confidentiality
+## Privacy settings
 
-As an admin, you can set privacy and confidentiality options for your organization. This includes setting the minimum number of responses required to see feedback, adding a custom privacy policy statement, and choosing to turn off the collection of user diagnostic data.
+As an admin, you can set privacy options for your organization. This includes setting the minimum number of recipients required to send a pulse, the minimum number of responses required to see feedback once a pulse closes, adding a custom privacy policy statement, and choosing to turn off the collection of user diagnostic data.
 
-### Minimum response required to see the feedback default value
+### Minimum recipients required to send a pulse
 
-All Pulses require a minimum number of responses before authors can view unattributed feedback. Lowering this number may compromise the confidentiality of feedback providers. Changing the default won't affect any currently deployed pulses. The minimum value allowed is 3 and maximum value allowed is 25. To set the minimum response required to see the feedback default value:
+All pulses require a minimum number of recipients to be added before they can be sent. Changing the default won't affect any currently deployed pulses. The minimum value allowed is 3 and maximum value allowed is 25. To update the minimum recipients required default value:
+
+1. In the **Manage** tab, go to the **Privacy** tab.
+2. Under the Minimum number of recipients and responses heading go to the Minimum recipients section, where you can select a value between 3 and 25 using either the carrot or typing in the value.
+3. The value is autosaved.
+
+### Minimum response required to see feedback
+
+All pulses also require a minimum number of responses before authors can view feedback. Changing the default won't affect any currently deployed pulses. The minimum value allowed is 1 and maximum value allowed is equal to the current value of your Minimum recipients setting. To update the minimum responses required default value:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
 2. Under the **Minimum number of responses required to see feedback** section,  you can select a value between 3 and 25 using either the carrot or typing in the value.
@@ -44,7 +52,7 @@ You can add your company’s privacy policy to be shown in the app in place of t
 When the user clicks on **Privacy**, they're taken to your company’s privacy policy. To customize the privacy statement:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
-2. Under the **Customize privacy policy statement** section, in the text box labeled **Link to privacy policy statement**, type or paste a link to your company’s privacy statement to be shown in the app in place of the Microsoft privacy statement.
+2. Under the Minimum number of recipients and responses heading go to the Minimum responses section, where you can select a value between 1 and the current Minimum recipients setting using either the carrot or typing in the value.
 3. The value is autosaved.
 
 ### Diagnostic data
