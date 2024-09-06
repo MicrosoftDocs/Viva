@@ -3,7 +3,7 @@ title: Viva Pulse privacy and data protection
 description: "Viva Pulse privacy and data protection"
 ms.reviewer: 
 ms.author: jjaworsk
-author: jjaworsk-msft
+author: jjaworsk
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
