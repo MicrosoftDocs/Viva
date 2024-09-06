@@ -1,5 +1,5 @@
 ---
-ms.date: 8/28/2024
+ms.date: 9/5/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -69,13 +69,12 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
 
-Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet all of the following criteria to qualify:
+Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet both of the following criteria to qualify:
 
-* Most users in the tenant have the Manager ID attribute assigned
-* Most users in the tenant are part of a single reporting line
-* The tenant has more than 2,500 seats
+* The majority of users in the tenant are part of a single reporting line; for example, they report to the same CEO
+* The tenant has at least 2,500 users with an Entra ID
 
-For those qualifying tenants, only users who meet both of the following criteria are enabled by default:
+For those qualifying tenants, only users who meet all of the following criteria are enabled by default:
 
 * The user’s in the top three levels in the organization
 * The user has a significant portion of the organization in their reporting line
@@ -105,8 +104,8 @@ The metrics in this section summarize your organization’s progress towards act
 | Metric | Definition | More information |
 |----|----|----|
 | Total Microsoft 365 licenses  | Number of prerequisite Microsoft 365 and Office 365 licenses purchased by your company. | Users must be assigned a prerequisite Microsoft 365 or Office 365 license in order to be assigned a Copilot for Microsoft 365 license. [See the full list here](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#available-plan). <br> </br> This metric represents a license count, not a user count, so the value shown here may be smaller or larger than your total employee count. The metric includes Microsoft 365 E3 and E5 Extra Features licenses in addition to standard Office 365 and Microsoft 365 licenses. |
-| Total Copilot licenses  | Number of Copilot for Microsoft 365 licenses purchased by your company. | This number may be smaller than the “Copilot licenses assigned” figure below because it's limited to Copilot for Microsoft 365 licenses, whereas the metric below may include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. |
-| Copilot licenses assigned  | Number of employees in your company who have been assigned a Copilot license. | This definition is consistent with the "assigned licenses" metric in the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center. <br> </br> This number may be larger than the number above (see explanation in row above). |
+| Total Copilot licenses  | Number of Copilot for Microsoft 365 licenses purchased by your company. | This number might be smaller than the “Copilot licenses assigned” figure below because it's limited to Copilot for Microsoft 365 licenses, whereas the metric below might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. |
+| Copilot licenses assigned  | Number of employees in your company who have been assigned a Copilot license. | This number might be larger than the number above, because this metric might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. <br> </br>  This definition is consistent with the "assigned licenses" metric in the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center. |
 | Active Copilot users  | Number of employees in your company who have completed at least one Copilot action over the previous 28 days. | A user is considered active if they performed an intentional action for an AI-powered capability in Copilot within Microsoft Teams, Copilot with Graph-grounded chat, Outlook, Word, Excel, PowerPoint, OneNote, or Loop. This is consistent with the definition used in [Usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 Admin Center. <br> </br> This number may exceed the number above because it counts all active users over the past 28 days, including users who have had their license removed after completing an action in Copilot, whereas the metric above is a snapshot of employees currently licensed to use Copilot for Microsoft 365. |
 
 #### How Copilot can transform your work
@@ -203,7 +202,7 @@ At the top of the page, you’ll see tallies for **Copilot licensed employees**,
 
 Now let’s look at the insights provided by this page.
 
-**Insight #1: High-level overview of Copilot usage across the organization**
+###### **Insight #1: High-level overview of Copilot usage across the organization**
 
 Under **Adoption by group**, a graph shows the change in Copilot adoption over the previous six months, aggregated weekly. Select **Metric** to see the adoption trends for a specific group. Metrics include active Copilot users, Copilot licensed employees, percentage of active Copilot users, or percentage of Copilot licensed employees. You can select any data point on the graph to see more details for that point in time. Below the graph you’ll find adoption trends for specific groups. 
 
@@ -215,7 +214,7 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 :::image type="content" source="images/trendline-adoption-02.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-02.png":::
 
-**Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
+###### **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
 App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, OneNote, Loop, and Copilot chat (formerly Microsoft 365 Chat).
 

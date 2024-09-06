@@ -198,10 +198,12 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Copilot in Viva Glint
+  - name: Microsoft 365 Copilot in Viva Glint
     items:
       - name: Intro and admin setup
         href: copilot/copilot-admin-intro.md
+      - name: Admin enablement for Copilot in Viva Glint
+        href: copilot/admin-enable.md
       - name: Copilot data, privacy, and security
         href: setup/copilot-privacy.md
       - name: Managers using Copilot
@@ -452,9 +454,8 @@ items:
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
-            href: reports/team-summary-dashboard.md
             items:
-              - name: Set up the Team Summary dashboard
+              - name: Eanble and manage the Team Summary dashboard
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
