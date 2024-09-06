@@ -23,7 +23,7 @@ search.appverid: MET150
 
 Due to the potential sensitivity about how the individual employee’s feedback could be used, a minimum threshold for recipients must be met for the author to send a pulse, and a minimum number of responses is required to be able to review the team’s feedback results once the feedback collection period ends. Pulse administrators can update these threshold values based on their organizational needs.
 
-Additionally, Viva Pulse leverages research-backed surveys developed by People Scientists with a focus on maximizing the effectiveness of the responses and protecting the feedback providers. Results are also only displayed to the author after the Pulse has closed, and authors will not see employee names or any other identifiers unless the employees choose to include such information in their write-in response.
+Additionally, Viva Pulse leverages research-backed surveys developed by People Scientists with a focus on maximizing the effectiveness of the responses and protecting the feedback providers. Results are also only displayed to the author after the Pulse has closed, and authors won't see employee names or any other identifiers unless the employees choose to include such information in their write-in response.
 
 Only administrators and privileged users with elevated permissions may be able to identify employees and their responses in certain circumstances.
 
