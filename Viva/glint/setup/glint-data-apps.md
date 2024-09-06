@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 09/06/2024
 ---
 
 # Use Advanced Configuration Data Apps
