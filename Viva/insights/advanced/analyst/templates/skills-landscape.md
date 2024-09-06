@@ -35,6 +35,9 @@ To populate the report in Power BI, you need to set up, and successfully run the
 
 :::image type="content" source="../../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
 
+[!INCLUDE [Demonstration](includes/demonstration.md)]
+
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZDlmOTY4NTctYmVhYi00ZWM5LTlkYmQtYWZhZDIwNjEwMGYzIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
  
 ## Prerequisites
 Before you can run the queries and populate the report in Power BI, you need to:
