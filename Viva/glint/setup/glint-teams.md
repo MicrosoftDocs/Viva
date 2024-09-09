@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Microsoct Teams, Teams bot, Teams survey invites, Teams Nudges, Glint and Teams integration
+keywords: Microsoft Teams, Teams bot, Teams survey invites, Teams Nudges, Glint and Teams integration
 ms.collection:  
 - Microsoft 365initiative-viva
 - selfserve 
