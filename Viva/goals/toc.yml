@@ -202,8 +202,6 @@ items:
         href: tableau-integration.md
       - name: Trello integration
         href: trello-integration.md 
-      - name: Zapier integration
-        href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
     - name: Troubleshoot AAD errors
