@@ -21,7 +21,7 @@ ms.date: 09/09/2024
 
 The Reporting page allows admins to customize how dashboards are set up for specific User Roles to view their survey results.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
 ## View and add Program Roles
 
@@ -47,7 +47,7 @@ Roles already set up for this program are listed in the **Program Roles** sectio
 
 To add User Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name now appears as its own row.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing.":::
+:::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing.":::
 
 >[!TIP]
 >Use the up or down arrow to view or close the set up for a role.
@@ -58,7 +58,7 @@ To add User Roles to a program, select **Add Role**. The dropdown menu displays 
 
 Selected questions can be excluded from a survey for specific roles, if desired. This example screen shows the Question Reporting Access permission for the Glint 360 admin role and that three of the 19 survey items are to be excluded for the People at vgAcme role:
 
-:::image type="content" source="../../media/glint/reporting-question-filter-roles.png" alt-text="Screenshot for adding a role for report viewing.":::
+:::image type="content" source="../../media/glint/setup/reporting-question-filter-roles.png" alt-text="Screenshot for excluding questions for a survey role.":::
 
 Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to the item. 
