@@ -1,5 +1,5 @@
 ---
-ms.date: 08/06/2024
+ms.date: 09/09/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -200,6 +200,104 @@ If you do a point-in-time export of organizational data from your HR information
 Here's how that would look in practice. For each measured employee, you'd have 13 separate rows. Each of those rows would contain an effective date for each month that data was pulled for. If an effective date for each month isn't possible, then you can provide one single point in time. In that case, set the effective date to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
 
 Employee collaboration activity will be mapped to the most recent organizational data snapshot (based on **EffectiveDate**) that precedes the date of the collaboration activity. 
+
+## Advanced configuration - Configure email address to find corresponding EntraID for processing
+
+Viva Insights uses email addresses to find the corresponding EntraID for processing. With this advanced configuration, you can choose the date that Viva Insights should use to get the EntraID for each email address.
+
+### Option 1: EffectiveDate - Choose this if your data source tracks email address changes by EffectiveDate
+
+EffectiveDate is the date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as the default.
+
+#### Scenario 1
+
+1.	Your data source tracks email address changes by EffectiveDate
+2.	The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”.  This change is recorded in the HCM system using EffectiveDate
+
+**Example:**
+
+1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”. This change is recorded in the HCM source system with a new row for BoJames@contoso.com with the EffectiveDate 04/14/2024
+2.	This is snapshot exported from the HCM source system on 04/15/2024:
+
+| PersonId | EffectiveDate | Organization |
+|----|----|----|
+| BoSmith@contoso.com | 04/01/2024 | ABC |
+| BoJames@contoso.com | 04/14/2024 | ABC |
+
+3. 04/16/2024: The file exported on the snapshot date is uploaded in Viva Insights
+    * Select EffectiveDate under **Advanced configuration**
+    * This ensures that the email address changes are tracked by the corresponding EffectiveDate provided in the uploaded file.
+        * From 04/01/2024 to 04/14/2024, BoSmith@contoso.com is used to fetch EntraID “A”
+        * From 04/14/2024, BoJames@contoso.com is used to fetch EntraID “A”
+
+[Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
+
+### Option 2: Select date if your data source doesn’t track email address changes. The email address on the selected date is used for all past dates
+
+1.	Select today’s date if you exported data from it recently
+2.	Otherwise, select an older date
+
+#### Scenario 1
+
+1.	Your data source doesn’t track email address changes and you exported data from it recently
+2.	The email address changed for EntraID “A” and you want the new email address to match to “A” for the entire historical data
+
+**Example:**
+
+1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID “A”
+2.	The snapshot exported from the HCM source system on 04/15/2024:
+
+| PersonId | EffectiveDate | Organization |
+|---|---|---|
+| BoJames@contoso.com | 04/01/2024 | ABC | 
+
+3. 04/16/2024: The file exported on the snapshot date is uploaded in Viva Insights.
+
+4. Select **04/16/2024** from the dropdown
+    * This ensures that the email address on 04/16/2024 (for example, BoJames@contoso.com) is used to fetch EntraID “A” for all past dates
+
+#### Scenario 2
+
+1.	Your data source doesn’t track email address changes and you didn't recently export any data
+2.	The email address changed for EntraID “A” and you want the old email address to match to “A” for the entire historical data
+
+**Example:**
+
+1. The snapshot exported from the HCM source system on 04/20/2024:
+
+| PersonId | EffectiveDate | Organization |
+|----|----|----|
+| BoSmith@contoso.com | 04/01/2024 | ABC |
+
+2.	04/25/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID “A”
+
+3.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights
+    * Select **04/20/2024** from the dropdown and not **04/25/2024** or **05/10/2024**. 
+    * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID “A” for all past dates
+
+#### Scenario 3
+
+1.	Data source doesn’t track the email address changes and you didn't recently export data
+2.	Email address was recycled for EntraID “A” and assigned to EntraID “B”. You want the email address to match the new person (EntraID “B”) for the entire historical data
+
+**Example:**
+
+1. The snapshot exported from the HCM source system on 04/20/2024:
+
+| PersonId | EffectiveDate | Organization |
+|----|----|----|
+| BoSmith@contoso.com | 04/01/2024 | ABC |
+
+2.	04/22/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”
+3.	04/25/2024: Email address BoSmith@contoso.com is removed
+4.	04/29/2024: BoSmith@contoso.com is assigned to another EntraID “B” (for example, the email address is recycled)
+
+5.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights. It contains email address BoSmith@contoso.com which belongs to EntraID “B” but previously belonged to EntraID “A”
+
+    * Select **04/29/2024** from the dropdown and not **04/20/2020**, **04/25/2024**, **04/22/2024**, or **05/10/2024**. 
+    * This ensures that the email address on 04/29/2024 (for example, BoSmith@constoso.com) is used to fetch new EntraID “B” for all past dates
+        * If you select **04/20/2024** from the dropdown, then the email address on 04/20/2024 (for example, BoSmith@constoso.com) fetches EntraID “A” for all past dates. In this case, the email address will match the previous person for the entire historical data
+
 
 ## Attribute reference
 
