@@ -22,7 +22,7 @@ ms.date: 09/09/2024
 >[!IMPORTANT]
 > This feature is available to public preview customers only. Features described here are subject to change.
 
-HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint - along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
+HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
 *Applies to: Viva Glint admin, Viva Insights admin* 
 
@@ -75,7 +75,7 @@ Now the Viva Glint admin follows this procedure:
 If you find discrepancies between Glint active users and their Entra IDs in MAC, remedy the discrepancies by following [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) on the Viva Glint and Viva Insights overview page. 
 
 To resync the data to pick up the Entra ID changes: 
- - Remove and then re-add the survey programs to resend Glint data to Insights. 
+ - To resent Glint data to Insights, remove and then re-add the survey programs. 
 
 In the future, expect this resync to occur automatically. 
 
