@@ -219,10 +219,10 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”. This change is recorded in the HCM source system with a new row for BoJames@contoso.com with the EffectiveDate 04/14/2024
 2.	This is snapshot exported from the HCM source system on 04/15/2024:
 
-| PersonId | EffectiveDate | Organization |
-|----|----|----|
-| BoSmith@contoso.com | 04/01/2024 | ABC |
-| BoJames@contoso.com | 04/14/2024 | ABC |
+    | PersonId | EffectiveDate | Organization |
+    |----|----|----|
+    | BoSmith@contoso.com | 04/01/2024 | ABC |
+    | BoJames@contoso.com | 04/14/2024 | ABC |
 
 3. 04/16/2024: The file exported on the snapshot date is uploaded in Viva Insights
     * Select EffectiveDate under **Advanced configuration**
@@ -247,9 +247,9 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID "A"
 2.	The snapshot exported from the HCM source system on 04/15/2024:
 
-| PersonId | EffectiveDate | Organization |
-|---|---|---|
-| BoJames@contoso.com | 04/01/2024 | ABC | 
+    | PersonId | EffectiveDate | Organization |
+    |---|---|---|
+    | BoJames@contoso.com | 04/01/2024 | ABC | 
 
 3. 04/16/2024: The file exported on the snapshot date is uploaded in Viva Insights.
 
@@ -265,9 +265,9 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 
 1. The snapshot exported from the HCM source system on 04/20/2024:
 
-| PersonId | EffectiveDate | Organization |
-|----|----|----|
-| BoSmith@contoso.com | 04/01/2024 | ABC |
+    | PersonId | EffectiveDate | Organization |
+    |----|----|----|
+    | BoSmith@contoso.com | 04/01/2024 | ABC |
 
 2.	04/25/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID "A"
 
@@ -284,9 +284,9 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 
 1. The snapshot exported from the HCM source system on 04/20/2024:
 
-| PersonId | EffectiveDate | Organization |
-|----|----|----|
-| BoSmith@contoso.com | 04/01/2024 | ABC |
+    | PersonId | EffectiveDate | Organization |
+    |----|----|----|
+    | BoSmith@contoso.com | 04/01/2024 | ABC |
 
 2.	04/22/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”
 3.	04/25/2024: Email address BoSmith@contoso.com is removed
