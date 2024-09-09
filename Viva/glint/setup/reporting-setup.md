@@ -37,8 +37,8 @@ Roles already set up for this program are listed in the **Program Roles** sectio
  - **Broader Team Insights** - Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
  - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available if not using Team Summary.
    
- > [!IMPORTANT]
- > Company Admin roles must be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
+   > [!IMPORTANT]
+   > Company Admin roles must be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
    
  - **Report Template Access** - The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
  - **Question Access** - By default all roles must have all questions selected. Admins can remove and add questions back as needed.
