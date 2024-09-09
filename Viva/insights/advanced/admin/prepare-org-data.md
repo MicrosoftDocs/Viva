@@ -56,7 +56,7 @@ Most of these attributes are available within HR information systems.
 
 #### Hierarchical collaboration
 
-It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, as well as to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
+It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, and to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
 
 The following concepts are helpful in this kind of analysis:
 
@@ -90,10 +90,10 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: data that includes the right people and includes the right attributes for those people.
 
-The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing is excluded from the analyses that analysts perform.
 
 >[!Important]
->Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
+>Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, see [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
 
 
 ##### Notification of missing data
@@ -113,13 +113,13 @@ In addition to including all licensed employees in the upload of organizational 
 
 ### Step 3 - Get an export of organizational data
 
-Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team will need to provide you with a data export of HR attributes for individual employees.
+Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team needs to provide you with a data export of HR attributes for individual employees.
 
-In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
+In addition, your analysts might need data about business outcomes. If so, you need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
 
 * Performance-review data for specific work groups.
 * Employee engagement scores captured by HR outside of HR information systems.
-* Sales or other quota-attainment data that provide additional views into performance.
+* Sales or other quota-attainment data that provide more views into performance.
 * Employee survey data.
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
@@ -160,7 +160,7 @@ The following attributes are reserved column headers for attributes that are cur
 
 #### Custom attributes
 
-Custom attributes are any additional attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, refer to [Upload organizational data (first upload)](upload-org-data-first.md). 
+Custom attributes are any other attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, refer to [Upload organizational data (first upload)](upload-org-data-first.md). 
 
 > [!Note] 
 >
@@ -176,15 +176,15 @@ Here's an example snippet of a valid .csv export file:
 
 ``PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest``
 
-For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
+For more information about attributes, see [Attribute reference](#attribute-reference) section.
 
 ### Step 5 - Upload the organizational data file
 
 After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
 
-If this is the first time that you'll upload organizational data, refer to [Upload organizational data (first upload)](upload-org-data-first.md). If this isn't the first time, refer to [Upload organizational data (subsequent uploads)](./upload-org-data-subsequent.md). 
+If this is the first time you upload organizational data, refer to [Upload organizational data (first upload)](upload-org-data-first.md). If this isn't the first time, refer to [Upload organizational data (subsequent uploads)](./upload-org-data-subsequent.md). 
 
-After your data has been successfully uploaded, the app performs additional validation and processing to complete provisioning.
+After your data has been successfully uploaded, the app performs more validation and processing to complete provisioning.
 
 #### How often to upload an organizational data .csv file
 
@@ -195,11 +195,11 @@ It's recommended that you upload employee data at least once a month to keep dat
 
 By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file.
 
-If you do a point-in-time export of organizational data from your HR information system as of the current date, you'll get a picture of your employee population for that single point in time. For the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This data can be supplied in a single file or in a sequence of files. 
+If you do a point-in-time export of organizational data from your HR information system as of the current date, you get a picture of your employee population for that single point in time. For the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This data can be supplied in a single file or in a sequence of files. 
 
 Here's how that would look in practice. For each measured employee, you'd have 13 separate rows. Each of those rows would contain an effective date for each month that data was pulled for. If an effective date for each month isn't possible, then you can provide one single point in time. In that case, set the effective date to the first day of the current month, one year back. For example, if provisioning occurred in October 2020, the effective date for all rows should be set to 10/1/2019.
 
-Employee collaboration activity will be mapped to the most recent organizational data snapshot (based on **EffectiveDate**) that precedes the date of the collaboration activity. 
+Employee collaboration activity is mapped to the most recent organizational data snapshot (based on **EffectiveDate**) that precedes the date of the collaboration activity. 
 
 ## Advanced configuration - Configure email address to find corresponding EntraID for processing
 
@@ -240,11 +240,11 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 #### Scenario 1
 
 1.	Your data source doesn’t track email address changes and you exported data from it recently
-2.	The email address changed for EntraID “A” and you want the new email address to match to “A” for the entire historical data
+2.	The email address changed for EntraID "A" and you want the new email address to match to "A" for the entire historical data
 
 **Example:**
 
-1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID “A”
+1.	04/14/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID "A"
 2.	The snapshot exported from the HCM source system on 04/15/2024:
 
 | PersonId | EffectiveDate | Organization |
@@ -254,12 +254,12 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 3. 04/16/2024: The file exported on the snapshot date is uploaded in Viva Insights.
 
 4. Select **04/16/2024** from the dropdown
-    * This ensures that the email address on 04/16/2024 (for example, BoJames@contoso.com) is used to fetch EntraID “A” for all past dates
+    * This ensures that the email address on 04/16/2024 (for example, BoJames@contoso.com) is used to fetch EntraID "A" for all past dates
 
 #### Scenario 2
 
 1.	Your data source doesn’t track email address changes and you didn't recently export any data
-2.	The email address changed for EntraID “A” and you want the old email address to match to “A” for the entire historical data
+2.	The email address changed for EntraID "A" and you want the old email address to match to "A" for the entire historical data
 
 **Example:**
 
@@ -269,16 +269,16 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 |----|----|----|
 | BoSmith@contoso.com | 04/01/2024 | ABC |
 
-2.	04/25/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID “A”
+2.	04/25/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com  for EntraID "A"
 
 3.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights
     * Select **04/20/2024** from the dropdown and not **04/25/2024** or **05/10/2024**. 
-    * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID “A” for all past dates
+    * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID "A" for all past dates
 
 #### Scenario 3
 
 1.	Data source doesn’t track the email address changes and you didn't recently export data
-2.	Email address was recycled for EntraID “A” and assigned to EntraID “B”. You want the email address to match the new person (EntraID “B”) for the entire historical data
+2.	Email address was recycled for EntraID "A" and assigned to EntraID "B". You want the email address to match the new person (EntraID "B") for the entire historical data
 
 **Example:**
 
@@ -290,13 +290,13 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 
 2.	04/22/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”
 3.	04/25/2024: Email address BoSmith@contoso.com is removed
-4.	04/29/2024: BoSmith@contoso.com is assigned to another EntraID “B” (for example, the email address is recycled)
+4.	04/29/2024: BoSmith@contoso.com is assigned to another EntraID "B" (for example, the email address is recycled)
 
-5.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights. It contains email address BoSmith@contoso.com which belongs to EntraID “B” but previously belonged to EntraID “A”
+5.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights. It contains email address BoSmith@contoso.com, which belongs to EntraID "B" but previously belonged to EntraID "A"
 
     * Select **04/29/2024** from the dropdown and not **04/20/2020**, **04/25/2024**, **04/22/2024**, or **05/10/2024**. 
-    * This ensures that the email address on 04/29/2024 (for example, BoSmith@constoso.com) is used to fetch new EntraID “B” for all past dates
-        * If you select **04/20/2024** from the dropdown, then the email address on 04/20/2024 (for example, BoSmith@constoso.com) fetches EntraID “A” for all past dates. In this case, the email address will match the previous person for the entire historical data
+    * This ensures that the email address on 04/29/2024 (for example, BoSmith@constoso.com) is used to fetch new EntraID "B" for all past dates
+        * If you select **04/20/2024** from the dropdown, then the email address on 04/20/2024 (for example, BoSmith@constoso.com) fetches EntraID "A" for all past dates. In this case, the email address matches the previous person for the entire historical data
 
 
 ## Attribute reference
@@ -355,4 +355,4 @@ Some attributes might represent the same data and provide unnecessary redundant 
 #### Line-of-business data
 
 Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
-For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you'll want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
+For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
