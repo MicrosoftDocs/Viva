@@ -50,13 +50,13 @@ Attributes for segmenting populations can be helpful to consider in defining pat
 * Job family or role attributes, like profession, function, discipline, and job code
 * Organization, line of business, or cost center, like HR, Finance, Sales, and Marketing
 * Location attributes, like city, state, country, and regions, as defined by your organization
-* Attributes that describe their work, like remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role
+* Attributes that describe their work, like remote, full-time employee, or vendor
 
 Most of these attributes are available within HR information systems.
 
 #### Hierarchical collaboration
 
-It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization, and to quantify collaboration between managers and individual contributors, and between higher and lower levels and layers in the organization.
+It’s also common to seek patterns of collaboration behavior in reference to the hierarchy of your organization. You might also quantify collaboration between managers and individual contributors, and between higher and lower levels in the organization.
 
 The following concepts are helpful in this kind of analysis:
 
@@ -70,7 +70,7 @@ Most of these attributes are also found in HR information systems.
 
 #### Collaboration, engagement, and outcome data
 
-Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
+Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
 ### Step 2 - Know what data to include
 
@@ -350,7 +350,7 @@ Conversely, sometimes an attribute is too broadly defined for useful filtering. 
 
 #### Redundant attributes
 
-Some attributes might represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Because both represent the same information in a slightly different format, you’ll want to include only the one with the more "user friendly" name.
+Some attributes might represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Because both represent the same information in a slightly different format, include only the one with the more "user friendly" name.
 
 #### Line-of-business data
 
