@@ -62,7 +62,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
 
-## Additional resources for Viva Insights admins and analysts
+### Additional resources for Viva Insights admins and analysts
 
 * **Admins**: [Set up partitions that include Glint survey data](/viva/insights/advanced/admin/partitions)
 
