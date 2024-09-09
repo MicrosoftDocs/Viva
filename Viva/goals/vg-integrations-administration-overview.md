@@ -118,7 +118,6 @@ The table below features a list of supported integrations, as well as their cate
 |Teams|In-boundary Microsoft 365 | Collaboration|https://www.microsoft.com/licensing/terms |
 |Trello|Third-party|Data  | https://www.atlassian.com/legal/cloud-terms-of-service |
 |Zendesk|Third-party|Data  | https://www.zendesk.com/company/agreements-and-terms  |
-|Zapier|Third-party|Data  | https://zapier.com/legal |
 
 ## How data integrations work
 
