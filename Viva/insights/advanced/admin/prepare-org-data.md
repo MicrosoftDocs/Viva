@@ -26,7 +26,7 @@ To learn about organizational data in general, find out which data Microsoft Ent
 When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
 1. [Identify trends that you want to analyze](#step-1---identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
-1. [Know what data to include](#step-2---know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
+1. [Know what data to include](#step-2---know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose attributes that best serve your analytical purposes.
 1. [Get an export of organizational data](#step-3---get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
 1. [Structure the organizational data](#step-4---structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
 1. [Upload the organizational data file](#step-5---upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
@@ -70,7 +70,7 @@ Most of these attributes are also found in HR information systems.
 
 #### Collaboration, engagement, and outcome data
 
-Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data. This might include sales-quota attainment or performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
+Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data. This data might include sales-quota attainment or performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
 ### Step 2 - Know what data to include
 
@@ -82,7 +82,7 @@ Examples of organizational data include job family, job role, organization, and 
 
 At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup—that is, a specific target population within the company.
 
-For example, if the people in Marketing communicate frequently with the people in Product Development, but the app has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
+For example, if the people in Marketing communicate frequently with the people in Product Development, but the app has HR data only about the Marketing organization, you can't create reports to show how much time Marketing is spending with Product Development.
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
@@ -126,7 +126,7 @@ After you get this data, you'll need to structure it for successful processing a
 
 ### Step 4 - Structure the organizational data
 
-After you’ve gotten your exported data, structure it into the correct format.
+After you get your exported data, structure it into the correct format.
 
 #### Add required, reserved optional, and custom attributes
 
@@ -184,7 +184,7 @@ After you create a source .csv file, you can upload it to the advanced insights 
 
 If this is the first time you upload organizational data, refer to [Upload organizational data (first upload)](upload-org-data-first.md). If this isn't the first time, refer to [Upload organizational data (subsequent uploads)](./upload-org-data-subsequent.md). 
 
-After your data has been successfully uploaded, the app performs more validation and processing to complete provisioning.
+After your data successfully uploads, the app performs more validation and processing to complete provisioning.
 
 #### How often to upload an organizational data .csv file
 
