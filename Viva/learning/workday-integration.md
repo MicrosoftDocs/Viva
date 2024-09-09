@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 07/02/2024
+ms.date: 09/09/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -255,6 +255,8 @@ This report should be created from the primary Admin account of Workday to avoid
      | Learning Content | Skills | Skills | Skills |
      | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
      | Language | User Language Code | Locale | Locale |
+     | Learning Content | Last Updated | LastUpdated | LastUpdated |
+    
 
      ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
 
@@ -379,7 +381,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     1. Go to **Advanced** and select the field `Optimized for Performance.` 
 
-    1. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add group name and user name in Authorized Groups and **Authorized users** field.
+    1. Share the report with Integrated System User (ISU) and respective security group that you created while enabling content sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add group name and user name in Authorized Groups and **Authorized users** field.
 
     1. Save the report. Select **OK**. 
 
