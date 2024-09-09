@@ -1,8 +1,8 @@
 ---
 title: Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
 description: Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into their business to better understand their people’s full work experience. 
-ms.author: JudithWeiner
-author: JudyWeiner
+ms.author: v-zachminers
+author: zachminers
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
@@ -14,13 +14,13 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/04/2024
+ms.date: 09/09/2024
 ---
 
-# Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
+# Integrate Viva Glint and Viva Insights to maximize data insight (preview)
 
 >[!IMPORTANT]
-> This feature is available to private preview customers only. Features described here are subject to change.
+> This feature is available to public preview customers only. Features described here are subject to change.
 
 Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience.   
 
@@ -48,33 +48,28 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 
 Now that you understand the benefits of integrating Viva Glint and Viva Insights, you’re ready to set up the integration. Use these links:
 
-### Send Viva Glint data to Viva Insights
+### Workflow to send Viva Glint data to Viva Insights 
 
-- **Glint Admin:** [Send Viva Glint data into Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
+1. The **Viva Insights admin** sets up a new import in the advanced insights app. [Learn more about how to start the process](/viva/insights/advanced/admin/import-survey-glint).
 
-- **Insights Admin:** [Send Viva Glint data to Viva Insights](/../../viva/insights/advanced/admin/import-survey-glint)
+2. The **Viva Insights admin** contacts the **Viva Glint admin** to share Viva Glint survey data, and the **Viva Glint admin** selects specific survey programs and sends the data to Viva Insights. [Learn more about this step](/viva/glint/setup/insights-integration).
 
-### Send Viva Insights data to Viva Glint
+3. **Viva Insights** validates and processes the data so it’s ready for use. [Learn more about this step](/viva/insights/advanced/admin/import-survey-glint#3-data-validation-and-processing).
 
-- **Glint Admin:** [Send Viva Insights data to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2285634)
+### Workflow to send Viva Insights data to Viva Glint
 
-- **Insights Admin:** [Send Viva Insights data to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2282406)
+1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-### Resources for Viva Insights analysts
+2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
 
-- **Glint and Insights Admin:** [Set up Partitions in Viva Insights](/../../viva/insights/advanced/admin/partitions#how-to-create-a-partition-and-assign-analysts-access)
+### Additional resources for Viva Insights admins and analysts
 
-- **Glint and Insights Analyst:** [Glint and Insights Analyst](/../../viva/insights/advanced/analyst/templates/glint)
+* **Admins**: [Set up partitions that include Glint survey data](/viva/insights/advanced/admin/partitions)
+
+* **Analysts**: [Learn how to run the Glint and organizational insights report](/viva/insights/advanced/analyst/templates/glint)
 
 ## Download the playbook
 
 Audience: For HR leadership, HR business partners, people analytics specialists and others who analyze larger groups of employee data in your organization. 
 
-[The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how these can provide insight value for your organization. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. Drive meaningful action to support improved employee engagement!
- 
-
- 
-
- 
-
-
+[The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how these can provide insight value for your organization. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. Drive meaningful action to support improved employee engagement.
