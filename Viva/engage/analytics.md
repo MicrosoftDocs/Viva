@@ -62,7 +62,7 @@ Only users assigned the Network admin role can turn analytics features on or off
 
 When the AI Summarization service is enabled, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. AI Summarization data is used for network theme extraction, conversation summarization, and network sentiment analysis.
 
-Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/configure-copilot-for-engage#copilot-and-ai-summarization-enablement-states).
+Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/engage-ai-summarization).
 
 ## Network analytics
 
