@@ -70,13 +70,13 @@ Most of these attributes are also found in HR information systems.
 
 #### Collaboration, engagement, and outcome data
 
-Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
+Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data. This might include sales-quota attainment or performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
 ### Step 2 - Know what data to include
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
-Examples of organizational data include job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include job family, job role, organization, and line of business. This data is supplied to the advanced insights app at the individual level, which means that these attributes provide context to each person in the dataset.
 
 #### Employees to include
 
