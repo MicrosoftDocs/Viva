@@ -78,7 +78,7 @@ There are six fields to set up.
 
 ### Aggregate Indices
 
-For most surveys, using aggregate indices is not recommended. Aggregates are groups of itemss that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+For most surveys, using aggregate indices is not recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
 
 If adding an Aggregate Index:
 
@@ -118,13 +118,13 @@ Select the desired **Key Outcome** from the dropdown menu. The key outcome is th
 
 ### Driver Impact Outcomes
 
-Select the **Driver Impact Outcomes** from the search field. Select a set of outcome itemss or aggregates to be used for driver impact analysis. This analysis calculates the impact of each item or aggregate on the selected outcome and shows it on a chart.
+Select the **Driver Impact Outcomes** from the search field. Select a set of outcome items or aggregates to be used for driver impact analysis. This analysis calculates the impact of each item or aggregate on the selected outcome and shows it on a chart.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup.":::
 
 ### Manager Report Defaults
 
-Select the desired **Manager Report Defaults**. Select up to two itemss to appear by default in the manager report.
+Select the desired **Manager Report Defaults**. Select up to two items to appear by default in the manager report.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard.":::
 
