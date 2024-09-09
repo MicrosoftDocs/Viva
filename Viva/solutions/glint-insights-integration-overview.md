@@ -66,7 +66,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 * **Admins**: [Set up partitions that include Glint survey data](/viva/insights/advanced/admin/partitions)
 
-* **Analysts**: [Learn how to run the Glint and organizational insights report](/insights/advanced/analyst/templates/glint)
+* **Analysts**: [Learn how to run the Glint and organizational insights report](/viva/insights/advanced/analyst/templates/glint)
 
 ## Download the playbook
 
