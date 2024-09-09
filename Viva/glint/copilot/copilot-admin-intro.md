@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/29/2024
+ms.date: 09/05/2024
 ---
 
 # Introduction and admin setup for Copilot in Viva Glint (preview)
@@ -99,76 +99,6 @@ Use our best practices to maximize the benefits from Copilot in Viva Glint. Use 
 - **Ask open-ended items** – Open-ended survey items capture a wide range of feedback. Open-eneded items allow respondents to express thoughts on topics not covered explicitly in the survey. These responses are often detailed and can reveal rich data insights not apparent from quantitative data alone.
 - **Use relevant attribute filters** – Copilot in Viva Glint uses the attributes you send to Viva Glint to filter data. Enable filter attributes that are meaning for User Roles interacting with Copilot. Filters ensure that insights and summaries are applicable and useful.
 - **Use Recurring and Ad hoc programs** - Where it makes sense, use Recurring and Ad hoc programs. Currently Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for ongoing topics (Engagement) and Ad hoc for one-off topics (Change Management). 
-
-## Enable Copilot 
-
-Prerequisites to enabling Copilot:
-- You have at least one Recurring or Ad hoc survey administered or closed on the Viva Glint platform
-- Your dashboard default language is set to English
-
-Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot from being enabled by default for any User Roles. 
-
-You must assign yourself and others using Copilot to a new User Role. Create a new User Role with access to the Comments Report enabled. Add that User Role to the survey program *Reporting* page, as described in *Grant User Roles Comment Reports access*. 
-
->[!IMPORTANT]
->Users without access to the Comment Report can’t access Copilot in Viva Glint.
-
-### Grant Comment Report permission
-
-From your admin dashboard, follow this process:
-
-1.	Select the **configuration (cogwheel)** symbol.
-2.	In the *Employees* section, select **User Roles**.
-3.	Select the User Role to provide Comment Report access. In this example, Company Admin is chosen.
-   
-   :::image type="content" source="../../media/glint/setup/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions."lightbox="../../media/glint/setup/copilot-select-user.png":::
-
->[!NOTE]
->The Manager role has Comment Report permission enabled as a default setting.
-
-4. Select **Permissions**.
-  
-   :::image type="content" source="../../media/glint/setup/copilot-permissions.png" alt-text="Screenshot of the Permissions    access row in *Role Settings*."lightbox="../../media/glint/setup/copilot-permissions.png":::
-
-5.	In the *Reporting* section of the Permissions and Access page, enable **View Comments**.
-
-   :::image type="content" source="../../media/glint/setup/copilot-view-comments-toggle.png" alt-text="Screenshot of the View Comments    checkbox."lightbox="../../media/glint/setup/copilot-view-comments-toggle.png":::
-
-## Grant Comment Reports access 
-
-The second step to enabling the Copilot feature for User Roles happens in the program’s *Reporting* section. This step allows users enabled for the Comments Reports to access the report.
-
-From your admin dashboard, follow this process:
-
-1.	Select the **configuration (cogwheel)** symbol.
-2.	In the *Surveys* section, select **Survey Programs**.
-3.	**Select the closed Recurring or Ad hoc program** for which you want to grant access.
-4.	In *Program Summary*, select **Reporting**.
-
-   :::image type="content" source="../../media/glint/setup/copilot-reporting.png" alt-text="Screenshot of the Reporting    section in Program Summary."lightbox="../../media/glint/setup/copilot-reporting.png":::
-
-5. In *Program Roles*, select the User Role to enable with Copilot. *In this example, the customized role of VI is chosen.*
-
-   :::image type="content" source="../../media/glint/setup/copilot-program-roles.png" alt-text="Screenshot of an example User Role."lightbox="../../media/glint/setup/copilot-program-roles.png":::
-
-6. Toggle *Copilot in Viva Glint* to **On** and then **Save Changes.**
-
-   :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section."lightbox="../../media/glint/setup/copilot-enabled.png":::
-
-### Ensure Copilot is enabled
-
-From your admin dashboard, follow this process:
-
-1.	Select the **Configuration** symbol.
-2.	Select **User Roles** in the *Employees* section to see the list of all users assigned to a particular role.
-3.	Select any employee in a User Role in which you expect Copilot to be enabled.
-4.	Once you are on that user’s profile, select **View A**s to validate the user’s reporting experience.
-
-   :::image type="content" source="../../media/glint/setup/copilot-view-as.png" alt-text="Screenshot of the View As button in User Roles."lightbox="../../media/glint/setup/copilot-view-as.png":::
-
-5. Be sure you see the Copilot button on that user's Viva Glint dashboard.
-
-   :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of the Copilot capability on the manager dashboard ."lightbox="../../media/glint/setup/copilot-access-button.png":::
 
 ## More Resources
 

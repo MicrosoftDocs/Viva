@@ -14,9 +14,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.date: 09/09/2024
 ---
-
 
 # Use the Viva Glint Driver Impact report
 
@@ -84,6 +83,10 @@ The circle next to each driver's name indicates the Impact level and score in re
 - A partially filled circle indicates relatively lower impact
 - Blue indicates that the question scored above the comparison
 - Red indicates that the question scored below the comparison
+
+ Table view example:
+
+ :::image type="content" source="../../media/glint/reports/driver-impact-example.png" alt-text="Screenshot of a table view of the Driver Impact report.":::
 
 ## Understand settings on the Driver Impact report
 

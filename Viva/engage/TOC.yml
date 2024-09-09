@@ -78,6 +78,8 @@
           href: /viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in
         - name: Add, block, or remove users
           href: /viva/engage/manage-viva-engage-users/add-block-or-remove-users
+        - name: Reduce visibility of a user's posts
+          href: /viva/engage/work-with-external-users/mute-user-in-network
      - name: Work with external users
        items:
         - name: Work with external groups not aligned to Native Mode

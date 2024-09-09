@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/07/2023
+ms.date: 09/05/2024
 ---
 
 # Communicate with Viva Glint users based on time zone
@@ -22,11 +22,11 @@ ms.date: 12/07/2023
 Microsoft Viva Glint offers the ability to send survey invites, reminders, and other notifications in users’ preferred time zones. 
 
 > [!NOTE]
-> This feature sends emails on a time zone-based schedule but doesn’t include activation/deactivation of each user’s survey by time zone.
+> This feature sends emails on a time-zone-based schedule but doesn’t include activation/deactivation of each user’s survey by time zone.
 
 ## Set up a time zone attribute
 
-In order to ensure employees receive survey communications in their unique time zones, your time zone attribute must be appropriately configured as an optional system attribute. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247991). Once configured, you'll be able to include this time zone attribute in your employee data to trigger survey emails in employees' time zones.
+To ensure employees receive survey communications in their unique time zones, your time zone attribute must be appropriately configured as an optional system attribute. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247991). Once configured, include this time zone attribute in your employee data to trigger survey emails in employees' time zones.
  
 Use the Time Zone tab of the [**Employee Attribute Template**](https://www.microsoft.com/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
@@ -35,14 +35,14 @@ Use the Time Zone tab of the [**Employee Attribute Template**](https://www.micro
 
 ## Manage time zone options in General Settings
 
-As a Viva Glint admin, select a default time zone and enable sending in users’ time zones in General Settings.
+As a Glint admin, select a default time zone and enable sending in users’ time zones in General Settings.
 
 ### Set a default time zone
 
 Set the default time zone in the **Company Information** section of **General Settings**, found on the admin dashboard from the configuration page, in the **Service Configuration** section. Use the dropdown menu to find your organization’s default time zone and then select **Save Changes**.
 
 > [!NOTE]
-> Employee Lifecycle survey invitations are triggered by events. These events send platform notifications at your Viva Glint default time zone.
+> Employee Lifecycle survey invitations are triggered by events. These events send platform notifications at your Glint default time zone.
 
 ## Enable notification in user time zone
 
