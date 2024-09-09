@@ -543,10 +543,6 @@ The Shifts card shows users information about their next or current shift from t
 
 The Stream playlist card displays a list of videos to users that can be viewed in Microsoft Stream by selecting an existing playlist from a SharePoint site. For more information, see the article on [creating a playlist from SharePoint](/stream/streamnew/stream-playlists-new-creation#create-a-playlist-from-sharepoint).
 
-> [!NOTE]
->
-> The Stream playlist card is currently rolling out and will be fully available by early September 2024. 
-
 :::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action.":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
