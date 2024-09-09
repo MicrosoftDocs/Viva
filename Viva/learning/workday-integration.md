@@ -47,7 +47,7 @@ You need the following permissions and scenarios in place to complete the Workda
 - Viva Learning Admin access
 - Workday Admin access
 - User mapping between Microsoft Entra ID (formerly Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details)
--  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies
+- Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies
 
 
 ### User mapping: 
@@ -69,7 +69,7 @@ If customer has different data ingestion timelines, reach out to the Viva Learni
 
 ## Integration recommendations
 
-Recommendations for organizations that have Workday integrated with other 3P content providers such as LinkedIn, Udemy, and Coursera for tracking user completion records.
+Recommendations for organizations that have Workday integrated with other 3P content providers such as LinkedIn, Udemy, and Coursera for tracking user completion records.
 
 ### Common practice
 
@@ -111,7 +111,7 @@ For learning management systems that don't include 3P content providers
 - The **Completed** tab won't show the history of completion status for 3P content.
 
 > [!NOTE]
-> - Deleting connectors from the admin interface will remove only the courses from LMS and 3P content providers based on the connectors being deleted.  
+> - Deleting connectors from the admin interface will remove only the courses from LMS and 3P content providers based on the connectors being deleted.  
 > - Please note that some LMS connectors must be reconfigured only after the content catalog is cleaned up. Reach out to Viva Learning support for help.
 
 ## Configuration to enable Workday integration
@@ -119,7 +119,9 @@ For learning management systems that don't include 3P content providers
 The workday integration process consists of three primary steps:
 
 1. Create an Integration System User (ISU) account and assign required security access in Workday.
+
 2. Create four RaaS reports for catalog, user, assignment or assignment completion, and self-enrollment completion data.
+
 3. Once all configuration parameters are generated on Workday, you can configure Workday in the Viva Learning admin portal.
 
 
@@ -127,24 +129,27 @@ The workday integration process consists of three primary steps:
 
 Integration system user (ISU) account is required for Microsoft Viva Learning to access your Workday tenant. ISU can be created from Workday portal. ISU also requires relevant security group access with permission to access Workday Learning Web Services and learning catalog.
 
-1. Access the **Create Integration System User** task. Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
+1. Access the **Create Integration System User** task. Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
 
-2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username. **Note:** The username can be customized.
+2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username. **Note:** The username can be customized.
 
-   ![Screenshot of the menu of Create Integration System User with account information fields.](/viva/media/learning/wd-s1-1-create-integration-system-user.png)
+   :::image type="content" alt-text="Screenshot of the menu of Create Integration System User with account information fields." source="/viva/media/learning/wd-s1-1-create-integration-system-user.png" lightbox="/viva/media/learning/wd-s1-1-create-integration-system-user.png":::
 
-3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
+3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
    
-4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**. It doesn’t need to be the same as the ISU name. 
-    ![Screenshot of the type of tenanted security group and name fields](/viva/media/learning/wd-s1-2-create-security-group.png)
+4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**. It doesn’t need to be the same as the ISU name. 
+
+    :::image type="content" alt-text="Screenshot of the type of tenanted security group and name fields" source="/viva/media/learning/wd-s1-2-create-security-group.png" lightbox="/viva/media/learning/wd-s1-2-create-security-group.png":::
 
 5. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
-    ![Screenshot of the Edit Integration System Security Group fields. ](/viva/media/learning/wd-s1-3-edit-integration-system.png)
 
-6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
-   ![Screenshot of the Maintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
+    :::image type="content" alt-text="Screenshot of the Edit Integration System Security Group fields. " source="/viva/media/learning/wd-s1-3-edit-integration-system.png" lightbox="/viva/media/learning/wd-s1-3-edit-integration-system.png":::
 
-7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
+6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
+
+   :::image type="content" alt-text="Screenshot of the Maintain Permissions window with a Source Security Group added." source="/viva/media/learning/wd-s1-4-security-group-permissions.png" lightbox="/viva/media/learning/wd-s1-4-security-group-permissions.png":::
+
+7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
 
    | Domain security policy | Description |
    |-----| ----- |
@@ -154,54 +159,65 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
    | Worker Data: Current staffing information | Provides information on workers' current information such as status, length of service, seniority. Includes web services. This domain policy is required for certain fields (Worker is Terminated) in User RaaS report. |
    | Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
 
-   ![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions-security-group.png)
+   :::image type="content" alt-text="Screenshot of the maintain permissions for security group screen." source="../media/learning/workday-maintain-permissions-security-group.png" lightbox="../media/learning/workday-maintain-permissions-security-group.png":::
 
-7. Run the **Activate Pending Security Policy Changes** task.
+7. Run the **Activate Pending Security Policy Changes** task.
 
 8. **Advance security**: These are **optional** steps for advance security access on ISU.
 
-    1. **Optional**: **Set up course-segmented security on Workday portal**:
+   1. **Optional**: **Set up course-segmented security on Workday portal**:
     You can configure which learning content displays in Viva Learning by restricting the integration system user's access by using segmented security. You can segment security based on security categories or topics.
 
-        1. Access the **Create Learning Security Category** task or the **Create Learning Topic** task. Create security segments or topics to restrict access and add these to your learning content. You need the Learning Segment Setup domain in the System functional area.
-        Select the Inactive checkbox if you want to disable permissions for members of the security group. You can't inactivate the security group when you:
-            - Grant the security group permission to the Security Configuration domain.
-            - Include the security group as a member of another security group.
-            - Specify the security group as an administrator for another security group.
+      1. Access the **Create Learning Security Category** task or the **Create Learning Topic** task. Create security segments or topics to restrict access and add these to your learning content. You need the Learning Segment Setup domain in the System functional area.
 
-        1. From the **Security Groups** prompt, select security groups to identify who has permission to access the securable content.
-        1. From the **Access to Segments** prompt, select security segments that you want members of the specified security groups to be able to access. Workday-owned security groups include:
-            - Job Application - Contingent Worker
-            - Job Application – Employee
-            - Job Application – External
-        1. You can't combine different types of security segments in a segment-based security group.
+         Select the Inactive checkbox if you want to disable permissions for members of the security group. You can't inactivate the security group when you:
 
-            **Example scenario:** You want a Benefits Administrator to be able to manage only benefits-related documents. You don't want them to be able to manage payroll-related documents. Workday secures access to manage all worker documents to the Worker Data: Add Worker Documents and Worker Data: Edit and Delete Worker Documents domains.
-            You can create **Document Categories** - Benefits segment to identify benefits-related documents. You can then use the security segment to create a segment-based security group so Benefits Administrators can access only the benefits-related documents. 
+         - Grant the security group permission to the Security Configuration domain.
+         - Include the security group as a member of another security group.
+         - Specify the security group as an administrator for another security group.
 
-        1. Next steps:  Users with access to a domain through both a segment-based and a non-segment-based security group have permission to access all segments. Make sure you associate non-segment-based security groups with users who have permission to access all segments by:
-            - Reviewing all security groups on the policy before adding segment-based security groups. 
-            - Reviewing the included security groups in an aggregation security group.
-        1. To provide security permissions: 
-            - Add the security group to security policies. 
-            - Activate pending security policy changes. 
-            - Activate the security group when you want to enable the permissions on an inactive security group. 
+      1. From the **Security Groups** prompt, select security groups to identify who has permission to access the securable content.
+
+      1. From the **Access to Segments** prompt, select security segments that you want members of the specified security groups to be able to access. Workday-owned security groups include:
+
+         - Job Application - Contingent Worker
+         - Job Application – Employee
+         - Job Application – External
+
+      1. You can't combine different types of security segments in a segment-based security group.
+
+         **Example scenario:** You want a Benefits Administrator to be able to manage only benefits-related documents. You don't want them to be able to manage payroll-related documents. Workday secures access to manage all worker documents to the Worker Data: Add Worker Documents and Worker Data: Edit and Delete Worker Documents domains.
+
+         You can create **Document Categories** - Benefits segment to identify benefits-related documents. You can then use the security segment to create a segment-based security group so Benefits Administrators can access only the benefits-related documents. 
+
+      1. Next steps:  Users with access to a domain through both a segment-based and a non-segment-based security group have permission to access all segments. Make sure you associate non-segment-based security groups with users who have permission to access all segments by:
+ 
+         - Reviewing all security groups on the policy before adding segment-based security groups. 
+         - Reviewing the included security groups in an aggregation security group.
+        
+	  1. To provide security permissions: 
+
+         - Add the security group to security policies. 
+         - Activate pending security policy changes. 
+         - Activate the security group when you want to enable the permissions on an inactive security group. 
 
 
-    2. **Optional:** Edit domain security policies on Workday portal. You can configure which security groups have permission to access the secured items in a domain. You need the Security Configuration domain in the System functional area.
-        1. Access the **Domain Security Policies for Functional Area** report.
+    2. **Optional:** Edit domain security policies on Workday portal. You can configure which security groups have permission to access the secured items in a domain. You need the Security Configuration domain in the System functional area.
+
+        1. Access the **Domain Security Policies for Functional Area** report.
         2. Select a security policy.
-        3. Select **Edit Permissions**.
-        4. Select the **View** or **Modify** checkbox to grant the security groups access to the report or task securable items.
-        5. Select the **Get** or **Put** checkbox to grant the security groups access to integration and report or task securable actions.
+        3. Select **Edit Permissions**.
+        4. Select the **View** or **Modify** checkbox to grant the security groups access to the report or task securable items.
+        5. Select the **Get** or **Put** checkbox to grant the security groups access to integration and report or task securable actions.
+
     3. Activate pending security policy changes on Workday portal.
-        Create an active timestamp using the **Activate Pending Security Policy Changes** task. Security policy changes made since the previous active timestamp take effect immediately. The active timestamp now reflects the current time, regardless of pending changes. You can run these reports to view a detailed list of the security policy changes you’re activating: Domain security policies with pending changes, Business process security policies with pending changes.
 
-        1. Access the **Activate Pending Security Policy Changes** task.
+       Create an active timestamp using the **Activate Pending Security Policy Changes** task. Security policy changes made since the previous active timestamp take effect immediately. The active timestamp now reflects the current time, regardless of pending changes. You can run these reports to view a detailed list of the security policy changes you’re activating: Domain security policies with pending changes, Business process security policies with pending changes.
 
-        1. Describe your changes in the **Comment** field.
-        1. Check the **Confirm** checkbox to activate your changes.
-        1. You can use the **View All Security Timestamps** report to roll back to a previous timestamp.
+       1. Access the **Activate Pending Security Policy Changes** task.
+       1. Describe your changes in the **Comment** field.
+       1. Check the **Confirm** checkbox to activate your changes.
+       1. You can use the **View All Security Timestamps** report to roll back to a previous timestamp.
 
 ## Create RaaS reports for catalog, user, assignment, and completion data
 
@@ -226,39 +242,41 @@ Check with your organization admins for details around same. Otherwise, you can 
 This report should be created from the primary Admin account of Workday to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments.
 
 1. Sign in to the **Workday Portal**.
-    1. Sign in to Workday Portal.
-    1. Search for the task "Create Custom Report."
-2. Configure the report parameters.
-    1. Title the Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
-    1. Set the Report Type as "Advanced."
-    1. Mark checkbox "Enable as Web service."
-    1. Mark checkbox “Optimized for performance.”
-    1. In the "Data Source" field, go to "All" and select "Learning content." Select **OK**.
-3. Add report fields.
-    1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
-    1. Add the fields in "Columns" as outlined in the following schema. You'll see three objects for field "rating", select the one with a hash (#) icon next to it.
+   1. Sign in to Workday Portal.
+   1. Search for the task "Create Custom Report."
 
-     | Business object| Field | Column heading override| Column heading override XML alias|
-     | --- | ---- | ---- | --- |
-     | Learning content | Workday ID | LearningObjectId | LearningObjectId|
-     | Learning Content | Title | Title | Title |
-     | Learning Content | Description | Description | Description |
-     | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
-     | Learning Content | Duration in Minutes | Duration | Duration |
-     | Learning Content | Inactive Status | Inactive | Inactive |
-     | Learning Content | Learning Content Type | ContentType | ContentType |
-     | Learning Content | Content Provider | ContentProvider | ContentProvider |
-     | Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
-     | Learning Content | Rating | Rating | Rating |
-     | Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
-     | Learning Content | Topic | Topics | Topics |
-     | Learning Content | Skills | Skills | Skills |
-     | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
-     | Language | User Language Code | Locale | Locale |
-     | Learning Content | Last Updated | LastUpdated | LastUpdated |
+2. Configure the report parameters.
+   1. Title the Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
+   1. Set the Report Type as "Advanced."
+   1. Mark checkbox "Enable as Web service."
+   1. Mark checkbox “Optimized for performance.”
+   1. In the "Data Source" field, go to "All" and select "Learning content." Select **OK**.
+
+3. Add report fields.
+   1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
+   1. Add the fields in "Columns" as outlined in the following schema. You'll see three objects for field "rating"; select the one with a hash (#) icon next to it.
+
+   | Business object| Field | Column heading override| Column heading override XML alias|
+   | --- | ---- | ---- | --- |
+   | Learning content | Workday ID | LearningObjectId | LearningObjectId|
+   | Learning Content | Title | Title | Title |
+   | Learning Content | Description | Description | Description |
+   | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
+   | Learning Content | Duration in Minutes | Duration | Duration |
+   | Learning Content | Inactive Status | Inactive | Inactive |
+   | Learning Content | Learning Content Type | ContentType | ContentType |
+   | Learning Content | Content Provider | ContentProvider | ContentProvider |
+   | Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
+   | Learning Content | Rating | Rating | Rating |
+   | Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
+   | Learning Content | Topic | Topics | Topics |
+   | Learning Content | Skills | Skills | Skills |
+   | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
+   | Language | User Language Code | Locale | Locale |
+   | Learning Content | Last Updated | LastUpdated | LastUpdated |
     
 
-     ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
+   ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
 
 4. Under "Group Column Headings", add the below fields:
 
@@ -267,30 +285,27 @@ This report should be created from the primary Admin account of Workday to avoid
    | Languages | Languages | Languages |
    | Learning content | learningContent_group | learningContent_group| 
 
-5. Add filters to the report under "Filter section"
-    
+5. Add filters to the report under "Filter section" 
         
-    | And/Or | `(` | Field | Operator | Comparison type | Comparison value | `)` | Indexed | 
-    | --- | --- |-- |----  | --- | ---- | ---|-----| 
-    | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
-    | And | |  Last Updated | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
-    | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
+   | And/Or | `(` | Field | Operator | Comparison type | Comparison value | `)` | Indexed | 
+   | --- | --- |-- |----  | --- | ---- | ---|-----| 
+   | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
+   | And | |  Last Updated | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
+   | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
 
 
     ![Screenshot of the formatted fields for filter values.](/viva/media/learning/workday-filters-for-catalog-raas.png)
 
-    
-
 6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
 
-    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
-    | - | - | - | - | - | - | -| 
-    | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
-    | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
-    | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
+   | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
+   | - | - | - | - | - | - | -| 
+   | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
+   | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
+   | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
     
 
-    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-prompts-for-catalog-raas.png)
+   ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-prompts-for-catalog-raas.png)
 
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
@@ -306,6 +321,7 @@ This report should be created from the primary Admin account of Workday to avoid
     ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
 
     1. Generate report URL. This URL is required as an input parameter on Viva Learning Admin tab. The same user who created the report should generate the URL.
+
         1. Select the report > **Web Service** > **View URLs**.
 
            ![Screenshot of the view urls section of a custom report.](/viva/media/learning/wd-s2.2-10.png) 
@@ -333,9 +349,10 @@ This report should be created from the primary Admin account of Workday to avoid
 
  Create this report from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. 
 
-1. **Sign in to the Workday Portal**
+1. **Sign in to the Workday Portal**.
     1. **Sign in** 
     1. Search for the task "Create Custom Report" 
+
 1. Configure the report parameters 
     1. Name the report "Viva Learning Users Report". The report name must match this string. 
     1. Indicate report type as "Advanced."
@@ -361,12 +378,12 @@ This report should be created from the primary Admin account of Workday to avoid
 
    1. **Add filters to the report**
 
-        1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
+      1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
     
-        | And/Or | Field | Operator | Comparison type | Comparison value |
-        | - | - | - | - | - |
-        | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
-        |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
+         | And/Or | Field | Operator | Comparison type | Comparison value |
+         | - | - | - | - | - |
+         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
+         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
 
     1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
 
@@ -402,6 +419,7 @@ This report should be created from the primary Workday admin account to avoid an
     2. Set Report Type as "Advanced."
     3. Mark checkbox "Enable as Web service."
     4. In the "Data Source" field, go to "All" and select "Learning Assignments Records”. Select **OK**.
+
 3. Add report fields.
     1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Assignment Records." For the "Data Source Filter" field, remove any existing value and add "Assignment Records for ~Person~from Learning Organization". You can copy this value and paste in the field directly.
     1. Add the fields in "Columns" as outlined below. You see two objects for “Learning Assignment," select the one with a blue icon next to it.
@@ -418,8 +436,8 @@ This report should be created from the primary Workday admin account to avoid an
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
-   > [!NOTE]
-   > The In progress status from Workday doesn't sync to Viva Learning.
+    > [!NOTE]
+    > The In progress status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add the following fields.
 
@@ -443,31 +461,31 @@ This report should be created from the primary Workday admin account to avoid an
     1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
     1. In next screen, add following values under Date Fields and select **OK**.
 
-     | Field | Value |
-     | - | - | 
-     | Extract Year from Date Field | Last Functionally Updated |
-     | Extract Month from Date Field | Last Functionally Updated |
-     | Extract Day from Date Field | Last Functionally Updated |
+       | Field | Value |
+       | - | - | 
+       | Extract Year from Date Field | Last Functionally Updated |
+       | Extract Month from Date Field | Last Functionally Updated |
+       | Extract Day from Date Field | Last Functionally Updated |
 
     1. Add following values in remaining fields of the start filter:
 
-     | Field | Value |
-     | - | - |
-     |Field | Modified Date|
-     | Operator | Greater than or equal to |
-     | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-     | Comparison Value | Starting Prompt | 
+       | Field | Value |
+       | - | - |
+       |Field | Modified Date|
+       | Operator | Greater than or equal to |
+       | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+       | Comparison Value | Starting Prompt | 
 
     1. Add another filter and with following values and select “OK”.
 
-     | Field | Value |
-     | - | - | 
-     |Field | ModifiedDate|
-     | Operator | Less than or equal to | 
-     |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-     | Comparison Value | Ending Prompt | 
+       | Field | Value |
+       | - | - | 
+       |Field | ModifiedDate|
+       | Operator | Less than or equal to | 
+       |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+       | Comparison Value | Ending Prompt | 
    
-     ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
+      ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
 
     **Modify the prompts**
 
@@ -492,52 +510,52 @@ This report should be created from the primary Workday admin account to avoid an
 This report should be created from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. 
  
 1. **Sign in to the Workday Portal**
-    1. **Sign in**.
-    2. Search for "Create Custom Report."
+   1. **Sign in**.
+   2. Search for "Create Custom Report."
 
 1. Configure the report parameters 
-    1. Name the report "Viva Learning Self Enrollment Report". The report name must match this string. 
-    2. Set Report Type as "Advanced."
-    3. Mark checkbox "Enable as Web service."
-    4. In the "Data Source" field, go to "All" and select "Learning Enrollments”. Select **OK**.
+   1. Name the report "Viva Learning Self Enrollment Report". The report name must match this string. 
+   2. Set Report Type as "Advanced."
+   3. Mark checkbox "Enable as Web service."
+   4. In the "Data Source" field, go to "All" and select "Learning Enrollments”. Select **OK**.
 
 1. Add report fields.
-    1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Enrollments." Leave the "Data Source filter" field blank.
+
+   1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Enrollments." Leave the "Data Source filter" field blank.
     
-    1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
+   1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
 
-       | Business object | Field | Column heading override | Column heading override XML alias |
-       | - | - | - | - |
-       |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
-       | Learning Enrollment Participant | Workday ID | LearnerId | LearnerId |
-       | Learning Content Detail | Workday ID | LearningObjectId | LearningObjectId |
-       | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
-       | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
+      | Business object | Field | Column heading override | Column heading override XML alias |
+      | - | - | - | - |
+      |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
+      | Learning Enrollment Participant | Workday ID | LearnerId | LearnerId |
+      | Learning Content Detail | Workday ID | LearningObjectId | LearningObjectId |
+      | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
+      | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
 
-       ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
+      ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
 
-    
+   1. Under "Group Column Headings", add these fields: 
 
-    1. Under "Group Column Headings", add these fields: 
-
-       | Business object | Group column heading XML alias |
-       | -- | -- | 
-       | Learning Content Detail | Learning_Content_Detail_group |
-       | Learning Enrollment | Learning_Enrollment_group | 
-       | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
+      | Business object | Group column heading XML alias |
+      | -- | -- | 
+      | Learning Content Detail | Learning_Content_Detail_group |
+      | Learning Enrollment | Learning_Enrollment_group | 
+      | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
 
     1. Add filters to the report for delta sync.
-        1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
-        1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
-        1. In next screen, add following values under Date Fields and select **OK**.
 
-           | Field | Value |
-           | - | - |
-           | Extract Year from Date Field | Last Functionally Updated |
-           | Extract Month from Date Field | Last Functionally Updated |
-           | Extract Day from Date Field | Last Functionally Updated |
+       1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
+       1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
+       1. In next screen, add following values under Date Fields and select **OK**.
 
-        1. 	Add following values in remaining fields of the start filter:
+          | Field | Value |
+          | - | - |
+          | Extract Year from Date Field | Last Functionally Updated |
+          | Extract Month from Date Field | Last Functionally Updated |
+          | Extract Day from Date Field | Last Functionally Updated |
+
+       1. Add following values in remaining fields of the start filter:
 
           |Field | Value|
           | - | - |
@@ -546,7 +564,7 @@ This report should be created from the primary Workday admin account to avoid an
           | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
           | Comparison Value | Starting Prompt |
 
-        1. Add another filter and with following values and select **OK**.
+       1. Add another filter and with following values and select **OK**.
 
           |Field | Value|
           | - | - |
@@ -555,8 +573,7 @@ This report should be created from the primary Workday admin account to avoid an
           | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
           | Comparison Value | Ending Prompt |
         
-        1.	Go to filter and add 2 new "And" filters and input following values:
-
+       1.	Go to filter and add 2 new "And" filters and input following values:
         
           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
           |---|---|---|---|---|---|---|---|
@@ -574,15 +591,19 @@ This report should be created from the primary Workday admin account to avoid an
 
     1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Modified date, which is defined in previous step.
     
-
-      ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
+       ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
 
     2. Add following values in the new prompts and select “OK”.
-    - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
-    - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+
+       - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
+       - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+
 1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
+
 1. Save the field. Select **OK**.
+
 1. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
+
 1. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 
 > [!NOTE]
@@ -610,12 +631,14 @@ This avoids dependency from ISU’s username and password and handles the scenar
 OAuth access is applied at client level, so it will not impact any other sign in flow of other clients linked to Workday. To know more about OAuth, you can refer to [Workday’s OAuth documentation.](https://resourcecenter.workday.com/en-us/signin.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml)
 
 1. Enable OAuth for the tenant 
-    1. Access the **Edit Tenant Setup - Security** task. 
-    2. Scroll down, in the **OAuth 2.0 Settings section**, select the **OAuth 2.0 Clients Enabled** check box.
+
+   1. Access the **Edit Tenant Setup - Security** task. 
+   2. Scroll down, in the **OAuth 2.0 Settings section**, select the **OAuth 2.0 Clients Enabled** check box.
     
-    ![Screenshot of the OAuth 2.0 Clients Enabled checkbox selected.](/viva/media/learning/wd-s3-1.png)
+   ![Screenshot of the OAuth 2.0 Clients Enabled checkbox selected.](/viva/media/learning/wd-s3-1.png)
 
 1. Create the client for OAuth. 
+
 1. Search for **Register API client for integrations** task. Enter client name as "VivaLearning" and set expiry of refresh token as "Never" and Scope (Functional Areas) the following. To edit any existing OAuth settings, you can use the **view API client for integrations** action.
 
     - "Organizations and Roles”
@@ -629,7 +652,9 @@ OAuth access is applied at client level, so it will not impact any other sign in
 4. After creation of API client for integration, you'll get the ClientID and client Secret. Copy the client ID and client secret. This information is used on the admin portal.
 
 5. Generate refresh token 
+
     1. Search for task- "View API client", go to tab "API clients for integration". It shows all clients. Open the "VivaLearning" client created in previous step. 
+
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
         ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
@@ -639,6 +664,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
        ![Screenshot of the Manage Refresh Tokens for Integration](/viva/media/learning/wd-s3-4.png)
     
     1. Enable "Generate new refresh token" checkbox, select **OK**.
+
     1. Copy the generated refresh token. 
 
 ### Get org ID
@@ -648,6 +674,7 @@ You need to enter the org IDs for which you want to get assignment and completio
 To generate the org IDs for a single department, please follow below steps.
 
 1. Go to your Workday portal. Search for the organization for which you want to sync the assignment and completion records. If you want to select the data for all employees, search for root org.
+
 2. Select the organization under category Organizations.
 
 1. Select the ellipses (...) and select **Integration IDs** and then **View IDs**.
@@ -664,7 +691,7 @@ To generate the org IDs for a single department, please follow below steps.
 
 7. Select the Workday ID mentioned above. Save this ID for later as this will be used as a configuration parameter.
 
-8.	In large tenant, generate org IDs for departments under root ID
+8. In large tenant, generate org IDs for departments under root ID
 
 9. If your tenant has large employee base, instead of adding the root ID you can add the child of root in configuration form.
 
@@ -677,6 +704,7 @@ To generate the org IDs for a single department, please follow below steps.
 You need to have premium Viva Learning license to configure Workday. Global Admin or Knowledge Admin role is required to access Viva Learning Admin tab.
 
 1. Sign in to your Viva Learning app
+
 2. Navigate to Admin tab, then select Manage providers from left navigation menu. 
 
    ![Screenshot of the Manage Providers tab in Viva Learning.](/viva/media/learning/wd-s4-1.png)
@@ -685,13 +713,13 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
 4. Fill in the following required configuration details for Workday:
 
-    a.	Display name: This information is the name of the carousel under which Workday learning content appears for your organization in Viva Learning. If you don't enter a name, it displays the name "Workday".
+   1. Display name: This information is the name of the carousel under which Workday learning content appears for your organization in Viva Learning. If you don't enter a name, it displays the name "Workday".
 
-    b.	Workday catalog RaaS report URL: Enter the report URL, which was generated while creating RaaS for catalog. This URL consists of address for API endpoint and Workday username.  
+   1. Workday catalog RaaS report URL: Enter the report URL, which was generated while creating RaaS for catalog. This URL consists of address for API endpoint and Workday username.  
 
-    c.	Client ID, Client Secret, and refresh token: These are the values you created while enabling OAuth.
+   1. Client ID, Client Secret, and refresh token: These are the values you created while enabling OAuth.
 
-    d.	Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
+   1. Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
 
       ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
 
@@ -705,7 +733,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
  
 8. You can also use **Manage providers** to edit or delete the Workday configuration.
  
-9.	Admins can also trigger full sync for catalog from "Full Sync" toggle in the catalog row.
+9. Admins can also trigger full sync for catalog from "Full Sync" toggle in the catalog row.
 
 ## Enable SSO for Workday
 
