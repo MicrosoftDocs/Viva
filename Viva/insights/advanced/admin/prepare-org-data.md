@@ -205,7 +205,9 @@ Employee collaboration activity is mapped to the most recent organizational data
 
 Viva Insights uses email addresses to find the corresponding EntraID for processing. With this advanced configuration, you can choose the date that Viva Insights should use to get the EntraID for each email address.
 
-### Option 1: EffectiveDate - Choose this if your data source tracks email address changes by EffectiveDate
+### Option 1: EffectiveDate
+
+*Applies if: Your data source tracks email address changes by EffectiveDate*
 
 EffectiveDate is the date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as the default.
 
@@ -232,7 +234,10 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 
 [Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
 
-### Option 2: Select date if your data source doesn’t track email address changes. The email address on the selected date is used for all past dates
+### Option 2: Select date
+
+*Applies if: Your data source doesn’t track email address changes. The email address on the selected date is used for all past dates.*
+
 
 1.	Select today’s date if you exported data from it recently
 2.	Otherwise, select an older date
