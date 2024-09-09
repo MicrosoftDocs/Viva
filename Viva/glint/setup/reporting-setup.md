@@ -21,7 +21,7 @@ ms.date: 09/09/2024
 
 The Reporting page allows admins to customize how dashboards are set up for specific User Roles to view their survey results.
 
-:::image type="content" source="../../media/glint/setup/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary." lightbox="../../media/glint/setup/program-summary-reporting-2.png":::
 
 ## View and add Program Roles
 
@@ -47,18 +47,18 @@ Roles already set up for this program are listed in the **Program Roles** sectio
 
 To add User Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name now appears as its own row.
 
-:::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing.":::
+:::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing." lightbox="../../media/glint/setup/reporting-add-role.png":::
 
 >[!TIP]
 >Use the up or down arrow to view or close the set up for a role.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
 
 ## Set up Question Reporting Access for roles
 
 Selected questions can be excluded from a survey for specific roles, if desired. This example screen shows the Question Reporting Access permission for the Glint 360 admin role and that three of the 19 survey items are to be excluded for the People at vgAcme role:
 
-:::image type="content" source="../../media/glint/setup/reporting-question-filter-roles.png" alt-text="Screenshot for excluding questions for a survey role.":::
+:::image type="content" source="../../media/glint/setup/reporting-question-filter-roles.png" alt-text="Screenshot for excluding questions for a survey role." lightbox="../../media/glint/setup/reporting-question-filter-roles.png":::
 
 Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to the item. 
@@ -67,6 +67,7 @@ Add an item back by selecting **Add More** and then select the item to be added.
 ## Can the key outcome be changed?
 
 The key outcome is added to all roles by default and can't be removed. If changed, the previous key outcome should remain as previously set. You see this message:  
+
 > To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
 **Accept** or **Cancel** this change and then add the new key outcome to all roles. 
@@ -99,7 +100,7 @@ If adding an Aggregate Index:
 7. Select **Save and Add to Program**.
 8. Select **X** to close the slider window.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup." lightbox="../../media/glint/program-summary-reporting-create-aggregate.png":::
 
 >[!TIP]
 > Use Viva Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which provide insightful focus areas in results reporting.
@@ -111,7 +112,7 @@ If adding an Aggregate Index:
 
 Select the desired **Key Outcome** from the dropdown menu. The key outcome is the main result of the survey. It can be the score from a single item or an aggregate index. This score appears as the most prominent score displayed in most reports.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup." lightbox="../../media/glint/program-summary-reporting-key-outcome.png":::
 
 > [!NOTE]
 > Changes to key outcome are displayed immediately upon saving.
@@ -120,25 +121,25 @@ Select the desired **Key Outcome** from the dropdown menu. The key outcome is th
 
 Select the **Driver Impact Outcomes** from the search field. Select a set of outcome items or aggregates to be used for driver impact analysis. This analysis calculates the impact of each item or aggregate on the selected outcome and shows it on a chart.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup." lightbox="../../media/glint/program-summary-reporting-driver-impact.png":::
 
 ### Manager Report Defaults
 
 Select the desired **Manager Report Defaults**. Select up to two items to appear by default in the manager report.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard." lightbox="../../media/glint/program-summary-reporting-manager-defaults.png":::
 
 ### PowerPoint Export Template
 
 Select your desired **PowerPoint Export** template. The Glint ACT guide is the default export.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint." lightbox="../../media/glint/program-summary-reporting-export-template.png":::
 
 ### Broader Team Insights Export Template 
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report." lightbox="../../media/glint/program-summary-reporting-bti.png":::
 
 To complete this page, select the right-facing arrow to **Save & Continue**.**
 
