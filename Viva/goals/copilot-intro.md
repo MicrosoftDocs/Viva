@@ -1,5 +1,5 @@
 ---
-ms.date: 09/04/2024
+ms.date: 09/09/2024
 title: Copilot in Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller
@@ -25,10 +25,12 @@ description: "Learn how to use Copilot in Viva Goals to create, share, manage, a
 
 Microsoft Copilot in Viva Goals lets you use generative AI to help set business goals and align teams to your organization’s strategic priorities. It also offers in-app guidance to users for creating, refining, and summarizing goals, as well as for sharing goals updates.
 
-Microsoft 365 Global admins and Viva Goals admins can control who has access to Copilot in Viva Goals. You can enable or disable access for specific users, groups, or your entire tenant by using [Viva Feature Access Management (VFAM)](..\feature-access-management.md). VFAM provides a consistent experience across Viva modules to enable or disable access to features, including Microsoft Copilot.  
+Viva Goals admins can control who has access to Copilot in Viva Goals. You can enable or disable access for specific users, groups, or your entire tenant by using [Viva Feature Access Management (VFAM)](..\feature-access-management.md). VFAM provides a consistent experience across Viva modules to enable or disable access to features, including Microsoft Copilot.  
+
 
 >[!NOTE]
-> Controlling access to Copilot in Viva Goals by using VFAM is available for all Viva Goals customers starting in August 2024. The previous controls in the Viva Goals admin portal for enabling or disabling access to Copilot will be deprecated starting in August 2024. All existing configurations for enabling or disabling Copilot in Viva Goals are automatically moved to VFAM - you do not need to reconfigure your access settings. 
+> - Controlling access to Copilot in Viva Goals by using VFAM is available for all Viva Goals customers starting in August 2024. The previous controls in the Viva Goals admin portal for enabling or disabling access to Copilot will be deprecated starting in August 2024. All existing configurations for enabling or disabling Copilot in Viva Goals are automatically moved to VFAM - you do not need to reconfigure your access settings.
+> - A Microsoft 365 Global Administrator can also control access to Copilot in Viva Goals by using VFAM. However, Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. 
 
 
 ## Licensing requirements
