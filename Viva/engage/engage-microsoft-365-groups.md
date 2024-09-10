@@ -1,7 +1,7 @@
 ---
 ms.date: 09/10/2024
 title: "Viva Engage and Microsoft 365 Groups"
-description: "Viva Engage communities can access Microsoft 365 services, including a SharePoint Online team site and document library, OneNote notebook, plan in Planner, and Power BI workspace."
+description: "Viva Engage communities can access Microsoft 365 services, including a SharePoint team site and document library, OneNote notebook, plan in Planner, and Power BI workspace."
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
@@ -159,13 +159,13 @@ Viva Engage communities that are connected to Microsoft 365 Groups can only be c
   
 No, this functionality will be added in later waves. However, for Viva Engage communities connected to Microsoft 365 Groups, you can manage members and delete groups from the Microsoft 365 admin center. Metadata updates can also be applied to groups from the admin center.
   
-### Can I add external users to Viva Engage communities connected to Microsoft 365 Groups?
+### Can I add guests to Viva Engage communities connected to Microsoft 365 Groups?
   
-No. This causes a sync failure because external users aren't managed by Microsoft Entra ID.
+No. This causes a sync failure because guests aren't managed by Microsoft Entra ID.
   
 ### How many members can my group have?
   
-Because the upper limit of membership depends on how members interact with the associated resources provisioned with the Microsoft 365 group, there's no documented upper limit. However, customers have used Viva Engage communities with memberships ranging from 1,000 to more than 100,000 members. 
+Because the upper limit of membership depends on how members interact with the associated resources provisioned with the Microsoft 365 group, there isn't a documented upper limit. However, we have seen customers who have Viva Engage communities with memberships ranging from 1,000 to more than 100,000 members. 
   
 ### What happens if I delete a Viva Engage community connected to Microsoft 365 Groups?
   
@@ -179,9 +179,9 @@ Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engage c
 
 Yes. Any Microsoft 365-connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](./manage-viva-engage-groups/create-a-dynamic-group.md) for requirements and limitations.
   
-### In a connected group, I see there are Viva Engage files and a SharePoint Doc Library. Are these the same thing?
+### In a connected group, are Viva Engage files and the SharePoint library the same thing?
   
-No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Viva Engage messages or uploaded in a **Files** page are stored in Viva Engage cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
+No, these things are separate file storage locations. Members of the group have access to both locations. Files that are attached to Viva Engage messages or uploaded in a **Files** page are stored in Viva Engage cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
 
 We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy sharing of images and documents or to stream videos in Viva Engage, we recommend that you continue to use the default Viva Engage cloud storage.
 
@@ -195,7 +195,7 @@ Yes. Any new community created in Viva Engage gets the added prefix and suffix f
 >[!NOTE]
 > Only Microsoft 365 groups created during migration to Native Mode to back existing communities don't follow the group-naming policy.
 
-Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage.
+Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users can't create communities in Viva Engage.
 
 <a name='q-can-i-use-my-viva-engage-communities-connected-to-microsoft-365-groups-with-group-based-licensing-in-azure-ad'></a>
 
@@ -217,7 +217,7 @@ Before you open the support ticket:
 
 - If you have unlisted (secret) groups, change them to private or public groups.
 
-To find this information, you can do a data export and look in the groups.csv file. You must cross-reference the owner list with the list of people who have Microsoft 365 Group creation privileges.
+To find this information, do a data export and look in the groups.csv file. You must cross-reference the owner list with the list of people who have Microsoft 365 Group creation privileges.
 
 ### How long before changes to a Viva Engage community connected to Microsoft 365 Groups take effect in Viva Engage?
 
