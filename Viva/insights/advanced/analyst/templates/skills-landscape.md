@@ -33,7 +33,7 @@ Before we get started, there are a few things you should know:
 
 To populate the report in Power BI, you need to set up, and successfully run the predefined **Skills landscape** query in Viva Insights.
 
-:::image type="content" source="../../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
+:::image type="content" source="../../images/pbi-01.png" lightbox="../../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
@@ -55,24 +55,26 @@ Before you can run the queries and populate the report in Power BI, you need to:
 
     2. Type a **Description** (optional).
 
->[!Note]
->You’re not able to edit the date range for this report. This report analyzes the skills data in the past month.
+  >[!Note]
+  >You’re not able to edit the date range for this report. This report analyzes the skills data in the past month.
 
-The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
+  The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
 
 4.	Under **Predefined template metrics**, there is one preselected metric, which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics don’t appear in the Power BI report—they just appear in your query results file.
 5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](../filters.md) 
 
->[!Important]
-> Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the query will measure. The query won’t run if the population count is zero.
+   >[!Important]
+   > Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the 
+     query will measure. The query won’t run if the population count is zero.
 
 6.	Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
->[!Important]
-> This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't remove them. 
-> If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute.
-Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
-
+  >[!Important]
+  > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't 
+    remove them. 
+  > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is 
+    missing that attribute.
+    Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
@@ -86,9 +88,9 @@ Learn more about attributes and data quality in [Data quality in the analyst exp
    1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
    1. Select **Load** to import the query results into Power BI.
 1. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.
-> [!IMPORTANT]
-> You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
-> :::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
+   > [!IMPORTANT]
+   > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
+   > :::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
 
 ## Report settings
 View and set the following parameters in **Report settings**. You can find this section on the right panel of the report's pages.
