@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 08/08/2024
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
 author: zachminers
@@ -16,9 +16,7 @@ audience: Admin
 
 # Assign licenses for Viva Insights
 
-![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin*
-
-:::image type="content" source="../images/setup-licenses-1.png" alt-text="Image alt text." lightbox="../images/setup-licenses-1.png":::
+![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin and Viva Insights admin*
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
@@ -65,7 +63,7 @@ Viva Insights licenses are assigned just like other Microsoft 365 product licens
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
+If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
 ## When newly licensed users show up in data
 
@@ -93,4 +91,4 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 > [!div class="nextstepaction"]
 > [Assign user roles](./assign-user-roles.md)
 
-*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
+*Applies to: Microsoft 365 Privileged Role Administrator*

@@ -3,7 +3,7 @@ title: Set up and customize Viva Glint programs
 description: Viva Glint has prepopulated and blank templates for you to customize to create the right feedback program for your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: mbarry
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/17/2024
+ms.date: 8/19/2024
 ---
 
 # Set up and customize Viva Glint programs
@@ -32,11 +32,8 @@ A well-designed survey asks questions that are relevant to the employee experien
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring update emails to customers provide details about what's upcoming to the Viva Glint platform. Releases include scheduled downtime for the platform. 
 The release schedule is subject to change and is updated, as appropriate.
 
-## In this section
+## Plan your program by using the  Holistic Listening Vision and Strategy Discovery Workbook 
 
-Check the Table of Contents to find:
+**Articulate your business priorities and needs.** In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take time to align with your internal stakeholders. Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). This workbook helps you articulate the critical business information that is important to consider alongside your listening strategy and track the progress of your goals over time. 
 
-- **Validated Viva Glint survey templates**
-- **Non-templated, but commonly used Viva Glint surveys**
-- **Setting up Program Summary for engagement-type surveys**
-- **Setting up Program Summary for Employee Lifecycle surveys**
+:::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::

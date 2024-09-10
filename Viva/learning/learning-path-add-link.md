@@ -28,11 +28,14 @@ Viva Learning supports the following document types, when adding content from Sh
 - [Linked objects](#add-linked-objects)
 
 > [!NOTE]
+> Viva Learning is currently unable to support video (.avi) document type in the standalone web app due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
+
+> [!NOTE]
 > - You need a Viva Suite or Viva Learning license to add link to content.   
 > - This content isn't searchable in Viva Learning. 
 > - The default language for this content is the one set by your organization's admin.  
 
-1. Create a [learning path](creating-learning-paths.md) or [learning collection](creating-learning-collections.md).
+1. Create a [learning path](creating-learning-paths.md), [learning collection](creating-learning-collections.md), or [featured set](use-tabs.md#feature-sets)
 
 2. Select **Add content** to add courses to your learning path.
 

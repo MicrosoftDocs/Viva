@@ -74,8 +74,6 @@ items:
             href: org-team-insights/delegate-access.md
           - name: Microsoft Copilot Dashboard for Microsoft 365 customers
             href: org-team-insights/copilot-dashboard.md      
-          - name: Microsoft Copilot Dashboard advanced features
-            href: org-team-insights/copilot-dashboard-advanced-features.md    
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
@@ -92,6 +90,14 @@ items:
             href: advanced/admin/upload-org-data-subsequent.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
+          - name: Integrate Viva Glint and Viva Insights data
+            items:
+            - name: Integrate Viva Glint and Viva Insights
+              href: ../solutions/glint-insights-integration-overview.md
+            - name: Import Viva Glint survey results
+              href: advanced/admin/import-survey-glint.md
+            - name: Export Viva Insights data to Viva Glint
+              href: advanced/admin/export-insights-data-glint.md
           - name: Create partitions
             href: advanced/admin/partitions.md
           - name: File rules and validation errors  
@@ -102,6 +108,8 @@ items:
             href: advanced/admin/keyword-suppression.md
           - name: Use the Admin Center and dashboard
             href: advanced/admin/admin-center.md
+          - name: Manage settings for the Copilot Dashboard
+            href: advanced/admin/manage-settings-copilot-dashboard.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
           - name: Use and configure the Admin Digest email 
@@ -127,7 +135,9 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md               
+                href: advanced/analyst/cross-collaboration-g2g.md   
+              - name: Collaboration between internal and external individuals
+                href: advanced/analyst/external-collaboration.md               
             - name: Uncover network collaboration insights
               href: advanced/analyst/network-collaboration-insights.md 
             - name: Create change management queries
@@ -142,6 +152,8 @@ items:
               href: advanced/analyst/templates/introduction-to-templates.md
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
+            - name: Glint and organizational insights
+              href: advanced/analyst/templates/glint.md
             - name: Growth, inclusion and engagement
               href: advanced/analyst/templates/growth-inclusion-engagement.md
             - name: Hybrid workforce experience
@@ -152,6 +164,10 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
+            - name: Microsoft 365 Copilot adoption report
+              href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
+            - name: Microsoft 365 Copilot impact report
+              href: advanced/analyst/templates/microsoft-365-copilot-impact.md   
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit

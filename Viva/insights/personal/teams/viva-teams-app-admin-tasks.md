@@ -1,5 +1,5 @@
 ---
-ms.date: 06/15/2023
+ms.date: 08/27/2024
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers
@@ -48,12 +48,6 @@ Complete the steps in the following playbooks to get the Viva Insights app up an
 3. In Teams, pin the Viva Insights app in the left app bar for all users in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
 4. Now that Viva Insights is available, all users can follow these steps to [Discover and pin the Viva Insights app](viva-teams-app-install.md).
 
-## Disable Headspace
-
-When the Headspace feature is enabled, users can find it on the [Home](home.md) page of Viva Insights. As an admin, you can disable this feature by using PowerShell cmdlets.
-
-The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings).
-
 ## Configure meeting effectiveness surveys
 
 As the admin, you can configure the meeting effectiveness surveys for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can enable or disable the survey for a specific user or multiple users with PowerShell, or you can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center.
@@ -62,7 +56,7 @@ As the admin, you can configure the meeting effectiveness surveys for your organ
 
 Confirm the following before configuring access:
 
-* **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
+* **Admin role** - You need to have an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin or an Insights admin role.
 * **Understand data privacy** - See the [Privacy guide](privacy.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
 ### Tenant-level configuration
@@ -109,7 +103,7 @@ To check whether a user has access to features in Microsoft Viva Insights in Mic
 To enable or disable meeting effectiveness surveys for a specific user, use the Exchange Online PowerShell V2 module and the following command line, where you replace **roy@contoso.com** with your applicable username and organization:
 
 ```powershell
-Set-VivaInsightsSettings -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
+Set-DefaultTenantMyAnalyticsFeatureConfig -Identity roy@contoso.onmicrosoft.com -Enabled $false -Feature MeetingEffectivenessSurvey
 ```
 
 * If you set the Enabled parameter to `$false`, the meeting effectiveness surveys will be **Off** for that user. The user won't be able to override this setting or opt in to the meeting effectiveness surveys. In other words, you're completely disabling the feature.
@@ -151,7 +145,7 @@ Use the following script to:
    {
    $user.identity
    $upn=$user.identity
-   Set-VivaInsightsSettings –Identity $upn -Enabled $meetingEffectivenessSurveysMode -Feature MeetingEffectivenessSurvey
+   Set-DefaultTenantMyAnalyticsFeatureConfig –Identity $upn -Enabled $meetingEffectivenessSurveysMode -Feature MeetingEffectivenessSurvey
    }
    ```
 

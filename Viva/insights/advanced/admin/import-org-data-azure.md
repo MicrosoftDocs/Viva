@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 05/07/2024
+ms.date: 08/6/2024
 title: Import organizational data with Azure blob import
 description: Learn how to import organizational data into Viva Insights through an Azure blob import.
 author: zachminers
@@ -28,13 +28,13 @@ With an Azure blob import, your Azure contributor creates a blob container on th
 
 1. Setup:
 
-    1. The Azure contributor creates a SAS URL for a secure blob container on the Azure portal. The blob store location should be secure for sensitive organizational data, and it needs to be set up in the customer’s Azure subscription.
+    1. The Azure contributor creates a secure blob container on the Azure portal. The blob store location should be secure for sensitive organizational data, and it needs to be set up in the customer’s Azure subscription.
 
-    2. The Azure contributor provides the SAS URL to the Insights admin and source system admin by sharing it in a secure way.
+    2. If the Azure contributor prefers service principal authorization, the Azure contributor authorizes the service principal and provides the blob URL to the Insights admin and source system admin by sharing it in a secure way. If the Azure contributor does *not* prefer service principal authorization, they generate a SAS URL and provide it to the Insights admin and source system admin.
 
     3. The source system admin prepares the data in a zip file, and configures a periodic export of the file from the HR source system to the blob container.
 
-    4. The Insights admin enters the SAS URL in the Viva Insights app to turn on the import from the Azure blob store location.  
+    4. The Insights admin enters the URL in the Viva Insights app to turn on the import from the Azure blob store location. 
 
 2. Validation: Viva Insights validates the data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 
@@ -44,7 +44,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 ## Setup
 
-### 1. Create blob SAS URL
+### 1. Create a secure blob container
 
 *Applies to: Azure contributor*
 
@@ -92,19 +92,75 @@ After the data successfully validates and processes, the overall data-import tas
 
 22. To create a new container, at the top, select **Container**. Then, on the right, enter a name for the container, like “hrupload.” At the bottom, select **Create**.
 
-23. When the new storage container you created appears, select it. Then, on the left under **Settings**, select **Shared access tokens**.
+### 2. Authorize the blob container
 
-24. Under **Signing key** and **Stored access policy**, you can use the default settings. Under **Permissions**, select **Read** and **List**.
+*Applies to: Azure contributor*
 
-25. Under **Expiry**, set a token expiration date of one year from now.  
+Next, you’ll need to create a blob SAS URL for authorization, or a blob URL if you’re using service principal authorization. Service principal authorization is the recommended and more secure approach. The blob SAS token does not have any built-in auditing capabilities. Follow the appropriate steps below for the method you choose.
 
-26. For **Allowed IP addresses** and **Allowed protocols**, you can use the default settings.  
+**For service principal authorization:**  
 
-27. Select **Generate SAS token and URL**.
+1. On the left panel, select **Access Control**.
 
-28. Copy and securely share the blob SAS URL with the Insights admin and the source system admin.
+2. At the top, select **Role assignments**. Select **Add**, then select **Add role assignment**.  
 
-### 2. Prepare org data zip file and send to blob store
+3. In the list of roles, find and select **Storage Blob Data Reader**.
+
+4. Next to **Members**, select **Select members**. In the search field on the right, enter **Workplace Analytics**, and select it.  
+
+5. At the bottom left, select **Review + assign**.
+
+6. On the left panel, under **Data storage**, select **Containers**. 
+
+7. Select the storage container you created in the above steps. 
+
+8. On the left panel, under **Settings**, select **Properties**. 
+
+9. Copy and securely share the URL with the Insights admin and the source system admin.
+
+**For SAS URL authorization:**
+
+1. When the new storage container you created appears, select it. Then, on the left under **Settings**, select **Access policy**. 
+
+2. Under **Stored access policies**, select **Add policy**. Provide a unique identifier, such as “BlobStore.” Select **Read** and **List** permissions. Select a start time a few minutes in the past and an end time one year from now. 
+
+3. On the left under **Settings**, select **Shared access tokens**. 
+
+4. You can use the default option under **Signing key**. Under **Stored access policy**, select the policy created above. This will auto-populate the expiry window and permissions list. 
+
+5. For **Allowed IP addresses** and **Allowed protocols**, you can use the default settings. 
+
+6. Select **Generate SAS token and URL**. 
+
+7. Copy and securely share the blob SAS URL with the Insights admin. 
+
+8. Let the source system admin know, who will populate the data in this container. They will need Storage Blob Data Contributor access.  
+
+
+### 3. Set up Viva Insights to import data from the blob location
+
+*Applies to: Insights admin*
+
+1. Start the import from one of two places: the **Data hub** page, or the **Organizational data** page under **Data connections**.
+
+    1. From **Data hub**:
+        1. In the **Data source** section, under **Azure blob import**, select **Start**.
+
+    2. From **Data connections**:
+        1. Next to **Current source**, select **Manage data sources**.
+        1. An Azure blob import window appears. Select **Start**.
+
+2. Under **Connection name**, enter a unique name for the import.
+
+3. Under **Authorization type**, select **Service Principal Authorization**, or **SAS URL Authorization**. Your selection here depends on the authorization method used by your Azure contributor in Step 2 above.  
+
+4. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
+
+5. Select **Enabled**, then select **Save**. 
+
+6. If you see an error message, check to make sure you followed all the steps outlined above, and check to ensure the blob SAS URL or blob URL you entered is accurate. Select **Retry**. 
+
+### 4. Prepare org data zip file and send to blob store
 
 *Applies to: Source system admin*
 
@@ -176,24 +232,8 @@ Then, use the steps below to send the organizational data zip file to the blob l
 
 2. At the top, select **Upload**. Then, on the right, upload the zip folder you created using the instructions above.
 
-### 3. Set up Viva Insights to import data from the blob location
 
-*Applies to: Insights admin*
-
-1. Start the import from one of two places: the **Data hub** page, or the **Organizational data** page under **Data connections**.
-
-    1. From **Data hub**:
-        1. In the **Data source** section, under **Azure blob import**, select **Start**.
-
-    2. From **Data connections**:
-        1. Next to **Current source**, select **Manage data sources**.
-        1. An Azure blob import window appears. Select **Start**.
-
-2. Under **Connection name**, enter a unique name for the import.
-
-3. Under **Blob SAS URL**, enter the URL for the import provided to you by the Azure contributor in Step 1.
-
-### 4. Validation
+### 5. Validation
 
 *Applies to: Insights admin*
 
@@ -252,7 +292,7 @@ Here are a few import-specific errors you might encounter if your files aren't f
 
 * The .json file in your .zip file is empty. Add a non-empty .json file and upload the .zip file again.
 
-* The content in the .json file isn't mapped to a supported data type. Map the content to a supported data type and upload the .zip file again.
+* The source column isn't mapped to a supported data type. Map to a supported data type and upload the file again.
 
 * The .json file is invalid. Please use a valid .json file and upload the .zip file again.
 
@@ -262,7 +302,12 @@ Here are a few import-specific errors you might encounter if your files aren't f
 
 * Your .csv file is mapped to a null or empty field in your .json file. Map it to a non-empty field and upload the .zip file again.
 
+* The .json file specifies a "DatasetType" that's not expected. Specify the correct value and upload the .zip file again.
+
 [Learn about other file rules and validation errors](./rules-validation-errors.md).
+
+#### Suspended state
+If you see a “Suspended” status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired or access has been revoked. You’ll need to update your credentials and reconnect the data source.
 
 ### Manage data source and make changes
 *Applies to: Insights admin*
@@ -272,11 +317,11 @@ After you've set up your data import, use the steps below to make changes like s
 1. On the **Organizational data** page under **Data connections**, select **Manage data sources**.
 2. Under **Azure blob import**, select **Manage**.
 
-On the next page, you can edit the connection name, or the blob SAS URL. If you update the SAS URL, the new location will be used for future data refreshes.
+On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
 
 You can also turn automated imports on or off. When you’re done, select **Save**.
 
-To replace or edit the organizational data using the existing blob SAS URL, contact your source system admin. When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
+To replace or edit the organizational data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
 
 #### How to indicate a full or incremental refresh
 

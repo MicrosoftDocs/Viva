@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/28/2024
+ms.date: 07/09/2024
 ---
 
 # Customize Viva Glint Team Conversations email content
@@ -24,10 +24,11 @@ Customize Microsoft Viva Glint email content for Team Conversations start messag
 ## Custom sending domains and themes/logos (optional)
 
 In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can
-optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in survey communications:
+optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
+- [Customize company branding](/entra/fundamentals/how-to-customize-branding)
+  - To add your organization's logo to Viva Glint Team Conversations emails, set up the **Sign-in form** > **Banner logo** in the Microsoft Entra admin center.
 
 Both items are **optional steps** that your organization can take to further customize the survey communication experience for your survey participants.
 
@@ -45,7 +46,7 @@ Viva Glint Conversation Start, reminders, and summary notifications contain mult
 
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
-> [!NTOE]
+> [!NOTE]
 > The Body Text section of Team Conversations emails support multiple paragraphs to break up and emphasize important messages.
 
 > [!CAUTION]

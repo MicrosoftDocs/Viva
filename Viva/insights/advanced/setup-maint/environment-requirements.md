@@ -1,6 +1,6 @@
 ---
 
-ms.date: 03/19/2024
+ms.date: 07/03/2024
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -26,10 +26,10 @@ Environment requirements vary depending on the type of insights you view in Micr
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f), [Briefing emails](../../personal/Briefing/be-overview.md), [Viva digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3), [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d), and [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5).
 
 >[!Important]
->Beginning at the end of March 2024, we’ll be pausing the Digest email, which is typically sent twice a month. All the content from Digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
+>We've paused the Digest email, which is typically sent twice a month. All the content from Digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 
-  >[!Important]
-  >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
+>[!Important]
+>We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
 
 ### Microsoft 365 plans
 
@@ -110,7 +110,6 @@ After users get assigned licenses with an applicable service plan, they get acce
 | [Focus plan](https://support.microsoft.com/topic/focus-plan-for-viva-insights-a079a744-010e-4fee-8552-a2799d0c62ea) | Insights by MyAnalytics |
 | [Send praise](https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27) | Insights by MyAnalytics  |
 | [Virtual commute](https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876) | Insights by MyAnalytics  |
-| [Headspace](https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72) | Insights by MyAnalytics  |
 | [Breather break](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics  |
 | [Reflect](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743) | Insights by MyAnalytics  |
 
@@ -155,11 +154,9 @@ Other channels such as Cloud Solution Provider (CSP) don't support the addition 
 
 |  Type  | Notes |  
 |---- | ---- |
-|Government | Government Community Cloud (GCC) supports personal insights only. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
 |Non-profit | Viva Insights can be used by nonprofits but non-profit pricing isn't available. |
-|First-line workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
 

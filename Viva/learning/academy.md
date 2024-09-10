@@ -28,7 +28,9 @@ Creating and editing academies involves managing featured sets and learning path
 
 ## Prerequisites 
 
-Existing Microsoft 365 admins, knowledge admins, and knowledge managers can create and manage academies.
+Creating and managing an academy requires a **premium license** for Viva Learning or Viva Suite.
+
+Existing **Microsoft 365 admins**, **knowledge admins**, and **knowledge managers** can create and manage academies.
 
 
 ## Set up an academy
@@ -68,9 +70,9 @@ Configure the academy by selecting the featured set and learning paths.
 
 4. Enter a featured set name. 
 
-5. Select the list of learning objects, which will be displayed in the featured set.
+5. Select the list of learning objects, which are displayed in the featured set.
 
-6. Select **Save**. The draft featured set will be displayed in the dashboard. 
+6. Select **Save**. The draft featured set are displayed in the dashboard. 
 
 >[!NOTE]
 >Only individual learning objects can be added to a featured set, not entire learning paths. 
@@ -126,7 +128,7 @@ Users need to meet the following criteria to access Microsoft Copilot Academy:
 
 Microsoft Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.  
 
-Admins have the option to disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
+Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
 
 #### Language support 
 
@@ -136,7 +138,7 @@ Microsoft Copilot Academy is currently only supported in English with a planned 
 
 You can create a new Academy tailored to your needs by utilizing learning objects from the Copilot Academy. This approach allows you to maintain the essence of the Copilot Academy while also incorporating your organization's unique requirements. Here’s how: 
 
-- **Create learning paths**: Start by creating learning paths that mirror those available in the Copilot Academy. This step forms the foundation of your custom academy. 
+- **Create learning paths**: Start by creating learning paths that mirror the learning paths available in the Copilot Academy. This step forms the foundation of your custom academy. 
 
 - **Add to your new academy**: Once your learning paths are set, you can seamlessly integrate them into your new academy for a personalized learning experience. 
 

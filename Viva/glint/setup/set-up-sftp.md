@@ -3,7 +3,7 @@ title: Set up Secure File Transfer Protocol (SFTP) in Viva Glint
 description: Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regular, automated imports of employee data.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: sftp, public ip address, pgp encryption, data transfer, ssh key
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/12/2024
+ms.date: 07/12/2024
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -33,21 +33,14 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
 1. In the **Technical Configuration** section, go to **SFTP Setup** and select **Manage**.
 1. In the SFTP pane that appears, review each field and enter information as needed:
-   1. **SSH Public Key:** Enter the full text of your public SSH key in this field: `ssh-rsa ...` . **DO NOT** share your private key with Viva Glint.
-      - To generate a key pair, see: [Generate an SSH key pair](https://go.microsoft.com/fwlink/?linkid=2247507).
-      - To convert a key to the expected format, see: [Convert a key to OpenSSH format](convert-ssh-key.md).
-   1. **SFTP IP Addresses:** Optionally, specify public IP addresses for accounts that should be allowed to connect. Contact your IT team, HRIS vendor, or use [online tools](https://ifconfig.io/) to determine your public IP address(es).
-      **Leave this field blank to allow any account to connect.**
-   > [!TIP]
-   > SFTP IP address fields support subnets, or ranges of IP addresses. Enter ranges rather than individual IP addresses in each field, if needed. For example: 1.1.1.0/24 instead of each IP address 1.1.1.0, 1.1.1.1, 1.1.1.2, ... in its own field.
-   1. **Notify People:** Search for and add users that should receive file upload notification emails.
-   1. **PGP Encryption:** This setting is optional. Switch toggle to **On** to enable file encryption and reveal Glint's public PGP encryption key to encrypt your employee data files.
-   1. **SFTP Credentials:** Use the credentials shown in the platform to connect to SFTP with a dedicated FTP application and your private SSH key file. Allow at least 1 hour after entering public SSH keys and IP addresses before testing your connection.
-      1. **File Protocol**: _SFTP_
-      2. **Port**: Select 22 or 1122
-      3. **Host Name**: _Varies based on region (US or EU) and selected port_
-      4. **Username:** _Company ID_
-      5. **Password:** _Use your private SSH key file_
+
+|Setup item   |Required or optional   |More information   |
+|:----------|:-----------|:-----------|
+|**SSH Public Key**     |Required       |<ul><li>Enter the full text of your public SSH key: `ssh-rsa ...` .</li><li>**DO NOT** share your private key with Viva Glint.</li><li>To generate a key pair, see: [Generate an SSH key pair](https://go.microsoft.com/fwlink/?linkid=2247507).</li><li>To convert a key to the required format, see: [Convert a key to OpenSSH format](convert-ssh-key.md).</li><li>Add up to three public SSH keys.</li></ul>       |
+|**SFTP IP Addresses**     |Optional       |<ul><li>**Leave this field blank to allow any account to connect.**</li><li>Specify public IP addresses to limit accounts that can connect.</li><li>Contact your IT team, HRIS vendor, or use [online tools](https://ifconfig.io/) to determine your public IP address(es).</li><li>This field supports subnets, or ranges of IP addresses. Enter ranges (for example: 1.1.1.0/24) rather than individual IP addresses in each field, if needed.</li></ul>     |
+|**Notify People**     |Required       |<ul><li>Search for and add users that should receive file upload notification emails.</li><li>Users must be active and exist in Viva Glint.</li></ul>       |
+|**PGP Encryption**     |Optional       |<ul><li>Switch toggle to **On** to enable file encryption and reveal Glint's public PGP key to encrypt employee data files.</li><li>When this setting is enabled, SFTP accepts files with and without encryption.</li></ul>      |
+|**SFTP Credentials**     |Required       |<ul><li>Use the credentials shown in the platform to connect to SFTP. Allow at least one hour after entering public SSH keys and IP addresses (optional) before testing your connection.</li><br><br><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port_</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
 > [!IMPORTANT]
 > Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:

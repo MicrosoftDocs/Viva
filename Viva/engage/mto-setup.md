@@ -79,7 +79,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 
 *For Microsoft 365 Global administrators*
 
-This process requires that you use Microsoft Graph API, an API with separate [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
+Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -121,3 +121,9 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 |----------------|----------------|
 | A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
 |B. Enable audiences for the multitenant organization|<ol><li>On the Feature management tab, go to **Leadership identification and audiences**, and select the **Manage audiences** page.</li><li>Turn on **Entire organization:** *[TENANT_NAME]*. *Entire organization* refers only to the tenant that you're configuring. In other words, this option enables the leader to communicate with the hub tenant.</li><li>Turn on **Multiple organizations** to let leader posts and announcements reach across all spoke tenants in the multitenant organization.|
+
+## See also
+
+[Limitations of multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)
+
+[Microsoft Entra ID multitenant documentation](/entra/identity/multi-tenant-organizations/)

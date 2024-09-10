@@ -53,7 +53,7 @@ Items:
       - name: Embed videos in the Viva Connections feed
         href: video-news-links.md
       - name: Viva Connections News notifications
-        href: mobile-notifications-viva-connections.md
+        href: viva-connections-news-notifications.md
       - name: Frequently asked questions about the feed
         href: faqs-viva-connections-feed.md
   - name: Viva Connections and home sites
@@ -68,6 +68,8 @@ Items:
       href: use-dashboard-web-part-on-home-site.md
     - name: Use the Feed web part
       href: use-feed-web-part-for-viva-connections.md
+    - name: Viva Connections Feed Web Part and Video News link Retirement Support Guidance
+      href: feed-web-part-video-news-link-retirement.md
   - name: Troubleshoot
     items:
     - name: Can't find the app in the Teams admin center

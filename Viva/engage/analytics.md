@@ -47,7 +47,7 @@ Only users assigned the Network admin role can turn analytics features on or off
 
 1. From [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
 
-    :::image type="content" source="../media/engage/admin/web-admin-entry.png" alt-text="Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.":::
+    :::image type="content" source="../media/engage/admin/web-admin-entry.png" alt-text="Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin." lightbox="../media/engage/admin/web-admin-entry.png":::
 
 2. Select the **Setup & configuration** tab, and select **Manage analytics**.
 
@@ -62,7 +62,7 @@ Only users assigned the Network admin role can turn analytics features on or off
 
 When the AI Summarization service is enabled, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. AI Summarization data is used for network theme extraction, conversation summarization, and network sentiment analysis.
 
-Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/configure-copilot-for-engage#copilot-and-ai-summarization-enablement-states).
+Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/engage-ai-summarization).
 
 ## Network analytics
 
@@ -71,9 +71,9 @@ Engage admins can manage AI Summarization for their network through Viva Feature
 
 Network analytics provide valuable insights into employee engagement and communication across your organization through sentiment, retention, and community activity data. Data insights help Network admins and corporate communicators make more informed decisions toward improving the health of their network.
 
-*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](/purview/retention-policies-viva-engage).
+*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](https://support.microsoft.com/en-us/topic/viva-engage-employee-retention-eac2abc2-2732-4012-b64f-d471bb05b7ac).
 
-:::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics.":::
+:::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics." lightbox="../media/engage/admin/engage-network-analytics.png":::
 
 Learn more about metrics featured in the Network analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/network-analytics-available-now-in-viva-engage/ba-p/4030771).
 
@@ -125,3 +125,7 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 [Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
 [Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
+
+[Monitor engage in Viva Engage with analytics](https://support.microsoft.com/en-us/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)
+
+[Measure success in Viva Engage](https://support.microsoft.com/en-us/office/measure-success-in-viva-engage-f6047dff-8dc3-4d1e-a939-617e02211f3e?storagetype=live)

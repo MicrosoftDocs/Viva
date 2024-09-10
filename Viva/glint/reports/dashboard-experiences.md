@@ -1,9 +1,9 @@
 ---
 title: Dashboard experiences for Viva Glint roles
 description: Microsoft Viva Glint allows admins to customize dashboards for different roles with various permissions.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: employee data
@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 08/28/2024
 ---
 
 # Dashboard experiences for Viva Glint roles
 
-Microsoft Viva Glint allows admins to customize Viva Glint dashboards for different roles and with varying permissions. To choose the right dashboard for your leaders, understand the following options:
+The Microsoft Viva Glint Dashboard serves as the landing page for all users that have access to survey results. Admins can customize Viva Glint dashboards for different roles with varying permissions. To choose the right dashboard for your leaders, understand the following options:
 
 [Use Viva Glint's Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010)
 

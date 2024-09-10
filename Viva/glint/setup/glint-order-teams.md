@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2024
+ms.date: 08/22/2024
 ---
 
 # Viva Glint Licensing
@@ -23,13 +23,10 @@ Subscription plans of Viva suite or Viva Glint are required for using Microsoft 
 
 ## Notifications for exceeding licenses
 
-If the number of active users in Viva Glint exceeds the subscription purchase, you're notified via email, and you have a 45 day grace period to take one of the following actions:
+If the number of active users in Viva Glint exceeds the subscription purchase, you receive an email, and have a 45 day grace period to take one of the following actions:
 
 - Purchase extra Microsoft Viva suite or Viva Glint licenses according to the product terms. 
-- Remove excess active users from the Viva Glint instance by marking their status as "INACTIVE" in a [user upload](upload-employee-attributes.md).
-
-> [!NOTE]
-> Viva Glint uses Microsoft’s capacity license model. Marking a user as "INACTIVE" frees up a capacity license to be used. Licenses are no longer in use when an admin inactivates users and admins don't need to assign licenses individually. 
+- Remove excess active users from the Viva Glint instance by marking their status as "INACTIVE" in an employee data file to deactivate them during a [user upload](upload-employee-attributes.md).
 
 ## What happens if our grace period expires?
 
@@ -40,9 +37,6 @@ If the 45 day grace period expires before licenses and active users are aligned,
 - 360 survey program creation
 - 360 survey cycle creation
 - 360 survey cycle scheduling
-
-> [!NOTE]
-> Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
 
 >[!CAUTION]
 >If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
