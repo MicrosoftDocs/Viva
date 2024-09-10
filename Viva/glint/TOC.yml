@@ -183,6 +183,8 @@ items:
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
+      - name: Activity Audit Log
+        href: setup/activity-audit-log.md       
       - name: Advanced Configuration
         href: setup/understand-advanced-configuration.md
         items: 
