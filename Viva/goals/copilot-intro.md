@@ -96,7 +96,7 @@ You can learn more details about enabling Copilot controls from the Microsoft 36
 ## Important things to keep in mind while using VFAM   
 
 - The policies created by using VFAM can take up to 24 hours to go into effect. 
-- The most restrictive policy assigned to a user or group take precedences over other policies within a feature. For example, for Copilot, if you create an OFF-tenant policy and ON group policy (for users in a specific geographic location, for example), the group policy takes precedence over the tenant policy. As a result only users in the group can access Copilot in Viva Goals.
+- The most restrictive policy assigned to a user or group takes precedences over other policies within a feature. For example, for Copilot, if you create an OFF-tenant policy and ON group policy (for users in a specific geographic location, for example), the group policy takes precedence over the tenant policy. As a result only users in the group can access Copilot in Viva Goals.
 
 ## What happens Viva Goal Copilot settings configured in the Viva Goals admin portal prior to August 2024? 
 
