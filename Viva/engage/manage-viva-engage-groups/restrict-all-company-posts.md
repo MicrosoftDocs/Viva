@@ -40,9 +40,9 @@ After you've selected this option, users won't see the option to post in All Com
 
 When All Company is set to **Restricted**, users can't post conversation starters in All Company. They either see that All Company is Restricted or that 'Only admins can start a conversation.'
 
-- All employees can respond to conversation starters and reactions.
+All employees can respond to conversation starters and reactions.
 
-- Users can reply to posts by using Outlook, but can't post. Only All Company admins can post through email.
+Users can reply to posts through email, but can't start initial posts. Only All Company admins can post by using Outlook.
 
 ## Restricting posting in an embedded feed
 
