@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/09/2024
+ms.date: 09/10/2024
 ---
 
 # Send Viva Insights data into Viva Glint (public preview)
 
-*Applies to: Viva Insights admin*
+*Applies to: Microsoft 365 Global admin, Viva Glint admin*
 
 >[!IMPORTANT]
 >This feature is currently available to public preview customers only. Features described here are subject to change.
@@ -44,15 +44,14 @@ This article discusses how to import survey results – employee-level survey re
 
 ## Integration workflow 
 
-- The Viva Insights admin sets up a new import in the advanced insights app. 
-- The Viva Insights admin contacts the Viva Glint admin to share Viva Glint survey data, and the Viva Glint admin selects specific survey programs and sends the data to Viva Insights. 
-- Viva Insights validates and processes the data so it’s ready for use.
+1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-## Sync with Entra ID
+2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+
+## To resync the data to pick up the Entra ID changes: 
 
 If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
 
-To resync the data to pick up the Entra ID changes: 
 - In manage integration: delete all attributes and remove all programs. 
 - Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
 

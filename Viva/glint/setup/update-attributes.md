@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2024
+ms.date: 09/10/2024
 ---
 
 # Update attributes in Viva Glint
@@ -110,9 +110,6 @@ To edit optional system attributes after your initial setup:
    :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
 
 ## Update custom attribute visibility
-
-> [!NOTE]
-> This feature is planned to be available after June 1, 2024.
 
 Use the **Visibility** setting to edit whether a custom attribute appears:
 
