@@ -276,7 +276,7 @@ This report should be created from the primary Admin account of Workday to avoid
    | Learning Content | Last Updated | LastUpdated | LastUpdated |
     
 
-   ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
+   :::image type="content" alt-text="Screenshot of Edit Custom Report" source="/Viva/media/learning/wd-s2.2-3.png" lightbox="/Viva/media/learning/wd-s2.2-3.png":::
 
 4. Under "Group Column Headings", add the below fields:
 
@@ -294,7 +294,7 @@ This report should be created from the primary Admin account of Workday to avoid
    | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
 
 
-    ![Screenshot of the formatted fields for filter values.](/viva/media/learning/workday-filters-for-catalog-raas.png)
+    :::image type="content" alt-text="Screenshot of the formatted fields for filter values." source="/viva/media/learning/workday-filters-for-catalog-raas.png" lightbox="/viva/media/learning/workday-filters-for-catalog-raas.png":::
 
 6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
 
@@ -305,7 +305,7 @@ This report should be created from the primary Admin account of Workday to avoid
    | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
     
 
-   ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-prompts-for-catalog-raas.png)
+   :::image type="content" alt-text="Screenshot of the formatted fields for prompt values." source="/viva/media/learning/workday-prompts-for-catalog-raas.png" lightbox="/viva/media/learning/workday-prompts-for-catalog-raas.png":::
 
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
@@ -314,32 +314,34 @@ This report should be created from the primary Admin account of Workday to avoid
 
 8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add ISU name in the **Authorized users** field.  
 
-   ![Screenshot of the Edit Custom Report window for the Catalog Report](/viva/media/learning/wd-s2.2-8.png)
+   :::image type="content" alt-text="Screenshot of the Edit Custom Report window for the Catalog Report" source="/viva/media/learning/wd-s2.2-8.png" lightbox="/viva/media/learning/wd-s2.2-8.png":::
 
 9. Save the report. Select **OK**. 
 
-    ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
+    :::image type="content" alt-text="Screenshot of the final report." source="/viva/media/learning/wd-s2.2-9.png" lightbox="/viva/media/learning/wd-s2.2-9.png":::
 
     1. Generate report URL. This URL is required as an input parameter on Viva Learning Admin tab. The same user who created the report should generate the URL.
 
         1. Select the report > **Web Service** > **View URLs**.
 
-           ![Screenshot of the view urls section of a custom report.](/viva/media/learning/wd-s2.2-10.png) 
+           :::image type="content" alt-text="Screenshot of the view urls section of a custom report." source="/viva/media/learning/wd-s2.2-10.png"  lightbox="/viva/media/learning/wd-s2.2-10.png" :::
 
         1. In next window, select any contentType and any date range and select **OK**.
 
-           ![Screenshot of the View URLS Web Service window with the option to edit content types and dates](/viva/media/learning/wd-s2.2-11.png)
+           :::image type="content" alt-text="Screenshot of the View URLS Web Service window with the option to edit content types and dates" source="/viva/media/learning/wd-s2.2-11.png" lightbox="/viva/media/learning/wd-s2.2-11.png":::
 
         1. Select **JSON**, this opens a new window.
   
-            ![Screenshot of the new window that opens when you select JSON.](/viva/media/learning/wd-s2.2-12.png)
+           :::image type="content" alt-text="Screenshot of the new window that opens when you select JSON." source="/viva/media/learning/wd-s2.2-12.png" lightbox="/viva/media/learning/wd-s2.2-12.png":::
 
     1. In the next window, provide the Workday credentials and sign in. It downloads the JSON.
+
     1. Copy the URL from browser and append it post Viva_Learning_Catalog_Report. That is, the report name 
-        1. for example, for Microsoft test tenant the URL is: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/svasireddy/Viva_Learning_Catalog_Report?Start_Date=2023-03-01-08:00&End_Date=2023-05-14-07:00&contentType!WID=9882927d138b100019b928e75843018d&format=json` 
- 
+
+        1. for example, for Microsoft test tenant the URL is: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/svasireddy/Viva_Learning_Catalog_Report?Start_Date=2023-03-01-08:00&End_Date=2023-05-14-07:00&contentType!WID=9882927d138b100019b928e75843018d&format=json`  
         1. After appending, the final URL for test tenant: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/svasireddy/Viva_Learning_Catalog_Report` 
         1. Save the final URL, this is used as an input config parameter on Admin portal while enabling the configuration.  
+
     1. Once configuration is complete on the Admin portal, within the next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
 
 > [!NOTE]
@@ -374,7 +376,7 @@ This report should be created from the primary Admin account of Workday to avoid
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
-    ![Screenshot of the table in the View Custom Report for the Viva Learning Users report.](/viva/media/learning/wd-s2.3-raas1.png)
+    :::image type="content" alt-text="Screenshot of the table in the View Custom Report for the Viva Learning Users report." source="/viva/media/learning/wd-s2.3-raas1.png" lightbox="/viva/media/learning/wd-s2.3-raas1.png":::
 
    1. **Add filters to the report**
 
@@ -485,21 +487,27 @@ This report should be created from the primary Workday admin account to avoid an
        |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
        | Comparison Value | Ending Prompt | 
    
-      ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
+      :::image type="content" alt-text="Screenshot of the filter on instances for the self-enrollment completion fields." source="../media/learning/workday-assignment-raas-10.png" lightbox="../media/learning/workday-assignment-raas-10.png":::
 
     **Modify the prompts**
 
     1. Go to **Prompts**. 
+
         1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for Modified date, which is defined in the previous step.
-    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-assignment-raas-11.png)
+
+           :::image type="content" alt-text="Screenshot of the self-enrollment completion prompts" source="../media/learning/workday-assignment-raas-11.png" lightbox="../media/learning/workday-assignment-raas-11.png":::
 
         1. Add following values in the new prompts and select **OK**.
+
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
                 - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
+
     1. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
     1. Save the report. Select **OK.**
+
     1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
+
     1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
 > [!NOTE]
@@ -509,11 +517,13 @@ This report should be created from the primary Workday admin account to avoid an
 
 This report should be created from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. 
  
-1. **Sign in to the Workday Portal**
+1. **Sign in to the Workday Portal**.
+
    1. **Sign in**.
    2. Search for "Create Custom Report."
 
 1. Configure the report parameters 
+
    1. Name the report "Viva Learning Self Enrollment Report". The report name must match this string. 
    2. Set Report Type as "Advanced."
    3. Mark checkbox "Enable as Web service."
@@ -533,7 +543,7 @@ This report should be created from the primary Workday admin account to avoid an
       | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
       | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
 
-      ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
+      :::image type="content" alt-text="Screenshot of the Workday self enrollment report" source="/Viva/media/learning/workday-self-enrollment-report.png" lightbox="/Viva/media/learning/workday-self-enrollment-report.png":::
 
    1. Under "Group Column Headings", add these fields: 
 
@@ -583,7 +593,7 @@ This report should be created from the primary Workday admin account to avoid an
           |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
         
         
-    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
+    :::image type="content" alt-text="Screenshot of the self-enrollment completion filters in Workday" source="../media/learning/workday-self-enrollment-completion-filters.png" lightbox="../media/learning/workday-self-enrollment-completion-filters.png":::
 
 ### Modify the prompts
 
@@ -591,7 +601,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Modified date, which is defined in previous step.
     
-       ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
+       :::image type="content" alt-text="Screenshot of the Workday self enrollment completion prompts." source="../media/learning/workday-self-enrollment-completion-prompts.png" lightbox="../media/learning/workday-self-enrollment-completion-prompts.png":::
 
     2. Add following values in the new prompts and select “OK”.
 
@@ -635,7 +645,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
    1. Access the **Edit Tenant Setup - Security** task. 
    2. Scroll down, in the **OAuth 2.0 Settings section**, select the **OAuth 2.0 Clients Enabled** check box.
     
-   ![Screenshot of the OAuth 2.0 Clients Enabled checkbox selected.](/viva/media/learning/wd-s3-1.png)
+   :::image type="content" alt-text="Screenshot of the OAuth 2.0 Clients Enabled checkbox selected." source="/viva/media/learning/wd-s3-1.png" lightbox="/viva/media/learning/wd-s3-1.png":::
 
 1. Create the client for OAuth. 
 
@@ -647,7 +657,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
     - "System"
     - "Tenant nonconfigurable"  
 
-    ![Screenshot of the Register API Client for Integrations](/viva/media/learning/wd-s3-2.png)
+    :::image type="content" alt-text="Screenshot of the Register API Client for Integrations" source="/viva/media/learning/wd-s3-2.png":::
 
 4. After creation of API client for integration, you'll get the ClientID and client Secret. Copy the client ID and client secret. This information is used on the admin portal.
 
@@ -657,11 +667,11 @@ OAuth access is applied at client level, so it will not impact any other sign in
 
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
-        ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
+       :::image type="content" alt-text="Screenshot of the View API Client with the option task to manage refresh tokens for integration" source="/viva/media/learning/wd-s3-3.png" lightbox="/viva/media/learning/wd-s3-3.png":::
 
     1. Select the ISU created initially during Viva Learning setup.
     
-       ![Screenshot of the Manage Refresh Tokens for Integration](/viva/media/learning/wd-s3-4.png)
+       :::image type="content" alt-text="Screenshot of the Manage Refresh Tokens for Integration" source="/viva/media/learning/wd-s3-4.png" lightbox="/viva/media/learning/wd-s3-4.png":::
     
     1. Enable "Generate new refresh token" checkbox, select **OK**.
 
@@ -679,11 +689,11 @@ To generate the org IDs for a single department, please follow below steps.
 
 1. Select the ellipses (...) and select **Integration IDs** and then **View IDs**.
 
-   ![Screenshot of the View IDs options within the Organizations menu](/viva/media/learning/wd-s3-6.png)
+   :::image type="content" alt-text="Screenshot of the View IDs options within the Organizations menu" source="/viva/media/learning/wd-s3-6.png" lightbox="/viva/media/learning/wd-s3-6.png":::
 
 1. Select the Workday ID mentioned above. Save this ID for later as this will be used as a configuration parameter.
 
-   ![Screenshot of the Integrations ID section with the ID highlighted](/viva/media/learning/wd-s3-7.png)
+   :::image type="content" alt-text="Screenshot of the Integrations ID section with the ID highlighted" source="/viva/media/learning/wd-s3-7.png" lightbox="/viva/media/learning/wd-s3-7.png":::
 
 5. Run following report "Headcount Report" on Workday and select root org. It gives you a list of all departments under root org.
 
@@ -697,7 +707,7 @@ To generate the org IDs for a single department, please follow below steps.
 
 10. Run the "Headcount Report" on Workday and select root org. It gives you a list of all departments under the root org.
 
-![Screenshot of the Headcount Report.](/viva/media/learning/wd-s3-8.png)
+:::image type="content" alt-text="Screenshot of the Headcount Report." source="/viva/media/learning/wd-s3-8.png":::
 
 ## Configure Workday on Viva Learning Admin tab
 
@@ -707,7 +717,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
 2. Navigate to Admin tab, then select Manage providers from left navigation menu. 
 
-   ![Screenshot of the Manage Providers tab in Viva Learning.](/viva/media/learning/wd-s4-1.png)
+   :::image type="content" alt-text="Screenshot of the Manage Providers tab in Viva Learning." source="/viva/media/learning/wd-s4-1.png" lightbox="/viva/media/learning/wd-s4-1.png":::
 
 3. Select **Add provider** and select **Workday**. Select **Next**.
 
@@ -721,13 +731,13 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
    1. Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
 
-      ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
+      :::image type="content" alt-text="Screenshot of the Configure Workday window with the fields for name and client info." source="/viva/media/learning/wd-s4-3.png":::
 
 5. Select **Save** to activate Workday content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
 
 6. Once configured, Workday appears in the Configured providers list. You can track the sync status, sync time stamp and can download the sync logs.
 
-   ![Screenshot of the manage providers list that includes the configured Workday provider](/viva/media/learning/wd-s4-4.png)
+   :::image type="content" alt-text="Screenshot of the manage providers list that includes the configured Workday provider" source="/viva/media/learning/wd-s4-4.png" lightbox="/viva/media/learning/wd-s4-4.png":::
 
 7. If you want to enable LRS (Learner record sync) in Assignment and Completion, enable the LRS toggle.
  
