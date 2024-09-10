@@ -499,8 +499,8 @@ This report should be created from the primary Workday admin account to avoid an
 
         1. Add following values in the new prompts and select **OK**.
 
-                - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
-                - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
+           - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
+           - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
 
     1. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
