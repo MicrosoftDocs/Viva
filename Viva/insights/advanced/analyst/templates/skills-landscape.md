@@ -68,10 +68,12 @@ Before you can run the queries and populate the report in Power BI, you need to:
 
 6.	Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
-   >[!Important]
-   > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't remove them.
-   > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute.
-   Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
+    >[!Important]
+    > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't 
+      remove them.
+    > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is 
+      missing that attribute.
+      Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
