@@ -55,26 +55,23 @@ Before you can run the queries and populate the report in Power BI, you need to:
 
     2. Type a **Description** (optional).
 
-  >[!Note]
-  >You’re not able to edit the date range for this report. This report analyzes the skills data in the past month.
+    >[!Note]
+    >You're not able to edit the date range for this report. This report analyzes the skills data in the past month.
 
-  The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
+    The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
 
 4.	Under **Predefined template metrics**, there is one preselected metric, which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics don’t appear in the Power BI report—they just appear in your query results file.
-5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](../filters.md) 
+5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](../filters.md)
 
-   >[!Important]
-   > Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the 
-     query will measure. The query won’t run if the population count is zero.
+    >[!Important]
+    > Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the query will measure. The query won't run if the population count is zero.
 
 6.	Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
 
-  >[!Important]
-  > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't 
-    remove them. 
-  > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is 
-    missing that attribute.
-    Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
+   >[!Important]
+   > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't remove them.
+   > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute.
+   Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
@@ -110,7 +107,7 @@ The report provides insights about the skills landscape in your organization to 
 This is the total number or percentage of people in your organization who have either confirmed they have a skill or are presumed to have a skill based on AI reasoning and analysis. Distribution can be filtered to include only confirmed skills in **Report settings**. Additionally, people with related skills can be included in the distribution, which is configurable on each report page. 
 * **Skill confirmed by user**: A skill that a person confirmed they have in Skills in Viva.
 * **Skill inferred by AI**: A skill that an AI system predicts a person has but hasn’t been confirmed by the person. AI inferences are based on job titles and recent Microsoft 365 activities. 
-* **Related skills**: If two skills are related, it’s more likely they share a common knowledge foundation or can be used to accomplish similar tasks. 
+* **Related skills**: If two skills are related, it's more likely they share a common knowledge foundation or can be used to accomplish similar tasks. 
 
 
 ### Skills in Viva data coverage 
