@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/5/2024
+ms.date: 09/10/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -34,7 +34,7 @@ Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva 
 |Sync method   |Dashboard access and experience   |
 |:----------|:-----------|
 |**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Glint with an MTO policy, users have to: <br><br> <ol><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Glint</li></ol>       |
-|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Glint without an MTO policy, Glint can't identify a user's tenant. Users have to:  <br><br> <ol><li>Choose the "Sign in to an organization" sign in option</li><li>Enter the source tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Glint</li></ol>      |
+|No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Glint without an MTO policy, Glint can't identify a user's tenant. Users have to:  <br><br> <ol><li>Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Glint</li></ol>      |
 |No sync method set up.    |**(Recommended)** Enable MTO and sync users with cross-tenant synchronization. [Learn more](glint-mto.md)    |
 
 ## If my organization chooses not to enable MTO, but uses B2B collaboration or CTS, can I send surveys to all users in multiple tenants?
@@ -44,15 +44,14 @@ Microsoft 365 admins can install Glint to only one tenant - the target tenant. G
 1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Glint app.
 1. Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
-|Users synced with B2B collab or CTS?  |HRIS import to Glint app complete?  |Survey access method |Result for survey taker|
-|:----------|:-----------|:-----------|:-----------|
-| Yes | No  | Authentication with Microsoft Entra ID | Error - users don't exist in the Glint app |
-| No  | Yes | Authentication with Microsoft Entra ID | Error - users don't exist in the target tenant |
-| Yes  | Yes  | Authentication with Microsoft Entra ID | Success  |
-| Yes or No  | Yes  | Personalized link | Success - no authentication, users don't need to exist in the target tenant, only in Glint |
-| Yes or No | Yes  | Attribute-based access | Success - no authentication, users don't need to exist in the target tenant, only in Glint  |
-| Yes or No  | No  | Personalized link | Error - users don't exist in the Glint app |
-| Yes or No | No  | Attribute-based access | Error - users don't exist in the Glint app |
+|Users synced with B2B collab or CTS  |HRIS import to Glint app complete  |Require Azure AD (Entra) for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
+|:----------|:-----------|:-----------|:-----------|:-----------|
+| Yes | No  | Yes | No | No |
+| Yes  | No | No | No | No |
+| No  | Yes  | Yes | No  | No |
+| No  | Yes  | No | No | Yes |
+| Yes | Yes  | Yes | Yes  | Yes |
+| Yes | Yes  | No | Yes  | Yes |
 
 ## My organization doesn't use B2B collaboration or CTS but does have multiple tenants. Can all users access Glint?
 No. Consider this scenario, where a customer has two tenants:
@@ -107,7 +106,16 @@ Yes. Admins need to add the users to the target tenant, import the users’ HRIS
 Yes. If you currently have multiple tenants, you can migrate and access Glint with your primary tenant to start with.
 
 ## Are there any licensing requirements?
-Yes. P1 licensing is required for MTO setup. [Learn more](https://go.microsoft.com/fwlink/?linkid=2282509).
+To access Viva Glint, **a tenant does not need to have a P1 license**. The only requirement is for the target tenant to subscribe to Viva suite or Viva Glint. 
+
+A P1 license is required to set up an MTO policy and if your organization accesses Viva Glint without MTO,  P1 licenses are only needed as required by sync policies. 
+
+|Item |License requirements  |
+|:----------|:-----------|
+| MTO | Requires Microsoft Entra ID P1 licenses. Only one Microsoft Entra ID P1 license is required per employee per multitenant organization. Also, you must have at least one Microsoft Entra ID P1 license per tenant. [Learn more](https://go.microsoft.com/fwlink/?linkid=2282509).  |
+| CTS only | Requires Microsoft Entra ID P1 licenses. Each user who is synchronized with cross-tenant synchronization must have a P1 license in their home/source tenant. [Learn more](https://go.microsoft.com/fwlink/?linkid=2286123). |
+| B2B collab only  | Billing is based on monthly active users (MAU), which is the count of unique external users who authenticate to your tenants within a calendar month. To determine the total number of MAUs, we combine MAUs from all workforce and external tenants that are linked to a subscription. <br><br> For B2B collaboration in multitenant organizations, this billing model applies only to external users with a UserType of Guest. It doesn’t apply to external members that originate from within the multitenant organization, which have a UserType of Member.<br><br>External ID consists of a core offer and premium add-ons. The Microsoft Entra External ID core offering is free for the first 50,000 MAU. [Learn more](/entra/external-id/external-identities-pricing)   |
+| No sync | No license requirement due to no sync options.  |
 
 ## Are there any additional costs associated with enabling MTO?
 No.
