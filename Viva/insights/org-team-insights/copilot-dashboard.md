@@ -1,5 +1,5 @@
 ---
-ms.date: 9/5/2024
+ms.date: 9/10/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -50,7 +50,7 @@ The types of insights and features provided by the dashboard vary depending on t
 
 *Applies to: Employee users*
 
-If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard).
+If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard). You must opt in to the Viva Insights app in Teams or on the web. Your admin can set users' access to Viva Insights using [these steps](../advanced/setup-maint/configure-personal-insights.md#prerequisites-defaults-and-privacy).
 
 1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
 
@@ -148,7 +148,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of three ways:
+By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot dashboard can get organizational data in one of three ways:
 
 * Through Microsoft Entra ID, which is the default setting
 * Through an [organizational data file in Microsoft 365 that your Global admin uploads](/viva/organizational-data)

@@ -183,6 +183,8 @@ items:
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
+      - name: Activity Audit Log
+        href: setup/activity-audit-log.md       
       - name: Advanced Configuration
         href: setup/understand-advanced-configuration.md
         items: 
@@ -246,7 +248,7 @@ items:
             href: setup/distress-survey.md
           - name: Set up a Viva Glint productivity survey
             href: setup/create-productivity-survey.md
-      - name: Set up recurring Engagement surveys
+      - name: Set up recurring surveys
         items:
           - name: Program Summary setup 
             href: setup/program-summary-overview.md
