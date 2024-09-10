@@ -51,7 +51,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
       1. **Attribute(s) from your employee data:** Match the label and case exactly from the Viva Glint attribute setup and populate with values that indicate data that the user should have access to.
          1. To grant custom access to: 
             1. Another manager's team that exists in current employee data, include an attribute column labeled: Manager Level 1 and list the Employee ID of the manager that another user should have access to. The manager levels automatically calculate based on the manager ID added to the Manager Level 1 column.
-            2. Another manager's team that **doesn't** exist in current employee data, include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels. To get this hierarchy path for a past manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle).
+            2. Another manager's team that **doesn't** exist in current employee data, include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels in this past hierarchy path for an old manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle).
             1. A level in a non-Manager hierarchy, include all levels above the level the user should have access to. Example: To grant access to Location Hierarchy Level 3 = Dublin, include columns for Region, Country, and City.
 1. Save your file in .csv format.
 1. In the **Advanced Configuration** menu, select **Uploads**.
