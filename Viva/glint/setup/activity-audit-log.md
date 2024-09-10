@@ -1,6 +1,6 @@
 ---
 title: Viva Glint Activity Audit Log
-description: Microsoft Viva Glint Company Admin users have access to the Activity Audit Log, which gives details on some user activity, User Role changes, raw data exports, employee data imports, and error/warning information for failed employee data imports.
+description: Microsoft Viva Glint Company Admin users have access to the Activity Audit Log to view actions taken in the platform.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 09/10/2024
 
 # Viva Glint Activity Audit Log
 
-Microsoft Viva Glint Company Admin users have access to the Activity Audit Log, which gives details on some user activity, User Role changes, raw data exports, employee data imports, and error/warning information for failed employee data imports.
+Microsoft Viva Glint Company Admin users have access to the Activity Audit Log to view actions taken in the platform. The log gives details on some user activity, User Role changes, raw data exports, data imports, and error or warning information for failed data imports.
 
 > [!IMPORTANT]
 > The Activity Audit Log keeps a rolling year of platform activity and files are downloadable for 28 days (example: data file upload error files).
@@ -30,7 +30,7 @@ To use the Activity Audit Log as a Viva Glint admin:
 
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **Activity Audit Log**.
 2. Select an event type from the **All Events** dropdown menu (example: "Data import").
-3. If needed, filter results further by selecting an option from the **All Types** dropdown menu (example: "SFTP" to focus on data sent to SFTP)
+3. If needed, filter results further by selecting an option from the **All Types** dropdown menu (example: "SFTP" to focus on data sent via secure file transfer protocol).
 4. If needed, use the **All Statuses** dropdown menu to filter to successful or failed events.
    
    :::image type="content" source="../../media/glint/setup/glint-activity-audit-log.png" alt-text="Screenshot of the Activity Audit Log filtered to Data import activity for SFTP imports.":::
@@ -50,7 +50,7 @@ Choose an event type based on platform activity that you need to review and the 
 | Export Raw Survey Data | Raw response data export activity. |
 | Role assigned | A user is assigned to a new role. |
 | Role unassigned | A user is removed from a role. |
-| Send User Data | Individual employee data/raw survey response send activity. |
+| Send User Data | Individual employee data and raw survey responses send activity. |
 | User Deleted | User deletion activity. |
 | User role created | User Role creation activity. |
 | View as user | Admins' "View As" another user activity. |
