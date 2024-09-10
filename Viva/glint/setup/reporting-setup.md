@@ -90,7 +90,8 @@ If adding an Aggregate Index:
 6. Select **Save and Add to Program**.
 7. Select **X** to close the slider window.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup." lightbox="../../media/glint/program-summary-reporting-create-aggregate.png":::
+   :::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup." 
+   lightbox="../../media/glint/program-summary-reporting-create-aggregate.png":::
 
 >[!TIP]
 > Use Viva Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which provide insightful focus areas in results reporting.
@@ -111,7 +112,7 @@ Select the desired **Key Outcome** from the dropdown menu. The key outcome is th
 
 The key outcome is added to all roles by default and can't be removed. If changed, the previous key outcome should remain as previously set. You see this message:  
 
-> To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
+> "To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
 **Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from the roles that have it enabled.
 
