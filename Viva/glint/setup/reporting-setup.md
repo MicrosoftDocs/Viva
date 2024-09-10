@@ -139,7 +139,7 @@ Select the desired **Broader Team Insights PowerPoint Export** template.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report." lightbox="../../media/glint/program-summary-reporting-bti.png":::
 
-To complete this page, select **Save & Continue**.**
+To complete this page, select **Save & Continue**.
 
 ### Next step
 
