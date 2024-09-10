@@ -17,7 +17,7 @@ audience: Admin
 
 # Configure Teams app settings
 
-![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
+*Applies to: Teams Service Administrator, Exchange Online admin*
 
 The Viva Insights app is automatically installed in Teams once the admin enables the app on managed apps. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin and manage access for the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
