@@ -44,7 +44,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
       1. **add or remove:** Enter ADD or REMOVE, in all caps.
       1. **survey uuid:** The survey ID of the program that the user should have customized access for.
          1. To find this ID, go to **Configure** and then choose **Survey Programs**. 
-         1. Select the **Program** that a user will have custom access to. 
+         1. Select the **Program** that a user should have custom access to. 
          1. From the **Program Summary** page, the link in your web browser contains the 36-character survey ID after the last forward slash.
          > [!NOTE]
          > To apply custom Focus Area access, enter: GOAL in this column. To apply custom Admin access, for users with advanced permissions, enter: ADMIN.
@@ -74,13 +74,13 @@ For example, the custom data access for this user:
 |ana.bowman@contoso.com|1 |ADD|ab1cd2ef-g3h4-5i6j-7kl8-901234567m89 | |7890 | | | |
 |ana.bowman@contoso.com|2 |ADD|ab1cd2ef-g3h4-5i6j-7kl8-901234567m89 | | |EMEA |Ireland |Dublin |
 
-Displays on her profile like this:
+Displays on Ana's profile like this:
 
 :::image type="content" source="../../media/glint/setup/glint-custom-access.png" alt-text="Screenshot of a user's custom Cost Center, Manager Team, and Location access.":::
 
 ## Perform Retroactive User Updates
 
-When a survey has closed, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and does not touch current employee information.
+When a survey closes, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
 
 > [!NOTE]
 > To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
@@ -96,13 +96,13 @@ When a survey has closed, employee attributes that display in reporting aren't u
 > [!CAUTION]
 > Do not perform a retroactive update while a Viva Glint survey is live.
 
-1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey(s) that will be updated. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 1.
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
-   1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the attribute(s) that need to be retroactively updated (for example, Department).
+   1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the attributes that need to be retroactively updated (for example, Department).
    1. Delete all user rows for employees whose data remains the same.
    1. Correct values for users and attributes that need to be updated.
-      1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create 3 values where there should be one in reporting, update all users to Department = ‘Sales’.
+      1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create three values where there should be one in reporting, update all users to Department = ‘Sales’.
    1. Save your edited file with corrected values in.csv format.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
