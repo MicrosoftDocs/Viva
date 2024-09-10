@@ -44,7 +44,7 @@ All employees can respond to conversation starters and reactions.
 
 Users can reply to posts through email, but can't start initial posts. Only All Company admins can post by using Outlook.
 
-## Restricting posting in an embedded feed
+## Restrict posting in an embedded feed
 
 Restricting posts in All Company is supported with the SharePoint Conversations V2 web part. No other web parts or embed features supports post restriction in All Company.
 
