@@ -211,7 +211,7 @@ Viva Insights uses email addresses to find the corresponding EntraID for process
 
 EffectiveDate is the date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as the default.
 
-#### Scenario 1
+#### Scenario
 
 1.	Your data source tracks email address changes by EffectiveDate.
 2.	The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”.  This change is recorded in the HCM system using EffectiveDate.
