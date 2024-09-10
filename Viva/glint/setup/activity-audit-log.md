@@ -21,12 +21,12 @@ ms.date: 09/10/2024
 
 Microsoft Viva Glint Company Admin users have access to the Activity Audit Log to view actions taken in the platform. The log gives details on some user activity, User Role changes, raw data exports, data imports, and error or warning information for failed data imports. The Activity Audit Log includes:
 
-- Date - The date and time of when the action was performed
-- Event - The event type
-- Type - The type, a subfilter of Event
-- Status - The event's status: Success or Failed
-- User - The email address of the user or the system responsible for the event
-- Details - A description of the event
+- **Date:** The date and time of when the action was performed
+- **Event:** - The event type
+- **Type:** - The type, a subfilter of Event
+- **Status:** - The event's status: Success or Failed
+- **User:** - The email address of the user or the system responsible for the event
+- **Details:** - A description of the event
 
 > [!IMPORTANT]
 > The Activity Audit Log keeps a rolling year of platform activity and files are downloadable for 28 days (example: data file upload error files).
