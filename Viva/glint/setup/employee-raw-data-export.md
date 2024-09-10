@@ -16,7 +16,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/12/2024
+ms.date: 09/10/2024
 ---
 
 # Access Viva Glint raw survey responses
@@ -51,7 +51,7 @@ Export of raw survey responses is only available to your organization through ad
 Your organization may not want access to raw survey responses for every survey. This data access decision could be because of the data's sensitivity, employee privacy concerns, regulatory or contractual obligations (such as Works Council agreements), or other reasons. Your role as the Viva Glint admin provides permissions for you to configure them at your discretion.
 
 > [!IMPORTANT]
-> When setting up each Viva Glint program, the Viva Glint admin decides whether raw survey response exports are available. Raw survey export does *not* need to be enabled for an employee to request their personal data.
+> When setting up each Viva Glint program, the Viva Glint admin decides whether raw survey response exports are available. Admins can change the raw response data toggle at any time during a survey program's lifecycle, but the change only applies to future survey cycles. Closed cycles are controlled by the raw response setting that admins established when the cycle launched. Raw survey export **doesn't** need to be enabled for an employee to request their personal data.
 
 ## Admins can opt out of response exports
 
