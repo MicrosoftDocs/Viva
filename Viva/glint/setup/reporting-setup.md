@@ -90,7 +90,7 @@ If adding an Aggregate Index:
 6. Select **Save and Add to Program**.
 7. Select **X** to close the slider window.
 
-   :::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup." lightbox="../../media/glint/program-summary-reporting-create-aggregate.png":::
+:::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup." lightbox="../../media/glint/program-summary-reporting-create-aggregate.png":::
 
 >[!TIP]
 > Use Viva Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which provide insightful focus areas in results reporting.
