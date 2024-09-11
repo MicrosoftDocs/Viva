@@ -59,17 +59,17 @@ To create a connection for an existing integration:
 
 1. Select **New Connection** and follow the setup process.
 
-Only admins can edit connections from the Admin dashboard.
+Only admins have access to delete any existing connections or edit only the connections that they own, from the Admin dashboard.
 
-If any user without admin privileges wishes to edit an existing connection, they can simply select the **Edit** icon for that connection. If such a user wishes to create a new connection, they can:
+If any user without admin privileges wishes to edit an existing connection owned by them or create a new connection, they can:
 
-1. Navigate to **Account Settings** > **Preferences** from the bottom left corner of the app.
+1. Navigate to **Account Settings** > Preferences from the bottom left corner of the app.
 
 1. Go to the **My Integrations** tab.
 
 1. Select **Manage** next to the relevant integration.
 
-1. Select **New Connection** and follow the setup process.
+1. Select **New Connection** and follow the setup process, or to edit or delete an existing connection, click on the 'Edit' or 'Delete' icon for the respective connection.
 
 ## Make a connection public or private
 
