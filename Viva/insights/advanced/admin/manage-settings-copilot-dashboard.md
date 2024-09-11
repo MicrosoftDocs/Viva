@@ -113,7 +113,7 @@ This feature access control allows Global admins to enable or disable the auto-e
 
 ### For Viva Insights customers 
 
-*Applies to: Viva Insights admins*
+These steps apply to Viva Insights admins.
 
 >[!Note]
 >This data upload process will go into effect within seven days.
