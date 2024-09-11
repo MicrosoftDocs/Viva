@@ -28,7 +28,6 @@ This article provides guidance for Viva Engage group admins to produce the best 
 > [!NOTE]
 > Starting January 31, 2024, Microsoft Stream events are unavailable. Use [Microsoft Teams live events](/microsoftteams/overview-meetings-webinars-town-halls) to schedule events.
 
-
 ### Choose a setup that works for your live event
 
 The size and complexity of your live event determines whether you create the event in Viva Engage or in Microsoft Teams. Review these descriptions to determine which one best fits your needs. 
@@ -38,11 +37,12 @@ The size and complexity of your live event determines whether you create the eve
 
 - **Microsoft Teams QuickStart**
 
-  Use this method used to produce simple live events. All you need to have are the audio and video devices connected to the presenter’s computer. This setup is great when you've invited a remote presenter for the event. 
-    - Teams encodes the broadcast stream. 
-    - Content shared from the presenter’s webcam and screen is shared across Teams. 
-    - Attendees can view the event on Viva Engage. 
-    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced. The video is displayed on the Viva Engage event page for 180 days after the event is over.
+  Use this method used to produce simple live events. All you need to have are the audio and video devices connected to the presenter’s computer. This setup is great when you've invited a remote presenter for the event.
+
+  - Teams encodes the broadcast stream.
+  - Content shared from the presenter’s webcam and screen is shared across Teams.
+  - Attendees can view the event on Viva Engage.
+  - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced. The video is displayed on the Viva Engage event page for 180 days after the event is over.
 
 - **Teams external app or device**
 
@@ -144,12 +144,13 @@ You can edit the title, description, date, and time for the event landing page. 
 
 **Q: What are good ways to promote an event?**
 
-Use the links to the event found on the event page in Viva Engage to invite attendees to join your event. 
-- For public communities, post an announcement in the community with a link to the event page. For wider reach, you can also post an announcement in the All Company community. 
-- For private communities, post an announcement in the community with a link to the event page. 
-- In all communities, pin announcements to the top of the community feed. 
-- Send an email with the link. 
-Send a meeting invite in Outlook or Microsoft Teams containing the link.
+Include the link from the event page in your Outlook emails and announcements when you invite attendees to join your event.
+
+- For public communities, post an announcement in the community with a link to the event page. For wider reach, you can also post an announcement in the All Company community.
+
+- For private communities, post an announcement in the community with a link to the event page.
+
+- For all communities, pin announcements to the top of the community feed.
 
 
 ## Related articles
