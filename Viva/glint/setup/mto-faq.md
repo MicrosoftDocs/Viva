@@ -95,7 +95,7 @@ Learn more:
 Yes. Admins need to add the users to the target tenant, import the users’ HRIS data to Glint, and share credentials with the users so they can access the Glint Dashboard.
 
 **If source tenants are Microsoft Entra ID tenants:**
-- Adding users to the target tenant alone isn't enough because users' still have their target tenant set as the source tenant.
+- Syncing users to the target tenant alone isn't enough because users still have their source tenant set to the home tenant.
 - To allow users to access Glint in the target tenant, implement an MTO policy and a user sync with B2B collaboration or CTS.
 
 **If source tenants aren't Microsoft Entra ID tenants:**
