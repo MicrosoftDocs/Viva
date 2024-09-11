@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/22/2024
+ms.date: 09/11/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -49,6 +49,9 @@ Meet internally with your MTO stakeholders, review requirements, and consider Gl
 |:::image type="icon" source="/office/media/icons/meeting.png" ::: | **Meet with stakeholders** <br> <br>_Microsoft 365 global admin_ <br> <br>_Viva Glint admin_ <br> <br>_IT team members_ <br> <br>_Glint project team members_| Determine:<br> <br> <ul><li>How many tenants your organization uses</li> <li>Whether employees exist in different tenants</li> <li>What your Glint survey needs are across different tenants and employee populations</li> <li>How you currently use Glint for organization-wide surveys</li></ul>|
 | :::image type="icon" source="/office/media/icons/compliance-blue.png" ::: | **Review requirements** <br> <br>_Microsoft 365 global admin_ | <ul><li>All tenants exist in the same cloud</li><li>All tenants use Microsoft Entra ID </li><li>Glint is installed in one tenant where all Glint licenses used in the MTO are purchased (regardless of the home tenant of the user)</li> <li>[Target and source tenant prerequisites](https://go.microsoft.com/fwlink/?linkid=2282429)</li><li>[License requirements](https://go.microsoft.com/fwlink/?linkid=2282509)<li>[Learn about MTO limitations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues)</li> </ul>|
 |:::image type="icon" source="/office/media/icons/users-settings.png" ::: | **Determine survey access methods and users to sync** <br> <br>_Viva Glint admin_ <br> <br>_Glint project team_ | <ul><li>**Authentication with Microsoft Entra ID**<br> _Survey takers must exist in Entra and in the Glint app_ <br></li> <li>**Personalized links**<br> _Survey takers need to exist in the Glint app only_ <br></li> <li>**Attribute-based survey access**<br> _Survey takers need to exist in the Glint app only_</li> <li>[Learn more about Glint survey access methods](/viva/glint/setup/understand-survey-access-methods)</li></ul><br> **All users that access survey results must exist in Entra**|
+
+> [!TIP]
+> See [Viva Glint for a multitenant organization FAQ](mto-faq.md) for answers to commonly asked MTO, cross-tenant sync, and B2B collaboration questions.
 
 ### Set up MTO
 
@@ -107,6 +110,7 @@ To successfully access surveys and results, all users need to be imported to the
 - [What is a multitenant organization in Microsoft Entra ID?](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
 - [Manage tenants in your Microsoft Customer Agreement billing account](/azure/cost-management-billing/microsoft-customer-agreement/manage-tenants#whats-a-tenant) 
 - [Multitenant organization scenario and Microsoft Entra capabilities](/entra/identity/multi-tenant-organizations/overview)
+- [Viva Glint for a multitenant organization FAQ](mto-faq.md)
 
 **B2B collaboration**: 
 
