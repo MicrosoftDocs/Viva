@@ -33,7 +33,7 @@ You can tell that a community in Viva Engage is connected to Microsoft 365 Group
 Communities that are connected to Microsoft 365 have many advantages over communities that aren't connected:
 
 - From within Viva Engage, you can access Microsoft 365 services, including a SharePoint team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI.
-- Create and host [Live events in Viva Engage](/viva/engage/organize-live-event.md)
+- Create and host [Live events in Viva Engage](organize-live-event.md)
 - Use Microsoft 365 connectors to [add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8)
 - Manage who can [create Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)
 - [Use dynamic groups](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group)to automatically update group membership from Microsoft Entra ID
