@@ -58,7 +58,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 ### Workflow to send Viva Insights data to Viva Glint
 
-1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
 2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
 

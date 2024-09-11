@@ -60,7 +60,7 @@ For more information about roles in the advanced insights app—including which 
 
 ### Role assignment
 
-In Workplace Analytics, Microsoft Entra Application Administrators would assign advanced insights roles to users in the Microsoft Entra admin center. Now, the Microsoft 365 global admin assigns all Viva Insights-related roles within the Microsoft admin center, unless your organization is using PIM.
+In Workplace Analytics, Microsoft Entra Application Administrators would assign advanced insights roles to users in the Microsoft Entra admin center. Now, the Microsoft 365 Global Administrator assigns all Viva Insights-related roles within the Microsoft admin center, unless your organization is using PIM.
 
 To learn how to assign roles, refer to [Assign roles](user-roles.md).
 
