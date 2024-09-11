@@ -32,16 +32,17 @@ You can tell that a community in Viva Engage is connected to Microsoft 365 Group
 
 Communities that are connected to Microsoft 365 have many advantages over communities that aren't connected:
 
-- From within Viva Engage, you can access Microsoft 365 services, including a SharePoint team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI.
-- Create and host [Live events in Viva Engage](organize-live-event.md)
-- Use Microsoft 365 connectors to [add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8)
+- Access Microsoft 365 services (SharePoint site and document library, OneNote notebook, and plan in Planner) from Engage. Microsoft 365 Groups also includes integration with services like Power BI.
+
+- Create and host [live events](organize-live-event.md)
+-  [Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8) with Microsoft 365 connectors
 - Manage who can [create Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)
-- [Use dynamic groups](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group)to automatically update group membership from Microsoft Entra ID
-- Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
-- See the group in the Global Address List in Outlook
-- Monitor group usage through the [Microsoft 365 Groups activity report](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
+- [Use dynamic groups](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group) to update group membership automatically from Microsoft Entra ID
+- Edit group membership from other Microsoft 365 apps.
+- View the group in the Global Address List in Outlook
+- Monitor usage through the [Microsoft 365 Groups activity report](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
 - Create optional [Microsoft 365 Groups naming policies](/azure/active-directory/enterprise-users/groups-naming-policy)
-- Use the optional group expiration policy to clean up unused groups. See [Microsoft 365 Group Expiration Policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).
+- Use the optional [Microsoft 365 Group Expiration Policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) to clean up unused groups.
 - Use planned features only available with connected groups. This functionality includes getting local data center residency for newly uploaded files that are stored in SharePoint. See the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/?LinkId=509914).
   
 ## Viva Engage configuration to use communities connected to Microsoft 365 Groups
@@ -75,8 +76,6 @@ Here's how the process works after your network becomes eligible for connected g
 ## What happens when you create a new Viva Engage community connected to Microsoft 365 Groups
 
 When you create a Viva Engage community connected to Microsoft 365 Groups, the new Microsoft 365 group is created, and a new SharePoint site and document library, OneNote notebook, and Planner are created. These resources are in addition to your regular Viva Engage community features. You can access these resources from the Viva Engage community page in Viva Engage.
-
-If your network has the Viva Engage files stored in the SharePoint feature that began rollout in December 2018, new files added to the group are stored in SharePoint. See [Where are my Viva Engage files are stored?](https://support.microsoft.com/en-us/office/where-are-my-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
 >[!IMPORTANT]
 > If you create a Microsoft 365 group from any other app, such as Outlook, it won't include Viva Engage. For the connected group to include Viva Engage, you must create the group in Viva Engage.
