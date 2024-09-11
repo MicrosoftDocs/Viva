@@ -19,7 +19,9 @@ ms.date: 09/10/2024
 
 # Send Viva Insights data into Viva Glint (public preview)
 
-*Applies to: Microsoft 365 Global admin, Viva Glint admin*
+The following procedure requires these roles: 
+- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
+- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
 
 >[!IMPORTANT]
 >This feature is currently available to public preview customers only. Features described here are subject to change.
@@ -44,13 +46,13 @@ This article discusses how to import survey results – employee-level survey re
 
 ## Integration workflow 
 
-1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
 
-## To resync the data to pick up the Entra ID changes: 
+## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
+If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
 
 - In manage integration: delete all attributes and remove all programs. 
 - Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
@@ -63,7 +65,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
 - Data sharing from Viva Insights to Viva Glint is a feature governed by the Microsoft Viva Preview Agreement. 
 -	When Insights-to-Glint data sharing is enabled, Insights advanced insights metrics is shared with Glint and subject to further processing by Glint. Glint stores a copy of the share Insights data, which can be deleted from Glint at any time.
--	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft viva preview Agreement.
+-	By selecting the checkbox, you enable Insights-to-Glint data sharing and agree to the Microsoft Viva Preview Agreement.
 
 ## Set up the Viva Insights integration 
 
@@ -76,7 +78,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
     :::image type="content" source="../../media/glint/setup/import-insights-popup-window.png" alt-text="Screenshot of the Get Started importing Viva Insights data into Glint window.":::
 
-## 1 - Add behavioral attributes from Viva Insights
+## Add behavioral attributes from Viva Insights
 
 In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint will also respect Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
@@ -126,7 +128,7 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 |Meeting hours with Skip Level Manager|Number of meeting hours a person attended where their manager's manager also attended the meeting|0 to less than 0.01|0.01 to less than 0.5|0.5 to less than 1| 1 or more|Hour|
 |Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
 
-## 2 - Import data
+## Import data
 
 In the **Select Programs and Cycles** section, import data from previous cycles and set up automatic imports for future cycles. 
 
