@@ -211,7 +211,7 @@ Viva Insights uses email addresses to find the corresponding EntraID for process
 
 EffectiveDate is the date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as the default.
 
-#### Scenario 1
+#### Scenario
 
 1.	Your data source tracks email address changes by EffectiveDate.
 2.	The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”.  This change is recorded in the HCM system using EffectiveDate.
@@ -279,29 +279,6 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
 3.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights.
     * Select **04/20/2024** from the dropdown and not **04/25/2024** or **05/10/2024**. 
     * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID "A" for all past dates.
-
-#### Scenario 3
-
-1.	Data source doesn’t track the email address changes and you didn't recently export data.
-2.	Email address was recycled for EntraID "A" and assigned to EntraID "B". You want the email address to match the new person (EntraID "B") for the entire historical data.
-
-**Example:**
-
-1. The snapshot exported from the HCM source system on 04/20/2024:
-
-    | PersonId | EffectiveDate | Organization |
-    |----|----|----|
-    | BoSmith@contoso.com | 04/01/2024 | ABC |
-
-2.	04/22/2024: The email address changed from BoSmith@contoso.com to BoJames@contoso.com for EntraID “A”.
-3.	04/25/2024: Email address BoSmith@contoso.com is removed.
-4.	04/29/2024: BoSmith@contoso.com is assigned to another EntraID "B" (for example, the email address is recycled).
-
-5.	05/10/2024: The file exported on the snapshot date is uploaded in Viva Insights. It contains email address BoSmith@contoso.com, which belongs to EntraID "B" but previously belonged to EntraID "A"
-
-    * Select **04/29/2024** from the dropdown and not **04/20/2020**, **04/25/2024**, **04/22/2024**, or **05/10/2024**. 
-    * This ensures that the email address on 04/29/2024 (for example, BoSmith@constoso.com) is used to fetch new EntraID "B" for all past dates.
-        * If you select **04/20/2024** from the dropdown, then the email address on 04/20/2024 (for example, BoSmith@constoso.com) fetches EntraID "A" for all past dates. In this case, the email address matches the previous person for the entire historical data.
 
 
 ## Attribute reference
