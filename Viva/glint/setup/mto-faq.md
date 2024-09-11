@@ -102,7 +102,7 @@ Yes. Admins need to add the users to the target tenant, import the users’ HRIS
 - Add users directly to the target tenant.
 - An MTO policy and user sync aren't needed because these users have the target tenant as their home tenant in Entra.
 
-## Can set up one tenant now and add others later?
+## Can our organization set up one tenant now and add others later?
 Yes. If you currently have multiple tenants, you can migrate and access Glint with your primary tenant to start with.
 
 ## Are there any licensing requirements?
