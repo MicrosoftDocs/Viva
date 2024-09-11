@@ -22,12 +22,13 @@ description: "Users can now format Viva Engage posts using bold, italic, bullets
  
 Viva Engage offers rich text formatting for your posts. Formatting options include bold, italic, links, bullets, and numbered lists. 
 
-Composing messages with rich text formatting is available on the mobile app, Viva Engage desktop, and Viva Engage for the web.
+You can compose messages with rich text formatting on the Viva Engage mobile app, desktop app, and web client. Additionally, Engage feeds in SharePoint (through the Conversations web part) also offer rich text formatting.
 
 When you post a new message, you'll find a menu at the bottom of your message with these formatting options.
 
 ## Implications for export
 
 When you export formatted messages using [Export Network Data](../manage-security-and-compliance/export-viva-engage-enterprise-data.md) two columns for the message text are included in messages.csv and messageVersions.csv:
+
 - **body**: includes the unformatted message text 
 - **html_body**: includes the message text formatted with HTML
