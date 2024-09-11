@@ -16,8 +16,6 @@ audience: Admin
 
 # Assign licenses for Viva Insights
 
-*Applies to: Microsoft 365 global admin and Viva Insights admin*
-
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
 
@@ -33,7 +31,7 @@ The license-assignment process for Viva Insights has two main steps:
 
 ## Determine the analyzed population
 
-Before you can assign licenses, the Microsoft 365 global admin, the Viva Insights sponsor, and the Insights Administrator work together to identify the analyzed population. This population consists of the people in your company—called *measured employees*—whose Microsoft 365 collaboration activity you want to analyze. Some organizations choose to analyze the entire population, while others use population subsets for specific analysis scenarios. If you want to get insights that reflect all people in the company, you'll need to assign everyone a license.
+Before you can assign licenses, the Microsoft 365 Global Administrator, the Viva Insights sponsor, and the Insights Administrator work together to identify the analyzed population. This population consists of the people in your company—called *measured employees*—whose Microsoft 365 collaboration activity you want to analyze. Some organizations choose to analyze the entire population, while others use population subsets for specific analysis scenarios. If you want to get insights that reflect all people in the company, you'll need to assign everyone a license.
 
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
@@ -90,5 +88,3 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 
 > [!div class="nextstepaction"]
 > [Assign user roles](./assign-user-roles.md)
-
-*Applies to: Microsoft 365 Privileged Role Administrator*
