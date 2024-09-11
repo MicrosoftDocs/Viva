@@ -51,11 +51,11 @@ The **Program Setup** page is the first configuration page within **Program Summ
 **Confidential responses** is set to **Custom Confidential** by default to promote accurate feedback.
 
 1. **Enable Export of Raw Survey Responses** - Enabling this functionality allows admins to export ungrouped, identifiable survey responses. Disabling this function permanently disallows access to or export of those responses, including the ability to transfer the data to a third party. [Learn more about raw survey access](/../../viva/glint/setup/employee-raw-data-export).
-1. **Company Message to Survey Participants** - Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title “Message from [<Client_Name>],” directly following Glint’s confidentiality statement.
+1. **Company Message to Survey Participants** - Allows organizations to add more details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. You can also add guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title "Message from [<Client_Name>]," directly following Glint's confidentiality statement.
 
->[!NOTE]
-> - Translations for the Company Message must be done manually.
-> - The character limit for the Company Message to Survey Participants is 1,024.
+   >[!NOTE]
+   > - Translations for the Company Message must be done manually.
+   > - The character limit for the Company Message to Survey Participants is 1,024.
 
 >[!TIP]
 > - Custom messaging previously set up within General Settings but edited at the survey level, overrides the initial messaging - **survey level custom messaging takes precedence**.
