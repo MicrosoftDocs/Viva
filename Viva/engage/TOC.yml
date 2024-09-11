@@ -60,14 +60,16 @@
        items:
         - name: Viva Engage and Microsoft 365 groups
           href: engage-microsoft-365-groups.md
+        - name: Create a dynamic group
+          href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
         - name: Customize your community
           href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Work with Microsoft Entra B2B guests
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
-        - name: Create a dynamic group
-          href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
         - name: All Company communities
           href: /viva/engage/manage-viva-engage-groups/all-company-community
+        - name: Restrict All Company posts
+          href: /viva/engage/manage-viva-engage-groups/restrict-all-company-posts
      - name: Manage Viva Engage users
        items:
         - name: Set up a usage policy

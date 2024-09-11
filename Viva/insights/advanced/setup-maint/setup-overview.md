@@ -40,5 +40,3 @@ Advance to the next article to learn how to assign Viva Suite and Insights licen
 > [!div class="nextstepaction"]
 > [Assign licenses](assign-licenses.md)
 
-*Applies to: Microsoft 365 global admin*
-

@@ -16,7 +16,7 @@ audience: Admin
 
 # Customize Viva Insights privacy settings
 
-![insights admin](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
+*Applies to: Insights Administrator*
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page.
 

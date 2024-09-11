@@ -14,17 +14,19 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.date: 09/10/2024
 ---
 
 # Send Viva Insights data into Viva Glint (public preview)
 
+*Applies to: Microsoft 365 Global admin, Viva Glint admin*
+
 >[!IMPORTANT]
->This feature is currently availabile to public preview customers only. Features described here are subject to change.
+>This feature is currently available to public preview customers only. Features described here are subject to change.
 >
 >Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of on the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.
 
-Glint admins can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
+Glint can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
 -	Explore employee sentiment relative to behaviors
 -	Filter employee sentiment by ways of working
@@ -38,11 +40,18 @@ Select **Learn more** in the platform to get more information about the integrat
 
 :::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
 
-## Sync with Entra ID
+This article discusses how to import survey results – employee-level survey responses, question/item text, question/item labels, categories, survey names, rating scales, and survey closed date – from Viva Glint into Viva Insights. 
+
+## Integration workflow 
+
+1. The **Microsoft 365 Global admin** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+
+2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+
+## To resync the data to pick up the Entra ID changes: 
 
 If you see discrepancies between Glint active users and you Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
 
-To resync the data to pick up the Entra ID changes: 
 - In manage integration: delete all attributes and remove all programs. 
 - Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
 
@@ -67,11 +76,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
     :::image type="content" source="../../media/glint/setup/import-insights-popup-window.png" alt-text="Screenshot of the Get Started importing Viva Insights data into Glint window.":::
 
-## Add behavioral attributes from Viva Insights
-
-There are two steps to this process.
-
-### Step 1
+## 1 - Add behavioral attributes from Viva Insights
 
 In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint will also respect Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
@@ -121,7 +126,7 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 |Meeting hours with Skip Level Manager|Number of meeting hours a person attended where their manager's manager also attended the meeting|0 to less than 0.01|0.01 to less than 0.5|0.5 to less than 1| 1 or more|Hour|
 |Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
 
-### Step 2
+## 2 - Import data
 
 In the **Select Programs and Cycles** section, import data from previous cycles and set up automatic imports for future cycles. 
 
@@ -146,7 +151,7 @@ Select **Manage Integration**. The **Import Viva Insights data** page opens.
 
 :::image type="content" source="../../media/glint/setup/glintsights-manage-insights-integration.png" alt-text="Screenshot of the Manage integration button.":::	
 
- ## Manage imported attributes
+## Manage imported attributes
 
 You can see the list of attributes imported. 
 

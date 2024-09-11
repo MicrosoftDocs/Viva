@@ -14,15 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 09/10/2024
 ---
 
 # Managers and teams using Viva Glint Team Conversations
 
 Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help managers have a meaningful conversation that moves their team forward to achieve organizational goals. 
-
-Watch this 3-minute video to learn about Team Conversations:
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHQ2]  
 
 ## Manager guidelines for launching Team Conversations
 
@@ -36,8 +33,6 @@ From the manager dashboard:
 
 When **Team Conversation Sharing** is enabled, employees are sent a link to Team Conversations. The presentation looks the same as the manager's presentation, but can't be edited or marked as complete. The recipient also can't forward the presentation to anyone.
 
-The procedure:
-
 1. From the results dashboard, in Manager Concierge, select **Launch Team Conversation.**
 2. Select **Get Started**.
 3. Select the **Share** button at the top right on the screen.
@@ -47,13 +42,13 @@ The procedure:
 7. Select **Send**.
 
 >[!NOTE]
-> To receive Team Conversations, the user must have access to the user role permission **View my Surveys**.
+> To receive Team Conversations, the user must have access to the User Role permission **View my Surveys**.
 
 ### Present the Team Conversations Kit
 
 Select **Start Presentation**. This hides the page list, practices, and tips. Select **Stop Presentation** when you want to pause for conversation with your team.
 
-Team Conversations covers the following, in the terminology preselected:
+Team Conversations covers the following, in your preselected terminology:
 
 - How to have a successful meeting
 - Reflections

@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 09/04/2024
+ms.date: 09/05/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -46,6 +46,7 @@ You can use feature access management to manage access to the following features
 |-|-|-|-|-|
 |Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|Engage admin|VivaEngage|
 ||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Engage admin|VivaEngage|
+|Goals|[Copilot in Viva Goals](/viva/goals/copilot-intro)|No|Goals admin|VivaGoals|
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
 ||[Copilot Dashboard Delegation](/viva/insights/org-team-insights/delegate-access)|No|Global admin|VivaInsights|
