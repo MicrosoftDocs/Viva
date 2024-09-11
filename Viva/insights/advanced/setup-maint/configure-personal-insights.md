@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure personal insights defaults
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Exchange Online admin*
+*Applies to: Exchange Online admin*
 
 To configure settings for personal insights, you have a few options:
 

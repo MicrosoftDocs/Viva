@@ -1,5 +1,5 @@
 ---
-ms.date: 9/4/2024
+ms.date: 9/10/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -50,7 +50,7 @@ The types of insights and features provided by the dashboard vary depending on t
 
 *Applies to: Employee users*
 
-If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard).
+If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard). You must opt in to the Viva Insights app in Teams or on the web. Your admin can set users' access to Viva Insights using [these steps](../advanced/setup-maint/configure-personal-insights.md#prerequisites-defaults-and-privacy).
 
 1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
 
@@ -69,13 +69,12 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
 
-Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet all of the following criteria to qualify:
+Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet both of the following criteria to qualify:
 
-* Most users in the tenant have the Manager ID attribute assigned
-* Most users in the tenant are part of a single reporting line
-* The tenant has more than 2,500 seats
+* The majority of users in the tenant are part of a single reporting line; for example, they report to the same CEO
+* The tenant has at least 2,500 users with an Entra ID
 
-For those qualifying tenants, only users who meet both of the following criteria are enabled by default:
+For those qualifying tenants, only users who meet all of the following criteria are enabled by default:
 
 * The user’s in the top three levels in the organization
 * The user has a significant portion of the organization in their reporting line
@@ -149,7 +148,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of three ways:
+By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot dashboard can get organizational data in one of three ways:
 
 * Through Microsoft Entra ID, which is the default setting
 * Through an [organizational data file in Microsoft 365 that your Global admin uploads](/viva/organizational-data)
