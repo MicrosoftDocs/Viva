@@ -15,18 +15,18 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.date: 09/11/2024
 ---
 
 # How Viva Glint helps protect your privacy
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback. This is how our customers get the most out of Glint.
 
-Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Viva Glint offers two types of surveys: confidential and identifiable.
+Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Glint offers two types of surveys: confidential and identifiable.
 
 ## Confidential surveys
 
-For confidential surveys, Glint aggregates (group averages) responses before reporting results. It's easier to guess a survey taker's identity when there are just a few responses. For this reason, confidential survey responses are reported only when an item meets the confidentiality threshold for responses. Your organization chooses this number and it might differ for items versus comments. For a survey to be confidential, the minimum number of responses is three (3). 
+For confidential surveys, Glint aggregates (group averages) responses before reporting results. It's easier to guess a survey taker's identity when there are just a few responses. For this reason, confidential survey responses are reported only when an item meets the confidentiality threshold for responses. Your organization chooses this number and it might differ for *items* versus *comments*. For a survey to be confidential, the minimum number of responses is three (3). 
 
 > [!NOTE]
 > Glint surveys might contain three types of items/questions:
@@ -118,9 +118,12 @@ The default minimum response thresholds for ratings and multiple-choice question
 
 ## Suppression thresholds add further protection
 
-In some cases, even when the minimum response threshold is met, the ability to filter a report by attributes might allow a responder to be identified. In these cases, responses are **suppressed**,— they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two (2) responses that separate the smallest attribute group from the next smallest group that meets the minimum response threshold.
+In some cases, even when the minimum response threshold is met, the ability to filter a report by attributes might allow a responder to be identified. In these cases, responses are **suppressed**,— they aren't reported even if the minimum response threshold is met. 
 
-### Example - Marketing PM
+>[!IMPORTANT]
+>The suppression threshold requires two (2) or more responses that separate the smallest attribute group from the next smallest group that meets the minimum response threshold.
+
+**Example - Marketing PM**
 > - Five (5) of the six (6) team members are in North America; one (1) is in Europe.
 > - The organization configured Glint to allow filtering of responses by survey taker region.
 > - The survey's minimum response threshold is five (5).
@@ -129,7 +132,7 @@ In some cases, even when the minimum response threshold is met, the ability to f
 
 >In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
 
-#### Why?
+>**Why?**
 
 > By comparing the teamwide score to the North American score, the PM might mathematically be able to determine the score received from the single European team member. When the PM sees that the North American score is 'Very Good,' but the teamwide score isn't, the user might infer that the European team member brought the average down. With a little math, the PM could calculate the exact score the European team member provided.
 > 
