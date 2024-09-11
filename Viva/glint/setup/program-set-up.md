@@ -28,7 +28,7 @@ The **Program Setup** page is the first configuration page within **Program Summ
 :::image type="content" source="../../media/glint/setup/program-summary-setup-vg.png" alt-text="Screenshot that The Basics section of Program Setup.":::
 
 1. Enter a **Program Name**.
-1. Select the adminis by searching by **Role** or entering their name into the **Search** feature.
+1. Select the admins by searching by **Role** or entering their name into the **Search** feature.
 1. Select the **Default Language** from the dropdown menu.
 1. The list of **Additional Languages** is prepopulated with languages set up for your organization in **General Settings**. To remove languages, select the **X** next to the language name.
 1. **Admin Notifications** These admins are notified of upcoming surveys. They are prepopulated in the General Settings feature. Use the **Search** field to find other admins to add.
@@ -46,7 +46,7 @@ The **Program Setup** page is the first configuration page within **Program Summ
 
 ## Confidentiality
 
-:::image type="content" source="../../media/glint/setup/program-setup-confidentiality.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
+:::image type="content" source="../../media/glint/setup/program-setup-confidentiality-2.png" alt-text="Screenshot that shows the Confidentiality setup within Program Setup.":::
 
 **Confidential responses** is set to **Custom Confidential** by default to promote accurate feedback.
 
