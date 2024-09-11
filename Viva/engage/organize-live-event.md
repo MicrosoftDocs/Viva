@@ -71,13 +71,14 @@ As a live event organizer, make sure that you and your audience have the necessa
 For more information, see [Enforce Office 365 identity for Viva Engage users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and Viva Engage and Microsoft 365 groups. 
  
 #### Attend a live event
+
 - Attendees must have a Microsoft 365 or Office 365 plan that includes a license for Viva Engage and Microsoft Teams (for example, Office 365 A3, A5, F1, E1, E3, or E5).
-- You must be a member of the Viva Engage network in which the event is hosted to attend a live event in a public group. Guests and external users have no access to live events. 
+- You must be a member of the Viva Engage network in which the event is hosted to attend a live event in a public group. **Guests and external users have no access to live events.**
 - You must be a member of the private group in which the event is hosted to attend a live event in a private group.
 
 
 ## Configure video and permissions in advance
-Before you can create a live event, you must configure video, community, and user permissions. Tasks you may need to complete include adding users, updating video permissions, and changing a community from private to public. Permissions take up to two hours to propagate across Teams and Viva Engage. 
+Before you can create a live event, you must configure video, community, and user permissions. Tasks you may need to complete include adding users, updating video permissions, and changing a community from private to public. Permissions take up to two hours to propagate across Teams and Viva Engage.
 
 We recommend that you configure these settings at least 24 hours in advance to allow time to test and adjust your settings.   
 
