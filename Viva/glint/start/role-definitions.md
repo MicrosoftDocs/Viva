@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Microsoft M365 global admin, Viva Glint admin, Viva Glint manager, Viva Glint end user 
+keywords: Microsoft 365 Global Administrator, Viva Glint Administrator, Viva Glint manager, Viva Glint end user 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,22 +14,22 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2024
+ms.date: 09/11/2024
 ---
 
 # Key roles for Viva Glint
 
-Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 global admin. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
+Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 Global Administrator. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
 
-## Microsoft 365 global admin
+## Microsoft 365 Global Administrator
 
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
-- Can access all data
 - Assigns Viva Glint admin roles
 
-## Viva Glint admin
+## Viva Glint Administrator
 
-- Assigned by the M365 global admin to have responsibility for leadership tasks within the Viva Glint platform
+- Assigned by the Microsoft 365 Global Administrator to have responsibility for leadership tasks within the Viva Glint platform
+- Can access all data
 - Sets up programs and surveys, distribution lists, and reporting features
 - Supports managers in all aspects of action taking
 - Best practice is to assign no more than five Viva Glint admins
