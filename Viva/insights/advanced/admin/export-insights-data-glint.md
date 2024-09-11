@@ -17,11 +17,9 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-*Applies to: Microsoft 365 Global admin, Viva Glint admin*
-
 You can share specific Viva Insights metrics about your employees with Viva Glint, to add more context to the survey responses employees provide through Glint. Through this integration, you can add more data about how employees work (Viva Insights) to the employee feedback data you have (Viva Glint). This can give you a clearer picture about what might be driving employee sentiment and survey responses.
 
-First, to send Viva Insights data to Viva Glint, your Microsoft 365 Global admin must consent to share the data, using the steps below. 
+First, to send Viva Insights data to Viva Glint, your Microsoft 365 Global Administrator must consent to share the data, using the steps below. 
 
 **Workflow**
 
@@ -30,8 +28,6 @@ First, to send Viva Insights data to Viva Glint, your Microsoft 365 Global admin
 2. The **Viva Glint admin** sets up the integration and adds the relevant metrics from Viva Insights.
 
 ## Consent to share Viva Insights data with Viva Glint 
-
-*Applies to: Microsoft 365 Global admin*
 
 >[!Note]
 > Only the Microsoft 365 Global admin can enable sharing of Viva Insights data. The Global Reader, Exchange admin, and Insights admin have view privileges for the setting.
@@ -58,7 +54,7 @@ First, to send Viva Insights data to Viva Glint, your Microsoft 365 Global admin
 
 ## Remove consent to share Viva Insights data with Glint
 
-*Applies to: Microsoft 365 Global admin*
+The steps below must be performed by the Microsoft 365 Global admin.
 
 1. Log in to the [Microsoft 365 admin center](https://admin.microsoft.com).
 
