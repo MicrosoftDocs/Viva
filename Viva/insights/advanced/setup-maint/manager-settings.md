@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure manager settings
 
-![Graph of Viva Insights admin settings.](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
+*Applies to: Insights Administrator*
 
 >[!Important]
 > Manager settings affect [organization insights](../../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web.
