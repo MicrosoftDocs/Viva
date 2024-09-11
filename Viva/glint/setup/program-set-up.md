@@ -37,8 +37,8 @@ The **Program Setup** page is the first configuration page within **Program Summ
 1. Confidential Responses are set to **YES** by default.  
 1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users can't resubmit survey responses.
 
->[!NOTE]
->To remove an admin, select **X** next to their name.
+  >[!NOTE]
+  >To remove an admin, select **X** next to their name.
 
 1. **Enable Team Conversations** is enabled by default. **NO** disables the feature for the program. For more information, see [Team Conversations](https://go.microsoft.com/fwlink/?linkid=2286203). 
 1. When Team Conversations is enabled, **Enable Team Conversations Sharing** is enabled by default. **NO** disables managers from sharing this read-only version of Team Conversations.  
