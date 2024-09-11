@@ -1,5 +1,5 @@
 ---
-ms.date: 9/10/2024
+ms.date: 9/11/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -218,11 +218,7 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, OneNote, Loop, and Copilot chat (formerly Microsoft 365 Chat).
 
-Group totals reflect the sum of groups that are above the minimum group size.  
-
-* Group with less than the minimum group size your Insights admin set won’t be included the sum total.
-
-* When a different “View by” attribute is selected, the Group totals might show different numbers. Because there might be people who don’t report to anyone as detected by Entra, there might be people missing the selected organizational attributes. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
+Group totals reflect all users based on the filtered group, including groups that are below the minimum group size.
 
 :::image type="content" source="images/copilot-dash-adoption-02.png" alt-text="Screenshot that shows the second group of adoption metrics." lightbox="images/copilot-dash-adoption-02.png":::
 
