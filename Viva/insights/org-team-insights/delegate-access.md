@@ -1,5 +1,5 @@
 ---
-ms.date: 08/08/2024
+ms.date: 09/12/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
@@ -15,19 +15,22 @@ audience: Admin
 ---
 # Delegate access to organizational insights and Copilot Dashboard
 
-You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
+You can delegate access to your organizational insights and the Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the [Group Manager](../advanced/setup-maint/manager-settings.md) role isn’t required to delegate access to the Copilot dashboard.  
 
 By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to organizational insights. They can view them and operationalize business decisions based on the data and insights.
 
 There are no changes to the metrics, aggregation, or filtering tools available to the delegate. However, the delegate doesn't have access to your personal insights or personal recommended actions, like sharing insights or sending praise to a recent collaborator.
 
-If you use this optional feature, here are a few other things to note:
+>[!Note]
+>To view and delegate access to the Copilot dashboard, you need to have access to the dashboard, but a Viva Insights subscription is not required. [Learn more about how access to the Copilot dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
+>
+>To view and delegate access to organizational insights, you need a Viva Insights subscription and must be assigned the Group Manager role. [Learn more about roles and access for organizational insights](org-insights.md#subscriptions-roles-and-access).
 
-* You can only delegate access for organizational insights to people who have a Viva Insights license.
+Here are a few other things to note:
 
-* Delegates for Copilot dashboard no longer require a Viva Insights subscription.
+* You can only delegate access to organizational insights to people who have a Viva Insights license.
 
-* You can delegate access to whomever you want and to as many people as you want (maximum limit of 75), so long as they are in your tenant.
+* You can delegate access to whomever you want and to as many people as you want (maximum limit of 75), as long as they're in your tenant.
 
 * You can revoke access to whomever you want at any time.
 
@@ -117,5 +120,6 @@ Admins can use audit logs to identify which users have access to Viva Insights t
 | Removed delegate access | RemoveDelegates |  The user who provided access | The user whose access was changed  | Copilot Dashboard delegate | Disabled |
 
 
-## Related topics
-[Organization insights](org-insights.md)
+### Related topics
+[Learn more about organization insights](org-insights.md)
+[Learn more about the Copilot dashboard](copilot-dashboard.md)
