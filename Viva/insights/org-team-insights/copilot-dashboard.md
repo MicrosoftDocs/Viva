@@ -529,7 +529,7 @@ Any employee who has been assigned a Copilot license, including the following se
 * Microsoft 365 Copilot in Productivity Apps
 * Microsoft 365 Copilot in Microsoft Teams
 * Connectors and Plugins for Microsoft 365 Copilot
-* Business Chat
+* Business Chat (work)
 * Intelligent Search
 
 **Q7. After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
