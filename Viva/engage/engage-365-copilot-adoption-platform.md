@@ -27,7 +27,7 @@ Network admins and corporate communicators can enable a Viva Engage community sp
 The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
 
 Network admins and corporate communicators can access configuration settings through a discoverable banner in their home feed.
-If you're a network admin or corporate communicator of an eligible tenant and don't see the banner in your home feed, you can access the configuration settings in the [Admin center](http://engage.cloud.microsoft/main/admin).
+If you're a network admin or corporate communicator of an eligible tenant and don't see the banner in your home feed, you can access the configuration settings from the [Viva Engage Admin center](/viva/engage/eac-overview#access-the-viva-engage-admin-center).
 
 >[!NOTE]
 >The **Microsoft 365 Copilot adoption community** is only available in Viva Engage tenants that have Microsoft 365 Copilot licenses through one of the following [service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot): Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams.
