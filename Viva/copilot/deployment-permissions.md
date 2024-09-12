@@ -1,5 +1,5 @@
 ---
-title: Deployment and Administrator setup for Microsoft 365 Copilot in Viva Glint (preview)
+title: Deployment and administrator setup for Microsoft 365 Copilot in Viva Glint (preview)
 description: Viva Glint Administrators grant user permissions for Microsoft 365 Copilot in Viva Glint.
 author: JudyWeiner
 manager: MelissaBarry
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 09/12/2024
 ---
 
-# Deployment and Administrator setup for Microsoft 365 Copilot in Viva Glint (preview)
+# Deployment and administrator setup for Microsoft 365 Copilot in Viva Glint (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
