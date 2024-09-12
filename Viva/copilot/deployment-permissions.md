@@ -1,6 +1,6 @@
 ---
 title: Deployment and administrator setup for Microsoft 365 Copilot in Viva Glint (preview)
-description: Viva Glint Administrators grant user permissions for Microsoft 365 Copilot in Viva Glint.
+description: Viva Glint administrators grant user permissions for Microsoft 365 Copilot in Viva Glint.
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
@@ -23,6 +23,26 @@ ms.date: 09/12/2024
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
 
+## Viva Glint Administrators assign Microsoft 365 Copilot in Viva Glint permissions
+
+There are two levels of controls:
+- The MAC Viva Feature Access Management (VFAM) control 
+- The Glint program level control
+
+>[!IMPORTANT]
+>The MAC control always supersedes the Glint program control.
+
+In some cases, when Microsoft 365 Copilot is disabled in MAC,  the Copilot in Viva Glint control is hidden. There are scenarios when it is not. 
+This table explains the scenarios: 
+
+|Scenario|Tenant policy|User/VFAM policy|Group policy|Viva Glint Admin feature toggle visibility|Glint Admin User Role feature toggle status|Feature functionality|User A| User B|User C| User D|
+|----|------|-----|-----|------|----|----|----|----|----|----|
+|1|Enabled (no action taken)|No User/Group policies created|Copilot enabled for all users|Visible |Enabled|Copilot available for users enabled by Viva Glint Admin|Disabled|Disabled|Enabled|Enabled|
+
+
+
+
+
 ## Deployment considerations
 
 Think about:
@@ -30,7 +50,7 @@ Think about:
 - **Comment count** – do you expect a high number of comments?
 - **Survey timing** – can you align with an upcoming survey? 
 - **Comfort with AI** – can you engage superusers to help others with the rollout?
-- **Amount of change** – is your organization already going through change? Is this time right to add a new tool?
+- **Amount of change** – is your ,organization already going through change? Is this time right to add a new tool?
 
 ## Copilot in Viva Glint can be used across roles
 
