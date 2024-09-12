@@ -29,7 +29,7 @@ As an Insights Administrator, you can set up and edit **Manager settings** to al
 
 In addition to the settings you configure below, managers need to have two things before they can access organization insights in Viva Insights:
 
-* A license assigned to them by the Microsoft 365 global admin
+* A license assigned to them by the Microsoft 365 Global Administrator
 * A team that meets or exceeds the **Minimum team size** setting
 
 ### Team size

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 7/28/2023
+ms.date: 09/11/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -27,11 +27,10 @@ When a user's Microsoft Entra attributes are updated within your organization, d
 
 |**Requirement** <br/> |**Learn more** <br/> |
 |:-----|:-----|
-|Your organization must be using Microsoft Entra ID P1 or P2.  <br/> |[Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkId=869572) <br/> |
-|Your organization must have a license for Microsoft Entra ID P1 or P2 for each user added to at least one dynamic group.  <br/> |[Microsoft Entra pricing](https://go.microsoft.com/fwlink/?linkId=869572) <br/> |
+|Your organization must be using Microsoft Entra ID P1 or P2 and have a license for each user that's added to a dynamic group.  <br/> |[Microsoft Entra pricing](https://go.microsoft.com/fwlink/?linkId=869572) <br/> |
 |The person setting up the groups must have permissions to update Microsoft Entra ID.  <br/> |[Built-in roles for Azure role-based access control](/azure/role-based-access-control/built-in-roles) <br/> |
-|Creating dynamic groups requires using PowerShell to change the associated Active Directory group to make it dynamic.  <br/> |[Manage Microsoft 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540) <br/> |
-|Only Viva Engage groups that are connected to Microsoft 365 can be set up as dynamic groups. This means you must be enforcing Microsoft 365 or Office 365 identity in Viva Engage, and your Viva Engage network must have existing Microsoft 365 connected groups.  <br/> |[Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) <br/> [Join and create a community](https://support.microsoft.com/en-au/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4) <br/> |
+|Changing the associated Active Directory group to make it dynamic requires PowerShell. <br/> |[Manage Microsoft 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540) <br/> |
+|Only Viva Engage groups that are connected to Microsoft 365 can be set up as dynamic groups. This means you must be enforcing Microsoft 365 identity in Viva Engage, and your Viva Engage network must have existing Microsoft 365 connected groups.  <br/> |[Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) <br/> [Join a community](https://support.microsoft.com/en-us/topic/join-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4) <br/> |
 
 ## Create a dynamic group in Viva Engage
 

@@ -15,8 +15,6 @@ audience: Admin
 ---
 # Assign roles
 
-*Applies to: Privileged Role Administrator and Microsoft 365 global admin*
-
 >[!Note]
 >This article covers how to assign the Insights Administrator, Insights Analyst, and Insights Business Leader roles to users.
 For specific information about what each role can do with Viva Insights, refer to [Roles in Viva Insights](../../use/user-roles.md).
@@ -31,7 +29,7 @@ The Microsoft 365 admin assigns roles through the Microsoft admin center, unless
 
 ### Assign roles in the Microsoft admin center  
 
-*Applies to: Microsoft 365 global admin*
+These steps must be performed by the Microsoft 365 Global Administrator.
 
 1. Go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
 1. Under **Add-on Plan**, select the role you want to assign: **Insights Admin**, **Insights Business Leader**, or **Insights Analyst**.
@@ -74,9 +72,7 @@ Within a few days of being assigned a Viva Insights role, Insights Administrator
 
 ### Assign roles in the Microsoft admin center
 
-*Applies to: Microsoft 365 global admin*
-
-You can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
+You as the Microsoft 365 global admin can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead. Then, assign a role to the selected group. For more details, refer to [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 

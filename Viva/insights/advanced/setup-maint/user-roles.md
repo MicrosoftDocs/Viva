@@ -22,7 +22,7 @@ Each role only gives access to actions, pages, reports, and data that correspond
 
 ## Inherited roles
 
-Users with the **Global Admin** role in Microsoft Entra ID automatically inherit Insights Administrator privileges.
+Users with the **Microsoft 365 Global Administrator** role in Microsoft Entra ID automatically inherit Insights Administrator privileges.
 
 ## Role descriptions and access levels
 
