@@ -30,7 +30,7 @@ If you've configured [Organizational Data in Microsoft 365](organizational-data.
 
 Your configuration experience with Organizational Data in Microsoft 365 and Copilot depends on whether you're configuring organizational data for the first time or if you've previously set it up and are now adding Copilot into your infrastructure.
 
-## How data works with the Microsoft Copilot Dashboard
+## How data works with the Copilot Dashboard
 When you get a Viva Insights or Copilot license, your tenant is considered *new*. To access Copilot reports, you need to meet the prerequisites and upload data  through the Microsoft Admin center or Viva Insights (if you have a Viva Insights license). This initial upload requires that your data has 100% coverage for the **Microsoft_PersonID** column and 95% coverage for the **Microsoft_ManagerEmail** and **Microsoft_Organization** columns. 100% compliance with the **Microsoft_PersonId** attribute helps prevent data import errors. After successful upload, you can access Copilot data quality reports. Until you successfully upload your data and it has been validated, the default data quality report shown uses data from Microsoft Entra ID.  
 
 If you also have a Viva Insights license, it's *strongly recommended* that you complete the upload from Viva Insights. 
