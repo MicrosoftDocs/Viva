@@ -1,5 +1,5 @@
 ---
-title: "Set up Copilot in Viva Engage"
+title: "Set up Microsoft 365 Copilot for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization."
+description: "Learn how to configure and incorporate Microsoft 365 Copilot for Viva Engage into your organization."
 ---
 
-# Set up Copilot in Viva Engage 
+# Set up Microsoft 365 Copilot for Viva Engage 
 
-Copilot in Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
+Microsoft 365 Copilot for Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
 ## Licensing requirements
 
-Copilot in Viva Engage is enabled by default for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_).
+Copilot is enabled by default for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_).
 AI Summarization (which includes AI-powered summarization, theme extraction, and sentiment analysis) is enabled for all users in the tenant, regardless of license.
 
 For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing).
@@ -91,7 +91,7 @@ On the home page, Copilot generates proactive, personalized suggestions about po
 >[!NOTE]
 >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
-## Copilot as Viva Engage guide
+## Copilot as guide
 
 Copilot makes personalized suggestions of what to post on Viva Engage, and where. These suggestions, or Conversation Starters, are personalized based on the viewing user’s activity and what is trending in their organization’s network.
 
@@ -121,4 +121,4 @@ During collaboration, Copilot provides proactive coaching to help maintain authe
 
 ## See also
 
-[Data, Privacy, and Security for Copilot in Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
+[Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)

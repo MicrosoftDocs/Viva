@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Viva Engage rolls out a Copilot adoption community to answer questions and share best practices"
+description: "Viva Engage rolls out a Microsoft 365 Copilot adoption community to answer questions and share best practices"
 ---
 
 # Microsoft 365 Copilot adoption community in Viva Engage
