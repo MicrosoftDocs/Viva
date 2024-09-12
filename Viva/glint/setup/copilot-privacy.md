@@ -1,6 +1,6 @@
 ---
 title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
-description: 
+description: Microsoft 365 Copilot in Viva Glint summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
