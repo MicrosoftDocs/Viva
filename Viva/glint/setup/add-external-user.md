@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/30/2024
+ms.date: 09/12/2024
 ---
 
 # Manage external users in Viva Glint
@@ -22,7 +22,7 @@ ms.date: 01/30/2024
 The Support User role is designed to grant the right permissions to external users, like Microsoft Partners, and allow Viva Glint Admins to quickly audit how many Support users have access to their Viva Glint application. Support users can help with deployment, advanced insights analysis, and complex support tasks. 
 
 > [!IMPORTANT]
-> External support users must be added to Microsoft Entra ID as **members** *with a company email address* for your organization before you can add them to your Viva Glint HRIS.
+> External support users must be added to Microsoft Entra ID as **members with a company email address** for your organization before you can add them to to the Viva Glint platform. These external users shouldn't be included in your HRIS employee data file.
 >
 > [Add and delete users in Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2252181)
 
