@@ -1,5 +1,5 @@
 ---
-title:  Microsoft 365 Copilot in Viva Glint FAQs (preview)
+title:  Copilot in Viva Glint FAQs (preview)
 description: Scan the most commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -16,17 +16,17 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 06/29/2024
 ---
 
-# Microsoft Copilot in Viva Glint FAQs (preview)
+# Copilot in Viva Glint FAQs (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
 
 ## Foundational and enablement questions
 
-**Q: Should we have concerns about bias in Microsoft 365 Copilot in Viva Glint? What metrics are used to measure performance?**
+**Q: Should we have concerns about bias in Copilot in Viva Glint? What metrics are used to measure performance?**
 
 **A:** At Microsoft, our commitment to responsible AI is paramount. Copilot in Viva Glint aligns with our AI principles and undergoes rigorous internal stress testing. We ensure Copilot’s comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information. Our ongoing evaluation process incorporates feedback from early adopters and customers, helping us continuously enhance Copilot's performance.
 
@@ -77,9 +77,9 @@ ms.date: 09/12/2024
 
 **A:** Yes. Copilot can analyze comment data from the previous two cycles within a program, including surveys migrated from LinkedIn Glint.
  
-<br>**Q: Does Copilot in Viva Glint pull from the program level or generic settings for confidentiality thresholds?**
+<br>**Q: Does Copilot pull from the program level or generic settings for confidentiality thresholds?**
 
-**A:** Copilot in Viva Glint aligns with the threshold configured on the dashboard or report being viewed.
+**A:** Copilot aligns with the threshold configured on the dashboard or report being viewed.
  
 <br>**Q: What data controls are in place?**
 
@@ -110,7 +110,7 @@ one at time?**
 
 **A:** Not yet, but it’s another feature we would like to explore.
  
-<br>**Q: Can Copilot in Viva Glint recognize when some groups (based on attributes) have more of a negative or positive reactions to a certain question? Can it determine cultural bias or language/translation problems?**
+<br>**Q: Can Copilot recognize when some groups (based on attributes) have more of a negative or positive reactions to a certain question? Can it determine cultural bias or language/translation problems?**
 
 **A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages, as English is currently the only language available.
 
@@ -120,20 +120,20 @@ one at time?**
 
 **A:** Yes! We let you know as soon as new features are available for Copilot in Viva Glint. All items mentioned as currently unavailable are on our list for consideration.
 
-<br>**Q: Does Copilot in Viva Glint have any limitations?**
+<br>**Q: Does Copilot have any limitations?**
 
 **A:** Currently, but under consideration for the future:
-- Copilot in Viva Glint works on completed survey cycles for Recurring and Ad hoc programs only. It isn’t currently available for Employee Lifecycle, Always-On, or 360 Feedback programs. 
+- Copilot works on completed survey cycles for Recurring and Ad hoc programs only. It isn’t currently available for Employee Lifecycle, Always-On, or 360 Feedback programs. 
 - There must be at least one Recurring or Ad hoc program survey *administered* or *closed* on your Glint platform to use the feature. 
-- Copilot in Viva Glint doesn’t take quantitative survey results into consideration. It can’t answer questions that require comparison scores between questions or employee groups. 
+- Copilot doesn’t take quantitative survey results into consideration. It can’t answer questions that require comparison scores between questions or employee groups. 
 - Any AI can make mistakes misrepresenting the information it finds. If you encounter harmful, inappropriate, or inaccurate responses, immediately provide feedback or report a concern through our feedback button in Copilot in Viva Glint or in the Viva Glint app.
-- Copilot in Viva Glint samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 1000 comments (seeded comments - they come from the same 1000 questions if the prompt is regenerated).
-- Copilot in Viva Glint doesn’t currently support cross-program filters.
-- Copilot in Viva Glint doesn’t currently support plug-ins.
+- Copilot samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 1000 comments (seeded comments - they come from the same 1000 questions if the prompt is regenerated).
+- Copilot doesn’t currently support cross-program filters.
+- Copilot doesn’t currently support plug-ins.
 
 <br>**Q: What languages does Copilot support for comment summarization?**
 
-**A:**  We let you know when Copilot in Viva Glint can manage language translations beyond its default English. We’re actively evaluating the accuracy of non-English language comment summarization.
+**A:**  We let you know when Copilot can manage language translations beyond its default English. We’re actively evaluating the accuracy of non-English language comment summarization.
 
 
 
