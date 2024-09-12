@@ -26,7 +26,7 @@ Copilot in Viva Glint suggests items that are relevant to your data set and help
 
 Share this guidance with your managers:
 
-## Look at the big picture before using Copilot in Viva GLint
+## Look at the big picture before using Copilot in Viva Glint
 
 Use your Glint [Team Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231210) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](https://go.microsoft.com/fwlink/?linkid=2231116) for your team, as well as the other summaries on your dashboard. 
 
@@ -94,7 +94,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Choose a prompt or ask your own question in the box at the bottom of Copilot in Viva Glint. For this example, the first prompt is chosen.
 
-    :::image type="content" source="../../media/glint/setup/copilot-question-box.png" alt-text="Screenshot of the Copilot in Viva GLint question box in the Copilot in Viva Glint panel."lightbox="../../media/glint/setup/copilot-question-box.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-question-box.png" alt-text="Screenshot of the Copilot in Viva Glint question box in the Copilot in Viva Glint panel."lightbox="../../media/glint/setup/copilot-question-box.png":::
 
 1. A pop-up indicates the prompt or question chosen and that Copilot in Viva Glint is “working on it.” If you made an error or wish to stop the summary generation for any reason, select **Stop Generating**.
 
@@ -168,7 +168,7 @@ Here are a few ideas of how to use Copilot in Viva Glint in reports:
   - Summarize by core driver.
 
 ## Copy your Copilot in Viva Glint summary to your clipboard
-Copilot in Viva Glint is only preserved within a user session. Once you log out, Copilot in Viva Glint summarization disappears. To save your Copilot in Viva GLint summary to your clipboard:
+Copilot in Viva Glint is only preserved within a user session. Once you log out, Copilot in Viva Glint summarization disappears. To save your Copilot in Viva Glint summary to your clipboard:
 
 1. Highlight the content you want to save.
 2. Select the **Copy** symbol.
