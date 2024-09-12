@@ -2160,6 +2160,11 @@
       "source_path": "Viva/glint/setup/best-practice-setup-guidance.md",
       "redirect_url": "/viva/glint/setup/customize-program",
       "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/glint/setup/contact-support.md",
+    "redirect_url": "/viva/troubleshoot/glint/contact-support/get-support-viva-glint",
+    "redirect_document_id": false
   }     
   ]
 }

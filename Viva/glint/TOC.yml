@@ -24,9 +24,7 @@ items:
       - name: Newsletter registration
         href: setup/newsletter-register.md
       - name: Submit product feedback
-        href: setup/glint-product-feedback.md        
-      - name: Contact support
-        href: setup/contact-support.md        
+        href: setup/glint-product-feedback.md      
       - name: Viva People Science research
         items:
         - name: Viva People Science and Glint
@@ -515,3 +513,5 @@ items:
         items:
            - name: Tenant provisioning and licensing errors
              href: /viva/troubleshoot/glint/provisioning-and-licensing/tenant-provisioning-licensing-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+      - name: Contact support
+        href: /viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json          
