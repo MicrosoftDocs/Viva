@@ -35,13 +35,18 @@ There are two levels of controls:
 In some cases, when Microsoft 365 Copilot is disabled in MAC,  the Copilot in Viva Glint control is hidden. There are scenarios when it is not. 
 This table explains the scenarios: 
 
-|Scenario|Tenant policy|User/VFAM policy|Group policy|Viva Glint Admin feature toggle visibility|Glint Admin User Role feature toggle status|Feature functionality|User A| User B|User C| User D|
+|Scenario|Tenant policy|User/VFAM policy|Group policy|Feature toggle visibility|User Role feature toggle status|Feature functionality|User A| User B|User C| User D|
 |----|------|-----|-----|------|----|----|----|----|----|----|
-|1|Enabled (no action taken)|No User/Group policies created|Copilot enabled for all users|Visible |Enabled|Copilot available for users enabled by Viva Glint Admin|Disabled|Disabled|Enabled|Enabled|
+|1|Enabled (no action taken)|None created|Copilot enabled for all users|Visible |Enabled|Copilot available for users enabled by Viva Glint Admin|Disabled|Disabled|Enabled|Enabled|
+|2|Disabled|None created|Copilot not enabled for any users.<br><br> Copilot disabled for all users in tenant|Not visible|Disabled|Copilot not available for any users|Disabled|Disabled|Disabled|Disabled|
+|3|Disabled|Certain users/groups enabled|Copilot enabled only for certain users|Visible|Enabled|Copilot available for users enabled at VFAM level and enabled at Viva Glint Admin level|Disabled|Disabled|Enabled|Enabled|
+|4|Enabled(no action taken)|Certain users/groups enabled|Copilot disabled only for certain users|Visible|Enabled|Copilot available for users enabled at VFAM level and enabled at Viva Glint Admin level|Disabled|Disabled|Disabled|Enabled|
 
+**View these diagrams to support your understanding of the table.**
 
+:::image type="content" source="../../media/glint/setup/scenario-1-2.png" alt-text="Screenshot of scenarios 1 and 2 for Tenant Policy.":::
 
-
+:::image type="content" source="../../media/glint/setup/scenario-3-4.png" alt-text="Screenshot of scenarios 3 and 4 for Tenant Policy.":::
 
 ## Deployment considerations
 
@@ -52,9 +57,10 @@ Think about:
 - **Comfort with AI** – can you engage superusers to help others with the rollout?
 - **Amount of change** – is your ,organization already going through change? Is this time right to add a new tool?
 
-## Copilot in Viva Glint can be used across roles
+## Microsoft 365 Copilot in Viva Glint can be used across roles
 
-Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers.
+Use Microsoft 365nCopilot in Viva Glint for admins, HR leaders, org leaders, and managers.
+<br>
 - **Admins and HR** can use Copilot in Viva Glint to summarize large sets of data, allowing this group to quickly find key insights and support ad-hoc requests from stakeholders.
 - **Org leaders** can use Copilot in Viva Glint to summarize comments for their teams. They can uncover similarities and unique needs based on comments people are leaving using prompts and filters for different populations across their org.
 - **Managers** can use Copilot in Viva Glint to get access to comment summarization services. Managers can quickly uncover comments bundled by common subject matter or theme, identifying areas to explore deeper in their ACT conversations.
