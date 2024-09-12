@@ -46,7 +46,7 @@ Now, access Copilot in Viva Glint in one of these ways:
 
 ## First-time user experience for Copilot in Viva Glint
 
-1.	Select the **Copilot** symbol.
+1. Select the **Copilot** symbol.
    
    :::image type="content" source="../../media/glint/setup/copilot-symbol.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use."lightbox="../../media/glint/setup/copilot-symbol.png":::
 
