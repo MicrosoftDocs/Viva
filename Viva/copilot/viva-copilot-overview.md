@@ -40,7 +40,7 @@ Copilot in Viva Goals applies AI to create, share, and summarize your organizati
 
 [Learn more about Copilot in Viva Goals.](../goals/copilot-intro.md)
 
-## Microsoft 365 Copilot Dashboard in Viva Insights
+## Microsoft Copilot Dashboard in Viva Insights
 
 > [!NOTE]
 > The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required.
@@ -50,4 +50,4 @@ Copilot in Viva Goals applies AI to create, share, and summarize your organizati
 
 The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. The dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
-[Learn more about the Microsoft 365 Copilot Dashboard.](../insights/org-team-insights/copilot-dashboard.md)
+[Learn more about the Microsoft Copilot Dashboard.](../insights/org-team-insights/copilot-dashboard.md)
