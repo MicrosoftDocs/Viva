@@ -36,7 +36,7 @@ Here are a few other things to note:
 
 * A delegate can't delegate access to others.
 
-* If you assign delegates, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
+* If you assign delegates for organizational insights, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
 
 ## How to assign a delegate
 
