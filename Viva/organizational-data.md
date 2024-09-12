@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 08/22/2024
+ms.date: 09/16/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ description: "Import Organizational Data in Microsoft Viva and Microsoft 365"
 Microsoft 365 User Profile Data comes from two main sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from Organization Data in Microsoft 365 through a .csv file that you upload. The properties in the Microsoft Entra schema and in the Microsoft 365 User Profile match the column names in the .csv file and are referred to as *attributes* in Organizational Data in Microsoft 365. 
 
 > [!NOTE]
-> Do you have Copilot? Check out [Use organizational data in the Microsoft Copilot dashboard](organizational-data-copilot.md) for important information about configuring and accessing the organizational data.
+> Do you have Microsoft 365 Copilot? Check out [Use organizational data in the Microsoft Copilot dashboard](organizational-data-copilot.md) for important information about configuring and accessing the organizational data.
 
 ## Data attributes
 
