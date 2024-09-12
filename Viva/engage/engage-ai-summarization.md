@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Microsoft Copilot 365 for Viva Engage and other features leverage AI Summarization"
+description: "Microsoft Copilot in Viva Engage and other features use AI Summarization"
 ---
 
 # AI Summarization in Viva Engage
 
-AI Summarization is a Viva Engage service that processes and stores conversation threads in the background. Certain features, such as Microsoft 365 Copilot for Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users. When a feature requests summarized data, AI Summarization returns summaries from processed conversation threads to which the user has access.
+AI Summarization is a Viva Engage service that processes and stores conversation threads in the background. Certain features, such as Microsoft Copilot in Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users. When a feature requests summarized data, AI Summarization returns summaries from processed conversation threads to which the user has access.
 
 The [data, privacy, and security guidelines](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) that apply to Copilot also apply to AI Summarization. Processed conversation threads are stored in alignment with General Data Protection Regulation (GDPR) requirements and are accessed the same as other Viva Engage data.
 
