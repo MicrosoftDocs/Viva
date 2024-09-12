@@ -15,16 +15,16 @@ audience: Admin
 ---
 # Delegate access to organizational insights and Copilot Dashboard
 
-You can delegate access to your organizational insights and the Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the [Group Manager](../advanced/setup-maint/manager-settings.md) role isn’t required to delegate access to the Copilot dashboard.  
+You can delegate access to your organizational insights or the Copilot Dashboard to other people within your company.
 
-By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to organizational insights. They can view them and operationalize business decisions based on the data and insights.
+By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to the insights. They can view them and operationalize business decisions based on the data.
 
 There are no changes to the metrics, aggregation, or filtering tools available to the delegate. However, the delegate doesn't have access to your personal insights or personal recommended actions, like sharing insights or sending praise to a recent collaborator.
 
 >[!Note]
->To view and delegate access to the Copilot dashboard, you need to have access to the dashboard, but a Viva Insights subscription is not required. [Learn more about how access to the Copilot dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
->
 >To view and delegate access to organizational insights, you need a Viva Insights subscription and must be assigned the Group Manager role. [Learn more about roles and access for organizational insights](org-insights.md#subscriptions-roles-and-access).
+>
+>To view and delegate access to the Copilot dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
 
 Here are a few other things to note:
 
