@@ -51,3 +51,21 @@ Copilot in Viva Glint gives you the flexibility to roll out to one or many user 
 |**Users**|	Viva Glint admins only|Select group of users|	All User Roles|
 |**Details**|This setting is the default setting for Copilot in Viva Glint.<br><br>You may decide that for the first deployment you don’t want to provide access beyond this group. This option is a way to test and better understand the functionality.<br> <br> As a testing method, admins can use the Copilot in Viva Glint functionality for previously closed surveys.|You may decide to deploy to a group beyond admins but not to your entire eligible population. <br><br> Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|You may decide to deploy to a group beyond admins but not to your entire eligible population. <br><br> Consider which groups (User Roles) can benefit from the feature. Prioritize those survey items with large sets of comments.|
 
+
+
+
+
+
+
+
+
+
+
+
+
+## More Resources
+
+[**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
+[**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
+[**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
+
