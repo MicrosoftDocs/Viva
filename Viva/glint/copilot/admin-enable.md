@@ -1,6 +1,6 @@
 ---
-title: Administrator enablement for Microsoft 365 Copilot in Viva Glint (preview)
-description: Administrators enable Microsoft 365 Copilot in Viva Glint. 
+title: Admin enablement for Microsoft 365 Copilot in Viva Glint (preview)
+description: Admins enable Copilot in Viva Glint. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,18 +16,18 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 09/05/2024
 ---
 
-# Administrator enablement for Microsoft 365 Copilot in Viva Glint (preview)
+# Admin enablement for Microsoft 365 Copilot in Viva Glint (preview)
 
 Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 - You have at least one Recurring or Ad hoc survey administered or closed on the Viva Glint platform
 - Your dashboard default language is set to English
 
-Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot in Viva Glint from being enabled by default for any User Roles. 
+Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot from being enabled by default for any User Roles. 
 
-Assign yourself and others using Copilot in Viva Glint to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**.
+Assign yourself and others using Copilot to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**.
 
 >[!IMPORTANT]
 >Users without access to the Comment Report can't access Copilot in Viva Glint.
@@ -49,13 +49,13 @@ From your admin dashboard, follow this process:
   
    :::image type="content" source="../../media/glint/setup/copilot-permissions.png" alt-text="Screenshot of the Permissions access row in **Role Settings**." lightbox="../../media/glint/setup/copilot-permissions.png":::
 
-5.	In the **Reporting** section of the Permissions and Access page, enable **View Comments**.
+5.	In the *Reporting* section of the Permissions and Access page, enable **View Comments**.
 
     :::image type="content" source="../../media/glint/setup/copilot-view-comments-toggle.png" alt-text="Screenshot of the View Comments checkbox." lightbox="../../media/glint/setup/copilot-view-comments-toggle.png":::
 
 ## Grant Comment Reports access
 
-The second step to enabling the Copilot in Viva Glint feature for User Roles happens in the program's **Reporting** section. This step allows users enabled for the Comment Reports to access the report.
+The second step to enabling the Copilot feature for User Roles happens in the program's *Reporting* section. This step allows users enabled for the Comment Reports to access the report.
 
 From your admin dashboard, follow this process:
 
@@ -66,7 +66,7 @@ From your admin dashboard, follow this process:
 
      :::image type="content" source="../../media/glint/setup/copilot-reporting.png" alt-text="Screenshot of the Reporting section in Program Summary." lightbox="../../media/glint/setup/copilot-reporting.png":::
 
-5. In **Program Roles**, select the User Role to enable with Copilot in Viva Glint. *In this example, the customized role is 'VI'.*
+5. In **Program Roles**, select the User Role to enable with Copilot. *In this example, the customized role is 'VI'.*
 
     :::image type="content" source="../../media/glint/setup/copilot-program-roles.png" alt-text="Screenshot of an example User Role." lightbox="../../media/glint/setup/copilot-program-roles.png":::
 
@@ -74,7 +74,7 @@ From your admin dashboard, follow this process:
 
     :::image type="content" source="../../media/glint/setup/copilot-enabled.png" alt-text="Screenshot of the Role Permissions sections within the Reporting section." lightbox="../../media/glint/setup/copilot-enabled.png":::
 
-## Ensure Copilot in Viva Glint is enabled
+## Ensure Copilot is enabled
 
 From your admin dashboard, follow this process:
 
@@ -85,7 +85,7 @@ From your admin dashboard, follow this process:
 
     :::image type="content" source="../../media/glint/setup/copilot-view-as.png" alt-text="Screenshot of the View As button in User Roles." lightbox="../../media/glint/setup/copilot-view-as.png":::
 
-5. Be sure you see the Copilot button on the user's Viva Glint dashboard.
+5. Be sure you see the Copilot button on that user's Viva Glint dashboard.
 
    :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of the Copilot capability on the manager dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
 

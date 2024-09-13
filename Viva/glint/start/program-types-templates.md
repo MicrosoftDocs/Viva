@@ -14,41 +14,42 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 09/13/2024
 ---
 
 # Viva Glint programs and survey types 
 
 Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
 
-Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Our Viva People Science research team continually updates survey items and develops templates and suggestions to provide meaningful insights into the current world of work.
+Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Viva People Science research teams continually updates survey items and develops survey templates and suggestions to provide meaningful insights into the current world of work.
 
 ## Two categories of surveys 
 
-Within our survey programs, there are two overarching types to consider implementing:
+There are two overarching types to consider:
 
 |Survey type|Description|
 |-----------|-----------|
-|Organizational survey| Often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence|
-|Business unit survey|Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit|
-
-## Survey frequency 
-
-Viva Glint programs are available for different cadences that you set as an admin and can run simultaneously, when appropriate.
+|Organizational survey| Often administered by a global HR (Human Resources) team. Sent to all employees on a recurring cadence|
+|Business unit survey|Often administered by a core business team, HR team, or a local business leader. The goal is to get more specific information for a specific business unit|
 
 ## Types of surveys
 
-Use Viva Glint programs to create feedback habits and support continuous employee and organizational development. 
+Use Glint programs to create feedback habits and support continuous employee and organizational development. 
 
 |Survey type|Description|
 |---------|---------|
 |Recurring engagement or special topic|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
+|Employee Lifecycle|Measure the employee experience during key moment in the employee journey. These surveys are considered trigger events because they use the hire or end date to automatically send.|
 |Ad hoc|Measure something out of the ordinary at an impactful time.
 |Always-On feedback|Provide feedback and suggestions anytime it feels relevant. 
 
+### Survey frequency 
+
+Glint programs are available at cadences set by admins. They can run simultaneously, when appropriate.
+
 ## Viva Glint validated templates
 
-Viva Glint offers prescribed templates and a blank template option for each type of program.
+Glint offers prescribed templates and a blank template option for each type of program.
 
 |Template name|Type|Purpose|Recommended frequency|Target groups for results|Feedback providers|
 |---------|---------|-----|-----------|----------|------------------|
