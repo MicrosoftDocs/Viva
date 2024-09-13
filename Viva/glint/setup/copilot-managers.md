@@ -48,13 +48,13 @@ Now, access Copilot in Viva Glint in one of these ways:
 
 1. Select the **Copilot** symbol.
    
-   :::image type="content" source="../../media/glint/setup/copilot-symbol.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use."lightbox="../../media/glint/setup/copilot-symbol.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-symbol.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use.":::
 
 2. Review the content provided and select **Next** to reveal the Comments pane.
 3. Review the guidance and select **Next**.
 4. Now, **Try Copilot!**
 
-   :::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button."lightbox="../../media/glint/setup/copilot-try.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button.":::
 
 ## Copilot quick tips for managers
 
@@ -94,7 +94,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Choose a prompt or ask your own question in the box at the bottom of Copilot in Viva Glint. For this example, the first prompt is chosen.
 
-   :::image type="content" source="../../media/glint/setup/copilot-question-box.png" alt-text="Screenshot of the Copilot in Viva Glint question box in the Copilot in Viva Glint panel."lightbox="../../media/glint/setup/copilot-question-box.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-question-box.png" alt-text="Screenshot of the Copilot in Viva Glint question box in the Copilot in Viva Glint panel.":::
 
 1. A pop-up indicates the prompt or question chosen and that Copilot in Viva Glint is “working on it.” If you made an error or wish to stop the summary generation for any reason, select **Stop Generating**.
 
@@ -102,11 +102,11 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Copilot in Viva Glint populates with the summary.
 
-   :::image type="content" source="../../media/glint/setup/copilot-pane-populated.png" alt-text="Screenshot of a Copilot in Viva Glint summary."lightbox="../../media/glint/setup/copilot-pane-populated.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-pane-populated.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
 1. Now use the View Prompt Guide menu again to display more prompts, or key in your own question in the box provided. 
 
-   :::image type="content" source="../../media/glint/setup/copilot-second-prompt.png" alt-text="Screenshot of the question box in Copilot."lightbox="../../media/glint/setup/copilot-second-prompt.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-second-prompt.png" alt-text="Screenshot of the question box in Copilot.":::
 
 7. Repeat this step until you have the right information to help you have a meaningful ACT Conversation with your team. [Find the Manager Guide to ACT Conversations here](https://go.microsoft.com/fwlink/?linkid=2231274).
    
@@ -142,13 +142,13 @@ Follow this procedure to view a specific set of comments and summarize them usin
 
 1. Select **Summarize** in the **Summary by Copilot** row.
 
-   :::image type="content" source="../../media/glint/setup/copilot-summarize.png" alt-text="Screenshot of the Copilot summarize button."lightbox="../../media/glint/setup/copilot-summarize.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-summarize.png" alt-text="Screenshot of the Copilot summarize button.":::
 
 1. A pop-up indicates your comments are being scanned and then summarized.
 
 1. Review your summary and select the **Copy** symbol to save it.
 
-	 :::image type="content" source="../../media/glint/setup/copilot-copy-symbol.png" alt-text="Screenshot of the Copilot copy symbol."lightbox="../../media/glint/setup/copilot-copy-symbol.png":::
+	 :::image type="content" source="../../media/glint/setup/copilot-copy-symbol.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
 ## Copilot in Viva Glint use in other Glint reports
 
@@ -176,7 +176,7 @@ Copilot in Viva Glint is only preserved within a user session. Once you log out,
 1. Highlight the content you want to save.
 2. Select the **Copy** symbol.
 
-	 :::image type="content" source="../../media/glint/setup/copilot-save-summary-2.png" alt-text="Screenshot of how to save the Copilot summary."lightbox="../../media/glint/setup/copilot-save-summary-2.png":::
+	 :::image type="content" source="../../media/glint/setup/copilot-save-summary-2.png" alt-text="Screenshot of how to save the Copilot summary.":::
 
 ## Give in-product feedback
 

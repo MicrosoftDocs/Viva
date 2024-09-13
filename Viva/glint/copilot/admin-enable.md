@@ -51,7 +51,7 @@ From your admin dashboard, follow this process:
 
 5.	In the **Reporting** section of the Permissions and Access page, enable **View Comments**.
 
-    :::image type="content" source="../../media/glint/setup/copilot-view-comments-toggle.png" alt-text="Screenshot of the View Comments checkbox." lightbox="../../media/glint/setup/copilot-view-comments-toggle.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-view-comments-toggle.png" alt-text="Screenshot of the View Comments checkbox.":::
 
 ## Grant Comment Reports access
 
@@ -83,7 +83,7 @@ From your admin dashboard, follow this process:
 3.	Select any employee in a User Role in which you expect Copilot to be enabled.
 4.	Once you are on that user’s profile, select **View As** to validate the user’s reporting experience.
 
-    :::image type="content" source="../../media/glint/setup/copilot-view-as.png" alt-text="Screenshot of the View As button in User Roles." lightbox="../../media/glint/setup/copilot-view-as.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-view-as.png" alt-text="Screenshot of the View As button in User Roles.":::
 
 5. Be sure you see the Copilot button on the user's Viva Glint dashboard.
 
