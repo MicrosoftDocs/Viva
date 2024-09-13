@@ -40,10 +40,10 @@ From your admin dashboard, follow this process:
 2.	In the **Employees** section, select **User Roles**.
 3.	Select the User Role to provide Comment Report access. In this example, Company Admin is chosen.
    
-     :::image type="content" source="../../media/glint/setup/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions." lightbox="../../media/glint/setup/copilot-select-user.png":::
+    :::image type="content" source="../../media/glint/setup/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions." lightbox="../../media/glint/setup/copilot-select-user.png":::
 
->[!NOTE]
->The Manager role has Comment Report permission enabled as a default setting.
+    > [!NOTE]
+    > The Manager role has Comment Report permission enabled as a default setting.
 
 4. Select **Permissions**.
   
