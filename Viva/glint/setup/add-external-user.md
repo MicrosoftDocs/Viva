@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 09/13/2024
 ---
 
 # Manage external users in Viva Glint
@@ -27,6 +27,9 @@ The Support User role is designed to grant the right permissions to guests, like
 > [Add and delete users in Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2252181)
 
 ## Add a Support or Partner user
+
+> [!CAUTION]
+> Don't add support or partner users to the Viva Glint Company Admin role by [assigning them in the Microsoft 365 admins center](post-provisioning-next-steps.md). Users won't be able to successfully login to Glint.
 
 To add a user:
 
@@ -42,7 +45,7 @@ To add a user:
 6. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
 7. Select **Add support user.**
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Users with access to Advanced Configuration settings can make changes to potentially sensitive areas of your Viva Glint configuration. For an Advanced Configuration overview, see [Understand Advanced Configuration options in Viva Glint.](https://go.microsoft.com/fwlink/?linkid=2240194)
 
 ## Remove a Support or Partner user
