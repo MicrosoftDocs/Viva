@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 7/12/2023
+ms.date: 9/12/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -30,5 +30,3 @@ On the Viva Engage web app, you can further customize your network by uploading 
 3. To upload a company logo to display on the home feed of your network in both the web and mobile apps, upload a logo in the **Upload Network Logo** field.
 
 4. After you have uploaded a logo, make sure to select the **Display** logo on your network home feed.
-
-:::image type="content" source="../../media/yam-network-branding-logo-upload.PNG" alt-text="Screenshot of network.":::
