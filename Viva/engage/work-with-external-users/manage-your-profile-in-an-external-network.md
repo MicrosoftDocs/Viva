@@ -25,7 +25,7 @@ Each Microsoft Viva Engage external network is separate from the user's home net
 Users in an external network are responsible for managing their profiles and the amount of information they provide.  
 
 > [!IMPORTANT] 
-> Your profile is visible to all other participants within the external network. Additionally, profile information is shared between your external and home network accounts.   
+> Your profile is visible to all other participants within the external network. Additionally, profile information is shared between your external and home network accounts.
 By participating in an external network, you agree to share this information about yourself
 with other participants in the external network. Be aware that profile information may also be visible in other areas of Viva Engage or through the REST API.
 
@@ -38,10 +38,9 @@ After you sign in, the **Settings** icon contains a blue dot.
  
 2. Under **Profile**, make the changes you need to your information.
 
-    :::image type="content" source="../../media/engage/admin/ext-network-account-profile.png" alt-text="Screenshot showing locate profile settings in a tab under Account settings.":::
+  :::image type="content" source="../media/engage/admin/ext-network-account-profile.png" alt-text="Screenshot showing locate profile settings in a tab under Account settings.":::
 
-    All information on this tab is visible to others in the network. 
-    Any changes you make here carry over to your home network profile.
+  All information on this tab is visible to others in the network. Any changes you make here carry over to your home network profile.
 
 3. Select **Save**.
 
@@ -57,12 +56,12 @@ You can leave a Viva Engage external network at any time and for any reason.
 1.	After signing in to the external network, select **Settings** > **Edit Settings**.
 
   
-    :::image type="content" source="../../media/engage/admin/ext-network-settings.png" alt-text="Screenshot showing locate Network settings in a tab under Account settings.":::
+ :::image type="content" source="../media/engage/admin/ext-network-settings.png" alt-text="Screenshot showing locate Network settings in a tab under Account settings.":::
   
 
 2. Under Networks, select the **Leave Network** option for the external network you want to leave.  
 
-      :::image type="content" source="../../media/engage/admin/ext-network-leave.png" alt-text="Screenshot of the Networks tab lists all networks you're a member of.":::
+  :::image type="content" source="../media/engage/admin/ext-network-leave.png" alt-text="Screenshot of the Networks tab lists all networks you're a member of.":::
 
 ### What happens after I leave the external network
 
