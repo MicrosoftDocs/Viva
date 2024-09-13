@@ -73,4 +73,4 @@ If you have a legal reason to view private messages, as a verified Engage admin 
   
 ## See also
 
-[Reduce visibility of a user's posts in Viva Engage](../manage-viva-engage-users/mute-user-in-network.md)
+[Reduce visibility of a user's posts in Viva Engage](../work-with-external-users/mute-user-in-network.md)
