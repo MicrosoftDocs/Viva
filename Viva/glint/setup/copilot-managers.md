@@ -37,7 +37,7 @@ Now, access Copilot in Viva Glint in one of these ways:
 >[!IMPORTANT]
 >Copilot in Viva Glint can summarize comments on any report.
 
-:::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard."lightbox="../../media/glint/setup/copilot-access-button.png":::
+:::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
 
 ## There are two different Copilot in Viva Glint experiences
 
@@ -86,11 +86,11 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Select the **Copilot** button.
 
-   :::image type="content" source="../../media/glint/setup/copilot-comment-card-entry.png" alt-text="Screenshot of the Comments Report."lightbox="../../media/glint/setup/copilot-comment-card-entry.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-comment-card-entry.png" alt-text="Screenshot of the Comments Report." lightbox="../../media/glint/setup/copilot-comment-card-entry.png":::
 
 1. A Copilot in Viva Glint panel opens and provides survey prompts.
 
-   :::image type="content" source="../../media/glint/setup/copilot-pane.png" alt-text="Screenshot of the Copilot pane."lightbox="../../media/glint/setup/copilot-pane.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-pane.png" alt-text="Screenshot of the Copilot pane." lightbox="../../media/glint/setup/copilot-pane.png":::
 
 1. Choose a prompt or ask your own question in the box at the bottom of Copilot in Viva Glint. For this example, the first prompt is chosen.
 
@@ -98,7 +98,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. A pop-up indicates the prompt or question chosen and that Copilot in Viva Glint is “working on it.” If you made an error or wish to stop the summary generation for any reason, select **Stop Generating**.
 
-   :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard."lightbox="../../media/glint/setup/copilot-access-button.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
 
 1. Copilot in Viva Glint populates with the summary.
 
@@ -116,12 +116,12 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
    > [!CAUTION]
    > If you enable advanced filtering, the report can’t go back to basic filtering.
 
-   :::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access View all comments and comments used in the Copilot summary."lightbox="../../media/glint/setup/copilot-view-verbatim.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access View all comments and comments used in the Copilot summary." lightbox="../../media/glint/setup/copilot-view-verbatim.png":::
 
    > [!IMPORTANT]
    > Copilot in Viva Glint doesn't provide a response or summarization if the comment count falls below the confidentiality threshold.
 
-   :::image type="content" source="../../media/glint/setup/copilot-filters.png" alt-text="Screenshot of how to access comment filters."lightbox="../../media/glint/setup/copilot-filters.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-filters.png" alt-text="Screenshot of how to access comment filters." lightbox="../../media/glint/setup/copilot-filters.png":::
 
 ## Use Copilot in Viva Glint to view specific comments in a report
 
@@ -132,11 +132,11 @@ Follow this procedure to view a specific set of comments and summarize them usin
 1. From the Glint dashboard, select **Reports.**
 2. Choose the report you wish to see. In this example, **Team Summary.**
 
-   :::image type="content" source="../../media/glint/setup/copilot-team-summary.png" alt-text="Screenshot of the Team Summary Report card within the Reports tab."lightbox="../../media/glint/setup/copilot-team-summary.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-team-summary.png" alt-text="Screenshot of the Team Summary Report card within the Reports tab." lightbox="../../media/glint/setup/copilot-team-summary.png":::
 
 1. There are several opportunities within the report to view comments. Choose the specific comments you want to see. In the example, there are a total of 14,461 comments, but let’s summarize the 1,520 comments from Flora’s team.
 
-   :::image type="content" source="../../media/glint/setup/copilot-flora.png" alt-text="Screenshot of choosing to view comments from the Glint dashboard."lightbox="../../media/glint/setup/copilot-flora.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-flora.png" alt-text="Screenshot of choosing to view comments from the Glint dashboard." lightbox="../../media/glint/setup/copilot-flora.png":::
 
 1. **Hover over the comment count and select it** to reveal the **All Comments** panel.
 
