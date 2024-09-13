@@ -45,9 +45,9 @@ This table explains the scenarios:
 
 **View these diagrams to support your understanding of the table.**
 
-:::image type="content" source="../../media/glint/setup/scenario-1-2.png" alt-text="Screenshot of scenarios 1 and 2 for Tenant Policy.":::
+:::image type="content" source="../media/glint/setup/scenario-1-2.png" alt-text="Screenshot of scenarios 1 and 2 for Tenant Policy.":::
 
-:::image type="content" source="../../media/glint/setup/scenario-3-4.png" alt-text="Screenshot of scenarios 3 and 4 for Tenant Policy.":::
+:::image type="content" source="../media/glint/setup/scenario-3-4.png" alt-text="Screenshot of scenarios 3 and 4 for Tenant Policy.":::
 
 ## Deployment considerations
 
