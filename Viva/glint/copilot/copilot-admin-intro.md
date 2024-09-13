@@ -1,5 +1,5 @@
 ---
-title: Introduction and admin setup for Copilot in Viva Glint (preview)
+title: Introduction to Copilot in Viva Glint (preview)
 description: Copilot in Viva Glint enables leaders and HR to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/05/2024
+ms.date: 09/13/2024
 ---
 
 # Introduction and admin setup for Copilot in Viva Glint (preview)
