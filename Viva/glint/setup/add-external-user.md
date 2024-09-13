@@ -29,7 +29,7 @@ The Support User role is designed to grant the right permissions to guests, like
 ## Add a Support or Partner user
 
 > [!CAUTION]
-> Don't add support or partner users to the Viva Glint Company Admin role by [assigning them in the Microsoft 365 admins center](post-provisioning-next-steps.md). Users won't be able to successfully login to Glint.
+> Don't add support or partner users to the Viva Glint Company Admin role by [assigning them in the Microsoft 365 admin center](post-provisioning-next-steps.md). Users won't be able to successfully log in to Glint.
 
 To add a user:
 
