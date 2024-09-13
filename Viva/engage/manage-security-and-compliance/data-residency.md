@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 11/15/2023
+ms.date: 09/13/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
