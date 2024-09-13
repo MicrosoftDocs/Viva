@@ -38,7 +38,7 @@ After you sign in, the **Settings** icon contains a blue dot.
  
 2. Under **Profile**, make the changes you need to your information.
 
-  :::image type="content" source="../media/ext-network-account-profile.png" alt-text="Screenshot showing locate profile settings in a tab under Account settings.":::
+  :::image type="content" source="../media/engage/admin/ext-network-account-profile.png" alt-text="Screenshot showing locate profile settings in a tab under Account settings.":::
 
   All information on this tab is visible to others in the network. Any changes you make here carry over to your home network profile.
 
