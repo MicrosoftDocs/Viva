@@ -2,8 +2,8 @@
 ms.date: 01/04/2024
 title: Copilot in Viva Goals FAQ
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
+ms.author: daisyfeller
+author: daisyfell
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -23,7 +23,7 @@ description: "Learn the answers to some frequently asked questions regarding Cop
 
 # Copilot in Viva Goals FAQ
 
-Below are the answers to some frequently asked questions regarding Microsoft Copilot in Viva Goals.
+Below are the answers to some frequently asked questions regarding Microsoft 365 Copilot in Viva Goals.
 
 ## What kinds of reviews has Copilot in Viva Goals gone through?
 

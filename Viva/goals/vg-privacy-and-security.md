@@ -76,7 +76,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 - [Viva Goals Data Residency](#viva-goals-data-residency)
 - [Viva Goals Data Retention](#viva-goals-data-retention)
 - [Viva Goals GDPR Requests](#viva-goals-gdpr-requests)
-- [Copilot in Viva Goals](#copilot-in-viva-goals)
+- [Microsoft 365 Copilot in Viva Goals](#copilot-in-viva-goals)
 
 ### General questions
 
@@ -272,7 +272,7 @@ Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has 
 
 #### Does Copilot in Viva Goals use customer data to train its model?
 
-No. Copilot in Viva Goals uses a foundational model, operating through prompts based on sample Viva Goals data and common instructions. Prompts, responses, and data accessed through Copilot in Viva Goals aren't used to train LLMs.
+No. Microsoft 365 Copilot in Viva Goals uses a foundational model, operating through prompts based on sample Viva Goals data and common instructions. Prompts, responses, and data accessed through Copilot in Viva Goals aren't used to train LLMs.
 
 #### How does Copilot in Viva Goals use my organizational data?
 
