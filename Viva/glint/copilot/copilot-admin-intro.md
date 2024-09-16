@@ -1,5 +1,5 @@
 ---
-title: Introduction to Copilot in Viva Glint (preview)
+title: Introduction to Microsoft 365 Copilot in Viva Glint (preview)
 description: Copilot in Viva Glint enables leaders and HR to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -19,7 +19,7 @@ ms.localizationpriority: high
 ms.date: 09/13/2024
 ---
 
-# Introduction and admin setup for Copilot in Viva Glint (preview)
+# Introduction to Microsoft 365 Copilot in Viva Glint (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
@@ -27,7 +27,7 @@ ms.date: 09/13/2024
 HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
 
-## What is Copilot in Viva Glint?
+## What is Microsoft 365 Copilot in Viva Glint?
 
 Copilot in Viva Glint is built to answer questions about your survey comments. It's your partner for all comment analysis and can:
 - Summarize your comments
@@ -36,7 +36,7 @@ Copilot in Viva Glint is built to answer questions about your survey comments. I
 - Summarize comments by items
 - Identify what action employees are asking for
 
-### Does Copilot have any limitations?
+### Does Microsoft 365 Copilot have any limitations?
 
 - Copilot works on completed survey cycles for Recurring and Ad hoc programs. It isn’t currently available for Employee Lifecycle, Always-On, or 360 Feedback programs. 
 - There must be at least one Recurring or Ad hoc program survey administered or closed on your Glint platform to use the feature. 
@@ -45,11 +45,11 @@ Copilot in Viva Glint is built to answer questions about your survey comments. I
 - Copilot samples a subset of comments from each question, proportionate to the overall comment count per question. The current limit for this feature is 1000 comments.
 - Currently Copilot can't manage language translations beyond its default English.
 
-### Are more Copilot features planned?
+### Are more Microsoft 365 Copilot features planned?
 
 Yes! As with all Viva Glint features, we post as soon as new features are available. 
 
-## How can my organization use Copilot in Viva Glint?
+## How can my organization use Microsoft 365 Copilot in Viva Glint?
 
 Copilot answers queries related to your comment data in Glint, such as:
 
@@ -59,7 +59,7 @@ Copilot answers queries related to your comment data in Glint, such as:
 |Understand experiences of unique sub-populations|What are Engineers in North America saying about opportunities for growth?|
 |Uncover action people hope you take|What are people requesting leaders do to increase communication?|
 
-## Copilot can be used across roles
+### Microsoft 365 Copilot in Viva Glint can be used across roles
 
 Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers.
 - **Admins and HR** can use Copilot to summarize large sets of data, allowing this group to quickly find key insights and support ad-hoc requests from stakeholders.
@@ -69,13 +69,13 @@ Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers.
 > [!NOTE]
 > Copilot in Viva Glint defaults to **Off** for all User Roles, including company owners. Every user who should have Copilot enabled needs to be placed into a User Role category with that permission. Copilot can be activated for any number of user subsets designated.
 
-### Microsoft’s commitment to responsible AI
+### The Microsoft commitment to responsible AI
 
 Copilot in Viva Glint aligns with our [AI principles](https://www.microsoft.com/ai/principles-and-approach) and undergoes rigorous internal stress testing. We actively identify and address systematic issues, ensuring Copilot comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information.
 
-## Choose a method to roll out Copilot 
+## Choose a method to roll out Microsoft 365 Copilot in Viva Glint
 
-Copilot gives you the flexibility to roll out to one or many user roles. Consider what approach is right for your organization. 
+Copilot in Viva Glint gives you the flexibility to roll out to one or many user roles. Consider what approach is right for your organization. 
 
 ||Admin Release|	Selective deployment|	Full deployment|
 |-----------|----------|------------|-----|
@@ -91,7 +91,7 @@ Think about:
 - **Comfort with AI** – can you engage superusers to help others with the rollout?
 - **Amount of change** – is your organization already going through change? Is this time right to add a new tool?
 
-## Best practices for Copilot
+## Best practices for Microsoft 365 Copilot in Viva Glint
 
 Use our best practices to maximize the benefits from Copilot in Viva Glint. Use programs and survey formats that align with the strengths and current capabilities of Copilot in Viva Glint.  
 
@@ -102,9 +102,9 @@ Use our best practices to maximize the benefits from Copilot in Viva Glint. Use 
 
 ## More Resources
 
-[**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
-[**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
-[**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
+- [**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
+- [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
+- [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
 
 
