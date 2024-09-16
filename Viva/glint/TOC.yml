@@ -177,7 +177,7 @@ items:
             href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
-      - name: Manage translations 
+      - name: Manage language translations for surveys and emails
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
