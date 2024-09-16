@@ -354,6 +354,8 @@ items:
         items:
           - name: Team Conversations presentation kit
             href: reports/coaching-team-conversations.md
+          - name: Customize a PowerPoint template in Glint
+            href: setup/custom-ppt-upload.md
           - name: Customize Team Conversations email content
             href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
