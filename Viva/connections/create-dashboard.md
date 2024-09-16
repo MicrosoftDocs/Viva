@@ -1,6 +1,6 @@
 ---
 ms.date: 02/02/2024
-title: "Add, edit, and remove cards from the Viva Connections dashboard"
+title: "Add and edit cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
@@ -20,7 +20,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to edit the Viva Connections dashboard"
+description: "Learn how to add and edit cards on the Viva Connections dashboard to customize content available to users"
 ---
 
 # Create a Viva Connections dashboard and add cards
@@ -128,7 +128,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
 |[Viva Learning](#add-a-viva-learning-card)    | ![Illustration of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences. |
 |[Viva Pulse](#add-a-viva-pulse-card) | ![Illustration of the Viva Pulse card icon.](../media/connections/create-dashboard/pulse-card-icon-nb.png) | Provide a short status of a recently sent pulse with a link to the Viva Pulse app for users to learn more. |
-|[Web link](#add-a-web-link-card)    | ![Illustration of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
+|[Web link](#add-a-web-link-card)    | ![Illustration of the web link card icon.](../media/connections/web-link-icon.png) | Incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections.  |
 
 ## Design your own card with the card designer
 
@@ -450,7 +450,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
 
 2. Select **OneDrive** from the dashboard toolbox.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive card icon.":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive dashboard card icon.":::
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the OneDrive card.
 
@@ -465,7 +465,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
     - **Shared**: Files that shared with the user display.
     - **Favorites**: Files that the user marked as "favorite" display.
 
-7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 Groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel.":::
 
@@ -631,11 +631,11 @@ Partner cards and an entry point to browse more cards in the app store will auto
 4. You'll receive an email to confirm if your request has been approved or denied by the App Catalog Admin.
 5. Once your request has been approved, refresh the page to see the new card display in the toolbox.
 
-#### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
+#### Option 2: Acquire the app from the Microsoft commercial marketplace or the SharePoint store
 
 - If you're building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you need approval from an admin of the tenant-level app catalog to continue with the installation
 - If you're an **admin** of a tenant-level app catalog, you can deploy business apps directly.
-You can acquire apps from non-Microsoft developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
+You can acquire apps from non-Microsoft developers by browsing the [Microsoft commercial marketplace](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
 [Get step-by-step guidance](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) on how to request and deploy an app, and add an app to your site. For tenant admin, [learn how to manage apps](/sharepoint/use-app-catalog#work-with-sharepoint-store-apps) in the App Catalog.
 
@@ -718,7 +718,7 @@ To add the Viva Pulse card to your dashboard:
 
 2. Select **Viva Pulse** from the dashboard toolbox.
 
-      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse card icon.":::
+      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse dashboard card icon.":::
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
@@ -730,9 +730,11 @@ For more information on using Viva Pulse as a feedback author or feedback recipi
 
 ## Add a Web link card
 
-Add a web link card when you want your users to go to an internal or external link on a web site.
+The Web link card is a simple yet powerful option to incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections to offer a seamless user experience. Link to SharePoint sites and pages, [PowerApps](/power-apps/powerapps-overview), surveys and polls created with [Microsoft Forms](https://support.microsoft.com/office/4ffb64cc-7d5d-402f-b82e-b1d49418fd9d), [Viva Engage communities](/viva/engage/overview), or use a URL to provide a link to an internal or external resource. For more information on how URLs and single sign-on works, see the section [here](#how-urls-and-single-sign-on-works).
 
 ![Screenshot of a web link card.](../media/connections/link-card-example.png)
+
+To add the Web link card:
 
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 
@@ -836,20 +838,27 @@ When added, it will automatically be populated with the cards from the existing 
 
 ## How URLs and single sign-on works
 
-For some cards, you'll use links to URLs. Depending on the location of the content, links to URLs might display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ. Get more information about how links to URLs and SSO behave depending on the location of the content you're linking to.
+For some cards, you'll use links to URLs. Depending on the location of the content, links to URLs might display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ.
 
 > [!NOTE]
+>
 > When SSO is not supported, users will be asked to enter their login credentials.
+
+The best experiences will be achieved if the service doesn't require authentication and is anonymously accessible. For content that is stored in Microsoft 365, authentication is automatically handled. For partner services requiring authentication, the recommendation is to [use a dashboard card built by a partner](#add-a-partner-card-or-microsoft-app) to handle authentication.
+
+The following table provides more information about how links to URLs and SSO behave depending on the location of the content you're linking to.
 
 | Opens URL to… | On Teams mobile | On Teams desktop |
 | :------------------- | :------------------- |:---------------|
-| Teams App | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. |
-| Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. |
-| Viva Engage | Viva Engage opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| PowerApps  | PowerApps opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Power Portals  | Power portals open within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
 | External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. |
+| PowerApps  | PowerApps opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Power Portals  | Power portals open within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| SharePoint Link | Page opens within Teams and the user doesn't need to authenticate again. | Page opens within Teams and users doesn't need to authenticate again. |
+| Stream   | Stream opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Sway | Sway opens within Teams and the user doesn't need to authenticate again. | Sway opens within Teams and the user is asked to sign in the first time. The user doesn't need to authenticate again if they stay signed in. |
+| Teams App | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. |
+| Viva Engage | Viva Engage opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
 
 ## More resources
 
