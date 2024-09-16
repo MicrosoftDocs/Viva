@@ -1,5 +1,5 @@
 ---
-title: Use the Viva Glint Question Library to locate standard items
+title: Find validated items in the Viva Glint Question Library 
 description: "Choose from hundreds of questions and statements to surface feedback that will provide data to support your company goals."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 09/16/2024
 ---
 
-# Use the Viva Glint Question Library to locate standard items
+# Find validated items in the Viva Glint Question Library
 
 Access the **Question Library** from the admin dashboard, in the **Survey** section. The Microsoft Viva Glint Question Library contains hundreds of questions and statements (we call them *items*) that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated in the template. You can create and edit items from the Question Library, but Glint suggests using our standard questions as most are mapped to benchmarks.
 
@@ -47,7 +47,7 @@ Some Glint standard items (questions) have two versions
 >  - When a reporting (item) label is changed, it instantly propagates to all programs, past and present.
 >  - When question text is changed, it propagates to future programs only.
 
-## The implication of customizing Question Library items 
+## The implication of customizing (editing) Question Library items 
 
 Glint has done extensive research to identify the most reliable and valid items linked to survey goals. Our benchmarks are created using the *exact* text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
 
@@ -59,8 +59,6 @@ Glint has done extensive research to identify the most reliable and valid items 
 ## Edit items from the Question Library 
 
 Any item can be edited by hovering over and selecting the row that the item appears on in the Question Library. An **Edit Question** panel displays. From this panel, edit the item and view programs that have used this item.
-
-## Edit an item 
 
 1. Choose the language. Languages for which this item has been translated are visible in the dropdown menu. 
 1. Edit the reporting label, if desired. 
@@ -96,7 +94,6 @@ Use this tab to see if an item is being used with any existing program. To add i
 
 English is the default language for all Glint programs. Of course, you should survey and communicate to your employees in their preferred language. Glint provides its customers with more than many language translations for standard content. Language translations are set during the initial survey configuration in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744) or added later, as needed. 
 
-
 ## Add new items to the Question Library 
 
 Select the **+ Create Question** button on the **Question Library** page. In the **Create Question** panel, edit the question. Upon completion, you see new item in the **Name** column, sorted alphabetically by key driver. 
@@ -104,12 +101,12 @@ Select the **+ Create Question** button on the **Question Library** page. In the
 ## Language translations for Question Library items
 
 > [!div class="languagetranslations"]
-> [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2286458))
+> [Manage language translations](https://go.microsoft.com/fwlink/?linkid=2286458)
    
 ## More resources
 
 [Use this Learn guidance to understand question mapping](question-mapping.md)<br/>
-[Change survey item IDs for expired survey cycles](/../../viva/glint/setup/change-item-id]
+[Change survey item IDs for expired survey cycles](/../../viva/glint/setup/change-item-id)
 
 
 
