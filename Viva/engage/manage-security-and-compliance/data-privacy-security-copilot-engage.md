@@ -1,11 +1,11 @@
 ---
-title: "Data, Privacy, and Security for Copilot in Viva Engage"
+title: "Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 01/17/2024
+ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how Copilot protects your data in Viva Engage (Public Preview)"
+description: "Learn how Microsoft 365 Copilot for Viva Engage protects your data"
 ---
 
-# Data, Privacy, and Security for Copilot in Viva Engage
+# Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage
 
-Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot in Engage provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
+Microsoft 365 Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
 
 ### Copilot capabilities
 
-Copilot in Engage learns from your communities, campaigns, and interests to make personalized suggestions of what you might like to post and where you might benefit from engaging.
+Copilot learns from your communities, campaigns, and interests to make personalized suggestions of what you might like to post and where you might benefit from engaging.
 
-Here are some examples of how Copilot in Engage can help you:
+Here are some examples of how Copilot can help you:
 
 - Brainstorm ideas of what to post, where to post, and points to include in your post.
 
@@ -37,61 +37,62 @@ Here are some examples of how Copilot in Engage can help you:
 
 - Provide feedback and advice about your post.
 
-### Using Copilot in Engage
+### How to use Copilot in Viva Engage
 
-Copilot in Engage is intended to enhance your use of Viva Engage, primarily by suggesting relevant content with which to interact and by assisting the user to communicate valuably.
+Copilot is intended to enhance your use of Viva Engage by suggesting relevant content with which to interact and by assisting the user to communicate valuably.
 
-1. Suggest what and where to post. To reach the optimal audience, Copilot in Engage assists you in determining what content to post and where to post it. This includes identifying content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to your interests and workplace connections.
+1. Suggests what and where to post. To reach the optimal audience, Copilot assists you in determining what content to post and where to post it. Copilot identifies content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to your interests and workplace connections.
 
-2. Creating valuable, engaging, authentic communications. Copilot in Engage assists you in creating high-quality posts that are likely to be valuable, engaging, and perceived as authentic. This involves deciding what points to include in the post, assisting in composition of the post itself, and subsequently editing it for factors such as tone, length, and keywords. Copilot can also provide feedback on your post. You can attach images to enhance their posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
+2. Creates valuable, engaging, authentic communications. Copilot assists you in creating high-quality posts that are likely to be valuable, engaging, and perceived as authentic. This involves deciding what points to include in the post, assisting in composition of the post itself, and subsequently editing it for factors such as tone, length, and keywords. Copilot can also provide feedback on your post. You can attach images to enhance their posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
 
-Copilot in Engage empowers with the information and collaboration you need to leverage Viva Engage to achieve your professional goals.
+Copilot empowers with the information and collaboration you need to leverage Viva Engage to achieve your professional goals.
 
-### Copilot in Engage performance metrics
+### Copilot performance metrics
 
-We measured the performance of Copilot in Engage, which is powered by GPT-4 using these key metrics.
+We measured the performance of Copilot, which is powered by GPT-4 using these key metrics.
 
 - Precision and Recall: These metrics were crucial for evaluating the quality of suggestions. Precision quantified how many of the AI-generated suggestions were relevant, while recall determined how many of the relevant suggestions were retrieved.
 
 - User Satisfaction: To gauge user satisfaction, we conducted user surveys and collected feedback to assess how satisfied users were with the AI system's assistance.
 
-- Generalizability: To assess how well the system's results generalized across different use cases, we tested Copilot in Engage on a diverse set of data and tasks. This involved evaluating the system's performance on a range of scenarios and domains that were not part of the initial training data.
+- Generalizability: To assess how well the system's results generalized across different use cases, we tested Copilot on a diverse set of data and tasks. This involved evaluating the system's performance on a range of scenarios and domains that were not part of the initial training data.
 
 We conducted red teaming exercises, inviting external experts and testers to find vulnerabilities or biases in the system. This process helped us identify potential issues and improve the system's robustness.
-Our evaluation process is ongoing, with continuous updates and improvements based on user feedback. By employing a combination of internal evaluation, user feedback, and external testing, we aim to ensure the accuracy, fairness, and generalizability of Copilot in Engage powered by GPT-4.
+Our evaluation process is ongoing, with continuous updates and improvements based on user feedback. By employing a combination of internal evaluation, user feedback, and external testing, we aim to ensure the accuracy, fairness, and generalizability of Copilot powered by GPT-4.
 
-### Limitations of Copilot in Engage
+### Limitations of Copilot
 
-Copilot in Engage is designed with a robust filter system that proactively blocks offensive language and prevents generating suggestions in sensitive contexts. Our commitment to continuous improvement drives us to enhance this filter system. We are making it better at detecting and removing offensive content generated by Copilot in Engage and addressing biased, discriminatory, or abusive outputs. We encourage you to report any offensive suggestions they encounter while using Copilot in Engage.
+Copilot is designed with a robust filter system that proactively blocks offensive language and prevents generating suggestions in sensitive contexts. Our commitment to continuous improvement drives us to enhance this filter system. We are making it better at detecting and removing offensive content generated by Copilot and addressing biased, discriminatory, or abusive outputs. We encourage you to report any offensive suggestions they encounter while using Copilot.
 
-The underlying model powering Copilot is trained on pre-2021 data. It won’t provide relevant responses if a question requires knowledge of the post-2021 world.
+The underlying model powering Copilot is trained on pre-2021 data. Copilot won’t provide relevant responses if a question requires knowledge of the post-2021 world.
 
 There are several high-risk use cases that we aim to avoid:
 
 - Privacy Concerns: If the AI feature is not adequately secured, it can pose a risk of exposing user data, including private trending themes and personal information, to unauthorized parties. Our top priority is to ensure the highest level of privacy and security for you. For instance, we take precautions to avoid exposing summaries of communities you're not a part of, or displaying top campaigns that you're not eligible to view. We have implemented extensive measures and checks throughout your Copilot journey, from user access to end-to-end processes, to prevent such incidents.
 
-- Bias: The fairness and impartiality of AI systems like Copilot in Engage depend on the quality and bias of the data they are trained on. If the training data contains biases, the AI feature can unintentionally generate content that reflects those biases, potentially causing harm or offense. We are dedicated to addressing bias in AI systems and working towards providing more equitable and inclusive outputs.
+- Bias: The fairness and impartiality of AI systems like Copilot depend on the quality and bias of the data they are trained on. If the training data contains biases, the AI feature can unintentionally generate content that reflects those biases, potentially causing harm or offense. We are dedicated to addressing bias in AI systems and working towards providing more equitable and inclusive outputs.
 
-By actively addressing these high-risk scenarios and working collaboratively with our user community, we are committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot in Engage. 
+By actively addressing these high-risk scenarios and working collaboratively with our user community, we are committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot.
 We do not observe or look at your content, rather, we have systems that are trained to detect bias and abuse that do not process any request or content that could be perceived as inappropriate.
 
-### Engage Copilot data usage for prompts and responses 
+### Copilot data usage for prompts and responses
 
-Copilot only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant you are associated with.
+Microsoft 365 Copilot in Viva Engage only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant you are associated with.
 
 However, in the context of a multitenant organization, Copilot's access is limited to the specific tenant the user is in. It does not extend to access data across different tenants in a multitenant organization.
 
 ### Privacy policy and data compliance
 
-Our privacy policy is publicly shared and available here, as part of the: [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=331314). Engage Copilot follows data compliance currently in place for Viva Engage.
+Our privacy policy is publicly shared and available here, as part of the: [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=331314). Copilot follows data compliance currently in place for Viva Engage.
 
 ### Data residency, data subject rights, and data deletion
 
-Engage Copilot follows the same data residency protocols currently in place for Viva Engage. For details, see [Overview of Security and Compliance in Viva Engage](/Viva/engage/manage-security-and-compliance/security-and-compliance).
+Copilot follows the same data residency protocols currently in place for Viva Engage. For details, see [Overview of Security and Compliance in Viva Engage](/Viva/engage/manage-security-and-compliance/security-and-compliance).
 
-### Engage Copilot, Microsoft Graph, Microsoft 365 services
+### Copilot, Microsoft Graph, Microsoft 365 services
 
-Engage Copilot doesn’t interact in any way with Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services. Engage Copilot is a separate entity contained within Viva Engage and relies solely on integrations currently in place for Viva Engage.
+Copilot doesn’t interact in any way with Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services. Engage Copilot is a separate entity contained within Viva Engage and relies solely on integrations currently in place for Viva Engage.
 
 ### GDPR and privacy regulations
-Engage Copilot follows the same GDPR and privacy regulations as Viva Engage. For details, see [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Understand how privacy works in Microsoft Viva | Microsoft Learn](/viva/viva-privacy).
+
+Copilot follows the same GDPR and privacy regulations as Viva Engage. For details, see [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Understand how privacy works in Microsoft Viva | Microsoft Learn](/viva/viva-privacy).
