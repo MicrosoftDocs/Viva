@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 09/12/2024
+ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -21,9 +21,9 @@ ms.assetid:
 description: "Learn how Microsoft 365 Copilot for Viva Engage protects your data"
 ---
 
-# Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage
+# Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage
 
-Microsoft 365 Copilot for Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
+Microsoft 365 Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
 
 ### Copilot capabilities
 
@@ -77,7 +77,7 @@ We do not observe or look at your content, rather, we have systems that are trai
 
 ### Copilot data usage for prompts and responses
 
-Microsoft 365 Copilot for Viva Engage only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant you are associated with.
+Microsoft 365 Copilot in Viva Engage only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant you are associated with.
 
 However, in the context of a multitenant organization, Copilot's access is limited to the specific tenant the user is in. It does not extend to access data across different tenants in a multitenant organization.
 
