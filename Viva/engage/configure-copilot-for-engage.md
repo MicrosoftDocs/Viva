@@ -19,9 +19,9 @@ ms.assetid:
 description: "Learn how to configure and incorporate Microsoft 365 Copilot for Viva Engage in your network."
 ---
 
-# Set up Microsoft 365 Copilot for Viva Engage
+# Set up Microsoft 365 Copilot in Viva Engage
 
-Microsoft 365 Copilot for Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
+Microsoft 365 Copilot in Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
 ## Licensing requirements
 
@@ -120,4 +120,4 @@ During collaboration, Copilot provides proactive coaching to help maintain authe
 
 ## See also
 
-[Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
+[Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
