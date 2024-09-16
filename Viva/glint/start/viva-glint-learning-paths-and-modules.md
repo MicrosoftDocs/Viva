@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high 
-ms.date: 08/01/2024
+ms.date: 09/16/2024
 ---
 
 # Viva Glint learning paths and modules
@@ -28,7 +28,7 @@ As an HR and/or an IT professional, you may find both the admin and manager trai
 
 Viva Glint badging is an exciting opportunity for customers to share their knowledge and expertise of engagement programming with their social network. Through recommended learning paths and modules, you can increase your confidence and drive efficiency using self-paced learning experiences. [Read about badging here](viva-glint-badging.md).
 
-## Courses for admins 
+## Courses for administrators 
 
 These learning paths and modules deep dive into Viva Glint methodology and survey configuration.
 
@@ -53,6 +53,8 @@ These modules define how specific features assist managers to interpret reports 
 |[Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to discussing survey results with all levels of their organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results:<ul><li>The essentials of sharing results </li><li>Best practices for managers sharing results </li><li>Best practices for admins sharing results</ul> |
 |[The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)|Module|Defines psychological safety, describes why it's important, and provides guidance on how to recognize it on teams|
 |[Learn the basics of psychological safety](https://go.microsoft.com/fwlink/?linkid=2281479)|Module|Provides three practical lessons managers can take to cultivate psychological safety on their teams. It also teaches managers how to use Copilot to help them practice these lessons|
+|Advanced lessons in psychological safety](https://go.microsoft.com/fwlink/?linkid=2286190)|Provides three advanced lessons that managers can practice to strengthen psychological safety on their teams and guidance for using Microsoft 365 Copilot to practice these lessons.|
+
 
 
 
