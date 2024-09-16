@@ -6,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 08/15/2024
+ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -111,4 +111,4 @@ You can make this community public or private. If private, only members can acce
 
 #### I dismissed the onboarding checklist during setup. Where can I find the suggested content?
 
-You can find the suggested content under the ellipses (...) menu in the bottom left of the community header, under **Suggested content**.
+You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
