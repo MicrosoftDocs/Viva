@@ -1,5 +1,5 @@
 ---
-ms.date: 07/12/2024
+ms.date: 09/16/2024
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
@@ -30,7 +30,7 @@ The report summary page provides an overview of the total number of active Copil
 * Teams chat
 * Email
 * Documents
-* Copilot chat (work)
+* Business Chat (work)
 
 Each of these sections allows the user to evaluate how collaboration patterns have changed after employees started using Copilot. It also provides comparisons between Copilot and non-Copilot users across groups. 
 
