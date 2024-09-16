@@ -1,6 +1,6 @@
 ---
-title: Data, privacy, and security compliance for Copilot in Viva Glint (preview)
-description: 
+title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
+description: Microsoft 365 Copilot in Viva Glint summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,15 +16,15 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/29/2024
+ms.date: 09/12/2024
 ---
 
-# Data, privacy, and security compliance for Copilot in Viva Glint (preview)
+# Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning on June 29, 2024. Features described here are subject to change.
 
-## What is Copilot in Viva Glint?
+## What is Microsoft 365 Copilot in Viva Glint?
 
 [Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274070) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
 
@@ -33,17 +33,17 @@ ms.date: 06/29/2024
 Copilot in Viva Glint uses Large Language Model (LLM) technology, which allows users to perform language-based tasks by entering prompts in natural languages. Microsoft uses these LLMs to match users’ prompts to a set of metrics and stories. A story is a product-defined group of calculations, which is based on metrics, aggregations, and other variables.
 Copilot in Viva Glint doesn’t use customer data to train the LLM.
 
-## What does Copilot use to generate its responses?
+## What does Copilot in Viva Glint use to generate its responses?
 
-Copilot filters and summarizes comments by accessing customer-uploaded  employee attributes from your organization’s Human Resources Information System (HRIS) file. 
+Copilot in Viva Glint filters and summarizes comments by accessing customer-uploaded employee attributes from your organization’s Human Resources Information System (HRIS) file. 
 
-## Does Copilot save or store any of the data it uses in summaries?
+## Does Copilot in Viva Glint save or store any of the data it uses in summaries?
 
-Copilot in Viva Glint doesn’t store any end user’s prompts. It follows the security and compliance for data usage practices in place for Viva Glint.  Copilot saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Viva Glint developers. 
+Copilot in Viva Glint doesn’t store any end user’s prompts. It follows the security and compliance for data usage practices in place for Viva Glint.  Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Glint developers. 
 
 ## How does Copilot in Viva Glint integrate with other Viva apps?
 
-Copilot in Viva Glint is confined to Viva Glint, and its functionality is distinct from other Copilots. Copilot in Viva Glint doesn’t interact with Microsoft 365 Copilot, Microsoft Graph, or any other Microsoft 365 services. 
+Copilot in Viva Glint is confined to Viva Glint, and its functionality is distinct from other Microsoft 365 Copilots. Copilot in Viva Glint doesn’t interact with Microsoft 365 Copilot, Microsoft Graph, or any other Microsoft 365 services. 
 
 Copilot in Viva Glint can interact with other non-Copilot integrations your organization enables for Viva Glint.
 
