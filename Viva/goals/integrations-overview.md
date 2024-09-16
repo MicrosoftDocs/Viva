@@ -37,7 +37,7 @@ To activate a specific integration:
 1. Follow the setup process.
 
 > [!IMPORTANT]
-> An integration must be enabled by a Microsoft Global Administrator before a Viva Goals Org Admin can use the steps below to enable them for their specific org. Learn how to contact your Global Administrator to enable new integrations by following the steps [here](vg-integrations-administration-overview.md).
+> An integration must be enabled by a Microsoft Viva Goals Administrator before a Viva Goals Org Admin can use the steps below to enable them for their specific org. Learn how to contact your Viva Goals Administrator to enable new integrations by following the steps [here](vg-integrations-administration-overview.md).
 
 ## View available integrations
 
