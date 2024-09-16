@@ -21,7 +21,7 @@ ms.collection:
 - magic-ai-copilot
 search.appverid:
 - MET150
-description: "Learn about MCopilot in Microsoft Viva."
+description: "Learn about Copilot in Microsoft Viva."
 ---
 
 # Introduction to Copilot in Viva
