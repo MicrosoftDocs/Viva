@@ -1,5 +1,5 @@
 ---
-title: "Set up Microsoft 365 Copilot for Viva Engage"
+title: "Set up Microsoft 365 Copilot in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Microsoft 365 Copilot for Viva Engage in your network."
+description: "Learn how to configure and incorporate Microsoft 365 Copilot in Viva Engage within your organization."
 ---
 
 # Set up Microsoft 365 Copilot in Viva Engage
