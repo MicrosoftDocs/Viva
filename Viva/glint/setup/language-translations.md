@@ -53,7 +53,9 @@ Export the items.
 
 1. **Use a translator** to make exact changes to the items in column C for the approved English text from column B. 
 1. To the right, consider other items which might require translation: reporting labels, multiple choice questions, and ratings labels.  
-1. **Use a translation reviewer** to ensure that translated items match exactly to the approved item from the Question Library. ### Translater tips
+1. **Use a translation reviewer** to ensure that translated items match exactly to the approved item from the Question Library.
+
+### Translater tips
 
 |Do|Don't|
 |-------|--------|
