@@ -45,9 +45,9 @@ This table explains the scenarios:
 
 **View these diagrams to support your understanding of the table.**
 
-:::image type="content" source="../media/glint/setup/scenario-1-2.png" alt-text="Screenshot of scenarios 1 and 2 for Tenant Policy.":::
+:::image type="content" source="../media/glint/setup/scenario-1-2.png" alt-text="Screenshot that shows scenarios 1 and 2 for Tenant Policy.":::
 
-:::image type="content" source="../media/glint/setup/scenario-3-4.png" alt-text="Screenshot of scenarios 3 and 4 for Tenant Policy.":::
+:::image type="content" source="../media/glint/setup/scenario-3-4.png" alt-text="Screenshot that shows scenarios 3 and 4 for Tenant Policy.":::
 
 ## Deployment considerations
 
@@ -56,7 +56,7 @@ Think about:
 - **Comment count** – do you expect a high number of comments?
 - **Survey timing** – can you align with an upcoming survey? 
 - **Comfort with AI** – can you engage superusers to help others with the rollout?
-- **Amount of change** – is your ,organization already going through change? Is this time right to add a new tool?
+- **Amount of change** – is your organization already going through change? Is this time right to add a new tool?
 
 ## Microsoft 365 Copilot in Viva Glint can be used across roles
 
@@ -92,7 +92,7 @@ Copilot in Viva Glint gives you the flexibility to roll out to one or many user 
 
 ## More Resources
 
-[**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
-[**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
+[**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)<br>
+[**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)<br>
 [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
