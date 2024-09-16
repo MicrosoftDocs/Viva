@@ -26,44 +26,41 @@ Microsoft Viva badging is an exciting opportunity for Viva Glint customers to sh
 ## Steps to earn a Microsoft Viva badge 
 
 >1. **Create a ms.learn profile or sign in if you’ve already created a profile.** To create a Microsoft Learn profile, select **Sign-In** at the top, right corner of any Microsoft Learn page. Follow the prompts to move through the account authentication process.
->1. **Complete the required training modules listed above.** Be sure you are logged into your profile while completing the modules.
+>1. **Complete a training module.** Be sure you are logged into your profile while completing the modules.
 >1. **Complete the *Statement of Completion* form.** At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Badge: Statement of Completion form. Complete this form to earn your Microsoft Viva Glint Foundations badge.
 >1. **Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).**
 >1. Within **one week** of submitting your completion form, **you receive a confirmation email from `admin@credly.com`.**
 >1. **Create a Credly account and accept your badge.** You need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://support.credly.com/hc/en-us/articles/360021222231-How-to-accept-and-manage-your-digital-badge).
-
-**Badges available to demonstrate learning:**
 
 ## Microsoft Viva Glint Foundations badge
 
 Designed for Viva Glint admins, this badge is awarded to leaders who demonstrated their ability to design and launch Viva Glint programs, as well as understand and share Viva Glint results.
 
 Required learning paths/modules for badge completion:
-  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)- one module
-  - [Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)- 3 modules
-  - [Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)- 4 modules
-  - [Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)- 2 modules
+  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)-one module
+  - [Applying Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)-three modules
+  - [Designing and setting up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)-four modules
+  - [Understanding and sharing your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)-two modules
+
+**Earn one or more of these badges:**
 
 ## Microsoft Viva Glint Manager badge
 
 Designed for managers in your organization, this badge is awarded to Viva Glint managers who demonstrated their ability to understand and share Viva Glint results using Viva Glint’s reporting and ACT framework.
 
 Required learning paths/modules for badge completion:
-  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)- one module
-  - Understand and share your Viva Glint results- two modules
+  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)-one module
+  - Understanding and sharing your Viva Glint feedback results-two modules
     - [Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)
     - [Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)
-  - [The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)
-
-> [!NOTE]
-> New badge opportuniaty as of September 2024: **Build psychological safety**
+  - [The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114) -one module
 
 ##  Microsoft Viva Psychological Safety badge
 
 Designed for managers in your organization, this badge is awarded to Viva managers who demonstrated their ability to understand that psychological safety is a key component of healthy team dynamics. Badge completion indicates that a manager understands how to convey to their teams that they can take risks, share their thoughts and worries, ask questions, and acknowledge errors without being afraid of negative outcomes. Psychological safety leads to more innovation, creativity, and cooperation. 
 
-Required learning paths/modules for badge completion:
- - [The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114)
- - [Learn the basics of psychological safety](https://go.microsoft.com/fwlink/?linkid=2286189)
- - [Advanced lessons in psychological safety](https://go.microsoft.com/fwlink/?linkid=2286190)
+Required learning modules for Psychological Safetybadge completion:
+ - [The importance of psychological safety for managers](https://go.microsoft.com/fwlink/?linkid=2274114) -one module
+ - [Learn the basics of psychological safety](https://go.microsoft.com/fwlink/?linkid=2286189)-one module
+ - [Advanced lessons in psychological safety](https://go.microsoft.com/fwlink/?linkid=2286190)-one module
 
