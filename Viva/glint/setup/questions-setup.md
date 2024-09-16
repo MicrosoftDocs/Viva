@@ -52,7 +52,7 @@ To add your organization's logo to the survey introduction:
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
 
-1. Go to **Configuration** and in the **Action Taking **section, select **Content Resources**.
+1. Go to **Configuration** and in the **Action Taking** section, select **Content Resources**.
 1. Select **+ New** to add a new resource and select **OK** in the languages message that appears.
 1. Add a new title in the **Untitled Resource** and **Title** fields.
    1. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
