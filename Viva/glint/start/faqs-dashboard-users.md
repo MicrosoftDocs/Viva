@@ -45,7 +45,8 @@ These FAQs are intended as support for managers. Administrators are encouraged t
 |Question|Answer|
 |----|-----|
 |**Why can't I see my team's survey scores?**|In order to see scores, you need to meet the confidentiality threshold set by your organization. In most cases, this means:<ul><li>You need five respondents on your team to view scores. </li><li>You need at least 10 respondents on your team to view comments. </ul>Check with your organization’s Glint administrator to confirm your org’s thresholds.<br></br>[Why Viva Glint sureys are confidential but not anonymous/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286483)<br></br>[How Viva Glint helps protect your privacy/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286484)|
-
+|**Can I tell if an individual on my team responded to a survey or who the score or comment is coming from? **| Scores are only reported in aggregate form. We can’t provide individual responses or comments. Confirm your organization’s confidentiality thresholds with your org’s Glint administrator.|
+|
 
 
 
