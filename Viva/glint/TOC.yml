@@ -177,7 +177,7 @@ items:
             href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
-      - name: Manage translations 
+      - name: Manage language translations for surveys and emails
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
@@ -198,17 +198,19 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Copilot in Viva Glint (preview)
+  - name: Microsoft 365 Copilot in Viva Glint (preview)
     items:
-      - name: Intro to Copilot in Viva Glint
+      - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
         href: copilot/copilot-admin-intro.md
-      - name: Admin enablement 
+      - name: Administrator deployment and setup for Microsoft 365 Copilot in Viva Glint (preview)
+        href: ../copilot/deployment-permissions.md
+      - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
-      - name: Copilot data, privacy, and security
+      - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
-      - name: Managers using Copilot
+      - name: Managers using Microsoft 365 Copilot in Viva Glint (preview)
         href: setup/copilot-managers.md
-      - name: Copilot FAQs
+      - name: Microsoft 365 Copilot in Viva Glint-FAQs (preview)
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
