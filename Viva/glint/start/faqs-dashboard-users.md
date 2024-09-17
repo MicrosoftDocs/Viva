@@ -25,5 +25,5 @@ These FAQs are intended as support for managers. Administrators are encouraged t
 
 |Question|Answer|
 |----|-----|
-|**How do I get trained to use the Glint dashboard?|[Refer to our training courses for managers](https:/learn.microsoft.com/en-us/viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-managers)<br>
-[Earn your Viva Glint Manager badge](https://learn.microsoft.com/en-us/viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-managers)|
+|**How do I get trained to use the Glint dashboard?**|[Refer to our training courses for managers](https:/learn.microsoft.com/en-us/viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-managers)<br>[Earn your Viva Glint Manager badge](https://learn.microsoft.com/en-us/viva/glint/start/viva-glint-learning-paths-and-modules#courses-for-managers)|
+|**How do I log into the Glint dashboard?**|Use one of these links to log in, based on the region that your organization sits in:<ul><li>US-http://app.us1.glint.cloud.microsoft </li><li>EU-http://app.eu1.glint.cloud.microsoft</ul>[Manager access troubleshooting](https://learn.microsoft.com/en-us/viva/glint/setup/manager-access-issues)|
