@@ -31,8 +31,7 @@ Users need to meet the following criteria to access Copilot Academy:
 
 2. Assigned a paid license of Microsoft Viva Suite or Viva Learning.  
 
->[!NOTE]
-
+> [!NOTE]
 > 1. As a part of [407387](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=407387) users can access Copilot Academy if they have a Microsoft 365 Copilot license and a Viva Learning (premium or seeded) license.
 > 1. Viva Learning seeded access is included with the Microsoft 365 E3 and E5 licenses as well as Office 365 E1, E2, E3, E5, F2, F3, and G3 licenses. Viva Learning Premium is available either as a standalone license or as part of the Viva Suite license. The Academy experience is identical for users with either a Viva Learning Seeded or Premium license.
 
