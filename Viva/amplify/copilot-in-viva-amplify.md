@@ -31,5 +31,4 @@ Copilot in Viva Amplify is enabled by default. To disable it for your organizati
 
 ## Privacy and security
 
-- Copilot in Viva Amplify follows [Viva Amplify privacy and security](privacy-security.md).
-- [Learn more about how Copilot in Viva Amplify uses AI](https://support.microsoft.com/topic/copilot-in-viva-amplify-faq-f5bdf6aa-0605-420e-85c5-8c46b3643fc5).
+Copilot in Viva Amplify follows [Viva Amplify privacy and security](privacy-security.md).Learn more about how [Copilot in Viva Amplify uses AI](https://support.microsoft.com/topic/copilot-in-viva-amplify-faq-f5bdf6aa-0605-420e-85c5-8c46b3643fc5).
