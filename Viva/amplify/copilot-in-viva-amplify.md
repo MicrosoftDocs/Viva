@@ -1,15 +1,12 @@
 ---
-title: Overview of Microsoft Viva Amplify
+title: Copilot in Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
 ms.reviewer: smathurin
-ms.date: 11/28/2023
+ms.date: 09/17/2024
 audience: admin
 ms.topic: overview
-ms.custom: 
-- intro-overview
-- intro-get-started
 ms.service: viva-amplify
 search.appverid: MET150
 ms.collection:
@@ -17,31 +14,21 @@ ms.collection:
   - m365initiative-viva-amplify
   - highpri
   - Tier1
-  - essentials-navigation
-  - essentials-overview
 ms.localizationpriority: medium
-description: Learn about Microsoft Viva Amplify in your Microsoft 365 environment.
+description: Learn about Copilot in Microsoft Viva Amplify.
 ---
 
-# Overview of Microsoft Viva Amplify
+# Copilot in Viva Amplify
 
-Viva Amplify empowers organizational communication teams and leaders to elevate their message and energize their people. The app centralizes communication processes in a single space and offers writing guidance to help messages from every part of the organization, including leaders, corporate communications, and HR, resonate with employees. Communicators can then publish to multiple channels simultaneously, manage their campaigns from a central hub, and study resulting metrics to better plan future communications.
+>[!NOTE]
+>Microsoft 365 Copilot in Viva Amplify is currently rolling out.
 
-## How to find Viva Amplify
+Microsoft 365 Copilot in Viva Amplify helps you find the best wording to make sure your publications communicate your message effectively. Copilot rich text editor is available in the Text web part and all rich text editors in Viva Amplify, including the campaign brief. Copilot in Viva Amplify is based on the Copilot in SharePoint rich text editor experience.
 
-Amplify is currently only available as a web experience.
+## Enable and disable Copilot in Viva Amplify
 
-1. Sign into Microsoft 365 online.
-1. Search **Amplify** or open your app launcher and choose **Explore all your Apps**.
-1. Under **Explore by category**, choose **Communication**.
-1. Select **Amplify**.
+Copilot in Viva Amplify is enabled by default. To disable it for your organization, you can file a support request.
 
-## Browser compatibility
+## Privacy and security
 
-Members of your organization can use Viva Amplify in different browsers, providing they have the necessary cookie settings enabled. [Learn what browser settings you need to use Viva Amplify.](https://support.microsoft.com/topic/troubleshooting-f6c53e86-15f2-4555-8317-60d2cad88fa4)
-
-## Get started
-
-[Set up Viva Amplify](set-up-viva-amplify.md)
-
-[View the user training content](https://support.microsoft.com/topic/introduction-to-viva-amplify-cedd11d3-ea8a-4d55-9b5b-61459353be1a)
+Copilot in Viva Amplify follows [Viva Amplify privacy and security](privacy-security.md). [Learn more about how Copilot in Viva Amplify uses AI](https://support.microsoft.com/topic/copilot-in-viva-amplify-faq-f5bdf6aa-0605-420e-85c5-8c46b3643fc5).
