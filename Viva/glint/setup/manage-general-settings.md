@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/13/2024
+ms.date: 09/17/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -36,7 +36,7 @@ This section provides high-level information about your company.
 Also, set up what your employees see when they open an email sharing information about a Glint program.  
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Client UUID**   | How Viva Glint identifies your company in our system.  |  
 |**Client Name**    | *Or Doing Business As (DBA) name*.   | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on customer time zones.](https://go.microsoft.com/fwlink/?linkid=2255796)   | 
@@ -51,7 +51,7 @@ Also, set up what your employees see when they open an email sharing information
 ## Communications
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
 |**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. | 
@@ -64,7 +64,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 > This section is not applicable to 360 Feedback programs. 
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails).   |
 |**Default Benchmark**   | Your preferred default comparison statistic. If left empty, it defaults to Benchmark.|
 |**Internal Benchmarks**   | Viva Glint’s three internal default benchmarks that cannot be removed. Up to ten more may be added. Choosing **Modify internal benchmarks** opens a new window with options.     |
@@ -89,7 +89,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238341).
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
 |**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication.   |  
 
@@ -100,7 +100,7 @@ In this section:
 - Set limits for the number of survey cycles that show on a dashboard.  
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types you won’t use to delete them from your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
@@ -129,7 +129,7 @@ Make selections for your Viva Glint technical setup:
 - Employee ID 
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Attribute for SSO Authentication** |Configure the unique Employee ID. The email is set as the default employee ID. |
 |**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
 
@@ -138,9 +138,35 @@ Make selections for your Viva Glint technical setup:
 English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 
 | Field | Definition and notes |
-|-----------|-----------|
+|:-----------|:-----------|
 |**Comment Analytics Language**   |The list of codes for languages to include for comment analysis. Empty value signifies English only.    |
 |**Default Survey Language**   |Provides the default language for surveys. If a preference isn't populated per employee, this language is shown as a default.     |
 |**Supported Survey Languages**   |Lists all languages chosen by the admin to support surveys within your organization. This setting is global but can be tailored on a per-program level.     |
 |**Default Dashboard Language**   |Provides the default language for dashboards. If a preference isn't supplied/selected per employee, this language is shown as a default.      |
 |**Supported Dashboard Languages**   |These languages are available for your dashboard. Your users can select any available language as their static, preferred view.       |
+
+## User Data
+
+Configure how user data is handled.
+
+- Data deletion control
+- Employee IDs reuse control
+
+### Data deletion control
+
+Manage survey data in response to a Data Subject Request (DSR). This configuration is set at the platform
+level and applies to all requests equally.
+
+| Field | Definition and notes |
+|:-----------|:-----------|
+| On (default) | Erase all data related to the requester, excluding attributes and survey responses. |
+| Off | Erase all data related to the requester, including survey responses. |
+
+### Employee IDs reuse control
+
+Manage reusing employee IDs and reassign them to new or rehired employees. This configuration is set at the platform level and applies to all records equally.
+
+| Field | Definition and notes |
+|:-----------|:-----------|
+| On (default) | Exclude data associated with employee IDs of previously removed employees from uploads. |
+| Off | Update the already deleted records with the status provided in the HRIS file. |
