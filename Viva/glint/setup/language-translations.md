@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 09/17/2024
 ---
 
 # Manage language translations in Viva Glint programs 
@@ -79,4 +79,7 @@ From the **Question Library** page, select **Import Questions** from the dropdow
 1. Drag and drop or browse to find the translated file and place it in the box indicated. 
 1. Select **Next**. 
 1. If everything looks as expected, select **Make Changes**.
+
+> [!IMPORTANT]
+> To prevent import errors, don't change any file name or column label in any exported files.
 
