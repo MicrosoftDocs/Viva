@@ -14,14 +14,14 @@ ms.collection:
     - m365initiative-viva-learning
     - magic-ai-copilot
 ms.localizationpriority: medium
-description: This is a guide to creating and managing Microsoft Copilot Academy. 
+description: This is a guide for admins to create and maintain Microsoft Copilot Academy. 
 ---
 
-# Microsoft 365 Copilot Academy 
+# Microsoft Copilot Academy 
 
-Microsoft 365 Copilot Academy integrated to help learners develop skills associated with Copilot usage. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
+Microsoft Copilot Academy is integrated to help learners develop skills associated with Microsoft 365 Copilot usage. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
 
-![Screenshot of the Microsoft 365 Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
+![Screenshot of the Microsoft Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
 
 ## Prerequisites
 
@@ -33,10 +33,10 @@ Users need to meet the following criteria to access Copilot Academy:
 
 >[!NOTE]
 
-> 1. As a part of [407387](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=407387) users can access Copilot Academy if they have a Microsoft 365 Copilot license and Viva Learning (premium or seeded).
-> 1. Viva Learning seeded access is included with Microsoft 365 E3 and E5, Office 365 E1, E2, E3, E5, F2, F3, and G3 licenses. Viva Learning Premium is available either as a standalone license or as part of the Viva Suite license. The Academy experience is identical for users with either a Viva Learning Seeded or Premium license.
+> 1. As a part of [407387](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=407387) users can access Copilot Academy if they have a Microsoft 365 Copilot license and a Viva Learning (premium or seeded) license.
+> 1. Viva Learning seeded access is included with the Microsoft 365 E3 and E5 licenses as well as Office 365 E1, E2, E3, E5, F2, F3, and G3 licenses. Viva Learning Premium is available either as a standalone license or as part of the Viva Suite license. The Academy experience is identical for users with either a Viva Learning Seeded or Premium license.
 
-## Configure Microsoft Copilot Academy
+## Configure Copilot Academy
 
 Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
 
