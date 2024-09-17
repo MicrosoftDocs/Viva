@@ -40,6 +40,16 @@ These FAQs are intended as support for managers. Administrators are encouraged t
 |**What does the action planning step look like?**|Action planning involves steps to ensure that the feedback collected is effectively used to drive improvements and positive changes within your organization. <br></br>Here's what the process typically looks like:<br></br>**Review Survey Results:** Looking at and understand overall scores, identifying areas of strength and areas that need improvement.<br></br>**Identify Priorities:** Pinpoint areas where the scores were low or where there is a significant gap between current performance and desired outcomes.<br></br>**Set Goals and Objectives:** Set specific, measurable goals and objectives to ensure that the action plans are focused, and that progress can be tracked over time.<br></br>**Develop Action Plans:** With your leaders, develop detailed action plans to address identified priorities. Outline the specific steps that will be taken, assign responsibilities, and set timelines for completion.<br></br>**Communicate Plans:** Ensure that everyone is aware of the planned actions and understands their role in the process.<br></br>**Implement Actions:** Carry out the steps outlined in the action plans and make any necessary adjustments along the way.<br></br>**Monitor Progress:** Monitor progress and track the impact of the actions taken continuously. Ensure that your plans are on track and that any issues are addressed promptly.<br></br>**Evaluate and Adjust:** Evaluate the results and make any necessary adjustments. Review the impact of the actions, gather feedback again, and make changes as needed to ensure continuous improvement.|
 |**How can senior leaders help in the action planning phase?**|Here are some ways senior leaders participate in this phase:<br></br>**Reviewing Results:** Senior leaders review the survey results to understand the overall trends and key insights, helping you to identify areas that need attention and improvement.<br></br>**Setting Priorities:** Leaders help you set the priorities for action taking.<br></br>**Communicating Plans:** Senior leaders are responsible for communicating the action plans to the rest of the organization. This ensures that everyone is aware of the planned actions and understands their role in the process.<br></br>**Monitoring Progress:** Leaders monitor progress of the action plans to ensure that the desired changes are being implemented effectively. <br></br>**Providing Support:** Senior leaders provide support and guidance to you and your teams as you implement the action plans. This helps to ensure that any challenges are addressed promptly and that the plans are executed successfully.|
 
+## Feedback scores
+
+|Question|Answer|
+|----|-----|
+|**Why can't I see my team's survey scores?**|In order to see scores, you need to meet the confidentiality threshold set by your organization. In most cases, this means:<ul><li>You need five respondents on your team to view scores. </li><li>You need at least 10 respondents on your team to view comments. </ul>Check with your organization’s Glint administrator to confirm your org’s thresholds.<br></br>[Why Viva Glint sureys are confidential but not anonymous/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286483)|
+
+
+
+
+
 
 
 
