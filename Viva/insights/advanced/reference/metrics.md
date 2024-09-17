@@ -1,5 +1,5 @@
 ---
-ms.date: 9/16/2024
+ms.date: 9/17/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -192,8 +192,8 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 
 | Metric | Description | Date from when the data is available and the customers can view |
 |---|---|---|
-| Summarize meeting actions taken using Copilot in Teams | The number of times users summarized meetings using Copilot. | 10/15/2023 |
-| Total meetings summarized by Copilot in Teams |  The number of meetings summarized by Copilot.  | 10/15/2023 |
+| Summarize meeting actions taken using Copilot in Teams | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
+| Total meetings summarized by Copilot in Teams |  The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap.  | 10/15/2023 |
 | Summarize chat actions taken using Copilot in Teams | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
 | Total chat conversations summarized by Copilot in Teams | The number of chat and channel message drafts created in Teams using Copilot. | 12/18/2023 |
 | Summarize email thread actions taken using Copilot in Outlook | Number of times users summarized email conversations with Copilot.  | 11/15/2023 |
@@ -201,8 +201,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Summarize Word document actions taken using Copilot in Word |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
 |  Create presentation actions taken using Copilot  | The number of times users created PowerPoint presentations using Copilot. | 10/15/2023 |
 |  Summarize presentation actions taken using Copilot in PowerPoint  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
-|  Total meetings summarized by Copilot in Teams | The number of meetings summarized by Copilot.  | 12/18/2023 |
-| Meeting hours summarized by Copilot in Teams | The number of hours of meetings summarized by Copilot. | 12/18/2023 |
+| Total meeting hours summarized | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 12/18/2023 |
 | Compose chat message actions taken using Copilot in Teams | The number of chat and channel message drafts created in Teams using Copilot. | 10/15/2023 |
 | Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
 |  Generate email draft actions taken using Copilot in Outlook | The number of times users generated email drafts using Copilot. | 11/15/2023 |

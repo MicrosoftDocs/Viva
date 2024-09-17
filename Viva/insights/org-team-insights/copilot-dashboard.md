@@ -1,5 +1,5 @@
 ---
-ms.date: 9/11/2024
+ms.date: 9/17/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -216,7 +216,7 @@ You can sort the table by the headers. For example, to sort by the metric value,
 
 ###### **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
-App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, OneNote, Loop, and Business Chat (work).
+App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, and Business Chat (work).
 
 Group totals reflect all users based on the filtered group, including groups that are below the minimum group size.
 
