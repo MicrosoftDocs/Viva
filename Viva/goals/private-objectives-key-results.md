@@ -2,9 +2,9 @@
 ms.date: 04/11/2022
 title: "Private objectives and key results"
 ms.reviewer: 
-ms.author: RaSanders
-author: ranjali-MS
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -2,9 +2,9 @@
 ms.date: 10/20/2022
 title: Check-in reminders and OKR updates
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: liz.pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,25 +29,25 @@ Depending upon the OKR check-in cadences, team manager or admin can set all the 
 
 ## Configure Slack workspace to receive OKR updates 
 
-As an admin, you can configure what OKR updates you’d like your team to be notified for.  To receive notification from OKR updates, navigate to Admin > Integrations > Slack, and select **Manage**. 
+As an admin, you can configure what OKR updates you’d like your team to be notified for. To receive notification from OKR updates, navigate to **Admin** > **Integrations** > **Slack**, and select **Manage**. 
 
-To set up notifications, click on **Add Notification**. In the pop-up that appears, choose: 
+To set up notifications, select **Add Notification**. In the pop-up that appears, choose: 
 
 1. **Send To:** Choose a channel or a person where the notifications will be sent. 
 2. **Entities:** Select which Viva Goals team or user you want to get notifications for. 
 3. **Events:** Select from an array of options when you’d like to receive notification. For example, you can set up notifications for check-ins or when an OKR is updated.  
 
-:::image type="content" source="../media/goals/slack-images/notification.png" alt-text="Screenshot of the Slack notification settings within Viva Goals." lightbox="../media/goals/slack-images/notification.png":::
+   :::image type="content" source="../media/goals/slack-images/notification.png" alt-text="Screenshot of the Slack notification settings within Viva Goals." lightbox="../media/goals/slack-images/notification.png":::
 
-All updates to a team's or user's OKRs and initiatives will be delivered to Slack as notifications depending on the admin notification settings for that team or user. 
+   All updates to a team's or user's OKRs and initiatives will be delivered to Slack as notifications depending on the admin notification settings for that team or user.
 
-:::image type="content" source="../media/goals/slack-images/channel-notification.png" alt-text="Screenshot of the Viva Goals notification within Slack." lightbox="../media/goals/slack-images/channel-notification.png":::
+   :::image type="content" source="../media/goals/slack-images/channel-notification.png" alt-text="Screenshot of the Viva Goals notification within Slack." lightbox="../media/goals/slack-images/channel-notification.png":::
 
 ## Nudge users to make check-in 
 
-When an OKR or initiative needs an update and you want to leave a comment specifically as a reminder to OKR owner to make a check-in, you can click on the progress icon present on the left of the progress bar, and nudge the person who is responsible for making the check-ins. 
+When an OKR or initiative needs an update and you want to leave a comment specifically as a reminder to OKR owner to make a check-in, you can select the progress icon present on the left of the progress bar, and nudge the person who is responsible for making the check-ins. 
 
-The **Nudge** option is available in the progress popover when you click on it. It will be visible to the users who are not the primary check-in owner of the OKR or initiative.
+The **Nudge** option is available in the progress popover when you select it. It will be visible to the users who are not the primary check-in owner of the OKR or initiative.
 
  :::image type="content" source="../media/goals/slack-images/nudge-1.png" alt-text="Screenshot of where to find the nudge button in Viva Goals." lightbox="../media/goals/slack-images/nudge-1.png":::
 
