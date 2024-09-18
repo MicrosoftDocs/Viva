@@ -26,30 +26,27 @@ Microsoft Copilot Academy is integrated to help learners develop skills associat
 ## Prerequisites
 
 
-To access the academy in Viva Learning, Users must have a **Copilot for M365** license, in addition to either a Viva Learning Seeded or Premium license.
+To access the academy in Viva Learning, Users must have a **Microsoft M365 Copilot** license, in addition to a Viva Learning seeded or premium license.
 
 > [!IMPORTANT]
 > - Viva Learning seeded is included as part of Microsoft 365 E3 and E5, as well as Office 365 E1, E3, and E5. Please refer the complete [list](https://www.microsoft.com/en-in/microsoft-viva/pricing).
-> - Viva Learning Premium is available as a standalone license or as a part of Viva Suite license.
+> - Viva Learning Premium is available as a standalone license or as a part of Viva Suite.
 > - It may take up to 7 days for license updates to reflect in Viva Learning.
 
 Users need to meet the following criteria to access Copilot Academy:
 
-1. A user profile provisioned within a tenant that has a Copilot for M365 license.  
+1. A user profile provisioned within a tenant that has a Copilot license.  
 
 2. Assigned a paid license of Microsoft Viva Suite or Viva Learning.  
 
-> [!NOTE]
-> - As a part of [407387](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=407387) users can access Copilot Academy if they have a Copilot for M365 license and a Viva Learning (premium or seeded) license.
-> - Viva Learning seeded access is included with the Microsoft 365 E3 and E5 licenses as well as Office 365 E1, E2, E3, E5, F2, F3, and G3 licenses. Viva Learning Premium is available either as a standalone license or as part of the Viva Suite license. The Academy experience is identical for users with either a Viva Learning Seeded or Premium license.
 
 ## Configure Copilot Academy
 
 Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
 
-Users with a Copilot for Microsoft 365 license receive an in-app notification on Copilot Academy from Microsoft Teams.
+Users with a Copilot license receive an in-app notification on Copilot Academy from Microsoft Teams.
 
-Knowledge Administrators of tenants who have least one Copilot for Microsoft 365 license can disable Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section.
+Knowledge Administrators of tenants who have least one Copilot license can disable Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section.
 
 
 ![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
@@ -78,9 +75,9 @@ The language of Copilot Academy is automatically determined based on the Viva Le
 
 ## Create your own custom academy
 
-You can create a new academy tailored to your needs by utilizing learning objects from the Copilot Academy. This approach allows you to maintain the essence of the Copilot Academy while also incorporating your organization's unique requirements. Here’s how: 
+You can create a new academy tailored to your needs by utilizing learning objects from the Copilot Academy. This approach allows you to maintain the essence of the Copilot Academy while also incorporating your organization's unique requirements.
 
-- **Create learning paths**: Start by creating learning paths that mirror learning paths available in the Copilot Academy. This step forms the foundation of your custom academy. 
+Start by creating learning paths that mirror the ones available in the Copilot Academy. This step forms the foundation of your custom academy.
 
 > [!NOTE]
-> The user should have a Viva Learning Premium license to create an academy or a learning path.
+> Users need a Viva Learning premium license to create an academy or a learning path.
