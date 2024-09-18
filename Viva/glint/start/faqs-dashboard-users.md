@@ -54,21 +54,3 @@ These FAQs are intended as support for managers. Administrators are encouraged t
 |**What is the difference between Engagement Mean Score versus Favorability Score?**|The Engagement score is the average score of the eSat (employee Satisfaction) and Recommend score (would I recommend working at my organization).<br><br>Favorability provides the distribution of responses that make up the overall average score. It's useful to know if there's a strong consistency in responses or if the average is a result of a wide and divided range of opinions.<br><br>Learn more:<br>[Viva Glint reporting features/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286825)|
 |**How are Top Strengths and Top Opportunities calculated?**|The calculation used to identify Strengths & Opportunities (S&O) combines item scores, impact on engagement, and relativity of the score to a comparison point. This comparison could be internal company scores, an external benchmark, or the score for the average question for that survey.<ul><li>**Strengths** are areas that the team should celebrate</li><li>**Opportunities** are areas the team should work on to improve overall engagement (or the key outcome).</li></ul><br><br>[Viva Glint Driver Impact report/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286826)|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
