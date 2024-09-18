@@ -112,3 +112,7 @@ You can make this community public or private. If private, only members can acce
 #### I dismissed the onboarding checklist during setup. Where can I find the suggested content?
 
 You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
+
+#### We've disable Microsoft 365 Copilot in Viva Engage using [feature access management](/viva/engage/configure-copilot-for-engage#control-access-to-copilot-and-ai-summarization-services). Will this prevent us from using the Copilot early adopters community?
+
+No. The Copilot adoption community functions independently from Copilot in Viva Engage. You don't need Copilot to be enabled in your Viva Engage network to set up and use this community.
