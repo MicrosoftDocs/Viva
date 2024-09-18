@@ -29,8 +29,9 @@ The **Microsoft 365 Copilot adoption community** makes it easier for users to as
 Network admins and corporate communicators can access configuration settings through a discoverable banner in their home feed.
 If you're a network admin or corporate communicator of an eligible tenant and don't see the banner in your home feed, you can access the configuration settings from the [Viva Engage Admin center](/viva/engage/eac-overview#access-the-viva-engage-admin-center).
 
->[!NOTE]
+>[!NOTES]
 >The **Microsoft 365 Copilot adoption community** is only available in Viva Engage tenants that have Microsoft 365 Copilot licenses through one of the following [service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot): Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams.
+>You can set up and use this community even if your Viva Engage network has turned off Copilot.
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
@@ -113,6 +114,6 @@ You can make this community public or private. If private, only members can acce
 
 You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
 
-#### We've disable Microsoft 365 Copilot in Viva Engage using [feature access management](/viva/engage/configure-copilot-for-engage#control-access-to-copilot-and-ai-summarization-services). Will this prevent us from using the Copilot early adopters community?
+#### We used [feature access management](/viva/engage/configure-copilot-for-engage#control-access-to-copilot-and-ai-summarization-services) to turn off Microsoft 365 Copilot in Viva Engage. Can we still use the Copilot early adopters community?
 
-No. The Copilot adoption community functions independently from Copilot in Viva Engage. You don't need Copilot to be enabled in your Viva Engage network to set up and use this community.
+Yes! The Copilot adoption community functionality is independent of Copilot in Viva Engage and doesn't require Copilot to be turned on.
