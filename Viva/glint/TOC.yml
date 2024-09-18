@@ -68,20 +68,22 @@ items:
             href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
-          - name: Communication plans and templates
+          - name: Communications for internal readiness
             items:
-              - name: Communications rollout plan
-                href: start/recommended-rollout-plan.md
-              - name: Communications checklist
-                href: start/comms-checklist.md
-              - name: Communications templates
-                href: communicate/email-templates-survey-expectations.md
-              - name: Introduce Glint survey taking
-                href: communicate/survey-taking-for-employees.md
-              - name: Promote Glint surveys before and after launch
-                href: communicate/prelaunch-live-email-templates.md
-              - name: Communicate results, next steps, and progress
-                href: communicate/results-rollout-templates.md  
+               - name: Communications rollout plan
+                 href: start/recommended-rollout-plan.md
+               - name: Communications checklist
+                 href: start/comms-checklist.md
+               - name: Communications templates
+                 href: communicate/email-templates-survey-expectations.md
+               - name: Introduce Glint survey taking
+                 href: communicate/survey-taking-for-employees.md
+               - name: Promote Glint surveys before and after launch
+                 href: communicate/prelaunch-live-email-templates.md
+               - name: Communicate results, next steps, and progress
+                 href: communicate/results-rollout-templates.md
+          - name: FAQs for dashboard users
+            href: start/faqs-dashboard-users.md
           - name: Works Councils
             href: setup/works-council.md
           - name: Technical tasks
