@@ -2,9 +2,9 @@
 ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: liz.pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

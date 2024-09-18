@@ -2,9 +2,9 @@
 ms.date: 04/01/2024
 title: Share goals content in Viva Goals
 ms.reviewer: 
-ms.author: RaSanders
-author: ranjali-MS
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
