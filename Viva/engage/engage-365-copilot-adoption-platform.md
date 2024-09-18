@@ -114,6 +114,6 @@ You can make this community public or private. If private, only members can acce
 
 You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
 
-#### We used [feature access management](/viva/engage/configure-copilot-for-engage#control-access-to-copilot-and-ai-summarization-services) to turn off Microsoft 365 Copilot in Viva Engage. Can we still use the Copilot early adopters community?
+#### We have no plans to adopt Copilot on our network. Can we remove the Copilot early adopters community?
 
-Yes! The Copilot adoption community functionality is independent of Copilot in Viva Engage and doesn't require Copilot to be turned on.
+Unfortunately, there's no option at present to hide or remove the Copilot adoption community.
