@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/30/2024
+ms.date: 09/18/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -25,6 +25,9 @@ It uses data from Microsoft 365 profiles and the [Microsoft Graph](/graph/overvi
 
 
 If you’d like to learn more or apply for the Skills in Viva preview, contact your Microsoft representative. 
+
+> [!NOTE]
+> Skills in Viva is currently available only for private preview customers. The features described here are subject to change.
 
 ## Prerequisites 
 

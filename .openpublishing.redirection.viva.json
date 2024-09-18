@@ -1074,6 +1074,16 @@
             "redirect_url": "/viva/glint/reports/team-summary-enable-manage",
             "redirect_document_id": false
         },
+        {
+            "source_path": "Viva/engage/manage-viva-engage-groups/customize-your-community.md",
+            "redirect_url": "https://support.microsoft.com/en-gb/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/manage-viva-engage-groups/customize-your-network.md",
+            "redirect_url": "/viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage",
+            "redirect_document_id": false
+        }
     ]
 
 }
