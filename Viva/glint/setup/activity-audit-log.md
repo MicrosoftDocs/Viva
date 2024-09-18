@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 09/18/2024
 ---
 
 # Viva Glint Activity Audit Log
@@ -64,12 +64,12 @@ Choose an event type based on platform activity that you need to review and the 
 | configure.activity.Log.event.ADD_SUPPORT_USER | A user was added to the Support User role. |
 | configure.activity.Log.event.CLIENT_DETAILS_CHANGED | Change activity in General Settings or Advanced Configuration: Details. |
 | configure.activity.Log.event.JOB_RUN | Advanced Configuration Data app and Upload activity. |
-| configure.activity.Log.event.USER_ADV_CONFIG_DISABLED | A Company Admin user enabled Advanced Configuration access. |
-| configure.activity.Log.event.USER_ADV_CONFIG_ENABLED | A Company Admin user disabled Advanced Configuration access. |
+| configure.activity.Log.event.USER_ADV_CONFIG_DISABLED | A Company Admin user disabled Advanced Configuration access. |
+| configure.activity.Log.event.USER_ADV_CONFIG_ENABLED | A Company Admin user enabled Advanced Configuration access. |
 
 ## Related resources
 
-### Data import errors:
+### Data import errors and troubleshooting:
 
 - [Resolve file upload errors related to attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
 - [Resolve upload errors related to derived attributes](/viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json)
