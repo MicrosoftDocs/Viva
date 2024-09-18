@@ -25,7 +25,7 @@ These FAQs are intended as support for managers. Administrators are encouraged t
 
 |Question|Answer|
 |----|-----|
-|**How do I get trained to use the Glint dashboard?**|Viva Glint offers training specifically for managers.<br></br>[Refer to our training courses for managers](https:/learn.microsoft.com/viva/glint/start/viva-glint-learning-paths-and-modules)<br></br>[Earn your Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2286828)|
+|**How do I get trained to use the Glint dashboard?**|Viva Glint offers training specifically for managers.<br></br>[Refer to our training courses for managers](https://go.microsoft.com/fwlink/?linkid=2286653)<br></br>[Earn your Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2286828)|
 |**How do I log into the Glint dashboard?**|Use one of these links to log in, based on the region that your organization sits in:<ul><li>US-http://app.us1.glint.cloud.microsoft </li><li>EU-http://app.eu1.glint.cloud.microsoft</ul>[Manager access troubleshooting](https://go.microsoft.com/fwlink/?linkid=2286630)|
 |**I’ve changed my email address. What do I need to do?**|**If your new email address is reflected in your org’s employee data/attribute file**, log into the Glint dashboard using the new email address and existing password.<br></br>**If you don't know if your email address is updated, or if it isn't updated**, contact your organization’s Glint administrator.|
 |**Can I customize dashboard reports?**|You can edit, add, and remove sections of reports to display on your Glint dashboard.<br></br>[Customizing Glint reports/Microsoft Learn](https://go.microsoft.com/fwlink/?linkid=2286296)|
