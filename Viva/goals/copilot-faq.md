@@ -4,7 +4,7 @@ title: Copilot in Viva Goals FAQ
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
-manager: Liz.Pierce
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,7 +45,7 @@ The output of Copilot in Viva Goals depends on the prompt that is passed to the 
 
 - Any text or data that the user supplies to Copilot in Viva Goals
 
-- OKRs in Viva Goals that users<!--All users in the org, or the specific user?--> have access to
+- OKRs in Viva Goals that users have access to
 
 - Common instructions and sample OKR data
 

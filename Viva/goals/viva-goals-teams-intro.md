@@ -2,9 +2,9 @@
 ms.date: 02/28/2024
 title: Introduction to teams in Viva Goals
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

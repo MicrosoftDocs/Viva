@@ -2,9 +2,9 @@
 ms.date: 04/11/2022
 title: "Multiple Alignments"
 ms.reviewer: 
-author: ranjali-MS
-ms.author: RaSanders
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

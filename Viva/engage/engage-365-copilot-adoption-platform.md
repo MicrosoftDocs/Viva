@@ -23,7 +23,8 @@ description: "Viva Engage rolls out a Microsoft 365 Copilot adoption community t
 
 # Microsoft 365 Copilot adoption community in Viva Engage
 
-Network admins and corporate communicators can enable a Viva Engage community specifically built to support adoption of Microsoft 365 Copilot.
+Network admins and corporate communicators can enable a Viva Engage community specifically built to support adoption of Microsoft 365 Copilot. Copilot in Viva Engage is not required to set up or use this community, and your Copilot settings have no bearing on its functionality.
+
 The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
 
 Network admins and corporate communicators can access configuration settings through a discoverable banner in their home feed.
@@ -112,3 +113,7 @@ You can make this community public or private. If private, only members can acce
 #### I dismissed the onboarding checklist during setup. Where can I find the suggested content?
 
 You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
+
+#### We have no plans to adopt Copilot on our network. Can we remove the Copilot early adopters community?
+
+Unfortunately, there's no option at present to hide or remove the Copilot adoption community.
