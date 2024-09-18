@@ -2,9 +2,9 @@
 ms.date: 05/30/2024
 title: Mandate team assignment for OKRs
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
