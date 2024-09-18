@@ -1,5 +1,5 @@
 ---
-ms.date: 9/17/2024
+ms.date: 9/18/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -229,10 +229,10 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
 | Total Copilot enabled days  | The number of days the user had at least one service plan for Copilot enabled. | 10/15/2023 |
 | Business Chat (work) enabled days |  The number of days the user had Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat) enabled. | 10/15/2023 |
-| Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Copilot for Microsoft 365 enabled. | 10/15/2023 |
-| Copilot enabled days for Productivity App  | The number of days the user had Copilot for Microsoft 365 enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
-| Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Copilot for Microsoft 365 enabled.  | 10/15/2023 |
-| Copilot enabled days for Teams  | The number of days the user had Copilot for Microsoft 365 enabled within Microsoft Teams. | 10/15/2023 |
+| Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Microsoft 365 Copilot enabled. | 10/15/2023 |
+| Copilot enabled days for Productivity App  | The number of days the user had Microsoft 365 Copilot enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
+| Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Microsoft 365 Copilot enabled.  | 10/15/2023 |
+| Copilot enabled days for Teams  | The number of days the user had Microsoft 365 Copilot enabled within Microsoft Teams. | 10/15/2023 |
 
 >[!Note]
 >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Copilot actions taken in Teams" might return a figure that's larger than the sum of the metrics representing the actions employees can take with Copilot in Teams, such as "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
