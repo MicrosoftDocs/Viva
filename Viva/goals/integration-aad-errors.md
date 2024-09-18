@@ -2,9 +2,9 @@
 ms.date: 06/27/2024
 title: Troubleshoot AAD errors for integrations
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

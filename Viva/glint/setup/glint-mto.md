@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/11/2024
+ms.date: 09/18/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -86,7 +86,7 @@ There are two options to sync users for MTO and Viva Glint: B2B collaboration or
 | :::image type="icon" source="/office/media/icons/migration-blue.png" ::: |Sync option <br> <br> _roles involved_| More information |
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/users-people.png" ::: | **Option 1: cross-tenant synchronization (CTS)** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>As the target tenant admin, [enable CTS in the target tenant](https://go.microsoft.com/fwlink/?linkid=2282434)</li> <li>As target tenant admin, [enable autoredemption in the target tenant](https://go.microsoft.com/fwlink/?linkid=2282510) </li><li>As the source tenant admin, [enable autoredemption in the source tenant](https://go.microsoft.com/fwlink/?linkid=2282616)</li><li>As the source tenant admin, [set up CTS in the source tenant](https://go.microsoft.com/fwlink/?linkid=2282511) and [test the connection to the target tenant](https://go.microsoft.com/fwlink/?linkid=2282617)</li> <li>As the source tenant admin, [define who's in scope for provisioning](https://go.microsoft.com/fwlink/?linkid=2282435) and [test on demand provisioning](https://go.microsoft.com/fwlink/?linkid=2282512)</li><li>As the source tenant admin, [start the provisioning job](https://go.microsoft.com/fwlink/?linkid=2282436) to sync users to the target tenant</li> <li>As target and source tenant admins, [verify users in the target tenant and monitor the provisioning job](https://go.microsoft.com/fwlink/?linkid=2282437)</li></ol>|
-|:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
+|:::image type="icon" source="/office/media/icons/upload-blue.png" ::: | **Option 2: B2B collaboration** <br> <br>_Target tenant Microsoft 365 global admin_ <br> <br>_Source tenant Microsoft 365 global admin_ | <ol><li>**Optional:** In the target and source tenants, [confirm that autoredemption is selected in cross-tenant access settings](https://go.microsoft.com/fwlink/?linkid=2282349)</li><li>As the target tenant admin, [prepare a comma-separated value (.csv) file with user information](https://go.microsoft.com/fwlink/?linkid=2282050)</li> <li>As the target tenant admin, [upload the file to Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2282051)</li><li>As the target tenant admin, [confirm that users are added to the directory](https://go.microsoft.com/fwlink/?linkid=2282052)</li></ol>|
 
 
 ### Import users from all tenants to the Glint app
