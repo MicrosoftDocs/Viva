@@ -3,7 +3,9 @@
    href: overview.md   
    items:
    - name: Get started with Viva Engage
-     items:    
+     items:
+     - name: Plan your Viva Engage launch strategy
+       href: engage-launch-strategy.md
      - name: Set up Viva Engage
        href: setup.md
      - name: Deep linking into Viva Engage
