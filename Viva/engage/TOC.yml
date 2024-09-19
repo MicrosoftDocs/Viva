@@ -160,7 +160,7 @@
      items:
       - name: View and manage analytics 
         href: analytics.md 
-      - name: Benchmarks in Viva Engage analytics.md
+      - name: Benchmarks in Viva Engage analytics
         href: benchmarking.md
    - name: Integrate with Microsoft apps
      items:   
