@@ -2170,6 +2170,16 @@
     "source_path": "viva/connections/use-the-link-card.md",
     "redirect_url": "/viva/connections/create-dashboard#add-a-web-link-card",
     "redirect_document_id": true
-  }     
+  },
+  {
+    "source_path": "viva/goals/copilot-uses.md",
+    "redirect_url": "https://support.microsoft.com/topic/use-copilot-in-viva-goals-to-create-summarize-and-understand-goals-11bf3612-669c-49b1-99f4-93b942ba5099",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/copilot-faq.md",
+    "redirect_url": "https://support.microsoft.com/topic/copilot-in-viva-goals-faq-31e9fbac-6214-4052-958f-9e766fd8b0e3",
+    "redirect_document_id": false
+  }      
   ]
 }
