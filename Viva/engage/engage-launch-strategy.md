@@ -55,4 +55,4 @@ Your launch can coincide with the release of a new product or with the announcem
 
 ### See also
 
-Viva Engage Adoption and Resources
+[Viva Engage Adoption and Resources](https://adoption.microsoft.com/en-us/viva/engage/)
