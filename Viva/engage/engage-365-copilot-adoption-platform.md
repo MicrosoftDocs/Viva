@@ -114,6 +114,7 @@ You can make this community public or private. If private, only members can acce
 
 You can find these resources under the ellipses (...) menu on the right side of the community header, under **Suggested content**.
 
-#### We have no plans to adopt Copilot on our network. Can we remove the Copilot early adopters community?
+#### We have no plans to adopt Copilot on our network. Can we remove access to creating the Copilot adoption community?
 
-Unfortunately, there's no option at present to hide or remove the Copilot adoption community.
+Only a network admin or corporate communicator can create a Copilot adoption community and only these roles see the discoverable banner in their home feed or Viva Engage admin center. This access to creating a Copilot adoption community cannot be removed.
+Once created, the Copilot adoption community can be deleted.
