@@ -1,7 +1,6 @@
 ---
 title: Export reports as a PDF
 description: Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a PDF in Glint is quick, allows easy consumption of comments.
-
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -21,8 +20,7 @@ ms.date: 09/20/2024
 
 # Export reports as a PDF
 
-Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a (Portable Document Format) PDF in Glint is quick, allows easier consumption of comments, and allows built-in capabilities, including search, markup, and highlighting.
-There are additional instructions for exporting comments in this guidance.
+Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easier consumption of comments, and supports highlighting, markup, search, and preview. There are additional instructions for exporting comments in this guidance.
 
 ## Procedure to export any PDF report
 
@@ -80,9 +78,9 @@ In this example, we are removing the Overview section of the Comments report:
     - **Prescriptive comments** 
       - Content: These comments provide specific advice or instructions on how to improve or address a particular issue.
       - Purpose: They aim to guide actions and suggest concrete steps for improvement.
-   - **Representative comments** 
-     -  Content: These comments reflect the views, opinions, or experiences of a larger group. In short – common themes.
-     -  Purpose: They aim to illustrate common sentiments or trends among the respondents
+    - **Representative comments** 
+      -  Content: These comments reflect the views, opinions, or experiences of a larger group. In short – common themes.
+      -  Purpose: They aim to illustrate common sentiments or trends among the respondents
 5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/viva/glint/setup/language-translations).
 
 :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
