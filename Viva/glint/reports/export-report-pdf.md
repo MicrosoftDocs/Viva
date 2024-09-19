@@ -83,7 +83,7 @@ In this example, we are removing the Overview section of the Comments report:
    - **Representative comments** 
      -  Content: These comments reflect the views, opinions, or experiences of a larger group. In short – common themes.
      -  Purpose: They aim to illustrate common sentiments or trends among the respondents
-5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/../../setup/language-translations).
+5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/viva/glint/setup/language-translations).
 
 :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
 
