@@ -1,4 +1,4 @@
----
+m---
 title: Microsoft Copilot Academy
 ms.author: bhaswatic
 author: bhaswatic
@@ -29,9 +29,9 @@ Microsoft Copilot Academy is integrated to help learners develop skills associat
 To access the academy in Viva Learning, Users must have a **Microsoft M365 Copilot** license, in addition to a Viva Learning seeded or premium license.
 
 > [!IMPORTANT]
-- Viva Learning seeded is included as part of Microsoft 365 E3 and E5, as well as Office 365 E1, E3, and E5. Please refer the complete [list](https://www.microsoft.com/en-in/microsoft-viva/pricing).
-- Viva Learning Premium is available as a standalone license or as a part of Viva Suite.
-- It may take up to 7 days for license updates to reflect in Viva Learning.
+> - Viva Learning seeded is included as part of Microsoft 365 E3 and E5, as well as Office 365 E1, E3, and E5. Please refer to the complete [list](https://www.microsoft.com/en-in/microsoft-viva/pricing).
+> - Viva Learning Premium is available as a standalone license or as a part of Viva Suite.
+> - It may take up to 7 days for license updates to reflect in Viva Learning.
 
 ## Configure Copilot Academy
 
