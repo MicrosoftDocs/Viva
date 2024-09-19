@@ -23,7 +23,7 @@ search.appverid:
 
 # Plan your Viva Engage launch strategy
 
-As you prepare to launch Viva Engage within your organization, it's important to create a strong and clear strategy---one that helps users understand how Viva Engage can keep everyone more connected and productive.
+Before you launch Viva Engage in your organization, create a strong and clear strategy to help users understand how Viva Engage can facilitate connection and productivity.
 
 :::image type="content" source="../media/engage/admin/engage-launch-photo.png" alt-text="Screenshot shows a photo of admins discussing launch strategy.":::
 
