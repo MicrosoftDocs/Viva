@@ -29,24 +29,17 @@ Microsoft Copilot Academy is integrated to help learners develop skills associat
 To access the academy in Viva Learning, Users must have a **Microsoft M365 Copilot** license, in addition to a Viva Learning seeded or premium license.
 
 > [!IMPORTANT]
-> - Viva Learning seeded is included as part of Microsoft 365 E3 and E5, as well as Office 365 E1, E3, and E5. Please refer the complete [list](https://www.microsoft.com/en-in/microsoft-viva/pricing).
-> - Viva Learning Premium is available as a standalone license or as a part of Viva Suite.
-> - It may take up to 7 days for license updates to reflect in Viva Learning.
-
-Users need to meet the following criteria to access Copilot Academy:
-
-1. A user profile provisioned within a tenant that has a Copilot license.  
-
-2. Assigned a paid license of Microsoft Viva Suite or Viva Learning.  
-
+- Viva Learning seeded is included as part of Microsoft 365 E3 and E5, as well as Office 365 E1, E3, and E5. Please refer the complete [list](https://www.microsoft.com/en-in/microsoft-viva/pricing).
+- Viva Learning Premium is available as a standalone license or as a part of Viva Suite.
+- It may take up to 7 days for license updates to reflect in Viva Learning.
 
 ## Configure Copilot Academy
 
 Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
 
-Users with a Copilot license receive an in-app notification on Copilot Academy from Microsoft Teams.
+Users with a Copilot license will receive a monthly personalized notification about Copilot Academy in Microsoft Teams.
 
-Knowledge Administrators of tenants who have least one Copilot license can disable Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section.
+Knowledge Administrators of tenants who have least one Copilot license can manage Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section.
 
 
 ![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
