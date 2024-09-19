@@ -391,7 +391,7 @@ items:
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
           - name: Export reports as PDF
-            href: reports/export-report-pdf-md.
+            href: reports/export-report-pdf.md
           - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
