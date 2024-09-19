@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2023
+ms.date: 09/19/2024
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: elizapo
@@ -21,7 +21,7 @@ description: "Learn about language support in Microsoft Viva"
 ---
 # Microsoft Viva language support
   
-The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in  the different Viva modules.
+The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in the different Viva modules.
 
 
 ## Viva Amplify
