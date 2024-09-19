@@ -1,4 +1,4 @@
-m---
+---
 title: Microsoft Copilot Academy
 ms.author: bhaswatic
 author: bhaswatic
