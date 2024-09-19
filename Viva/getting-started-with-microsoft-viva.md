@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author:  elizapo
 author: lizap
 manager: elizapo
-ms.date: 09/20/2023
+ms.date: 09/19/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -28,12 +28,6 @@ description: "Learn everything about Microsoft Viva and Microsoft Viva experienc
 With the growth in hybrid work, it's more important than ever to connect employees with an experience that brings together a wide range of productivity tools all in Microsoft Teams.
 
 Microsoft Viva is an employee experience platform made up of different apps that can be used individually or combined to meet your organization’s needs. Microsoft Viva is customizable and extensible, accessible from anywhere you work, and integrates with tools you already use. It also supports various partner integrations to give you access to industry-leading apps in the natural flow of work.
-
-## In this solution
-
-|Identify your business scenario  |Learn more about requirements, setup, and roles |Get started planning and deploying  |
-|:---------:|:---------:|:---------:|
-|:::image type="icon" source="media/viva-discover1.png" border="false"::: <br> Discover which Viva app, or combination of apps, is the right fit for your business scenario.    | :::image type="icon" source="media/viva-learn2.png" border="false"::: <br> Understand requirements, learn more about change management, and end-user training.   |:::image type="icon" source="media/viva-get-started4.png" border="false"::: <br> Start planning your organization’s Viva deployment.|
 
 ## Identify your business scenario
 
