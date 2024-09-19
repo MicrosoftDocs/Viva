@@ -50,7 +50,7 @@ By default, all objectives are visible to the entire organization unless you fol
     > [!NOTE]
     > This users on the list will also be able to see any key results below the objective.
 
-    :::image type="content" source="../media/goals/4/414/b.jpg" alt-text="Screenshot shows the list visibility diaolog with a list users for a private objective." lightbox="../media/goals/4/414/b.jpg":::
+    :::image type="content" source="../media/goals/4/414/b.jpg" alt-text="Screenshot shows the list visibility dialog with a list users for a private objective." lightbox="../media/goals/4/414/b.jpg":::
 
 3. Now the user can see this objective is private to them and one other person.
 
@@ -65,5 +65,3 @@ The owner of the object can modify privacy of that objective.
 - The key results of a private objective can't be multi-aligned to more than one private objective.
 - By default, private OKRs can't be aligned to public OKRs.
 - If your organization wants to be able to have public objectives with private key results, we can enable that functionality.
-
-
