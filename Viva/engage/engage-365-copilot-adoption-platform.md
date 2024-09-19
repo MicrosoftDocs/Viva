@@ -116,5 +116,5 @@ You can find these resources under the ellipses (...) menu on the right side of 
 
 #### We have no plans to adopt Copilot on our network. Can we remove access to creating the Copilot adoption community?
 
-Only a network admin or corporate communicator can create a Copilot adoption community and only these roles see the discoverable banner in their home feed or Viva Engage admin center. This access to creating a Copilot adoption community cannot be removed.
-Once created, the Copilot adoption community can be deleted.
+Access to the community configuration settings can't be removed, but only your network admins and corporate communicators will see the discoverable banner in their home feed and admin center.
+Once a Copilot adoption community is created, however, it can be deleted.
