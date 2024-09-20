@@ -52,7 +52,8 @@ To further illustrate, let’s go through an example of the retention metric cal
 |**Inactivity Verification Period**|  |
 |Apr 23 - May 20|To verify that an action is an employee’s last action, we observe their behavior for the following 28 days to ensure that no additional activity occurred.|
 
-:::image type="content" source="../media/engage/admin/retention-graph-example.png"(../media/engage/retention-graph-expanded.png#lightbox) alt-text="Screenshot shows the timeline Viva Engage uses to track data for the retention metric.":::
+:::image type="content" source="../media/engage/admin/retention-graph-example.png" alt-text="Screenshot shows the timeline Viva Engage uses to track data for the retention metric."lightbox="../media/engage/retention-graph-expanded.png":::
+:::image type="content" source="media/article-folder-name/image-file-inline.png" alt-text="Image alt text." lightbox="media/article-folder-name/image-file-expanded.png":::
 
 For our example, of all the employees that were counted in the Population Collection Period, 40 Active on Engage employees weren't retained and 20 Not Active on Engage employees weren't retained. 
 
