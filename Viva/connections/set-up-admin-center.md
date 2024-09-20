@@ -33,7 +33,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 >
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a Microsoft 365 subscription (E or F license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
@@ -55,6 +55,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 - **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
 
 > [!NOTE]
+>
 > Currently the app icon and name can be managed only at a tenant level. Organizations with multiple experiences will not see individual names and icons for each one in Teams.
 
 ## How to access Viva Connections in the Microsoft admin center
@@ -63,6 +64,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 2. Select **Settings** to expand the selection and select **Viva**.
 
 > [!NOTE]
+>
 > If Settings does not show, select **show all** to reveal all available menu options.
 
 3. Select **Viva Connections** to open the Viva Connections admin center.

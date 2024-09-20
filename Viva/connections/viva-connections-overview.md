@@ -212,10 +212,6 @@ Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home 
 
 **From your organization's SharePoint home site**: Select **Go to Viva Connections** from your organization's intranet or home site.
 
-> [!NOTE]
->
-> This is currently rolling out and is expected to be completed by September 2024.
-
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-access-vc-sp.png" alt-text="Screenshot of accessing Viva Connections from SharePoint." lightbox="../media/connections/viva-connections-overview/vc3-access-vc-sp.png":::
 
 **From the Viva Suite home website**: Select the **Viva Connections card** from the spotlight on the [Viva Suite home site](https://viva.cloud.microsoft/).
@@ -255,6 +251,7 @@ A tailored experience is one in which content is automatically displayed accordi
 Matching your organizational brand is integral to your users' connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#customize-the-look).
 
 > [!NOTE]
+>
 > Company branding in the Viva Connections app is currently disabled for users on mobile and desktop who have enabled dark mode under their Microsoft Teams Appearance and Accessibility settings.
 
 ## Localization
@@ -295,7 +292,7 @@ Depending on the size of your organization and the information to communicate, y
 >
 > - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a Microsoft 365 subscription (E or F license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 ### You can choose the default landing experience
 
