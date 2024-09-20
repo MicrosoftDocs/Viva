@@ -2,9 +2,9 @@
 ms.date: 06/17/2024
 title: Write effective OKRs that inspire action and deliver results
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
