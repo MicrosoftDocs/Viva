@@ -2,9 +2,9 @@
 ms.date: 01/31/2024
 title: Use a self-service trial to try out the full version of Viva Goals
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

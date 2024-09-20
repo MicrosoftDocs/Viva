@@ -2,9 +2,9 @@
 ms.date: 12/21/2023
 title: Use a company-wide organization to simplify joining and collaborating in Viva Goals
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
