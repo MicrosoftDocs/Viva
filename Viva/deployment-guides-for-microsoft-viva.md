@@ -1,7 +1,7 @@
 ---
 title: "Advanced Deployment Guides for Microsoft Viva"
 ms.reviewer:
-ms.date: 07/13/2023
+ms.date: 09/19/2024
 ms.author: loreenl
 author: LoreenLa
 manager: elizapo
@@ -34,7 +34,6 @@ Deployment guides in the admin center require authentication to a Microsoft 365 
 
 | Guide - [Setup Portal](https://go.microsoft.com/fwlink/?linkid=2241022) | Guide - [Admin Center](https://go.microsoft.com/fwlink/?linkid=2224787) | Description |
 |---------|---------|---------|
-|[Deploy employee experience with Microsoft Viva](https://go.microsoft.com/fwlink/?linkid=2241022)    | [Deploy employee experience with Microsoft Viva](https://go.microsoft.com/fwlink/?linkid=2224787)       | Viva is an integrated, employee experience platform (EXP) that brings together communications, knowledge, learning, resources, and insights into the flow of work and fosters a culture where people and teams thrive and are empowered to be their best from anywhere. You can use the steps and guidance in the guides linked here to deploy one or more Viva apps and achieve better employee engagement throughout your organization.        |
 |[Enable Microsoft Viva Amplify](https://go.microsoft.com/fwlink/?linkid=2263448)     |[Enable Microsoft Viva Amplify](https://go.microsoft.com/fwlink/?linkid=2263282)         | Centralize campaign management, publishing, and reporting to reach and engage employees.      |
 |[Enable Microsoft Viva Connections](https://go.microsoft.com/fwlink/?linkid=2222984)     |[Enable Microsoft Viva Connections](https://go.microsoft.com/fwlink/?linkid=2224697)         | Encourage meaningful connections while fostering a culture of inclusion and aligning the entire organization around your vision, mission, and strategic priorities.      |
 |[Enable Microsoft Viva Engage](https://go.microsoft.com/fwlink/?linkid=2223067)   |  [Enable Microsoft Viva Engage](https://go.microsoft.com/fwlink/?linkid=2224797)       | Bring people together across the organization to connect with leaders, coworkers, and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.        |
