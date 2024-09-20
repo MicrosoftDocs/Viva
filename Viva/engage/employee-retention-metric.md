@@ -20,13 +20,13 @@ search.appverid:
 
 # Measure employee retention with Viva Engage
 
-The Viva Engage employee retention metric in Network Analytics shows the difference in the 28-day retention rates between employees who use Viva Engage and those who do not. Since Viva Engage doesn’t have access to customer human resources data, we impute whether an employee is retained based on whether they have an active Microsoft 365 account and are actively using that account. Find more detail about these calculations and a numerical example in the following sections.
+The Viva Engage employee retention metric in Network Analytics shows the difference in the 28-day retention rates between employees who use Viva Engage and employees who don't. Since Viva Engage has no access to customer human resources data, we impute that an employee is retained based on if they have an active Microsoft 365 account and are actively using that account. Find more detail about these calculations and a numerical example in the following sections.
 
 :::image type="content" source="../media/engage/admin/employee-retention-metric.png" alt-text="Screenshot shows visualization of the Employee retention metric.":::
 
 ## Employee groupings
 
-We first define the employee population for which to calculate retention. To do this, we classify employees into two groups based on Viva Engage and Microsoft 365 usage behavior for an 84-day (~3 month) period.  
+We first define the employee population for which to calculate retention. To do this, we classify employees into two groups based on Viva Engage and Microsoft 365 usage behavior for an 84-day (~three month) period.  
 
 Active on Engage - Employees who perform an action in Viva Engage. Actions can include viewing, writing, or reacting within any Viva Engage platform.
 
@@ -34,7 +34,7 @@ Not active on Engage - Employees who have active accounts but don’t perform an
 
 ## Retention proxy
 
-To measure employee retention, we must impute the date an employee left their company. We assume an employee left (that is, they were not retained) if their Microsoft 365 account was deleted, or they didn’t use a Microsoft app (such as Outlook, Teams, Word, or OneDrive) in the previous 28 days. Because the retention proxy is also dependent on inactivity for at least 28 days, we must wait an additional 28 days after the retention calculation period to verify inactivity.  
+To measure employee retention, we must impute the date an employee left their company. We assume that an employee wasn't retained if their Microsoft 365 account was deleted, or they didn’t use a Microsoft app (such as Outlook, Teams, Word, or OneDrive) in the previous 28 days. Because the retention proxy is also dependent on inactivity for at least 28 days, we must wait an additional 28 days after the retention calculation period to verify inactivity.  
 
 ## Calculation and comparison 
 
@@ -52,8 +52,7 @@ To further illustrate, let’s go through an example of the retention metric cal
 |**Inactivity Verification Period**|  |
 |Apr 23 - May 20|To verify that an action is an employee’s last action, we observe their behavior for the following 28 days to ensure that no additional activity occurred.|
 
-:::image type="content" source="../media/engage/admin/retention-graph-example.png" alt-text="Screenshot shows the timeline Viva Engage uses to track data for the retention metric."lightbox="../media/engage/retention-graph-expanded.png":::
-:::image type="content" source="media/article-folder-name/image-file-inline.png" alt-text="Image alt text." lightbox="media/article-folder-name/image-file-expanded.png":::
+:::image type="content" source="../media/engage/admin/retention-graph-example.png" alt-text="Screenshot shows how Viva Engage uses data across a specific timeline for the retention metric."lightbox="../media/engage/retention-graph-expanded.png":::
 
 For our example, of all the employees that were counted in the Population Collection Period, 40 Active on Engage employees weren't retained and 20 Not Active on Engage employees weren't retained. 
 
