@@ -2,9 +2,9 @@
 ms.date: 03/03/2023
 title: "Rhythm of Business Recommendations"
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

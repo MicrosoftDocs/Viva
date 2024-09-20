@@ -2,9 +2,9 @@
 ms.date: 06/26/2023
 title: "Write annual, organizational goals using the 5 Ps"
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -44,7 +44,7 @@ Remember the ground rules for your Objectives:
 - They should be meaningful 
 - They should be “sticky” and easy to remember 
 
-Ideally, they should also cover not just "the what", but also "the why". That’s why we like the formula: **verb + What you’re going to do + “so that” or “in order to”**
+Ideally, they should also cover not just "the what," but also "the why". That’s why we like the formula: **verb + What you’re going to do + “so that” or “in order to”**
 
 If this is your first time implementing goals, or if you’re looking for some structure to build best practices, there are five broad categories to consider.
 

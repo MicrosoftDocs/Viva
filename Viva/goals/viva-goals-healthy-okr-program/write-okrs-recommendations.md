@@ -2,9 +2,9 @@
 ms.date: 01/23/2023
 title: "Write OKRs Recommendations"
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
