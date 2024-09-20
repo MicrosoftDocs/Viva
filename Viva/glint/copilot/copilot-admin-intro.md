@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 09/20/2024
 ---
 
 # Introduction to Microsoft 365 Copilot in Viva Glint (preview)
@@ -48,6 +48,15 @@ Copilot in Viva Glint is built to answer questions about your survey comments. I
 ### Are more Microsoft 365 Copilot features planned?
 
 Yes! As with all Viva Glint features, we post as soon as new features are available. 
+
+## Languages supported by Microsoft 365 Copilot in Viva Glint
+
+Copilot in Viva Glint comment summarization is available in all 27 languages supported by Microsoft Copilot in Viva. The admin still needs to interact with the program in English.
+
+For the best feedback, encourage your employees to leave comments in their native language.
+
+
+[Microsoft 365 Copilot currently supports 27 languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
 
 ## How can my organization use Microsoft 365 Copilot in Viva Glint?
 
