@@ -132,7 +132,7 @@ Some cards can also reflect dynamic content that refreshes based on a user actio
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
-|**Element**  |**Mobile Experience** (Smartphone & Tablet) |**Desktop Experience** (Desktop & Web)  |
+| Element | Mobile Experience (Smartphone & Tablet) | Desktop Experience (Desktop & Web)  |
 |---------|---------|---------|
 |Dashboard  |     Displays as the default tab in the Viva Connections app in Teams.    | It's prominently displayed in the desktop app and can be added to your SharePoint sites [as a web part](use-dashboard-web-part-on-home-site.md).   |
 |Dashboard layout   | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). Users can [reorder, show, or hide the cards](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) on their dashboard (These settings won't carry over to their desktop or tablet experience).       |     Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a one, two, or three column page section layout.     |
