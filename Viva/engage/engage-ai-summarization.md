@@ -10,8 +10,7 @@ ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
-ms.collection: 
- - magic-ai-copilot
+ms.collection: magic-ai-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
