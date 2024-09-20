@@ -20,7 +20,7 @@ search.appverid:
 
 # Measure employee retention with Viva Engage
 
-The Viva Engage employee retention metric in Network Analytics shows the difference in the 28-day retention rates between employees who use Viva Engage and employees who don't. Since Viva Engage has no access to customer human resources data, we impute that an employee is retained based on if they have an active Microsoft 365 account and are actively using that account. Find more detail about these calculations and a numerical example in the following sections.
+The Viva Engage employee retention metric in Network Analytics shows the difference in the 28-day retention rates between employees who use Viva Engage and employees who don't. Since Viva Engage has no access to customer human resources data, we impute that an employee is retained if they have an active Microsoft 365 account and they're actively using that account. Find more detail about these calculations and a numerical example in the following sections.
 
 :::image type="content" source="../media/engage/admin/employee-retention-metric.png" alt-text="Screenshot shows visualization of the Employee retention metric.":::
 
