@@ -162,6 +162,8 @@
         href: analytics.md 
       - name: Benchmarks in Viva Engage analytics
         href: benchmarking.md
+      - name: Measure employee retention with Viva Engage
+        href: employee-retention-metric.md
    - name: Integrate with Microsoft apps
      items:   
       - name: Integrate Viva Engage with other applications
