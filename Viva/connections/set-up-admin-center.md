@@ -63,9 +63,9 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 1. Navigate to [admin.microsoft.com](https://admin.microsoft.com/Adminportal/Home#/homepage) and sign in with your credentials.
 2. Select **Settings** to expand the selection and select **Viva**.
 
-> [!NOTE]
->
-> If Settings does not show, select **show all** to reveal all available menu options.
+   > [!NOTE]
+   >
+   > If Settings does not show, select **show all** to reveal all available menu options.
 
 3. Select **Viva Connections** to open the Viva Connections admin center.
 
