@@ -331,7 +331,7 @@ The following settings are available in the settings panel:
 1. Select the experience you wish to delete.
 2. In the settings panel, select **Delete**.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/deleting-experience.png" alt-text="Screenshot of the screen on which you can delete a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/deleting-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/deleting-experience.png" alt-text="Screenshot of the screen on which you can delete a Viva Connections experience.":::
 
 3. A confirmation screen will display. Select **Delete** to remove the experience.
 
@@ -362,7 +362,7 @@ To set the site that was created when creating your Viva Connections experience 
 3. If the selected Viva Connections experience is in a draft state, you can select **enable experience** to take it out of the draft state and make it available to viewers.
 4. Select **Set home site**.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site." lightbox="../media/connections/set-up-admin-center/enable-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site.":::
 
 Once your home site has been set up, it's time to plan the launch of the experience and make sure the rest of the organization can find and use the home site. Learn more about [launching your SharePoint home site](home-site-plan.md#launch-your-sharepoint-home-site).
 
