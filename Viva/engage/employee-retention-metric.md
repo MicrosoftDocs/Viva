@@ -44,8 +44,8 @@ Finally, for each employee group (Active on Engage and Not Active on Engage), we
 
 To further illustrate, let’s go through an example of the retention metric calculation.
 
-|------|------|
 |**Population Collection Period**|   |
+|------|------|
 |Jan 1 - Mar 25|1,000 employees had active Viva Engage accounts. 800 are classified as Active on Engage and 200 are Not Active on Engage.|
 |**28-day Evaluation Period**|  |
 |Mar 26 - Apr 22|In this period, we count how many of these accounts are deleted or had a final Microsoft 365 action.|
