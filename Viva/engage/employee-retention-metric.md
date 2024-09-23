@@ -46,9 +46,9 @@ To further illustrate, let’s go through an example of the retention metric cal
 
 |Three stages of data collection|Details|
 |------|------|
-|**Population collection period**<br>Jan 1 - Mar 25|1,000 employees had active Viva Engage accounts. 800 are classified as *Active on Engage* and 200 are *Not Active on Engage*.|
-|**Evaluation period**<br>Mar 26 - Apr 22|In this 28-day period, we count how many of these accounts are deleted or had a final Microsoft 365 action.|
-|**Inactivity verification period**<br>Apr 23 - May 20|To verify that an action is an employee’s last action, we observe their behavior for the following 28 days to ensure that no additional activity occurred.|
+|**Population collection period (84 days)**<br>Jan 1 - Mar 25|1,000 employees had active Viva Engage accounts. 800 are classified as *Active on Engage* and 200 are *Not Active on Engage*.|
+|**Evaluation period (28 days)**<br>Mar 26 - Apr 22|In this period, we count how many of these accounts are deleted or had a final Microsoft 365 action.|
+|**Inactivity verification period (28 days)**<br>Apr 23 - May 20|To verify that an action is an employee’s last action, we observe their behavior for the following 28 days to ensure that no additional activity occurred.|
 
 :::image type="content" source="../media/engage/admin/retention-graph-example.png" alt-text="Screenshot shows the timeline for the retention metric." lightbox="../media/engage/admin/retention-graph-expanded.png":::
 
