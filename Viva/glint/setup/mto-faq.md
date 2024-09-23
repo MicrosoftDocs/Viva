@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/11/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/23/2024
 ---
 
-# Viva Glint for a multitenant organization FAQ (preview)
-
-> [!NOTE]
-> Multitenant organization for Viva Glint is available to preview customers only. Features described here are subject to change.
+# Viva Glint for a multitenant organization FAQ
 
 Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group for access to Microsoft Viva Glint in your organization. 
 
