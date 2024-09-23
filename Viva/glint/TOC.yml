@@ -92,7 +92,7 @@ items:
             href: setup/works-council.md
           - name: Technical tasks
             items:
-              - name: Allowed list
+              - name: Allowlist
                 href: setup/allowed-list.md
               - name: Set up access with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
