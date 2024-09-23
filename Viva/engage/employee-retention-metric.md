@@ -25,7 +25,7 @@ The Viva Engage employee retention metric in the [Network Analytics](/viva/engag
 >[!NOTE]
 >Only Engage network admins and corporate communicators have access to the Network Analytics dashboard.
 
-:::image type="content" source="../media/engage/admin/employee-retention-metric.png" alt-text="Screenshot shows visualization of the Employee retention metric.":::
+:::image type="content" source="../media/engage/admin/employee-retention-metric.png" alt-text="Screenshot shows visualization of the Employee retention metric." lightbox="../media/engage/admin/employee-retention-metric.png":::
 
 ## Employee groupings
 
@@ -61,4 +61,4 @@ On 5/21, the difference in retention rates for this cohort is:
 
  - 90% retention for *Not Active on Engage* employees (760/800 = 90%)
 
-In the Network Analytics dashboard, the Retention metric   would show +5.0 percentage points (95% - 90%).
+In the Network Analytics dashboard, the Retention metric would show +5.0 percentage points (95% - 90%).
