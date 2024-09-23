@@ -54,6 +54,10 @@ items:
         items:
           - name: Set up a tenant
             href: setup/viva-glint-tenant-provision.md
+          - name: Set up a multitenant organization
+            href: setup/glint-mto.md
+          - name: Multitenant organization FAQ
+            href: setup/mto-faq.md           
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
           - name: Role definitions
