@@ -38,7 +38,7 @@ To measure employee retention, we must impute the date an employee left their co
 
 ## Calculation and comparison 
 
-Finally, for each employee group (*Active on Engage* and *Not Active on Engage*), we measure the share of those who were retained in the following 28 days. The metric shown in the Network Analytics dashboard is the percentage point difference in retention rates between those *Active on Engage* and those *Not Active on Engage*. 
+Finally, for each employee group (*Active on Engage* and *Not Active on Engage*), we measure the share of those who were retained in the following 28 days. In the Network Analytics dashboard, the metric shows the percentage point difference in retention rates between those *Active on Engage* and those *Not Active on Engage*.
 
 #### Example
 
@@ -50,14 +50,12 @@ To further illustrate, let’s go through an example of the retention metric cal
 |**Evaluation period (28 days)**<br>Mar 26 - Apr 22|In this period, we count how many of these accounts are deleted or had a final Microsoft 365 action.|
 |**Inactivity verification period (28 days)**<br>Apr 23 - May 20|To verify that an action is an employee’s last action, we observe their behavior for the following 28 days to ensure that no additional activity occurred.|
 
-:::image type="content" source="../media/engage/admin/retention-graph-example.png" alt-text="Screenshot shows the timeline for the retention metric." lightbox="../media/engage/admin/retention-graph-expanded.png":::
+For our example, of all the employees that were counted in the Population Collection Period, 40 *Active on Engage* employees weren't retained and 20 *Not Active on Engage* employees weren't retained.
 
-For our example, of all the employees that were counted in the Population Collection Period, 40 *Active on Engage* employees weren't retained and 20 *Not Active on Engage* employees weren't retained. 
-
-On 5/21, the difference in retention rates for this cohort:
+On 5/21, the difference in retention rates for this cohort is:
 
  - 95% retention for *Active on Engage* employees (760/800 = 95%)
 
  - 90% retention for *Not Active on Engage* employees (760/800 = 90%)
 
-The Retention metric in Network Analytics would show +5.0 percentage points (95% - 90%).
+In the Network Analytics dashboard, the Retention metric   would show +5.0 percentage points (95% - 90%).
