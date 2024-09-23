@@ -1,12 +1,12 @@
 ---
-title: Allowed list information for Viva Glint
-description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
+title: Allowlist information for Viva Glint
+description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowlist.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: approved sender, allowed list, firewall, spam
+keywords: approved sender, allowed list, firewall, spam, allowlist
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,13 +17,13 @@ ms.localizationpriority: high
 ms.date: 09/13/2024
 ---
 
-# Allowed list information for Viva Glint
+# Allowlist information for Viva Glint
 
-Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.mail.microsoft, add **glint.mail.microsoft** to your allowed list.
+Microsoft Viva Glint operates in two distinct geographical regions: the United States (US) and in the European Union (EU). Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowlist. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from no-reply@glint.mail.microsoft, add **glint.mail.microsoft** to your allowed list.
 
 ## Add email sender domains
 
-Viva Glint emails come from one of the domains listed here for the US and EU. Add the following domains to your allowed list:
+Viva Glint emails come from one of the domains listed here for the US and EU. Add the following domains to your allowlist:
 
 - glint.mail.microsoft - Survey Notifications
 - microsoft.com - Microsoft Email Communications
@@ -35,7 +35,7 @@ Viva Glint emails come from one of the domains listed here for the US and EU. Ad
 
 ## Logos and images
 
-Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowed list and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
+Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowlist and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
 
 ## Spam gateways
 
