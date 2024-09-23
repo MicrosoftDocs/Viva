@@ -1,6 +1,6 @@
 ---
 title: Viva Glint for a multitenant organization FAQ (preview)
-description: Multitenant organization (MTO) is a Microsoft 365 feature that enables you to form a tenant group within your organization.
+description: Use these frequently asked questions as your company sets up multitenant organization (MTO), a Microsoft 365 feature that enables you to form a tenant group within your organization.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 09/23/2024
 
 # Viva Glint for a multitenant organization FAQ
 
-Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group for access to Microsoft Viva Glint in your organization. 
+Use these frequently asked questions as your company sets up multitenant organization (MTO), a Microsoft 365 feature that enables you to form a tenant group within your organization.
 
 ## Why does my organization need to enable MTO for Glint?
 The [multitenant organization (MTO) capability in Microsoft 365](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview) allows organizations to manage multiple tenants under a single umbrella enabling secure collaboration and resource sharing across these tenants. Tenant admins create an MTO policy in the target tenant and add source tenants. This option was created for Viva Glint customers to seamlessly access the product like they currently do in LinkedIn Glint.
@@ -40,7 +40,7 @@ Microsoft 365 admins can install Glint to only one tenant - the target tenant. G
 1. All users from source tenants need to be synced to the target tenant with B2B collaboration or CTS and all users (across all tenants) must be imported to the Glint app.
 1. Glint admins can send a survey to all synced users or selected users from the target tenant and need to complete all survey setup actions in the target tenant. These users receive the survey but may not be able to access depending on if the organization chooses sign-in using Microsoft Entra ID as a survey access method.
 
-|Users synced with B2B collab or CTS  |HRIS import to Glint app complete  |Require Azure AD (Entra) for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
+|Users synced with B2B collab or CTS  |HRIS import to Glint app complete  |Require Azure AD (Microsoft Entra) for links in survey emails |Dashboard access for source tenant users |Survey access for source tenant users|
 |:----------|:-----------|:-----------|:-----------|:-----------|
 | Yes | No  | Yes | No | No |
 | Yes  | No | No | No | No |
@@ -74,7 +74,7 @@ The tenant B admin doesn't have access to Glint to send surveys. The tenant A Gl
 Restricting MTO to specific app isn't currently possible. MTO setup impacts synced users' experience in any apps or features integrated with MTO, such as Microsoft Teams, Search, and People card.
 
 ## How long does it take to set up MTO?
-One working session of an hour with the Microsoft 365 or Entra Admin should be enough to enable MTO and test. But, factor in another session in case you run into any problems.
+One working session of an hour with the Microsoft 365 or Microsoft Entra Admin should be enough to enable MTO and test. But, factor in another session in case you run into any problems.
 
 ## How does MTO impact guest users? Can our organization add guest users without converting them to members?
 MTO uses any B2B collaboration or CTS and doesn't automatically change the external user setup.
@@ -96,7 +96,7 @@ Yes. Admins need to add the users to the target tenant, import the users’ HRIS
 
 **If source tenants aren't Microsoft Entra ID tenants:**
 - Add users directly to the target tenant.
-- An MTO policy and user sync aren't needed because these users have the target tenant as their home tenant in Entra.
+- An MTO policy and user sync aren't needed because these users have the target tenant as their home tenant in Microsoft Entra.
 
 ## Can our organization set up one tenant now and add others later?
 Yes. If you currently have multiple tenants, you can migrate and access Glint with your primary tenant to start with.
