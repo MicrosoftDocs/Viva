@@ -2,9 +2,9 @@
 ms.date: 05/30/2024
 title: Viva Goals admin portal
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -56,7 +56,7 @@ As a Viva Goals administrator, you can use this section to:
 - [Choose who can create organizations](restrict-organization-creation-permissions.md).
 - [Configure whether users are required to assign a team when creating an OKR](mandate-okr-team-assignment.md).
 - [Approve domains to be embedded in dashboards](custom-url-widget.md).
-- [Configure who can see Viva Goals Copilot](copilot-intro.md#configuring-copilot-access-using-viva-feature-access-management).
+- [Configure who can see Microsoft 365 Copilot in Viva Goals](copilot-intro.md#configuring-copilot-access-using-viva-feature-access-management).
 - Configure whether OKRs are shared with Microsoft 365.
 - Choose who can see Viva Goals in profile cards.
 - Configure sharing permissions.

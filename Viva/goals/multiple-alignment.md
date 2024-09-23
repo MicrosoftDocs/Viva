@@ -2,9 +2,9 @@
 ms.date: 04/11/2022
 title: "Multiple Alignments"
 ms.reviewer: 
-author: ranjali-MS
-ms.author: RaSanders
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,9 +20,9 @@ description: "Learn how Multiple Alignment allows users to align a single OKR to
 
 # Multiple Alignment
 
-Viva Goals recognizes that the modern workplace is often made up of nonlinear organizational structures and goal matrixes. The Multiple Alignment feature helps. 
+Viva Goals recognizes that the modern workplace is often made up of nonlinear organizational structures and goal matrixes. The Multiple Alignment feature helps.
 
-## What is Multiple Alignment? 
+## What is Multiple Alignment?
 
 The Multiple Alignment feature in Viva Goals lets Viva Goal users align a single OKR to two or OKRs above it in the organization.
 
@@ -48,9 +48,8 @@ If an objective is aligned to multiple objectives, the progress roll-up will cas
 
 ## Multiple Alignment and Private Objectives
 
-You can enable both the Multiple Alignment and [Private Objectives](https://help.ally.io/en/articles/3152440-private-objectiveshttps://help.ally.io/en/articles/3152440-private-objectives) features at the same time, with the following restrictions:
+You can enable both the Multiple Alignment and [Private Objectives](private-objectives-key-results.md) features at the same time, with the following restrictions:
 
 - A Multiple Alignment public OKR can be made private, but all of the alignment will first be automatically removed.
 
 - No key result of a private objective can use Multiple Alignment.
-

@@ -197,6 +197,8 @@ These steps apply to Microsoft 365 global admins.
 
 This feature lets you upload a list of non-Copilot users for cohort analysis in the dashboard. Cohort analysis enables leaders to compare the various metrics of two groups of users: Copilot users and non-Copilot users.
 
+The maximum number of users you can add for cohort upload is equal to the number of your available Copilot licenses. Any additional users you add are not processed in the cohort list.
+
 You can upload a list of users for cohort analysis in the [Microsoft 365 Admin Center](https://admin.microsoft.com). To do so, follow these steps: 
 
 1. Go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**.  

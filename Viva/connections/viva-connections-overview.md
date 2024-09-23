@@ -49,7 +49,7 @@ Viva Connections gives different roles in your organization a personalized landi
 >
 > Updates to the Viva Connections mobile app are planned for Q2 2024.
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile.":::
 
 Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 
@@ -91,7 +91,7 @@ The spotlight sits at the top of the Viva Connections experience and displays co
 
 Additional information can be accessed from the Feed tab. Here, users can access their personalized feed with relevant information ranging from organizational and industry news, insights from colleagues in their network, upcoming and previous meetings, and updates on important collaborations. Content is curated based on the employee’s network of people they work and communicate with across Microsoft 365 apps.
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-feed-tab.png" alt-text="Screenshot showing off content available from within the feed tab." lightbox="../media/connections/viva-connections-overview/vc3-feed-tab.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-feed-tab.png" alt-text="Screenshot showing off content available from within the feed tab.":::
 
 The feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important information related to their daily work life.
 
@@ -132,7 +132,7 @@ Some cards can also reflect dynamic content that refreshes based on a user actio
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
-|**Element**  |**Mobile Experience** (Smartphone & Tablet) |**Desktop Experience** (Desktop & Web)  |
+| Element | Mobile Experience (Smartphone & Tablet) | Desktop Experience (Desktop & Web)  |
 |---------|---------|---------|
 |Dashboard  |     Displays as the default tab in the Viva Connections app in Teams.    | It's prominently displayed in the desktop app and can be added to your SharePoint sites [as a web part](use-dashboard-web-part-on-home-site.md).   |
 |Dashboard layout   | Fixed in portrait mode. Card sizes can be medium (which shows two cards on one row) or large (which shows one card on a row). Users can [reorder, show, or hide the cards](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) on their dashboard (These settings won't carry over to their desktop or tablet experience).       |     Can be portrait or landscape with varying numbers of cards on each row depending on whether the web part is used in a one, two, or three column page section layout.     |
@@ -145,7 +145,7 @@ The dashboard experience has been designed to be consistent across mobile platfo
 
 The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you're using a home site, the dashboard can also be authored from the SharePoint home site.
 
-:::image type="content" source="../media/connections/new-dashboard-creation.png" alt-text="Image showing how to edit a Viva Connections Dashboard." lightbox="../media/connections/new-dashboard-creation.png":::
+:::image type="content" source="../media/connections/new-dashboard-creation.png" alt-text="Image showing how to edit a Viva Connections Dashboard.":::
 
 The layout of the dashboard, including the size of the cards (which can be individually set as medium or large) can be customized. The layout of the cards might look different depending on whether the dashboard is being viewed on mobile, desktop, or in the dashboard web part. Users with edit permissions can preview how the dashboard appears to users viewing on a mobile device or desktop.
 
@@ -191,7 +191,7 @@ Accessing Viva Connections from a tablet or mobile device features a more compac
 
 Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home website](https://viva.cloud.microsoft/) provides a consistent experience through multiple entry points.
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the Viva Connections desktop experience." lightbox="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the Viva Connections desktop experience.":::
 
 **Key capabilities of the desktop experience:**
 
@@ -208,13 +208,9 @@ Accessing Viva Connections via Teams, SharePoint home page, or [Viva Suite home 
 
 **From the Viva Connections app in Microsoft Teams**: Select the **Viva Connections app** from the Microsoft Team’s app bar.
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-access-vc-teams.png" alt-text="Screenshot of accessing Viva Connections from Microsoft Teams." lightbox="../media/connections/viva-connections-overview/vc3-access-vc-teams.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-access-vc-teams.png" alt-text="Screenshot of accessing Viva Connections from Microsoft Teams.":::
 
 **From your organization's SharePoint home site**: Select **Go to Viva Connections** from your organization's intranet or home site.
-
-> [!NOTE]
->
-> This is currently rolling out and is expected to be completed by September 2024.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-access-vc-sp.png" alt-text="Screenshot of accessing Viva Connections from SharePoint." lightbox="../media/connections/viva-connections-overview/vc3-access-vc-sp.png":::
 
@@ -255,6 +251,7 @@ A tailored experience is one in which content is automatically displayed accordi
 Matching your organizational brand is integral to your users' connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#customize-the-look).
 
 > [!NOTE]
+>
 > Company branding in the Viva Connections app is currently disabled for users on mobile and desktop who have enabled dark mode under their Microsoft Teams Appearance and Accessibility settings.
 
 ## Localization
@@ -277,7 +274,7 @@ Use Viva Connections as the primary destination where users access job-specific 
 
 ### Shared functionality
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-shared-functionality.png" alt-text="Screenshot of a Venn diagram that displays the similarities and differences between Viva Connections and home sites." lightbox="../media/connections/viva-connections-overview/vc3-shared-functionality.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-shared-functionality.png" alt-text="Screenshot of a Venn diagram that displays the similarities and differences between Viva Connections and home sites.":::
 
 Both share many common capabilities like news roll ups, navigation, and partner extensibility to ensure these solutions work together. Both types of experiences share basic functionality, like the ability to use audience targeting, distribute organizational news, industry news, and [share the same permissions model](edit-viva-home.md) to make it easy for editors to access and manage.
 
@@ -295,7 +292,7 @@ Depending on the size of your organization and the information to communicate, y
 >
 > - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a Microsoft 365 subscription (E or F license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 ### You can choose the default landing experience
 

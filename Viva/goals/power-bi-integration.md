@@ -2,9 +2,9 @@
 ms.date: 03/27/2024
 title: Power BI integration
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,7 +39,7 @@ Key results and initiatives that use metrics to track completion in Viva Goals c
     > [!NOTE]
     > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration) below.
 
-1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
+1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**.
 
    > [!IMPORTANT]
    > Only you have access to this connection; it will not be shared with anyone else.
@@ -81,7 +81,7 @@ The key result will now regularly synchronize data from Power BI and make check-
    > [!NOTE]
    > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration )below.
 
-1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
+1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**.
 
    > [!IMPORTANT]
    > Only you have access to this connection; it will not be shared with anyone else.
@@ -104,11 +104,13 @@ Your initiative will now regularly synchronize data from Power BI and make check
 
 ## Enable Power BI integration
 
-Before any org members can make use of Power BI integrations, a global admin must enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions in [Manage integrations](vg-integrations-administration-overview.md#manage-integrations).
+Before any org members can make use of Power BI integrations, a Viva Goals admin must enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions in [Manage integrations](vg-integrations-administration-overview.md#manage-integrations).
 
 1. Go the Viva Goals Integrations at **Admin** > **Integrations**.
 
 1. Enable Power BI integration under the **Data Integrations** section.
+
+Your Fabric admin will also need to enable the [Create and use metrics](/fabric/admin/service-admin-portal-goals-settings) tenant setting. It should be enabled by default. You can find this in the Metrics settings section of the tenant settings in the admin portal. [Learn more about Fabric tenant settings](/fabric/admin/about-tenant-settings).
 
 > [!NOTE]
 > You can disable the integration at any time from the same section.

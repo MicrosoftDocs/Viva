@@ -1,10 +1,10 @@
 ---
 ms.date: 04/29/2024
-title: Enable integrations as a global admin in Viva Goals
+title: Enable integrations as a Viva goals admin in Viva Goals
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,17 +20,17 @@ search.appverid:
 description: "Learn about integration administration with Viva Goals."
 ---
 
-# Enable integrations as a global admin in Viva Goals
+# Enable integrations as a Viva goals admin in Viva Goals
 
 Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible.
 
-As a global admin, you can control which integrations are available for all Viva Goals organizations in your tenant.
+As a Viva goals admin, you can control which integrations are available for all Viva Goals organizations in your tenant.
 
 Information about the types of integrations in Viva Goals can be found in [Integrations overview](#integrations-overview), while information about roles and permissions in Viva Goals can be found in [Roles and permissions in Viva Goals](roles-permissions-in-viva-goals.md).
 
 ## Manage integrations
 
-Only global admins have permission to manage which integrations are available for their tenants.
+Viva goals admins have permission to manage which integrations are available for their tenants.
 
 1. Log in to your Viva Goals account.
 
@@ -45,7 +45,7 @@ Only global admins have permission to manage which integrations are available fo
 
 ## Choosing which integrations are available for your tenant
 
-Global admins have three options to choose from when deciding which integrations should be available to organizations in their tenants:
+Viva Goals admins have three options to choose from when deciding which integrations should be available to organizations in their tenants:
 
 - All integrations available
 - All integrations disabled
@@ -64,7 +64,7 @@ If you select this option, no integrations will be available in your tenant.
 
 ### Selected integrations are available
 
-Selecting this option allows global admins to choose specific integrations to be available in their tenants. O365 core service integrations, such as Excel and Planner, are available by default.
+Selecting this option allows Viva goals admins to choose specific integrations to be available in their tenants. O365 core service integrations, such as Excel and Planner, are available by default.
 
 To modify which integrations are available in your organization, toggle the **Status** slider for each integration you want to enable (or disable).
 

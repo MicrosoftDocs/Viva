@@ -68,20 +68,22 @@ items:
             href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
-          - name: Communication plans and templates
+          - name: Communications for internal readiness
             items:
-              - name: Communications rollout plan
-                href: start/recommended-rollout-plan.md
-              - name: Communications checklist
-                href: start/comms-checklist.md
-              - name: Communications templates
-                href: communicate/email-templates-survey-expectations.md
-              - name: Introduce Glint survey taking
-                href: communicate/survey-taking-for-employees.md
-              - name: Promote Glint surveys before and after launch
-                href: communicate/prelaunch-live-email-templates.md
-              - name: Communicate results, next steps, and progress
-                href: communicate/results-rollout-templates.md  
+               - name: Communications rollout plan
+                 href: start/recommended-rollout-plan.md
+               - name: Communications checklist
+                 href: start/comms-checklist.md
+               - name: Communications templates
+                 href: communicate/email-templates-survey-expectations.md
+               - name: Introduce Glint survey taking
+                 href: communicate/survey-taking-for-employees.md
+               - name: Promote Glint surveys before and after launch
+                 href: communicate/prelaunch-live-email-templates.md
+               - name: Communicate results, next steps, and progress
+                 href: communicate/results-rollout-templates.md
+          - name: FAQs for dashboard users
+            href: start/faqs-dashboard-users.md
           - name: Works Councils
             href: setup/works-council.md
           - name: Technical tasks
@@ -177,7 +179,7 @@ items:
             href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
-      - name: Manage translations 
+      - name: Manage language translations for surveys and emails
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
@@ -198,17 +200,19 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Microsoft 365 Copilot in Viva Glint
+  - name: Microsoft 365 Copilot in Viva Glint (preview)
     items:
-      - name: Intro and admin setup
+      - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
         href: copilot/copilot-admin-intro.md
-      - name: Admin enablement for Copilot in Viva Glint
+      - name: Administrator deployment and setup for Microsoft 365 Copilot in Viva Glint (preview)
+        href: ../copilot/deployment-permissions.md
+      - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
-      - name: Copilot data, privacy, and security
+      - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
-      - name: Managers using Copilot
+      - name: Managers using Microsoft 365 Copilot in Viva Glint (preview)
         href: setup/copilot-managers.md
-      - name: Copilot FAQs
+      - name: Microsoft 365 Copilot in Viva Glint-FAQs (preview)
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
@@ -386,6 +390,8 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Export reports as PDF
+            href: reports/export-report-pdf.md
           - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization

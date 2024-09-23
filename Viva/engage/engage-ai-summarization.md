@@ -6,7 +6,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 09/05/2024
+ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
 ms.service: viva-engage
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Microsoft Copilot in Viva Engage and other features use AI Summarization"
+description: "Microsoft Copilot 365 in Viva Engage and other features leverage AI Summarization"
 ---
 
 # AI Summarization in Viva Engage
 
-AI Summarization is a Viva Engage service that processes and stores conversation threads in the background. Certain features, such as Microsoft Copilot in Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users. When a feature requests summarized data, AI Summarization returns summaries from processed conversation threads to which the user has access.
+AI Summarization is a Viva Engage service that processes and stores conversation threads in the background. Certain features, such as Microsoft 365 Copilot in Viva Engage, require access to processed conversation threads to produce insights, trends, and other helpful information to users. When a feature requests summarized data, AI Summarization returns summaries from processed conversation threads to which the user has access.
 
 The [data, privacy, and security guidelines](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) that apply to Copilot also apply to AI Summarization. Processed conversation threads are stored in alignment with General Data Protection Regulation (GDPR) requirements and are accessed the same as other Viva Engage data.
 
@@ -53,6 +53,6 @@ Policy settings apply anytime a user signs in, and determine which enabled featu
 
 ## See also
 
-[Data, Privacy, and Security for Microsoft Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
+[Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
 
-[Set up Microsoft Copilot in Viva Engage](/viva/engage/configure-copilot-for-engage)
+[Set up Microsoft 365 Copilot in Viva Engage](/viva/engage/configure-copilot-for-engage)
