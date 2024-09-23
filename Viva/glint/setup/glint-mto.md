@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/18/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/23/2024
 ---
 
-# Set up Viva Glint for a multitenant organization (preview)
-
-> [!NOTE]
-> Multitenant organization for Viva Glint is available to preview customers only. Features described here are subject to change.
+# Set up Viva Glint for a multitenant organization
 
 Multitenant organization (MTO) is a Microsoft 365 feature that enables your company to form a tenant group in your organization. MTO allows users in a tenant group to access an instance of Microsoft Viva Glint installed in only one tenant. Glint admins can survey and grant report access to employees across the tenant group for an organization-wide view of employee sentiment. Use the guidance in this article to learn more about multitenant organization setup, syncing users between tenants, and ensuring all users exist in the Glint application. [Learn more about MTO](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview).
 
