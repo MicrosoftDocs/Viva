@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/17/2024
+ms.date: 09/24/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -149,20 +149,17 @@ English is the default language for all programs, but surveys and emails may be 
 
 Configure how user data is handled.
 
-- Data deletion control
-- Employee IDs reuse control
-
-### Data deletion control
+### Delete survey data for deleted users
 
 Manage survey data in response to a Data Subject Request (DSR). This configuration is set at the platform
 level and applies to all requests equally.
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-| On (default) | Erase all data related to the requester, excluding attributes and survey responses. |
-| Off | Erase all data related to the requester, including survey responses. |
+| Off (default) | Erase all data related to the requester, excluding attributes and survey responses. |
+| On | Erase all data related to the requester, including survey responses. |
 
-### Employee IDs reuse control
+### Disregard Employee IDs of previously deleted employees
 
 Manage reusing employee IDs and reassign them to new or rehired employees. This configuration is set at the platform level and applies to all records equally.
 
