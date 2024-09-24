@@ -16,6 +16,8 @@ items:
           href: advanced/setup-maint/environment-requirements.md  
         - name: Service description for personal insights
           href: personal/overview/mya-service-description.md
+        - name: Data residency for advanced insights, managers, and leaders
+          href: advanced/setup-maint/data-residency.md
       - name: Setup
         items:
         - name: Setup home
