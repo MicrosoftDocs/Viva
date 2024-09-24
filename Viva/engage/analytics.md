@@ -71,7 +71,7 @@ Engage admins can manage AI Summarization for their network through Viva Feature
 
 Network analytics provide valuable insights into employee engagement and communication across your organization through sentiment, retention, and community activity data. Data insights help Network admins and corporate communicators make more informed decisions toward improving the health of their network.
 
-*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee retention](/viva/engage/employee-retention-metric.md).
+*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee retention](/viva/engage/employee-retention-metric).
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics." lightbox="../media/engage/admin/engage-network-analytics.png":::
 
