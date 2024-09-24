@@ -39,9 +39,6 @@ Team owners and admins can add members to teams in Viva Goals, whether those tea
 
     ![Screenshot that shows a view of the Add members to TEAM dialog.](..\media\goals\viva-goals-teams\add-members-but-create-team-somehow.png)
 
-> [!NOTE]
-> If you add a group to the team, only the group's current members will be added to the team. Members who join the group later will not also be added to the team.
-
 ## Make a team member a team owner or remove a team member from the team
 
 1. Go to the team's OKRs page. Select the three dots in the top right and choose **Team members**. This will take you to the Team Members page.
