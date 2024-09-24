@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/03/2024
+ms.date: 09/24/2024
 ---
 
 # Viva Glint survey access methods
