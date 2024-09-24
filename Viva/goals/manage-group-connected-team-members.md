@@ -49,4 +49,4 @@ Team owners and admins can add members to teams in Viva Goals, whether those tea
 
 1. To remove the team member from the team, select the **X** icon next to that member. They will also be removed from the associated Microsoft 365 group.
 
-![Screenshot that shows a view of the team members page, with the Role dropdown for a certain member expanded.](..\media\goals\viva-goals-teams\change-member-role.png)
+   ![Screenshot that shows a view of the team members page, with the Role dropdown for a certain member expanded.](..\media\goals\viva-goals-teams\change-member-role.png)
