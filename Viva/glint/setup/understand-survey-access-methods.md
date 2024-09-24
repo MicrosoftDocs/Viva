@@ -38,7 +38,7 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the Provide Feedback button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
 
 > [!CAUTION] 
-> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Glint emails. If left enabled for surveys that require authentication with Microsoft Entra, the Provide Feedback link in emails directs users to the Glint dashboard instead of their survey or My Surveys.
+> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the Provide Feedback link in emails directs users to the Glint dashboard instead of their survey or My Surveys tab.
 
 ### To enable this survey access method:
 
