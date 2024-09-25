@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/09/2024
+ms.date: 09/25/2024
 ---
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
@@ -33,7 +33,7 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 |Release 73|June 29, 2024|[Volume 1, Edition 7](https://techcommunity.microsoft.com/t5/viva-glint-blog/july-2024-viva-glint-release-updates/ba-p/4180459)|
 |Release 74|July 27, 2024|[Volume 1, Edition 8](https://techcommunity.microsoft.com/t5/viva-glint-blog/updates-for-the-july-27-2024-release/ba-p/4206526)|
 |Release 75|August 24, 2024|[Volume 1, Edition 9](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-9/ba-p/4229968)|
-|Release 76|September 21, 2024|
+|Release 76|September 21, 2024|[Volume 1, Edition 10](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-10/ba-p/4255096)|
 |Release 77|October 19, 2024|
 |Release 78|November 16, 2024|
 |Release 79|December 7, 2024|
