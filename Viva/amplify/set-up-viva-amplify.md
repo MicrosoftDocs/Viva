@@ -49,7 +49,7 @@ Campaigns require an Exchange mailbox. Users therefore need to have Exchange set
 ### Assign admin roles
 
 >[!IMPORTANT]
->Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify.
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify. These permissions are only required for managing settings in the admin center, and are not required for users to create campaigns and publications.
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
