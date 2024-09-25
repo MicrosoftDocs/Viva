@@ -30,7 +30,7 @@ Users who have a Viva Engage Core license can access the Viva Engage in Teams ap
 :::image type="content" source="../media/engage-assign-licenses-users.png" alt-text="Screen shots show the assign licenses section of the Microsoft 365 admin center with Viva Engage Enterprise license available to assign.":::
 
 >[!NOTE]
->You must be a Microsoft 365 Global Administrator to assign and manage Viva Engage user licenses.
+>All tasks related to assigning and managing Viva Engage user licenses require Microsoft 365 Global Administrator permissions.
   
 ## Manage licenses in the Microsoft 365 admin center
 
@@ -93,7 +93,7 @@ It takes just a few steps to start blocking Microsoft 365 users who don't have V
 
 - **Tell your users about this change.** We strongly recommend that you tell users that you're starting to block Microsoft 365 users without Yammer or Viva Engage Core licenses, because it can disrupt their day-to-day usage of Viva Engage.
 
-Use the following steps to block users who don't have Viva Engage Core licenses. To perform these steps, you must be a Microsoft 365 Global administrator and synchronized to Viva Engage as a verified admin.
+Use the following steps to block users who don't have Viva Engage Core licenses.
   
 1. In Yammer, go to the **Network Admin** section, and choose **Security Settings**.
 
