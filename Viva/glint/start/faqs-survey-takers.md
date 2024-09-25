@@ -26,7 +26,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 |Question|Answer|
 |----------|----------|
 |**How do I find out that I have a survey to take?**|Your organization communicates about an upcoming survey through email or another platform used to reach their employees. The survey start and close date is included. To begin, use the **Get Started** button. Surveys may take place repeatedly throughout the year. Short, frequent surveys are the best way for your organization to turn your feedback into action and be responsive to your needs.|
-|**What address does the survey come from?**|The survey comes from your organization's email and the subject line lets you know its about an upcoming survey.|
+|**What address does the survey come from?**|The survey comes from your organization's email and the subject line lets you know it's about an upcoming survey.|
 |**What if I don't have a company email?**|Employees without company email addresses or computer access receive survey access onsite.|
 |**Who can take a survey?**| Surveys are typically designed for different populations within your organization. You receive notification of an upcoming survey only when that specific survey is appropriate for your role.|  
 |**What do I do if I think I should have received a survey invitation but didn't?**|Check with your direct manager.|
@@ -40,10 +40,10 @@ These FAQs are intended as support for your survey takers. Administrators are en
 |Question|Answer|
 |--------|-------|
 |**What is the goal of my company working with Glint to survey its employees?**|The goal of a Glint surveys is for your organization to help you be absorbed in and enthusiastic about your work. They want you to find meaning in what you do and see a connection between your strengths and your role. It's also important that you are well and healthy so you can perform at your best.|
-|**Can I start my survey and complete it later?**|Yes, the Glint survey automatically savse your answers, Use the same link to complete it later.|
+|**Can I start my survey and complete it later?**|Yes, the Glint survey automatically saves your answers, Use the same link to complete it later.|
 |**What languages is the survey available in?**|Your survey should be available to you in your preferred language. You can switch the language from the dropdown menu on the landing page of the survey, after accessing it.|
 |**How long are surveys?**|It should take no more than 10 minutes to complete. For the best results from your organization, complete the survey with honest, thorough feedback. |
-|**What is the survey window?**|The survey window is the time from the day the survey opens until the day it closes for participation. Reminders are sent to those whose survey aren't complete nearing the survey closing date. 
+|**What is the survey window?**|The survey window is the time from the day the survey opens until the day it closes for participation. Reminders are sent to those whose surveys aren't complete nearing the survey closing date. 
 |**Can I change answers after submitting my survey?**|If your company enabled the ability to change your answers after submitting your survey, you can retake the survey. Use the link in your survey invite. You are directed to the **Thank You** page to restart your survey. **Important: all responses previously submitted are deleted.** Without this enabled, you can't retake a completed survey.|
 |**Can I skip a question?**  |Unless it is noted, all questions are mandatory. |
 |**I have a new manager and don’t feel I know them well enough to rate. How should I respond?**|Your opinion is always valid and is still helpful for your manager to see their progress over time.| 
