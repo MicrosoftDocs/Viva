@@ -30,7 +30,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 |**What if I don't have a company email?**|Employees without company email addresses or computer access receive survey access onsite.|
 |**Who can take a survey?**| Surveys are typically designed for different populations within your organization. You receive notification of an upcoming survey only when that specific survey is appropriate for your role.|  
 |**What do I do if I think I should have received a survey invitation but didn't?**|Check with your direct manager.|
-|**Which browsers are supported?**|[Check this Learn article for the most up to date list](/setup/access-glint). Currently supported:  Microsoft Edge, Google Chrome, Safari, Mozilla Firefox, iOS - Safari (mobile), Android - Chrome (mobile)|
+|**Which browsers are supported?**|[Check this Learn article for the most up to date list](setup/access-glint). Currently supported:  Microsoft Edge, Google Chrome, Safari, Mozilla Firefox, iOS - Safari (mobile), Android - Chrome (mobile)|
 |**Can I take my survey from my mobile device?**| Yes. You can use an iOS browser in Safari and Chrome from an Android device.|
 |**Who do I contact if I need any kind of help getting into the survey?** | Contact your manager or your Glint administrator, if you have direct access to that person.|
 |**Can my survey be resent to me?**|Yes. Ask your direct manager who can contact the Glint administrator.|
@@ -58,7 +58,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 
 |Question|Answer|
 |--------|-------|
-|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](/setup/viva-glint-survey-privacy).
+|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](..setup/viva-glint-survey-privacy).
 
 ## Survey results
 
