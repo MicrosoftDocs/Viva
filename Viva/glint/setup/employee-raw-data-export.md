@@ -92,7 +92,7 @@ As the Viva Glint Admin, you can export a survey taker's user attributes and raw
 2.	Send the encrypted, compressed file of the user's data that downloads to your device to the requesting employee.
 1.	The employee receives an email with a password to decrypt their compressed folder.
 
-:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user recieves after their data has been exported from Glint, including a password to access their compressed, encrypted file.":::
+:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user receives after their data has been exported from Glint, including a password to access their compressed, encrypted file.":::
 
 >[!TIP]
 > For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](/../../viva/glint/setup/delete-user-data)
