@@ -16,7 +16,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 09/25/2024
 ---
 
 # Access Viva Glint raw survey responses
@@ -75,19 +75,24 @@ To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint
 
 ## Use the People feature to export responses
 
-As the admin, you can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section of your admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker.
+As the Viva Glint Admin, you can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file.
 
 ### Procedure to export user data:
 
-1. Search for the user in the *Search People* label.
-1. On the user page, select **Send User Data** from the *Actions* dropdown menu.
-1. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
-   1. Select **Clear All** and then select the attributes you want to export, or 
-   1. Exclude attributes from the export by deselecting them.
-1.	Along with user attributes, in the slider window, there's the option to include raw survey responses. Enable this feature to include the user's responses to current surveys. Data can't be extracted during a live survey.
-1.	Select **Send**. The data is sent to the employee email address on file. Check that the email address is correct before selecting Send.
-1.	A banner appears, indicating the export has sent successfully.
-1.	The employee receives an email with their Viva Glint data attached in a .csv file.
+1. From the admin dashboard, select the **Configuration** symbol, then in **Employees** choose **People**.
+2. Search for the user in the **Search People** field.
+1. On the user's profile, select **Send User Data** from the **Actions** dropdown menu.
+1. In the **Send User Data** slider:
+   1. Enter an email address in the **User's Personal Email Address** field if data should be sent to a personal email. If not, enter the user's work email address.
+   1. There's the option to **Include raw survey responses**. Select this option to include the user's responses surveys. Data can't be extracted during a live survey.
+   2. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
+      1. Select **Clear All** and then select the attributes you want to export, or
+      1. Exclude attributes from the export by deselecting them.
+1.	Select **Send**. A User data export sent successfully message appears.
+2.	Send the encrypted, compressed file of the user's data that downloads to your device to the requesting employee.
+1.	The employee receives an email with a password to decrypt their compressed folder.
+
+:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user recieves after their data has been exported from Glint, including a password to access their compressed, encrypted file.":::
 
 >[!TIP]
 > For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](/../../viva/glint/setup/delete-user-data)
