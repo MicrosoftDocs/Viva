@@ -75,7 +75,7 @@ To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint
 
 ## Use the People feature to export responses
 
-As the Viva Glint Admin, you can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file.
+As the Viva Glint Admin, you can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS) file.
 
 ### Procedure to export user data:
 
@@ -108,7 +108,7 @@ As the Viva Glint Admin, you can export a survey taker's user attributes and raw
 
 For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. 
 
-### Export raw response data for Recurring and Ad Hoc surveys:
+### Export raw response data for Recurring and Ad Hoc surveys
 
 1. Go to **configuration** and select **Survey Programs.**
 2. Select your survey program and go to the **Completed** cycles tab.
@@ -119,7 +119,7 @@ For closed surveys where raw survey responses were enabled, admins can export ra
    3. After making all selections, select **Export**.
 5. Your .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
 
-### Export raw response data for Lifecycle and Always-On surveys:
+### Export raw response data for Lifecycle and Always-On surveys
 
 1. Go to **configuration** and select **Survey Programs.**
 2. Select your survey program and then the **Actions** menu.
