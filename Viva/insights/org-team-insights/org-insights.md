@@ -1,5 +1,5 @@
 ---
-ms.date: 09/18/2024
+ms.date: 09/25/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -174,9 +174,9 @@ Browse insights about other metrics related to the one you're viewing on this pa
 
 ### Control access to Insights features
 
-*Applies to: Global administrators*
+*Applies to: Insights administrators*
 
-To control access to certain Insights features, like the [Meeting Cost and Quality](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) features, Microsoft Global administrators can use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups. 
+To control access to certain Insights features, like the [Meeting Cost and Quality](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) features, Insights administrators can use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups. 
 
 Policy settings apply any time a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies -- targeting the tenant, groups, and individual users -- a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
