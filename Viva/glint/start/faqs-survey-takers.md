@@ -25,7 +25,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 
 |Question|Answer|
 |----------|----------|
-|**How do I find out that I have a survey to take?**|Your organization communicates about an upcoming survey through email or another platform used to reach their employees. The survey start and close date is included. To begin, use the **Get Started** button. Surveys may take place repeatedly throughout the year. Short, frequent surveys are the best way for your organization to turn your feedback into action and be responsive to your needs.  |
+|**How do I find out that I have a survey to take?**|Your organization communicates about an upcoming survey through email or another platform used to reach their employees. The survey start and close date is included. To begin, use the **Get Started** button. Surveys may take place repeatedly throughout the year. Short, frequent surveys are the best way for your organization to turn your feedback into action and be responsive to your needs.|
 |**What address does the survey come from?**|The survey comes from your organization's email and the subject line lets you know its about an upcoming survey.|
 |**What if I don't have a company email?**|Employees without company email addresses or computer access receive survey access onsite.|
 |**Who can take a survey?**| Surveys are typically designed for different populations within your organization. You receive notification of an upcoming survey only when that specific survey is appropriate for your role.|  
@@ -58,7 +58,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 
 |Question|Answer|
 |--------|-------|
-|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](viva/glint/setup/viva-glint-survey-privacy).
+|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](/viva/glint/setup/viva-glint-survey-privacy).
 
 ## Survey results
 
