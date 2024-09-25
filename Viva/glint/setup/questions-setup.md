@@ -21,7 +21,7 @@ ms.date: 08/07/2024
 
 The Questions page allows you to add or modify the items included in a survey. Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary." lightbox="../../media/glint/setup/program-summary-questions.png":::
 
 > [!IMPORTANT]
 > The term "survey item" refers to any question or statement posed to a survey taker.
@@ -30,7 +30,7 @@ The Questions page allows you to add or modify the items included in a survey. R
 
 Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that admins can customize. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers.":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers." lightbox="../../media/glint/setup/program-summary-questions-text.png":::
 
 ## Edit the survey introduction message
 
@@ -52,25 +52,27 @@ To add your organization's logo to the survey introduction:
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
 
-1. Go to **Configuration** and in the **Action Taking **section, select **Content Resources**.
+1. Go to **Configuration** and in the **Action Taking** section, select **Content Resources**.
 1. Select **+ New** to add a new resource and select **OK** in the languages message that appears.
 1. Add a new title in the **Untitled Resource** and **Title** fields.
-   1. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
+
+   Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
+
 1. In the **Type** field, select **Image**.
-2. Optionally, add a **Description**.
-3. In the File field, select **Choose File** and browse to choose the image file on your device.
-4. When selected, a preview of the image appears. If the image appears as expected, select **Save**.
-5. Select **Publish** in the top right of the screen and then select **Publish** again in the **Publish Resource** dialog that appears.
-6. On the **Resources** page, filter to Image in the left menu and copy the text of the recently added image name from the **Name** column.
-7. Replace "logo-name" in this text with the exact name of your uploaded logo: `![logo-name](logo-name "logo-name")`
-8. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
-9. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
+1. Optionally, add a **Description**.
+1. In the File field, select **Choose File** and browse to choose the image file on your device.
+1. When selected, a preview of the image appears. If the image appears as expected, select **Save**.
+1. Select **Publish** in the top right of the screen and then select **Publish** again in the **Publish Resource** dialog that appears.
+1. On the **Resources** page, filter to Image in the left menu and copy the text of the recently added image name from the **Name** column.
+1. Replace "logo-name" in this text with the exact name of your uploaded logo: `![logo-name](logo-name "logo-name")`
+1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
+1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
 ## Edit survey items using the horizontal ellipses
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item.":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
-Hover over the horizontal ellipses next to any survey item to select one of the following options:
+Hover over the horizontal ellipses next to any survey item to select one of the following options: Edit Targeting, Edit Question, Edit Display Logic, or Delete survey items.
 
 ### Edit Targeting
 

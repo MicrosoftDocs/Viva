@@ -1,5 +1,5 @@
 ---
-ms.date: 08/16/2024
+ms.date: 09/18/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -34,7 +34,7 @@ Each report includes three sections:
 
     * Groups within your organization (that is, different reporting hierarchies within your company)
 
-To add more organizations to your trend graph, under **Show trend**, select the eye icon. The trend graph only supports up to 20 organizations. To protect individual privacy, we don't show organizational insights if your organization is smaller than the minimum group size.
+To add more organizations to your trend graph, under **Show trend**, select the eye icon. The trend graph only supports up to 20 organizations. To protect individual privacy, we don't show organizational insights if the number of new hires in your organization is smaller than the minimum group size.
 
 You can sort by any of the headers in the **Groups within your organization** table.
 

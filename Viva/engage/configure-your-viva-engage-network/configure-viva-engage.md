@@ -21,7 +21,7 @@ description: "Use the Viva Engage admin tools to set up your Viva Engage network
 
 # Configure your Viva Engage tenant
 
-Configuring the Viva Engage tenant requires Microsoft 365 Global administrator or Engage administrator privileges. Administrators don't need to be assigned a Viva Engage license to configure Viva Engage core or premium.
+Configuring the Viva Engage tenant requires [Engage administrator](/viva/engage/eac-key-admin-roles-permissions#engage-administrator) privileges. Administrators don't need to be assigned a Viva Engage license to configure Viva Engage core or premium.
   
 As you get started with Viva Engage, review the links in the [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
 

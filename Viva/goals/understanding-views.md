@@ -2,9 +2,9 @@
 ms.date: 06/17/2024
 title: Understanding views in Viva Goals
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

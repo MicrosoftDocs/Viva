@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 09/24/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -27,7 +27,7 @@ There are many types of users in Viva Engage and managing each of them is differ
 - Users without a Microsoft Entra ID
 - Guests
 
-As a Microsoft 365 Global administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
+As a Microsoft 365 Global Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
 
 All communities and groups from Viva Engage networks in Native Mode are managed through these admin centers. Some of the management capabilities regarding community or group members or users that can be done through the Microsoft 365 admin center includes:
 

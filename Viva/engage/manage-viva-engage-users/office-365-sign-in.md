@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 01/04/2024
+ms.date: 09/24/2024
 audience: Admin
 ms.topic: overview
 ms.service: viva-engage
@@ -38,7 +38,7 @@ Microsoft 365 sign-in lets users access Viva Engage with their Microsoft 365 ide
 *If you want to instantly use Microsoft 365 sign-in for Viva Engage, have users first sign in to Microsoft 365, and then access Viva Engage from the tile on the app launcher.*
   
 >[!NOTE]
-> After a user is connected and using Microsoft 365 sign-in for Viva Engage, the user can no longer use their previous legacy Viva Engage identity to sign in. At this point, you'll need to manage the lifecycle of this user from Microsoft 365.
+> Once a user connects and starts using Microsoft 365 sign-in for Viva Engage, they can no longer use their previous legacy Viva Engage identity to sign in. At this point, you'll need to manage the lifecycle of this user from Microsoft 365.
   
 ## How do I enable Microsoft 365 sign-in for Viva Engage?
 
@@ -57,7 +57,7 @@ Viva Engage integrates seamlessly with other services in Microsoft 365. For exam
 By default, when users select **Conversations** in SharePoint, they see their SharePoint newsfeed (Outlook groups), rather than Viva Engage conversations. You can make Viva Engage the default enterprise social network in SharePoint. With this, when users select **Conversations** in SharePoint, they see their Viva Engage conversations, rather than the SharePoint newsfeed (Outlook groups).
   
 > [!NOTE]
-> You must be an Microsoft 365 global administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles). 
+> You must be an Microsoft 365 Global Administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles). 
   
 1. In Microsoft 365, go to **Admin** \> **SharePoint**.
     

@@ -2,9 +2,9 @@
 ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: liz.pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,7 +29,7 @@ To start receiving digest updates, users must follow either a team or an individ
 
 :::image type="content" source="../media/goals/slack-images/follow-1.png" alt-text="Screenshot of how to follow in Viva Goals." lightbox="../media/goals/slack-images/follow-1.png":::
 
-You can also add other users or [Slack](https://slack.com/) channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and click on the **Add follower** button or **Add** link. 
+You can also add other users or [Slack](https://slack.com/) channels as followers to ensure they receive digest updates for the company, team, or individuals. Select the Followers button and select the **Add follower** button or **Add** link. 
 
 :::image type="content" source="../media/goals/slack-images/follow-2.png" alt-text="Screenshot of how to add a follower in Viva Goals." lightbox="../media/goals/slack-images/follow-2.png":::
 
@@ -41,9 +41,9 @@ Search users or [Slack](https://slack.com/) channels and select the + sign next 
 
 You can customize the frequency and the cadence for when the summary update will be sent by clicking **gear** icon next to the Following link from the OKR dashboard to open the configuration. 
 
-:::image type="content" source="../media/goals/slack-images/follow-4.png" alt-text="Screenshot of selecting the gear icon to modify the follow settings." lightbox="../media/goals/slack-images/follow-4.png":::
+:::image type="content" source="../media/goals/slack-images/follow-4.png" alt-text="Screenshot of selecting the gear icon to modify the following settings." lightbox="../media/goals/slack-images/follow-4.png":::
 
-Select **Customized schedule** and choose the cadence, day, and the time that you would like to receive the update. Click on **Done** to save your settings. 
+Select **Customized schedule** and choose the cadence, day, and the time that you would like to receive the update. Select **Done** to save your settings. 
 
 :::image type="content" source="../media/goals/slack-images/follow-5.png" alt-text="Screenshot of selecting the notification settings." lightbox="../media/goals/slack-images/follow-5.png":::
 
@@ -53,13 +53,13 @@ This setting can also be updated by clicking the **change update time** in the a
 
 **Manage following users and teams**
 
-View all teams and individuals that you are following on your profile settings page. Click on your profile icon on the bottom left corner of the page and select **Account settings** and click **Following and Followers.** 
+View all teams and individuals that you are following on your profile settings page. Select your profile icon on the bottom left corner of the page and select **Account settings** and select **Following and Followers.** 
 
 :::image type="content" source="../media/goals/slack-images/acc-setting-1.png" alt-text="Screenshot of selecting the account settings within Viva Goals." lightbox="../media/goals/slack-images/acc-setting-1.png":::
 
 From this page, you can update the cadence or unfollow teams and individuals you are following.   
 
-To edit the cadence for each summary update, click **Edit update time** button and select the schedule you would like to receive the digest. Click **Unfollow** to stop receiving the digest update of the respective user or team or company. 
+To edit the cadence for each summary update, select **Edit update time** button and select the schedule you would like to receive the digest. Select **Unfollow** to stop receiving the digest update of the respective user or team or company. 
 
 :::image type="content" source="../media/goals/slack-images/acc-setting-2.png" alt-text="Screenshot of the following and followers tab in Viva Goals." lightbox="../media/goals/slack-images/acc-setting-2.png":::
 

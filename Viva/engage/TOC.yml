@@ -3,7 +3,9 @@
    href: overview.md   
    items:
    - name: Get started with Viva Engage
-     items:    
+     items:
+     - name: Plan your Viva Engage launch strategy
+       href: engage-launch-strategy.md
      - name: Set up Viva Engage
        href: setup.md
      - name: Deep linking into Viva Engage
@@ -143,12 +145,10 @@
       - name: Enable rich text formatting
         href: /viva/engage/get-started-with-viva-engage/rich-text-formatting
       - name: Enable conversation reporting 
-        href: report-conversation-overview.md    
-      - name: View and manage analytics 
-        href: analytics.md  
+        href: report-conversation-overview.md     
       - name: Answers in Viva
         items:   
-        - name: Set up Answers in Viva Engage
+        - name: Set up Answers in Viva
           href: eac-answers-overview-set-up.md
         - name: Admin scenarios for Answers
           href: eac-answers-admin-scenarios.md
@@ -156,6 +156,14 @@
           href: eac-answers-faq.md
         - name: Import questions-and-answer pairs to communities 
           href: eac-answers-importer.md
+   - name: Analyze engagement
+     items:
+      - name: View and manage analytics 
+        href: analytics.md 
+      - name: Benchmarks in analytics
+        href: benchmarking.md
+      - name: Measure employee retention in Viva Engage
+        href: employee-retention-metric.md
    - name: Integrate with Microsoft apps
      items:   
       - name: Integrate Viva Engage with other applications

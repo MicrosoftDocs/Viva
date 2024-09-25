@@ -3,8 +3,8 @@ ms.date: 09/09/2024
 title: Copilot in Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

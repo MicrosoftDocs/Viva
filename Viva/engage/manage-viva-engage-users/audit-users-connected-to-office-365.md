@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 11/01/2023
+ms.date: 09/24/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
@@ -69,11 +69,11 @@ Before you can run the audit script, you create an input file that contains the 
 		 [string]$Outputfile = ".\Results.csv"
 		) 
 	  if(!$UseExistingConnection){
-		   Write-Host "Creating a new connection. Login with your Office 365 Global Admin Credentials..."
+		   Write-Host "Creating a new connection. Login with your Microsoft 365 Global Admin Credentials..."
 		   $msolcred = get-credential
 		   connect-msolservice -credential $msolcred
 	   }
-	   Write-Host "Loading all Office 365 users from Azure AD. This can take a while depending on the number of users..."
+	   Write-Host "Loading all Microsoft 365 users from Azure AD. This can take a while depending on the number of users..."
 	   $o365usershash = @{}
 	   get-msoluser -All | Select userprincipalname,proxyaddresses,objectid,@{Name="licenses";Expression={$_.Licenses.AccountplanId}} | ForEach-Object {
 		   $o365usershash.Add($_.userprincipalname.ToUpperInvariant(), $_)
@@ -85,7 +85,7 @@ Before you can run the audit script, you create an input file that contains the 
 			   }
 		   }
 	   }
-	   Write-Host "Matching Viva Engage users to Office 365 users"
+	   Write-Host "Matching Viva Engage users to Microsoft 365 users"
 	   $yammerusers = Import-Csv -Path $InputFile | Where-Object {$_.state -eq "active"}
 	   $yammerusers | ForEach-Object {
 		   $o365user = $o365usershash[$_.email.ToUpperInvariant()]

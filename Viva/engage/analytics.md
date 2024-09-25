@@ -32,7 +32,7 @@ Advanced analytics capabilities in Viva Engage enable the following scenarios:
 
 Analytics features are available in [all languages that Viva Engage supports](https://support.microsoft.com/en-us/office/which-languages-is-viva-engage-available-in-14dd5886-d48d-4d6d-a583-4273a2538540).
 
-## Access analytics
+## View analytics
 
 >[!NOTE]
 >To view premium analytics features, users must have Viva Engage Premium which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
@@ -71,7 +71,7 @@ Engage admins can manage AI Summarization for their network through Viva Feature
 
 Network analytics provide valuable insights into employee engagement and communication across your organization through sentiment, retention, and community activity data. Data insights help Network admins and corporate communicators make more informed decisions toward improving the health of their network.
 
-*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](https://support.microsoft.com/en-us/topic/viva-engage-employee-retention-eac2abc2-2732-4012-b64f-d471bb05b7ac).
+*Employee retention* shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee retention](/viva/engage/employee-retention-metric).
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics." lightbox="../media/engage/admin/engage-network-analytics.png":::
 
@@ -122,10 +122,4 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 
 ## See also
 
-[Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
-
-[Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
-
-[Monitor engage in Viva Engage with analytics](https://support.microsoft.com/en-us/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)
-
-[Measure success in Viva Engage](https://support.microsoft.com/en-us/office/measure-success-in-viva-engage-f6047dff-8dc3-4d1e-a939-617e02211f3e?storagetype=live)
+[Monitor engagement in Viva Engage with analytics](https://support.microsoft.com/en-us/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)

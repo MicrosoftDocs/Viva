@@ -2,9 +2,9 @@
 ms.date: 05/31/2024
 title: Viva Goals setup and administration deployment guide
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

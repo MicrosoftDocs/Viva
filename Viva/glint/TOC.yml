@@ -54,6 +54,10 @@ items:
         items:
           - name: Set up a tenant
             href: setup/viva-glint-tenant-provision.md
+          - name: Set up a multitenant organization
+            href: setup/glint-mto.md
+          - name: Multitenant organization FAQ
+            href: setup/mto-faq.md           
           - name: Assign Glint admins
             href: setup/post-provisioning-next-steps.md
           - name: Role definitions
@@ -68,25 +72,27 @@ items:
             href: setup/access-glint.md  
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
-          - name: Communication plans and templates
+          - name: Communications for internal readiness
             items:
-              - name: Communications rollout plan
-                href: start/recommended-rollout-plan.md
-              - name: Communications checklist
-                href: start/comms-checklist.md
-              - name: Communications templates
-                href: communicate/email-templates-survey-expectations.md
-              - name: Introduce Glint survey taking
-                href: communicate/survey-taking-for-employees.md
-              - name: Promote Glint surveys before and after launch
-                href: communicate/prelaunch-live-email-templates.md
-              - name: Communicate results, next steps, and progress
-                href: communicate/results-rollout-templates.md  
+               - name: Communications rollout plan
+                 href: start/recommended-rollout-plan.md
+               - name: Communications checklist
+                 href: start/comms-checklist.md
+               - name: Communications templates
+                 href: communicate/email-templates-survey-expectations.md
+               - name: Introduce Glint survey taking
+                 href: communicate/survey-taking-for-employees.md
+               - name: Promote Glint surveys before and after launch
+                 href: communicate/prelaunch-live-email-templates.md
+               - name: Communicate results, next steps, and progress
+                 href: communicate/results-rollout-templates.md
+          - name: FAQs for dashboard users
+            href: start/faqs-dashboard-users.md
           - name: Works Councils
             href: setup/works-council.md
           - name: Technical tasks
             items:
-              - name: Allowed list
+              - name: Allowlist
                 href: setup/allowed-list.md
               - name: Set up access with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
@@ -390,6 +396,8 @@ items:
             href: reports/aggregate-trending.md
           - name: Reporting features
             href: reports/report-analytics-filtering-favorability-trending.md
+          - name: Export reports as PDF
+            href: reports/export-report-pdf.md
           - name: Manager reporting trend
             href: setup/manager-changing-team-role.md
           - name: Report customization
