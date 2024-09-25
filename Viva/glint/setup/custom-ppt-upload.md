@@ -1,6 +1,6 @@
 ---
 title: Customize a PowerPoint template in Viva Glint
-description: Viva Glint customers can customize product reporting to increase the sense of reporting reliability and privacy.
+description: Viva Glint customers can customize product reports to increase the sense of reporting reliability and privacy.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -40,7 +40,7 @@ Customized templates are stored in folders that you create. You can create as ma
 4.	Enter a descriptive name for your folder.
 5.	Select a survey type from the dropdown menu. You can choose “All” as one of the choices.
 
-:::image type="content" source="../../media/glint/setup/general-settings-name-type.png" alt-text="Screenshot of fields requiring setup to create a new template folder.":::
+:::image type="content" source="../../media/glint/setup/general-settings-name-type.png" alt-text="Screenshot of fields requiring set up to create a new template folder.":::
 
 6.	Select **Create.** Your new folder now appears as its own row on the **PowerPoint Templates for Reports** page.
 
@@ -52,7 +52,7 @@ Edits for custom templates occur offline.
 
 The first time you open a folder, you see that no customized versions of the template exist.
 
-::image type="content" source="../../media/glint/setup/template-no-customized.png" alt-text="Screenshot of an alert telling you that no customized versions of your template have been uploaded.":::
+::image type="content" source="../../media/glint/setup/template-no-customized.png" alt-text="Screenshot of an alert telling you that no customized versions of your template are uploaded.":::
 
 1.	Select **Download template.**
 2.	From the window that opens, select as many languages as needed from the prepopulated language dropdown menu.
@@ -62,7 +62,7 @@ The first time you open a folder, you see that no customized versions of the tem
 
 4.	Open the downloaded export in a new tab.
 
-:::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot of the how to download the new template and open in a new tab.":::
+:::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot of how to download the new template and open it in a new tab.":::
 
 5.	**Customize the presentation-manually**-using your organization’s logo, familiar terminology, and important, relevant text content. Save the presentation with a new and easily identifiable name. In this example, the survey is named *Spring Engagement Survey 2024.*
 
@@ -85,7 +85,7 @@ The first time you open a folder, you see that no customized versions of the tem
 
 ### Edit the presentation template
 
-Use the ellipses next to the template name to edit, open, or delete a folder.
+To edit, open, or delete a folder, use the ellipses next to the template name.
 
 :::image type="content" source="../../media/glint/setup/custom-ppt-ellipses.png" alt-text="Screenshot of the template folder dropdown menu.":::
  
@@ -103,15 +103,15 @@ Use to see all the customized templates in that folder.
 
 If you attempt to delete a folder that is associated with a survey report, this window appears:
 
-:::image type="content" source="../../media/glint/setup/custom-ppt-cannot-delete.png" alt-text="Screenshot of the dialog box alerting that the folder cannot be deleted.":::
+:::image type="content" source="../../media/glint/setup/custom-ppt-cannot-delete.png" alt-text="Screenshot of the dialog box alerting that the folder can't be deleted.":::
 
-If a file is not associated with a survey report, this confirmation box appears before you can delete the template. This process is not reversible.
+If a file isn't associated with a survey report, this confirmation box appears before you can delete the template. This process isn't reversible.
 
 :::image type="content" source="../../media/glint/setup/custom-ppt-delete.png" alt-text="Screenshot of dialog box which allows template deletion.":::
 
 ## Use your customized PowerPoint with any Glint program
 
-Now that you have created a folder and a customized template, your customized presentation can be used for any Glint feedback presentation.
+Now that you created a folder and a customized template, your customized presentation can be used for any Glint feedback presentation.
 
 1.	From your admin dashboard, navigate to **Survey Programs** and choose a survey. 
 2.	In **Program Summary**, go to the **Reporting** tab. All presentation folders available for your Glint programs show in the **PowerPoint Export Template** dropdown menu.
