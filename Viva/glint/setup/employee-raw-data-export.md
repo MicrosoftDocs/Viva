@@ -88,7 +88,7 @@ As the Viva Glint Admin, you can export a survey taker's user attributes and raw
    2. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
       1. Select **Clear All** and then select the attributes you want to export, or
       1. Exclude attributes from the export by deselecting them.
-1.	Select **Send**. A User data export sent successfully message appears.
+1.	Select **Send**. A "**User data export sent successfully**" message appears.
 2.	Send the encrypted, compressed file of the user's data that downloads to your device to the requesting employee.
 1.	The employee receives an email with a password to decrypt their compressed folder.
 
