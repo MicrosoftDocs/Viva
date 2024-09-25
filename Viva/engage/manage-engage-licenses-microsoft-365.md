@@ -1,5 +1,5 @@
 ---
-ms.date: 11/01/2023
+ms.date: 09/24/2024
 title: "Manage Viva Engage Core user licenses in Microsoft 365"
 description: "Viva Engage is moving toward a licensing model that licenses individual users versus entire Microsoft 365 subscriptions. "
 ms.reviewer: ethli
@@ -23,15 +23,16 @@ search.appverid:
 
 When you assign user licenses as part of a bundled Microsoft 365 subscription plan, such as Microsoft 365 Enterprise, the Viva Engage Core license is automatically assigned to the user. You can remove or assign Viva Engage Core licenses for specific users in the Microsoft 365 admin center or by using Windows PowerShell cmdlets for Microsoft 365.
   
-The Viva Engage Core service plan also enables access to Viva Engage. This functionality ensures uninterrupted Viva Engage experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Viva Engage by turning on the security setting **Block Microsoft 365 users without Viva Engage licenses** (see [Start blocking users who don't have Viva Engage licenses](manage-engage-licenses-microsoft-365.md#StartBlocking) in this article).
-  
-*You must be a user management administrator to do the following operations.*
+The Viva Engage Core service plan also enables access to Viva Engage. This functionality ensures uninterrupted Viva Engage experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Viva Engage by turning on the security setting **Block Microsoft 365 users without Viva Engage licenses**. See [Start blocking users who don't have Viva Engage licenses](manage-engage-licenses-microsoft-365.md#StartBlocking) in this article.
   
 Users who have a Viva Engage Core license can access the Viva Engage in Teams application, provided that it was installed through the Teams admin center. Learn more about [installing Viva Engage](/viva/engage/setup).
 
 :::image type="content" source="../media/engage-assign-licenses-users.png" alt-text="Screen shots show the assign licenses section of the Microsoft 365 admin center with Viva Engage Enterprise license available to assign.":::
+
+>[!NOTE]
+>All tasks related to assigning and managing Viva Engage user licenses require Microsoft 365 Global Administrator permissions.
   
-## Manage Viva Engage Core licenses in the Microsoft 365 admin center
+## Manage licenses in the Microsoft 365 admin center
 
 Assign and remove the Viva Engage Core license for users the same way you assign any other Microsoft 365 Enterprise license:
   
@@ -39,11 +40,11 @@ Assign and remove the Viva Engage Core license for users the same way you assign
 
 For more information, see [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user).
   
-## Manage Viva Engage Core licenses through Windows PowerShell
+## Manage licenses through Windows PowerShell
 
 You can use cmdlets in Windows PowerShell to assign Microsoft 365 licenses. With Windows PowerShell, you can easily see who has a license and assign licenses for multiple users at the same time. For more information, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell). You can also bulk-update licenses using a CSV file. For more information, see [How to bulk assign licenses to Microsoft 365 users based on CSV](/samples/browse/?redirectedfrom=TechNet-Gallery).
   
-Following are some example Windows PowerShell script snippets you can use to manage Viva Engage Core licenses. Use them to develop a complete script for your organization.
+Use the following example Windows PowerShell script snippets to develop a complete script to manage licenses for your organization.
 
 - The following example unassigns the Viva Engage Core license from the *litwareinc:ENTERPRISEPACK* (Microsoft 365 Enterprise) to the user *belindan\@litwareinc\.com*.
 
@@ -92,7 +93,7 @@ It takes just a few steps to start blocking Microsoft 365 users who don't have V
 
 - **Tell your users about this change.** We strongly recommend that you tell users that you're starting to block Microsoft 365 users without Yammer or Viva Engage Core licenses, because it can disrupt their day-to-day usage of Viva Engage.
 
-Use the following steps to block users who don't have Viva Engage Core licenses. To perform these steps, you must be a Microsoft 365 Global administrator and synchronized to Viva Engage as a verified admin.
+Use the following steps to block users who don't have Viva Engage Core licenses.
   
 1. In Yammer, go to the **Network Admin** section, and choose **Security Settings**.
 
