@@ -88,6 +88,8 @@ items:
                  href: communicate/results-rollout-templates.md
           - name: FAQs for dashboard users
             href: start/faqs-dashboard-users.md
+          - name: FAQs for survey takers
+            href: start/faqs-survey-takers.md
           - name: Works Councils
             href: setup/works-council.md
           - name: Technical tasks
