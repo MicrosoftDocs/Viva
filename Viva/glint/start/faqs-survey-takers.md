@@ -43,13 +43,13 @@ These FAQs are intended as support for your survey takers. Administrators are en
 |**Can I start my survey and complete it later?**|Yes, the Glint survey automatically saves your answers, Use the same link to complete it later.|
 |**What languages is the survey available in?**|Your survey should be available to you in your preferred language. You can switch the language from the dropdown menu on the landing page of the survey, after accessing it.|
 |**How long are surveys?**|It should take no more than 10 minutes to complete. For the best results from your organization, complete the survey with honest, thorough feedback. |
-|**What is the survey window?**|The survey window is the time from the day the survey opens until the day it closes for participation. Reminders are sent to those whose surveys aren't complete nearing the survey closing date. 
+|**What is the survey window?**|The survey window is the time from the day the survey opens until the day it closes for participation. Reminders are sent to those whose surveys aren't complete nearing the survey closing date.|
 |**Can I change answers after submitting my survey?**|If your company enabled the ability to change your answers after submitting your survey, you can retake the survey. Use the link in your survey invite. You are directed to the **Thank You** page to restart your survey. **Important: all responses previously submitted are deleted.** Without this enabled, you can't retake a completed survey.|
 |**Can I skip a question?**  |Unless it is noted, all questions are mandatory. |
 |**I have a new manager and don’t feel I know them well enough to rate. How should I respond?**|Your opinion is always valid and is still helpful for your manager to see their progress over time.| 
 |**What do I do if I need support? Or if I receive an error message?**|Contact your direct manager or your Glint administrator, if you know who that is. Within the survey, use the **Question mark** symbol to find answers to questions about accessibility and privacy. You can also give feedback about the survey from this point.|
 |**I received this message: “You have exceeded the time limit for completing this survey. Please log back into the system and complete the survey." What do I do?**| Before this message, you may see a dialog box asking you if you are still here. Answer **yes** to give yourself more time. If the computer logged you out, go back to your original invitation to reenter the survey.|
-|**I went into the survey and see a “Thank you” page. Why?**|The “Thank you” page indicates the survey is completed. If you don't feel this circumstance is correct or wonder if someone else accessed your survey, reach out to your direct manager or Glint administrator.
+|**I went into the survey and see a “Thank you” page. Why?**|The “Thank you” page indicates the survey is completed. If you don't feel this circumstance is correct or wonder if someone else accessed your survey, reach out to your direct manager or Glint administrator.|
 |**Can I share my survey invite with another employee on my team or in my organization?**|No. Each email contains a unique URL that is directly associated with your employee ID. |
 |**Why do I keep receiving reminder emails?** | Reminder emails are delivered only to people who haven't completed their survey. Use the **Get Started** link in your original email or reminder email to ensure you finished your survey - that you answered all questions and chosen “Skip” or “Next” when appropriate.| 
 |**Do I get a confirmation when my survey is complete?**| When you completed your survey, a “Thank you page” displays and you no longer receive reminders.|
@@ -58,7 +58,7 @@ These FAQs are intended as support for your survey takers. Administrators are en
 
 |Question|Answer|
 |--------|-------|
-|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](/viva/glint/setup/viva-glint-survey-privacy).
+|**How do I know my responses are confidential?**|  Viva Glint’s platform makes privacy a priority. [Learn more about How Viva Glint helps you protect your privacy.](/viva/glint/setup/viva-glint-survey-privacy).|
 
 ## Survey results
 
