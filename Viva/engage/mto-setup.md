@@ -50,8 +50,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 
 **Microsoft 365 requirements**
 
-- An Entra P1 or P2 license, which is included in Microsoft 365 E3 or E5 and Microsoft 365 F1 or F3 SKUs
-- Microsoft 365 E3 and Microsoft Entra ID P1. Or, Microsoft 365 E5 license (includes Microsoft Entra ID P2)
+- An Entra P1 or P2 license, which is included in Microsoft 365 E3 or E5, and Microsoft 365 F1 or F3 SKUs
 - Microsoft Entra ID manages all networks
 - Microsoft Graph API
 
