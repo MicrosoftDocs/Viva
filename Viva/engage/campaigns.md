@@ -62,7 +62,7 @@ The campaign is now in draft state. Until you publish the campaign, only Engage 
 
 The campaign landing page is visible to any Viva Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
-## Create a multitenant campaign (Public preview)
+## Create a multitenant campaign
 
 If Viva Engage is set up as a hub-and-spoke multitenant organization, the hub tenant can host official campaigns that reach the entire organization. Hub leaders can harness the power of these campaigns to amplify their messages and reach to all subsidiaries on key causes and initiatives. Learn more about [multitenant organizations.](/Viva/engage/mto-setup)
 
