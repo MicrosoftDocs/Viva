@@ -5,7 +5,7 @@ ms.reviewer: ahosford
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 12/06/2023
+ms.date: 09/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -49,7 +49,8 @@ After the hub tenant is configured for multitenant organization, all tenants can
 To access the multiple tenant organization feature for Viva Engage, your organization must meet these requirements across all tenants.
 
 **Microsoft 365 requirements**
-- Microsoft 365 E3 and Microsoft Entra ID P1. Or, Microsoft 365 E5 license (includes Microsoft Entra ID P2)
+
+- An Entra P1 or P2 license, which is included in Microsoft 365 E3 or E5, and Microsoft 365 F1 or F3 SKUs
 - Microsoft Entra ID manages all networks
 - Microsoft Graph API
 
@@ -59,7 +60,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 - Networks are in Native Mode
 - Networks are not in a one-to-many state. Each tenant can have only one Viva Engage network. See [Network migration - Consolidate multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
 - Full trust is established between all tenants. To establish full trust, [configure your organizational settings](/training/modules/secure-b2b-collaboration-cross-tenant-access/4-exercise-configure-organizational-settings).
-- All users in all tenants have access to Microsoft Viva Suite or Communications and Communities
+- All users in both hub and spoke tenants are assigned a *Microsoft Viva Suite* or *Communications and Communities* license
 - Storyline is enabled on the hub tenant
 
 ## Prepare to set up a multitenant organization
