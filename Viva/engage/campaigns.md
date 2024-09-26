@@ -64,7 +64,7 @@ The campaign landing page is visible to any Viva Engage licensed user who select
 
 ## Create a multitenant campaign (Public preview)
 
-If Viva Engage is set up as a hub-and-spoke multitenant organization, the hub tenant can host official campaigns that reach the entire organization. Hub leaders can harness the power of these campaigns to amplify their messages and reach to all subsidiaries on key causes and initiatives. Learn more about [multitenant organizations.](/Viva/engage/mto-setup.md)
+If Viva Engage is set up as a hub-and-spoke multitenant organization, the hub tenant can host official campaigns that reach the entire organization. Hub leaders can harness the power of these campaigns to amplify their messages and reach to all subsidiaries on key causes and initiatives. Learn more about [multitenant organizations.](/Viva/engage/mto-setup)
 
 You can create a multitenant campaign if you're a corporate communicator, Engage admin, network admin, or verified admin on the hub tenant.
 
@@ -86,7 +86,7 @@ Here are some key differences:
 
 - Users in the hub tenant can only view and respond to posts from other users in the hub tenant.
 
-- Users in the spoke tenants can view and respond to posts from hub users *and* users in their own spoke tenant, but can’t view or respond to posts created on other spokes.
+- Users in the spoke tenants can view and respond to posts from hub users *and* users in their own spoke tenant. However, they can’t view or respond to posts from other spokes.
 
 - Campaign analytics aggregates campaign activity for the multitenant organization (vs. showing analytics for individual tenants).
 
@@ -114,7 +114,7 @@ When an official campaign ends, the follow button and default publisher on the c
 
 ## Build awareness for official campaigns
 
-Users can discover campaigns through posts that contain the verified campaign hashtag or through the campaigns discovery modules throughout Viva Engage.  To participate in an official campaign from the Home feed, users can create or comment on a post by using the verified campaign hashtag in a community, on a storyline, or from the official campaign landing page.
+The verified campaign hashtag and campaigns discovery modules are the best means for discovering campaigns. To increase awareness and participation, use the verified campaign hashtag in posts and comments from the Home feed, storyline, communities, and from the official campaign landing page.
 
 **Verified campaign hashtag**
 
