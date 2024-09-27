@@ -1,5 +1,5 @@
 ---
-ms.date: 9/18/2024
+ms.date: 9/30/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -266,6 +266,11 @@ The organizational attributes described above are generated from either Microsof
 The default attributes available in the dashboard are Organization and Job function. If you need to perform an analysis using different attributes uploaded by your admin, you can [set up a custom person query](../advanced/analyst/person-query.md).
 
 #### Impact page for companies with less than 50 assigned Copilot licenses
+
+>[!Important]
+>You must enable optional diagnostic data for the following metrics in this section: <br> <br /> • Copilot assisted hours <br> <br /> • Total emails sent using Copilot <br> <br /> • Number of Teams meetings summarized <br> <br/> • Number of Teams meeting hours summarized <br> <br /> • Total chat conversations summarized by Copilot <br> <br />
+>
+>All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
 
 Located within the Impact page, the Sentiment section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
 
