@@ -39,7 +39,7 @@ Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* 
 After the hub tenant is configured for multitenant organization, all tenants can communicate as a single, unified network.  
 
 > [!NOTE]
-> Viva Engage Storyline, Leadership corner, and campaigns are available for cross-tenant engagement in a multitenant organization. More Viva Engage features will be added soon in the roll-out.
+> Viva Engage Storyline, Leadership corner, and campaigns are available for cross-tenant engagement in a multitenant organization. More features will be added soon in the roll-out.
 
 ## Requirements
 
