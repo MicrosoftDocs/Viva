@@ -24,7 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
 
-Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
 #### Tenants connect in hub-and-spoke model
 
@@ -69,13 +69,13 @@ When designing an effective multitenant organization, it’s crucial to establis
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
 |B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the hub tenant. How you [configure multitenant organization in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
-|C. Designate an Engage or network administrator on the hub tenant to configure the multitenant organization.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
+|C. Designate an Engage or network administrator on the hub tenant to configure the multitenant organization.|If you need a new admin role, see [Assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## Configure the multitenant organization in Microsoft 365
 
 *For Microsoft 365 Global administrators*
 
-Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
+Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about the[Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -90,7 +90,7 @@ Configuring the multitenant organization in Microsoft 365 requires Microsoft Gra
 
 After you establish the multitenant organization in Microsoft 365, configure multitenant organization controls for Viva Engage on the tenant you've designated as the hub.
 > [!NOTE]
-> Licensing and other tenant-specific controls remain under control of that tenant’s admin. However, the spoke user license applies to the hub network.
+> Licensing and other tenant-specific controls remain under control of that tenant’s admin. Hub users do not need a duplicate license in the spoke tenants, and spoke users do not need a duplicate license in the hub tenant.
 
 |Task description|Instructions|
 |----------------|----------------|
