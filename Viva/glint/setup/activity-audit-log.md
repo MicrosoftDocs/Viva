@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/18/2024
+ms.date: 09/27/2024
 ---
 
 # Viva Glint Activity Audit Log
@@ -48,24 +48,26 @@ Choose an event type based on platform activity that you need to review and the 
 
 | Event  | Description  |
 |:----------|:-----------|
+| Access disabled | A Company Admin user disabled Advanced Configuration access. |
+| Access enabled | A Company Admin user enabled Advanced Configuration access. |
 | Company Admin added | A user was added to the Company Admin role. |
 | Company Admin login | A Company Admin user logged into Viva Glint. |
 | Company Admin logout | A Company Admin user logged out of Viva Glint. |
 | Company Admin removed | A user was removed from the Company Admin role. |
+| Data app execution logs | Advanced Configuration Data app and Upload activity. |
+| Data DSR Control set | User Data controls for survey data deletion in General Settings update activity. |
 | Data Import | Employee data import activity. |
 | Data export | Employee data export activity. |
+| Details changes saved | Change activity in General Settings or Advanced Configuration: Details. |
+| Discarding Employee IDs | User Data controls for Employee ID reuse in General Settings update activity. |
 | Export Raw Survey Data | Raw response data export activity. |
 | Role assigned | A user is assigned to a new role. |
 | Role unassigned | A user is removed from a role. |
 | Send User Data | Individual employee data and raw survey responses send activity. |
+| User added | A user was added to the Support User role. |
 | User Deleted | User deletion activity. |
 | User role created | User Role creation activity. |
 | View as user | Admins' "View As" another user activity. |
-| configure.activity.Log.event.ADD_SUPPORT_USER | A user was added to the Support User role. |
-| configure.activity.Log.event.CLIENT_DETAILS_CHANGED | Change activity in General Settings or Advanced Configuration: Details. |
-| configure.activity.Log.event.JOB_RUN | Advanced Configuration Data app and Upload activity. |
-| configure.activity.Log.event.USER_ADV_CONFIG_DISABLED | A Company Admin user disabled Advanced Configuration access. |
-| configure.activity.Log.event.USER_ADV_CONFIG_ENABLED | A Company Admin user enabled Advanced Configuration access. |
 
 ## Related resources
 
