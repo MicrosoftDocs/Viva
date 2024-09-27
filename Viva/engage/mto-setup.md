@@ -25,9 +25,6 @@ search.appverid:
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
 
 Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
-
-Complete these tasks in the order they appear. Administrator role requirements vary by task and are called out in each section.
-
 ---
 
 #### Tenants connect in hub-and-spoke model
@@ -61,6 +58,8 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 - Storyline is enabled on the hub tenant. Refer to [instructions in this article](/Viva/engage/mto-setup#configure-the-hub-tenant-for-storyline) after the multitenant organization is set up.
 
 ## Prepare to set up a multitenant organization
+
+Complete these tasks in the order they appear. Since the role requirement varies by task, it's called out in each section.
 
 *For Microsoft 365 Global administrators*
 
