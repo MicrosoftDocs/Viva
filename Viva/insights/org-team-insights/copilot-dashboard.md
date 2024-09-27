@@ -268,7 +268,7 @@ The default attributes available in the dashboard are Organization and Job funct
 #### Impact page for companies with less than 50 assigned Copilot licenses
 
 >[!Important]
->You must enable optional diagnostic data for the following metrics in this section: <br> <br /> • Copilot assisted hours <br> <br /> • Total emails sent using Copilot <br> <br /> • Number of Teams meetings summarized <br> <br/> • Number of Teams meeting hours summarized <br> <br /> • Total chat conversations summarized by Copilot <br> <br />
+>You must enable optional diagnostic data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
 >
 >All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
 
