@@ -107,7 +107,7 @@ From the hub tenant, configure Storyline settings to make announcements and lead
 |A.	Enable storylines for Viva Engage. |<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
 |B. Configure storylines for multitenant organization.|<ol><li>Follow the preceding steps 1-3 to go to the Storylines settings.</li><li>Select **Advanced settings**.</li><li>Under **Multi-tenant organizations (MTO)**, select the check box for **Let users on spoke tenants engage in storyline posts from this network**. For more details, see [Enable storyline](/viva/engage/eac-storyline#enable-storyline).</li>|
 
-### Configure leadership on the hub tenant
+## Configure leadership on the hub tenant
 
 *For the Engage admin, verified admin, network admin, or corporate communicator*
 
@@ -117,6 +117,17 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 |----------------|----------------|
 | A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
 |B. Enable audiences for the multitenant organization|<ol><li>On the Feature management tab, go to **Leadership identification and audiences**, and select the **Manage audiences** page.</li><li>Turn on **Entire organization:** *[TENANT_NAME]*. *Entire organization* refers only to the tenant that you're configuring. In other words, this option enables the leader to communicate with the hub tenant.</li><li>Turn on **Multiple organizations** to let leader posts and announcements reach across all spoke tenants in the multitenant organization.|
+
+## Configure a community for multitenant engagement
+
+*For the Engage admin*
+
+Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement.
+
+1. Go to the community landing page.
+1. From the options menu in the community header, select **Make visible to all organizations**.
+
+To disable cross-tenant engange, deselect this option.
 
 ## See also
 
