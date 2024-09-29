@@ -124,10 +124,12 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 
 Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement.
 
-1. Go to the community landing page.
-1. From the options menu in the community header, select **Make visible to all organizations**.
+|Task description|Instructions|
+|----------------|----------------|
+| A. Enable a community for a multitenant organization.|
+|1. In the hub tenant, go to the community landing page.<br>1. From the options menu in the community header, select **Make visible to all organizations**.<br>1. Confirm the change. The community is now available to all tenants as a private community, which requires community members to be approved by the community admin.|
 
-To disable cross-tenant engange, deselect this option.
+Either the Engage admin or the community's admin can add members to the community using Microsoft 365 groups, a CSV file, and manually on the community landing page. For details, see [Manage a community](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a).
 
 ## See also
 
