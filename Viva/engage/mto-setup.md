@@ -128,7 +128,7 @@ Only pre-existing communities on the hub tenant can be enabled for cross-tenant 
 |----------------|----------------|
 | A. Enable a community for a multitenant organization.|
 |1. In the hub tenant, go to the community landing page.<br>1. From the options menu in the community header, select **Make visible to all organizations**.<br>1. Confirm the change. The community is now available to all tenants as a private community, which requires community members to be approved by the community admin.|
-| B. Add community members|The Engage admin or the community admin can add members to the community using Microsoft 365 groups, a CSV file, and manually on the community landing page. For details, see [Manage a community](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a).|
+| B. Add community members|The Engage admin or the community admin can [add members in Microsoft 365 groups, with a CSV, or manually](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a). Alternatively, users on the hub and spoke tenants can request to join.|
 
 ## See also
 
