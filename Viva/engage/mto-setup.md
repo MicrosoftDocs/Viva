@@ -118,18 +118,17 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 | A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
 |B. Enable audiences for the multitenant organization|<ol><li>On the Feature management tab, go to **Leadership identification and audiences**, and select the **Manage audiences** page.</li><li>Turn on **Entire organization:** *[TENANT_NAME]*. *Entire organization* refers only to the tenant that you're configuring. In other words, this option enables the leader to communicate with the hub tenant.</li><li>Turn on **Multiple organizations** to let leader posts and announcements reach across all spoke tenants in the multitenant organization.|
 
-## Enable a community for multitenant engagement
+## Enable communities for multitenant engagement
 
 *For the Engage admin*
 
-Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement.
+Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private.
 
 |Task description|Instructions|
 |----------------|----------------|
 | A. Enable a community for a multitenant organization.|
 |1. In the hub tenant, go to the community landing page.<br>1. From the options menu in the community header, select **Make visible to all organizations**.<br>1. Confirm the change. The community is now available to all tenants as a private community, which requires community members to be approved by the community admin.|
-
-Either the Engage admin or the community's admin can add members to the community using Microsoft 365 groups, a CSV file, and manually on the community landing page. For details, see [Manage a community](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a).
+| B. Add community members|The Engage admin or the community admin can add members to the community using Microsoft 365 groups, a CSV file, and manually on the community landing page. For details, see [Manage a community](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a).|
 
 ## See also
 
