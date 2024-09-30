@@ -36,11 +36,11 @@ Use the campaign dashboard to create, edit, and end campaigns. In the dashboard,
 
 1. Go to the [Viva Engage admin center](/viva/engage/eac-overview).
 
-    [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+    [![Screenshot of the entrypoint into the Viva Engage admin center](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox).
 
-2. On the **Feature management** tab, select **Campaigns** to access the campaign dashboard.
+2. On the **Feature management** tab, select **Campaigns** to access the campaign dashboard.
 
-    [![Screenshot of the interface to manage campaigns in the Viva Engage admin center.](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox)
+    [![Screenshot of the interface to manage campaigns in the Viva Engage admin center](/viva/media/engage/admin/campaigns-eac.png)](/viva/media/engage/admin/campaigns-eac.png#lightbox).
 
     The dashboard lists all active, ended, and draft campaigns created for the organization.
 
@@ -56,7 +56,7 @@ Use the campaign dashboard to create, edit, and end campaigns. In the dashboard,
 1. Select **Confirm** to save your changes.<br>
 The campaign is now in draft state. Until you publish the campaign, only Engage admins and corporate communicators can view the campaign.
 
-1. To publish the organization, select the ellipses button on the campaign management dashboard, and from the menu select **Publish campaign**.
+1. To publish the organization, select the ellipses button on the campaign management dashboard, and from the menu select **Publish campaign**.
 
     [![Screenshot of the UI dropdown to publish and delete a campaign.](/viva/media/engage/admin/publish-campaign-button.png)](/viva/media/engage/admin/publish-campaign-button.png#lightbox)
 
@@ -96,7 +96,7 @@ Corporate communicators can update the cover photo with a PNG or JPG image, 20 M
 
 - On the campaign homepage, select the options (...) menu under the existing image, and select **Upload cover photo**.
 
-:::image type="content" source="../media/engage/campaigns/upload-cover-photo.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
+   :::image type="content" source="../media/engage/campaigns/upload-cover-photo.png" alt-text="Screenshot of the entry point into managing storyline settings.":::
 
 ## End or delete an official campaign
 
@@ -181,7 +181,7 @@ Corporate communicators can perform the following functions to manage official c
 
 ## Frequently asked questions
 
-**Can I create a campaign for a hashtag that's already in use?** 
+**Can I create a campaign for a hashtag that's already in use?**
 
 Hashtags in use by other active or ended campaigns are unavailable for reuse. If the hashtag is in use by an unpublished campaign, it's available. However, any content created before the campaign is published won't be included in views or analytics.
 
