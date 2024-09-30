@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/24/2024
+ms.date: 09/25/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -151,7 +151,7 @@ Configure how user data is handled.
 
 ### Delete survey data for deleted users
 
-Manage survey data in response to a Data Subject Request (DSR). This configuration is set at the platform
+Manage survey data in response to a Data Subject Request (DSR) or a delete signal from Microsoft Entra ID." This configuration is set at the platform
 level and applies to all requests equally.
 
 | Field | Definition and notes |
@@ -167,3 +167,11 @@ Manage reusing employee IDs and reassign them to new or rehired employees. This 
 |:-----------|:-----------|
 | On (default) | Exclude data associated with employee IDs of previously removed employees from uploads. |
 | Off | Update the already deleted records with the status provided in the HRIS file. |
+
+>[!IMPORTANT]
+>When Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they’re not deleted from Viva Glint immediately. A user’s employee record is in a soft-deleted state for 30 days. During this period, the employee record can be modified from its soft-deleted state and updated to the status provided in the HRIS file.
+>After the 30-day period, all data related to the employee is permanently deleted in accordance with User Data controls.
+>Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee.
+
+
+
