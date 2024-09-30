@@ -27,7 +27,7 @@ To perform administrative tasks and facilitate many of the premium features in V
 
 >[!NOTE]
 >A Viva Engage license isn't required for an admin to configure Viva Engage (core or premium).
-Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage Admin center, or legacy network admin center.
 Other Viva Engage admin roles can also administer premium features without being assigned a premium license.
 
 *Select a role in the table to learn more about it.*
@@ -94,7 +94,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Administer Answers in Viva Engage. (See [list of permissions](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
+|**Permissions** |<ul><li>Administer Answers in Viva Engage. (See [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator|
 |**How to assign**|Assign a [Knowledge Manager role in Microsoft Entra ID](/entra/identity/role-based-access-control/permissions-reference)</li></ul>|
 
