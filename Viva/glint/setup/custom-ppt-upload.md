@@ -19,7 +19,7 @@ ms.date: 09/25/2024
 
 # Customize a PowerPoint template in Viva Glint
 
-To communicate more engagingly with stakeholders, admins can use customized PowerPoint (PPT) templates. One of the most important aspects to drive response rate and engagement is to make survey takers feel that the survey product and retatioporting come from a reliable source and that their privacy is protected. **Personal branding increases response rates as it provides feelings of reliability and privacy.**
+To communicate more engagingly with stakeholders, admins can use customized PowerPoint (PPT) templates. One of the most important aspects to drive response rate and engagement is to make survey takers feel that the survey product and reporting come from a reliable source and that their privacy is protected. **Personal branding increases response rates as it provides feelings of reliability and privacy.**
 
 >[!IMPORTANT]
 >Permission settings in PowerPoint files affect how Viva Glint accesses custom templates. Ensure your template is not locked or restricted from editing. Otherwise, the exporting process may fail.
