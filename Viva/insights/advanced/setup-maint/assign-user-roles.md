@@ -1,5 +1,5 @@
 ---
-ms.date: 06/14/2023
+ms.date: 09/30/2024
 title: Assign roles
 description: Learn how to assign Insights Administrator, Insights Analyst, and Insights Business Leader roles to users in your organization
 author: zachminers
@@ -20,6 +20,9 @@ audience: Admin
 For specific information about what each role can do with Viva Insights, refer to [Roles in Viva Insights](../../use/user-roles.md).
 >
 >Enabling manager and leader access to insights is a different process. Insights Administrators enable this access through [Manager settings](./manager-settings.md).
+
+>[!Important]
+>Early next year, the **Business Leader** role will no longer be available. At that point, people who previously had this role won’t be able to access organizational insights. To provide employees access to organizational insights, assign them delegate access instead. [Learn more about how delegate access works](..//..//org-team-insights/delegate-access.md). 
 
 ## Assign Viva Insights roles
 
