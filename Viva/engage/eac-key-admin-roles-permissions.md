@@ -94,7 +94,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Administer Answers in Viva Engage. (See [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
+|**Permissions** |<ul><li>Manage Answers in Viva Engage. (For details, see [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator|
 |**How to assign**|Assign a [Knowledge Manager role in Microsoft Entra ID](/entra/identity/role-based-access-control/permissions-reference)</li></ul>|
 
