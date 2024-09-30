@@ -28,11 +28,11 @@ To communicate more engagingly with stakeholders, admins can use customized Powe
 
 Customized templates are stored in folders that you create. You can create as many folders as you’d like and save them to use as appropriate.
 
-1.	From the **General Settings** feature on your admin dashboard, navigate to **Reporting** and then **PowerPoint Templates for Reports.**
+1.	From the **General Settings** feature on your admin dashboard, navigate to **Reporting** and then **PowerPoint Templates for Reports**.
 
     :::image type="content" source="../../media/glint/setup/general-settings-modify-templates.png" alt-text="Screenshot of where to access template modification in General Settings Reporting.":::
 
-2.	Select **Modify templates.**
+2.	Select **Modify templates**.
 3.	Select **+ New template folder** to open the **Create a new template folder** window.
 
     :::image type="content" source="../../media/glint/setup/general-settings-create-template-folder.png" alt-text="Screenshot of New template folder button.":::
@@ -42,7 +42,7 @@ Customized templates are stored in folders that you create. You can create as ma
 
     :::image type="content" source="../../media/glint/setup/general-settings-name-type.png" alt-text="Screenshot of fields requiring set up to create a new template folder.":::
 
-6.	Select **Create.** Your new folder now appears as its own row on the **PowerPoint Templates for Reports** page.
+6.	Select **Create**. Your new folder now appears as its own row on the **PowerPoint Templates for Reports** page.
 
     :::image type="content" source="../../media/glint/setup/general-settings-ppt-templates.png" alt-text="Screenshot of the PowerPoint Templates for Reports page.":::
 
@@ -54,9 +54,9 @@ The first time you open a folder, you see that no customized versions of the tem
 
 :::image type="content" source="../../media/glint/setup/template-no-customized.png" alt-text="Screenshot of an alert telling you that no customized versions of your template are uploaded.":::
 
-1.	Select **Download template.**
+1.	Select **Download template**.
 2.	From the window that opens, select as many languages as needed from the prepopulated language dropdown menu.
-3.	Select **Download.**
+3.	Select **Download**.
 
     :::image type="content" source="../../media/glint/setup/template-ppt-download-sample.png" alt-text="Screenshot of the Download a default template as a sample dialog box.":::
 
@@ -64,7 +64,7 @@ The first time you open a folder, you see that no customized versions of the tem
 
     :::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot of how to download the new template and open it in a new tab.":::
 
-5.	**Customize the presentation-manually**-using your organization’s logo, familiar terminology, and important, relevant text content. Save the presentation with a new and easily identifiable name. In this example, the survey is named *Spring Engagement Survey 2024.*
+5.	**Customize the presentation-manually** using your organization's logo, familiar terminology, and important, relevant text content. Save the presentation with a new and easily identifiable name. In this example, the survey is named *Spring Engagement Survey 2024*.
 
     :::image type="content" source="../../media/glint/setup/ppt-customized.png" alt-text="Screenshot of a customized PowerPoint template.":::
 
@@ -76,7 +76,7 @@ The first time you open a folder, you see that no customized versions of the tem
     :::image type="content" source="../../media/glint/setup/custom-ppt-new-tab.png" alt-text="Screenshot of the how to download the new template and open in a new tab.":::
 
 3.	Browse your files to drag and drop the custom template into the upload box.
-4.	Select a language to upload and then select **Upload file.** Upload as many languages into the folder as needed.
+4.	Select a language to upload and then select **Upload file**. Upload as many languages into the folder as needed.
 5.	Now when opening the folder, custom templates are available. From the folder name, you can see the number of languages the template exists in and the number of surveys the custom template is linked to. Within the folder, you can access each individual template.
 
     :::image type="content" source="../../media/glint/setup/custom-ppt-folder-overview.png" alt-text="Screenshot of the PowerPoint Template for Reports, verifying the folder contents.":::
@@ -91,7 +91,7 @@ To edit, open, or delete a folder, use the ellipses next to the template name.
  
 ### Edit folder name and type
 
-Modify as needed and select **Update.**
+Modify as needed and select **Update**.
 
 :::image type="content" source="../../media/glint/setup/custom-update-folder.png" alt-text="Screenshot of the Update template folder dialog box.":::
 
