@@ -26,8 +26,8 @@ search.appverid:
 To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.
 
 >[!NOTE]
->No Viva Engage licenses are required for admins to configure Viva Engage (core or premium).
-Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators (also called Yammer administrators in Microsoft Entra ID) are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+>A Viva Engage license isn't required for an admin to configure Viva Engage (core or premium).
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
 Other Viva Engage admin roles can also administer premium features without being assigned a premium license.
 
 *Select a role in the table to learn more about it.*
@@ -35,7 +35,7 @@ Other Viva Engage admin roles can also administer premium features without being
 |Admin role|Business function|
 |------------|----------------|
 |[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)| Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
-|[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance |
+|[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance. This role is also referred to as *Yammer administrator* in Microsoft Entra ID.  |
 |[Verified Administrator](#verified-administrator)| Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. |
 |[Network Administrator](#network-administrator)| Configures the Viva Engage network|
 |[Answers Administrator](#answers-administrator)| Configures Answers in Viva Engage, manages topics, and enables badges |
