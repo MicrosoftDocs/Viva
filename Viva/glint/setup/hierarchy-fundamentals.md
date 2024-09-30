@@ -45,7 +45,7 @@ In an employee data file:
  
  The hierarchy ends with Angel, as Angel is the CEO, who doesn't report to anyone.
 
-:::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level one to level three.":::
+:::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
 The Viva Glint system automatically configures Harper's hierarchy level within their company as:
 
@@ -59,7 +59,7 @@ The Viva Glint system automatically configures Harper's hierarchy level within t
 
 ### Multiple CEOs
 
-Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple users that sit at the top of your manager hierarchy (for example, a board of directors), your organization can add a placeholder "CEO" to employee data to act as the top-level manager in reporting. All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
+Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple leaders that should sit at the top of your manager hierarchy, your organization can add a placeholder "CEO." All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
 
 :::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, with a placeholder CEO as the top-level user and multiple CEOs as level 2 managers.":::
 
@@ -72,13 +72,13 @@ Before adding a placeholder CEO to your employee data:
 
 ## Hierarchy groups
 
-Depending on the size of your organization and reporting needs, Viva Glint Admins can setup other non-manager reporting hierarchies. Include attributes in employee data for each level of these hierarchies, which commonly include location or department information.
+Depending on the size of your organization and reporting needs, Viva Glint Admins can set up other non-manager reporting hierarchies. Include attributes in employee data for each level of these hierarchies, which commonly include location or department information.
 
 ### Example: location hierarchy
 
 **NAMER > USA > Chicago**
 
-:::image type="content" source="../../media/glint/setup/location-hierarchy-filter.png" alt-text="Screenshot of location hierarchy filters in Glint reporting, drilling down from level one to level three.":::
+:::image type="content" source="../../media/glint/setup/location-hierarchy-filter.png" alt-text="Screenshot of location hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
 In this example, three columns are needed in employee data to create a location hierarchy in Viva Glint:
 
@@ -92,7 +92,7 @@ This example includes three levels, but Viva Glint admins can customize the loca
 
 **Department > Division**
 
-:::image type="content" source="../../media/glint/setup/dept-hierarchy-filter.png" alt-text="Screenshot of department hierarchy filters in Glint reporting, drilling down from level one to level two.":::
+:::image type="content" source="../../media/glint/setup/dept-hierarchy-filter.png" alt-text="Screenshot of department hierarchy filters in Glint reporting, drilling down from level 1 to level 2.":::
 
 Two columns are needed in employee data to create a department hierarchy in Viva Glint:
 
