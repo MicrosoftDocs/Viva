@@ -270,11 +270,6 @@ The default attributes available in the dashboard are Organization and Job funct
 
 #### Impact page for companies with less than 50 assigned Copilot licenses
 
->[!Important]
->You must enable optional diagnostic data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
->
->All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
-
 Located within the Impact page, the Sentiment section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
 
 **Suggested Copilot survey questions**
@@ -293,6 +288,11 @@ For each of these, we recommend allowing users to indicate whether or not they S
 Microsoft 365 global admins can upload aggregated survey results through Adoption Score in the Microsoft 365 admin center. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md#upload-aggregated-survey-results).
 
 #### Impact page for companies with at least 50 assigned Copilot licenses
+
+>[!Important]
+>You must enable optional diagnostic data for the following metrics in this section: Copilot assisted hours; Total emails sent using Copilot; Number of Teams meetings summarized; Number of Teams meeting hours summarized; and Total chat conversations summarized by Copilot.
+>
+>All other metrics in the report are powered by required service data and don't require optional diagnostic data enablement. [Learn more about diagnostic data](/microsoft-365-apps/privacy/optional-diagnostic-data).
 
 This page helps you assess Copilot impact by layering the results of Microsoft's quantitative and qualitative research on top of your organization's Copilot and Microsoft 365 usage patterns. 
 
