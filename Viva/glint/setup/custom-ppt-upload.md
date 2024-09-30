@@ -44,7 +44,7 @@ Customized templates are stored in folders that you create. You can create as ma
 
 6.	Select **Create**. Your new folder now appears as its own row on the **PowerPoint Templates for Reports** page.
 
-    :::image type="content" source="../../media/glint/setup/general-settings-ppt-templates.png" alt-text="Screenshot of the PowerPoint Templates for Reports page.":::
+    :::image type="content" source="../../media/glint/setup/custom-ppt-folder-overview.png" alt-text="Screenshot of the PowerPoint Templates for Reports page.":::
 
 ## Customize a template
 
