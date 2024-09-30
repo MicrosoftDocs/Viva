@@ -26,7 +26,7 @@ A reporting hierarchy in Microsoft Viva Glint filters data into levels from high
 
 ## Manager hierarchy
 
-Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't have a manager associated with them is your organization's CEO or top-level person. 
+Manager hierarchy is typically used as the primary reporting hierarchy and is the only hierarchy that Viva Glint processes automatically with file uploads. Every employee in your organization should have a Manager ID except your organization's CEO or top-level leader.
 
 > [!IMPORTANT]
 > The Viva Glint label for your managerial hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager." This results in file upload issues.
@@ -55,15 +55,20 @@ The Viva Glint system automatically configures Harper's hierarchy level within t
 - Level 4 - Leonie
 
 > [!IMPORTANT]
-> Matrix manager hierarchies aren't recommended in employee data. Viva Glint only calculates levels for one manager hierarchy and Viva Glint Admins can't add new hierarchies afer initial attribute setup. Matrix manager levels require manual maintenance and updates by your organization.
+> Matrix manager hierarchies aren't recommended in employee data. Viva Glint only calculates levels for one manager hierarchy and Viva Glint Admins can't add new hierarchies after initial attribute setup. Matrix manager levels require manual maintenance and updates by your organization.
 
 ### Multiple CEOs
 
-Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple users that sit at the top of your manager hierarchy (for example, a board of directors), your organization can add a placeholder "CEO" to employee data to act as the top level manager in reporting. All top-level users can then report to this placeholder CEO and appear as Level 2 managers in Glint reproting and filters:
+Viva Glint's best practice is to select a single user in your employee data as the top level/CEO whose Manager ID value is blank. If your organization has multiple users that sit at the top of your manager hierarchy (for example, a board of directors), your organization can add a placeholder "CEO" to employee data to act as the top-level manager in reporting. All top-level users can then report to this placeholder CEO and appear as level 2 managers in Glint reporting and filters:
 
+:::image type="content" source="../../media/glint/setup/placeholder-ceo-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, with a placeholder CEO as the top-level user and multiple CEOs as level 2 managers.":::
 
+#### Considerations
 
+Before adding a placeholder CEO to your employee data:
 
+- Determine whether your organization can manually insert a placeholder CEO in employee data files each time they're uploaded to Glint.
+- Ensure that the Top-Level Manager selection in [General Settings](manage-general-settings.md) aligns with your placeholder CEO user or is left blank.
 
 ## Hierarchy groups
 
