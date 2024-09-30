@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 03/04/2024
+ms.date: 09/30/2024
 audience: Admin
 ms.topic: article
 ms.service: office-online-server
@@ -94,33 +94,33 @@ You can deactivate or permanently remove active users, pending users, and guests
     
 3. Select an action to take:
     
-   - **Deactivate this user:**
- 
-      - If the user has no Microsoft Entra credentials, this option blocks the user from signing in until the user verifies their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
+   **Deactivate this user:**
 
-      - If the user has Microsoft Entra credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
+   - If the user has Microsoft Entra credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
+ 
+   - If the user has no Microsoft Entra credentials, this option blocks the user from signing in until the user verifies their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain for 90 days. This can be a useful option for departing contract employees as they can be renewed when they return. 
+
+   >[!NOTE] 
+   > Even though deactivated users are visible for 90 days, their accounts can only be reactivated up to 30 days after deactivation. After 90 days, the account is permanently deleted.
     
-   - **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted.
-   - **Permanently remove this user and messages:** This option lets you remove the user and all the messages they posted. This can't be reversed.
-   - **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** This option deactivates the user for 14 days so the admin can evaluate files and messages before the user is permanently deleted. 
+   **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted.
+
+   **Permanently remove this user and messages:** This option lets you remove the user and all the messages they posted. This can't be reversed.
+
+   **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** This option deactivates the user for 14 days so the admin can evaluate files and messages before the user is permanently deleted. 
     
    **All deletion options delete the following data:**
-    
+
    - Who the person is following, what conversations and articles they're following, and who's following them
-    
    - Bookmarks, language preferences, notification settings, and account activity
-    
    - User's profile
-    
    - Group memberships
-    
    - Org chart
-    
    - The list of networks they were a member of
-    
+
    The first three deletion options preserve the user's name in Viva Engage stored data and list deactivated users on the **Remove Users** page, from which you can reactivate or delete a user. Only the **Erase this user** option removes the user's name.
   
-    :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
+   :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
   
 <a name="BlockUsers"> </a>
 ## Block users
@@ -133,13 +133,13 @@ A user with a blocked email address can't join your Viva Engage network unless a
   
 - **Block the user in the Yammer admin center:**
     
-    1. In Viva Engage, select the settings icon, and select **Edit Network admin Settings** to go to the Yammer admin center.
+   1. In Viva Engage, select the settings icon, and select **Edit Network admin Settings** to go to the Yammer admin center.
 
-    2. In the Yammer admin center, select **Users** \> **Block Users**.
+   2. In the Yammer admin center, select **Users** \> **Block Users**.
     
-    3. Enter the email address of the user to block. If you enter multiple email addresses, separate them with commas or line breaks. 
+   3. Enter the email address of the user to block. If you enter multiple email addresses, separate them with commas or line breaks. 
 
-     If the user you select is in a suspended state in Viva Engage, blocking that email address puts the user in a deleted state. 
+   If the user you select is in a suspended state in Viva Engage, blocking that email address puts the user in a deleted state. 
     
   > [!TIP]
   > Because Viva Engage is most effective when every post comes from an individual user, you might consider blocking group email addresses. 
@@ -150,6 +150,4 @@ A user with a blocked email address can't join your Viva Engage network unless a
   
 ## Related articles
   
-[Manage community members in Viva Engage](https://support.microsoft.com/en-gb/office/manage-viva-engage-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294)
-
-[Can I unsubscribe myself from Viva Engage?](https://support.office.com/article/981ecaf7-8a7d-4312-a845-bd343e925073)
+[Manage a community in Viva Engage](https://support.microsoft.com/en-gb/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a)
