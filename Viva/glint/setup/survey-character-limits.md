@@ -62,9 +62,8 @@ The character limits for each open text area in your survey setup are given in t
 | Greeting | 3000 |
 | Privacy Message | 3000 |
 | Title | 3000 |
-|Buttons|65|
 | Message | 3000 |
-| Questionnaire Button | 128 |
+| Questionnaire Button | 65 |
 
 ## Fields
 
