@@ -1,5 +1,5 @@
 ---
-title: Recognize survey field character limits in Viva Glint programs
+title: Survey field character limits in Viva Glint programs
 description: Within Viva Glint surveys, there are many fields for admins to set up and customize for their organization and employees.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/01/2024
+ms.date: 10/01/2024
 ---
 
-# Recognize survey field character limits in Viva Glint programs
+# Survey field character limits in Viva Glint programs
 
 The character limits for each open text area in your survey setup are given in the below tables:
 
@@ -63,7 +63,7 @@ The character limits for each open text area in your survey setup are given in t
 | Privacy Message | 3000 |
 | Title | 3000 |
 | Message | 3000 |
-| Questionnaire Button | 128 |
+| Questionnaire Button | 65 |
 
 ## Fields
 
