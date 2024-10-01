@@ -85,9 +85,6 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 ## Manage organizational data
 
->[!NOTE]
->This capability is currently only available for private preview customers. General availability is coming soon.
-
 Amplify provides reporting data for metrics such as read rates on emails, view rates on SharePoint pages, interactions with Teams posts, and more. Importing your organizational data can enhance your Amplify reports by giving you further insight into use and impact.
 
 Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and fills in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
@@ -118,11 +115,11 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 1. If you only want specific people or groups to be able to create campaigns, choose **Only selected people or security groups.** Type a name or email address to add a person or group.
 
->[!NOTE]
->If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
+   >[!NOTE]
+   >If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
->[!IMPORTANT]
->Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
+   >[!IMPORTANT]
+   >Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
 
 ## Manage campaigns in the SharePoint admin center
 
