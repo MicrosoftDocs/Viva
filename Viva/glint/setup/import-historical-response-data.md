@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/05/2024
+ms.date: 10/01/2024
 ---
 
 # Import historical response data in Viva Glint
@@ -26,11 +26,11 @@ For highly trained users, Microsoft Viva Glint Advanced Configuration offers the
 It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, learn about the Viva People Science factors around historical imports:
 
 > [!div class="nextstepaction"]
-> [Consider Viva People Science factors for historical imports](https://go.microsoft.com/fwlink/?linkid=2245072)
+> [Consider Viva People Science factors for historical imports](/viva/glint/people-science/import-external-people-science-pov)
 
 ## 2. Review prerequisites
 
-Data from an external source must meet the prerequisites listed here to be eligible for import to Viva Glint. If your data don't meet these requirements, do not import via the Advanced Configuration External Import feature.
+Data from an external source must meet the prerequisites listed here to be eligible for import to Viva Glint. If your data don't meet these requirements, don't import via the Advanced Configuration External Import feature.
 
 ### Survey program
 
@@ -42,7 +42,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 
 ### Survey items
 
-- External data are tied to items that map to Viva Glint items. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230918).
+- External data are tied to items that map to Viva Glint items. [Learn more](question-mapping.md).
 - The response scale for rated items is compatible with Viva Glint:
   - 5-point Likert scale: 1 = Strongly Disagree, 2 = Disagree, 3 = Neither, 4 = Agree, 5 = Strongly Agree.
   - Reversed 5-point Likert scales require conversion before import to Viva Glint.
@@ -57,11 +57,11 @@ Data from an external source must meet the prerequisites listed here to be eligi
  
 ## 3. Map historical survey items
 
-Complete a mapping of historical and Viva Glint items to determine exactly where you'll see trend in reporting. [Learn more](question-mapping.md).
+Complete a mapping of historical and Viva Glint items to determine exactly where you see trend in reporting. [Learn more](question-mapping.md).
 
 ## 4. Set up a survey program
 
-Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).  
+Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](program-summary-overview.md).  
 
 After you complete setup: 
 
@@ -83,16 +83,16 @@ After you complete setup:
 
 ## 5. Prepare data files
 
-External imports of historical data require three data files, each with their own requirements. Select the file name in the following table to see a sample of each file.
+External imports of historical data require three data files, each with their own requirements. To see a sample of each file, select the file name in the following table.
 
 > [!IMPORTANT]
 > The Raw Score and Respondent User files must be in .csv format with a comma separator and UTF-8 encoding. **Don't encode files as UTF-8 with BOM**. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
 
 |File  |Description  |Email address label|Import to |Required format |
 |:----------|:-----------|:------------|:------------|:------------|
-|[User File](https://www.microsoft.com/en-us/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 encoding and a comma separator</li> **OR** <li>.xlsx </li></ul> |
-|[Raw Score File](https://www.microsoft.com/en-us/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
-|[Respondent User File](https://www.microsoft.com/en-us/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
+|[User File](https://www.microsoft.com/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 encoding and a comma separator</li> **OR** <li>.xlsx </li></ul> |
+|[Raw Score File](https://www.microsoft.com/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
+|[Respondent User File](https://www.microsoft.com/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
 
 ### User File
 
@@ -103,11 +103,11 @@ To import historical data and generate reports, first add all historical employe
 
 Confirm that:
 
-- **Attribute setup** is complete in Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240826).
+- **Attribute setup** is complete in Viva Glint. [Learn more](upload-employee-data.md).
 - **Employee IDs and Email Addresses** between current Viva Glint and historical users are aligned.
-- You include **accurate Employee ID and Manager ID relationships** to calculate your manager hierarchy for historical data and reporting. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230861).
+- You include **accurate Employee ID and Manager ID relationships** to calculate your manager hierarchy for historical data and reporting. [Learn more](hierarchy-fundamentals.md).
 - **Attributes and values** between current Viva Glint and historical users are aligned. 
-  - For example: Department = Human Resources will not trend with Department = HR.
+  - For example: Department = Human Resources doesn't trend with Department = HR.
 - **Derived attributes (if set up), Tenure Groups and Age Groups**, are disabled before you import historical data. Manually calculate age groups and tenure based on the survey launch date for historical data. To disable:
   - Go to **Configuration** and choose **People.**
   - Select **Actions** and then **Manage User Attributes**.
@@ -125,11 +125,26 @@ Your Raw Score File should be in a horizontal layout and contain an email addres
   - **Question IDs:** Use unique question IDs exported in **Step 4. Set up a survey program** to assign Glint Question IDs to your historical response data.
     - **Key Outcome Items:** Ensure that these items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
     - **Rating Question Comments:** For open-ended feedback associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID.
-    - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment.
+    - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment. For more information on cleaning up open-ended feedback before importing to Glint, see the **Comment cleanup** section.
     - **Multi-select Questions:** Separate numerical response values with a colon (:). If importing raw data exported from Glint, convert text responses to numerical responses. For example: If a user selects response options two, three, and five, their response value should be: `2:3:5`. If comments are attached to responses, use the same column layout as for rating question comments. 
 
+#### Comment cleanup
+
+To ensure that open-ended feedback from historical data doesn't cause import errors and displays correctly in the Comments report, take these steps to clean up comments.
+
+To retain special characters and formatting, always open .csv files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414).
+
+- Replace any back slashes ( \ ) with forward slashes ( / ).
+  - For example: Replace *My manager is kind\caring.* with *My manager is kind/caring.*
+- Replace words or phrases enclosed in double quotation marks (" ") with single quotation marks (' ').
+  - For example: Replace *I appreciate the "Quality Assurance" team.* with *I appreciate the 'Quality Assurance' team.*
+- Enclose all comments in double quotation marks (" ") when saving as .csv **with UTF-8 encoding.**
+  - For example: *I would like more dedicated time for personal development.* becomes *"I would like more dedicated time for personal development."*
+  > [!NOTE]
+  > Review data in a text editor application (like Sublime or Notepad) to ensure that comments aren't enclosed in multiple sets of double quotation marks. For example: ""This is my comment.""
+
 > [!IMPORTANT]
-> Comments that exceed 1024 characters will be truncated.
+> Comments that exceed 1024 characters are truncated.
 
 ### Respondent User File
 
@@ -143,21 +158,21 @@ Your Respondent User File needs to contain the following fields for the survey r
 
 ## 6. Import users
 
-Import your prepared User File to the Viva Glint People page to establish users and attributes for historical data.
+To establish users and attributes for historical data, import your prepared User File to the Viva Glint People page.
 
 > [!CAUTION]
 > Avoid external, historical imports while Viva Glint surveys are live.
 
-- [Import employee data](https://go.microsoft.com/fwlink/?linkid=2230742).
-- Create a Distribution List with these historical employees. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231414).
-- Update the Distribution section of your survey program with your new Distribution List. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
+- [Import employee data](upload-employee-attributes.md).
+- Create a Distribution List with these historical employees. [Learn more](set-up-distribution-lists.md).
+- Update the Distribution section of your survey program with your new Distribution List. [Learn more](distribution-program-summary.md).
 
 ## 7. Import external data
 
 To complete your external, historical import, access Viva Glint’s Advanced Configuration page. If you don't have access, confirm that:
 
 - You are in the Company Admin User Role.
-- The Advanced Configuration feature has been enabled for you as a user. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240194).
+- The Advanced Configuration feature is enabled for you as a user. [Learn more](understand-advanced-configuration.md).
 
 > [!CAUTION]
 > Your Glint survey program must be in an approved state while you import external, historical data and while reports generate. Ensure that your survey is approved before continuing.
@@ -177,7 +192,7 @@ To import historical users and their responses:
       > Selecting a date three or fewer days before the current date can result in unwanted email invites sent to employees.
 
    4. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
-   5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and does not appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
+   5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and doesn't appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
    6. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
    7. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
    8. **Extra Options menu:** Leave collapsed, not applicable.
@@ -230,11 +245,8 @@ After your historical import is complete and results appear as expected, load yo
 
 Choose between two upload methods:
 
-1. [Upload employee data to the People page](https://go.microsoft.com/fwlink/?linkid=2230742)
+1. [Upload employee data to the People page](upload-employee-attributes.md)
 Upload employee data directly in the Viva Glint platform on the People page.
    
-1. [Automatically import employee data with Viva Glint SFTP](https://go.microsoft.com/fwlink/?linkid=2247429)
-Use Viva Glint Secure File Transfer Protocol (SFTP) to leverage an automated import of employee data.
-
-
-   
+1. [Automatically import employee data with Viva Glint SFTP](sftp-data-automation.md)
+Use Viva Glint Secure File Transfer Protocol (SFTP) to use an automated import of employee data.
