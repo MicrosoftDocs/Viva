@@ -56,6 +56,8 @@ The character limits for each open text area in your survey setup are given in t
 
 ## Communications
 
+Character limits apply to survey invitations, reminders, and results release emails.
+
 | Field | Character limit |
 | --- | --- |
 | Subject | 3000 |
