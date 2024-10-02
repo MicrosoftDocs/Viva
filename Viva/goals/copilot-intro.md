@@ -15,7 +15,9 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365initiative-viva-goals
-- vg-integration  
+- vg-integration
+- viva-copilot
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: "Learn how to use Copilot in Viva Goals to create, share, manage, and summarize organizational goals."

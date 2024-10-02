@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva-engage
 ms.localizationpriority: high
-ms.collection:  
+ms.collection:
 - M365initiative-viva
 - highpri
 search.appverid:

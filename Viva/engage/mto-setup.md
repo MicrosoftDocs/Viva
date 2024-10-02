@@ -5,7 +5,7 @@ ms.reviewer: ahosford
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 12/06/2023
+ms.date: 09/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,14 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
 
-Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
-
-Complete these tasks in the order they appear. Administrator role requirements vary by task and are called out in each section.
-
-> [!NOTE]
-> This experience is only available by cohort-based rollout.
-
----
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a group of trusted tenants in your organization in  Microsoft 365, you can communicate across those tenants in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
 #### Tenants connect in hub-and-spoke model
 
@@ -42,14 +35,15 @@ Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* 
 After the hub tenant is configured for multitenant organization, all tenants can communicate as a single, unified network.  
 
 > [!NOTE]
-> Only Storyline and Leadership corner are available for multi-tenant organization.
+> Storyline, Leadership corner, campaigns, and communities are available for cross-tenant engagement in a multitenant organization. More features will be added soon.
 
 ## Requirements
 
 To access the multiple tenant organization feature for Viva Engage, your organization must meet these requirements across all tenants.
 
 **Microsoft 365 requirements**
-- Microsoft 365 E3 and Microsoft Entra ID P1. Or, Microsoft 365 E5 license (includes Microsoft Entra ID P2)
+
+- An Entra P1 or P2 license, which is included in Microsoft 365 E3 or E5, and Microsoft 365 F1 or F3 SKUs
 - Microsoft Entra ID manages all networks
 - Microsoft Graph API
 
@@ -59,10 +53,12 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 - Networks are in Native Mode
 - Networks are not in a one-to-many state. Each tenant can have only one Viva Engage network. See [Network migration - Consolidate multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
 - Full trust is established between all tenants. To establish full trust, [configure your organizational settings](/training/modules/secure-b2b-collaboration-cross-tenant-access/4-exercise-configure-organizational-settings).
-- All users in all tenants have access to Microsoft Viva Suite or Communications and Communities
-- Storyline is enabled on the hub tenant
+- All users in both hub and spoke tenants are assigned a *Microsoft Viva Suite* or *Communications and Communities* license
+- Storyline is enabled on the hub tenant. Refer to [instructions in this article](/Viva/engage/mto-setup#configure-the-hub-tenant-for-storyline) after the multitenant organization is set up.
 
 ## Prepare to set up a multitenant organization
+
+Complete these tasks in the order they appear. Since the role requirement varies by task, it's called out in each section.
 
 *For Microsoft 365 Global administrators*
 
@@ -72,14 +68,14 @@ When designing an effective multitenant organization, it’s crucial to establis
 |Task description|Instructions|
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
-|B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant. How you [configure multitenant organization in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
-|C. Designate an Engage or network administrator to configure the multitenant organization. This role must reside in the hub tenant.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
+|B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the hub tenant. How you [configure multitenant organization in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
+|C. Designate an Engage or network administrator on the hub tenant to configure the multitenant organization.|If you need a new admin role, see [Assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## Configure the multitenant organization in Microsoft 365
 
 *For Microsoft 365 Global administrators*
 
-Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
+Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about the [Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -94,7 +90,7 @@ Configuring the multitenant organization in Microsoft 365 requires Microsoft Gra
 
 After you establish the multitenant organization in Microsoft 365, configure multitenant organization controls for Viva Engage on the tenant you've designated as the hub.
 > [!NOTE]
-> Licensing and other tenant-specific controls remain under control of that tenant’s admin. However, the spoke user license applies to the hub network.
+> Licensing and other tenant-specific controls remain under control of that tenant’s admin. Hub users do not need a duplicate license in the spoke tenants, and spoke users do not need a duplicate license in the hub tenant.
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -111,7 +107,7 @@ From the hub tenant, configure Storyline settings to make announcements and lead
 |A.	Enable storylines for Viva Engage. |<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
 |B. Configure storylines for multitenant organization.|<ol><li>Follow the preceding steps 1-3 to go to the Storylines settings.</li><li>Select **Advanced settings**.</li><li>Under **Multi-tenant organizations (MTO)**, select the check box for **Let users on spoke tenants engage in storyline posts from this network**. For more details, see [Enable storyline](/viva/engage/eac-storyline#enable-storyline).</li>|
 
-### Manage leadership for the multitenant organization
+## Configure leadership on the hub tenant
 
 *For the Engage admin, verified admin, network admin, or corporate communicator*
 
@@ -121,6 +117,17 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 |----------------|----------------|
 | A. Add leaders to the multitenant organization|<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-overview).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant that you're configuring. This option only enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>|
 |B. Enable audiences for the multitenant organization|<ol><li>On the Feature management tab, go to **Leadership identification and audiences**, and select the **Manage audiences** page.</li><li>Turn on **Entire organization:** *[TENANT_NAME]*. *Entire organization* refers only to the tenant that you're configuring. In other words, this option enables the leader to communicate with the hub tenant.</li><li>Turn on **Multiple organizations** to let leader posts and announcements reach across all spoke tenants in the multitenant organization.|
+
+## Enable communities for multitenant engagement
+
+*For the Engage admin*
+
+Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private. Learn more about [Multitenant communities in Viva Engage](https://support.microsoft.com/en-us/topic/multitenant-communities-in-viva-engage-51462784-c566-44d0-a2cd-4d59dfc55fff).
+
+|Task description|Instructions|
+|----------------|----------------|
+|A. Enable a community for a multitenant organization.|1. In the hub tenant, go to the community landing page.<br>2. From the options menu in the community header, select **Make visible to all organizations**.<br>3. Confirm the change. The community is now available to all tenants as a private community, which requires community members to be approved by the community admin.|
+| B. Add community members|The Engage admin or the community admin can [add members in Microsoft 365 groups, with a CSV, or manually](https://support.microsoft.com/en-us/topic/manage-a-community-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a). Alternatively, users on the hub and spoke tenants can request to join.|
 
 ## See also
 
