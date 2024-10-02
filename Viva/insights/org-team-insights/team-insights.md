@@ -1,5 +1,5 @@
 ---
-ms.date: 08/12/2024
+ms.date: 09/30/2024
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: zachminers
@@ -22,9 +22,9 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
-Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find about team meeting habits on the [Productivity](../personal/teams/productivity.md) tab
+Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find about team meeting habits on the [Productivity](../personal/teams/productivity.md) tab.
 
-Throughout this document, we'll link you to where you can find more detailed information.
+Throughout this document, we'll link to more detailed information.
 
 ## About team data and data privacy
 

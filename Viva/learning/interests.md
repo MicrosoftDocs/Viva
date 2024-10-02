@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 08/15/2023
+ms.date: 09/30/2024
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning

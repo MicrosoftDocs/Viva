@@ -362,6 +362,8 @@ items:
         items:
           - name: Team Conversations presentation kit
             href: reports/coaching-team-conversations.md
+          - name: Customize a PowerPoint template in Glint
+            href: setup/custom-ppt-upload.md
           - name: Customize Team Conversations email content
             href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
@@ -372,7 +374,7 @@ items:
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
-          - name: Delete survey data 
+          - name: Duplicate, delete, and disable surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:

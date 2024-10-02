@@ -1,5 +1,5 @@
 ---
-ms.date: 09/25/2024
+ms.date: 09/30/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -28,6 +28,9 @@ To view organization insights:
 * You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](./delegate-access.md).
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
+
+>[!Important]
+>Early next year, the **Business Leader** role will no longer be available. At that point, people who previously had this role won’t be able to access organizational insights. Employees with delegate access, however, will be able to view organizational insights. [Learn more about how delegate access works](..//org-team-insights/delegate-access.md).
 
 ### Insights by role
 
