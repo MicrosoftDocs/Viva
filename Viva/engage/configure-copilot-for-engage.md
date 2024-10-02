@@ -9,7 +9,9 @@ ms.date: 09/12/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
-ms.collection: viva-copilot
+ms.collection: 
+- viva-copilot
+- magic-ai-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -43,7 +45,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 ## Control access to Copilot and AI Summarization services
 
-Access to Copilot and AI Summarization are managed separately through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets. Policies provide a flexible and scalable approach to deployment.
+Access to Copilot and AI Summarization is managed separately through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets. Policies provide a flexible and scalable approach to deployment.
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user can be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
