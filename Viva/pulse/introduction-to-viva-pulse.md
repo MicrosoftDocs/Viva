@@ -11,7 +11,7 @@ ms.collection:
  - essentials-get-started
  - essentials-overview
  - essentials-navigation
-ms.date: 08/04/2023
+ms.date: 10/02/2024
 ms.topic: overview
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -33,7 +33,7 @@ For Viva Pulse in the Microsoft 365 environment, users can have one or more of t
 
 ### Feedback author
 
-Feedback authors are users in your organization who can send Pulse requests to their direct reports, team members, or other users in the organization. Authors can request feedback from the available research-backed  templates and can leverage the following options to personalize the Pulse to their team’s needs:
+Feedback authors are users in your organization who can send Pulse requests to their direct reports, team members, or other users in the organization. If they choose, authors can also add themselves as a recipient to their own pulses. Authors can request feedback from the available research-backed  templates and can leverage the following options to personalize the Pulse to their team’s needs:
 
 * If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md#customization).
 * If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md#customization).

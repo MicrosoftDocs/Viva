@@ -16,7 +16,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/25/2024
+ms.date: 10/02/2024
 ---
 
 # Access Viva Glint raw survey responses
@@ -114,19 +114,19 @@ For closed surveys where raw survey responses were enabled, admins can export ra
 2. Select your survey program and go to the **Completed** cycles tab.
 3. On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
 4. In the export pane that appears:
-   1. Choose whether to include **Comments** and the **Survey Sent Date** in the **Export Options** section.
-   2. Select attributes that you want to include in the *Attributes* section.
+   1. Choose whether to include **Comments**, **Survey Sent Date**, and **Use question's description instead of UUID** in the **Export Options** section.
+   2. Select attributes that you want to include in the **Attributes** section.
    3. After making all selections, select **Export**.
 5. Your .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
 
 ### Export raw response data for Lifecycle and Always-On surveys
 
-1. Go to **configuration** and select **Survey Programs.**
+1. Go to **Configuration** and select **Survey Programs.**
 2. Select your survey program and then the **Actions** menu.
 3. Choose **Export Raw Survey Responses.**
 4. In the export pane:
    1. Select a Start Date and End Date in the **Date Range** section.
-   2. Choose whether to include **Comments** and the **Survey Sent Date** in the *Export Options* section.
+   2. Choose whether to include **Comments**, **Survey Sent Date**, and **Use question's description instead of UUID** in the **Export Options** section.
    3. Select attributes that you want to include in the **Attributes** section.
    4. After you make all selections, select **Export**.
 5. The .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
@@ -145,8 +145,8 @@ The fields included in your Viva Glint raw survey response exports vary based on
 |ItemText3  |Full text of survey item. |Numeric response value.|
 
 >[!NOTE]
-> - The export option will only be available to admins.
-> -	The export option will only be enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
+> - The export option is only be available to admins.
+> -	The export option is only enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
 
 >[!CAUTION]
 > Once a survey is live, the choice to enable or disable raw survey response export can't be changed for that survey.
