@@ -50,6 +50,18 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report setup
 
+### Enable hybrid insights
+
+*Applies to: Viva Insights administrator*
+
+First, you’ll need to enable hybrid insights in the Viva Insights **Privacy settings** page. Once you enable the insights, you can run the Hybrid experience (automated) report and use hybrid metrics in the query. To do so, under **Hybrid insights**, select **Turn on Hybrid insights**.
+
+:::image type="content" source="../../images/hybrid-insights-toggle.png" alt-text="Screenshot that shows the toggle to turn on hybrid insights.":::
+
+Once you enable hybrid insights, you can’t turn them off unless you [file a support ticket](/microsoft-365/admin/get-help-support). 
+
+### Run query
+
 1. In the analyst experience in Viva Insights, select **Analysis**.
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
