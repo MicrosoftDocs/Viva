@@ -49,7 +49,7 @@ One final task is announcing Viva Connections. Communications should be engaging
 
 ## Step 3: Use champions and provide continued support
 
-Champions are critical to the success of adoption. They're power-users with a desire to help others along the way. Often, they're closest to the business outcomes your organization is trying to realize. Empower them with our programs or become one yourself by learning in our world wide community. Use champions to help others adopt Viva Connections by providing ongoing support in training events and other learning opportunities. See the example of [using a champion program for Microsoft Teams](https://learn.microsoft.com/microsoftteams/teams-adoption-create-champions-program) for some ideas of creating a program for Viva Connections.
+Champions are critical to the success of adoption. They're power-users with a desire to help others along the way. Often, they're closest to the business outcomes your organization is trying to realize. Empower them with our programs or become one yourself by learning in our world wide community. Use champions to help others adopt Viva Connections by providing ongoing support in training events and other learning opportunities. See the example of [using a champion program for Microsoft Teams](/OfficeDocs-SkypeForBusiness/Teams/teams-adoption-create-champions-program) for some ideas of creating a program for Viva Connections.
 
 ## Learn more
 
