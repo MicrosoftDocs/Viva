@@ -47,7 +47,7 @@ In an employee data file:
 
 :::image type="content" source="../../media/glint/setup/mgr-hierarchy-filter.png" alt-text="Screenshot of manager hierarchy filters in Glint reporting, drilling down from level 1 to level 3.":::
 
-The Viva Glint system automatically configures Harper's hierarchy level within their company as:
+The Viva Glint system automatically configures Leonie's hierarchy level within their company as:
 
 - Level 1 – Angel
 - Level 2 – Archie
