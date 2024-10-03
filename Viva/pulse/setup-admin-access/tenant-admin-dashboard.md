@@ -20,9 +20,9 @@ search.appverid: MET150
 The Viva Pulse tenant admin dashboard is where you can view usage metrics for your organization.
 
 In the usage dashboard tab you can view:
-1. Pulses sent: average number of pulses sent during designated time period. This is determined by taking the total pulses sent in your oganization and dividing by the number of days in the designated time period.
+1. Pulses sent: average number of pulses sent during designated time period. This is determined by taking the total pulses sent in your organization and dividing by the number of days in the designated time period.
 2. Responses per Pulse: average number of responses received during designated time period. This is determined by taking total responses received in your organization and dividing by the number of days in the designated time period.
-3. Response rate per Pulse: average response rate during designated time period. This is determined by taking the average responses per pulse in your organization and dividing by the average amount of recipients per Pulse in your organization during the designated time period.
+3. Response rate per Pulse: average response rate during designated time period. This is determined by taking the average responses per pulse in your organization and dividing by the average number of recipients per Pulse in your organization during the designated time period.
 
 ### Access the Viva Pulse tenant admin dashboard
 To access the Viva Pulse tenant admin dashboard admin center, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Pulse admin.
