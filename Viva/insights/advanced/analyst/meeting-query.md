@@ -1,5 +1,5 @@
 ---
-ms.date: 02/28/2023
+ms.date: 10/04/2024
 title: Meeting query
 description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -85,7 +85,7 @@ You can pick from seven meeting-related metrics, which we've broken into two cat
 |---|----|---- |
 |**Meeting impact metrics**| Attendee meeting hours| Sum of hours each attendee spent in a meeting |
 ||Number of attendees| Number of people who attended a meeting |
-|**Meeting quality metrics**| Number of attendees multitasking|Number of attendees who sent or read emails or Teams chats during a meeting |
+|**Meeting quality metrics**| Number of attendees multitasking| Number of attendees who sent or read emails or Teams chats during a meeting. (Messages sent in the chat of the meeting/Teams call are excluded) |
 ||Number of redundant attendees| Number of attendees who are redundant in a meeting, meaning that their manager and their manager's manager also attended |
 ||Number of attendees who ended the meeting on time|Number of attendees who left a Teams meeting early or within one minute after the scheduled end time
 ||Number of attendees who didn’t end the meeting on time|Number of attendees who left a Teams meeting after one minute past the scheduled end time|
