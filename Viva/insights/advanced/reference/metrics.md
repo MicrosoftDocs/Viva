@@ -1,5 +1,5 @@
 ---
-ms.date: 10/2/2024
+ms.date: 10/4/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -50,7 +50,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="call-hours-define"></a>  Call hours | Number of hours a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
 | | <a name="unscheduled-call-hours-define"></a> Unscheduled call hours | Number of hours a person spent in unscheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
 | | <a name="scheduled-call-hours-define"></a>  Scheduled call hours | Number of hours a person spent in scheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
-| | <a name="multitasking-hours-define"></a> Multitasking hours | Number of hours a person spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or a Teams call. | Hour |
+| | <a name="multitasking-hours-define"></a> Multitasking hours | Number of hours a person spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or Teams call. (Messages sent in the chat of the meeting/Teams call are excluded.)  | Hour |
 | | <a name="emails-sent-define"></a> Emails sent | Number of emails a person sent. | Count |
 | | <a name="meetings-define"></a>  Meetings | Number of meetings a person attended. | Count |
 | | <a name="chats-sent-define"></a>  Chats sent | Number of Teams chats a person sent. | Count |
@@ -103,7 +103,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 || External network size|The number of people external to the company with whom a person had a reciprocal interaction in a four-week span. A reciprocal interaction occurs between A & B when both A has reached out to B and B has reached out to A.|Score
 || Influence rank| An employee’s potential influence on opinions of the network. It measures how well connected a person is to other well-connected individuals. The closer the rank is to 1, the higher the person’s rank or network influence score. If two people have the same influence score, they also have the same influence rank. (A person’s influence score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)
 ||Influence score|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)|Rank
-||Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks.|Count |
+||Internal network size| Number of people within the organization with whom a person has had at least one reciprocal interaction with during the calendar month. |Count |
 ||Network outside company|The number of distinct external domains outside the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Network outside organization|The number of distinct internal organizational units within the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Strong ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) and who are also connected to many of that person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) |Count 
