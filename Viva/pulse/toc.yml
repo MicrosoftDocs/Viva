@@ -35,6 +35,8 @@ items:
       href: setup-admin-access/track-pulse-events.md
     - name: Search Pulse content with eDiscovery
       href: setup-admin-access/ediscovery-pulse.md
+    - name: View usage metrics with the Tenant Admin Dashboard
+      href: setup-admin-access/tenant-admin-dashboard.md
       
 - name: Troubleshoot
   items:
