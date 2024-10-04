@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/25/2024
+ms.date: 10/04/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -65,7 +65,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails).   |
+|**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, **no alerts generate.** |
 |**Default Benchmark**   | Your preferred default comparison statistic. If left empty, it defaults to Benchmark.|
 |**Internal Benchmarks**   | Viva Glint’s three internal default benchmarks that cannot be removed. Up to ten more may be added. Choosing **Modify internal benchmarks** opens a new window with options.     |
 |**External Benchmarks**|Choose the external benchmarks that you want users to be able to select from on their dashboards and in their reporting. Choosing **Modify external benchmarks** opens a new window with options.|
