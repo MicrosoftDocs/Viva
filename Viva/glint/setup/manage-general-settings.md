@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/25/2024
+ms.date: 10/04/2024
 ---
 
 # Manage General Settings in Viva Glint 
