@@ -15,14 +15,14 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/11/2024
+ms.date: 10/07/2024
 ---
 
 # How Viva Glint helps protect your privacy
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback. This is how our customers get the most out of Glint.
 
-Glint uses several methods to inform you about what level of privacy users can expect when responding, starting with the survey type. Glint offers two types of surveys: confidential and identifiable.
+Glint uses several methods to inform about what level of privacy users can expect when responding, starting with the survey type. Glint offers two types of surveys: confidential and identifiable.
 
 ## Confidential surveys
 
