@@ -87,7 +87,7 @@ To access content filters, select the **+** icon to the right of the **Custom qu
 
 Then, use the dropdown menus to select your filter.
 
-:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below.":::
+:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below." lightbox="../images/query-results-select-content-filter.png":::
 
 While you can only use one content filter active at a time, you can have up to five filters available. Filters won’t carry over from one session to the next.
 
