@@ -27,8 +27,6 @@ The confidentiality statement displayed for 360 feedback participants depends on
 > [!IMPORTANT]
 > Thresholds can't be lowered or raised for programs or cycles after it's launched. 
 
-https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy
-
 |Feedback provider  |Confidentiality threshold   |Feedback provider response information setting |Confidentiality statement|
 |:----------|:-----------|:------------|:------------|
 |Self     |1       |On or Off        |Your feedback is visible to you and a limited number of people that are granted permission by your organization to view your 360 report. See your organization’s Privacy Policy for more information. Learn how Viva Glint handles survey responses in [Microsoft Viva Glint Reporting and Confidentiality Rules](viva-glint-survey-privacy.md). |
