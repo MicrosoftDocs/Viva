@@ -10,7 +10,13 @@ items:
       - name: Confidentiality versus anonymity
         href: setup/anonymous-confidential.md
       - name: Privacy protection
-        href: setup/viva-glint-survey-privacy.md
+        items:
+          - name: How Viva Glint protects your privacy
+            href: setup/viva-glint-survey-privacy.md
+          - name: Privacy protection within feedback reporting
+            href: setup/privacy-protection-reporting.md
+          - name: Privacy protection for 360 feedback programs
+            href: setup/privacy-360-feedback.md
       - name: Raw response data
         href: setup/employee-raw-data-export.md
   - name: Connect and learn
