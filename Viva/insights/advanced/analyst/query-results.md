@@ -1,5 +1,5 @@
 ---
-ms.date: 07/03/2024
+ms.date: 10/07/2024
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
@@ -159,6 +159,9 @@ Deleting a query removes it from the results list for everyone in the organizati
 ### About query results
 
 When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. To learn how to download these results, read on.
+
+>[!Note]
+>"NULL" values in your results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
 
 #### Downloading and connecting to results
 
