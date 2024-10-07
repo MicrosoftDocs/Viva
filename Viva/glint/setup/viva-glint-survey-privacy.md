@@ -1,5 +1,5 @@
 ---
-title: How Viva Glint helps protect your privacy
+title: How Viva Glint protects your privacy
 description: Data privacy and trust are key priorities, and Viva Glint is constantly evolving ways to protect confidentiality to encourage elevated levels of survey participation and honest and helpful feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 10/07/2024
 ---
 
-# How Viva Glint helps protect your privacy
+# How Viva Glint protects your privacy
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Individual privacy is a core Viva Glint value. When survey respondents feel confident that their privacy is protected, they're more likely to participate in surveys and provide honest and constructive feedback. This is how our customers get the most out of Glint.
 
