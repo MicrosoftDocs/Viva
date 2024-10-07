@@ -191,7 +191,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 These metrics provide insights around how employees are using Microsoft 365 Copilot with Microsoft 365 apps.
 
 >[!Note]
->"NULL" values in your query results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
+>"NULL" values in analyst query results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
 
 | Metric | Description | Date from when the data is available and the customers can view |
 |---|---|---|
