@@ -1,6 +1,6 @@
 ---
 title: How Viva Glint protects your privacy
-description: Viva Glint is constantly evolving ways to protect confidentiality to encourage elevated levels of survey participation and honest and helpful feedback.
+description: Viva Glint is constantly evolving ways to protect confidentiality to encourage high levels of survey participation and honest and helpful feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
