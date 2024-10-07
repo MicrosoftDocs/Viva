@@ -100,7 +100,7 @@ In some cases, even when the minimum response threshold is met, the ability to f
 
 ## More resources
 
-[Understand Glint confidentiality and suppression in reports](viva/glint/reports/confidentiality-suppression-reports)
+[Understand Glint reporting and confidentiality](/viva/glint/reports/confidentiality-suppression-reports)
 
 
 
