@@ -32,7 +32,7 @@ Microsoft Viva Glint provides an easy and consistent way for customers to provid
 
 A Glint dashboard user can provide feedback, if enabled, by selecting the **question mark** symbol and then **Give feedback.**
 
-:::image type="content" source="../../media/glint/setup/feedback-access.png" alt-text="Screenshot of the ? icon used to access providing feedback options.":::
+:::image type="content" source="../../media/glint/setup/feedback-access.png" alt-text="Screenshot of the question mark symbol used to access providing feedback options.":::
 
 ## Three options to provide feedback
 
@@ -42,7 +42,7 @@ Select an option to open the corresponding feedback window.
 
 ### Give a compliment
 
-- Supply the details you’d like to share. You have the option to:
+- Supply the details you’d like to share. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
@@ -51,7 +51,7 @@ Select an option to open the corresponding feedback window.
 
 ### Report a problem
 
-- Provide the details about what went wrong. You have the option to:
+- Provide the details about what went wrong. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
@@ -63,7 +63,7 @@ Select an option to open the corresponding feedback window.
 
 ### Make a suggestion
 
-- Tell us what we can do better. You have the option to:
+- Tell us what we can do better. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
