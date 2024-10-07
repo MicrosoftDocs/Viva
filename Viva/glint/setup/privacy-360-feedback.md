@@ -1,6 +1,6 @@
 ---
-title: Privacy protection within for 360 feedback programs
-description: 
+title: Privacy protection within 360 feedback programs
+description: The confidentiality statement displayed for 360 feedback participants depends on the type of feedback provider, the confidentiality threshold, and the Feedback Provider Response Information setting. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -8,7 +8,7 @@ audience: admin
 ms.collection: 
 - essentials-privacy
 f1.keywords: NOCSH
-keywords: Thresholds, suppression, response rate, suppressed data, identifiable surveys
+keywords: Thresholds, suppression, response rate, suppressed data, 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
@@ -18,11 +18,16 @@ ms.localizationpriority: high
 ms.date: 10/07/2024
 ---
 
-# Privacy protection for 360 feedback programs
+# Privacy protection 360 feedback programs
 
 ## 360 feedback programs
 
 The confidentiality statement displayed for 360 feedback participants depends on the type of feedback provider, the selected confidentiality threshold, and the Feedback Provider Response Information setting in a 360 feedback cycle. Review this information to see the statement that displays for each user in each situation.
+
+> [!IMPORTANT]
+> Thresholds can't be lowered or raised for programs or cycles after it's launched. 
+
+https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy
 
 |Feedback provider  |Confidentiality threshold   |Feedback provider response information setting |Confidentiality statement|
 |:----------|:-----------|:------------|:------------|
