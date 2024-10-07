@@ -171,8 +171,6 @@ When you define a query, you select metrics and employee attributes. After the q
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel. 
 
-    Here's an example of a results file:
-
 Here's an example of a results file:
 
 :::image type="content" source="../images/query-csv-output.png" alt-text="Screenshot that an example .csv results file.":::
