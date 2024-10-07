@@ -14,21 +14,25 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 10/07/2024
 ---
 
 # Submit product feedback to Viva Glint
 
-Microsoft Viva Glint provides an easy and consistent way for customers to provide in-app feedback. Submissions go to Viva Glint product and engineering teams so they can review suggestions to inform roadmap and strategic prioritization.
+Microsoft Viva Glint provides an easy and consistent way for customers to provide in-app feedback. Submissions go to Glint product and engineering teams so they can review suggestions to inform roadmap and strategic prioritization.
 
 >[!IMPORTANT]
 >To allow your leaders to give feedback, the feedback policy must be enabled for your organization by the Microsoft 365 global admin. This happens within Policy Management in the Microsoft 365 Apps Admin Center.  Without this feature enabled, leaders don't have access to provide feedback.
 >
->We suggest enabling the following:
->
-> - Allow users to submit feedback to Microsoft
+>We suggest enabling **Allow users to submit feedback to Microsoft**
 >   - Allow users to include screenshots and attachments when they submit feedback to Microsoft
 >   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft
+
+## Access feedback options
+
+A Glint dashboard user can provide feedback, if enabled, by selecting the **question mark** symbol and then **Give feedback.**
+
+:::image type="content" source="../../media/glint/setup/feedback-access.png" alt-text="Screenshot of the question mark symbol used to access providing feedback options.":::
 
 ## Three options to provide feedback
 
@@ -38,8 +42,7 @@ Select an option to open the corresponding feedback window.
 
 ### Give a compliment
 
-- Supply the details you’d like to share.
-- You have the option to:
+- Supply the details you’d like to share. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
@@ -48,8 +51,7 @@ Select an option to open the corresponding feedback window.
 
 ### Report a problem
 
-- Provide the details about what went wrong.
-- You have the option to:
+- Provide the details about what went wrong. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
@@ -61,8 +63,7 @@ Select an option to open the corresponding feedback window.
 
 ### Make a suggestion
 
-- Tell us what we can do better.
-- You have the option to:
+- Tell us what we can do better. You can:
   - Include a screenshot
   - Include a screen recording
   - Upload files
@@ -71,6 +72,6 @@ Select an option to open the corresponding feedback window.
 
 ## Follow up on feedback
 
-A screen displays confirmation that your feedback has been received. Also included is a link to track your feedback and see how it's making a difference and a link to our general Feedback forum. Allow a few days for your feedback to appear.
+A screen displays confirmation that your feedback is received. Also included is a link to track your feedback and see how it's making a difference and a link to our general Feedback forum. Allow a few days for your feedback to appear.
 
 :::image type="content" source="../../media/glint/setup/glint-feedback-thankyou-2.png" alt-text="Screenshot of feedback submission thank you message.":::
