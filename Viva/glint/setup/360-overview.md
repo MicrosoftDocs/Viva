@@ -39,7 +39,7 @@ Glint offers a 360 Feedback program template designed for managers.
 
 ## Introduce 360 programs to your organization
 
-[Use these email templates to introduce the 360 program journey to the people in your organization](/setup/360-email-templates).
+[Use these email templates to introduce the 360 program journey to the people in your organization](/viva/glint/setup/360-email-templates).
 
 ## 360 feedback vocabulary
 
