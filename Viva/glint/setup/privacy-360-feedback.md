@@ -15,10 +15,10 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/07/2024
+ms.date: 10/08/2024
 ---
 
-# Privacy protection 360 feedback programs
+# Privacy protection in 360 feedback programs
 
 ## 360 feedback programs
 
