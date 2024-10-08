@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/23/2024
+ms.date: 10/08/2024
 ---
 
 # Viva Glint 360 feedback program overview 
@@ -23,14 +23,11 @@ The Microsoft Viva Glint 360 feedback program and process gives insight into a m
 
 ## 360 feedback process
 
-The Microsoft Viva Glint 360 Feedback process gives employees insight into their strengths and opportunities from various viewpoints. Rather than relying solely on the perspective of an immediate supervisor or manager, 360s invite multiple perspectives. 
+The Viva Glint 360 Feedback process gives employees insight into their strengths and opportunities from various viewpoints. Rather than relying solely on the perspective of an immediate supervisor or manager, 360s invite multiple perspectives. 
 
 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
 
-Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware. The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
-
- 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nzWM]
+**Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware.** The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
 ## 360 feedback program 
 
@@ -38,11 +35,11 @@ The 360 program is a set of related measures with a specific, long-term focus. P
 
 A program contains at least one 360 cycle. A program could, however, include cycles focusing on a specific program theme. The number of 360 programs you can set is unlimited.
 
-Viva Glint offers a 360 Feedback program template designed for managers. 
+Glint offers a 360 Feedback program template designed for managers. 
 
 ## Introduce 360 programs to your organization
 
-[Use these email templates to introduce the 360 program journey to the people in your organization](https://go.microsoft.com/fwlink/?linkid=2272784).
+[Use these email templates to introduce the 360 program journey to the people in your organization](/setup/360-email-templates).
 
 ## 360 feedback vocabulary
 
@@ -62,8 +59,9 @@ Use these definitions to understand a 360 program:
 
 ## More resources 
 
-- [**360 feedback program subject guide - PDF version**](https://go.microsoft.com/fwlink/?linkid=2282087)
-- [**Viva Glint 360 feedback program Learning Path**](https://go.microsoft.com/fwlink/?linkid=2283679)
+- [**Privacy protection for 360 feedback programs**](/viva/glint/setup/privacy-360-feedback)
+- [**360 feedback program subject guide - PDF version**](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint_360-subject-guide.pdf)
+- [**Viva Glint 360 feedback program Learning Path**](/training/paths/viva-glint-360-feedback%20program/)
 
 
 
