@@ -30,4 +30,4 @@ Before analysts can get to work, they’ll need to be assigned the **Insights An
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYT]
 
-To learn more about the individual reports, refer to the links in the table to the left of this page.
+To learn more about the individual reports, refer to our articles here on Microsoft Learn.
