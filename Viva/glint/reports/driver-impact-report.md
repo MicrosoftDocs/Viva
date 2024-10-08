@@ -31,7 +31,7 @@ The algorithm used to identify S&Os is composed of item scores, impact on engage
 
 Strengths are areas that the team should celebrate, and opportunities are areas the team should work on to improve overall engagement (or the key outcome).
 
-[Watch videos for a quick and comprehensive summary of strengths and opportunities and learn more here](viva/glint/reports/act-strengths-opportunities)
+[Watch videos for a quick and comprehensive summary of strengths and opportunities and learn more](/viva/glint/reports/act-strengths-opportunities)
 
 To determine a driver's impact, individual survey responses are analyzed to determine how closely aligned scores are for each driver and the outcome variable (typically engagement). A driver's impact is classified as *high* when this is true:
 
