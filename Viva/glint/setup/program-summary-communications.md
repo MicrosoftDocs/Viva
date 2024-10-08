@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/14/2024
+ms.date: 10/08/2024
 ---
 
 # Communications setup in Program Summary
@@ -34,7 +34,10 @@ There are two sections to set up:
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-notification-timing.png" alt-text="Screenshot of the Notifications Timing section in Communications setup.":::
 
-Send survey invites and reminders between the times that you set. Your organization's default time zone is preset in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744).
+Send survey invites and reminders between the times that you set. Your organization's default time zone is preset in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744).  
+
+> [!IMPORTANT]
+> Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window.
 
 ## Configure Notifications
 
