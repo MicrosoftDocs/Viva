@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 10/08/2024
 ---
 
 # Send Viva Insights data into Viva Glint (public preview)
@@ -26,9 +26,9 @@ The following procedure requires these roles:
 >[!IMPORTANT]
 >This feature is currently available to public preview customers only. Features described here are subject to change.
 >
->Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of on the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.
-
-Glint can import behavioral data from Microsoft Viva Insights to supplement their Microsoft Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
+>Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of only the applied/deployed license counts.
+>
+Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
 -	Explore employee sentiment relative to behaviors
 -	Filter employee sentiment by ways of working
@@ -104,11 +104,16 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
-## Select Viva Insights metrics
+## Viva Insights metrics
 
 Add a Viva Insights metric as an employee attribute. Assign roles for the attribute. In this example, **after-hours collaboration hours** are chosen as the Insight metric. 
 
 :::image type="content" source="../../media/glint/setup/glintsights-add-metric.png" alt-text="Screenshot of how to add an Insight metric as an attribute.":::
+
+> [!IMPORTANT]
+> **Viva Insights only runs reports from Sunday to Sunday.  This means Glint receives Viva Insights data (also referred to as *collaboration data*) on the Sunday directly before a survey start date and the last Sunday before the survey's end date. For this reason, your data is *partial,* excluding data past the last Sunday of the survey window.
+>
+> **Example:** A survey starting On October 8, 2024, and ending on October 15, 2024, is actually pushed to Glint on October 6-October 13, 2024. Push dates are inclusive of start dates and exclusive of end dates.
 
 ### Make your metric selection from Insights
 
