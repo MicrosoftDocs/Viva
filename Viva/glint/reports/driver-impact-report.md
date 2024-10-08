@@ -23,7 +23,7 @@ Drivers are factors that affect employee engagement; a driver's *impact* is desc
 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
 
-[Watch this video about using the driver impact report](https://www.microsoft.com/en-us/videoplayer/embed?partnerName=learn&powerCmsVideoId=RW1dOXU)
+[Watch this video about using the driver impact report.](https://www.microsoft.com/en-us/videoplayer/embed?partnerName=learn&powerCmsVideoId=RW1dOXU)
 
 ## Strengths and Opportunities are derived from the Driver Impact report
 
