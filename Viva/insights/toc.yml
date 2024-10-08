@@ -50,8 +50,6 @@ items:
               href: advanced/setup-maint/upload-data.md 
             - name: About roles in Viva Insights
               href: advanced/setup-maint/user-roles.md
-            - name: Transferring from Workplace Analytics
-              href: advanced/setup-maint/transferring-from-wpa.md 
             - name: Activity report
               href: personal/overview/activity-report.md             
       - name: Support
