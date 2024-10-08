@@ -59,9 +59,9 @@ Use these definitions to understand a 360 program:
 
 ## More resources 
 
-- [**Privacy protection for 360 feedback programs**](/viva/glint/setup/privacy-360-feedback)
-- [**360 feedback program subject guide - PDF version**](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint_360-subject-guide.pdf)
-- [**Viva Glint 360 feedback program Learning Path**](/training/paths/viva-glint-360-feedback%20program/)
+- [Privacy protection for 360 feedback programs](/viva/glint/setup/privacy-360-feedback)
+- [360 feedback program subject guide - PDF version](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint_360-subject-guide.pdf)
+- [Viva Glint 360 feedback program Learning Path](/training/paths/viva-glint-360-feedback%20program/)
 
 
 
