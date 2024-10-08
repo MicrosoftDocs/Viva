@@ -19,7 +19,7 @@ ms.date: 10/08/2024
 
 # Viva Glint 360 feedback program overview 
 
-The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
+The Microsoft Viva Glint 360 feedback program and process give insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
 ## 360 feedback process
 
@@ -27,7 +27,7 @@ The Viva Glint 360 Feedback process gives employees insight into their strengths
 
 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
 
-**Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they're self-aware.** The goal of a 360 is to increase self-awareness about key strengths, blind spots, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
+**Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they are self-aware.** The goal of a 360 is to increase self-awareness about key strengths, uncertainties, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
 ## 360 feedback program 
 
@@ -47,7 +47,7 @@ Use these definitions to understand a 360 program:
 
 |Term|Definition|
 |----|---------|
-|**Subject**|The leader who completes a self-assessment and requests feedback from various people such as their manager, direct reports (if they're a people manager) and other collaborators.|
+|**Subject**|The leader who completes a self-assessment and requests feedback from various people such as their manager, direct reports (if they're a people manager), and other collaborators.|
 |**Feedback provider**|The person who completes a survey to provide feedback about the subject. Feedback provider categories typically include:  <ul><li> The subject - required </li><li> Direct reports </li><li> Manager </li><li> Collaborators</li><ul>|
 |**Coach**|The person who guides a subject in understanding the 360 report and determining next steps. The coach doesn’t have to be the subject's manager.|
 |**Manager**| The subject's manager|
