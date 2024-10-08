@@ -74,7 +74,7 @@ Team Conversations covers the following, in your preselected terminology:
 
 |Action|Process|
 |------|-------|
-|**Use the recap window**|Displays where you are in your conversation. Check marks indicate when: <br> - Results are reviewed <br> - A Focus Area is selected <br> - The team has Committed to Focus Area|
+|**Use the recap window**|Displays where you are in your conversation. Check marks indicate when: <br> <ul><li>Results are reviewed </li> <li>A Focus Area is selected </li> <li>The team has Committed to Focus Area</li></ul>|
 |**Share results**|1. Select team members from the search box.<br>2. Use the default message or customize the message in the **Add a message** box.<br>3. Select **Share Results.**|
 
 ## Team Conversations can be accessed after the conversation end date
