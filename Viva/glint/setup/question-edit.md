@@ -1,7 +1,7 @@
 ---
 title: Edit survey items in a Viva Glint survey
 description: In some instances, admins can make changes to items in a live survey. It's critical to follow established guidelines.
-ms.author: JudithWeine
+ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
