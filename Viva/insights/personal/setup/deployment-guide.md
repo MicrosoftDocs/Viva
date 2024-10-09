@@ -1,6 +1,6 @@
 ---
 
-ms.date: 06/23/2023
+ms.date: 10/09/2024
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: zachminers
