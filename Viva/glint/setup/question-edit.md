@@ -27,24 +27,24 @@ The Edit Question slider window provides these tabs for setup:
 - Question Configuration
 - Associated Programs
 
-## Survey item Configuration
+## Survey item configuration
 
-You can edit the following fields:
-- Select a **Language** from languages prepopulated in the dropdown menu
-- See the **Question Type** - rating, multiple choice, open-ended
-- Assign a **Reporting Label** for easy identification of your item
-- Consider if the **Question Text** is as it should be - The wording for this item appears verbatim. The **+ button** allows you to edit the question. 
+You can edit these fields:
+- **Language** - from languages prepopulated in the dropdown menu
+- **Question Type** - rating, multiple choice, open-ended
+- **Reporting Label** - for easy identification of your item
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. 
   
    >[!IMPORTANT]
    > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
 
-- Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
-- Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
-- View the **Rating Scale** for the item - 5 or 7 points
+- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
+- **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
+- **Rating Scale** - 5 or 7 points
 - Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
 - Decide whether to **Allow Comments** - Toggle to Yes or No
 - Decide whether this item can be an **Optional Question** - Toggle to Yes or No
-- Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help your managers act on feedback
+- **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback
 
 Select **Save Changes** when editing is complete.
 
@@ -61,7 +61,7 @@ Preview your changes before launching and follow these practices:
 - Always **Save** and **(re)Approve**. When making live edits, save changes and reapprove the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).
 - Be consistent across languages. Make text changes uniformly, across all languages included in the survey.
   
-## Edit considerations 
+## Item edit considerations 
 For item edits during draft, scheduled, or live status, always consider:
 
 | **Topic** | **Scenario** | **Considerations** |
@@ -78,8 +78,8 @@ There are three entry points to do this from:
 -	From the *Survey Programs, Live* section
 -	From the *Survey Programs, Upcoming* section
 
-**Allow Survey Resubmission** in the *Program Setup* section of *Program Summary* must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
+**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
+If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
 
 ## Inform survey takers of a live edit
 
@@ -115,7 +115,7 @@ Review your edits to make sure your employees receive appropriate notice.
 
 > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
 
-> -  If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
+> - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
 
 2. If everything is as expected, select **Confirm.**
 
