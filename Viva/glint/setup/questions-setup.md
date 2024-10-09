@@ -24,7 +24,7 @@ The Questions page allows you to add or modify the items included in a survey. R
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary." lightbox="../../media/glint/setup/program-summary-questions.png":::
 
 > [!IMPORTANT]
-> The term "survey item" refers to any question or statement posed to a survey taker.
+> The term **item** refers to any *question or statement* posed to a survey taker.
 
 ## Use Viva Glint's prepopulated survey templates
 
@@ -70,7 +70,7 @@ To add your organization's logo to the survey introduction:
 
 ## Edit survey items
 
-This important topic deserves its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
+This important topic has its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
 
 ## Survey item targeting
 
@@ -79,7 +79,7 @@ When finished, select **Save Changes**.
 
 ## Delete survey items
 
-Remove the question (item) from the program by selecting **Yes, delete it** in the box that displays. If you don't want to delete, select **No, I changed my mind.**
+Remove an item from the program by selecting **Yes, delete it** in the box that displays. If you don't want to delete, select **No, I changed my mind.**
 
 ## Edit the "Thank You!" message people see when submitting their survey
 
@@ -100,6 +100,17 @@ You don't have to use all of the items programmed for a survey during each surve
 ## Add new items and section breaks to a program
 
 To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow this guidance: [Adding items to a prepopulated survey](viva/glint/setup/add-new-questions).
+
+## Edit Display Logic
+
+>[!TIP]
+> Wait to add display logic until after you've arranged your sections and items in the order you want.
+
+In the Display Logic window, set the following fields:
+- The **Overall logic for conditions** and subsequent **Conditions** or **Subconditions**. Select **+ Add new condition** to add more.
+
+**[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
+
 
 ## Next Step
 > [!div class="nextstepaction"]
