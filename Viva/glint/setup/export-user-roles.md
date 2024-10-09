@@ -37,7 +37,7 @@ All exports generate a .csv download. Downloads may take a few minutes, dependin
    
 4. A new Export dialog opens.
    
-   :::image type="content" source="../../media/glint/setup/export-company-admin-dialog-box.png" alt-text="Screenshot of the Export Company Admin dialog box.":::
+   :::image type="content" source="../../media/glint/setup/export-manager-role.png" alt-text="Screenshot of the Export role dialog for the Manager role.":::
 
 5. The .csv report includes first and last names, email address, and employee status. Choose whether to include all user attributes and User Roles.
 6. Select  **Export**.
