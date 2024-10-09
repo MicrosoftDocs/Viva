@@ -26,7 +26,7 @@ For highly trained users, Microsoft Viva Glint offers Advanced Configuration opt
 - Import external, historical data from a previous employee survey vendor. [Learn more](import-historical-response-data.md).
 - Export a detailed snapshot of employee data at the time of a past survey launch. [Learn more](glint-data-apps.md)
 - Update fixed employee data that is tied to a closed survey. [Learn more](update-glint-reporting-data.md).
-- Perform special uploads to update custom access. [Learn more](/viva/glint/setup/advanced-config-uploads.md#perform-a-managers_upload).
+- Perform special uploads to update custom access. [Learn more](../../viva/glint/setup/advanced-config-uploads.md#perform-a-managers_upload).
 - Monitor Advanced Configuration tasks that are still running in the Running Jobs section.
 
 :::image type="content" source="../../media/glint/setup/glint-service-config.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
@@ -36,20 +36,20 @@ For highly trained users, Microsoft Viva Glint offers Advanced Configuration opt
 
 ## Grant user access to Advanced Configuration
 
-To access, a Global or Company admin must enable Advanced Configuration access on an admin user's profile in Viva Glint.
+To access, a Viva Glint Admin must enable Advanced Configuration access on an admin user's profile in Viva Glint.
 
 ### Grant access to an existing admin user
 
 > [!NOTE]
 > Viva Glint Admins can update their own access to Advanced Configuration.
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Employees,** choose **People.**
+1. From the admin dashboard, select the **Configuration** symbol, then in **Employees,** choose **People.**
 2. In the **Search People** field, enter the user's first and last name or email address.
 3. Select the user when they appear as a search result.
 4. On the user's detail page, in **Company Admin: Advanced Configuration Access,** select the **pencil symbol** to edit.
 5. In the dialog, **turn on Advanced Configuration access** and select **Save**.
 
-After this enablement, when a user selects the **Configure** symbol, then goes to **Service Configuration**, they'll see **Advanced Configuration.**
+After this enablement, when a user selects the **Configuration** symbol, then goes to **Service Configuration**, they'll see **Advanced Configuration.**
 
 > [!NOTE]
 > A user may need to refresh or sign into Viva Glint again to see Advanced Configuration once enabled.
@@ -98,7 +98,7 @@ View specifics about how data display in Viva Glint reporting and which features
 
 ### Menu option - Surveys
 
-For a simpler view of existing survey programs, from the admin dashboard, select the **Configure** symbol, then in **Surveys** select **Survey Programs**. Use the **Advanced Configuration Surveys** option to view advanced technical details related to your survey programs including:
+For a simpler view of existing survey programs, from the admin dashboard, select the **Configuration** symbol, then in **Surveys** select **Survey Programs**. Use the **Advanced Configuration Surveys** option to view advanced technical details related to your survey programs including:
 
 - Name
 - Type
@@ -137,7 +137,7 @@ Select a survey program to view more details and options. For more information o
 
 ### Menu option - Users
 
-To export Viva Glint users, go to the admin dashboard, select the **Configure** symbol, then in **Employees** choose **People** and then **Export** and follow on-screen guidance.
+To export Viva Glint users, go to the admin dashboard, select the **Configuration** symbol, then in **Employees** choose **People** and then **Export** and follow on-screen guidance.
 
 ### Menu option - External Import
 
@@ -162,8 +162,8 @@ Use the Uploads option to:
 
 #### Upload types:
 
-- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk. [Learn more](/viva/glint/setup/advanced-config-uploads.md#perform-a-managers_upload).
-- **Retroactive User Updates:** To perform an upload to user data in closed surveys. [Use Advanced Configuration Uploads](/viva/glint/setup/advanced-config-uploads.md#perform-retroactive-user-updates).
+- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk. [Learn more](../../viva/glint/setup/advanced-config-uploads.md#perform-a-managers_upload).
+- **Retroactive User Updates:** To perform an upload to user data in closed surveys. [Use Advanced Configuration Uploads](../../viva/glint/setup/advanced-config-uploads.md#perform-retroactive-user-updates).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](export-user-roles.md).
 
 ### Menu option - Running Jobs
