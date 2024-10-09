@@ -74,7 +74,8 @@ This important topic deserves its own guidance page! [Read about survey item edi
 
 ## Survey item targeting
 
-Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select one or more **User Role** to include or exclude. When finished, select **Save Changes*
+Add a target to a specific item to ensure that only the population targeted sees it in the survey. Using the search box, select one or more **User Role** to include or exclude. 
+When finished, select **Save Changes**.
 
 ## Delete survey items
 
