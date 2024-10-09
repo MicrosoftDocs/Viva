@@ -116,7 +116,7 @@ In the Display Logic window, set the following fields:
 
 ## Next Step
 > [!div class="nextstepaction"]
-> [Reporting setup in Program Summary](/viva/glint/setup/reporting-setup).
+> [Reporting setup in Program Summary](/../../viva/glint/setup/reporting-setup).
 
 
 
