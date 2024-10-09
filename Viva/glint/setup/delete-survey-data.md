@@ -38,7 +38,7 @@ Survey duplication copies all survey settings and translations from the selected
 Survey deletion is available for all nonactive surveys. This feature deletes every data entity directly related to the survey, including overall survey configuration, items/questions, reports, responses, etc. The action doesn't delete distribution lists or any roles related to the survey. 
 
 > [!NOTE]
-> Viva Glint admins must have [Advanced Configuration access enabled](../../viva/glint/setup/understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to delete survey data.
+> Viva Glint admins must have [Advanced Configuration access enabled](understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to delete survey data.
 
 > [!CAUTION]
 > Survey data deletion in Glint is an irreversible process. Perform this action only when confident that the data of the survey is not required anymore. 
