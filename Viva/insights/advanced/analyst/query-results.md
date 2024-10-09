@@ -1,5 +1,5 @@
 ---
-ms.date: 10/08/2024
+ms.date: 10/10/2024
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
@@ -34,6 +34,8 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
 ## To use the query results page
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda3]
 
 ### Results statuses
 
