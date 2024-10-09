@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/00/2024
+ms.date: 10/19/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -56,7 +56,7 @@ Use the following information to edit a live survey. The information is broken o
 
 ## Questions
 
-[Read extended guidance on live survey item edits here.](/viva/glint/question-edit)
+[Read extended guidance on live survey item edits here.](/viva/glint/setup/question-edit)
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
