@@ -71,6 +71,8 @@ To add your organization's logo to the survey introduction:
 ## Edit survey items
 
 This important topic has its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
+> [!NOTE]
+> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey, as needed.
 
 ## Survey item targeting
 
