@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/07/2024
+ms.date: 10/09/2024
 ---
 
 # Questions setup in Program Summary
