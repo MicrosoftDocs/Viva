@@ -81,6 +81,8 @@ There are three entry points to do this from:
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
 
+:::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
+
 ## Inform survey takers of a live edit
 
 >[!IMPORTANT]
@@ -93,6 +95,8 @@ If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happe
 -	Use this guidance to resend survey invites
 
 For participants who haven't started the survey, the survey is automatically updated with the new version of all questions and no notification is generated or required.
+
+:::image type="content" source="../../media/glint/setup/live-edit-email.png" alt-text="Screenshot of the email a survey taker receives to inform of a live survey edit."::: 
 
 ## Associated Programs
 
@@ -108,8 +112,6 @@ A list of program names previously used or in use that include this survey item 
 Review your edits to make sure your employees receive appropriate notice. 
  
 1. Review the **Confirm your changes** window that opens.
-
-:::image type="content" source="../../media/glint/setup/live-confirm-changes.png" lightbox="../../media/glint/setup/live-confirm-changes.png" alt-text="Screenshot of the confirmation box for editing live survey questions.":::
 
 >[!IMPORTANT]
 
