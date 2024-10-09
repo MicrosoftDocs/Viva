@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit questions, survey items, question targeting
+keywords: edit questions, survey items, question targeting, item targeting
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -71,6 +71,10 @@ To add your organization's logo to the survey introduction:
 ## Edit survey items
 
 This important topic deserves its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
+
+## Survey item targeting
+
+Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select one or more **User Role** to include or exclude. When finished, select **Save Changes*
 
 ## Delete survey items
 
