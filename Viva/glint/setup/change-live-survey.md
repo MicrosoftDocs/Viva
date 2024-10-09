@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/08/2024
+ms.date: 10/00/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -55,6 +55,8 @@ Use the following information to edit a live survey. The information is broken o
 | Response window | You want to decrease/increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
 
 ## Questions
+
+[Read extended guidance on live survey item edits here.](/viva/glint/question-edit)
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
