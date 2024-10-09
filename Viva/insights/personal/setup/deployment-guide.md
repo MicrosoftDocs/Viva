@@ -26,7 +26,7 @@ To quickly learn about Viva Insights, check out [Microsoft Viva Insights](https:
 
 ## Benefits of use
 
-Viva Insights can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. Viva Insights does this by showing users insights about their work habits. It derives these insights from Microsoft 365 data about emails, meetings, calls, and chats. .
+Viva Insights can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. Viva Insights does this by showing users insights about their work habits. It derives these insights from Microsoft 365 data about emails, meetings, calls, and chats. 
 
 By using Viva Insights, you and your team can accomplish great things.
 
