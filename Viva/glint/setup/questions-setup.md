@@ -101,7 +101,7 @@ You don't have to use all of the items programmed for a survey during each surve
 
 ## Add new items and section breaks to a program
 
-To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow this guidance: [Adding items to a prepopulated survey](viva/glint/setup/add-new-questions).
+To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow this guidance: [Adding items to a prepopulated survey](/../../viva/glint/setup/add-new-questions).
 
 ## Edit Display Logic
 
