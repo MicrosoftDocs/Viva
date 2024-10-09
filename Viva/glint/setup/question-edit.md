@@ -1,7 +1,7 @@
 ---
 title: Edit survey items in a Viva Glint survey
-description: On the Questions page admins, add or modify items prepopulated into survey templates.
-ms.author: JudithWeiner
+description: In some instances, admins can make changes to items in a live survey. It's critical to follow established guidelines.
+ms.author: JudithWeine
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/09/2024
+ms.date: 10/19/2024
 ---
 
 #  Edit survey items in a Viva Glint survey
