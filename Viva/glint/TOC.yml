@@ -154,7 +154,7 @@ items:
         items:  
             - name: Manage external users 
               href: setup/add-external-user.md
-            - name: Export User Roles 
+            - name: Export and import User Role members 
               href: setup/export-user-roles.md
             - name: Delete user data 
               href: setup/delete-user-data.md
