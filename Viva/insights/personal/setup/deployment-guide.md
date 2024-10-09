@@ -216,7 +216,6 @@ If users have questions about using Viva Insights, point them to the [personal i
   * [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f)
   * [Viva Insights Home page](https://support.microsoft.com/topic/viva-insights-home-tab-6e7d28b2-6b0e-4367-9b52-1999a86eb391)
   * [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d)
-  * [Briefing emails](../Briefing/be-overview.md) **(paused)**
   * [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3)
   * [Inline suggestions in Outlook](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
 
