@@ -29,7 +29,50 @@ Preview your survey before launching. Follow these practices:
    - The adjusted question's/item's meaning should remain the same before and after edits.
    - To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.
  - **Always Save and re-approve.** When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://go.microsoft.com/fwlink/?linkid=2230749).
- - **Be consistent across languages.** Make text changes uniformly, across all languages included in the survey.
+ - **Make text changes uniformly, across all languages included in the survey**.
+
+## Process to edit a survey item
+
+There are three entry points to choose from:
+-	From the **Question Library** on your admin dashboard (doesn't require survey to go into unapproved state)
+-	From **Survey Programs, Live** 
+-	From **Upcoming Surveys**
+
+**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
+If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
+
+:::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
+
+### Scenarios and considerations for live survey changes 
+
+Sometimes changing a live survey may be beneficial. 
+
+| **Topic** | **Scenario** | **Considerations** |
+| --- | --- | --- |
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
+| Question text | The phrasing of a question needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
+| Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+
+## Fields which can be edited 
+
+- **Language** - from languages prepopulated in the dropdown menu
+- **Question Type** - rating, multiple choice, open-ended
+- **Reporting Label** - for easy identification of your item
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. 
+  
+   >[!IMPORTANT]
+   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+
+- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
+- **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
+- **Rating Scale** - 5 or 7 points
+- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
+- Decide whether to **Allow Comments** - Toggle to Yes or No
+- Decide whether this item can be an **Optional Question** - Toggle to Yes or No
+- **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback
+
+Select **Save Changes** when editing is complete.
 
 Use the following information to edit a live survey. The information is broken out across ***Program Summary*** setup pages.
 
@@ -56,7 +99,7 @@ Use the following information to edit a live survey. The information is broken o
 
 ## Questions
 
-[Read extended guidance on live survey item edits here.](/viva/glint/setup/question-edit)
+[Read extended guidance on live survey item (question) edits here.](/viva/glint/setup/question-edit)
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
