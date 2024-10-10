@@ -32,7 +32,7 @@ Preview your changes before launching and follow these practices:
    - The adjusted question's/item's meaning should remain the same before and after edits.
    - To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.
 - Always **Save** and **(re)Approve**. When making live edits, save changes and reapprove the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).
-- Make text changes uniformly, across all languages included in the survey.
+- **Make text changes uniformly, across all languages included in the survey.**
 
 ## Scenarios and considerations for live item edits
 
