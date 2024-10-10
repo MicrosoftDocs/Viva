@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections,
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections,
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -21,7 +21,7 @@ ms.date: 10/19/2024
 
 Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easier consumption of comments, and supports highlighting, markup, search, and preview. There are additional instructions for exporting comments in this guidance.
 
-## Procedure to export any PDF report
+## Procedure to export a PDF report
 
 1. In the **Reports** tab, choose the survey and then the report to export. You can also navigate to **Saved Reports.**  For the example in this guidance, *Overall Results* is the report to be exported as a PDF.
 
@@ -85,3 +85,12 @@ To disable a section:
 
    >[!NOTE]
    > When this window is closed, the default settings reset for the next use.
+
+## Disable exporting the comments report 
+
+This feature gives administrative control to hide the export functionality for comments at the program level. With this feature enabled, users can't generate and export reports containing comments for any survey cycle of the survey program.
+
+The feature enhances confidentiality measures within your organization. It decreases the risk posed by potential malicious actors who may attempt to de-anonymize survey data and match a specific comment with a survey respondant.
+
+### Comments report export control
+
