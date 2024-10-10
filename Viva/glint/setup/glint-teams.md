@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/20/2024
+ms.date: 10/10/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -37,7 +37,7 @@ In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your 
 
 ### Install Microsoft Viva Glint in Teams as an individual
 
-To install the Glint app as a non-admin user for your own instance of Microsoft Teams:
+Users who have Microsoft Teams licenses can access Viva Glint in Teams. To install the Glint app as a non-admin user for your own instance of Microsoft Teams:
 
 1. Go to **+ Apps** and search for Viva Glint. 
 1. In the search results, select **Add** next to the Viva Glint app. 
