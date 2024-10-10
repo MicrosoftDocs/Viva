@@ -1,12 +1,12 @@
 ---
-title: Edit survey items in a Viva Glint survey
-description: In some instances, admins can make changes to items in a live survey. It's critical to follow established guidelines.
+title: Edit items in a live Viva Glint survey
+description: In some instances, admins can make changes to live surveys. It's critical to follow established guidelines.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit questions, survey items, question targeting, edit items
+keywords: survey items, edit items
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,40 +17,13 @@ ms.localizationpriority: high
 ms.date: 10/19/2024
 ---
 
-#  Edit survey items in a Viva Glint survey
+#  Edit items in a live Viva Glint survey
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
+> [!IMPORTANT]
+> Viva Glint uses the term "item" to refer to questions and statements in a Glint program. 
 
-Hover over the horizontal ellipses next to any survey item to select one of the following options: Edit Targeting, Edit Question, Edit Display Logic, or Delete survey items.
-
-The Edit Question slider window provides these tabs for setup:
-- Question Configuration
-- Associated Programs
-
-## Survey item configuration
-
-You can edit these fields:
-- **Language** - from languages prepopulated in the dropdown menu
-- **Question Type** - rating, multiple choice, open-ended
-- **Reporting Label** - for easy identification of your item
-- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. 
-  
-   >[!IMPORTANT]
-   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
-
-- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
-- **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
-- **Rating Scale** - 5 or 7 points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
-- Decide whether to **Allow Comments** - Toggle to Yes or No
-- Decide whether this item can be an **Optional Question** - Toggle to Yes or No
-- **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback
-
-Select **Save Changes** when editing is complete.
-
-## Edit items in a live survey
-
-In many instances, admins can make changes to a live survey, but only make them when necessary.
+In some instances, admins can make changes to questions and statements in a live survey. Make them only when necessary.
+<br></br>
 Preview your changes before launching and follow these practices:
 <br>
  - **Don't stop the survey.** Unless you need to completely replace a survey cycle, never stop a survey. Many edits can be made while the survey is enabled.
@@ -59,27 +32,32 @@ Preview your changes before launching and follow these practices:
    - The adjusted question's/item's meaning should remain the same before and after edits.
    - To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.
 - Always **Save** and **(re)Approve**. When making live edits, save changes and reapprove the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).
-- Be consistent across languages. Make text changes uniformly, across all languages included in the survey.
-  
-## Item edit considerations 
-For item edits during draft, scheduled, or live status, always consider:
+- Make text changes uniformly, across all languages included in the survey.
+
+## Scenarios and considerations for live item edits
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. | [Use this guide](https://go.microsoft.com/fwlink/?linkid=2230918). Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Question text | The phrasing of a question needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
 | Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
 | Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
 
-## Process to edit a live survey item
+## Item edit access
 
-There are three entry points to do this from:
--	From the Question Library on your admin dashboard (doesn't require survey to go into unapproved state)
--	From the *Survey Programs, Live* section
--	From the *Survey Programs, Upcoming* section
+There are two acceess points:
+-	From the **Question Library** on your admin dashboard (doesn't require survey to go into unapproved state)
+-	From **Survey Programs, Live** 
 
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
+
+Hover over the **horizontal ellipses** next to any survey item to select **Edit Question**.
+
+The Edit Question slider window includes these setup tabs:
+- Question Configuration
+- Associated Programs
+
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
 :::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
 
@@ -98,7 +76,7 @@ For participants who haven't started the survey, the survey is automatically upd
 
 :::image type="content" source="../../media/glint/setup/live-edit-email.png" alt-text="Screenshot of the email a survey taker receives to inform of a live survey edit."::: 
 
-## Associated Programs
+## Associated programs
 
 A list of program names previously used or in use that include this survey item can be viewed here. You may see an alert cautioning you that this question is being used in one or more live surveys. 
 
@@ -116,7 +94,6 @@ Review your edits to make sure your employees receive appropriate notice.
 >[!IMPORTANT]
 
 > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
-
 > - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
 
 2. If everything is as expected, select **Confirm.**
