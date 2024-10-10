@@ -1,6 +1,6 @@
 ---
 ms.date: 02/02/2024
-title: "Add and edit cards from the Viva Connections dashboard"
+title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
@@ -20,7 +20,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to add and edit cards on the Viva Connections dashboard to customize content available to users"
+description: "Learn how to edit the Viva Connections dashboard"
 ---
 
 # Create a Viva Connections dashboard and add cards
@@ -36,6 +36,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Use the Card designer to create your own interactive dashboard cards](#design-your-own-card-with-the-card-designer).
 - [Add the Approvals card](#add-the-approvals-card).
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card).
+- [Add an Assignments card](#add-the-assignments-card).
 - [Add the Events card](#add-the-events-card).
 - [Add the News card](#add-the-news-card).
 - [Add the OneDrive card](#add-the-onedrive-card).
@@ -116,19 +117,21 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 |[Card designer](#design-your-own-card-with-the-card-designer) | ![Illustration of the card designer icon.](../media/connections/create-dashboard/card-designer-card-icon.png) | Create your own cards or use quick views for a more interactive experience utilizing the [adaptive cards framework.](/adaptive-cards/templating/)|
 |[Approvals](#add-the-approvals-card) | ![Illustration of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) to approve vacation requests, documents, and expense reports. |
 |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Illustration of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](/microsoftteams/manage-planner-app) to manage your team's work, assign tasks, and track tasks. |
-|[Events card](#add-the-events-card)    | ![Illustration of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization. |
-|[News card](#add-the-news-card)    | ![Illustration of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-|[OneDrive card](#add-the-onedrive-card)    | ![Illustration of the OneDrive card icon.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png) |   View and access recent, shared, and favorite files from your OneDrive account. |
-|[People card](#add-the-people-card)    | ![Illustration of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
-|[Quick links card](#add-the-quick-links-card)    | ![Illustration of the Quick links card icon.](../media/connections/create-dashboard/quick-links-card-icon-nb.png) |   Provide list of relevant links or files to users selected by admins. |
+|[Assignments](#add-the-assignments-card) | ![Illustration of the Assignments card icon.](../media/connections/create-dashboard/assignments-card-icon-no-border.png) | Display a summary of upcoming and past due assignments for students. |
+|[Courses](#add-the-courses-card) | ![Illustration of the Courses card icon.](../media/connections/create-dashboard/courses-card-icon-no-border.png) | Display a summary of courses a student is enrolled in. |
+|[Events](#add-the-events-card)    | ![Illustration of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization. |
+|[News](#add-the-news-card)    | ![Illustration of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+|[OneDrive](#add-the-onedrive-card)    | ![Illustration of the OneDrive card icon.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png) |   View and access recent, shared, and favorite files from your OneDrive account. |
+|[People](#add-the-people-card)    | ![Illustration of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
+|[Quick links](#add-the-quick-links-card)    | ![Illustration of the Quick links card icon.](../media/connections/create-dashboard/quick-links-card-icon-nb.png) |   Provide list of relevant links or files to users selected by admins. |
 |[Shifts](#add-a-shifts-card)     |![Illustration of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams. |
-|[Stream playlist card](#add-a-stream-playlist-card)    | ![Illustration of the Stream play list card icon.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
-|[Teams app card](#add-a-teams-app-card) | ![Illustration of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author. |
+|[Stream playlist](#add-a-stream-playlist-card)    | ![Illustration of the Stream play list card icon.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
+|[Teams app](#add-a-teams-app-card) | ![Illustration of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author. |
 |[Partner cards](#add-a-partner-card-or-microsoft-app) | Varies |    Use cards that integrate [partner services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
 |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
 |[Viva Learning](#add-a-viva-learning-card)    | ![Illustration of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences. |
 |[Viva Pulse](#add-a-viva-pulse-card) | ![Illustration of the Viva Pulse card icon.](../media/connections/create-dashboard/pulse-card-icon-nb.png) | Provide a short status of a recently sent pulse with a link to the Viva Pulse app for users to learn more. |
-|[Web link](#add-a-web-link-card)    | ![Illustration of the web link card icon.](../media/connections/web-link-icon.png) | Incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections.  |
+|[Web link](#add-a-web-link-card)    | ![Illustration of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
 
 ## Design your own card with the card designer
 
@@ -179,7 +182,7 @@ The card designer has a set of card view templates that can be used to easily cr
 7. Under **Card icon** select one of the following options:
 
    - **Custom image**: Select **custom image** then **Change** to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
-   - **Library**: Select an icon from a preexisting list of available icons.
+   - **Library**: Select an icon from a pre-existing list of available icons.
    For example, select **Library** then **Change** to choose a new icon.
 
    > [!NOTE]
@@ -354,6 +357,59 @@ The Assigned tasks card allows users to create and view tasks from the card or o
 
 For more information on using the Planner app, see the articles on how to [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-planner-app#overview-of-planner) and [Getting started with Planner in Teams](https://support.microsoft.com/office/7a5e58f1-2cee-41b0-a41d-55d512c4a59c), or see the [blog post](https://techcommunity.microsoft.com/t5/planner-blog/create-planner-tasks-from-the-viva-connections-assigned-tasks/ba-p/4206587) announcing the Assigned tasks card.
 
+## Add the Assignments card
+
+The Assignments card displays a summary of upcoming and past due assignments. Students can select the card to view more details on their assignment list and open them in Microsoft Teams.
+
+> [!NOTE]
+>
+> The Assignments card is only available to Education tenants.
+
+![Screenshot of an Assignments card.](/viva/media/connections/create-dashboard/assignments-card-demo.png)
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Assignments** from the dashboard toolbox.
+
+   ![Screenshot showing the Assignments card in the dashboard toolbox.](/viva/media/connections/create-dashboard/assignments-card-icon-border.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. Enter a **Title** for the assignments card.
+
+5. To change the card image, select **Change**, then select an image or upload your own.
+
+6. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+   ![Screenshot showing the assignments property pane.](/viva/media/connections/create-dashboard/assignments-card-properties.png)
+
+## Add the Courses card
+
+The Courses card displays a summary of courses a student is enrolled in. Students can select the card to view their course list and open them in Microsoft Teams.
+
+> [!NOTE]
+>
+> The Courses card is only available to Education tenants.
+
+![Screenshot of the Courses card.](/viva/media/connections/create-dashboard/courses-card-demo.png)
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Courses** from the dashboard toolbox.
+
+   ![Screenshot showing the Courses card in the dashboard toolbox.](/viva/media/connections/create-dashboard/courses-card-icon-border.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. Enter a **Title** for the assignments card.
+
+5. To change the card image, select **Change**, then select an image or upload your own.
+
+6. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+   ![Screenshot showing the courses property pane.](/viva/media/connections/create-dashboard/courses-card-properties.png)
+
+
 ## Add the Events card
 
 The events card can help your users stay informed and engaged with upcoming events in their organization, such as webinars, trainings, town halls, and celebrations. Users can view more upcoming events or join via teams via the links on the Events card. The card can be customized and even targeted to specific audiences so only relevant events are displayed.
@@ -450,7 +506,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
 
 2. Select **OneDrive** from the dashboard toolbox.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive dashboard card icon.":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive card icon.":::
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the OneDrive card.
 
@@ -465,7 +521,7 @@ The OneDrive card (previously known as Files) connects individuals to their own 
     - **Shared**: Files that shared with the user display.
     - **Favorites**: Files that the user marked as "favorite" display.
 
-7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 Groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+7. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), enter one or more Microsoft 365 groups into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel.":::
 
@@ -542,6 +598,10 @@ The Shifts card shows users information about their next or current shift from t
 ## Add a Stream playlist card
 
 The Stream playlist card displays a list of videos to users that can be viewed in Microsoft Stream by selecting an existing playlist from a SharePoint site. For more information, see the article on [creating a playlist from SharePoint](/stream/streamnew/stream-playlists-new-creation#create-a-playlist-from-sharepoint).
+
+> [!NOTE]
+>
+> The Stream playlist card is currently rolling out and will be fully available by early September 2024.
 
 :::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action.":::
 
@@ -631,11 +691,11 @@ Partner cards and an entry point to browse more cards in the app store will auto
 4. You'll receive an email to confirm if your request has been approved or denied by the App Catalog Admin.
 5. Once your request has been approved, refresh the page to see the new card display in the toolbox.
 
-#### Option 2: Acquire the app from the Microsoft commercial marketplace or the SharePoint store
+#### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 
 - If you're building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you need approval from an admin of the tenant-level app catalog to continue with the installation
 - If you're an **admin** of a tenant-level app catalog, you can deploy business apps directly.
-You can acquire apps from non-Microsoft developers by browsing the [Microsoft commercial marketplace](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
+You can acquire apps from non-Microsoft developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
 [Get step-by-step guidance](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) on how to request and deploy an app, and add an app to your site. For tenant admin, [learn how to manage apps](/sharepoint/use-app-catalog#work-with-sharepoint-store-apps) in the App Catalog.
 
@@ -718,7 +778,7 @@ To add the Viva Pulse card to your dashboard:
 
 2. Select **Viva Pulse** from the dashboard toolbox.
 
-      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse dashboard card icon.":::
+      :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse card icon.":::
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
@@ -730,11 +790,9 @@ For more information on using Viva Pulse as a feedback author or feedback recipi
 
 ## Add a Web link card
 
-The Web link card is a simple yet powerful option to incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections to offer a seamless user experience. Link to SharePoint sites and pages, [PowerApps](/power-apps/powerapps-overview), surveys and polls created with [Microsoft Forms](https://support.microsoft.com/office/4ffb64cc-7d5d-402f-b82e-b1d49418fd9d), [Viva Engage communities](/viva/engage/overview), or use a URL to provide a link to an internal or external resource. For more information on how URLs and single sign-on works, see the section [here](#how-urls-and-single-sign-on-works).
+Add a web link card when you want your users to go to an internal or external link on a web site.
 
 ![Screenshot of a web link card.](../media/connections/link-card-example.png)
-
-To add the Web link card:
 
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 
@@ -802,11 +860,10 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
    ![Screenshot showing the audience targeting icon.](../media/connections/preview-dashboard.png)
 
-3. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you'll see a disabled **Audience targeting** label).
+2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you'll see a disabled **Audience targeting** label).
 
    :::image type="content" alt-text="This screenshot shows the audience targeting group label." source="../media/connections/preview-audiences.png":::
-
-4. Search for and select a group. Once added, the group is selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it.
+3. Search for and select a group. Once added, the group is selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it.
 
    ![Screenshot showing the audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 
@@ -838,27 +895,20 @@ When added, it will automatically be populated with the cards from the existing 
 
 ## How URLs and single sign-on works
 
-For some cards, you'll use links to URLs. Depending on the location of the content, links to URLs might display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ.
+For some cards, you'll use links to URLs. Depending on the location of the content, links to URLs might display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ. Get more information about how links to URLs and SSO behave depending on the location of the content you're linking to.
 
 > [!NOTE]
->
 > When SSO is not supported, users will be asked to enter their login credentials.
-
-The best experiences will be achieved if the service doesn't require authentication and is anonymously accessible. For content that is stored in Microsoft 365, authentication is automatically handled. For partner services requiring authentication, the recommendation is to [use a dashboard card built by a partner](#add-a-partner-card-or-microsoft-app) to handle authentication.
-
-The following table provides more information about how links to URLs and SSO behave depending on the location of the content you're linking to.
 
 | Opens URL to… | On Teams mobile | On Teams desktop |
 | :------------------- | :------------------- |:---------------|
-| External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. |
-| PowerApps  | PowerApps opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Power Portals  | Power portals open within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| SharePoint Link | Page opens within Teams and the user doesn't need to authenticate again. | Page opens within Teams and users doesn't need to authenticate again. |
-| Stream   | Stream opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Sway | Sway opens within Teams and the user doesn't need to authenticate again. | Sway opens within Teams and the user is asked to sign in the first time. The user doesn't need to authenticate again if they stay signed in. |
 | Teams App | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again. |
-| Viva Engage | Viva Engage opens within Teams. User is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. |
+| Viva Engage | Viva Engage opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| PowerApps  | PowerApps opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Power Portals  | Power portals open within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
+| External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
 
 ## More resources
 
