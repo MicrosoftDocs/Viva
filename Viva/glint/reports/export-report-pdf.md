@@ -43,7 +43,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
    :::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
 
-5.	A preview PDF opens in a new tab. You see this while it’s generating:
+5.	A preview PDF opens in a new tab. You see this update while it’s generating:
 
     :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
@@ -62,7 +62,7 @@ To disable a section:
 1.	Select the **ellipses** in that section.
 2.	Select **Remove.**
 
-    In this example, we are removing the Overview section of the Comments report:
+    In this example, we're removing the Overview section of the Comments report:
 
     :::image type="content" source="../../media/glint/reports/export-file-save-pdf.png" alt-text="Screenshot of the option to Save to PDF in your printing window." lightbox="../../media/glint/reports/export-file-save-pdf.png":::
 
@@ -92,11 +92,11 @@ To disable a section:
 
 This feature gives administrative control to hide the export functionality for comments at the program level. With this feature enabled, users can't generate or export the comments section of a feedback report for any cycle of this program.
 
-The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondant.
+The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondent.
 
 ### Enabling Comments report export
 
-For comments report generation and export, this process has been set up:
+For comments report generation and export enablement, this process is set up:
 
 From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Select Survey Program** > **Program Setup** > **Reporting** > **Role**
 - The toggle reads **ON,** which is the default setting.
@@ -106,7 +106,7 @@ From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Sel
 
 If the default ON toggle is changed to **OFF**, the option to Export and Share is hidden. The button doesn't appear.
 
-:::image type="content" source="../../media/glint/reports/disable-comment-export.png" alt-text="Screenshot of the button option which is not available when exporting comments is disabled.":::
+:::image type="content" source="../../media/glint/reports/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
 
 
 
