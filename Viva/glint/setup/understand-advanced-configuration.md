@@ -2,7 +2,7 @@
 title: Understand Viva Glint Advanced Configuration
 description: For highly trained users, Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 ms.author: AliciaWeixelman
-author: AliciaWeixelman
+author: Aweixelman
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
