@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections,
+keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, disable comments, disable comments export, comments export, verbatim comments export, overall results, manager report, response rate, team summary, report access level, add report sections, delete report sections, prescriptive comments, representative comments
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -19,7 +19,9 @@ ms.date: 10/19/2024
 
 # Export reports as a PDF
 
-Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easier consumption of comments, and supports highlighting, markup, search, and preview. There are additional instructions for exporting comments in this guidance.
+Microsoft Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easy consumption of comments, and supports highlighting, markup, search, and preview functionality. This export technology includes PDF exports for 360 feedback program reports and Focus Area reports.
+
+In 360 feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
 
 ## Procedure to export a PDF report
 
@@ -52,9 +54,9 @@ Viva Glint users need to export their survey results to share with offline users
 
     :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
-## Remove a section before export
+## Remove a report section before export
 
-Default toggles are ON for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
+Default toggles are **ON** for each of these sections of the Overview report (the example report used): Overview, Questions, Keywords, Topics, Comments.
 To disable a section:
 
 1.	Select the **ellipses** in that section.
@@ -67,11 +69,11 @@ To disable a section:
 ## Export the Comments report
 
 1.	Select the **More** button.
-2.	If the Comments report (or any specific report) is not part of your current reporting view, from the dropdown menu, choose **+ Add section.**
+2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section.**
 
     :::image type="content" source="../../media/glint/reports/export-remove-section.png" alt-text="Screenshot of the Remove section button in Reports.":::
 
-3.	Choose All Comments (or the reporting section to add). An onscreen banner notifies you that the section is added.
+3.	Choose **All Comments** or whichever reporting section you choose to add. An onscreen banner notifies you that the section is added.
 4.	Choose whether you want to include all verbatim comments in your PDF download. Choose either:
     - **Prescriptive comments** 
       - Content: These comments provide specific advice or instructions on how to improve or address a particular issue.
