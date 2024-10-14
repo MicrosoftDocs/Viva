@@ -106,7 +106,7 @@ From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Sel
 
 If the default ON toggle is changed to **OFF**, the option to Export and Share is hidden. The button doesn't appear.
 
-:::image type="content" source="../../media/glint/reports/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
+:::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
 
 
 
