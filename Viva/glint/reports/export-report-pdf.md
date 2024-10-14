@@ -86,27 +86,23 @@ To disable a section:
    >[!NOTE]
    > When this window is closed, the default settings reset for the next use.
 
-## Disable exporting the comments report 
+## Disable the ability to export the comments report 
 
-This feature gives administrative control to hide the export functionality for comments at the program level. With this feature enabled, users can't generate and export reports containing comments for any survey cycle of the survey program.
+This feature gives administrative control to hide the export functionality for comments at the program level. With this feature enabled, users can't generate or export the comments section of a feedback report for any cycle of this program.
 
-The feature enhances confidentiality measures within your organization. It decreases the risk posed by potential malicious actors who may attempt to de-anonymize survey data and match a specific comment with a survey respondant.
+The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondant.
 
 ### Comments report export control
 
-Description	A toggle to hide/show the comments export functionality within the survey programs flow
-User Problem	As an Admin, I’m unable to hide the comments export 
-Priority 	P0
-Assumptions 	
-Release timelines and milestones<optional>	R67
+**For Comments report export to be enabled**, this process has been set up from the admin dashboard:
 
-	Requirements	Priority
-[Config > Survey Programs > Select Survey Program > Program Setup > Reporting > Role]
-If Comments is enabled in “Report Template Access”, as a Glint Admin, I should be able to see a toggle labeled, “Comments export”.	P0
-Toggle should be default ON	P0
-Upon toggling to OFF, SYSTEM should trigger “Export and Share CTA” requirement block below.	
-Toggle should have a (?) icon. Hover state: “Toggling to Off will hide the Export and Share button in the Comments report page.”	
+**Configuration** symbol > **Survey Programs** > **Select Survey Program** > **Program Setup** > **Reporting** > **Role**
+- The toggle reads **ON,** which is the default setting.
+- A user can generate and export the Comments report.
 
-Export and Share CTA	
-Description	Hide Comments Export CTA in Comments report page
-User Problem	As a Glint Admin, I want to hide the “Export and Share” CTA in the comments report page
+**If Comments report export has been disabled:** 
+- The option to Export and Share is hidden. The button doesn't appear.
+- :::image type="content" source="../../media/glint/reports/disable-comment-export.png" alt-text="Screenshot of the button option which is not available when exporting comments is disabled.":::
+
+
+
