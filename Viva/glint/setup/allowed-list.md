@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/13/2024
+ms.date: 10/14/2024
 ---
 
 # Allowlist information for Viva Glint
@@ -35,7 +35,7 @@ Viva Glint emails come from one of the domains listed here for the US and EU. Ad
 
 ## Logos and images
 
-Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. To display the default Viva Glint logo, ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added to your allowlist and that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
+Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. Ensure that automatic image downloads from external senders are allowed. If your organization uses [custom company branding](/entra/fundamentals/how-to-customize-branding), images download automatically.
 
 ## Spam gateways
 
@@ -57,7 +57,6 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 | sftp.us1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
-| fd-glint-glintus1.azurefd.net | 443 | Viva Glint CDN |
 | app.us1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
 | api.us1.glint.cloud.microsoft | 443 | Viva Glint unified login |
 | feedback.us1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
@@ -70,7 +69,6 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 | sftp.eu1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
-| fd-glint-glinteu1.azurefd.net | 443 | Viva Glint CDN |
 | app.eu1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
 | api.eu1.glint.cloud.microsoft | 443 | Viva Glint unified login |
 | feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
