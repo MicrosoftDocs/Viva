@@ -40,15 +40,19 @@ The [**User Roles and Access template**](https://www.microsoft.com/download/deta
 
 ## Preconfigured User Roles
 
-The following roles are preconfigured in Glint and can't be edited. Create a new User Role with a new name if you want to edit attributes and permissions.
+The roles in this table are preconfigured in Glint. 
 
 |**Role title**|**Data reporting permission level**|
 |---------|----------|
-|**Company Admin**| Employees who are granted **ALL** permission; can't be edited. Includes Advanced Configuration access.|
+|**Company Admin**| Employees who are granted **ALL** permission. Includes Advanced Configuration access.|
 |**Active Employees**| Not intended to have data access.|
 |**Inactive Employees**| Not intended to have data access.|
-|**Managers**| Doesn't allow edits, create a different manager role to change permissions and attributes|
+|**Managers**|Team Access: Manager Roll-up Hierarchy, View My Surveys<br>Reporting: View Dashboard and Reports, View Comments, Ad-Hoc Filtering</ul>|
 |**Support Users**| [External users](/viva/glint/setup/add-external-user) who have advanced access. |
+
+[Edit roles using this guidance](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles). 
+
+[Create a new User Role with a new name if you want to edit attributes and permissions](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles).
 
 ## Modify predefined roles
 
