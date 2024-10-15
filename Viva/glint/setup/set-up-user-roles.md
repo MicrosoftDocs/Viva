@@ -47,7 +47,7 @@ The roles in this table are preconfigured in Glint:
 |**Company Admin**| Employees who are granted **ALL** permission. Includes Advanced Configuration access.|
 |**Active Employees**|  Membership in this role is automatic based on the employee's status in Glint. This role isn't intended to grant data access.|
 |**Inactive Employees**| Membership in this role is automatic based on the employee's status in Glint. This role isn't intended to grant data access.|
-|**Managers**|Includes permission to see reporting for the employees team, but attribute filters aren't defined.|
+|**Managers**|Includes permission to see reporting for the employees team. Attribute filters aren't defined.|
 |**Support Users**| [External users](/viva/glint/setup/add-external-user) who have advanced access. |
 
 [Edit roles using this guidance](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles). 
