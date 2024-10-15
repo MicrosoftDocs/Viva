@@ -1,6 +1,6 @@
 ---
 title: Custom data access in Viva Glint
-description: Microsoft Viva Glint offers custom data access for users who supprt unique groups of employess in your organzation.
+description: Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,7 +19,7 @@ ms.date: 10/15/2024
 
 # Custom data access in Viva Glint
 
-Microsoft Viva Glint offers custom data access for users who supprt unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access.
+Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access.
 
 ## Export custom access
 
@@ -48,7 +48,7 @@ The custom data access export includes the following information. Modify or add 
 - **access type**:
   - The survey uuid of the program that users have customized access for, or
   - "GOAL" when exporting Focus Area access for users.
-- **Attribute columns**: Other columns in the export are based on your organization's attributes and values that are used to grant custom access. Add new columns and values to grant new access.
+- **Attribute columns**: Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values .
 
 ### Example
 
@@ -56,7 +56,7 @@ An HR business partner, user@contoso.com, oversees European Sales and Marketing 
 
 :::image type="content" source="../../media/glint/setup/custom-access-export-survey.png" alt-text="Screenshot of a custom access export for a user with customized survey results access.":::
 
-To apply the same custom access for creating Focus Areas, update the access type column for this HRBP to "GOAL."
+To apply the same custom access for creating Focus Areas, update the access type column for this user to "GOAL."
 
 :::image type="content" source="../../media/glint/setup/custom-access-export-focus-area.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
 
@@ -76,7 +76,7 @@ After exporting and preparing a file, go to Advanced Configuration to upload use
    2. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
 6. **Use exact case from the file for First/Last name**: Ignore, this doesn’t apply to access uploads.
 
-   :::image type="content" source="../../media/glint/setup/adv-config-uploads.png" alt-text="Screenshot of the Advanced Configuration Uploads feature..":::
+   :::image type="content" source="../../media/glint/setup/adv-config-uploads.png" alt-text="Screenshot of the Advanced Configuration Uploads feature.":::
 
 7. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 8. in the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your file.
