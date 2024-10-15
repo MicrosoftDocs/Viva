@@ -168,7 +168,7 @@ Manage reusing employee IDs and reassign them to new or rehired employees. This 
 | On (default) | Exclude data associated with employee IDs of previously removed employees from uploads. |
 | Off | Update the already deleted records with the status provided in the HRIS file. |
 
-When this setting is switched to On, records for deleted users can cause a [RECORD_STAGING_FAILURE](/viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings.md#record-staging-failure). warning in file upload notifications. 
+When this setting is switched to On, records for deleted users can cause a [RECORD_STAGING_FAILURE](https://learn.microsoft.com//viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings.md#record-staging-failure). warning in file upload notifications. 
 
 > [!IMPORTANT]
 > - When Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they’re not deleted from Viva Glint immediately. A user’s employee record is in a soft-deleted state for 30 days. During this period, the employee record can be modified from its soft-deleted state and updated to the status provided in the HRIS file.
