@@ -61,11 +61,17 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 **As an example, let's grant the Managers role a new permission in Survey Programs:**
 
 1. Select **Permissions.**
+   
 :::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles.":::
-2. You see what permissions they have and let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
-:::image type="content" source="../../media/glint/setup/user-roles-add-permissions.png"alt-text="Screenshot of adding Permissions in User Roles.":::
+
+2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
+
+:::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox=../../media/glint/setup/user-roles-add-permissions-2.png":::
+
 3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
-:::image type="content" source="../../media/glint/setup/user-roles-save-permissions.png"alt-text="Screenshot of the Save Permissions dialog box.":::
+   
+:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox=../../media/glint/setup/user-roles-add-permissions-2.png":::
+
 4. A banner tells you that the new permissions are saved.
 
 ### Update the name of the modified role 
@@ -73,7 +79,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 1. Navigate to the initial User Roles page and select the **pencil** symbol next to the role name.
 2. Update the role name to specify exactly what manager this role reflects. In our example, it's a manager who can manage sensitive comments.
 
-:::image type="content" source="../../media/glint/setup/user-roles-update-role-title.png"alt-text="Screenshot of updating a role title in User Roles.":::
+:::image type="content" source="../../media/glint/setup/user-roles-update-role-title-2.png"alt-text="Screenshot of updating a role title in User Roles.":::
 
 ## Enable User Roles
 
