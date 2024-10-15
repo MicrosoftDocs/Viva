@@ -66,11 +66,11 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
 
-:::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox=../../media/glint/setup/user-roles-add-permissions-2.png":::
+:::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
 
 3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
    
-:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox=../../media/glint/setup/user-roles-add-permissions-2.png":::
+:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
 
 4. A banner tells you that the new permissions are saved.
 
