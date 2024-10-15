@@ -48,7 +48,7 @@ The following roles are preconfigured in Glint and can't be edited. Create a new
 |**Active Employees**| Not intended to have data access.|
 |**Inactive Employees**| Not intended to have data access.|
 |**Managers**| Doesn't allow edits, create a different manager role to change permissions and attributes|
-|**Support Users**: [External users](/viva/glint/setup/add-external-user) who have advanced access. 
+|**Support Users**| [External users](/viva/glint/setup/add-external-user) who have advanced access. 
 
 ## Modify predefined roles
 
@@ -58,14 +58,14 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 :::image type="content" source="../../media/glint/setup/user-roles-preconfig.png"alt-text="Screenshot of preconfigured User Roles.":::
 
-> As an example, let's grant the two (dummy) Managers a new permission in Survey Programs:
-> Select **Permissions.**
-> :::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles.":::
-> You see what permissions they have and let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
-> :::image type="content" source="../../media/glint/setup/user-roles-add-permissions.png"alt-text="Screenshot of adding Permissions in User Roles.":::
-> Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
-> :::image type="content" source="../../media/glint/setup/user-roles-save-permissions.png"alt-text="Screenshot of the Save Permissions dialog box.":::
-> A banner tells you that the new permissions are saved.
+As an example, let's grant the Managers role a new permission in Survey Programs:
+1. Select **Permissions.**
+:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles.":::
+2. You see what permissions they have and let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
+:::image type="content" source="../../media/glint/setup/user-roles-add-permissions.png"alt-text="Screenshot of adding Permissions in User Roles.":::
+3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
+:::image type="content" source="../../media/glint/setup/user-roles-save-permissions.png"alt-text="Screenshot of the Save Permissions dialog box.":::
+4. A banner tells you that the new permissions are saved.
 
 ### Update the name of the modified role 
 
