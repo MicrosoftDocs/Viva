@@ -28,7 +28,7 @@ Admins assign multiple roles with specific permissions - access to different seg
 Use the template as a planning tool to define permissions for roles, according to these three filter distinctions:
 
 - **Report filters**: Attributes the role can use to filter results
-- **Report sections**: Attributes the role can use to see additional sections in reports
+- **Report sections**: Attributes the role can use to see more sections in reports
 - **Comment filters**: Attributes the role can use as filters to review comments
 
 The [**User Roles and Access template**](https://www.microsoft.com/download/details.aspx?id=105793) includes prepopulated example roles and instructions for defining permissions. 
@@ -183,7 +183,7 @@ When you need to assign many individuals to a specific User Role, use the bulk i
 1. From your admin dashboard, choose the **Configure** symbol and then select **User Roles**.
 2. On the **Role Settings** page, select **Export.** In the window that opens, make your selections and select **Export**.
 3. Open the downloaded CSV file and delete all columns except the column with email addresses.
-4. Add or delete email addresses, as needed. This can be a full replacement for the existing file, so you won't need to have an *Add* or *Remove* column.
+4. Add or delete email addresses, as needed. This edit can be a full replacement for the existing file so you don't need an *Add* or *Remove* column.
 5. Save your file.
 1. Return to the **Role Settings** page and select **Import**.
 1. Select the checkbox to indicate if you only added users.
@@ -217,6 +217,6 @@ To change a User Role from ACTIVE to INACTIVE or vice versa, include the users i
 
 ## Grant custom access
  
-Custom access is intended for users who need to have their default access overridden or are in a role that is so specific, it needs to be *per user* rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is for users who need to have their default access overridden. This happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
 
