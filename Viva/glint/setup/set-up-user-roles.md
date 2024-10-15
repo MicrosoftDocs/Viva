@@ -25,7 +25,7 @@ Admins assign multiple roles with specific permissions - access to different seg
 
 ## Glint User Role template
 
-Use the template as a planning tool to define permissions for roles, according to these three filter distinctions:
+Use our template as a planning tool to define permissions for roles. There are three filter distinctions:
 
 - **Report filters**: Attributes the role can use to filter results
 - **Report sections**: Attributes the role can use to see more sections in reports
@@ -33,14 +33,15 @@ Use the template as a planning tool to define permissions for roles, according t
 
 The [**User Roles and Access template**](https://www.microsoft.com/download/details.aspx?id=105793) includes prepopulated example roles and instructions for defining permissions. 
 
-**Not all User Roles and prepopulated attributes and permissions in the template may apply to your organization. Use your Employee Attribute File for attributes specific to your organization to customize your template.**
+**Not all User Roles and prepopulated attributes and permissions in the Glint template may apply to your organization. To customize your template,use your Employee Attribute File labels (column headers) for attributes specific to your organization.**
 
 > [!TIP]
 > To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute increases the chance that a manager can deduce the origin of individual survey responses.
 
+
 ## Preconfigured User Roles
 
-The roles in this table are preconfigured in Glint. 
+The roles in this table are preconfigured in Glint: 
 
 |**Role title**|**Data reporting permission level**|
 |---------|----------|
@@ -52,7 +53,7 @@ The roles in this table are preconfigured in Glint.
 
 [Edit roles using this guidance](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles). 
 
-[Create a new User Role with a new name if you want to edit attributes and permissions](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles).
+[Create a new User Role](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles).
 
 ## Modify predefined roles
 
