@@ -533,5 +533,9 @@ items:
         items:
            - name: Tenant provisioning and licensing errors
              href: /viva/troubleshoot/glint/provisioning-and-licensing/tenant-provisioning-licensing-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+      - name: Accessing the platform
+        items:
+           - name: Resolve issues when accessing survey results as a manager
+             href: /viva/troubleshoot/glint/access/manager-access-issues?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
       - name: Contact support
         href: /viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json          
