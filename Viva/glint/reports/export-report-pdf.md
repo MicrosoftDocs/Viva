@@ -43,7 +43,7 @@ In this example, the cycle is changed from July 2020 (the current cycle) to Apri
 
 :::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
 
-5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted by permission to the User Role display. Select **Generate PDF.**
+5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted permission to the User Role display. Select **Generate PDF.**
 
 :::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
  
