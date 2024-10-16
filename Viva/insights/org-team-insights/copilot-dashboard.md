@@ -541,11 +541,11 @@ Any employee who has been assigned a Copilot license, including the following se
 * Business Chat (work)
 * Intelligent Search
 
-**Q7. After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process could take up to a week. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md#assign-licenses).
+**Q7. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
+To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to a week.
 
-**Q8. After the dashboard is turned on with the data, if I subsequently assign *new* Viva Insights licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
+**Q8. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
+Once you assign a new Copilot license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
 
 **Q9. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
