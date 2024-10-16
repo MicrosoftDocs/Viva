@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 10/19/2024
 ---
 
 # Reporting setup in Program Summary
@@ -53,6 +53,26 @@ To add User Roles to a program for the purpose of viewing feedback, select **Add
 >Use the up or down arrow next to the role name to view or close role set up.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
+
+## Comments report export control 
+
+This feature gives adminis control to hide the export functionality for comments at the program level so users can't generate or export the comments section for any cycle of this program. The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondent.
+
+### Enabling Comments report export
+
+For comments report generation and export enablement, this process is set up:
+
+From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Select Survey Program** > **Program Setup** > **Reporting** > **Role**
+- The toggle reads **ON,** which is the default setting.
+- A user can generate and export the Comments report.
+
+### Disabling Comments report export 
+
+If the default ON toggle is changed to **OFF**, the option to Export and Share is hidden. The button doesn't appear.
+
+:::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
+
+
 
 ## Set up Question Reporting Access
 
