@@ -1,6 +1,6 @@
 ---
 title: Reporting setup in Program Summary of Viva Glint
-description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
+description: On the Reports page, admins customize how dashboards are set up and what reports specific roles can view. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -23,30 +23,27 @@ The Reporting page allows admins to customize how dashboards are set up for spec
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary." lightbox="../../media/glint/setup/program-summary-reporting-2.png":::
 
-## View and add Program Roles
+## Assign permissions to view feedback
 
-In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles) are permissioned. 
+In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles) are permissioned. **Select the role** to view what is configured. 
 
-### View Program Roles permissioned to see feedback 
+In this example, you see what the Company Admin is permissioned for:
 
-Roles set up for a program are listed in the **Program Roles** section, each displaying on its own row. **Select the role row** to view what is configured. 
+::image type="content" source="../../media/glint/setup/reporting-permissions.png" alt-text="Screenshot of report permissions in Program Roles." lightbox="../../media/glint/setup/report-permissions.png":::
 
-Assigned permissions include:
+|Permission|Description|
+|-------------|---------------|
+|Reporting view| Whether the manager is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access)|
+|Concierge Visibility|Whether the manager sees the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard|
+|Broader Team Insights|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights)
+|Team Conversations|Managers with this enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
+|Default Dashboard|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available when not using Team Summary.<br><br> **Important:** Company Admin roles must be granted access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
+|Export Comments|The default **ON** setting allow managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
+|Report Template Access|The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview)).
 
- - **Reporting Access** - Whether the manager is granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
- - **Concierge Visibility** - Whether this user sees the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
- - **Broader Team Insights** - Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
- - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available if not using Team Summary.
-   
-   > [!IMPORTANT]
-   > Company Admin roles must be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
-   
- - **Report Template Access** - The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
- - **Question Access** - By default all roles must have all questions selected. Admins can remove and add questions back as needed.
+## Add User Roles to view feedback 
 
-## Enable User Roles to view feedback 
-
-To add User Roles to a program for the purpose of viewing feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select roles that should have reporting permissions for this program. The User Role name now appears as its own row.
+To add User Roles to a program for the purpose of viewing feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](s/viva/glint/setup/set-up-user-roles)). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
 
 :::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing." lightbox="../../media/glint/setup/reporting-add-role.png":::
 
@@ -54,26 +51,6 @@ To add User Roles to a program for the purpose of viewing feedback, select **Add
 >Use the up or down arrow next to the role name to view or close role set up.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
-
-## Comments report export control 
-
-This feature gives adminis control to hide the export functionality for comments at the program level so users can't generate or export the comments section for any cycle of this program. The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondent.
-
-### Enabling Comments report export
-
-For comments report generation and export enablement, this process is set up:
-
-From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Select Survey Program** > **Program Setup** > **Reporting** > **Role**
-- The toggle reads **ON,** which is the default setting.
-- A user can generate and export the Comments report.
-
-### Disabling Comments report export 
-
-If the default ON toggle is changed to **OFF**, the option to Export and Share is hidden. The button doesn't appear.
-
-:::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
-
-
 
 ## Set up Question Reporting Access
 
