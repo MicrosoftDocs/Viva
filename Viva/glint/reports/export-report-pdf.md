@@ -48,7 +48,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
   > [!NOTE]
   > Section selection isn't supported for Broader Team Inights (BTI) reports.
 
-   :::image type="content" source="../../media/glint/reports/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
+   :::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
 
 7.	A preview PDF opens in a new tab. This update displays while it’s generating:
 
