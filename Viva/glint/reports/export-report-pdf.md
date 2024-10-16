@@ -95,23 +95,3 @@ To disable a section:
 >[!NOTE]
 > When this window is closed, the default settings reset for the next use.
 
-## Comments report export control 
-
-This feature gives adminis control to hide the export functionality for comments at the program level so users can't generate or export the comments section for any cycle of this program. The feature enhances confidentiality measures within your organization. It decreases the risk posed by malicious actors who may attempt to de-anonymize survey data. It limits their ability to  match a specific comment with a survey respondent.
-
-### Enabling Comments report export
-
-For comments report generation and export enablement, this process is set up:
-
-From the admin dashboard: **Configuration** symbol > **Survey Programs** > **Select Survey Program** > **Program Setup** > **Reporting** > **Role**
-- The toggle reads **ON,** which is the default setting.
-- A user can generate and export the Comments report.
-
-### Disabling Comments report export 
-
-If the default ON toggle is changed to **OFF**, the option to Export and Share is hidden. The button doesn't appear.
-
-:::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::
-
-
-
