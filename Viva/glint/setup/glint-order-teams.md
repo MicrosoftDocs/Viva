@@ -14,12 +14,15 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/22/2024
+ms.date: 10/15/2024
 ---
 
 # Viva Glint Licensing
 
 Subscription plans of Viva suite or Viva Glint are required for using Microsoft Viva Glint. The total number of active licenses in your subscriptions should be greater than or equal to the number of active users in the app. 
+
+> [!NOTE]
+> Individual user license assigment isn't required for Viva Glint.
 
 ## Notifications for exceeding licenses
 
@@ -38,8 +41,8 @@ If the 45 day grace period expires before licenses and active users are aligned,
 - 360 survey cycle creation
 - 360 survey cycle scheduling
 
->[!CAUTION]
->If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
+> [!CAUTION]
+> If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
 
 ## Global Admin purchasing more Viva Glint licenses
 
