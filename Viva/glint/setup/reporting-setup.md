@@ -29,7 +29,7 @@ In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup
 
 In this example, you see what the Company Admin is permissioned for:
 
-::image type="content" source="../../media/glint/setup/report-permissions.png" alt-text="Screenshot of report permissions in Program Roles." lightbox="../../media/glint/setup/report-permissions.png":::
+:::image type="content" source="../../media/glint/setup/report-permissions.png" alt-text="Screenshot of report permissions in Program Roles." lightbox="../../media/glint/setup/report-permissions.png":::
 
 As an admin, make these choices:
 
