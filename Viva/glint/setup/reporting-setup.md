@@ -25,12 +25,13 @@ The Reporting page allows admins to customize how dashboards are set up for spec
 
 ## View and add Program Roles
 
-In the **Program Roles** section, see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) are permissioned to see survey results. 
+In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles)) are permissioned. 
 
-### View Program Roles who can see feedback 
+### View Program Roles permissioned to see feedback 
 
-Roles set up for this program are listed in the **Program Roles** section, each displaying on its own row.
-**Select the role row** to view what is configured. Assigned permissions include:
+Roles set up for a program are listed in the **Program Roles** section, each displaying on its own row. **Select the role row** to view what is configured. 
+
+Assigned permissions include:
 
  - **Reporting Access** - Whether the manager is granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
  - **Concierge Visibility** - Whether this user sees the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
