@@ -43,11 +43,18 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
    :::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
 
-5.	A preview PDF opens in a new tab. You see this update while it’s generating:
+5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted by permission to the User Role display. Select **Generate PDF.**
+
+  > [!NOTE]
+  > Section selection isn't supported for Broader Team Inights (BTI) reports.
+
+   :::image type="content" source="../../media/glint/reports/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
+
+7.	A preview PDF opens in a new tab. This update displays while it’s generating:
 
     :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
-6.	Now, choose **Export or Print** to open a new dialogue box displaying report choices.
+8.	Now, choose **Export or Print** to open a new dialogue box displaying report choices.
 
     >[!NOTE]
     > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
