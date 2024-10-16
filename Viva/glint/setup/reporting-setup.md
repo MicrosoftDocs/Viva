@@ -25,7 +25,7 @@ The Reporting page allows admins to customize how dashboards are set up for spec
 
 ## View and add Program Roles
 
-In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles)) are permissioned. 
+In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles) are permissioned. 
 
 ### View Program Roles permissioned to see feedback 
 
