@@ -75,7 +75,9 @@ items:
       - name: Glint platform setup and planning
         items:
           - name: Access Viva Glint
-            href: setup/access-glint.md  
+            href: setup/access-glint.md
+          - name: Survey program types and templates
+            href: start/program-types-templates.md
           - name: Plan for monthly releases
             href: setup/monthly-release-dates.md
           - name: Communications for internal readiness
@@ -228,8 +230,7 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      - name: Survey program types and templates
-        href: start/program-types-templates.md
+      
       - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
         href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
