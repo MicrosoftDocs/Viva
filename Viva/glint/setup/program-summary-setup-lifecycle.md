@@ -97,7 +97,7 @@ Select **My Surveys** on the admin dashboard. Choose the **Onboarding** or **Exi
 > **The default** for Employee Lifecycle reports is a 90-day look-back period.
 
 - [Communication](/viva/glint/setup/program-summary-communications)
-- [Coaching](/viva/glint/setup/program-summary-coaching))
+- [Coaching](/viva/glint/setup/program-summary-coaching)
 
 ## Related resource
 
