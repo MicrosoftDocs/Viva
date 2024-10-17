@@ -58,7 +58,7 @@ Diversity and Inclusion survey feedback provides:
 |2|Belonging|I feel a sense of belonging at [Company Name].|
 |3|Authenticity|I feel comfortable being myself at work.|
 |4|Equal Opportunity|Regardless of background, everyone at [Company Name] has an equal opportunity to succeed.|
-|5|Diversity - Committment|Top leaders demonstrate a visible commitment to diversity.|
+|5|Diversity - Commitment|Top leaders demonstrate a visible commitment to diversity.|
 |6|Opinion Count|My opinions seem to count.|
 |7|Acceptance|[Company Name] makes it easy for people from diverse backgrounds to be accepted.|
 |8|Transparency|[Company Name] communicates openly and honestly.|
