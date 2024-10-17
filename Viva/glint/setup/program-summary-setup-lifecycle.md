@@ -40,7 +40,7 @@ Viva Glint recommends this cadence:
 
 ## Distribution List setup
 
-Before configuring an Employee Lifecycle program, visit the [Distribution Lists](viva/glint/setup/set-up-distribution-lists) lesson to create new lists based on hire date for Onboarding surveys and on Termination date for Exit surveys.
+Before configuring an Employee Lifecycle program, visit the [Distribution Lists](/viva/glint/setup/set-up-distribution-lists) lesson to create new lists based on hire date for Onboarding surveys and on Termination date for Exit surveys.
 
 **Steps to create an Employee Lifecycle distribution list:**
 
