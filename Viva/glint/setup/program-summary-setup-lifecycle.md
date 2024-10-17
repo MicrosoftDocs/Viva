@@ -1,5 +1,5 @@
 ---
-title: Set up Program Summary for Viva Glint Employee Lifecycle programs
+title: Use and set up a Viva Glint Employee Lifecycle program
 description: Viva Glint Employee Lifecycle programs measure the employee experience during key moments in the employment journey.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/4/2024
+ms.date: 10/17/2024
 ---
 
-# Set up Program Summary for Viva Glint Employee Lifecycle programs
+# Use and set up a Viva Glint Employee Lifecycle programs
 
 Employee Lifecycle programs measure the employee experience during key moments in the employee journey. They allow organizations to get a holistic understanding of the employee experience from beginning to end via automated survey invitations to new hires and exiting employees.
 
