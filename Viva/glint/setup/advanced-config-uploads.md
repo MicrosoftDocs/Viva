@@ -69,7 +69,7 @@ Displays on Ana's profile like this:
 When a survey closes, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
 
 > [!NOTE]
-> To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](/viva/glint/setup/glint-data-apps.md#retroactive_pulse_update).
+> To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](/viva/glint/setup/glint-data-apps.md#retroactive-pulse-update).
 
 > [!IMPORTANT]
 > If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
@@ -82,7 +82,7 @@ When a survey closes, employee attributes that display in reporting aren't updat
 > [!CAUTION]
 > Do not perform a retroactive update while a Viva Glint survey is live.
 
-1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](/viva/glint/setup/glint-data-apps.md#export_users_from_survey_cycle).
+1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](/viva/glint/setup/glint-data-apps.md#export-users-from-survey-cycle).
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 1.
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
    1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the attributes that need to be retroactively updated (for example, Department).
