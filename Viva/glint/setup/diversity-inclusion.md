@@ -1,6 +1,6 @@
 ---
-title: Diversity and Inclusion survey programs in Viva Glint 
-description:  The Viva Glint Diversity and Inclusion (D&I) survey is a template of items collected through extensive research, appropriate for customers who want a standalone measurement on D&I. They can also be incorporated into other programs.
+title: Diversity and Inclusion survey program in Viva Glint 
+description:  The Viva Glint Diversity and Inclusion (D&I) survey is a template of items collected through extensive research, appropriate for customers who want a standalone measurement on D&I. It can also be incorporated into other programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/06/2024
+ms.date: 10/17/2024
 ---
 
 # Diversity and Inclusion survey program in Viva Glint
