@@ -24,7 +24,7 @@ opportunities to improve business. In today’s changing business environment, e
 
 ## Engagement programs
 
-Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Viva People Science research teams continually updates survey items and develops survey templates to provide meaningful insights into the current world of work.
+Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Viva People Science research teams continually update survey items and develops survey templates to provide meaningful insights into the current world of work.
 
 Engagement surveys aren't just about collecting data. They're about starting conversations and taking action to improve the work environment and culture. They can be given as broad assessments or as prompts for focused, high-quality conversations and collaborative action. The goal is to understand and enhance the employee experience, leading to a more engaged and productive workforce. If you’re looking to implement an engagement survey, consider the goals, the design of the survey, and how the results can drive change. 
 
