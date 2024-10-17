@@ -1,6 +1,6 @@
 ---
 title: Set up a Viva Glint Manager Effectiveness survey 
-description: Viva Glint’s Manager Effectiveness program helps develop stronger managers through frequent team feedback and data-driven insights specific to each manager.
+description: Viva Glint’s Manager Effectiveness survey helps develop stronger managers through frequent team feedback and data-driven insights specific to each manager.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,16 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/26/2024
+ms.date: 10/17/2024
 ---
 
 # Set up a Viva Glint Manager Effectiveness Survey
 
-Microsoft Viva Glint’s Manager Effectiveness Survey helps develop stronger managers through frequent team feedback and data-driven insights specific to each manager. Glint uses this data to provide managers with action plans to improve their effectiveness. These plans include learning resources and tracking tools.
+Microsoft Viva Glint’s Manager Effectiveness Survey helps develop stronger managers through frequent team feedback and data-driven insights specific to each manager. Glint uses this data to provide managers with action plans to improve their effectiveness. These plans include learning resources and tracking tools. Manager Effectiveness surveys lay the foundation for seamless assessment, analytics, and action planning across the complete manager experience.
 
-As a part of Glint’s integrated employee engagement platform, Manager Effectiveness surveys lay the foundation for seamless assessment, analytics, and action planning across the complete manager experience.
+Manager Effectiveness surveys are designed to assess the performance and effectiveness of managers within an organization. The survey evaluates leadership skills, communication abilities, decision-making, and other managerial competencies. Valuable insights are collected by gathering feedback from employees who work under the manager’s supervision. Insights identify areas for improvement and implement strategies that enhance leadership effectiveness. Organizations should use survey results to address existing issues and drive positive change. Use cases for Manager Effectiveness Surveys include leadership development, performance improvement, and strengthening the manager-employee relationship.  
 
-Glint provides customizable survey content that covers key areas of manager performance. These areas represent industry best practices including priority setting, decision making, collaboration and communication. They also let leaders know how well managers provide motivation, recognition, career development, and feedback to their teams. Each area includes best practice content and suggested actions to help managers improve. 
+Glint’s Manager Effectiveness program provides action plans, learning resources, and tracking tools to support managers in improving their effectiveness. 
 
 > [!div class="nextstepaction"]
 > [Blog - The power of management](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-power-of-manager-engagement-a-proven-strategy-for-business/ba-p/4118952)
@@ -49,4 +49,4 @@ Glint provides customizable survey content that covers key areas of manager perf
 |15|Opportunities|What should your manager consider changing (doing less of, more of or differently)?|
 |16|Strengths|What should your manager keep doing?|
 
-**[Follow Program Summary guidance for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)**
+**[Follow Program Summary setup guidance](/viva/glint/setup/program-summary-overview)**
