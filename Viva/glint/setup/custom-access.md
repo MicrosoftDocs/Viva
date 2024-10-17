@@ -40,15 +40,30 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
 
 The custom data access export includes the following information. Modify or add data to this file to import to Viva Glint for data access updates in bulk.
 
-> [!NOTE]
-> Open the exported .csv file by [importing in Microsoft Excel](https://support.microsoft.com/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) to retain leading zeros and data formats.
+|Column  |Description   |
+|:----------|:-----------|
+|user email     | Populated with users' email addresses.       |
+|population     | Enter 1 for the first population. Each new population increases in number for each user. |
+|access type   | <ul><li>The survey uuid of the program that users have customized access for, or</li> <li>"GOAL" when exporting Focus Area access for users.</li> </ul>      |
+|other attributes    | Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values. |
 
-- **user email**: Populated with users' email addresses.
-- **population**: Enter 1 for the first population. Each new population increases in number for each user.
-- **access type**:
-  - The survey uuid of the program that users have customized access for, or
-  - "GOAL" when exporting Focus Area access for users.
-- **Attribute columns**: Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values .
+### Edit the access file to import
+
+To prepare your exported custom access file for import to Advanced Configuration:
+
+1. Open the exported .csv file by [importing in Microsoft Excel](https://support.microsoft.com/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) to retain leading zeros and data formats.
+2. Update the columns in the exported file to the following columns:
+
+   |Column  |Change to...   |
+   |:----------|:-----------|
+   |user email     | manager reference   |
+   |population     | `no change` |
+   |add or remove     | `insert this as a new column` populate with "ADD" or "REMOVE" |
+   |access type   | survey uuid |
+   |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
+
+> [!NOTE]
+> To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
 
 ### Example
 
