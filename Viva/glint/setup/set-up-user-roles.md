@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/117/2024
+ms.date: 10/17/2024
 ---
 
 # Set up Viva Glint User Roles
