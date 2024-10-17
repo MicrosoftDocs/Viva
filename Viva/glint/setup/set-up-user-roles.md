@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/07/2024
+ms.date: 10/17/2024
 ---
 
 # Set up Viva Glint User Roles
@@ -83,10 +83,6 @@ Admins can specify the employee population and attributes their leaders can view
    1. Resources
    
       :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
-
-   1. Access Permissions
-   
-      :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 
 1. Select **Save Changes**.
 
