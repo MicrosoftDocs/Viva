@@ -40,7 +40,7 @@ As an admin, make these choices:
 |**Broader Team Insights**|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights)
 |**Team Conversations**|Managers with this enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
 |**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available when not using Team Summary.<br><br> **Important:** Company Admin roles must be granted access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
-|**Export Comments**|The default **ON** setting allow managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
+|**Export Comments**|The default **ON** setting allow managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
 |**Report Template Access**|The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview).
 
 ## Add User Roles to view feedback 
@@ -54,7 +54,7 @@ To add User Roles to a program for the purpose of viewing feedback, select **Add
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
 
-## Set up Question Reporting Access
+### Set up Question Reporting Access
 
 Selected questions can be excluded from a survey for specific roles. This example shows the Question Reporting Access permission for the Glint 360 admin role and that three of the 19 survey items are to be excluded for the People at vgAcme role:
 
@@ -65,6 +65,7 @@ Remove an item by selecting the **X** next to it.
 Add an item back by selecting **Add More** and then select the item to be added.
 
 ## Set up reporting 
+
 There are six fields to set up.
 
 ### Aggregate Indices
