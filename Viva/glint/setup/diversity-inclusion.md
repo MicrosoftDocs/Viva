@@ -28,21 +28,27 @@ Belonging is strong when:
 
 The Microsoft Viva Glint Diversity and Inclusion (D&I) approach helps organizations measure perspectives that matter and empower managers to build inclusive practices. The D&I approach fosters an understanding of how to create an environment where all people feel they belong.
 
-> [!NOTE]
+A core part of Glint’s approach to measuring D&I zeroes in on everyday inclusion dynamics influenced by managers and workgroups. Ensuring focused, ongoing feedback begin to grows your D&I capability at all levels of the organization. It gives people ownership of the conversation rather than feeling like D&I is a compliance activity or someone else’s problem. A D&I survey program can be used as a standalone measurement for organizations on a journey to regular feedback and action-taking practices, or when a singular focus on DIBs is needed. 
+
+Viva Glint’s D&B practice framework addresses the five key elements of a progressive D&I strategy to drives greater Belonging. which in turn leads to stronger engagement and better business outcomes. Research identified these five elements as critical components to measure:
+
+:::image type="content" source="../../media/glint/setup/five-d-and-i-elements.png" alt-text="Screenshot of the five important elements of a Diversity and Incusion survey."lightbox="../../media/glint/setup/five-d-and-i-elements.png":::
+
+> [!TIP]
 > The Glint survey strategy can incorporate domains of diversity, belonging and inclusion into any survey, voiding the need for a standalone Diversity and Inclusion measurement. For this reason, consider adding items from Glint's D&I survey template to an engagement or a culture survey.
   
-## The Viva Glint Diversity and Inclusion survey exposes fundamental insights 
+## The Diversity and Inclusion survey exposes fundamental insights 
 
 Diversity and Inclusion survey feedback provides:
 
-- Short research-validated survey items‌.
-- Access to intuitive and insightful data at both leader and manager levels.
-- Key drivers to understand how diversity, inclusion, and belonging influence engagement and business outcomes.
-- Benchmarked items using proprietary hybrid methodology.
-- Attrition predictions to identify groups at risk of leaving due to lack of inclusion and belonging.
-- Actionable resources from curated content to improve teams' diversity and inclusion experience‌.
-- Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences.
-- Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, and the ability to derive cross-program insights.
+- Short research-validated survey items‌
+- Access to intuitive and insightful data at both leader and manager levels
+- Key drivers to understand how diversity, inclusion, and belonging influence engagement and business outcomes
+- Benchmarked items using proprietary hybrid methodology
+- Attrition predictions to identify groups at risk of leaving due to lack of inclusion and belonging
+- Actionable resources from curated content to improve teams' diversity and inclusion experience‌
+- Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences
+- Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, and the ability to derive cross-program insights
 
 ## Viva Glint Diversity and Inclusion survey items
 
@@ -81,7 +87,7 @@ Diversity and Inclusion survey feedback provides:
 
 ## Admin setup for the Microsoft Copilot Impact survey template
 
-The Diversity and Inclusion template is found in the *Recurring* section on the *Create a Program* page.
+The **Diversity and Inclusion template** is found in the **Recurring** section on the **Create a Program** page.
 
 From the admin dashboard, select **Configure** and then **Survey Programs**.
 Select **+ New Program**.
