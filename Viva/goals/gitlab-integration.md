@@ -32,31 +32,21 @@ All users and admins can use this feature. Admins can manage the integration fro
 Admins can follow these steps to enable this integration:
 
 1. From the sidebar, go to **Admin** and select the **Integrations** tab.
-  
-    <!--:::image type="content" source="../media/goals/10/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/10/viva-goals-integrations-page.png":::-->
 
 1. Search for **GitLab**, or find it under the **Data Integrations** section.
 
 1. Select **Enable** next to **GitLab**. If you already created a connection, you'll have an option to **Manage** the integration instead.
   
-    <!--:::image type="content" source="../media/goals/10/gitlab-enable-button.png" alt-text="Screenshot highlights the enable option for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-enable-button.png":::-->
-  
    You can disable the integration by selecting **Manage** > **Change** > **Disable Integration**.
-
-   <!--:::image type="content" source="../media/goals/10/gitlab-disable-button.png" alt-text="Screenshot shows where you select Disable Integration for GitLab in Viva Goals." lightbox="../media/goals/10/gitlab-disable-button.png":::-->
 
 ## Connect GitLab to your Viva Goals account as an admin
 
 1. After you enable the integration as an admin, you need to configure a GitLab connection from the **GitLab Configure** page. You can access this page by going to **Admin** > **Integrations** and selecting **Manage** next to **GitLab**.
 
 1. Select **New Connection** and sign in to your GitLab account.
-  
-    <!--:::image type="content" source="../media/goals/10/gitlab-new-connection-button.png" alt-text="Screenshot shows where you choose to add a new GitLab connection in Viva Goals." lightbox="../media/goals/10/gitlab-new-connection-button.png":::-->
 
 1. Enter a name for the connection.
   
-    <!--:::image type="content" source="../media/goals/10/gitlab-configure-new-connection.png" alt-text="Screenshot shows where you name your new GitLab connection in Viva goals." lightbox="../media/goals/10/gitlab-configure-new-connection.png":::-->
-
 1. It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
 1. Viva Goals allows you to connect with multiple projects. Select **New Connection** to fetch data from another project. You differentiate these connections by name. The names will be displayed to other users when they link their OKRs with GitLab data.
@@ -66,16 +56,12 @@ Admins can follow these steps to enable this integration:
 After you configure the connection, the next step is to link OKRs to your GitLab projects.
 
 1. When you create or edit an OKR, open the **Progress and Status** dropdown. In the section with the text "Connect to a data source for automatic progress updates", find and select the icon for **GitLab**.
-  
-    <!--:::image type="content" source="../media/goals/10/gitlab-datasource.png" alt-text="Screenshot shows where you select GitLab as the data source." lightbox="../media/goals/10/gitlab-datasource.png":::-->
 
 1. If you already created a connection, or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
 1. Select the method you want to use measure progress: **percent complete** or **KPI (success metric)**. If you choose KPI, provide a metric, starting value, and target value.
 
 1. If there are multiple connections, select one. All *associated projects* will be available in the drop-down. Choose a **Project** and select a **Milestone**.
-  
-    <!--:::image type="content" source="../media/goals/10/gitlab-new-connection-details.png" alt-text="Screenshot shows where you add GitLab connection details." lightbox="../media/goals/10/gitlab-new-connection-details.png":::-->
 
 1. Pick an entry in the **Assigned to** field to track issues that being handled by a specific user. Select **Labels** as appropriate.
 
