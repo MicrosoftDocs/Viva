@@ -69,4 +69,4 @@ Viva Glint's platform makes confidentiality a priority. Learn more about [how Vi
 
 ### What do I see if an admin edits a question during a live survey?
 
-If a Viva Glint Admin edits a question during a live survey, admins can send users who started or completed a survey an email notification. To view the edited survey question, use [retake survey steps](#can-i-change-answers-after-submitting-my-survey?) to resubmit your responses.
+If a Viva Glint Admin edits a question during a live survey, admins can send users who started or completed a survey an email notification. To view the edited survey question, use [retake survey steps](#can-i-change-answers-after-submitting-my-survey) to resubmit your responses.
