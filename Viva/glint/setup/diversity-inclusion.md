@@ -28,9 +28,9 @@ Belonging is strong when:
 
 The Microsoft Viva Glint Diversity and Inclusion (D&I) approach helps organizations measure perspectives that matter and empower managers to build inclusive practices. The D&I approach fosters an understanding of how to create an environment where all people feel they belong.
 
-A core part of Glint’s approach to measuring D&I zeroes in on everyday inclusion dynamics influenced by managers and workgroups. Ensuring focused, ongoing feedback begin to grows your D&I capability at all levels of the organization. It gives people ownership of the conversation rather than feeling like D&I is a compliance activity or someone else’s problem. A D&I survey program can be used as a standalone measurement for organizations on a journey to regular feedback and action-taking practices, or when a singular focus on DIBs is needed. 
+A core part of Glint’s approach to measuring D&I zeroes in on everyday inclusion dynamics influenced by managers and workgroups. Ensuring focused, ongoing feedback grows your D&I capability at all levels of the organization. It gives people ownership of the conversation rather than feeling like D&I is a compliance activity or someone else’s problem. A D&I survey program can be used as a standalone measurement or when a singular focus on D&I is needed. 
 
-Viva Glint’s D&B practice framework addresses the five key elements of a progressive D&I strategy to drives greater Belonging. which in turn leads to stronger engagement and better business outcomes. Research identified these five elements as critical components to measure:
+Viva Glint’s D&I practice framework addresses the five key elements of a progressive D&I strategy to drives greater **Belonging**, leading to stronger engagement and better business outcomes. Research identified these five elements as critical components to measure:
 
 :::image type="content" source="../../media/glint/setup/five-d-and-i-elements.png" alt-text="Screenshot of the five important elements of a Diversity and Incusion survey."lightbox="../../media/glint/setup/five-d-and-i-elements.png":::
 
@@ -67,7 +67,7 @@ Diversity and Inclusion survey feedback provides:
 |11|Best Interests - Manager|My immediate manager makes me feel they have my best interests in mind.|
 |12|DIB Changes|What should your company consider changing (doing less of, more of, or differently) in support of diversity, inclusion, and belonging?|
 
-### Additional Diversity and Inclusion items to consider
+### Other Diversity and Inclusion items to consider
 
 |Item name|Item text|
 |--------|---------|
@@ -79,10 +79,10 @@ Diversity and Inclusion survey feedback provides:
 |Change Adaptation|I feel supported in my efforts to adapt to organizational changes.|
 |Non-Discrimination|I work in an environment that is free from harassment and discrimination.|
 |Appreciate Differences|My workgroup has a culture in which employees appreciate the differences that people bring to the workplace.|
-|Diversity|[Company Name] hires people from a variety of different backgrounds.|
+|Diversity|[Company Name] hires people from various backgrounds.|
 |Expressing Opinions|While at work, I am comfortable expressing opinions that diverge from my group.|
 |Leaders Care|Leaders in my company make me feel they have my best interests in mind.|
-|Quality of Ideas|In this workgroup, people’s ideas are judged on their quality, not on the personal characteristics of those who express them.|
+|Quality of Ideas|In this workgroup, people’s ideas are judged on their quality, not on the personal characteristics of who expresses them.|
 |Influence|I am able to influence decisions that affect my organization.|
 
 ## Admin setup for the Microsoft Copilot Impact survey template
