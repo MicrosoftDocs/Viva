@@ -33,7 +33,7 @@ A cultural measure helps leaders check on the alignment of their intended cultur
 
 ## What kind of organization is the Culture Survey intended for?
 
-This program is for organizations interested in gaining a baseline understanding of their current culture to support transformation. Transformation can includs identifying an ideal culture to move toward or can be in accordance with a business or leadership change. Organizations going through a merger or acquisition often use culture as an indicator to support a smooth integration.
+This program is for organizations interested in gaining a baseline understanding of their current culture to support transformation. Transformation can include identifying an ideal culture to move toward or can be in accordance with a business or leadership change. Organizations going through a merger or acquisition often use culture as an indicator to support a smooth integration.
 
 > [!TIP]
 > Include all employees for the most accurate insight into your organization’s cultural health. Including all employees also creates awareness and support for cultural transformation.
