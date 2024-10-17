@@ -19,7 +19,7 @@ ms.date: 10/15/2024
 
 # Custom data access in Viva Glint
 
-Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access.
+Microsoft Viva Glint offers custom data access for users who support unique groups of employees in your organization. Users may need to have their default team access modified or are in a role so specific, access needs to be set at the user level. Use the guidance in this article to export, modify, and import custom data access. To make individual updates to users' custom data access, see: [Custom User Role setup in Viva Glint](custom-user-role.md)
 
 ## Export custom access
 
@@ -47,7 +47,7 @@ The custom data access export includes the following information. Modify or add 
 |access type   | <ul><li>The survey uuid of the program that users have customized access for, or</li> <li>"GOAL" when exporting Focus Area access for users.</li> </ul>      |
 |other attributes    | Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values. |
 
-### Edit the access file to import
+### Edit the access file
 
 To prepare your exported custom access file for import to Advanced Configuration:
 
@@ -62,8 +62,24 @@ To prepare your exported custom access file for import to Advanced Configuration
    |access type   | survey uuid |
    |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
 
-> [!NOTE]
-> To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
+   > [!NOTE]
+   > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
+ 
+3. To grant custom access for:
+   - **Survey results**:
+      - Populate the survey uuid column with the survey programs unique ID that's included in the access export file.
+   - **Focus Areas**:
+      - Populate the survey uuid column with "GOAL."
+   - **Admin permissions**:
+      - Populate the survey uuid column with "ADMIN."
+4. To grant custom access to: 
+   - **Another manager's team that exists in current employee data**:
+      - Include an attribute column labeled: Manager Level 1 and list the Employee ID of the manager that another user should have access to. The manager levels automatically calculate based on the manager ID added to the Manager Level 1 column.
+   - **Another manager's team that doesn't exist in current employee data**:
+      - Include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels in this past hierarchy path for an old manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) and copy Manager Level fields and the manager IDs in them.
+   - **A level in a non-Manager hierarchy**:
+      - Include all levels above the level the user should have access to. Example: To grant access to Location Hierarchy Level 3 = Dublin, include columns for Region, Country, and City.
+5. Save your file in .csv format with a comma separator and UTF-8 encoding.
 
 ### Example
 
