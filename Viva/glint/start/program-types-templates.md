@@ -14,14 +14,26 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/13/2024
+ms.date: 10/17/2024
 ---
 
 # Viva Glint programs and survey types 
 
-Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
+Microsoft Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Feedback insights translate into actionable opportunities to improve business. In today’s changing business environment, effective employee listening is critical. It equips us to navigate challenges, adapt to changes, and address uncertainty. By gathering employee feedback, we gain visibility into knowledge gaps, avoid speculation, and make informed decisions that impact both our workforce and overall business success. 
 
-Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Viva People Science research teams continually updates survey items and develops survey templates and suggestions to provide meaningful insights into the current world of work.
+## Engagement programs
+
+Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition. Viva People Science research teams continually updates survey items and develops survey templates to provide meaningful insights into the current world of work.
+
+Engagement surveys aren't just about collecting data. They're about starting conversations and taking action to improve the work environment and culture. They can be given as broad assessments or as prompts for focused, high-quality conversations and collaborative action. The goal is to understand and enhance the employee experience, leading to a more engaged and productive workforce. If you’re looking to implement or improve an engagement survey program, consider the goals, the design of the survey, and how the results can be used to drive change. 
+
+Glint’s approach to employee engagement provides a flexible framework using strong theoretical foundations and analyzing robust, real-time experience. Rather than a one-size-fits-all formula for engagement, Glint developed an adaptable framework and technology that suits each organization’s needs. You can make connections between the employees’ experience, how it impacts their engagement, and the resulting individual and business outcomes. 
+
+## The People Success Elements
+
+The experiences that drive engagement look different from one company to another.  Viva People Science research identified six core elements which capture people's needs and expectations for an exceptional employee experience companies. This is what your organization should aim for. The People Success Elements direct you to assess and foster the experiences that matter most to people to build thriving cultures, develop people-centric leaders, and engage employees. The organizing framework provides a modern, accurate way to measure people’s evolving need for engagement and success in our new world of work. 
+
+:::image type="content" source="../../media/glint/start/six-elements.png" alt-text="Screenshot of the People Success Elements." lightbox="../../media/glint/start/six-elements.png":::
 
 ## Two categories of surveys 
 
