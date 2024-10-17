@@ -301,9 +301,9 @@ items:
                 items:         
                   - name: Team Conversations resource guidance
                     href: reports/team-conversations-resource-guidance.md  
-      - name: Set up Employee Lifecycle surveys
+      - name: Employee Lifecycle surveys
         items:
-          - name: Program Summary for Employee Lifecycle surveys
+          - name: Use and set up an Employee Lifecycle survey
             href: setup/program-summary-setup-lifecycle.md
           - name: Create an onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
