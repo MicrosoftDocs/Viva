@@ -54,7 +54,7 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
    :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
-7.	Now, choose **Export or Print** to open a new dialogue box displaying report choices.
+7.	Now, choose **Export or Print** to open a new dialog box displaying report choices.
 
    > [!NOTE]
    > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
@@ -67,7 +67,7 @@ Default toggles are **ON** for each of these sections of the Overview report (th
 To disable a section:
 
 1.	Select the **ellipses** in that section.
-2.	Select **Remove.**
+2.	Select **Remove**.
 
     In this example, we're removing the Overview section of the Comments report:
 
@@ -76,9 +76,9 @@ To disable a section:
 ## Export the Comments report
 
 1.	Select the **More** button.
-2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section.**
+2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section**.
 
-   :::image type="content" source="../../media/glint/reports/export-remove-section.png" alt-text="Screenshot of the Remove section button in Reports.":::
+    :::image type="content" source="../../media/glint/reports/export-remove-section.png" alt-text="Screenshot of the Remove section button in Reports.":::
 
 3.	Choose **All Comments** or whichever reporting section you choose to add. An onscreen banner notifies you that the section is added.
 4.	Choose whether you want to include all verbatim comments in your PDF download. Choose either:
@@ -92,6 +92,6 @@ To disable a section:
 
    :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
 
-  > [!NOTE]
-  > When this window is closed, the default settings reset for the next use.
+   > [!NOTE]
+   > When this window is closed, the default settings reset for the next use.
 
