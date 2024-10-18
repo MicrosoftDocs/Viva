@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/19/2024
+ms.date: 10/18/2024
 ---
 
 # Export reports as a PDF
