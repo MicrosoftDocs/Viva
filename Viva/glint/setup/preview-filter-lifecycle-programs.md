@@ -47,7 +47,7 @@ Once your program is approved, preview the survey to test the user experience.
 
 ## Preview the survey invitation  
 
-Preview a survey from an invitation email. Use this preview survey email to ensure surveys are received by your employees and don't end up in a spam or junk folder. 
+Preview a survey from an invitation email. Use this preview email to ensure surveys are received and don't end up in a spam or junk folder. 
 
 1. Use the vertical ellipses next to the survey name to select **Preview**. 
 2. Select a user to generate a survey preview and email invite.  
@@ -58,7 +58,7 @@ Preview a survey from an invitation email. Use this preview survey email to ensu
 
 ## Enable an Employee Lifecycle program 
 
-After a survey is approved, it must be enabled to go Live on the scheduled date. Surveys move to Live status at midnight on the day it's scheduled to go out, in the default time zone. 
+After a survey is approved, it must be enabled to go Live on the scheduled date. Surveys move to Live status at midnight on the scheduled start date, in the default time zone. 
 
 1. Use the vertical ellipse next to the survey name to **Enable Survey**. 
 2. Select **Enable Survey** (again).  
@@ -66,7 +66,7 @@ After a survey is approved, it must be enabled to go Live on the scheduled date.
 
 ## Employee Lifecycle reports are unique 
 
-Employee Lifecycle reporting behaves differently than that of recurring programs. [Learn more about using the trend graph in Employee Lifecycle reports](/viva/glint/reports/trend-graph-lifecycle-survey).
+Employee Lifecycle reporting behaves differently than recurring program reporting. [Learn more about using the trend graph in Employee Lifecycle reports](/viva/glint/reports/trend-graph-lifecycle-survey).
 
 ## Other resources
 
