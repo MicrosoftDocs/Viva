@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/15/2024
+ms.date: 10/17/2024
 ---
 
 # FAQs for survey participants
@@ -66,3 +66,7 @@ Viva Glint's platform makes confidentiality a priority. Learn more about [how Vi
 - Safari
 - Mozilla Firefox
 - You can also gain mobile access through iOS Safari and Android Chrome
+
+### What do I see if an admin edits a question during a live survey?
+
+If a Viva Glint Admin edits a question during a live survey, admins can send users who started or completed a survey an email notification. To view the edited survey question, use [retake survey steps](#can-i-change-answers-after-submitting-my-survey) to resubmit your responses.
