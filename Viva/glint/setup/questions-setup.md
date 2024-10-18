@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit questions, survey items, question targeting
+keywords: edit questions, survey items, question targeting, item targeting
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/07/2024
+ms.date: 10/09/2024
 ---
 
 # Questions setup in Program Summary
@@ -24,7 +24,7 @@ The Questions page allows you to add or modify the items included in a survey. R
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary." lightbox="../../media/glint/setup/program-summary-questions.png":::
 
 > [!IMPORTANT]
-> The term "survey item" refers to any question or statement posed to a survey taker.
+> The term **item** refers to any *question or statement* posed to a survey taker.
 
 ## Use Viva Glint's prepopulated survey templates
 
@@ -45,7 +45,7 @@ In the window that opens:
 
 When finished, select **Save Changes**.
 
-### Add a logo to the survey introduction
+## Add a logo to the survey introduction
 
 To add your organization's logo to the survey introduction:
 
@@ -68,59 +68,20 @@ To add your organization's logo to the survey introduction:
 1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
 1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
 
-## Edit survey items using the horizontal ellipses
+## Edit survey items
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
+This important topic has its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
+> [!NOTE]
+> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey, as needed.
 
-Hover over the horizontal ellipses next to any survey item to select one of the following options: Edit Targeting, Edit Question, Edit Display Logic, or Delete survey items.
+## Survey item targeting
 
-### Edit Targeting
+Add a target to a specific item to ensure that only the population targeted sees it in the survey. Using the search box, select one or more **User Role** to include or exclude. 
+When finished, select **Save Changes**.
 
-Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select one or more **User Role** to include or exclude. When finished, select **Save Changes**.
+## Delete survey items
 
-### Edit Question
-The Edit Question slider window provides two tabs for setup:
-- Question Configuration
-- Associated Programs
-
-#### Question Configuration
-
-You may edit the following fields:
-- Select a **Language** from languages prepopulated in the dropdown menu
-- See the **Question Type** - rating, multiple choice, open-ended
-- Assign a **Reporting Label** for easy identification of your item
-- Consider if the **Question Text** is as it should be - The wording for this item appears verbatim. The **+ button** allows you to edit the question. 
-  
-   >[!IMPORTANT]
-   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
-
-- Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
-- Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
-- View the **Rating Scale** for the item - 5 or 7 points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
-- Decide whether to **Allow Comments** - Toggle to Yes or No
-- Decide whether this item can be an **Optional Question** - Toggle to Yes or No
-- Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help your managers act on feedback
-
-Select **Save Changes** when editing is complete.
-
-#### Associated Programs
-
-A list of program names previously used or in use that include this survey item can be viewed here.
-
-### Edit Display Logic
-
->[!TIP]
-> Wait to add display logic until after you've arranged your sections and items in the order you want.
-
-In the Display Logic window that opens, set the following fields:
-- The **Overall logic for conditions** and subsequent **Conditions** or **Subconditions**. Select **+ Add new condition** to add more.
-
-**[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
-
-### Delete survey items
-
-Remove the question (item) from the program by selecting **Yes, delete it** in the box that displays. If you don't want to delete, select **No, I changed my mind.**
+Remove an item from the program by selecting **Yes, delete it** in the box that displays. If you don't want to delete, select **No, I changed my mind.**
 
 ## Edit the "Thank You!" message people see when submitting their survey
 
@@ -140,11 +101,22 @@ You don't have to use all of the items programmed for a survey during each surve
 
 ## Add new items and section breaks to a program
 
-To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow the guidance for **Adding items to a prepopulated survey.**
+To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow this guidance: [Adding items to a prepopulated survey](/../../viva/glint/setup/add-new-questions).
+
+## Edit Display Logic
+
+>[!TIP]
+> Wait to add display logic until after you've arranged your sections and items in the order you want.
+
+In the Display Logic window, set the following fields:
+- The **Overall logic for conditions** and subsequent **Conditions** or **Subconditions**. Select **+ Add new condition** to add more.
+
+**[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
+
 
 ## Next Step
 > [!div class="nextstepaction"]
-> [Reporting setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977).
+> [Reporting setup in Program Summary](/../../viva/glint/setup/reporting-setup).
 
 
 
