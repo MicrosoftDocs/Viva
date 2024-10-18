@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/19/2024
+ms.date: 10/18/2024
 ---
 
 # Set up Viva Glint User Roles
@@ -45,10 +45,10 @@ The roles in this table are preconfigured in Glint:
 |**Role title**|**Data reporting permission level**|
 |---------|----------|
 |**Company Admin**| Employees who are granted **ALL** permission. Includes Advanced Configuration access.|
-|**Active Employees**|  Membership in this role is automatic based on the employee's status in Glint. This role isn't intended to grant data access.|
-|**Inactive Employees**| Membership in this role is automatic based on the employee's status in Glint. This role isn't intended to grant data access.|
+|**Active Employees**|  Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
+|**Inactive Employees**| Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
 |**Managers**|Includes permission to see reporting for the employees team. Attribute filters aren't defined.|
-|**Support Users**| [External users](/viva/glint/setup/add-external-user) who have advanced access. |
+|**Support Users**| [Other Microsoft 365 users](/viva/glint/setup/add-external-user) who have advanced access. |
 
 [Edit roles using this guidance](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles). 
 
@@ -81,7 +81,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 ### Update the name of the modified role 
 
 1. Navigate to the initial User Roles page and select the **pencil** symbol next to the role name.
-2. Update the role name to specify exactly what manager this role reflects. In our example, it's a manager who can manage sensitive comments.
+2. Update the role name to specify exactly which manager this role reflects. In our example, it's a manager who can view sensitive comments.
 
 :::image type="content" source="../../media/glint/setup/user-roles-update-role-title-2.png"alt-text="Screenshot of updating a role title in User Roles.":::
 
@@ -217,6 +217,6 @@ To change a User Role from ACTIVE to INACTIVE or vice versa, include the users i
 
 ## Grant custom access
  
-Custom access is for users who need to have their default access overridden. This happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is for users who need to have their default access overridden. This instance happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for (Human Resources Business Partner) HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
 
