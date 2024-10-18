@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/24/2024
+ms.date: 10/18/2024
 ---
 
 # Viva Glint survey access methods
@@ -35,10 +35,10 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 
 ## Authentication with Microsoft Entra ID
 
-Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the Provide Feedback button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
+Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the **Provide Feedback** button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
 
 > [!CAUTION] 
-> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the Provide Feedback link in emails directs users to the Glint dashboard instead of their survey or My Surveys tab.
+> If your organization uses **URL Defense**, a security feature that can rewrite URLs in inbound emails, disable this feature for Glint emails. If left enabled when using survey access that requires authentication with Microsoft Entra, the **Provide Feedback** link in emails directs users to the Glint dashboard instead of their survey or My Surveys tab.
 
 ### To enable this survey access method:
 
@@ -47,15 +47,10 @@ Use this guidance to enable survey invite links that require authentication with
 3. In the **All Settings** menu, select **Engage Survey Details**.
 4. Switch the **Require Azure AD for links in survey emails** setting to **Yes**.
 5. Select **Save Changes** in the top right of the **General Settings** page.
-
-### Grant all users access to My Surveys:
-
-1. Select the **Configuration** symbol, then in **Employees** , choose **User Roles**.
-2. Select **+ New Role** and give your new User Role name in the top left. For example: Entra Survey Access Users.
-3. In **Permissions**, select the **View My Surveys** checkbox, then in the top right of the **Permissions and Access** page, select **Save Changes**.
-4. In the **All Members** section of the role, select **Add/Edit Employees** and then choose **Attribute Rules.**
-5. In the setup pane, select the **I want to include all active employees only** option and select **Save Changes.**
-   1. To enable the **Save Changes** selection, make a small edit and undo. For example, select the **Include Inactive Employees** checkbox and then unselect.
+6. Select the **Configuration** symbol, then in **Employees**, choose **User Roles**.
+7. Select **Active Employees** and on the **Role Settings** page, choose **Permissions**.
+8. To grant access to the **My Surveys** tab for all active users, select the **View My Surveys** permission.
+9. Select **Save Changes** at the top of the page.
 
 ## Personalized survey link
 
