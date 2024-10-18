@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 09/03/2024
 ---
 
 # Use Viva Glint email templates to share survey expectations within your organization
 
-You'll want every person (role) in your organization to understand why you've partnered with Microsoft Viva Glint. To share the importance of the programs you'll introduce, customize these templates, divided into three time frames to coincide with the survey journey:
+You'll want every person (role) in your organization to understand why you've partnered with Microsoft Viva Glint. To share the importance of the programs, customize our templates. They're divided into three time frames to coincide with the survey journey:
 
 - [Introduce survey taking to your employees](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live Viva Glint program information](https://go.microsoft.com/fwlink/?linkid=2241178)

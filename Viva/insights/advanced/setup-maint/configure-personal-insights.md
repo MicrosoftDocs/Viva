@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure personal insights defaults
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Exchange Online admin*
+*Applies to: Exchange Online admin*
 
 To configure settings for personal insights, you have a few options:
 
@@ -65,7 +65,7 @@ Refer to the [Privacy guide](../../personal/Overview/privacy-guide-users.md) to 
 Through the Microsoft admin center, you can configure access to Viva Insights elements for all users in your organization.
 
 >[!Important]
->You need to have an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
+>You need to have an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as an Exchange Online admin before configuring settings.
 
 ### To manage availability for the Viva Insights app in Teams
 

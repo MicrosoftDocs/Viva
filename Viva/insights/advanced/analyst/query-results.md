@@ -1,5 +1,5 @@
 ---
-ms.date: 07/03/2024
+ms.date: 10/10/2024
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
@@ -34,6 +34,8 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
 ## To use the query results page
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda3]
 
 ### Results statuses
 
@@ -87,7 +89,7 @@ To access content filters, select the **+** icon to the right of the **Custom qu
 
 Then, use the dropdown menus to select your filter.
 
-:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below.":::
+:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below." lightbox="../images/query-results-select-content-filter.png":::
 
 While you can only use one content filter active at a time, you can have up to five filters available. Filters won’t carry over from one session to the next.
 
@@ -160,6 +162,9 @@ Deleting a query removes it from the results list for everyone in the organizati
 
 When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. To learn how to download these results, read on.
 
+>[!Note]
+>For queries that include Microsoft 365 Copilot metrics, "NULL" values in your results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
+
 #### Downloading and connecting to results
 
 ##### Download and import results in Excel
@@ -167,8 +172,6 @@ When you define a query, you select metrics and employee attributes. After the q
 1.	In **Query results**, next to the results you want, select the CSV icon.
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel. 
-
-    Here's an example of a results file:
 
 Here's an example of a results file:
 

@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure manager settings
 
-![Graph of Viva Insights admin settings.](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
+*Applies to: Insights Administrator*
 
 >[!Important]
 > Manager settings affect [organization insights](../../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web.
@@ -29,7 +29,7 @@ As an Insights Administrator, you can set up and edit **Manager settings** to al
 
 In addition to the settings you configure below, managers need to have two things before they can access organization insights in Viva Insights:
 
-* A license assigned to them by the Microsoft 365 global admin
+* A license assigned to them by the Microsoft 365 Global Administrator
 * A team that meets or exceeds the **Minimum team size** setting
 
 ### Team size

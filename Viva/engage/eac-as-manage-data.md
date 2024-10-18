@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 ---
 
-# Export data in the Viva Engage admin center
+# Export and manage Viva Engage data 
 
-## Export Data
+Engage administrators often need to export data to manage users and content in the network. This article explains the different options available to help you manage usage, compliance, and discovery.
 
-Engage administrator often need to export data to manage users and content. This article explains the different options available to help you manage usage, compliance, and discovery.
+## Export data
 
 >[!NOTE]
 >To migrate data between Viva Engage tenants, [learn about migrating content](/viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365).
@@ -33,13 +33,13 @@ Engage administrator often need to export data to manage users and content. This
 |  [**Export user and admin list**](#export-user-and-admin-list)  |  Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
 |  [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
 |  [**Export data for one user**](#export-data-for-one-user) | Pull all data related to a single user. Use this method to identify data that needs to be deleted to comply with a GDPR data subject request.|
-|  [**Automate data exports**](#automate-your-data-exports) | Automate recurring exports for compliance through the Data Export API. |
-|  [**Export Engage files with the API**](#export-large-file-volumes-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
+|  [**Automate data exports**](#automate-data-exports) | Automate recurring exports for compliance through the Data Export API. |
+|  [**Export Engage files with the API**](#export-large-volumes-of-files-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
 
 
-## Access the Data Export options
+## Access data export options
 
-Use the Data export page in the admin portal to access all data exports.
+Access all export options from the Data export page in the Engage admin portal.
 
 1. Select the **Governance and compliance** tab.
 2. Select **Data Export**.
@@ -87,6 +87,8 @@ This data export doesn't include:
 
 ## Export tenant data by date range
 
+Use this method to export data for the Viva Engage network.
+
 >[!IMPORTANT]
 >If you're on a large network (10,000 or more users) and experience time-out errors when running a network export job, we recommend that you: choose hours outside of standard operating hours to export, and limit the date range to no more than one month.
 
@@ -113,6 +115,8 @@ The data export contains the following files:
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
 | **Campaigns.csv**| A list of all campaigns on the network. **Properties include:** creation name, URL, hashtag, creation date, creator ID, and state.|
+|**EngageTopicMigrationLog.csv**|A list of topics migrated or not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_ID, migrated_at, migrated_action|
+|**EngageTopicApplicationMigrationLog.csv**|A list of topic applications not imported from Viva Topics or lightweight topics to Viva Engage. **Properties include:** Cortex_topic_id, target_id, target_type, migrated_at, migration_action|
 | **Files.csv** | A list of file attachments that were added or modified within the date range. Files.csv doesn’t contain actual files. **Properties include:** account ID, type of file, name, description, and path to the file, and metadata that includes the group it was posted in. <br> <br>If **Include attachments** was selected, only files stored in Viva Engage are exported in native format to the **Files** folder of the zip file. <br> <br>**Note**: To download files from SharePoint, use the **download_url** column. <br>If SharePoint files have no Microsoft Entra tokens, you must [create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, use [Content search in Microsoft 365](/purview/ediscovery-content-search) to find files in SharePoint for the specified date range. <br>To identify files in the **Files** folder, use **file_ID** and **path** columns. <br> <br>**Important:** When files are stored on Viva Engage and SharePoint, delete them from Viva Engage to remove metadata from both locations.    |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
 | **Messages.csv** | All messages sent or modified during the specified date range, including messages created from files (using Intelligent Importer). **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, creation and deletion information, and draft state. |
@@ -149,7 +153,7 @@ If the user is a member of multiple networks, you must export their data from ea
 2. Enter the user's name, select the user, and select **Export**. <br>     User data is exported into a .zip file that contains these files. <br>
 When the user's account activity data is ready, a message with a link to the data appears in your Viva Engage inbox.
 
-3. Select to open the link.
+3. Select the link to open.
 
 
 The data export contains the following files:
@@ -191,11 +195,11 @@ If the .zip file is corrupted and can't be unzipped, try again. If the file stil
 
 If the log.txt file shows export errors for one category of data, try again. If there are still errors, [contact Support](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## Automate your data exports
+## Automate data exports
 
 To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)<br>
 
-## Export large file volumes with the API
+## Export large volumes of files with the API
 
 Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)
 

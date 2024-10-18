@@ -58,7 +58,7 @@ These resources contain information on features of Viva Goals beyond the basics 
 |Thing you want to do  |Useful resource  |
 |---------|---------|
 |Use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
-|Use initiatives|[Initiatives](/viva/goals/projects)         |
+|Use initiatives|[Initiatives](https://support.microsoft.com/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c#bkmk_createprojec)         |
 |Integrate other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
 
 ## The OKR framework

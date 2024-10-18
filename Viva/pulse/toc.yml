@@ -31,6 +31,13 @@ items:
       href: setup-admin-access/manage-available-surveys-and-questions.md  
     - name: How users access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
+    - name: Track Viva Pulse events in the Microsoft 365 Audit Log
+      href: setup-admin-access/track-pulse-events.md
+    - name: Search Pulse content with eDiscovery
+      href: setup-admin-access/ediscovery-pulse.md
+    - name: View usage metrics with the Tenant Admin Dashboard
+      href: setup-admin-access/tenant-admin-dashboard.md
+      
 - name: Troubleshoot
   items:
     - name: Resolve setup errors

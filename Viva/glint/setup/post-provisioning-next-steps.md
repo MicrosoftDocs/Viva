@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/19/2024
+ms.date: 09/13/2024
 ---
 
 # Assign Viva Glint admins
@@ -25,13 +25,16 @@ Welcome to Microsoft Viva Glint! If you have landed on this page, you should alr
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
 
    > [!IMPORTANT]
-   > If you’re migrating from LinkedIn Glint, your M365 admin doesn’t need to assign Glint admins in MAC. Admin users are migrated to the Company Admin role as part of your technical migration to Microsoft Viva Glint.
+   > If you’re migrating from LinkedIn Glint, your M365 admin doesn’t need to assign Glint admins in the admin center. Admin users are migrated to the Company Admin role as part of your technical migration to Microsoft Viva Glint.
 
-## Assign Viva Glint admins in the Microsoft Administrator Center (MAC)
+## Assign Viva Glint admins in the Microsoft 365 admin center
 
 As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
 
-:::image type="content" source="../../media/glint/setup/glint-admins-mac.png" alt-text="Screenshot of Viva Glint in the Microsoft Admin Center.":::
+:::image type="content" source="../../media/glint/setup/glint-admins-mac.png" alt-text="Screenshot of Viva Glint in the Microsoft 365 admin center.":::
+
+> [!CAUTION]
+> Don't assign support or partner users to the Comapny Admin role in the Microsoft 365 admin center. [Add external users in the Viva Glint platform](add-external-user.md).
 
 To assign admins:
 
@@ -40,7 +43,7 @@ To assign admins:
    > [!IMPORTANT]
    > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
 
-1. Sign in to the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234). 
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234). 
 1. Go to **Settings** and select **Viva**.
 2. In the list of applications, select **Viva Glint**.
 3. Select **Assign Glint service admin** and choose **Add users**.
@@ -53,7 +56,7 @@ To assign admins:
 
 ## Ongoing Viva Glint admin additions
 
-After initial admins are assigned in the Microsoft Administrator Center, Viva Glint admins can assign and unassign users to the Company Admin role in the Viva Glint application. 
+After initial admins are assigned in the Microsoft 365 admin center, Viva Glint admins can assign and unassign users to the Company Admin role in the Viva Glint application. 
 
 In the Viva Glint app:
 

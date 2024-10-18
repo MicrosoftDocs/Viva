@@ -38,14 +38,10 @@ Items:
       href: announcements-viva-connections.md
     - name: Analytics
       href: viva-connections-analytics.md
-    - name: Overview of Viva Connections for Education
-      href: overview-viva-connections-education.md
     - name: Dashboard
       items:
       - name: Add cards to the dashboard
         href: create-dashboard.md
-      - name: Use the Web link card to integrate content
-        href: use-the-link-card.md
       - name: Create a dashboard in more than one language
         href: create-multilingual-dashboard.md
     - name: Feed
@@ -53,7 +49,7 @@ Items:
       - name: Embed videos in the Viva Connections feed
         href: video-news-links.md
       - name: Viva Connections News notifications
-        href: mobile-notifications-viva-connections.md
+        href: viva-connections-news-notifications.md
       - name: Frequently asked questions about the feed
         href: faqs-viva-connections-feed.md
   - name: Viva Connections and home sites

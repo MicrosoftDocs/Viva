@@ -1,5 +1,5 @@
 ---
-ms.date: 07/22/2024
+ms.date: 08/09/2024
 title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -82,9 +82,7 @@ We’re experimenting and rapidly iterating on the logic used:
 - **Source Priority** - Messaging from organizational news sites is ranked slightly higher than organic content from people around you.
 - **Engagement** - Ensure dynamic mix of content types within each bucket.
 
-One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep them interested and coming back regularly we’re working to strike a balance between the engaging content they want (like from sites they're a member of, or communities they follow) and the information they need (like SharePoint organizational news site and Viva Engage All Company posts). To achieve this, we don’t rely on a pure chronological ranking.  
-
-Over time, we plan on continuing to experiment with our ranking and to add new factors to the algorithm we use. We'll be moving over to a machine learning model that is optimized for user engagement while preserving the ability for organizations to lift important content that is recent to the top of users Feeds. [Learn more about the different controls that can be used to influence the rank of content](#what-are-the-available-controls-to-influence-content-in-the-feed).
+One of the primary goals of the Feed is to give content publishers a reliable means of distributing important news and information. To keep readers interested and coming back regularly we’re working to strike a balance between the engaging content they want (like from sites they're a member of, or communities they follow) and the information they need (like SharePoint organizational news site and Viva Engage All Company posts). To achieve this, we don’t rely on a pure chronological ranking.  
 
 The content in the Feed is personalized for each user based on their memberships and permissions. We always restrict what content the user sees to content they have permissions to view.  In addition to any org-wide memberships, we’ll include content from SharePoint sites and Viva Engage communities the user is optionally a member of.  The goal of having a fresh, dynamic, and engaging Feed to keep them coming back.
 
@@ -99,7 +97,7 @@ If you’re not seeing any content in your feed, it could be because of a few re
 
 ## What are the available controls to influence content in the Feed?
 
-There’s no configuration required to get the Feed working. For the current release, customers have the ability to impact content placement in the Feed by targeting content, or by promoting it.
+There’s no configuration required to get the Feed working. For the current release, customers can impact content placement in the Feed by targeting content to audiences, or by promoting it.
 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Viva Engage communities that you’d like seen by the entire organization.
@@ -109,7 +107,7 @@ For SharePoint news, more filtering is available through [audience targeting](ht
 
 In Viva Engage, moderators of the All-Company community can Feature a post to indicate it’s significant and increase visibility within the organization. Featured posts from Viva Engage are treated as important by our ranking algorithm. For communities that you're a member of, communication managers can also [create Announcements within those communities](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-viva-engage-4b30c7e0-f915-4c69-9582-ccbbd09a516b), which will also be treated as important by our ranking algorithm.
 
-For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of people. Examples might be employees in a specific department, region, building, or title. This is done by enabling audience targeting on the site where content is being published, then using Microsoft Entra groups to define the target audience. However, if audience targeting isn't applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed. News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’. As a result, that content is artificially pushed to the top of the feed. [Learn more about audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections).
+For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of people. Examples might be employees in a specific department, region, building, or title. This is done by enabling audience targeting on the site where content is being published, then using [Microsoft Entra](/entra/fundamentals/what-is-entra) groups to define the target audience. However, if audience targeting isn't applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed. News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’. As a result, that content is artificially pushed to the top of the feed. [Learn more about audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections).
 
 ## What actions can viewers take on the Feed?
 

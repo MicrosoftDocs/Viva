@@ -2,9 +2,9 @@
 ms.date: 02/28/2024
 title: Manage members of a Microsoft 365 group-connected team in Viva Goals
 ms.reviewer: 
-ms.author: v-nstockwell
-author: DefinitelyNotNitza
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,9 +39,6 @@ Team owners and admins can add members to teams in Viva Goals, whether those tea
 
     ![Screenshot that shows a view of the Add members to TEAM dialog.](..\media\goals\viva-goals-teams\add-members-but-create-team-somehow.png)
 
-> [!NOTE]
-> If you add a group to the team, only the group's current members will be added to the team. Members who join the group later will not also be added to the team.
-
 ## Make a team member a team owner or remove a team member from the team
 
 1. Go to the team's OKRs page. Select the three dots in the top right and choose **Team members**. This will take you to the Team Members page.
@@ -52,4 +49,4 @@ Team owners and admins can add members to teams in Viva Goals, whether those tea
 
 1. To remove the team member from the team, select the **X** icon next to that member. They will also be removed from the associated Microsoft 365 group.
 
-![Screenshot that shows a view of the team members page, with the Role dropdown for a certain member expanded.](..\media\goals\viva-goals-teams\change-member-role.png)
+   ![Screenshot that shows a view of the team members page, with the Role dropdown for a certain member expanded.](..\media\goals\viva-goals-teams\change-member-role.png)

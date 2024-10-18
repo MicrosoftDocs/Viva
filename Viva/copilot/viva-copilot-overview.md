@@ -8,7 +8,7 @@ ms.date: 4/23/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: overview
+ms.topic: solution-overview
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
@@ -26,7 +26,7 @@ description: "Learn about Copilot in Microsoft Viva."
 
 # Introduction to Copilot in Viva
 
-Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Each Viva app Copilot has unique AI-powered features and capabilities. [Learn how to manage access to Copilot in Viva from your Microsoft 365 admin center](copilot-access-management.md).
+Microsoft 365 Copilot is an AI assistant that uses the power of large language models to help you streamline work, amplify creativity, and boost productivity. Microsoft 365 Copilot in each Viva app has unique AI-powered features and capabilities. [Learn how to manage access to Copilot in Viva from your Microsoft 365 admin center](copilot-access-management.md).
 
 ## Copilot in Viva Engage
 
@@ -40,7 +40,7 @@ Copilot in Viva Goals applies AI to create, share, and summarize your organizati
 
 [Learn more about Copilot in Viva Goals.](../goals/copilot-intro.md)
 
-## Microsoft 365 Copilot Dashboard in Viva Insights
+## Microsoft Copilot Dashboard in Viva Insights
 
 > [!NOTE]
 > The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required.
@@ -50,4 +50,4 @@ Copilot in Viva Goals applies AI to create, share, and summarize your organizati
 
 The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. The dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
-[Learn more about the Microsoft 365 Copilot Dashboard.](../insights/org-team-insights/copilot-dashboard.md)
+[Learn more about the Microsoft Copilot Dashboard.](../insights/org-team-insights/copilot-dashboard.md)

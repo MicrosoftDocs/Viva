@@ -1,5 +1,5 @@
 ---
-ms.date: 01/06/2023
+ms.date: 09/30/2024
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
 author: zachminers
@@ -22,9 +22,9 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
-Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find about team meeting habits on the [Productivity](../personal/teams/productivity.md) tab
+Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find about team meeting habits on the [Productivity](../personal/teams/productivity.md) tab.
 
-Throughout this document, we'll link you to where you can find more detailed information.
+Throughout this document, we'll link to more detailed information.
 
 ## About team data and data privacy
 
@@ -89,4 +89,25 @@ You'll find insights about your team meeting habits on the **Productivity** tab.
 
 ### Shared plans
 
-To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. 
+To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab.
+
+### 1:1 time with direct reports
+
+>[!Note]
+>This card provides insights regardless of your minimum group size setting, even if you only have one direct report. This card's insights are based on data from Microsoft Entra ID, and do *not* reflect data from any organizational data file uploads.
+
+Learn when your last 1:1 was and when the next one is scheduled. You can also easily schedule 1:1 time if there isn’t an upcoming block.
+
+### Quiet hours impact
+
+Learn about your collaboration activities with your team during their non-working hours. For example, these insights let you know how often you had meetings or sent chats and emails during your team's non-working hours. [Learn more about quiet time in Viva Insights](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143).
+
+## FAQ
+
+**Can a manager have access to both personal insights for the manager and organizational insights for the manager?**
+
+Yes.
+
+**How are direct reports determined?**
+
+Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Azure Active Directory, to determine who should be included in your "team."

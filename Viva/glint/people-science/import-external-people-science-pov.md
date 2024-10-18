@@ -3,7 +3,7 @@ title: Consider People Science factors for historical imports
 description: There are several strategic factors to consider before you review the technical criteria of historical imports.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Advanced configuration, external import, historical response data, historical import
@@ -13,8 +13,8 @@ ms.collection:
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
-ms.localizationpriority: high pri
-ms.date: 09/07/2023
+ms.localizationpriority: high
+ms.date: 09/04/2024
 ---
 
 # Consider People Science factors for historical imports

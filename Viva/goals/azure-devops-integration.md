@@ -48,7 +48,7 @@ There are three ways to use the Azure DevOps integration with Viva Goals workflo
 
 ## How to set up Azure DevOps Integration  
 
-The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Organization admin. Global admins must first enable the Azure DevOps integration for their tenant ([Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md)). Once enabled at the tenant level, a Viva Goals Organization admin must then enable it for their org ([Viva Goals Integrations Administration Overview](vg-integrations-administration-overview.md).)
+The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Organization admin. Viva Goals admins must first enable the Azure DevOps integration for their tenant ([Enable Integrations in Viva Goals | Microsoft Learn](vg-integrations-administration-overview.md)). Once enabled at the tenant level, a Viva Goals Organization admin must then enable it for their org ([Viva Goals Integrations Administration Overview](vg-integrations-administration-overview.md).)
 
 > [!NOTE]
 > Once enabled, any user in the organization who has permissions to create/edit an OKR and/or initiative can set up integration between Viva Goals and Azure DevOps! 

@@ -1,5 +1,5 @@
 ---
-ms.date: 06/20/2024
+ms.date: 10/11/2024
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -9,6 +9,7 @@ ms.collection:
 - viva-insights-leader
 - highpri
 - essentials-overview
+- essentials-navigation
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -33,7 +34,7 @@ Viva Insights includes insights for your employees, managers, and leaders:
 - **[Team insights](/viva/insights/org-team-insights/team-insights)** for managers give much-needed visibility into work habits that might lead to burnout and stress. These habits include regular after-hours work, meeting overload, or too little focus time. Team members can use these insights to help their teams strike a balance between productivity and wellbeing. They can also learn how their habits impact their team while getting suggestions on how to foster team culture.
 - **[Organization insights](/viva/insights/org-team-insights/org-insights)** help managers and business leaders see how their work culture is affecting aspects of employee wellbeing and productivity. They can use the recommendations on insights and report pages to see opportunities where a change could improve their business outcomes.
 - **[Advanced insights](/viva/insights/advanced/introduction-to-advanced-insights)**  help business leaders address critical questions about organizational resiliency and work culture, with insight into how work impacts their people and their business. Leaders can see opportunities where a change in process could improve business outcomes and take steps to protect employee wellbeing.
-- **[Copilot dashboard](/viva/insights/org-team-insights/copilot-dashboard)** helps organizations maximize the value of Copilot for Microsoft 365. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
+- **[Copilot dashboard](/viva/insights/org-team-insights/copilot-dashboard)** helps organizations maximize the value of Microsoft 365 Copilot. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. [Learn more about the Copilot dashboard](/Viva/insights/org-team-insights/copilot-dashboard).
 
 

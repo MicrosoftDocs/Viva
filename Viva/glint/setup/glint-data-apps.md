@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/30/2024
+ms.date: 09/06/2024
 ---
 
 # Use Advanced Configuration Data Apps
@@ -65,8 +65,15 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
 
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
-   1. Delete data in all columns except for First Name, Last Name, Email, Employee ID, Status, and the Manager ID attribute.
-   2. Delete columns that Viva Glint derives (like Age Group or Tenure). To confirm which attributes are derived go to **Configuration** and choose **People**. In the **Actions** menu, select **Manage User Attributes** and go to the **Derived Attributes** section.
+   1. Delete all columns except for:
+      1. First Name
+      3. Last Name
+      4. Email
+      5. Employee ID
+      6. Status
+      7. Manager ID
+      8. All date fields, like Hire and Term Date.
+      9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section. 
    1. Correct values for users that should have their Manager ID updated.
    1. Save your edited file with corrected values as a .csv or .xlsx file.
 1. Go to **Configuration** and select **People** and choose the **Import** option.
@@ -81,20 +88,21 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       > [!IMPORTANT]
       > If uploads aren't confirmed within 60 minutes, they expire and don't process.
       
-1. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/import-members-distribution-lists) that are part of the retroactive update.
-2. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
+1. After the import completes successfully, use the **Export** option on the **People** page to confirm that Manager Hierarchy levels and teams are updated as expected.
+2. [Create a Distribution List](/viva/glint/setup/set-up-distribution-lists) and [import all users](/viva/glint/setup/import-members-distribution-lists) that are part of the retroactive update.
+3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
-   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 5.
+   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
    1. **attributeName:**  Select **Load Values** and choose your Manager ID attribute. 
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
 1. Select parameters to update the overall Manager Hierarchy:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
-   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 5.
+   1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
    1. **attributeName:**  Select **Load Values** and choose **(hierarchy) Manager**.
    1. **reloadAnalytics:** Switch toggle to **On**.
    1. Select **Execute, and show first 500 log records**.    

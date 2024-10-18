@@ -26,8 +26,8 @@ search.appverid:
 To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.
 
 >[!NOTE]
->No Viva Engage licenses are required for admins to configure Viva Engage (core or premium).
-Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators (also called Yammer administrators in Microsoft Entra ID) are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+>A Viva Engage license isn't required for an admin to configure Viva Engage (core or premium).
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage Admin center, or legacy network admin center.
 Other Viva Engage admin roles can also administer premium features without being assigned a premium license.
 
 *Select a role in the table to learn more about it.*
@@ -35,7 +35,7 @@ Other Viva Engage admin roles can also administer premium features without being
 |Admin role|Business function|
 |------------|----------------|
 |[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)| Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
-|[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance |
+|[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance. This role is also referred to as *Yammer administrator* in Microsoft Entra ID.  |
 |[Verified Administrator](#verified-administrator)| Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. |
 |[Network Administrator](#network-administrator)| Configures the Viva Engage network|
 |[Answers Administrator](#answers-administrator)| Configures Answers in Viva Engage, manages topics, and enables badges |
@@ -94,7 +94,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>[Set up, configure, and enable Answers](/viva/engage/eac-answers-overview-set-up) in Viva Engage</li><li>Delete and close Answers posts<li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
+|**Permissions** |<ul><li>Manage Answers in Viva Engage. (For details, see [list of permissions.](/viva/engage/eac-answers-admin-scenarios#permissions))</li><li>[Manage topics](/microsoft-365/topics/topic-experiences-viva-engage) in Answers</li><li>Manage badges</li><li>View global insights</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator|
 |**How to assign**|Assign a [Knowledge Manager role in Microsoft Entra ID](/entra/identity/role-based-access-control/permissions-reference)</li></ul>|
 
@@ -102,7 +102,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Send announcements</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>Create and manage official campaigns:<ul><li>Publish draft campaigns to Active and viewable to the network</li><li>Set Active campaigns to Ended</li><li>Republish recurring campaigns from **Ended** to **Active**</li><li>Delete campaigns created by mistake</li><li>Update campaign assets (such as goal tracker, cover photo, hashtag theme colors, pinned posts, pinned resources and links</li><li>View campaign analytics</li></ul>|
+|**Permissions** |<ul><li>Send announcements</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>[Feature conversations](https://support.microsoft.com/en-us/office/feature-a-conversation-in-viva-engage-92469ece-8a63-424f-9ad6-802ad90fc5c4)</li><li>Create and manage official campaigns:<ul><li>Publish draft campaigns to Active and viewable to the network</li><li>Set Active campaigns to Ended</li><li>Republish recurring campaigns from **Ended** to **Active**</li><li>Delete campaigns created by mistake</li><li>Update campaign assets (such as goal tracker, cover photo, hashtag theme colors, pinned posts, pinned resources and links</li><li>View campaign analytics</li></ul>|
 |**Who can assign**|Engage admin|
 |**How to assign**|In the Viva Engage admin center, on the **Setup and configuration** tab, select **Manage corporate communicators**. Select **Add user** to search for a user by name or email ID. Assignees appear in the list of active corporate communicators in your organization.|
 

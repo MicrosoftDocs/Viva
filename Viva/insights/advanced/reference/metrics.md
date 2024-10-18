@@ -1,5 +1,5 @@
 ---
-ms.date: 1/17/2024
+ms.date: 10/16/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -8,7 +8,12 @@ ms.topic: article
 ms.localizationpriority: medium 
 manager: helayne
 audience: Admin
-ms.collection: viva-insights-advanced 
+ms.collection: 
+- viva-insights-personal
+- essentials-manage
+- viva-copilot
+- magic-ai-copilot
+- viva-insights-advanced
 ms.service: viva-insights
 search.appverid: 
 - MET150 
@@ -18,6 +23,8 @@ search.appverid:
 # Advanced insights metrics
 
 When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
+
+## Metrics and definitions
 
 | Category | Name | Description | Data type |
 |---|---|---|---|
@@ -43,7 +50,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="call-hours-define"></a>  Call hours | Number of hours a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
 | | <a name="unscheduled-call-hours-define"></a> Unscheduled call hours | Number of hours a person spent in unscheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
 | | <a name="scheduled-call-hours-define"></a>  Scheduled call hours | Number of hours a person spent in scheduled Teams calls with at least one other person, during and outside of working hours. | Hour |
-| | <a name="multitasking-hours-define"></a> Multitasking hours | Number of hours a person spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or a Teams call. | Hour |
+| | <a name="multitasking-hours-define"></a> Multitasking hours | Number of hours a person spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or Teams call. (Messages sent in the chat of the meeting/Teams call are excluded.)  | Hour |
 | | <a name="emails-sent-define"></a> Emails sent | Number of emails a person sent. | Count |
 | | <a name="meetings-define"></a>  Meetings | Number of meetings a person attended. | Count |
 | | <a name="chats-sent-define"></a>  Chats sent | Number of Teams chats a person sent. | Count |
@@ -96,7 +103,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 || External network size|The number of people external to the company with whom a person had a reciprocal interaction in a four-week span. A reciprocal interaction occurs between A & B when both A has reached out to B and B has reached out to A.|Score
 || Influence rank| An employee’s potential influence on opinions of the network. It measures how well connected a person is to other well-connected individuals. The closer the rank is to 1, the higher the person’s rank or network influence score. If two people have the same influence score, they also have the same influence rank. (A person’s influence score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)
 ||Influence score|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)|Rank
-||Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks.|Count |
+||Internal network size| Number of people within the organization with whom a person has had at least one reciprocal interaction with during the calendar month. |Count |
 ||Network outside company|The number of distinct external domains outside the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Network outside organization|The number of distinct internal organizational units within the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Strong ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) and who are also connected to many of that person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) |Count 
@@ -176,11 +183,62 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="working-hours-scheduled-call-hours-define"></a> Working-hours scheduled call hours | Number of hours a person spent in scheduled Teams calls, during working hours. | Hour |
 | | <a name="working-hours-unscheduled-call-hours-define"></a> Working-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, during working hours. | Hour |
 
-
-
 > [!NOTE]
 > In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Advanced insights app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
+## Microsoft 365 Copilot metrics
+
+These metrics provide insights around how employees are using Microsoft 365 Copilot with Microsoft 365 apps.
+
+>[!Note]
+>"NULL" values in analyst query results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
+
+| Metric | Description | Date from when the data is available and the customers can view |
+|---|---|---|
+| Summarize meeting actions taken using Copilot in Teams | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
+| Total meetings summarized by Copilot in Teams |  The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap.  | 10/15/2023 |
+| Summarize chat actions taken using Copilot in Teams | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
+| Total chat conversations summarized by Copilot in Teams | The number of chat and channel message drafts created in Teams using Copilot. | 12/18/2023 |
+| Summarize email thread actions taken using Copilot in Outlook | Number of times users summarized email conversations with Copilot.  | 11/15/2023 |
+| Draft Word document actions taken using Copilot | The number of times users drafted Word documents using Copilot. | 10/15/2023 | 
+| Summarize Word document actions taken using Copilot in Word |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
+|  Create presentation actions taken using Copilot  | The number of times users created PowerPoint presentations using Copilot. | 10/15/2023 |
+|  Summarize presentation actions taken using Copilot in PowerPoint  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
+| Meeting hours summarized by Copilot in Teams | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 12/18/2023 |
+| Compose chat message actions taken using Copilot in Teams | The number of chat and channel message drafts created in Teams using Copilot. | 10/15/2023 |
+| Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
+|  Generate email draft actions taken using Copilot in Outlook | The number of times users generated email drafts using Copilot. | 11/15/2023 |
+|  Email coaching actions taken using Copilot  | The number of times users selected coaching by Copilot in Outlook. | 11/15/2023 |
+| Total emails sent using Copilot in Outlook | The number of emails sent with assistance from Copilot. | 11/15/2023  |
+|  Excel analysis actions taken using Copilot  | The number of times users analyzed data to show insights as charts, PivotTable objects, summaries, trends, or outliers in Excel using Copilot.  | 10/15/2023 |
+| Create Excel formula actions taken using Copilot | The number of times users generated new columns with formulas based on Excel data using Copilot. | 10/15/2023 | 
+| Excel formatting actions taken using Copilot | The number of times users highlighted, sorted, and filtered tables in Excel using Copilot.  | 10/15/2023 | 
+| Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
+| Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook. | 10/15/2023 |
+| Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint. | 10/15/2023 |
+| Copilot actions taken in Teams  | The number of Coplot actions completed by active Copilot users in Teams. This number includes the number of times users reviewed Intelligent recaps in Teams. | 10/15/2023 |
+| Copilot actions taken in Word  |  The number of Copilot actions completed by active Copilot users in Word.| 10/15/2023 |
+|  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
+| Days of active Copilot usage in Excel | The number of days the user was actively using Copilot in Excel.  | 10/15/2023 |
+| Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop. | 10/15/2023 |
+|  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
+|  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
+| Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
+|  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
+| Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
+|  Days of active Business Chat (work) usage  |  The number of days the user was actively using Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
+| Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). | 10/15/2023 |
+| Copilot assisted hours | The estimated number of hours users were assisted by using Copilot. [Learn more about this metric calculation](../../org-team-insights/copilot-dashboard.md#details-on-the-copilot-assisted-hours-metric).  | 10/15/2023 |
+| Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
+| Total Copilot enabled days  | The number of days the user had at least one service plan for Copilot enabled. | 10/15/2023 |
+| Business Chat (work) enabled days |  The number of days the user had Business Chat (work), formerly called Copilot Chat (work), enabled. | 10/15/2023 |
+| Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Microsoft 365 Copilot enabled. | 10/15/2023 |
+| Copilot enabled days for Productivity App  | The number of days the user had Microsoft 365 Copilot enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
+| Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Microsoft 365 Copilot enabled.  | 10/15/2023 |
+| Copilot enabled days for Teams  | The number of days the user had Microsoft 365 Copilot enabled within Microsoft Teams. | 10/15/2023 |
+
+>[!Note]
+>The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Copilot actions taken in Teams" might return a figure that's larger than the sum of the metrics representing the actions employees can take with Copilot in Teams, such as "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
 
 ## Exported metrics
 

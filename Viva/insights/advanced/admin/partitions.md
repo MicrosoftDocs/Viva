@@ -1,5 +1,5 @@
 ---
-ms.date: 01/08/2024
+ms.date: 10/02/2024
 title: Partitions in Viva Insights
 description: Learn how to create analyst workspaces in the advanced insights app.
 author: zachminers
@@ -27,7 +27,7 @@ Or maybe you create a bucket just for employees in your company’s US offices. 
 
 Also, you might choose to assign a few analysts to the reservoir (the global partition). These analysts can access your entire company’s dataset, see all data, and run queries on all employees in the organization. We go into more detail about the global partition later on in this article.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda2]
+> [!VIDEO 507adcbc-e1a7-4ea8-8396-5433a8e88b35]
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 

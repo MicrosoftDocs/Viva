@@ -2,9 +2,9 @@
 ms.date: 02/21/2023
 title: Teams provisioning using groups 
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,7 +24,7 @@ description: "Add members to their respective teams using Microsoft Entra group 
 
 Viva Goals allows team owners and team admins to add members to their respective teams using Microsoft Entra groups. This feature gives the ability to add many members to a team quickly and easily.
 
-Admins and owners can add up to five groups to a team as members. For example, admins and owners can add mail enabled security groups, mail enabled nested groups, distribution lists and dynamic Microsoft Entra groups to teams as members. Currently, Microsoft 365 Groups aren't supported for this feature.   For more information, see the [FAQ section](/viva/goals/teams-provisioning#faqs-frequently-asked-questions).
+Admins and owners can add up to five groups to a team as members. For example, admins and owners can add mail enabled security groups, mail enabled nested groups, distribution lists, and dynamic Microsoft Entra groups to teams as members. Currently, Microsoft 365 Groups aren't supported for this feature.   For more information, see the [FAQ section](/viva/goals/teams-provisioning#faqs-frequently-asked-questions).
 
 ## How to add groups to Viva Goals teams
 Members can be added to teams as the team is created or after the team is created by adding members.
@@ -39,7 +39,7 @@ Members can be added to teams as the team is created or after the team is create
     1. If required, select the parent team from the drop-down.
     1. If required, add a description for the team.
     1. Select Create.
-1. The ‘Team created successfully’ page appears. When the user clicks Next, they are be taken to the add members’ page.
+1. The ‘Team created successfully’ page appears. When the user selects Next, they're taken to the add members page.
 1. In the team members’ field, search for the groups or individual members you want to add to the team.
 6. Select ‘Add’ to add these groups or individual members to the team.
 
@@ -78,4 +78,4 @@ Members can be added to teams as the team is created or after the team is create
     1. When a group is removed from a team, all members of the group lose access to the team. However, this group continues to be a part of the organization and members of the group continue to have access to the organization. 
 
 6. **What happens when I remove a group, that has been added to a team, from the organization?**
-    1. When a group that is added to a team is removed from the organization, the members of that group lose access to this team as well as any other teams where this group was added and the organization itself.
+    1. When a group that is added to a team is removed from the organization, the members of that group lose access to this team and any other teams where this group was added and the organization itself.

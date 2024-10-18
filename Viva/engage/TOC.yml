@@ -3,7 +3,9 @@
    href: overview.md   
    items:
    - name: Get started with Viva Engage
-     items:    
+     items:
+     - name: Plan your Viva Engage launch strategy
+       href: engage-launch-strategy.md
      - name: Set up Viva Engage
        href: setup.md
      - name: Deep linking into Viva Engage
@@ -11,11 +13,13 @@
    - name: Copilot in Viva Engage
      items:
      - name: Set up Copilot in Viva Engage
-       href: configure-copilot-for-engage.md 
+       href: configure-copilot-for-engage.md
+     - name: AI Summarization in Viva Engage
+       href: /viva/engage/engage-ai-summarization
+     - name: Start a Microsoft 365 Copilot adoption community
+       href: /viva/engage/engage-365-copilot-adoption-platform
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
-     - name: Support Microsoft Copilot 365 adoption in your organization
-       href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
      - name: Viva Engage admin center overview 
@@ -36,17 +40,17 @@
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
         - name: Setup requirements for Native Mode
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
-        - name: Native Mode step-by-step guide
+        - name: Step-by-step guide for Native Mode
           href: native-mode-guide.md
         - name: Consolidate multiple networks
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
-        - name: Multitenant organization
-          href: /viva/engage/mto-setup
-        - name: Non-Native and hybrid network upgrades
-          href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
         - name: Manage domains in Microsoft 365
           href: /viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains
-        - name: Configure email
+        - name: Set up Viva Engage for a multitenant organization
+          href: /viva/engage/mto-setup
+        - name: Upgrades for non-Native and hybrid networks
+          href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
+        - name: Configure email for the network
           href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
         - name: Customize the look of your network
           href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
@@ -54,18 +58,20 @@
           href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
         - name: File storage for Viva Engage
           href: /viva/engage/get-started-with-viva-engage/file-storage
-     - name: Manage Viva Engage groups
+     - name: Manage Viva Engage communities
        items:
         - name: Viva Engage and Microsoft 365 groups
           href: engage-microsoft-365-groups.md
+        - name: Create a dynamic group
+          href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
         - name: Customize your community
           href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Work with Microsoft Entra B2B guests
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
-        - name: Create a dynamic group
-          href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
         - name: All Company communities
           href: /viva/engage/manage-viva-engage-groups/all-company-community
+        - name: Restrict All Company posts
+          href: /viva/engage/manage-viva-engage-groups/restrict-all-company-posts
      - name: Manage Viva Engage users
        items:
         - name: Set up a usage policy
@@ -76,6 +82,8 @@
           href: /viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in
         - name: Add, block, or remove users
           href: /viva/engage/manage-viva-engage-users/add-block-or-remove-users
+        - name: Reduce visibility of a user's posts
+          href: /viva/engage/work-with-external-users/mute-user-in-network
      - name: Work with external users
        items:
         - name: Work with external groups not aligned to Native Mode
@@ -137,12 +145,10 @@
       - name: Enable rich text formatting
         href: /viva/engage/get-started-with-viva-engage/rich-text-formatting
       - name: Enable conversation reporting 
-        href: report-conversation-overview.md    
-      - name: View and manage analytics 
-        href: analytics.md  
+        href: report-conversation-overview.md     
       - name: Answers in Viva
         items:   
-        - name: Set up Answers in Viva Engage
+        - name: Set up Answers in Viva
           href: eac-answers-overview-set-up.md
         - name: Admin scenarios for Answers
           href: eac-answers-admin-scenarios.md
@@ -150,13 +156,26 @@
           href: eac-answers-faq.md
         - name: Import questions-and-answer pairs to communities 
           href: eac-answers-importer.md
-      - name: Integration with Microsoft apps
-        items:   
-        - name: Integrate Viva Engage with other applications
-          href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
-        - name: Social experience options in SharePoint enterprise
-          href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-        - name: Add Viva Engage feed to a SharePoint page
-          href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
-        - name: Viva Engage and Microsoft Defender
-          href: /viva/engage/viva-engage-and-defender
+   - name: Analyze engagement
+     items:
+      - name: View and manage analytics 
+        href: analytics.md 
+      - name: Benchmarks in analytics
+        href: benchmarking.md
+      - name: Measure employee retention in Viva Engage
+        href: employee-retention-metric.md
+   - name: Integrate with Microsoft apps
+     items:   
+      - name: Integrate Viva Engage with other applications
+        href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
+      - name: Viva Engage and Microsoft Defender
+        href: /viva/engage/viva-engage-and-defender
+      - name: Social experience options in SharePoint 
+        href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
+      - name: Add a feed to a SharePoint page
+        href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
+      - name: Migrate your classic feeds in SharePoint 
+        href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-to-conversations-webparts
+      - name: Migrate your classic Embed feeds in HTML apps
+        href: /viva/engage/integrate-viva-engage-with-other-apps/migrate-classic-yammer-embed-to-engage
+

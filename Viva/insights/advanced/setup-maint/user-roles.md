@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 09/30/2024
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
 author: zachminers
@@ -20,9 +20,12 @@ Certain roles need the correct level of access to specific product areas to perf
 
 Each role only gives access to actions, pages, reports, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and don't roll up.
 
+>[!Important]
+>Early next year, the **Business Leader** role will no longer be available. At that point, people who previously had this role won’t be able to access organizational insights. Employees with delegate access, however, will be able to view organizational insights. [Learn more about how delegate access works](..//..//org-team-insights/delegate-access.md). 
+
 ## Inherited roles
 
-Users with the **Global Admin** role in Microsoft Entra ID automatically inherit Insights Administrator privileges.
+Users with the **Microsoft 365 Global Administrator** role in Microsoft Entra ID automatically inherit Insights Administrator privileges.
 
 ## Role descriptions and access levels
 

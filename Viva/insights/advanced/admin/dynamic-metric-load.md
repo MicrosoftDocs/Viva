@@ -14,7 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Export Viva Insights data using MGDC
+# Export Viva Insights data using MGDC (preview)
 
 >[!Note]
 >This feature is for public preview customers. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
@@ -27,7 +27,7 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure portal](https://portal.azure.com). Under **Azure services**, select **Microsoft Entra ID**, then find the **Tenant ID** on the **Overview** page.
 1. The [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator) will need to assign the relevant roles for the steps below, if they are not already assigned.
 
-### Process overview
+## Process overview
 
 | Task | Role | Resources required |
 |---|---|---|
@@ -46,17 +46,17 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 >[!Note]
 >When you export Viva Insights data using MGDC, you won’t incur any additional fees unless you exceed the monthly egress data limit. Each month, you can export data for an analyzed population of up to 20 times your Viva Insights license count. For each license, you can include an employee in up to 20 queries. For example, in a tenant with 100 licenses: <br><br /> • You can export 20 queries, each with data from 100 unique employees. <br><br /> • Or, you can export 40 queries, each with data from 50 unique employees. <br> <br /> • Or, you can export 10 queries with data from 150 unique employees each and five queries with 100 unique employees each. <br><br /> If your tenant exceeds the monthly limit, Microsoft may contact you to review your current needs. These specific limits described are subject to change.
 
-## Steps
+### Steps
 
 <a name='1-create-azure-active-directory-application'></a>
 
-### 1. Create Microsoft Entra Application
+## 1. Create Microsoft Entra Application
 
 *Applies to: [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) or [Application Developer](/azure/active-directory/roles/permissions-reference#application-developer)*
 
 Follow steps 1-10 outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=2) to create your app service principal. Be sure to store the app secret to use in a later step in this process.
 
-### 2. Provision Storage Account
+## 2. Provision Storage Account
 
 *Applies to: Application Administrator or Application Developer*
 
@@ -70,7 +70,7 @@ After you've followed the steps above and your Storage account is set up:
 
 2. Clear **Enable soft delete for blobs** and **Enable soft delete for containers** and select **Save**.
 
-### 3. Provision Key vault and store client secret
+## 3. Provision Key vault and store client secret
 
 *Applies to: Application Administrator or Application Developer*
 
@@ -100,7 +100,7 @@ After you've followed the steps above and your Storage account is set up:
 
 6. Select **Create**.
 
-### 4. Enable MGDC for tenant
+## 4. Enable MGDC for tenant
 
 *Applies to: Global Administrator*
 
@@ -124,7 +124,7 @@ If you have already enabled MGDC, you will need to:
 1. Refresh the page.
 1. Follow steps 3-5 above.
 
-### 5. Mark a Viva Insights query for export
+## 5. Mark a Viva Insights query for export
 *Applies to: [Insights Analyst](../../advanced/setup-maint/user-roles.md)*
 > [!IMPORTANT]
 > Make sure you have the correct Insights Analyst role. Previous users of the legacy Workplace Analytics platform might have the "Analyst" role. To complete this process, you need the "Insights Analyst" role. Use [these steps](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) to enable the Insights Analyst role.
@@ -138,7 +138,7 @@ If you have already enabled MGDC, you will need to:
 
 5. Select **Export to Azure**.
 
-### 6. Register MGDC application
+## 6. Register MGDC application
 
 *Applies to: [Microsoft Entra Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
 
@@ -159,7 +159,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 > [!NOTE]
 > If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
-### 7. Consent to application/dataset
+## 7. Consent to application/dataset
 
 *Applies to: Global Administrator (App approver must be different from the app developer)*
 
@@ -174,13 +174,13 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
    :::image type="content" source="../images/dynamic-metric-load-step0702b.png" lightbox="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
 
-### 8. Deploy ARM template
+## 8. Deploy ARM template
 
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
 Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline. Use [these steps](/microsoft-365/enterprise/m365-dr-workload-other) to select your region.
 
-### 9. Execute pipeline
+## 9. Execute pipeline
 
 *Applies to: Application Administrator or Application Developer*
 
@@ -204,7 +204,7 @@ Use [these steps](/graph/data-connect-templates-overview) to generate a quick st
 
    :::image type="content" source="../images/dynamic-metric-load-step0903b.png" lightbox="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
 
-### 10. Find the output of your extraction
+## 10. Find the output of your extraction
 
 *Applies to: Application Administrator or Application Developer*
 

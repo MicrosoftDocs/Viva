@@ -39,6 +39,8 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 
 Campaigns are stored in the associated users' OneDrive for Business. Therefore, users need to have OneDrive for Business in place to be able to create campaigns in Viva Amplify. [Learn how to set up OneDrive for your organization](/microsoft-365/admin/setup/set-up-file-storage-and-sharing).
 
+Campaigns require an Exchange mailbox. Users therefore need to have Exchange set up in order to create campaigns.
+
 ## Product limitations
 
 - **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
@@ -47,7 +49,7 @@ Campaigns are stored in the associated users' OneDrive for Business. Therefore, 
 ### Assign admin roles
 
 >[!IMPORTANT]
->Users need both SharePoint admin and Groups admin roles to be able to manage settings in Viva Amplify.
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in the admin center for Viva Amplify. These permissions are only required for managing settings in the admin center, and are not required for users to create campaigns and publications.
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
@@ -83,9 +85,6 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 ## Manage organizational data
 
->[!NOTE]
->This capability is currently only available for private preview customers. General availability is coming soon.
-
 Amplify provides reporting data for metrics such as read rates on emails, view rates on SharePoint pages, interactions with Teams posts, and more. Importing your organizational data can enhance your Amplify reports by giving you further insight into use and impact.
 
 Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and fills in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
@@ -116,11 +115,11 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 1. If you only want specific people or groups to be able to create campaigns, choose **Only selected people or security groups.** Type a name or email address to add a person or group.
 
->[!NOTE]
->If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
+   >[!NOTE]
+   >If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
->[!IMPORTANT]
->Users who you want to be able to create campaigns need to have **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/sharepoint/manage-site-creation)
+   >[!IMPORTANT]
+   >Users who you want to be able to create campaigns need to have **Group creation** permissions in Microsoft 365. [Learn how to manage group creation.](/microsoft-365/solutions/manage-creation-of-groups)
 
 ## Manage campaigns in the SharePoint admin center
 

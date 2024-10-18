@@ -56,7 +56,7 @@ Jira Server and Jira Data Center enable automatic tracking of key result and ini
 
 ## Install and set up Microsoft Viva Goals for Jira from the Atlassian Marketplace
 
-1. As a Jira Server or Data Center administrator, search for the **Microsoft Viva Goals for Jira** app from the **Find new Apps** page in Jira. <!--Editor's Note: Name of page not fact-checked.-->
+1. As a Jira Server or Data Center administrator, search for the **Microsoft Viva Goals for Jira** app from the **Find new Apps** page in Jira.
 
 1. Select **Install** next to Microsoft Viva Goals for Jira and follow the steps in the "confirm app installation" popup.
 

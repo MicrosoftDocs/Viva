@@ -17,6 +17,7 @@ ms.collection:
 - highpri
 - tier1
 - viva-copilot
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: Control who can access Copilot in Microsoft Viva
@@ -26,10 +27,10 @@ description: Control who can access Copilot in Microsoft Viva
 
 > [!NOTE]
 > This feature is currently rolling out to customers.
-> 
+>
 > Access management through the UI is not yet available for all Viva apps.
 
-You can control which users in your organization have access to Copilot in each applicable Viva app. You can turn access on or off for everybody, or choose specific people or groups to give access to. If you want to learn how to control access to other Viva features, see [feature access management](../feature-access-management.md).
+You can control which users in your organization have access to Microsoft 365 Copilot in each applicable Viva app. You can turn access on or off for everybody, or choose specific people or groups to give access to. If you want to learn how to control access to other Viva features, see [feature access management](../feature-access-management.md).
 
 ## Turn Copilot access on or off for everyone in your organization
 

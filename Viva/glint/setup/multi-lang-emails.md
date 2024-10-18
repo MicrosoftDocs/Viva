@@ -1,5 +1,5 @@
 ---
-title: Use multiple languages in Viva Glint survey emails (preview)
+title: Use multiple languages in Viva Glint survey emails
 description: To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -14,14 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 09/26/2024
 ---
 
-# Use multiple languages in Viva Glint survey emails (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+# Use multiple languages in Viva Glint survey emails
 
 To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint. Use cases include:
 
@@ -31,8 +27,8 @@ To ensure that your global employee population receives communications that they
 > [!NOTE]
 > - Multiple language emails: 
 >   - are for survey communications only and aren’t supported for Team Conversations emails.
->   - don’t currently support multiple paragraphs/paragraph breaks.
 >   - don't currently support right to left languages.
+>   - aren't currently editable with the [export/import email content feature](language-translations.md) and translations must be added directly in email fields in the platform.
 
 ## How multiple language emails work
 
@@ -82,9 +78,6 @@ To enable multiple language sections in emails for survey participants:
 3. Select **Save Changes** in the top right of the **Communications** page.
 
    :::image type="content" source="../../media/glint/setup/email-settings-multi-lang.png" alt-text="Screenshot of the multiple language email setting in the Communications section of survey setup.":::
-
-> [!IMPORTANT]
-> Multi-language emails don’t currently support multiple paragraphs/paragraph breaks.
    
 ## Configure dual language emails
 

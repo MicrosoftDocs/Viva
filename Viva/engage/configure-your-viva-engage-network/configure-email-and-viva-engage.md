@@ -26,7 +26,7 @@ Viva Engage connects to email in several ways: Viva Engage alerts users to new a
   
 - Email admins are responsible for setting up email correctly.
 
-- Viva Engage admins can customize the logo in email messages Viva Engage sends, and can require verification before users can post to Viva Engage by email.
+- Viva Engage administrators customize the logo in email messages that Viva Engage sends, and can require verification before users can post to Viva Engage by email.
 
 - Users can choose the types of notifications they receive.
 
