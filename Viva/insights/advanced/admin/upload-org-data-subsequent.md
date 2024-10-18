@@ -225,7 +225,7 @@ After you’ve mapped attributes, the app starts validating your data.
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
-After this phase completes, validation has either succeeded or failed. <!--Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.-->
+After this phase completes, validation has either succeeded or failed.
 
 For information about what happens next, go to the appropriate section:
 

@@ -32,7 +32,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |---------|--------|--------------------|----------------------|
 |Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](metrics.md) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metrics.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
-<!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](metrics.md#influence-define) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -42,7 +41,6 @@ The following defines the organizational data shown in the visual behavioral ins
 |---------|--------|----------------------|
 |Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by their weekly [external collaboration hours](metrics.md#external-collaboration-define). They are divided into groups of employees who spend zero to four0-4 hours, 4-8four to eight hours, and more than eight8+ hours collaborating externally with people outside the company. These percentages are calculated weekly and averaged over the entire time period. |
 |Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](metrics.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
-<!--|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](glossary.md#ona-define) represents the distribution of current managers and potential managers as compared with the other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. This graph uses the [influence metric](metrics.md#influence-define). |-->
 
 ## Take action
 
@@ -56,7 +54,6 @@ This section describes why each of the following behaviors matter and the top be
 
 * [Optimize time with customers](#optimize-time-with-customers)
 * [Promote coaching and development](#promote-coaching-and-development)
-<!--* [Strengthen internal networks](#strengthen-internal-networks)-->
 
 ### Optimize time with customers
 
