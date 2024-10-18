@@ -1,5 +1,5 @@
 ---
-ms.date: 08/08/2024
+ms.date: 10/17/2024
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
 author: zachminers
@@ -42,7 +42,7 @@ For more information on licensing and user configuration, refer to [Configure pe
 
 ## Assign licenses
 
-After you've identified the population in scope, you as the Microsoft 365 global admin assign Viva Insights licenses to users in that population.
+After you've identified the population in scope, the license admin or user admin assign Viva Insights licenses to users in that population.
 
 >[!Note]
 >A minimum of 10 licenses is required to be assigned in order for data processing to kick off. Data processing takes an estimated 3-5 days from license assignment.
