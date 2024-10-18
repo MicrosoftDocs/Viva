@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 5/14/2024
+ms.date: 10/25/2024
 title: Employee Retention Playbook for Viva Insights and Glint
 description: Introduction to the playbook on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint.
 author: zachminers
@@ -30,7 +30,7 @@ With this playbook, you can:
 
 ### Business context
 
-The most valuable asset of a company is its people. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
+The most valuable asset of a company is its people. Because hiring is costly and many hiring decisions tend to be incorrect,[^1] [^2] retaining outstanding employees is critical to business success.  
 
 Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and identify groups with higher attrition risk.
 

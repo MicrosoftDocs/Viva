@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 5/14/2024
+ms.date: 10/25/2024
 title: What is an employee retention model?
 description: Provides an overview of an employee retention model including terminology like attrition and turnover model.
 author: zachminers
@@ -23,7 +23,7 @@ These are HR metrics that measure employee movement within an organization:
 
 - Employee retention is the ability of an organization to keep its employees.
 - Employee attrition or churn is the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
-- Employee turnover measures all terminations, which includes positions that are refilled. We'll use attrition as a synonym for turnover.
+- Employee turnover measures all terminations, which includes positions that are refilled. Attrition can be considered a subset of turnover, since turnover includes all types of employee departures and replacements.
 
 The concepts are closely related. In this playbook, we'll focus on a specific subset of employee attrition: voluntary. But the general principles and approach can be used for similar scenarios.
 

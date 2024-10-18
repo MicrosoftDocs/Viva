@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 5/14/2024
+ms.date: 10/25/2024
 title: How to build an employee retention model
 description: Explains the process for building an employee retention model using R and Python.
 author: zachminers
@@ -225,8 +225,6 @@ This is assigned to four data frames:
 - `y_test` - outcome, test set 
 
 
-
-
 *R:*
 
 ```R
@@ -291,7 +289,7 @@ rf
 
 ```
 
-We can use AUC (area under the curve) as the evaluation metric. Since we're classifying whether the person leaves the organization, it falls under the category of binary classification. AUC is a good way to evaluate for binary classification.
+AUC (area under the curve) can serve as our evaluation metric, assessing how well a binary classification model differentiates between positive and negative categories. Given that we're predicting whether an individual will leave the organisation, it qualifies as a binary classification problem. AUC is an effective method for evaluating such scenarios.
 
 *Python:*
 
