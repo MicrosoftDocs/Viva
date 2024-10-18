@@ -62,7 +62,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 1. Select **Permissions.**
    
-:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox=../../media/glint/setup/user-roles-permissions.png":::
+:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-permissions.png":::
 
 2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
 
