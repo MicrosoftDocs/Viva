@@ -91,10 +91,10 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
- >[!IMPORTANT]
- >
- > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
- > - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
+   >[!IMPORTANT]
+   >
+   > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
+   > - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
 
 2. If everything is as expected, select **Confirm.**
 
