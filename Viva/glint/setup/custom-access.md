@@ -110,9 +110,9 @@ After exporting and preparing a file, go to Advanced Configuration to upload use
    :::image type="content" source="../../media/glint/setup/adv-config-uploads.png" alt-text="Screenshot of the Advanced Configuration Uploads feature.":::
 
 7. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
-8. in the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your file.
+8. In the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your file.
 9. Select **Apply Upload to Database** to upload new values.
 10. In the **Load import file into database?** dialog, select Yes.
-11. Got to some users' profiles to confirm that customized access appears as expected.
+11. Go to some users' profiles to confirm that customized access appears as expected.
    1. Select the **Configuration** symbol, then in **Employees**, choose **People**.
    2. Search for and select users to spot check.
