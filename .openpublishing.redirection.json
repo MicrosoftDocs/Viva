@@ -2182,6 +2182,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "viva/glint/setup/manager-access-issues.md",
+    "redirect_url": "/viva/troubleshoot/glint/access/manager-access-issues",
+    "redirect_document_id": false
+  },  
+  {
     "source_path": "viva/connections/use-the-link-card.md",
     "redirect_url": "/viva/connections/create-dashboard#add-a-web-link-card",
     "redirect_document_id": true

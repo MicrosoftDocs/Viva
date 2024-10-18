@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: measure culture, culture survey questions, culture survey items, cultural transformation
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,24 +14,22 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 6/06/2024
+ms.date: 10/17/2024
 ---
 
 # Use the Viva Glint Culture Survey template
 
-Recognizing that most executives and leaders realize the importance and impact of culture on business outcomes, Glint offers a Culture Survey template as part of its library of recurring engagement surveys. The Glint Culture Survey measures the facets of culture Viva People Science knows to be important predictors of business performance and engagement. The Culture Survey is available in all languages supported by Glint.
+A Culture Survey program is designed to assess and measure the beliefs, values, norms, and overall work culture of an organization. It helps companies understand the attitudes and perceptions of their employees, identify areas for improvement, and align the culture with the company’s strategic goals. It can foster a positive work environment, enhance employee satisfaction and retention, and ultimately contribute to the organization’s success. Culture is driven by mindsets, values, and shared beliefs. Culture influences how decisions are made and how people behave. It shapes experiences and determines how work gets done.
 
-## How Viva Glint defines culture and why culture is important
+Glint offers a Culture Survey template as part of its library of recurring engagement surveys. The Glint Culture Survey measures the facets of culture Viva People Science knows to be important predictors of business performance and engagement. The Culture Survey is available in all languages supported by Glint.
 
-Glint research backs the fact that culture is driven by mindsets, values and shared beliefs. These components influence how decisions get made, how people behave, shape our experiences, and determine how work gets done.
+## How does Glint measure culture?
 
-## How does Viva Glint measure culture?
-
-Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. By rating various group behaviors, rather than asking individuals what they think or how they feel, the survey items are also more actionable.
+Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. By rating various group behaviors, rather than asking individuals what they think or how they feel, the survey items are more actionable.
 
 ## Key outcomes and goals of a culture survey program
 
-A cultural measure is intended to help leaders check on the alignment of their intended culture against the actual culture experienced by employees. The survey informs priorities and actions that require attention at the organizational level. The Viva Glint Culture Survey answers whether your company has the culture needed to be successful in the future. 
+A cultural measure helps leaders check on the alignment of their intended culture against the actual culture experienced by employees. The survey informs priorities and actions that require attention at the organizational level. The Viva Glint Culture Survey answers whether your company has the culture needed to be successful in the future. 
 
 ## What kind of organization is the Culture Survey intended for?
 
