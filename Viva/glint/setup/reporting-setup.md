@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/19/2024
+ms.date: 10/18/2024
 ---
 
 # Reporting setup in Program Summary
@@ -38,14 +38,14 @@ As an admin, make these choices:
 |**Reporting view**| Whether the manager is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access)|
 |**Concierge Visibility**|Whether the manager sees the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard|
 |**Broader Team Insights**|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights)
-|**Team Conversations**|Managers with this enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
+|**Team Conversations**|Managers with this feature enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
 |**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available when not using Team Summary.<br><br> **Important:** Company Admin roles must be granted access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
 |**Export Comments**|The default **ON** setting allow managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
 |**Report Template Access**|The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview).
 
 ## Add User Roles to view feedback 
 
-To add User Roles to a program for the purpose of viewing feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](/viva/glint/setup/set-up-user-roles)). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
+To add User Roles to a program to view feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](/viva/glint/setup/set-up-user-roles)). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
 
 :::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing." lightbox="../../media/glint/setup/reporting-add-role.png":::
 
@@ -70,7 +70,7 @@ There are six fields to set up.
 
 ### Aggregate Indices
 
-For most surveys, using aggregate indices is not recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+For most surveys, using aggregate indices isn't recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
 
 If adding an Aggregate Index:
 
@@ -86,7 +86,7 @@ If adding an Aggregate Index:
    > [!NOTE]
    > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
    
-4. In the **Add Questions** dropdown menu, search and select items to be grouped together. Your questions now appear in **Selected Questions**. 
+4. In the **Add Questions** dropdown menu, select items to be grouped together. Your questions now appear in **Selected Questions**. 
 5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
 6. Select **Save and Add to Program**.
 7. Select **X** to close the slider window.
@@ -114,7 +114,7 @@ The key outcome is added to all roles by default and can't be removed. If change
 
 > "To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
-**Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from the roles that have it enabled.
+**Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from enabled roles.
 
 ### Driver Impact Outcomes
 
