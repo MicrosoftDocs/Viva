@@ -62,15 +62,15 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 1. Select **Permissions.**
    
-:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-permissions.png":::
+   :::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-permissions.png":::
 
 2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
 
-:::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
+   :::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
 
 3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
    
-:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-save-permissions-2.png":::
+   :::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-save-permissions-2.png":::
 
 4. A banner tells you that the new permissions are saved.
 
@@ -79,7 +79,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 1. Navigate to the initial User Roles page and select the **pencil** symbol next to the role name.
 2. Update the role name to specify exactly which manager this role reflects. In our example, it's a manager who can view sensitive comments.
 
-:::image type="content" source="../../media/glint/setup/user-roles-update-role-title-2.png"alt-text="Screenshot of updating a role title in User Roles.":::
+   :::image type="content" source="../../media/glint/setup/user-roles-update-role-title-2.png" alt-text="Screenshot of updating a role title in User Roles.":::
 
 ## Enable User Roles
 
@@ -213,6 +213,6 @@ To change a User Role from ACTIVE to INACTIVE or vice versa, include the users i
 
 ## Grant custom access
  
-Custom access is for users who need to have their default access overridden. This instance happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for (Human Resources Business Partner) HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is for users who need to have their default access overridden. This instance happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for (Human Resources Business Partner) HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see [Advanced Configuration uploads](advanced-config-uploads.md).
 
 
