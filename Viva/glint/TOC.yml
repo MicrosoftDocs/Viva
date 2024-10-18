@@ -281,6 +281,8 @@ items:
                 items:
                   - name: Add items and sections
                     href: setup/add-new-questions.md
+                  - name: Edit questions during a live survey
+                    href: setup/question-edit.md
                   - name: Target survey items
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic
