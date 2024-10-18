@@ -50,10 +50,6 @@ The roles in this table are preconfigured in Glint:
 |**Managers**|Includes permission to see reporting for the employees team. Attribute filters aren't defined.|
 |**Support Users**| [Other Microsoft 365 users](/viva/glint/setup/add-external-user) who have advanced access. |
 
-[Edit roles using this guidance](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles). 
-
-[Create a new User Role](/viva/glint/setup/set-up-user-roles?branch=pr-en-us-8702#modify-predefined-roles).
-
 ## Modify predefined roles
 
 Viva Glint Admins can modify predefined Glint product roles. This capability within the User Roles feature reduces the time required to assign roles and reduces the necessity to create new roles.
@@ -66,7 +62,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 1. Select **Permissions.**
    
-:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles.":::
+:::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox=../../media/glint/setup/user-roles-permissions.png":::
 
 2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
 
@@ -74,7 +70,7 @@ Access User Roles from your admin dashboard. Your User Role list may look someth
 
 3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
    
-:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
+:::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-save-permissions-2.png":::
 
 4. A banner tells you that the new permissions are saved.
 
