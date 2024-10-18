@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/24/2024
+ms.date: 10/18/2024
 ---
 
 # Viva Glint survey access methods
@@ -47,15 +47,10 @@ Use this guidance to enable survey invite links that require authentication with
 3. In the **All Settings** menu, select **Engage Survey Details**.
 4. Switch the **Require Azure AD for links in survey emails** setting to **Yes**.
 5. Select **Save Changes** in the top right of the **General Settings** page.
-
-### Grant all users access to My Surveys:
-
-1. Select the **Configuration** symbol, then in **Employees** , choose **User Roles**.
-2. Select **+ New Role** and give your new User Role name in the top left. For example: Entra Survey Access Users.
-3. In **Permissions**, select the **View My Surveys** checkbox, then in the top right of the **Permissions and Access** page, select **Save Changes**.
-4. In the **All Members** section of the role, select **Add/Edit Employees** and then choose **Attribute Rules.**
-5. In the setup pane, select the **I want to include all active employees only** option and select **Save Changes.**
-   1. To enable the **Save Changes** selection, make a small edit and undo. For example, select the **Include Inactive Employees** checkbox and then unselect.
+6. Select the **Configuration** symbol, then in **Employees**, choose **User Roles**.
+7. Select **Active Employees** and on the **Role Settings** page, choose **Permissions**.
+8. To grant access to the **My Surveys** tab for all active users, select the **View My Surveys** permission.
+9. Select **Save Changes** at the top of the page.
 
 ## Personalized survey link
 
