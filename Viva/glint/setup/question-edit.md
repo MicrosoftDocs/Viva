@@ -44,7 +44,7 @@ Preview your changes before launching and follow these practices:
 
 ## Item edit access
 
-There are two acceess points:
+There are two access points:
 -	From the **Question Library** on your admin dashboard (doesn't require survey to go into unapproved state)
 -	From **Survey Programs, Live** 
 
@@ -92,7 +92,7 @@ Review your edits to make sure your employees receive appropriate notice.
 1. Review the **Confirm your changes** window that opens.
 
 >[!IMPORTANT]
-
+>
 > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
 > - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
 
