@@ -27,39 +27,39 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
 1. In the **Reports** tab, choose the survey and then the report to export. You can also navigate to **Saved Reports.**  For the example in this guidance, *Overall Results* is the report to be exported as a PDF.
 
-:::image type="content" source="../../media/glint/reports/export-overall-results.png" alt-text="Screenshot of the Overall Results report access card in Reports." lightbox="../../media/glint/reports/export-overall-results.png":::
+   :::image type="content" source="../../media/glint/reports/export-overall-results.png" alt-text="Screenshot of the Overall Results report access card in Reports." lightbox="../../media/glint/reports/export-overall-results.png":::
 
 2. As needed, filter within the report to export other cycles by selecting the **Add a filter option**. Select the cycle to export. Then **Close Filters.**
 
-In this example, the cycle is changed from July 2020 (the current cycle) to April 2020.
+   In this example, the cycle is changed from July 2020 (the current cycle) to April 2020.
 
-:::image type="content" source="../../media/glint/reports/export-change-cycle.png" alt-text="Screenshot of the dropdown menu to change cycles in a program.":::
+   :::image type="content" source="../../media/glint/reports/export-change-cycle.png" alt-text="Screenshot of the dropdown menu to change cycles in a program.":::
 
 3. Closing the filters allows the report to be shown in its entirety. Now the **Export and Share** dropdown menu is available.
 
-:::image type="content" source="../../media/glint/reports/export-share-button.png" alt-text="Screenshot of the Export and Share button.":::
+   :::image type="content" source="../../media/glint/reports/export-share-button.png" alt-text="Screenshot of the Export and Share button.":::
 
 4. Select **Export Report to PDF**
 
-:::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
+   :::image type="content" source="../../media/glint/reports/export-share.png" alt-text="Screenshot of the Export and Share dropdown menu.":::
 
 5. A dialog box opens providing the opportunity to select which sections to include on your PDF. Only sections granted permission to the User Role display. Select **Generate PDF.**
 
-:::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
+   :::image type="content" source="../../media/glint/setup/customize-generate-pdf.png" alt-text="Screenshot of the Customize PDF sections dialog box.":::
  
-> [!NOTE]
-> Section selection isn't supported for Broader Team Inights (BTI) reports.
+   > [!NOTE]
+   > Section selection isn't supported for Broader Team Inights (BTI) reports.
 
 6.	A preview PDF opens in a new tab. This update displays while it’s generating:
 
-:::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
+   :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
 7.	Now, choose **Export or Print** to open a new dialogue box displaying report choices.
 
->[!NOTE]
-> This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
+   > [!NOTE]
+   > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
 
-:::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
+   :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
 ## Remove a report section before export
 
@@ -78,7 +78,7 @@ To disable a section:
 1.	Select the **More** button.
 2.	If the Comments report (or any specific report) isn't part of your current reporting view, from the dropdown menu, choose **+ Add section.**
 
-:::image type="content" source="../../media/glint/reports/export-remove-section.png" alt-text="Screenshot of the Remove section button in Reports.":::
+   :::image type="content" source="../../media/glint/reports/export-remove-section.png" alt-text="Screenshot of the Remove section button in Reports.":::
 
 3.	Choose **All Comments** or whichever reporting section you choose to add. An onscreen banner notifies you that the section is added.
 4.	Choose whether you want to include all verbatim comments in your PDF download. Choose either:
@@ -90,8 +90,8 @@ To disable a section:
       -  Purpose: They aim to illustrate common sentiments or trends among the respondents
 5. The **Translation** option is available here for you to use. [Follow guidance for language translations](/viva/glint/setup/language-translations).
 
-:::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
+   :::image type="content" source="../../media/glint/reports/export-comments.png" alt-text="Screenshot of the Translate button in Comments exporting." 
 
->[!NOTE]
-> When this window is closed, the default settings reset for the next use.
+  > [!NOTE]
+  > When this window is closed, the default settings reset for the next use.
 
