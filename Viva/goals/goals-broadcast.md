@@ -51,19 +51,19 @@ You can customize the email notifications and audience for every update you post
 
     ![Screenshot that highlights the Edit icon underneath the goal list leading up to the posting of an update.](..\media\goals\goals-broadcast\broadcast-edit-icon.png)
 
-    Search for users, groups, or Viva Goals teams that are a part of your organization, then select (or deselect) the checkboxes next to the names of the ones you want (or don't want) to receive notifications. <!--Editor's Note: Not a fan of this. Want to make sure it lines up with the actual UI. Can I get a walkthrough?-->
+    Search for users, groups, or Viva Goals teams that are a part of your organization, then select (or deselect) the checkboxes next to the names of the ones you want (or don't want) to receive notifications.
 
     ![Screenshot that shows a user searching for and adding Megan Bowen to the list of approved notification receivers.](..\media\goals\goals-broadcast\search-for-users.png)
 
     > [!NOTE]
     > Email notifications might not be sent to users who were added to the Viva Goals team via the admin dashboard less than 2 hours before the sending of the update.
 
-- To disable notifications for your update, select the button to the left of **Post**. <!--Editor's Note: Same here. This should be consistent with both UI and style guidelines; we generally don't like using words like "button" or defining things directionally independent of what they actually are.-->
+- To disable notifications for your update, select the button to the left of **Post**.
 
     ![Screenshot that highlights the icon that can be used to disable notifications leading up to the posting of an update.](..\media\goals\goals-broadcast\disable-email-notifications.png)
 
 ## Edit or delete an update
 
-You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it. <!--Editor's Note: The notifications and emails are not removed, but trying to access the post from those emails or notifications will go nowhere.-->
+You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it.
 
 ![Screenshot that shows the Edit and Delete options under the Share menu for an update that has already been posted.](..\media\goals\goals-broadcast\edit-delete.png)
