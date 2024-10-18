@@ -52,14 +52,14 @@ In 360 feedback reports, the PDF export experience is a valuable and primary way
 
 6.	A preview PDF opens in a new tab. This update displays while it’s generating:
 
-   :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
+    :::image type="content" source="../../media/glint/reports/export-generating.png" alt-text="Screenshot of the Generating Report popup which displays while a PDF generates.":::
 
 7.	Now, choose **Export or Print** to open a new dialog box displaying report choices.
 
-   > [!NOTE]
-   > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
+    > [!NOTE]
+    > This choice brings up the appropriate dialog box for the browser you are using. Choose whether to **Save as a PDF** or to **Print** the file. Report enhancements may include printing, searching, and highlighting if your PDF tool permits. Any filters applied display
 
-   :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
+    :::image type="content" source="../../media/glint/reports/export-print.png" alt-text="Screenshot of the Export or Print button.":::
 
 ## Remove a report section before export
 
