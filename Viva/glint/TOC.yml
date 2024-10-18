@@ -174,6 +174,8 @@ items:
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
+            - name: Custom data access export
+              href: setup/custom-access.md
       - name: Question Library
         href: setup/question-library.md
         items:
@@ -281,6 +283,8 @@ items:
                 items:
                   - name: Add items and sections
                     href: setup/add-new-questions.md
+                  - name: Edit questions during a live survey
+                    href: setup/question-edit.md
                   - name: Target survey items
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic

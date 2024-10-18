@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: permissions, bulk imports, user role imports, custom access, status change, active, inactive 
+keywords: permissions, bulk imports, user role imports, custom access, status change, active employee, inactive employee, customize roles, modify roles 
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,39 +14,72 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 10/18/2024
 ---
 
 # Set up Viva Glint User Roles
 
-Admins can assign multiple roles with specific permissions - access to different segments of data and filters - in **User Roles**. 
+Admins assign multiple roles with specific permissions - access to different segments of data reporting and filters - in **User Roles**. 
 
 :::image type="content" source="../../media/glint/setup/user-roles-access.png" alt-text="Screenshot that shows how to access User Roles from the admin dashboard.":::
 
 ## Glint User Role template
 
-Use the template as a planning tool to define permissions for roles, according to these three filter distinctions:
+Use our template as a planning tool to define permissions for roles. There are three filter distinctions:
 
 - **Report filters**: Attributes the role can use to filter results
-- **Report sections**: Attributes the role can use to add sections in reports
+- **Report sections**: Attributes the role can use to see more sections in reports
 - **Comment filters**: Attributes the role can use as filters to review comments
 
 The [**User Roles and Access template**](https://www.microsoft.com/download/details.aspx?id=105793) includes prepopulated example roles and instructions for defining permissions. 
 
-**Not all User Roles and prepopulated attributes and permissions in the template may apply to your organization. Use your Employee Attribute File for attributes specific to your organization to customize your template.**
+**Not all User Roles and prepopulated attributes and permissions in the Glint template may apply to your organization. To customize your template,use your Employee Attribute File labels (column headers) for attributes specific to your organization.**
 
 > [!TIP]
-> To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute increases the chance that a manager can deduce the origin of individual responses.
+> To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute increases the chance that a manager can deduce the origin of individual survey responses.
 
-## Default User Roles
+## Preconfigured User Roles
 
-The following roles are preconfigured in Glint and can't be edited. Create a new User Role with a new name if you want to edit these attributes and permissions.
+The roles in this table are preconfigured in Glint: 
 
-- **Company Admin**: Employees who are granted **ALL** permission; can't be edited. Includes Advanced Configuration access.
-- **Active Employees**: Not intended to have data access.
-- **Inactive Employees**: Not intended to have data access.
-- **Managers**: Doesn't allow edits, create a different manager role to change permissions and attributes
-- **Support Users**: [External users](https://go.microsoft.com/fwlink/?linkid=2240483) who have advanced access; can't be edited. 
+|**Role title**|**Data reporting permission level**|
+|---------|----------|
+|**Company Admin**| Employees who are granted **ALL** permission. Includes Advanced Configuration access.|
+|**Active Employees**|  Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
+|**Inactive Employees**| Membership in this role is automatically based on the employee's status in Glint. This role isn't intended to grant data access.|
+|**Managers**|Includes permission to see reporting for the employees team. Attribute filters aren't defined.|
+|**Support Users**| [Other Microsoft 365 users](/viva/glint/setup/add-external-user) who have advanced access. |
+
+## Modify predefined roles
+
+Viva Glint Admins can modify predefined Glint product roles. This capability within the User Roles feature reduces the time required to assign roles and reduces the necessity to create new roles.
+
+Access User Roles from your admin dashboard. Your User Role list may look something like this example:
+
+:::image type="content" source="../../media/glint/setup/user-roles-preconfig.png"alt-text="Screenshot of preconfigured User Roles.":::
+
+**As an example, let's grant the Managers role a new permission in Survey Programs:**
+
+1. Select **Permissions.**
+   
+   :::image type="content" source="../../media/glint/setup/user-roles-permissions.png"alt-text="Screenshot of accessing Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-permissions.png":::
+
+2. View what permissions they have, and now let's add **Manage Survey Programs** with the ability to **Manage Sensitive Comments**.
+
+   :::image type="content" source="../../media/glint/setup/user-roles-add-permissions-2.png"alt-text="Screenshot of adding Permissions in User Roles."lightbox="../../media/glint/setup/user-roles-add-permissions-2.png":::
+
+3. Select **Save Changes** and then **Save Permissions** in the Confirm your changes to Permissions dialog box.
+   
+   :::image type="content" source="../../media/glint/setup/user-roles-save-permissions-2.png"alt-text="Screenshot of the Save Permissions dialog box."lightbox="../../media/glint/setup/user-roles-save-permissions-2.png":::
+
+4. A banner tells you that the new permissions are saved.
+
+### Update the name of the modified role 
+
+1. Navigate to the initial User Roles page and select the **pencil** symbol next to the role name.
+2. Update the role name to specify exactly which manager this role reflects. In our example, it's a manager who can view sensitive comments.
+
+   :::image type="content" source="../../media/glint/setup/user-roles-update-role-title-2.png" alt-text="Screenshot of updating a role title in User Roles.":::
 
 ## Enable User Roles
 
@@ -118,7 +151,7 @@ Add members to a User Role by choosing from these options:
 > - Switching from **Attribute Rules** to **Import** removes attribute rules.
 > - Switching from **Import** to **Attribute Rules** overrides any employees uploaded.
    
-### Attribute rule-based User Roles
+## Attribute rule-based User Roles
 
 :::image type="content" source="../../media/glint/setup/user-roles-attribute-slider.png" alt-text="Screenshot of the **Add Attribute Rules** section in Role Settings.":::
 
@@ -146,7 +179,7 @@ When you need to assign many individuals to a specific User Role, use the bulk i
 1. From your admin dashboard, choose the **Configure** symbol and then select **User Roles**.
 2. On the **Role Settings** page, select **Export.** In the window that opens, make your selections and select **Export**.
 3. Open the downloaded CSV file and delete all columns except the column with email addresses.
-4. Add or delete email addresses, as needed. This can be a full replacement for the existing file, so you won't need to have an *Add* or *Remove* column.
+4. Add or delete email addresses, as needed. This edit can be a full replacement for the existing file so you don't need an *Add* or *Remove* column.
 5. Save your file.
 1. Return to the **Role Settings** page and select **Import**.
 1. Select the checkbox to indicate if you only added users.
@@ -180,6 +213,6 @@ To change a User Role from ACTIVE to INACTIVE or vice versa, include the users i
 
 ## Grant custom access
  
-Custom access is intended for users who need to have their default access overridden or are in a role that is so specific, it needs to be *per user* rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is for users who need to have their default access overridden. This instance happens when a role is so specific that it needs to be *per user,* rather than at the User Role level. For example, use custom access for (Human Resources Business Partner) HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see [Advanced Configuration uploads](advanced-config-uploads.md).
 
 
