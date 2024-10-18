@@ -1,5 +1,5 @@
 ---
-ms.date: 10/07/2024
+ms.date: 10/16/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -206,7 +206,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 |  Summarize presentation actions taken using Copilot in PowerPoint  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
 | Meeting hours summarized by Copilot in Teams | The number of hours of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 12/18/2023 |
 | Compose chat message actions taken using Copilot in Teams | The number of chat and channel message drafts created in Teams using Copilot. | 10/15/2023 |
-| Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
+| Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
 |  Generate email draft actions taken using Copilot in Outlook | The number of times users generated email drafts using Copilot. | 11/15/2023 |
 |  Email coaching actions taken using Copilot  | The number of times users selected coaching by Copilot in Outlook. | 11/15/2023 |
 | Total emails sent using Copilot in Outlook | The number of emails sent with assistance from Copilot. | 11/15/2023  |
@@ -216,7 +216,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
 | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook. | 10/15/2023 |
 | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint. | 10/15/2023 |
-| Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams. | 10/15/2023 |
+| Copilot actions taken in Teams  | The number of Coplot actions completed by active Copilot users in Teams. This number includes the number of times users reviewed Intelligent recaps in Teams. | 10/15/2023 |
 | Copilot actions taken in Word  |  The number of Copilot actions completed by active Copilot users in Word.| 10/15/2023 |
 |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
 | Days of active Copilot usage in Excel | The number of days the user was actively using Copilot in Excel.  | 10/15/2023 |
@@ -226,12 +226,12 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
 |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
 | Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
-|  Days of active Business Chat (work) usage  |  The number of days the user was actively using Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
-| Business Chat (work) prompts submitted | The number of queries submitted by users in Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
+|  Days of active Business Chat (work) usage  |  The number of days the user was actively using Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
+| Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). | 10/15/2023 |
 | Copilot assisted hours | The estimated number of hours users were assisted by using Copilot. [Learn more about this metric calculation](../../org-team-insights/copilot-dashboard.md#details-on-the-copilot-assisted-hours-metric).  | 10/15/2023 |
 | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
 | Total Copilot enabled days  | The number of days the user had at least one service plan for Copilot enabled. | 10/15/2023 |
-| Business Chat (work) enabled days |  The number of days the user had Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat) enabled. | 10/15/2023 |
+| Business Chat (work) enabled days |  The number of days the user had Business Chat (work), formerly called Copilot Chat (work), enabled. | 10/15/2023 |
 | Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Microsoft 365 Copilot enabled. | 10/15/2023 |
 | Copilot enabled days for Productivity App  | The number of days the user had Microsoft 365 Copilot enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
 | Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Microsoft 365 Copilot enabled.  | 10/15/2023 |

@@ -1,5 +1,5 @@
 ---
-ms.date: 09/16/2024
+ms.date: 10/11/2024
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -9,6 +9,7 @@ ms.collection:
 - viva-insights-leader
 - highpri
 - essentials-overview
+- essentials-navigation
 ms.service: viva-insights
 search.appverid: 
 - MET150 

@@ -1,5 +1,5 @@
 ---
-ms.date: 04/05/2023
+ms.date: 10/17/2024
 title: Viva Insights setup overview
 description: Get an overview of Viva Insights setup tasks
 author: zachminers
@@ -26,7 +26,7 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 >[!div class="checklist"]
 >
->* Assign Viva Suite/Insights licenses (Exchange admin)
+>* Assign Viva Suite/Insights licenses (Privileged Role Administrator, License admin, or user admin)
 >* Assign admin and analyst roles (Privileged Role Administrator)
 >* Assign manager and leader permissions (Insights Administrator)
 >* Optional – Manage Viva Insights app defaults (Microsoft 365 admin)
