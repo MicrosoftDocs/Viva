@@ -24,6 +24,10 @@ Use the video resources below to help you get started. Each link points to a ded
 
 [Customize privacy settings](../advanced/setup-maint/privacy-settings.md)
 
+## Courses for analysts - Power BI templates
+
+[Introduction to Power BI templates](../advanced/analyst/templates/introduction-to-templates.md)
+
 ## Courses for analysts - Overview and queries
 
 [Introduction to advanced insights and the analyst workbench](../advanced/introduction-to-advanced-insights.md#navigation)
@@ -41,10 +45,6 @@ Use the video resources below to help you get started. Each link points to a ded
 [Customize your metrics](../advanced/analyst/custom-metrics.md#how-to-customize-a-metric)
 
 [Access your query results](../advanced/analyst/query-results.md#to-use-the-query-results-page)
-
-## Courses for analysts - Power BI templates
-
-[Introduction to Power BI templates](../advanced/analyst/templates/introduction-to-templates.md)
 
 ## Courses for analysts - Organizational network analysis
 
