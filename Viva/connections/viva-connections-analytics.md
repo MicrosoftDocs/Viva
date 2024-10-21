@@ -33,7 +33,8 @@ Understand how and when users engage with components of the Connections experien
 >
 > - Member level permissions (or higher) are required to view usage analytics for Connections.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license to create two or more experiences (up to 50). For more information, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing).
+> - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
+> - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing]( https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using PowerShell commands. For more information, see [how to disable analytics features](#how-to-to-disable-analytics-features).
 > - The analytics feature is unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of platform features](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#platform-features).
 

@@ -31,9 +31,9 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 
 > [!NOTE]
 >
-> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
+> - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
+> - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing]( https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a Microsoft 365 subscription (E or F license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
