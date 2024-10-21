@@ -48,7 +48,7 @@ All three actions share the same two first steps:
 
 1.	Select either the **Start** button on the **Data hub** tab or the **Edit or start new upload** button on the **Data connections** tab.
 
-   :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
+     :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
 
 2.	The resulting page lists three options:
     * **Add or edit data**
@@ -257,7 +257,7 @@ After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
 
-:::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results." lightbox="../images/admin-upload-results.png":::
+   :::image type="content" source="../images/admin-upload-results.png" alt-text="Screenshot that shows validation results." lightbox="../images/admin-upload-results.png":::
 
 * Select the mapping icon to see the mapping settings for the workflow.
 
