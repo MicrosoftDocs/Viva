@@ -232,12 +232,11 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
         * From 04/01/2024 to 04/14/2024, BoSmith@contoso.com is used to fetch EntraID “A”
         * From 04/14/2024, BoJames@contoso.com is used to fetch EntraID “A”
 
-[Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
+         [Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
 
 ### Option 2: Select date
 
 *Applies if: Your data source doesn’t track email address changes. The email address on the selected date is used for all past dates.*
-
 
 1.	Select today’s date if you exported data from it recently.
 2.	Otherwise, select an older date.
