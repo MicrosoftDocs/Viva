@@ -40,7 +40,7 @@ After you prepare the source data, the uploading process follows these steps, wh
 1. The app validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. The app processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
 
-After the data successfully validates and processes, the overall data-upload task is complete.
+   After the data successfully validates and processes, the overall data-upload task is complete.
 
 ## To update, replace, or delete data
 
@@ -48,7 +48,7 @@ All three actions share the same two first steps:
 
 1.	Select either the **Start** button on the **Data hub** tab or the **Edit or start new upload** button on the **Data connections** tab.
 
-:::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
+   :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
 
 2.	The resulting page lists three options:
     * **Add or edit data**
@@ -75,7 +75,7 @@ All three actions share the same two first steps:
 
 * Under **Upload file**, select the file you want to upload, then select **Next**.
 
-Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
+  Now you're ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
 
 ##### Example: adding a new data column
 
@@ -136,19 +136,19 @@ Finally, if you don’t remember the previous values of the EffectiveDate field,
     1. Enter an **Upload name**.
     1. Under **Upload file**, select the .csv file you want to upload. 
 
-    Make sure that the .csv file is:
+       Make sure that the .csv file is:
 
-    * UTF-8 encoded
-    * Not open in a different program when you begin the upload process
-    * Not larger than 1 GB
-    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows the Prepare and upload window.":::
+       * UTF-8 encoded
+       * Not open in a different program when you begin the upload process
+       * Not larger than 1 GB
+       :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows the Prepare and upload window.":::
 
-    >[!Note]
-    >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
+       >[!Note]
+       >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
 
     3. Upload your file by selecting **Next**. If you need to cancel the upload, select **Cancel**.
 
-Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
+       Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
 
 ### Delete optional fields from existing organizational data
 
@@ -157,7 +157,7 @@ Now you’re ready to map fields. For your next steps, go to [Field mapping](#fi
     1. Identify the attribute you want to delete, then check the corresponding box.
     1. The resulting screen lists which attributes have been deleted. Select **Back** to return to the Data hub.
 
-The delete process is now complete.
+       The delete process is now complete.
 
 >[!Important]
 > The following sections apply to *upload* and *replace* actions only. 
@@ -196,7 +196,7 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
     1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
     2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a.
     
-     :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
+       :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
 
     > [!Tip]
     > Hover over an attribute name to read its description. 
