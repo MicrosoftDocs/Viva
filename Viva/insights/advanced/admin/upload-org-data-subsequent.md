@@ -132,7 +132,7 @@ Finally, if you don’t remember the previous values of the EffectiveDate field,
 
 #### File upload
 
-3. Replace existing data:
+- Replace existing data:
     1. Enter an **Upload name**.
     1. Under **Upload file**, select the .csv file you want to upload. 
 
@@ -152,7 +152,7 @@ Finally, if you don’t remember the previous values of the EffectiveDate field,
 
 ### Delete optional fields from existing organizational data
 
-3. Delete fields:
+- Delete fields:
     1. Name your delete action so you can refer to it later.
     1. Identify the attribute you want to delete, then check the corresponding box.
     1. The resulting screen lists which attributes have been deleted. Select **Back** to return to the Data hub.
