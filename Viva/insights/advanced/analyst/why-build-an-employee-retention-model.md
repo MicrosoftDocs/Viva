@@ -46,7 +46,7 @@ Our proposed model uses historical employee data, performance metrics, engagemen
 
 There are many potential benefits to an organization that uses a retention or attrition model:
 
-1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
+1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9]
 
 2. **Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
 
@@ -81,9 +81,7 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 
 8: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 
-9: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
-
-10: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
+9: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
 
 [^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -93,5 +91,4 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 [^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 [^7]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 [^8]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
-[^9]: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
-[^10]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
+[^9]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
