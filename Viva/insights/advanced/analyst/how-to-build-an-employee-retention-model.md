@@ -363,15 +363,15 @@ false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
 
 roc_auc = auc(false_positive_rate, true_positive_rate)
 
-test_results.append(roc_auc)from matplotlib.legend_handler 
+test_results.append(roc_auc) from matplotlib.legend_handler 
 
 import HandlerLine2D
-line1, = plt.plot(n_estimators, train_results, 'b', label="Train AUC")
-line2, = plt.plot(n_estimators, test_results, 'r', label="Test AUC")
+line1, = plt.plot(n_estimators, train_results, 'b', label='Train AUC')
+line2, = plt.plot(n_estimators, test_results, 'r', label='Test AUC')
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
+plt.ylabel('AUC score')
 
-plt.xlabel(‘n_estimators’)
+plt.xlabel('n_estimators')
 plt.show()
 ```
 
@@ -522,21 +522,42 @@ We can see as the min_samples_split increase, it leads to underfitting of the da
 *Python:*
 
 ```python
+# Define the range for min_samples_leaf
+
 min_samples_leafs = np.linspace(0.1, 0.5, 5, endpoint=True)
+
+# Initialize lists to store results 
+
 train_results = []
 test_results = []
-for min_samples_leaf in min_samples_leafs:
-   rf = RandomForestClassifier(min_samples_leaf=min_samples_leaf)
-   rf.fit(x_train, y_train)   
-   train_pred = rf.predict(x_train)   
-   false_positive_rate, true_positive_rate, thresholds = roc_curve(y_train, train_pred)
-   roc_auc = auc(false_positive_rate, true_positive_rate)
-   train_results.append(roc_auc)   y_pred = rf.predict(x_test)   
-   false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
-   roc_auc = auc(false_positive_rate, true_positive_rate)
-   test_results.append(roc_auc)
 
-from matplotlib.legend_handler import HandlerLine2D
+# Loop over the range of min_samples_leaf 
+
+for min_samples_leaf in min_samples_leafs:
+
+    # Initialize the RandomForestClassifier with the current min_samples_leaf 
+    rf = RandomForestClassifier(min_samples_leaf=int(min_samples_leaf * len(x_train))) 
+
+    # Fit the model 
+    rf.fit(x_train, y_train)   
+
+    # Predict on the training set 
+    train_pred = rf.predict(x_train)   
+
+     # Calculate ROC AUC for the training set
+    false_positive_rate, true_positive_rate, thresholds = roc_curve(y_train, train_pred)
+    roc_auc = auc(false_positive_rate, true_positive_rate)
+    train_results.append(roc_auc)
+
+    # Predict on the test set
+    y_pred = rf.predict(x_test)   
+
+    # Calculate ROC AUC for the test set
+    false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
+    roc_auc = auc(false_positive_rate, true_positive_rate)
+    test_results.append(roc_auc)
+
+# Plot the results
 line1, = plt.plot(min_samples_leafs, train_results, 'b', label="Train AUC")
 line2, = plt.plot(min_samples_leafs, test_results, 'r', label="Test AUC")
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
