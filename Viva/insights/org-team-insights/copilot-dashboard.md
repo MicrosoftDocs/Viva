@@ -1,5 +1,5 @@
 ---
-ms.date: 10/18/2024
+ms.date: 10/22/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -27,7 +27,7 @@ The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize th
 
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level or user level, depending on the licenses your tenant has. [See the table below for more information](#feature-availability-based-on-licenses).
 
-:::image type="content" source="images/copilot-dash-readiness-ga-02.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
+:::image type="content" source="images/copilot-dash-readiness-ga-03.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
 
 >[!Note]
 >The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
@@ -596,3 +596,5 @@ There are two reasons for this:
 ## Related topic
 
 [Manage settings for the Copilot dashboard](../advanced/admin/manage-settings-copilot-dashboard.md)
+
+[Delegate access to the Copilot dashboard](../org-team-insights/delegate-access.md)
