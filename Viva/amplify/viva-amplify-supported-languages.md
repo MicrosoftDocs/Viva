@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Viva Amplify
 ms.reviewer:
-ms.date: 11/28/2023
+ms.date: 10/22/2023
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
