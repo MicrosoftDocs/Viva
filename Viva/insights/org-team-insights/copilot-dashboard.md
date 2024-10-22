@@ -596,3 +596,4 @@ There are two reasons for this:
 ## Related topic
 
 [Manage settings for the Copilot dashboard](../advanced/admin/manage-settings-copilot-dashboard.md)
+[Delegate access to the Copilot dashboard](../org-team-insights/delegate-access.md)
