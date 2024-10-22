@@ -31,7 +31,7 @@ To interpret the model, we can use the `feature_importances` attribute of the ra
 
 *Python:*
 
-```python
+```Python
 # Get feature importances
 feature_importances = pd.DataFrame(rf.feature_importances_, index=X.columns, columns=["importance"]).sort_values(by="importance", ascending=False)
 print(feature_importances)
@@ -39,7 +39,8 @@ print(feature_importances)
 
 *R:*
 
-```# Get feature importances
+```R
+# Get feature importances
 randomForest::importance(rf, type = 2)
 
 ```
