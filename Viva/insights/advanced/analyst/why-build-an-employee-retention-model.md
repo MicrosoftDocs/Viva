@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 10/25/2024
 title: Employee Retention Playbook for Viva Insights and Glint
 description: Introduction to the playbook on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint.
 author: zachminers
@@ -30,7 +30,7 @@ With this playbook, you can:
 
 ### Business context
 
-The most valuable asset of a company is its people. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
+The most valuable asset of a company is its people. Because hiring is costly and many hiring decisions tend to be incorrect,[^1] [^2] retaining outstanding employees is critical to business success.  
 
 Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and identify groups with higher attrition risk.
 
@@ -38,7 +38,7 @@ Losing an employee is costly because employees produce more value for the compan
 
 ### Machine learning
 
-Machine learning can be used to analyze employee data and build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
+Machine learning algorithms can process and analyze employee and HR datasets to develop predictive models capable of forecasting the likelihood of voluntary attrition among employees, based on identified patterns and contributing factors. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
 
 Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
@@ -46,7 +46,7 @@ Our proposed model uses historical employee data, performance metrics, engagemen
 
 There are many potential benefits to an organization that uses a retention or attrition model:
 
-1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
+1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9]
 
 2. **Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
 
@@ -81,9 +81,7 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 
 8: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 
-9: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
-
-10: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
+9: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
 
 [^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -93,5 +91,4 @@ Advance to the next chapter to learn more details about an Employee Retention Mo
 [^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 [^7]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 [^8]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
-[^9]: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
-[^10]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
+[^9]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>

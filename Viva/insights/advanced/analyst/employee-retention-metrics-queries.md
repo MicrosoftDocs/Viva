@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 10/25/2024
 title: What metrics and queries can be accessed in Viva Insights and in Glint?
 description: Provides an overview of the relevant metrics and queries needed to build an employee retention model.
 author: zachminers

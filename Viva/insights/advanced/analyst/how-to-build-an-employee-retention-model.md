@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 10/25/2024
 title: How to build an employee retention model
 description: Explains the process for building an employee retention model using R and Python.
 author: zachminers
@@ -17,13 +17,13 @@ audience: Admin
 
 # How to build an Employee Retention Model using R and Python
 
-We'll use the Random Forest Model for employee retention prediction. Random Forest is a popular and effective machine learning model for predicting employee turnover, since it can handle both categorical and continuous variables, capture non-linear relationships between variables, and provide insights into variable importance.
+In this example, we'll use Random Forest to build our employee retention model. Random Forest is a popular and effective machine learning model for predicting employee turnover, since it can handle both categorical and continuous variables, capture non-linear relationships between variables, and provide insights into variable importance.
 
 ### 1. Read the data
 
 First, read the data from the different data sources into a data frame. A data frame is a tabular data structure that stores the data in rows and columns.
 
-For example, if we have a CSV file named `person_query.csv` downloaded from Viva Insights, we can read it into a data frame using the code below. In both cases of Python and R, we have loaded in the respective 'vivainsights' package, which contains specific functions for analyzing data from Viva Insights. The `import_query` function loads in the csv query and performs some variable cleaning in the process.
+For example, if we have a CSV file named `person_query.csv` downloaded from Viva Insights, we can read it into a data frame using the code below. In both cases of Python and R, we have loaded in the respective 'vivainsights' package, which contains specific functions for analyzing data from Viva Insights. The `import_query` function loads in the csv query and performs variable name cleaning in the process.
 
 *Python:*
 
@@ -43,11 +43,16 @@ train = vi.import_query("input/person_query.csv")
 library(tidyverse)
 library(vivainsights)
 library(randomForest)
+library(caret) # For splitting training and test datasets
+library(pROC)
 
-train <- vivainsights::import_query("input/person_query.csv")
+raw_data <- vivainsights::import_query("input/person_query.csv")
 ```
 
 We can then inspect the data frame using the head, tail, info, and describe methods. These methods help us get a glimpse of the data, its structure, its summary statistics, and its missing values.
+
+> [!NOTE]
+> In R, once a package is loaded with `library(package)`, it's not necessary to prefix the function with the package name when calling it. However, if you want to use a function without loading the entire package, or if there's a naming conflict between functions from different packages, you can use `package::function()` to explicitly call the function. For clarity in this demonstration, we'll use this explicit notation to show which package each function comes from.
 
 ### 2. Clean the data
 
@@ -59,7 +64,7 @@ The next step is to clean the data by handling missing values, outliers, and cat
 
 #### Validating Viva Insights metrics
 
-Missing values are rare in Viva Insights metrics, although there are a few scenarios where there are outliers and anomalous values. For instance:
+Missing values generally do not occur in Viva Insights metrics, although there are a few scenarios where there might be outliers and anomalous values. For instance:
 
   1. Collaboration metrics might be unusually low for some individuals or teams due to personal leave or national public holidays.
   2. Collaboration metrics might be unusually high or skewed for some individuals, as some licenses might have been assigned to non-ordinary mailboxes.
@@ -80,8 +85,8 @@ train = vi.identify_inactiveweeks(train, sd = 1, return_type = "data_cleaned")
 *R:*
 
 ```R
-train <-
-    train %>%
+clean_data <-
+    raw_data %>%
     identify_holidayweeks(sd = 1, return = "cleaned_data") %>%
     identify_inactiveweeks(sd = 1, return = "data_cleaned")
 ```
@@ -96,43 +101,47 @@ There are different ways to handle missing values: delete the rows or columns th
 
 ```python
 # Check for missing data
-NAs = pd.concat([train.isnull().sum()], axis=1, keys=[‘Train’])
+NAs = pd.concat([train.isnull().sum()], axis=1, keys 'Train'])
 
 # Filter data frame to include only columns with at least one missing value
 cols_with_missing = NAs[NAs.sum(axis=1) > 0].index
 
 # Drop rows with missing data
-train = train.dropna()
+train = train.dropna(subset = cols with missing)
 ```
 
 *R:*
 
 ```R
 # Filter data frame to include only columns with at least one missing value
-cols_with_missing <- train %>% select_if(~ any(is.na(.)))
+cols_with_missing <- clean_data %>% select_if(~ any(is.na(.)))
 
-train <-
-  train %>%
-  drop_na() # drop rows with missing values
+clean_data <-
+  clean_data %>%
+  drop_na(cols with missing) # drop rows with missing values
 ```
 
-The following code fills the missing values by mean values. You can also replace it by median values, mode values or a constant value depending on the scenario and the column of the data set.
+As you're preparing the data, check the values in `cols_with_missing` so that you're not dropping the missing values inadvertently. If the data is missing due to non-random reasons (Missing Not At Random, or MNAR), i.e. that is due to a systematic reason, then this might bias the results of the model. In general, only filter out missing data in variables you're confident are Missing Completely At Random (MCAR), since the complete randomness means filtering will not introduce bias into the training dataset.  
+
+For other scenarios, we can choose to handle missing data by imputation. The following code fills the missing values of a given column ('colName') by mean values. You can also replace it by median values, mode values or a constant value depending on the scenario and the column of the data set.
 
 *Python:*
 
 ```python
-train[colName] = train[colName].fillna(train[colName].mean())
+train['colName'] = train['colName'].fillna(train['colName'].mean())
 ```
 
 *R:*
 
 ```R
-train['colName'] <- mean(train['colName'], na.rm = TRUE)
+clean_data $colName[is.na(clean_data $colName)] <- mean(clean_data $colName, na.rm = TRUE)
 ```
 
 #### Creating dummy variables
 
-Categorical variables are by definition not continuous, and they need to be converted into numeric values before feeding in the Random Forest model. One way to do this is to achieve dummy variables for each category, in a process that is known as **one-hot encoding**. One-hot encoding is a way of transforming categorical data into numerical data for machine learning purposes. It creates a new column for each possible category and assigns a value of 1 or 0 to indicate whether the original data belongs to that category or not.
+Depending on the implementation of the random forest algorithm, you will probably need to handle any predictor variables in your model that are categorical. In Python’s **scikit-learn**, the CART algorithm is used and therefore cannot accept categorical variables as-is. The **randomForest** package in R handles this automatically, but can be computationally expensive for high cardinality categorical predictors.  
+
+One way to do this is to achieve dummy variables for each category, in a process that is known as **one-hot encoding**. One-hot encoding is a way of transforming categorical data into numerical data for machine learning purposes. It creates a new column for each possible category and assigns a value of 1 or 0 to indicate whether the original data belongs to that category or not.
 
 *Python:*
 
@@ -144,6 +153,8 @@ for col in list_cat_col:
     for_dummy = train[col]
     train = pd.concat([train, pd.get_dummies(for_dummy, prefix=col)], axis=1)
 ```
+
+Although one-hot encoding isn't necessary when using the **randomForest** R package, the same approach is shown here to demonstrate the logic.  
 
 *R:*
 
@@ -158,8 +169,8 @@ df_with_dum_vars <-
     
     # unique row id is necessary
     # create unique column names for dummy variables
-    df <- data.frame(id = seq(1, length(train[[x]])),
-                     category = paste0(x, "_", train[[x]]))
+    df <- data.frame(id = seq(1, length(clean_data[[x]])),
+                     category = paste0(x, "_", clean_data[[x]]))
     
     df_wide <-
       pivot_wider(
@@ -174,8 +185,10 @@ df_with_dum_vars <-
   }) %>%
   bind_cols()
 
-train <- cbind(train, df_with_dum_vars)
+clean_data <- cbind(clean_data, df_with_dum_vars)
 ```
+> [!NOTE]
+> Despite its simplicity, the one-hot encoding approach can degrade the performance of the random forest model with high cardinality categorical variables, because it will increase the number of features of the model. Alternative solutions are to consider other techniques for encoding (e.g. target encoding, frequency encoding) or clustering the feature so that they have fewer unique values. 
 
 ### 3. Train the model
 
@@ -188,7 +201,7 @@ By splitting the data into training and test sets, we can train the model on the
 > [!NOTE]
 > In addition to splitting the data into training and test sets, it's also common to use techniques such as cross-validation to further evaluate the performance of the model and tune its hyperparameters. These techniques help to ensure that the model is robust and performs well on a variety of data. Cross-validation techniques aren't covered in this Playbook, but there are many resources online on how to take this further.
 
-We can use the scikit-learn library to perform these tasks.
+We can use the **scikit-learn** library to perform these tasks.
 
 For example, if we want to split the data into 70% training and 30% test sets, and then train a random forest model with 100 trees, we can use the following code:
 
@@ -199,21 +212,37 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(train, labels, test_size=0.30)
 ```
 
+In R, the `createDataPartition()` function from **caret** makes it easy to split the data into training and testing datasets. In the following example, the parameters are provided in this order: 1. Data frame containing the predictor variables only; 2. Data frame containing the outcome variable only; and 3. `test_size` controlling the proportion of the dataset to include in the train split.
+
+This is assigned to four data frames: 
+
+- `x_train` - predictors, train set 
+
+- `x_test` - predictors, test set 
+
+- `y_train` - outcome, train set 
+
+- `y_test` - outcome, test set 
+
+
 *R:*
 
 ```R
-library(caret)
+set.seed(123) # Set seed for reproducibility
 
 # Split the data into training and testing sets
-set.seed(123) # for reproducibility
-split <- caret::createDataPartition(y = labels, p = 0.7, list = FALSE)
-x_train <- train[split, ]
-x_test <- train[-split, ]
-y_train <- labels[split]
-y_test <- labels[-split]
+trainIndex <- caret::createDataPartition(
+y = clean_data$HasChurned, # outcome
+p = 0.7, # percentage goes into training
+list = FALSE # do not return result as list
+)
+
+train_df <- clean_data[trainIndex, ]
+test_df <- clean_data[-trainIndex, ]
+
 ```
 
-Lets first fit a random forest with default parameters to get the baseline post, which we'll try to further improve.
+The next step is to fit the random forest model, which we'll use `RandomForestClassifier()` from scikit-learn for Python and `randomForest::randomForest()` for R. In both cases, we'll use the default parameters which come with the functions.
 
 *Python:*
 
@@ -227,9 +256,9 @@ rf.fit(x_train, y_train)
 RandomForestClassifier(
   bootstrap=True,
   class_weight=None,
-  criterion=’gini’,
+  criterion='gini',
   max_depth=None,
-  max_features=’auto’,
+  max_features='auto',
   max_leaf_nodes=None,
   min_impurity_split=1e-07,
   min_samples_leaf=1,
@@ -249,14 +278,18 @@ y_pred = rf.predict(x_test)
 *R:*
 
 ```R
-rf <- randomForest(x = x_train, y = y_train)
+# Build the random forest model
+rf <- randomForest(
+formula = perform_cat ~ .,
+data = train_df,
+importance = TRUE # to allow importance to be calculated afterwards
+)
 
 rf
 
-y_pred <- predict(rf, x_test)
 ```
 
-We can use AUC (area under the curve) as the evaluation metric. Since we're classifying whether the person leaves the organization, it falls under the category of binary classification. AUC is a good way to evaluate for binary classification.
+AUC (area under the curve) can serve as our evaluation metric, assessing how well a binary classification model differentiates between positive and negative categories. Given that we're predicting whether an individual will leave the organisation, it qualifies as a binary classification problem. AUC is an effective method for evaluating such scenarios.
 
 *Python:*
 
@@ -287,13 +320,25 @@ The final step is to tune the parameters of the random forest model to find the 
 
 Some of the hyperparameters of the random forest model are:
 
-- `n_estimators`: The number of trees in the forest.
-- `max_depth`: The maximum depth of each tree.
-- `min_samples_split`: The minimum number of samples required to split a node.
-- `min_samples_leaf`: The minimum number of samples required for a leaf node.
-- `max_features`: The number of features to consider when looking for the best split.
-- `criterion`: The function to measure the quality of a split.
-- `N_estimators`: The number of trees in the forest. A higher number of trees can improve the accuracy of the model, but it also increases the computational complexity and the risk of overfitting. Therefore, we need to find the optimal number of trees that balances the trade-off between performance and efficiency.
+- `Number of trees or estimators`: The number of trees in the forest. A higher number of trees can improve the accuracy of the model, but it also increases the computational complexity and the risk of overfitting. Therefore, we need to find the optimal number of trees that balances the trade-off between performance and efficiency.
+- `Max_depth`: The maximum depth of each tree.
+- `Minimum_samples_split`: The minimum number of samples required to split a node.
+- `Minimum_samples_leaf`: The minimum number of samples required for a leaf node.
+- `Maximum_features`: The number of features to consider when looking for the best split.
+
+Since the implementations of random forest in R and Python have different hyperparameters, you may only find code examples for one language and not the other for some hyperparameters.  
+
+The table below shows which hyperparameters are available for the respective Python and R libraries:
+
+| Hyperparameters | scikit-learn  | randomForest |
+|----|----|----|
+| Number of trees | n_estimators | ntree |
+| Number of variables sampled at each split | / | mtry |
+| Maxiumum depth | max_depth | / |
+| Minimum samples split | min_samples_split | / |
+| Maximum features |   |   |
+
+The availability of these parameters might change depending on the version and the evolution of these libraries.  
 
 We use a parameter search technique to compare different values of n_estimators and select the one that minimizes the error on the validation set.
 
@@ -318,44 +363,71 @@ false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
 
 roc_auc = auc(false_positive_rate, true_positive_rate)
 
-test_results.append(roc_auc)from matplotlib.legend_handler 
+test_results.append(roc_auc) from matplotlib.legend_handler 
 
 import HandlerLine2D
-line1, = plt.plot(n_estimators, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(n_estimators, test_results, ‘r’, label=”Test AUC”)
+line1, = plt.plot(n_estimators, train_results, 'b', label='Train AUC')
+line2, = plt.plot(n_estimators, test_results, 'r', label='Test AUC')
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
+plt.ylabel('AUC score')
 
-plt.xlabel(‘n_estimators’)
+plt.xlabel('n_estimators')
 plt.show()
 ```
 
 *R:*
 
 ```R
-library(randomForest)
-library(pROC)
+# Create function to loop through hyperparameter 
 
-n_estimators <- c(1, 2, 4, 8, 16, 32, 64, 100, 200)
+tune_rf_ntree <- function(ntree){ 
 
-train_results <- c()
-test_results <- c()
+  rf <- randomForest( 
 
-for (estimator in n_estimators) {
-  rf <- randomForest(x = x_train, y = y_train, ntree = estimator, mtry = sqrt(ncol(x_train)))
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
+    formula = perform_cat ~ ., 
+    data = train_df, 
+    ntree = ntree 
+  ) 
 
-plot(n_estimators, train_results, type = "l", col = "blue", xlab = "n_estimators", ylab = "AUC score", ylim = c(0.5, 1))
-lines(n_estimators, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
+  # Predicted probabilities 
+  pred_probs_train <- predict(rf, type = "prob", newdata = train_df)[, 2] 
+  pred_probs_test <- predict(rf, type = "prob", newdata = test_df)[, 2] 
+
+  # Compute ROC curve 
+  roc_obj_train <- pROC::roc(train_df$perform_cat, pred_probs_train) 
+  roc_obj_test <- pROC::roc(test_df$perform_cat, pred_probs_test) 
+
+  # Return results 
+  data.frame( 
+   ntree = ntree, 
+   auc_train = roc_obj_train$auc %>% as.numeric(), 
+   auc_test = roc_obj_test$auc %>% as.numeric() 
+  ) 
+} 
+
+auc_ntrees <- 
+  c(1, 2, 4, 8, 16, 32, 64, 100, 200) %>% 
+  purrr::map(tune_rf_ntree) %>% 
+  bind_rows() 
+
+auc_ntrees 
+
+auc_ntrees %>% 
+
+  ggplot() + 
+
+  geom_line(aes(x = ntree, y = auc_train, colour = "Train"), linewidth = 0.8) + 
+
+  geom_line(aes(x = ntree, y = auc_test, colour = "Test"), linewidth = 0.8) + 
+
+  labs( 
+    title = "Effect of Number of Estimators on AUC Score for Random Forest Model", 
+    y = "AUC Score", 
+    x = "Number of estimators / trees" 
+  ) + 
+
+  scale_colour_manual(values = c("Train" = "red", "Test" = "blue"))
 ```
-
 :::image type="content" source="../images/retention-playbook-01.png" alt-text="Tune n_estimators.":::
 
 In the plot above we can see that as the estimators increase, it leads to overfitting. The gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases. This indicates that the model is becoming increasingly specialized to the training data, and isn't able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
@@ -391,36 +463,13 @@ for max_depth in max_depths:
     test_results.append(roc_auc)
  
     from matplotlib.legend_handler import HandlerLine2D
-    line1, = plt.plot(max_depths, train_results, ‘b’, label=”Train AUC”)
-    line2, = plt.plot(max_depths, test_results, ‘r’, label=”Test AUC”)
+    line1, = plt.plot(max_depths, train_results, 'b', label="Train AUC")
+    line2, = plt.plot(max_depths, test_results, 'r', label="Test AUC")
     plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
     plt.ylabel(‘AUC score’)
 
     plt.xlabel(‘Tree depth’)
     plt.show()
-```
-
-*R:*
-
-```R
-max_depths <- seq(1, 32, 1)
-
-train_results <- c()
-test_results <- c()
-
-for (max_depth in max_depths) {
-  rf <- randomForest(x = x_train, y = y_train, maxdepth = max_depth, ntree = 100, mtry = sqrt(ncol(x_train)))
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(max_depths, train_results, type = "l", col = "blue", xlab = "max_depth", ylab = "AUC score", ylim = c(0.5, 1))
-lines(max_depths, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
 ```
 
 :::image type="content" source="../images/retention-playbook-02.png" alt-text="Tune tree depth.":::
@@ -455,36 +504,13 @@ for min_samples_split in min_samples_splits:
 
 from matplotlib.legend_handler import HandlerLine2D
 
-line1, = plt.plot(min_samples_splits, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(min_samples_splits, test_results, ‘r’, label=”Test AUC”)
+line1, = plt.plot(min_samples_splits, train_results, 'b', label="Train AUC")
+line2, = plt.plot(min_samples_splits, test_results, 'r', label="Test AUC")
 
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
-plt.xlabel(‘min samples split’)
+plt.ylabel('AUC score')
+plt.xlabel('min samples split')
 plt.show()
-```
-
-*R:*
-
-```R
-min_samples_splits <- seq(0.1, 1.0, length.out = 10)
-
-train_results <- c()
-test_results <- c()
-
-for (min_samples_split in min_samples_splits) {
-  rf <- randomForest(x = x_train, y = y_train, minsplit = min_samples_split)
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(min_samples_splits, train_results, type = "l", col = "blue", xlab = "min samples split", ylab = "AUC score", ylim = c(0.5, 1))
-lines(min_samples_splits, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
 ```
 
 :::image type="content" source="../images/retention-playbook-03.png" alt-text="Tune minsamples split.":::
@@ -496,50 +522,48 @@ We can see as the min_samples_split increase, it leads to underfitting of the da
 *Python:*
 
 ```python
+# Define the range for min_samples_leaf
+
 min_samples_leafs = np.linspace(0.1, 0.5, 5, endpoint=True)
+
+# Initialize lists to store results 
+
 train_results = []
 test_results = []
+
+# Loop over the range of min_samples_leaf 
+
 for min_samples_leaf in min_samples_leafs:
-   rf = RandomForestClassifier(min_samples_leaf=min_samples_leaf)
-   rf.fit(x_train, y_train)   
-   train_pred = rf.predict(x_train)   
-   false_positive_rate, true_positive_rate, thresholds = roc_curve(y_train, train_pred)
-   roc_auc = auc(false_positive_rate, true_positive_rate)
-   train_results.append(roc_auc)   y_pred = rf.predict(x_test)   
-   false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
-   roc_auc = auc(false_positive_rate, true_positive_rate)
-   test_results.append(roc_auc)
 
-from matplotlib.legend_handler import HandlerLine2D
-line1, = plt.plot(min_samples_leafs, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(min_samples_leafs, test_results, ‘r’, label=”Test AUC”)
+    # Initialize the RandomForestClassifier with the current min_samples_leaf 
+    rf = RandomForestClassifier(min_samples_leaf=int(min_samples_leaf * len(x_train))) 
+
+    # Fit the model 
+    rf.fit(x_train, y_train)   
+
+    # Predict on the training set 
+    train_pred = rf.predict(x_train)   
+
+     # Calculate ROC AUC for the training set
+    false_positive_rate, true_positive_rate, thresholds = roc_curve(y_train, train_pred)
+    roc_auc = auc(false_positive_rate, true_positive_rate)
+    train_results.append(roc_auc)
+
+    # Predict on the test set
+    y_pred = rf.predict(x_test)   
+
+    # Calculate ROC AUC for the test set
+    false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
+    roc_auc = auc(false_positive_rate, true_positive_rate)
+    test_results.append(roc_auc)
+
+# Plot the results
+line1, = plt.plot(min_samples_leafs, train_results, 'b', label="Train AUC")
+line2, = plt.plot(min_samples_leafs, test_results, 'r', label="Test AUC")
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
-plt.xlabel(‘min samples leaf’)
+plt.ylabel('AUC score')
+plt.xlabel('min samples leaf')
 plt.show()
-```
-
-*R:*
-
-```R
-min_samples_leafs <- seq(0.1, 0.5, length.out = 5)
-
-train_results <- c()
-test_results <- c()
-
-for (min_samples_leaf in min_samples_leafs) {
-  rf <- randomForest(x = x_train, y = y_train, min.node.size = min_samples_leaf)
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(min_samples_leafs, train_results, type = "l", col = "blue", xlab = "min samples leaf", ylab = "AUC score", ylim = c(0.5, 1))
-lines(min_samples_leafs, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
 ```
 
 :::image type="content" source="../images/retention-playbook-04.png" alt-text="Tune minsamples leaf.":::
