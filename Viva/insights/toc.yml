@@ -78,6 +78,8 @@ items:
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
+        - name: Video learning courses 
+          href: advanced/video-learning-courses.md
         - name: Admin
           items:
           - name: Organizational data overview
