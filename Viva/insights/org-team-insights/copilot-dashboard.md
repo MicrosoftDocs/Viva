@@ -593,7 +593,7 @@ There are two reasons for this:
 
 2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.
 
-## Related topic
+## Related topics
 
 [Manage settings for the Copilot dashboard](../advanced/admin/manage-settings-copilot-dashboard.md)
 
