@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 05/14/2024
 title: Improve model performance
 description: Provides an overview of steps that can be taken to make the employee retention model even more useful.
 author: zachminers
@@ -31,7 +31,7 @@ To interpret the model, we can use the `feature_importances` attribute of the ra
 
 *Python:*
 
-```python
+```Python
 # Get feature importances
 feature_importances = pd.DataFrame(rf.feature_importances_, index=X.columns, columns=["importance"]).sort_values(by="importance", ascending=False)
 print(feature_importances)
@@ -39,10 +39,10 @@ print(feature_importances)
 
 *R:*
 
-```# Get feature importances
-feature_importances <- data.frame(importance = rf$importance, row.names = names(rf$importance))
-feature_importances <- feature_importances[order(feature_importances$importance, decreasing = TRUE), ]
-print(feature_importances)
+```R
+# Get feature importances
+randomForest::importance(rf, type = 2)
+
 ```
 
 This will output something like:
@@ -55,6 +55,10 @@ This will output something like:
 | Collaboration_hours | 0.12 |
 | purpose | 0.08 |
 | education | 0.05 |
+
+
+>[!Note]
+> In `randomForest::importance()`, `type = 2` returns the mean decrease in node impurity, whereas `type = 1` returns the mean decrease in accuracy (permutation-based).
 
 In this example, the most important feature is tenure, followed by salary and Internal_network_size. This means that these are the factors that have the most impact on employee churn, and we should focus on improving them to increase retention.
 
