@@ -389,8 +389,6 @@ items:
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:
-          - name: Make changes to a live survey
-            href: setup/change-live-survey.md
           - name: Reopen or extend a survey cycle
             href: setup/reopen-survey.md
   - name: Support survey participants 
