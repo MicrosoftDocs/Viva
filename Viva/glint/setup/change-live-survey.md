@@ -20,7 +20,7 @@ ms.date: 10/24/2024
 # Make changes to a live Viva Glint survey
 
 > [!IMPORTANT]
-> This feature becomes lives in the Viva Glint platform on November 16, 2024.
+> This feature becomes live in the Viva Glint platform on November 16, 2024.
 
 While some elements of a live survey can be adjusted, only make live edits when necessary.
 
